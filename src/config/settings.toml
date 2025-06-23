@@ -17,7 +17,7 @@ pageHeader = "title"
 
 [directoryData]
 [directoryData.source]
-name = "default"    # default, mock, sheets, json
+name = "files"    # uses markdown files from src/data/directory/
 linksOutbound = false
 
 [directoryData.tagPages]
