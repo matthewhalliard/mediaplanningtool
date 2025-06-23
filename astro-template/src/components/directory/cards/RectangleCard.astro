@@ -1,0 +1,50 @@
+---
+import UiTag from "@components/ui/tags/Tag.astro";
+import DirectoryFeaturedTag from "../FeaturedTag.astro";
+import { Image } from "astro:assets";
+import { getClearbitLogoUrl, getFallbackLogoUrl } from "@util/clearbitLogo";
+
+const { myItem, href } = Astro.props;
+
+// Get Clearbit logo URL if no image is provided
+const clearbitLogoUrl = !myItem.image ? getClearbitLogoUrl(myItem.link) : null;
+const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
+---
+
+<a href={href}
+  class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300">
+  { myItem.featured ? <DirectoryFeaturedTag class="ml-6"  /> : <></> }
+  
+  { myItem.image ? (
+    <Image height={500} width={800} class="w-full h-40 rounded-t object-cover"
+      src={myItem.image} alt={myItem.title} />
+  ) : clearbitLogoUrl ? (
+    <div class="w-full h-40 flex justify-center items-center rounded-t bg-gray-50 dark:bg-gray-700 p-6">
+      <img 
+        src={clearbitLogoUrl} 
+        alt={`${myItem.title} logo`}
+        class="max-h-20 max-w-28 object-contain"
+        onerror={`this.onerror=null; this.src='${fallbackLogoUrl}'; this.className='w-16 h-16 rounded-full object-cover';`}
+        loading="lazy"
+      />
+    </div>
+  ) : (
+    <div class="w-full h-40 px-3 text-center flex justify-center items-center rounded-t font-bold text-xl bg-gray-200 dark:bg-gray-600">
+      {myItem.title }
+    </div>
+  )}
+  
+  <div class="p-8">
+    <h3 class="m-0 text-xl font-semibold dark:text-gray-50 card-title leading-tight">
+      { myItem?.title }
+    </h3>
+    <p class="line-clamp-3 mt-3 text-sm text-gray-600 dark:text-gray-300 card-description leading-relaxed">
+      { myItem.description }
+    </p>
+    <div class="p-0 mt-4 flex flex-wrap gap-2">
+      { myItem.tags?.map(
+        (e: string) => <UiTag tag={e} /> )
+      }
+    </div>
+  </div>
+</a> 

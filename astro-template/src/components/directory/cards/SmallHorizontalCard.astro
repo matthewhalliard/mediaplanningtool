@@ -1,0 +1,51 @@
+---
+import UiTag from "@components/ui/tags/Tag.astro";
+import DirectoryFeaturedTag from "../FeaturedTag.astro";
+import { Image } from "astro:assets";
+import { getClearbitLogoUrl, getFallbackLogoUrl } from "@util/clearbitLogo";
+
+const { myItem, href } = Astro.props;
+
+// Get Clearbit logo URL if no image is provided
+const clearbitLogoUrl = !myItem.image ? getClearbitLogoUrl(myItem.link) : null;
+const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
+---
+
+<a href={href}
+  class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300">
+  { myItem.featured ? <DirectoryFeaturedTag class="ml-6"  /> : <></> }
+  <div class="flex">
+    { myItem.image ? (
+      <Image height={200} width={200} class="w-24 h-24 rounded-l object-cover flex-shrink-0"
+        src={myItem.image} alt={myItem.title} />
+    ) : clearbitLogoUrl ? (
+      <div class="w-24 h-24 flex justify-center items-center rounded-l bg-gray-50 dark:bg-gray-700 p-3 flex-shrink-0">
+        <img 
+          src={clearbitLogoUrl} 
+          alt={`${myItem.title} logo`}
+          class="max-h-16 max-w-16 object-contain"
+          onerror={`this.onerror=null; this.src='${fallbackLogoUrl}'; this.className='w-12 h-12 rounded-full object-cover';`}
+          loading="lazy"
+        />
+      </div>
+    ) : (
+      <div class="w-24 h-24 flex justify-center items-center rounded-l bg-gray-200 dark:bg-gray-600 text-sm font-bold flex-shrink-0">
+        {myItem.title?.substring(0, 2).toUpperCase()}
+      </div>
+    )}
+    
+    <div class="p-4 flex-1">
+      <h3 class="m-0 text-lg font-semibold dark:text-gray-50 card-title">
+        { myItem?.title }
+      </h3>
+      <p class="line-clamp-2 mt-1 text-sm card-description">
+        { myItem.description }
+      </p>
+      <div class="p-0 mt-2 flex flex-wrap gap-1">
+        { myItem.tags?.slice(0, 3).map(
+          (e: string) => <UiTag tag={e} /> )
+        }
+      </div>
+    </div>
+  </div>
+</a>
