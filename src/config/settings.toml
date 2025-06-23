@@ -196,7 +196,7 @@ link = "https://www.mediaplanningtool.com"
 brandText = ""
 
 [header.navbar]
-colorModeSelector = true
+colorModeSelector = false
 
 [[header.navbar.links]]
 name = "Blog"
