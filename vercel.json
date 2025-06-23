@@ -2,10 +2,5 @@
   "buildCommand": "cd astro-template && npm run build",
   "outputDirectory": "astro-template/dist",
   "installCommand": "cd astro-template && npm install",
-  "framework": "astro",
-  "functions": {
-    "astro-template/src/pages/**/*.astro": {
-      "memory": 1024
-    }
-  }
+  "framework": "astro"
 } 
