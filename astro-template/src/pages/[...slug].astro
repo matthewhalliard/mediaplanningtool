@@ -19,7 +19,7 @@ export async function getStaticPaths() {
   return await getRootPages();
 }
 
-const landingView = !slug || slug === "blog";
+const landingView = slug === "blog";
 ---
 
 {

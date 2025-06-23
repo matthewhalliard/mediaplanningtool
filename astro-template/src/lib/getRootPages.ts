@@ -10,19 +10,15 @@ export async function getRootPages(remapIndex: boolean = true) {
   const allListings = await getCollection("directory");
   const allPages = await getCollection("pages");
 
-  // Combine listings and pages
-  const combinedEntries: Array<AllContent> = allListings.concat(allPages as never);
+  // Combine listings and pages, but exclude index since it has its own route
+  const combinedEntries: Array<AllContent> = allListings.concat(
+    allPages.filter((page) => page.id !== "index") as never
+  );
 
   // Return paths based on slugs
   return combinedEntries.map((entry) => {
-    let mySlug: string = entry.id;
-
-    if (mySlug === "index" && remapIndex) {
-      mySlug = "/";
-    }
-
     return {
-      params: { slug: mySlug },
+      params: { slug: entry.id },
       props: { entry },
     };
   });
