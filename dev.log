@@ -1,0 +1,17 @@
+
+> mintedastro@0.0.1 dev
+> astro dev
+
+23:16:08 [types] Generated 1ms
+23:16:09 [content] Syncing content
+23:16:09 [content] Synced content
+23:16:09 [vite] Port 4321 is in use, trying another one...
+23:16:09 [vite] Port 4322 is in use, trying another one...
+23:16:09 [vite] Port 4323 is in use, trying another one...
+
+ astro  v5.10.0 ready in 1694 ms
+
+┃ Local    http://localhost:4324/
+┃ Network  use --host to expose
+
+23:16:09 watching for file changes...

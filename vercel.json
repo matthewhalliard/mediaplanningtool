@@ -1,6 +1,3 @@
 {
-  "buildCommand": "cd astro-template && npm run build",
-  "outputDirectory": "astro-template/dist",
-  "installCommand": "cd astro-template && npm install",
   "framework": "astro"
 } 

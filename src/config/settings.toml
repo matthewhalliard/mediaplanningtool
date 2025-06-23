@@ -1,0 +1,234 @@
+# available directory themes:
+# spearmint, peppermint, hemingway, brookmint
+theme = 'spearmint'
+
+[general]
+title = "Media Planning Tools"
+logo = ""
+iconLogo = "tabler:chart-line"
+
+[general.seo]
+name = "Media Planning Tools Directory"
+description = "The Best Media Planning Software - 2025 report. A comprehensive comparison of software to help agencies and marketers build effective media plans."
+url = "https://www.mediaplanningtool.com"
+
+[listings]
+pageHeader = "title"
+
+[directoryData]
+[directoryData.source]
+name = "default"    # default, mock, sheets, json
+linksOutbound = false
+
+[directoryData.tagPages]
+title = "{0} Tools"
+
+[directoryData.search]
+placeholder = "Search among {0} media planning tools :)"
+
+# Functional Tags
+[[directoryData.tags]]
+key = "media-planning"
+name = "Media Planning"
+color = "blue"
+emoji = "📊"
+description = "Core media planning and strategy tools for campaign development."
+
+[[directoryData.tags]]
+key = "budget-planning"
+name = "Budget Planning"
+color = "green"
+emoji = "💰"
+description = "Tools focused on budget allocation and financial planning for media campaigns."
+
+[[directoryData.tags]]
+key = "multi-channel"
+name = "Multi-Channel"
+color = "purple"
+emoji = "🔄"
+description = "Platforms that support planning across multiple media channels and touchpoints."
+
+[[directoryData.tags]]
+key = "audience-analytics"
+name = "Audience Analytics"
+color = "orange"
+emoji = "👥"
+description = "Tools providing audience insights and targeting capabilities."
+
+[[directoryData.tags]]
+key = "media-buying"
+name = "Media Buying"
+color = "red"
+emoji = "🛒"
+description = "Platforms for purchasing and managing media inventory."
+
+[[directoryData.tags]]
+key = "mmm"
+name = "Marketing Mix Modeling"
+color = "indigo"
+emoji = "🧮"
+description = "Advanced analytics tools for measuring marketing effectiveness and ROI."
+
+[[directoryData.tags]]
+key = "fast"
+name = "Fast & Efficient"
+color = "green"
+emoji = "⚡"
+description = "Tools designed for speed and efficiency in media planning workflows."
+
+[[directoryData.tags]]
+key = "featured"
+name = "Featured"
+color = "yellow"
+emoji = "⭐"
+description = "Top-rated and recommended media planning tools."
+
+# Workflow-Based Tags (from research)
+[[directoryData.tags]]
+key = "audience-research"
+name = "Audience Research"
+color = "cyan"
+emoji = "🔍"
+description = "Tools for building audience personas and demographic research."
+
+[[directoryData.tags]]
+key = "reach-frequency"
+name = "Reach & Frequency"
+color = "violet"
+emoji = "📡"
+description = "Tools for cross-channel reach and frequency planning and optimization."
+
+[[directoryData.tags]]
+key = "media-consumption"
+name = "Media Consumption Analytics"
+color = "teal"
+emoji = "📺"
+description = "Platforms for estimating and analyzing audience media consumption patterns."
+
+# User Type Tags
+[[directoryData.tags]]
+key = "cmos"
+name = "👤 CMOs"
+color = "slate"
+emoji = "👤"
+description = "Chief Marketing Officers and senior marketing executives."
+
+[[directoryData.tags]]
+key = "media-planners"
+name = "👤 Media Planners"
+color = "slate"
+emoji = "👤"
+description = "Media planning specialists and strategists."
+
+[[directoryData.tags]]
+key = "marketing-directors"
+name = "👤 Marketing Directors"
+color = "slate"
+emoji = "👤"
+description = "Marketing directors and campaign managers."
+
+[[directoryData.tags]]
+key = "agencies"
+name = "👤 Agencies"
+color = "slate"
+emoji = "👤"
+description = "Media agencies, full-service agencies, and independent agencies."
+
+[[directoryData.tags]]
+key = "in-house-teams"
+name = "👤 In-House Teams"
+color = "slate"
+emoji = "👤"
+description = "Brand direct and in-house marketing teams."
+
+[[directoryData.tags]]
+key = "data-analysts"
+name = "👤 Data Analysts"
+color = "slate"
+emoji = "👤"
+description = "Data analysts and performance marketers."
+
+[[directoryData.tags]]
+key = "budget-managers"
+name = "👤 Budget Managers"
+color = "slate"
+emoji = "👤"
+description = "Budget managers and financial planners."
+
+[directoryUI]
+[directoryUI.grid]
+type = "rectangle-card-grid"
+
+[directoryUI.grid.emptyState]
+text = "No tools found"
+type = "simple"
+icon = "tabler:search-off"
+
+[directoryUI.grid.card]
+image = true
+
+[directoryUI.grid.submit]
+show = false
+first = true
+title = "Submit a Tool"
+description = "Add your media planning tool to our directory"
+hideable = true
+
+[directoryUI.search]
+showCount = true
+icon = "tabler:search"
+
+[directoryUI.search.tags]
+display = "show-all"
+intersection = false
+
+[directoryUI.featured]
+showOnAllPages = true
+showOnSide = true
+icon = "tabler:star"
+labelForCard = "Featured"
+
+[header]
+[header.banner]
+show = false
+text = ""
+link = "https://www.mediaplanningtool.com"
+brandText = ""
+
+[header.navbar]
+colorModeSelector = true
+
+[[header.navbar.links]]
+name = "Blog"
+href = "/blog"
+
+[[header.navbar.links]]
+name = "2025 Guide"
+href = "/2025-guide"
+
+[header.actionButton]
+text = ""
+href = "https://www.mediaplanningtool.com"
+
+[footer]
+description = "The comprehensive directory for media planning software and tools."
+
+[footer.socials]
+[footer.socials.x]
+link = ""
+
+[footer.socials.youtube]
+link = ""
+
+[ui]
+[ui.icons]
+dark = "tabler:moon"
+light = "tabler:sun"
+instagram = "tabler:brand-instagram"
+youtube = "tabler:brand-youtube"
+facebook = "tabler:brand-facebook"
+x = "tabler:brand-x"
+
+[layout]
+sidebar = false
+emoji = true
