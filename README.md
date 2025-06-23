@@ -1,146 +1,126 @@
-# Media Planning Tools Directory
+<div align="center">
+  <h1>Minted Directory Astro</h1>
+  <p>Markdown driven directory template. Built with Astro and Tailwindcss. Optimized for SEO. Beautiful Customizable Style</p>
+</div>
 
-A comprehensive directory of the best media planning software and tools for 2025, built with Astro and TypeScript.
+<br/>
 
-## 🚀 Live Website
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/febde860-00be-408b-8a13-41953f7178e1" alt="Minted Directory Screenshot" />
+</div>
 
-Visit the live directory at: [Media Planning Tools](https://mediaplanningtool.com)
+<br/>
 
-## 📋 Features
+## Features:
++ 🖌️ Add listings from is possible from different formats: `markdown`, `csv`, `json`, `google sheets`, `notion`, `airtable`.
++ 🔋 SEO optimized and programmatic SEO out of the box
++ 💻 Pre-built components for directories.
++ 💅 Customizable styles.
++ 🌙 Dark/Light mode
++ 💸 Sponsored Content
++ 👀 Tags + Search
 
-- **43+ Media Planning Tools** - Comprehensive directory with detailed profiles
-- **2025 Selection Guide** - In-depth guide to choosing the right media planning tool
-- **Advanced Search & Filtering** - Find tools by category, use case, and user type
-- **Responsive Design** - Multiple themes (Spearmint, Peppermint, Hemingway, Brookmint)
-- **SEO Optimized** - Built for search engine visibility
-- **Blog System** - Industry insights and tool comparisons
-- **Fast Performance** - Built with Astro for optimal speed
+## Getting Started
 
-## 🛠️ Tech Stack
+### Local Development
 
-- **Framework**: Astro
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Content**: Markdown with frontmatter
-- **Icons**: Tabler Icons
-- **Search**: Client-side search with filtering
+Duplicate the template then clone the repository.
 
-## 📁 Project Structure
-
-```
-├── astro-template/          # Main website application
-│   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   │   ├── data/           # Content and data files
-│   │   │   │   ├── directory/  # Tool profiles and listings
-│   │   │   │   ├── pages/      # Static pages (including 2025 Guide)
-│   │   │   │   └── blog/       # Blog posts
-│   │   │   ├── layouts/        # Page layouts
-│   │   │   ├── pages/          # Route pages
-│   │   │   └── config/         # Configuration and themes
-├── BLOG_POST_SOP.md        # Blog writing guidelines
-├── TOOL_LISTING_SOP.md     # Tool submission guidelines
-└── PRD.md                  # Product requirements
+```sh
+git clone git@github.com:youraccount/projectname.git my-directory
 ```
 
-## 🏃‍♂️ Getting Started
+Or use the github cli to create a repository based on the template and clone in one command:
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/matthewhalliard/mediaplanningtool.git
-   cd mediaplanningtool
-   ```
+```sh
+gh repo create my-directory --template masterkram/minted-directory-astro --private --clone
+```
 
-2. **Navigate to the project**
-   ```bash
-   cd astro-template
-   ```
+Go to the cloned folder:
+```sh
+cd my-directory
+```
 
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
+Install dependencies
 
-4. **Start development server**
-   ```bash
-   npm run dev
-   ```
+```sh
+pnpm install
+```
 
-5. **Build for production**
-   ```bash
-   npm run build
-   ```
+Run the website:
 
-## 📊 Directory Categories
+```sh
+pnpm dev
+```
 
-### Functional Categories
-- **Media Planning** - Core planning and strategy tools
-- **Budget Planning** - Financial planning and allocation
-- **Multi-Channel** - Cross-platform campaign management
-- **Audience Analytics** - Targeting and insights
-- **Media Buying** - Inventory purchasing platforms
-- **Marketing Mix Modeling** - Attribution and ROI analysis
+Congrats :tada:
 
-### User Types
-- **Agencies** - Multi-client management tools
-- **In-House Teams** - Brand-direct solutions
-- **CMOs** - Executive-level platforms
-- **Media Planners** - Specialist planning tools
-- **Data Analysts** - Analytics-focused solutions
+You can start customizing and building your directory.
 
-## 🎯 2025 Selection Guide
+## Adding Content
 
-The repository includes a comprehensive [2025 Guide to Selecting a Media Planning Tool](./astro-template/src/data/pages/guide-2025.mdx) covering:
+Adding content to the directory can be done using one of the following formats:
++ markdown
++ json
++ csv
++ notion
++ google sheets
++ airtable
 
-- **Goal Definition** - Identifying your planning objectives
-- **Agency vs. In-House** - Tailored recommendations by organization type
-- **Budget Considerations** - Pricing models and total cost of ownership
-- **Local vs. National** - Scale-specific requirements
-- **Evaluation Framework** - Decision-making criteria
+Remember that listings will not be shown on the live website until the site is re-built and deployed. This is done to ensure the fastest possible performance by serving static html, css and js.
 
-## 🤝 Contributing
+### Using markdown listings:
+1. add markdown files to the `src/data/directory` folder. All markdown files will be automatically loaded as listings.
+2. You must specify required properties of a listing such as title and description in the [frontmatter]() of the file
 
-We welcome contributions! Please see our [Tool Listing SOP](./TOOL_LISTING_SOP.md) for guidelines on adding new tools.
+### Using json listings:
+1. add a single json file: `src/data/directory/directory.json`
+2. in this json file, the root element is an array. This array can contain objects which are the listings of the directory. These require the properties of `id`, `name` and `description`.
 
-### Adding a New Tool
+### Using csv listings:
+1. add a single csv file: `src/data/directory/directory.csv`
+2. add rows to this csv file, these require the properties of `id`, `name` and `description`.
 
-1. Create a new markdown file in `astro-template/src/data/directory/`
-2. Use the frontmatter schema defined in `astro-template/src/validation/directory.ts`
-3. Follow the content guidelines in `TOOL_LISTING_SOP.md`
-4. Submit a pull request
+### Using google sheets listings:
+1. Create a [google sheets](https://docs.google.com/spreadsheets/u/0/) document.
+2. You need to select your table and click `Format > Convert to table`
+3. Make it publicly shareable. When you share the link. copy the id
+4. Go to `settings.toml`, here you need to set the `source=sheets` and `key = ` the copied id of the file
 
-### Adding Blog Content
+Use this spreadsheet as a starting point: [directory google sheet data](https://docs.google.com/spreadsheets/d/1BKVVFysQT8ZuPY8hUp--jwTrN-U20TrtML0idECIWmc/edit?usp=sharing)
 
-1. See `BLOG_POST_SOP.md` for content guidelines
-2. Create posts in `astro-template/src/data/blog/`
-3. Use the established naming convention: `YYYY-MM-DD-title.md`
+### Using notion listings:
 
-## 📈 Analytics & Performance
+### Using airtable listings:
 
-- **Lighthouse Score**: 95+ across all categories
-- **Core Web Vitals**: Optimized for speed and user experience
-- **SEO**: Structured data and meta optimization
-- **Accessibility**: WCAG compliant components
 
-## 🔧 Configuration
+## Customization
 
-Customize the directory in `astro-template/src/config/settings.toml`:
-- **Themes**: Choose from 4 pre-built themes
-- **Tags**: Modify category and user type tags
-- **Navigation**: Update header and footer links
-- **SEO**: Configure meta tags and social sharing
+To customize the directory style:
++ Change the `--color-primary-x00` variables, `--color-gray-x00` variables in the `src/styles/global.css`
++ Change the font:
+  + install from [fontsource]()
+  + import font in `BaseLayout.astro`
+  + change the `--font-sans` variable in `global.css`
++ Customize the `src/data/config/settings.toml` to your preferences.
 
-## 📄 License
+### Pre-made styles:
+- spearmint
+- peppermint
 
-[MIT License](./astro-template/LICENSE)
+### Adding Content
 
-## 🙋‍♂️ Support
+Add listings by adding markdown files to `/src/content/directory`
 
-For questions or support, please:
-1. Check the [documentation](./astro-template/README.md)
-2. Review existing [issues](https://github.com/matthewhalliard/mediaplanningtool/issues)
-3. Create a new issue if needed
+## Deployment
 
----
+Deploy as a static site for best SEO performance:
 
-**Built with ❤️ for the media planning community** 
+```bash
+pnpm run build
+```
+
+## Community
+
+[Join the discord](https://discord.gg/5UbrTNzX7y)
+# Test comment
