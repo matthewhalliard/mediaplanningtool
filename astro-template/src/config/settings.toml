@@ -10,7 +10,7 @@ iconLogo = "tabler:chart-line"
 [general.seo]
 name = "Media Planning Tools Directory"
 description = "The Best Media Planning Software - 2025 report. A comprehensive comparison of software to help agencies and marketers build effective media plans."
-url = "https://mediaplanningtool.com"
+url = "https://www.mediaplanningtool.com"
 
 [listings]
 pageHeader = "title"
@@ -192,7 +192,7 @@ labelForCard = "Featured"
 [header.banner]
 show = false
 text = ""
-link = "https://mediaplanningtool.com"
+link = "https://www.mediaplanningtool.com"
 brandText = ""
 
 [header.navbar]
@@ -208,7 +208,7 @@ href = "/2025-guide"
 
 [header.actionButton]
 text = ""
-href = "https://mediaplanningtool.com"
+href = "https://www.mediaplanningtool.com"
 
 [footer]
 description = "The comprehensive directory for media planning software and tools."

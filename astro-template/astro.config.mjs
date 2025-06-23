@@ -4,12 +4,17 @@ import vue from '@astrojs/vue';
 import mdx from '@astrojs/mdx';
 import icon from 'astro-icon';
 import sitemap from '@astrojs/sitemap';
+import vercel from '@astrojs/vercel';
 import { ViteToml } from 'vite-plugin-toml';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://mediaplanningtool.com",
+  site: "https://www.mediaplanningtool.com",
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
   integrations: [
     vue(),
     mdx(),

@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 import { render } from "astro:content";
 import Article from "@layouts/Article.astro";
 
+export const prerender = true;
+
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 

@@ -7,6 +7,8 @@ import Sidebar from "@layouts/Sidebar.astro";
 import Landing from "@layouts/Landing.astro";
 import { getRootPages } from "@lib/getRootPages";
 
+export const prerender = true;
+
 // Fetch all listings and pages
 const { slug } = Astro.params;
 const { entry } = Astro.props;

@@ -6,6 +6,8 @@ import { getBlogPages, getRootPages } from '@lib/getRootPages';
 import config from '@util/themeConfig';
 import type { AllContent } from '../../../types/content';
 
+export const prerender = true;
+
 const boldFontPath = 'node_modules/@fontsource/gabarito/files/gabarito-latin-700-normal.woff' as const;
 const regularFontPath = 'node_modules/@fontsource/gabarito/files/gabarito-latin-400-normal.woff' as const;
  
