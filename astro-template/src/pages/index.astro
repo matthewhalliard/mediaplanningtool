@@ -3,6 +3,8 @@ import { getEntry } from "astro:content";
 import { render } from "astro:content";
 import Landing from "@layouts/Landing.astro";
 
+export const prerender = true;
+
 // Get the index page content
 const entry = await getEntry('pages', 'index');
 
