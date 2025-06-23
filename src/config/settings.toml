@@ -108,51 +108,51 @@ description = "Platforms for estimating and analyzing audience media consumption
 # User Type Tags
 [[directoryData.tags]]
 key = "cmos"
-name = "👤 CMOs"
-color = "slate"
-emoji = "👤"
+name = "CMOs"
+color = "gray"
+emoji = "👔"
 description = "Chief Marketing Officers and senior marketing executives."
 
 [[directoryData.tags]]
 key = "media-planners"
-name = "👤 Media Planners"
-color = "slate"
-emoji = "👤"
+name = "Media Planners"
+color = "gray"
+emoji = "📋"
 description = "Media planning specialists and strategists."
 
 [[directoryData.tags]]
 key = "marketing-directors"
-name = "👤 Marketing Directors"
-color = "slate"
-emoji = "👤"
+name = "Marketing Directors"
+color = "gray"
+emoji = "🎯"
 description = "Marketing directors and campaign managers."
 
 [[directoryData.tags]]
 key = "agencies"
-name = "👤 Agencies"
-color = "slate"
-emoji = "👤"
+name = "Agencies"
+color = "gray"
+emoji = "🏢"
 description = "Media agencies, full-service agencies, and independent agencies."
 
 [[directoryData.tags]]
 key = "in-house-teams"
-name = "👤 In-House Teams"
-color = "slate"
-emoji = "👤"
+name = "In-House Teams"
+color = "gray"
+emoji = "🏠"
 description = "Brand direct and in-house marketing teams."
 
 [[directoryData.tags]]
 key = "data-analysts"
-name = "👤 Data Analysts"
-color = "slate"
-emoji = "👤"
+name = "Data Analysts"
+color = "gray"
+emoji = "📈"
 description = "Data analysts and performance marketers."
 
 [[directoryData.tags]]
 key = "budget-managers"
-name = "👤 Budget Managers"
-color = "slate"
-emoji = "👤"
+name = "Budget Managers"
+color = "gray"
+emoji = "💳"
 description = "Budget managers and financial planners."
 
 [directoryUI]

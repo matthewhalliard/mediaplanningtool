@@ -2,6 +2,7 @@
 import type Tag from "../../../types/Tag";
 import themeConfig from "@util/themeConfig";
 const config = themeConfig.directoryData.tags;
+const emoji = themeConfig.layout.emoji;
 
 const { tag } = Astro.props;
 
@@ -11,5 +12,6 @@ const tagClass = configTag?.color ? `${configTag.color}-tag` : "gray-tag";
 ---
 
 <span class:list={["tag", tagClass]}>
+  {emoji && configTag?.emoji && <span class="mr-1">{configTag.emoji}</span>}
   {configTag?.name || tag}
 </span>
