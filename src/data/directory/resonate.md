@@ -1,6 +1,7 @@
 ---
 id: resonate
-title: "Resonate: Pricing, Features & Best Alternatives 2025"
+title: Resonate
+seoTitle: "Resonate: Pricing, Features & Best Alternatives 2025"
 description: AI-powered consumer intelligence platform providing predictive insights on 250M consumer profiles with 15K+ attributes through the Ignite platform for targeting, insights, and enrichment.
 tags:
   - audience-research

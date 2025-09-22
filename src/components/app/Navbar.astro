@@ -1,6 +1,5 @@
 ---
 import { Icon } from "astro-icon/components";
-import ColorSelector from "./header/ColorSelector.astro";
 import Logo from "./Logo.astro";
 import config from "@util/themeConfig";
 
@@ -81,11 +80,6 @@ const currentPath = new URL(Astro.request.url).pathname;
         <div
           class="flex gap-2 items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
         >
-          {
-            config.header.navbar.colorModeSelector && (
-              <ColorSelector transition:persist class="hidden md:flex" />
-            )
-          }
           <a
             href={config?.header.actionButton?.href}
             class="hidden md:block text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"

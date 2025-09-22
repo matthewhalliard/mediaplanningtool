@@ -1,6 +1,7 @@
 ---
 id: optalx
-title: "optalX: Pricing, Features & Best Alternatives 2025"
+title: optalX
+seoTitle: "optalX: Pricing, Features & Best Alternatives 2025"
 description: A media planning and optimization tool leveraging data analytics for better campaign performance.
 tags:
   - media-planning

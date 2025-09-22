@@ -10,7 +10,8 @@ import SidebarShell from "@components/app/SidebarShell.astro";
 import Tag from "@components/ui/tags/Tag.astro";
 
 const siteTitle = themeConfig.general.title;
-const title = frontmatter?.title || siteTitle;
+const pageTitle = frontmatter?.title || siteTitle;
+const seoTitle = frontmatter?.seoTitle || pageTitle;
 const link = frontmatter?.link;
 const description = frontmatter?.description;
 const linkText = link?.replace(/^https?:\/\//, "");
@@ -23,7 +24,7 @@ const targetUsers = frontmatter?.targetUsers || [];
 const featured = frontmatter?.featured;
 ---
 
-<BaseLayout title={title} description={description} slug={slug}>
+<BaseLayout title={seoTitle} description={description} slug={slug}>
   {
     sidebar ? (
       <SidebarShell showSidebar={false}>
@@ -39,7 +40,7 @@ const featured = frontmatter?.featured;
                   </div>
                 )}
                 <h1 class="font-bold text-5xl lg:text-6xl text-gray-900 dark:text-gray-50 mb-4">
-                  {title}
+                  {pageTitle}
                 </h1>
                 <p class="text-xl text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                   {description}
@@ -58,7 +59,7 @@ const featured = frontmatter?.featured;
                     rel="noopener noreferrer"
                     class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
                   >
-                    Visit {title}
+                    Visit {pageTitle}
                     <Icon name="tabler:arrow-up-right" class="w-5 h-5" />
                   </a>
                 )}
@@ -140,7 +141,7 @@ const featured = frontmatter?.featured;
                   </div>
                 )}
                 <h1 class="font-bold text-5xl lg:text-6xl text-gray-900 dark:text-gray-50 mb-4">
-                  {title}
+                  {pageTitle}
                 </h1>
                 <p class="text-xl text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                   {description}
@@ -159,7 +160,7 @@ const featured = frontmatter?.featured;
                     rel="noopener noreferrer"
                     class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
                   >
-                    Visit {title}
+                    Visit {pageTitle}
                     <Icon name="tabler:arrow-up-right" class="w-5 h-5" />
                   </a>
                 )}

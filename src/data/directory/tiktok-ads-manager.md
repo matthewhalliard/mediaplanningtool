@@ -1,6 +1,7 @@
 ---
 id: tiktok-ads-manager
-title: "TikTok Ads Manager: Pricing, Features & Best Alternatives 2025"
+title: TikTok Ads Manager
+seoTitle: "TikTok Ads Manager: Pricing, Features & Best Alternatives 2025"
 description: TikTok's comprehensive advertising platform for reaching Gen Z and millennial audiences through creative, engaging video content and advanced targeting capabilities.
 tags:
   - media-buying

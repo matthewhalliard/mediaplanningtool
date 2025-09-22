@@ -1,6 +1,7 @@
 ---
 id: criteo
-title: "Criteo: Pricing, Features & Best Alternatives 2025"
+title: Criteo
+seoTitle: "Criteo: Pricing, Features & Best Alternatives 2025"
 description: Leading performance marketing and retargeting platform that connects brands with consumers through personalized advertising powered by the world's largest commerce dataset.
 tags:
   - media-buying

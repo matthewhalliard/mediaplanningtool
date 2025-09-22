@@ -1,6 +1,7 @@
 ---
 id: adobe-advertising-cloud
-title: "Adobe Advertising Cloud: Pricing, Features & Alternatives 2025"
+title: Adobe Advertising Cloud
+seoTitle: "Adobe Advertising Cloud: Pricing, Features & Alternatives 2025"
 description: Adobe's enterprise demand-side platform for programmatic advertising, offering seamless integration with Adobe Experience Platform and advanced audience targeting. Compare pricing, features, and alternatives.
 tags:
   - media-buying

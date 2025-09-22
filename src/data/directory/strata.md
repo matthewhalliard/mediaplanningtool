@@ -1,6 +1,7 @@
 ---
 id: strata
-title: "STRATA: Pricing, Features & Best Alternatives 2025"
+title: STRATA
+seoTitle: "STRATA: Pricing, Features & Best Alternatives 2025"
 description: Enterprise media planning and buying platform providing comprehensive workflow management, campaign execution, and performance analytics for agencies and advertisers.
 tags:
   - media-buying

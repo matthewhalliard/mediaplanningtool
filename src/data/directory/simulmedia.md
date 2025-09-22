@@ -1,6 +1,7 @@
 ---
 id: simulmedia
-title: "Simulmedia: Pricing, Features & Best Alternatives 2025"
+title: Simulmedia
+seoTitle: "Simulmedia: Pricing, Features & Best Alternatives 2025"
 description: A TV advertising platform leveraging data insights for targeted ad placements.
 tags:
   - media-buying

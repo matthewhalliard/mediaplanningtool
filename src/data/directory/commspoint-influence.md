@@ -1,6 +1,7 @@
 ---
 id: commspoint-influence
-title: "Commspoint Influence: Pricing, Features & Best Alternatives 2025"
+title: Commspoint Influence
+seoTitle: "Commspoint Influence: Pricing, Features & Best Alternatives 2025"
 description: A Nielsen solution that helps brands and agencies identify the optimal communication channel mix. Compare pricing, features, and alternatives for media planning optimization.
 tags:
   - media-planning

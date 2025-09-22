@@ -1,6 +1,7 @@
 ---
 id: akkio
-title: "Akkio: Pricing, Features & Best Alternatives 2025"
+title: Akkio
+seoTitle: "Akkio: Pricing, Features & Best Alternatives 2025"
 description: AI-powered data platform that enables media agencies to build audiences 150x faster and generate actionable campaign insights through conversational analytics.
 tags:
   - audience-analytics

@@ -1,6 +1,7 @@
 ---
 id: placements-io
-title: "Placements.io: Pricing, Features & Best Alternatives 2025"
+title: Placements.io
+seoTitle: "Placements.io: Pricing, Features & Best Alternatives 2025"
 description: A media buying platform for omnichannel campaign activation and automation.
 tags:
   - media-buying
