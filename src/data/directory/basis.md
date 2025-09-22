@@ -1,6 +1,6 @@
 ---
 id: basis
-title: Basis: Pricing, Features & Best Alternatives 2025
+title: "Basis: Pricing, Features & Best Alternatives 2025"
 description: Enterprise advertising automation platform that unifies programmatic, search, social, and CTV campaigns with AI-powered optimization, reducing manual work by 40% and increasing productivity by 35%.
 tags:
   - media-buying

@@ -1,6 +1,6 @@
 ---
 id: bionic
-title: Bionic: Pricing, Features & Best Alternatives 2025
+title: "Bionic: Pricing, Features & Best Alternatives 2025"
 description: All-in-one media planning and buying platform that automates workflows, reduces planning time by 80%, and provides complete transparency across all media channels.
 tags:
   - media-planning

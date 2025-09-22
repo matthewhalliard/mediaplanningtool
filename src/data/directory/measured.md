@@ -1,6 +1,6 @@
 ---
 id: measured
-title: Measured: Pricing, Features & Best Alternatives 2025
+title: "Measured: Pricing, Features & Best Alternatives 2025"
 description: Advanced marketing mix modeling and incrementality testing platform.
 tags:
   - mmm

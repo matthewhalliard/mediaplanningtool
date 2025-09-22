@@ -1,6 +1,6 @@
 ---
 id: gwi
-title: GWI (Global Web Index): Pricing, Features & Best Alternatives 2025
+title: "GWI (Global Web Index): Pricing, Features & Best Alternatives 2025"
 description: Leading consumer research platform providing instant access to 250K+ profiling points across 50+ markets for audience insights, media planning, and consumer intelligence. Compare pricing and alternatives.
 tags:
   - audience-research

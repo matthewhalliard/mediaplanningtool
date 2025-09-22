@@ -1,6 +1,6 @@
 ---
 id: mediaplanhq
-title: MediaplanHQ: Pricing, Features & Best Alternatives 2025
+title: "MediaplanHQ: Pricing, Features & Best Alternatives 2025"
 description: A media planning tool for agencies and advertisers to manage and track budgets effectively.
 tags:
   - media-planning

@@ -1,6 +1,6 @@
 ---
 id: telmar-helixa
-title: TelmarHelixa: Pricing, Features & Best Alternatives 2025
+title: "TelmarHelixa: Pricing, Features & Best Alternatives 2025"
 description: Media planning and data analytics solutions for audience optimization.
 tags:
   - media-planning

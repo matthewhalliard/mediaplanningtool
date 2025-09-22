@@ -1,6 +1,6 @@
 ---
 id: mediatool
-title: Mediatool (Camphouse): Pricing, Features & Best Alternatives 2025
+title: "Mediatool (Camphouse): Pricing, Features & Best Alternatives 2025"
 description: Campaign workflow management platform that eliminates 40% of media spend waste by centralizing planning, tracking, and reporting across all channels, transforming scattered data into AI-ready insights for enterprise teams.
 tags:
   - media-planning

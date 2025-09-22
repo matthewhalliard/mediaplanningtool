@@ -1,6 +1,6 @@
 ---
 id: the-trade-desk
-title: The Trade Desk: Pricing, Features & Best Alternatives 2025
+title: "The Trade Desk: Pricing, Features & Best Alternatives 2025"
 description: The leading independent demand-side platform for data-driven marketers, offering objective programmatic advertising across the open internet with advanced AI optimization. Compare pricing, features, and alternatives.
 tags:
   - media-buying

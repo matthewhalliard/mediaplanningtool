@@ -1,6 +1,6 @@
 ---
 id: bluhorn
-title: Bluhorn: Pricing, Features & Best Alternatives 2025
+title: "Bluhorn: Pricing, Features & Best Alternatives 2025"
 description: Comprehensive media planning and buying platform designed for agencies and businesses to streamline campaign management, optimize ad placements, and maximize advertising ROI across multiple channels.
 tags:
   - media-planning

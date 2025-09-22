@@ -1,6 +1,6 @@
 ---
 id: quantcast
-title: Quantcast: Pricing, Features & Best Alternatives 2025
+title: "Quantcast: Pricing, Features & Best Alternatives 2025"
 description: AI-driven omnichannel DSP delivering 44% better ROI than traditional platforms through cookieless audience intelligence and real-time optimization, trusted by leading brands to maximize advertising performance across CTV, video, display, and audio.
 tags:
   - audience-analytics

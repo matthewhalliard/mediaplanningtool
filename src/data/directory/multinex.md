@@ -1,6 +1,6 @@
 ---
 id: multinex
-title: Multinex: Pricing, Features & Best Alternatives 2025
+title: "Multinex: Pricing, Features & Best Alternatives 2025"
 description: A media planning tool with predictive analytics and audience insights for cross-channel investments.
 tags:
   - media-planning

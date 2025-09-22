@@ -1,6 +1,6 @@
 ---
 id: halliard
-title: Halliard: Pricing, Features & Best Alternatives 2025
+title: "Halliard: Pricing, Features & Best Alternatives 2025"
 description: Hyper-fast media planning tool specializing in cross-channel reach and frequency optimization with instant scenario modeling across 1,000+ media properties.
 tags:
   - reach-frequency

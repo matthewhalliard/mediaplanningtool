@@ -1,6 +1,6 @@
 ---
 id: mri-simmons
-title: MRI-Simmons: Pricing, Features & Best Alternatives 2025
+title: "MRI-Simmons: Pricing, Features & Best Alternatives 2025"
 description: Leading provider of actionable insights on the American consumer with comprehensive demographic, psychographic, and media consumption data through the Catalyst platform.
 tags:
   - audience-research

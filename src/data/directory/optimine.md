@@ -1,6 +1,6 @@
 ---
 id: optimine
-title: Optimine: Pricing, Features & Best Alternatives 2025
+title: "Optimine: Pricing, Features & Best Alternatives 2025"
 description: Advanced media planning platform with optimization capabilities for multi-channel campaigns.
 tags:
   - media-planning

@@ -1,6 +1,6 @@
 ---
 id: meta-business-manager
-title: Meta Business Manager: Pricing, Features & Best Alternatives 2025
+title: "Meta Business Manager: Pricing, Features & Best Alternatives 2025"
 description: Comprehensive platform for managing Facebook and Instagram advertising campaigns, with advanced targeting capabilities and access to Meta's family of apps and services.
 tags:
   - media-buying

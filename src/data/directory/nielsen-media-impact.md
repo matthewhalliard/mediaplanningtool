@@ -1,6 +1,6 @@
 ---
 id: nielsen-media-impact
-title: Nielsen Media Impact: Pricing, Features & Best Alternatives 2025
+title: "Nielsen Media Impact: Pricing, Features & Best Alternatives 2025"
 description: The gold standard for media planning and cross-channel reach & frequency analysis, providing comprehensive audience measurement and campaign optimization insights.
 tags:
   - reach-frequency

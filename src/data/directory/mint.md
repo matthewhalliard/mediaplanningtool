@@ -1,6 +1,6 @@
 ---
 id: mint
-title: Mint: Pricing, Features & Best Alternatives 2025
+title: "Mint: Pricing, Features & Best Alternatives 2025"
 description: Budget planning and financial management tool for media campaigns.
 tags:
   - budget-planning
