@@ -1,6 +1,6 @@
 ---
 id: northbeam
-title: Northbeam
+title: Northbeam: Pricing, Features & Best Alternatives 2025
 description: Marketing mix modeling platform for measuring and optimizing media effectiveness.
 tags:
   - mmm

@@ -1,6 +1,6 @@
 ---
 id: linkedin-campaign-manager
-title: LinkedIn Campaign Manager
+title: LinkedIn Campaign Manager: Pricing, Features & Best Alternatives 2025
 description: LinkedIn's comprehensive B2B advertising platform for reaching over 1 billion professionals with precision targeting based on job titles, industries, and professional attributes.
 tags:
   - media-buying

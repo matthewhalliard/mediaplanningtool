@@ -1,6 +1,6 @@
 ---
 id: clickup
-title: ClickUp
+title: ClickUp: Pricing, Features & Best Alternatives 2025
 description: All-in-one work management platform that replaces 40+ apps with comprehensive project management, collaboration, and automation tools designed to save teams a day every week on productivity.
 tags:
   - media-planning

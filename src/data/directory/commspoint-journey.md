@@ -1,6 +1,6 @@
 ---
 id: commspoint-journey
-title: Commspoint Journey
+title: Commspoint Journey: Pricing, Features & Best Alternatives 2025
 description: Nielsen's enterprise consumer journey mapping platform that reveals up to 15,000 customer pathways across 30+ categories to optimize media touchpoint strategy and drive campaign performance.
 tags:
   - media-planning

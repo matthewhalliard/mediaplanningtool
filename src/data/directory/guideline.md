@@ -1,7 +1,7 @@
 ---
 id: guideline
-title: Guideline
-description: AI-driven media planning and data intelligence platform that empowers strategy with unrivaled market intelligence, aggregating $156B in annual global media spend from major agencies to deliver precision and operational excellence for confident decision-making.
+title: Guideline: Pricing, Features & Best Alternatives 2025
+description: AI-driven media planning and data intelligence platform that empowers strategy with unrivaled market intelligence, aggregating $156B in annual global media spend from major agencies to deliver precision and operational excellence for confident decision-making. Compare pricing, features, and alternatives.
 tags:
   - media-planning
   - audience-analytics

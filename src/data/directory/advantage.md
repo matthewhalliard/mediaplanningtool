@@ -1,6 +1,6 @@
 ---
 id: advantage
-title: Advantage (now Simpli.fi)
+title: Advantage (now Simpli.fi): Pricing, Features & Best Alternatives 2025
 description: Enterprise agency management software that revolutionizes workflow automation by integrating media planning, buying, project management, and accounting in one unified platform, serving 2,000+ advertising agencies worldwide.
 tags:
   - media-planning

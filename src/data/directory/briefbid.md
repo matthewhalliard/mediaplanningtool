@@ -1,6 +1,6 @@
 ---
 id: briefbid
-title: BriefBid
+title: BriefBid: Pricing, Features & Best Alternatives 2025
 description: Digital media marketplace connecting advertisers and publishers through automated RFP processes, providing access to 700+ media vendors across all channels with completely free access for agencies and brands.
 tags:
   - media-planning

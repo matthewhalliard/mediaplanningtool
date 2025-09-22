@@ -1,6 +1,6 @@
 ---
 id: comscore
-title: Comscore
+title: Comscore: Pricing, Features & Best Alternatives 2025
 description: Leading cross-platform measurement and media analytics company providing the trusted currency for planning, transacting, and evaluating media across all platforms with unrivaled market intelligence and audience insights.
 tags:
   - audience-analytics

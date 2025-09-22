@@ -1,6 +1,6 @@
 ---
 id: google-dv360
-title: Google Display & Video 360
+title: Google Display & Video 360: Pricing, Features & Best Alternatives 2025
 description: Google's enterprise programmatic advertising platform offering end-to-end campaign management with seamless integration across Google's ecosystem and premium inventory access.
 tags:
   - media-buying

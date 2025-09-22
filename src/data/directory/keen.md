@@ -1,6 +1,6 @@
 ---
 id: keen
-title: Keen
+title: Keen: Pricing, Features & Best Alternatives 2025
 description: AI-powered marketing mix modeling platform that optimizes $7.5B+ in marketing budgets globally, delivering 25% increases in incremental revenue through predictive analytics and scenario planning.
 tags:
   - mmm

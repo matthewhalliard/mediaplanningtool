@@ -1,6 +1,6 @@
 ---
 id: galeforce-media
-title: GaleForce Media
+title: GaleForce Media: Pricing, Features & Best Alternatives 2025
 description: Modern web-based media planning and buying platform that revolutionizes agency workflows by reducing 40-hour reconciliation tasks to just 3 hours, featuring lightning-fast customer support and comprehensive multi-channel campaign management.
 tags:
   - media-planning

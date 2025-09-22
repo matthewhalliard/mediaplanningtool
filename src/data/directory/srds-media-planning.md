@@ -1,6 +1,6 @@
 ---
 id: srds-media-planning
-title: SRDS Media Planning
+title: SRDS Media Planning: Pricing, Features & Best Alternatives 2025
 description: A database and research tool offering media planning insights and audience data.
 tags:
   - media-planning

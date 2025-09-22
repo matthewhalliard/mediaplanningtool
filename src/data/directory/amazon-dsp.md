@@ -1,6 +1,6 @@
 ---
 id: amazon-dsp
-title: Amazon DSP
+title: Amazon DSP: Pricing, Features & Best Alternatives 2025
 description: Amazon's demand-side platform for omnichannel marketing, delivering results through relevancy at scale with unique first-party data and AI-powered optimization.
 tags:
   - media-buying

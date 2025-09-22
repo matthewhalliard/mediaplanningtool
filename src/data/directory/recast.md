@@ -1,6 +1,6 @@
 ---
 id: recast
-title: Recast
+title: Recast: Pricing, Features & Best Alternatives 2025
 description: Marketing mix modeling platform designed for modern growth teams.
 tags:
   - mmm

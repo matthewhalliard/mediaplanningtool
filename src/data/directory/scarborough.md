@@ -1,6 +1,6 @@
 ---
 id: scarborough
-title: Scarborough
+title: Scarborough: Pricing, Features & Best Alternatives 2025
 description: A Nielsen tool providing in-depth consumer insights and local market data.
 tags:
   - audience-analytics

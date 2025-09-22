@@ -1,7 +1,7 @@
 ---
 id: mediaocean
-title: Mediaocean
-description: The foundational partner for omnichannel advertising, providing seamless orchestration across channels, formats, and devices with AI-powered automation.
+title: Mediaocean: Pricing, Features & Best Alternatives 2025
+description: The foundational partner for omnichannel advertising, providing seamless orchestration across channels, formats, and devices with AI-powered automation. Compare pricing, features, and alternatives.
 tags:
   - media-planning
   - media-buying

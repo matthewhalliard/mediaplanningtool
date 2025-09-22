@@ -1,6 +1,6 @@
 ---
 id: mediabrain
-title: Mediabrain
+title: Mediabrain: Pricing, Features & Best Alternatives 2025
 description: Intelligent media planning platform with AI-powered optimization capabilities.
 tags:
   - media-planning
