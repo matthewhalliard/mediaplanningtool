@@ -2,9 +2,8 @@
 id: halliard
 title: Halliard
 seoTitle: "Halliard: Pricing, Features & Best Alternatives 2025"
-description: Hyper-fast media planning tool specializing in cross-channel reach and frequency optimization with instant scenario modeling across 1,000+ media properties.
+description: The operating system for modern media teams—unifying planning, approvals, and performance tracking in one connected workspace.
 tags:
-  - reach-frequency
   - media-planning
   - budget-planning
   - multi-channel
@@ -13,135 +12,154 @@ tags:
   - agencies
   - media-planners
   - marketing-directors
+  - in-house-teams
 link: https://www.halliardmedia.com/
 featured: true
 targetUsers:
   - Media Planners
   - Media Agencies
+  - Brand Direct/In-House
   - Marketing Directors
   - VP of Media
   - Senior Media Managers
 functionality:
-  - Reach & Frequency Planning
-  - Cross-Channel Optimization
-  - Budget Allocation
-  - Scenario Modeling
-  - Media Mix Planning
-  - Quick Forecasting
+  - Media Planning & Collaboration
+  - Budget Allocation & Optimization
+  - Performance Tracking & Measurement
+  - Campaign Approvals & Workflows
+  - Cross-Channel Reach & Frequency Analysis
+  - Real-Time Spend Tracking
 pricing: Freemium
-category: Reach & Frequency Planning
+category: Media Planning & Management
 ---
 
-**Hyper-fast media planning with instant reach and frequency optimization**
+**The OS for modern media teams—unifying planning, approvals, and performance in one connected workspace**
 
-Halliard streamlines media budget planning across multiple channels with lightning-speed reach and frequency calculations. Plan across 1,000+ different media properties and get instant answers to any ad-hoc media planning question with their algorithm-driven optimization engine.
+Halliard is the operating system for modern media teams, replacing disconnected tools, endless spreadsheets, and messy communication threads with one connected workspace where planning, approvals, and performance come together. Built by media people for media people, Halliard gives teams visibility, accountability, and confidence in every media decision.
 
 ## Key Features
 
-### ⚡ **Lightning-Fast Planning**
-- Instant reach and frequency forecasts across 18+ channels
-- Real-time budget optimization recommendations
-- Answer ad-hoc planning questions in seconds
-- Responsive platform built for speed
+### 📋 **Plan & Collaborate**
+- Connect everyone who plans, buys, or manages media in one place
+- Approve and adjust campaigns seamlessly with shared visibility
+- Replace disconnected tools with one trusted system of record
+- Real-time collaboration with shared workspaces
+- Streamlined approval workflows for faster campaign execution
 
-### 📊 **Advanced Reach & Frequency Analytics**
-- Maximize total reach across channel combinations
-- Cross-channel reach overlap analysis
-- Frequency distribution modeling
-- Off-target reach identification
+### 📊 **Learn & Improve**
+- See what's worked historically across every channel and partner
+- Discover new platforms and opportunities backed by real performance data
+- Build smarter plans using proven results—not gut feel
+- Benchmark against past campaigns to forecast reach and impact
+- Data-driven insights for continuous planning improvement
 
-### 🎯 **Intelligent Budget Allocation**
-- Algorithm finds optimal channels for maximum reach
-- Flexible inputs: start with budget or existing plan
-- Lock budget per channel when needed
-- Scenario planning for budget changes
-
-### 📈 **Comprehensive Visualization**
-- Budget allocation charts for presentations
-- Cumulative reach curves and distribution
-- Reach overlap visualization
-- Frequency distribution analysis
+### 📈 **Measure & Optimize**
+- See every dollar—from planned to delivered—in real time
+- Track what's driving results and continuously improve future plans
+- Benchmark against past campaigns to forecast reach and impact
+- Real-time spend tracking across all channels and partners
+- Performance analytics with actionable optimization recommendations
 
 ## Business Impact
 
-- **Instant Insights**: Get reach and frequency answers in seconds, not hours
-- **Optimal Performance**: Algorithm-driven recommendations maximize campaign reach
-- **Scenario Planning**: Quickly model "what-if" situations for budget changes
-- **Workflow Efficiency**: Streamlined planning reduces time from brief to channel mix
+- **Days, not weeks**: Complete Q4 planning in days instead of weeks (as reported by VP, Media)
+- **Unified workflow**: Eliminate spreadsheets, email chains, and disconnected tools
+- **Real-time visibility**: See every dollar from planned to delivered in real time
+- **Faster approvals**: Streamlined workflows reduce time from brief to execution
+- **Data-driven decisions**: Build smarter plans using proven results, not guesswork
+
+## Enterprise Features
+
+### 🏢 **Team & Client Management**
+- Multi-client workspace management with shared visibility
+- Streamlined approval workflows for faster campaign execution
+- Real-time collaboration with shared workspaces
+- Team collaboration and project management capabilities
+- Client portal and reporting access
+
+### 🔗 **Integrations & Technical**
+- Trusted connections to major media platforms (Google, Meta, TikTok, Spotify, Netflix, YouTube, Twitch, Hulu)
+- Real-time data synchronization across channels
+- API integrations for seamless workflow connectivity
+- Data import/export capabilities (CSV, automated feeds)
+- Single sign-on (SSO) and enterprise security compliance
+
+### 📊 **Advanced Analytics**
+- Reach and frequency analysis across 18+ channels
+- Cross-channel reach overlap analysis
+- Frequency distribution modeling
+- Off-target reach identification
+- Real-time spend tracking and performance measurement
+- Benchmarking against historical campaign data
+
+## Getting Started
+
+### 📋 **Implementation Timeline**
+- **Week 1**: Initial setup and workspace configuration
+- **Week 2**: Team onboarding and workflow integration
+- **Ongoing**: Continuous support and platform optimization
+
+### 🎓 **Training & Support**
+- Onboarding with dedicated specialist
+- Comprehensive training program for all user levels
+- Ongoing support and optimization recommendations
+- Built-in resources and best practices
+
+### 💰 **Investment Details**
+- **Free Plan**: Full platform access for individual planners
+- **Premium Plan**: Advanced features and team collaboration
+- **Enterprise Plan**: Custom pricing with dedicated support and advanced capabilities
+- Contact Halliard for pricing details and custom enterprise solutions
 
 ## Platform Capabilities
 
-### 🔍 **Advanced Planning Features**
-- Plan across 1,000+ media properties and formats
+### 🎯 **Advanced Planning Features**
+- Plan across 18+ channels with real-time reach and frequency analysis
 - Create and compare multiple scenarios instantly
-- Add and remove channels with ease
-- Download charts for presentations and emails
+- Flexible budget inputs: start with budget or existing plan
+- Lock budget per channel when needed
+- Download charts and reports for presentations
 
 ### 📊 **Robust Data Foundation**
 - Based on US national panel data
 - Proprietary optimization algorithms
 - Census-weighted for accuracy
+- Grounded in real campaign data and industry benchmarks
 - Regular data updates for freshness
 
 ### 🎨 **User Experience**
 - Clean, intuitive interface designed by ex-media planners
 - Built specifically for media team workflows
 - Empowering media professionals to take control
-- Add to existing marketing technology stack
-
-## Pricing & Plans
-
-### 🆓 **Free Plan**
-- Based on 2,000 census-weighted US panel
-- Updated annually
-- Full platform access for individual planners
-
-### 🏢 **Enterprise Plan**
-- Up to 30,000 census-weighted US panel
-- Updated quarterly
-- Local market planning capabilities
-- Advanced audience targeting (coming soon)
-
-## Getting Started
-
-### 📋 **Quick Start Process**
-- **Sign Up**: Free account setup in minutes
-- **Import Plan**: Start with existing plan or blank canvas
-- **Optimize**: Let algorithm recommend optimal channel mix
-- **Download**: Export charts and data for presentations
-
-### 🎓 **Built by Media Experts**
-- Created by experienced media planners
-- Designed to empower media teams
-- Focused on real-world planning challenges
-- Continuous improvement based on user feedback
+- Designed by people who've lived the chaos of disconnected tools
+- Created to give planners, buyers, and marketers a shared source of truth
 
 ## Perfect For
 
-- **Media Planners**: Specialists needing quick reach and frequency validation
-- **VP/Directors of Media**: Leaders requiring fast optimization insights
-- **Media Agencies**: Teams managing multiple client campaigns efficiently
-- **Senior Media Managers**: Professionals validating and optimizing media plans
-- **Marketing Directors**: Leaders needing independent planning verification
+- **Media Planners**: Get a unified workspace for planning, approvals, and performance tracking—no more spreadsheets or disconnected tools
+- **Media Agencies**: Manage multiple client campaigns efficiently with shared workspaces and streamlined approval workflows
+- **Brand Direct/In-House Teams**: Replace disconnected tools with one trusted system of record for planning, tracking, and measurement
+- **VP/Directors of Media**: Get visibility, accountability, and confidence in every media decision with real-time tracking and performance analytics
+- **Senior Media Managers**: Build smarter plans using proven results and historical data, not guesswork
 
 ## User Testimonials
 
-> "Love how easy it is to pull a quick reach and frequency forecast" - VP, Media
+> "Halliard made planning our Q4 take days, not weeks." - Joe V, VP, Media
 
-> "WAY easier than my old agencies tools. I am obsessed!" - Sr Media Manager
+> "Finally, a media planning tool that makes sense." - Betty K, Sr Media Manager
 
-> "It's comforting having an independent tool to check my plans make sense" - Director of Media
+> "It's like having Telmar, Tableau, and Excel all in one interface." - Sarah M, Director of Strategy
 
 ## Why Choose Halliard?
 
-✅ **Unmatched Speed**: Get reach and frequency insights instantly  
-✅ **Algorithm-Driven**: Proprietary optimization for maximum reach  
-✅ **User-Friendly**: Built by media planners for media planners  
-✅ **Comprehensive**: 1,000+ media properties across all channels  
-✅ **Free to Start**: Full platform access with no upfront cost  
+✅ **Unified Platform**: One connected workspace where planning, approvals, and performance come together  
+✅ **Built by Media People**: Designed by people who've lived the chaos of disconnected tools  
+✅ **Real-Time Tracking**: See every dollar from planned to delivered in real time  
+✅ **Trusted Connections**: Integrations with major media platforms (Google, Meta, TikTok, Spotify, Netflix, YouTube, Twitch, Hulu)  
+✅ **Proven Results**: Grounded in real campaign data and industry benchmarks  
 
-[Try Halliard for Free →](https://www.halliardmedia.com/)
+[Book a Free Strategy Call →](https://www.halliardmedia.com/)
 
 ---
 
-*The ultra-fast media planning tool trusted by media professionals for reach and frequency optimization* 
+*The operating system for modern media teams—media teams finally feel in control again* 
