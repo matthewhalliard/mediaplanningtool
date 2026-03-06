@@ -1,8 +1,8 @@
 ---
 id: mediatool
 title: "Mediatool (Camphouse)"
-seoTitle: "Mediatool (Camphouse): Pricing, Features & Best Alternatives 2025"
-description: Campaign workflow management platform that eliminates 40% of media spend waste by centralizing planning, tracking, and reporting across all channels, transforming scattered data into AI-ready insights for enterprise teams.
+seoTitle: "Mediatool (Camphouse): Pricing, Reviews & Features 2026"
+description: Campaign workflow management platform — rebranded as Camphouse in February 2025 — that centralizes media planning, tracking, and reporting across all channels for enterprise teams. Compare pricing, features, and alternatives.
 tags:
   - media-planning
   - multi-channel
@@ -32,142 +32,135 @@ pricing: Enterprise
 category: Campaign Workflow Management Platform
 ---
 
-**The campaign workflow management platform transforming media chaos into AI-ready insights**
+**The campaign workflow management platform — formerly Mediatool, now Camphouse — that replaces fragmented spreadsheets with a single source of truth**
 
-Mediatool, now operating as Camphouse, revolutionizes how enterprise teams manage complex marketing campaigns by providing a single source of truth for all media activities. With poor media management costing businesses $37B annually and 40% of media spend being wasted due to fragmented workflows, Camphouse eliminates complexity through centralized planning, real-time collaboration, and intelligent data organization.
+Mediatool rebranded as Camphouse in February 2025, positioning itself as the dedicated hub for media campaign management. The platform centralizes planning, budget tracking, and reporting for enterprise marketing teams operating across multiple channels, markets, and brand portfolios. It targets organizations where fragmented tools and manual data entry create operational drag and reporting inaccuracies.
 
 ## Key Features
 
-### 🎯 **Campaign Workflow Management**
-- Complete campaign lifecycle management from planning to results
-- Unified platform eliminating the need for 40+ scattered tools
-- Real-time campaign tracking and optimization across all channels
-- Automated workflow processes reducing manual administrative tasks
-- Enterprise-grade collaboration tools for global teams
+### Campaign Workflow Management
+- Complete campaign lifecycle management from planning through results reporting
+- Unlimited plans, files, and organizations within a single platform
+- Real-time campaign tracking and optimization across all active channels
+- Automated workflow processes reducing manual administrative overhead
+- Enterprise-grade collaboration tools for global and distributed teams
 
-### 📊 **Centralized Data Intelligence**
+### Centralized Data Intelligence
 - Single source of truth for all media investments and performance data
-- Custom taxonomy and naming conventions for organized data structure
-- Transform scattered spreadsheets into structured, AI-ready insights
-- Comprehensive data governance and confidence building
+- Custom taxonomy and naming conventions to enforce consistent data structure
+- Structured, AI-ready data architecture for advanced analytics downstream
 - Real-time synchronization across all team members and stakeholders
+- Comprehensive data governance and audit capabilities
 
-### 🚀 **Advanced Planning & Optimization**
-- Strategic media planning with impactful campaign creation
-- Cross-channel budget allocation and optimization tools
-- Performance tracking with structured data analysis
+### Advanced Planning & Optimization
+- Strategic media planning with cross-channel budget allocation tools
 - Custom KPI integration and budget oversight controls
-- Scenario planning and forecasting capabilities
+- Scenario planning and forecasting for forward-looking decisions
+- Planned vs. actual performance comparisons in automated reports
 
-### 🔗 **Enterprise Integration**
-- Seamless integrations with Google Analytics, Facebook, LinkedIn, Twitter
-- Custom UTM code generation for granular content performance analysis
-- API connections for automated data flow and reporting
-- Multi-platform campaign tracking and measurement
-- Third-party tool compatibility for existing tech stacks
+### Enterprise Integration
+- Integrations with Google Analytics, Meta, LinkedIn, and other major platforms
+- Custom UTM code generation for granular content and channel performance
+- API connections for automated data ingestion and reporting
+- Third-party tool compatibility for existing martech stacks
 
 ## Business Impact
 
-- **Efficiency**: 40% reduction in media spend waste through better planning and execution
-- **Productivity**: Saves teams significant time by eliminating manual processes and duplicate data entry
-- **Collaboration**: Unified workflows improve team coordination and decision-making
-- **ROI**: Data-driven insights enable optimized campaign performance and budget allocation
+- **Efficiency**: Reduces reliance on scattered spreadsheets and duplicate data entry
+- **Collaboration**: Unified workflows improve coordination across media, creative, and finance teams
+- **Oversight**: Full visibility into media costs across campaigns, markets, and brands
+- **Reporting**: Automated planned vs. actual reporting accelerates campaign reviews
 
 ## Enterprise Features
 
-### 🏢 **Global Team Collaboration**
-- **Multi-Market Management**: Coordinate campaigns across local markets and global headquarters
-- **Approval Workflows**: Streamlined processes for campaign approvals and client communications
-- **Shared Calendars**: Unified scheduling and planning visibility for all team members
-- **Cloud Storage**: Centralized file management and document sharing
-- **Real-Time Updates**: Instant synchronization of plans and changes across all users
+### Global Team Collaboration
+- Multi-market management coordinating local campaigns with global oversight
+- Streamlined approval workflows for campaigns and client communications
+- Shared calendars and unified scheduling visibility
+- Role-based access controls and user permissions
+- Cloud storage for centralized file and document management
 
-### 📈 **Advanced Analytics & Reporting**
-- **Custom Dashboards**: Visual campaign data representation for easy performance review
-- **Automated Reporting**: Instant report generation comparing planned vs. actual performance
-- **Performance Visualization**: Clear insights into campaign success and marketing effectiveness
-- **Budget Oversight**: Comprehensive financial tracking and cost allocation analysis
-- **Data Export**: Flexible reporting formats for stakeholder communication
+### Advanced Analytics & Reporting
+- Custom dashboards for performance visualization by stakeholder need
+- Automated reporting comparing planned vs. actual spend and performance
+- Budget oversight with comprehensive financial tracking and cost allocation
+- Flexible data export formats for finance, agency, and client communications
 
-### 🛡️ **Enterprise Security & Compliance**
-- **User Access Permissions**: Granular control over data access and team responsibilities
-- **Industry-Standard Encryption**: Bank-grade security for all marketing data
-- **Data Logging**: Comprehensive audit trails and activity monitoring
-- **Traffic Monitoring**: Advanced security protocols for data protection
-- **GDPR Compliance**: Privacy regulation adherence and data protection measures
+### Security & Compliance
+- Granular user access permissions for data governance
+- Industry-standard encryption for all marketing data
+- Comprehensive audit trails and activity monitoring
+- GDPR compliance with data protection measures
 
-## Getting Started
+## Pricing
 
-### 📋 **Implementation Process**
-- **Week 1**: Platform setup and custom taxonomy configuration aligned with business needs
-- **Week 2**: Data migration from existing systems and team training programs
-- **Week 3**: Workflow optimization and approval process configuration
-- **Ongoing**: Continuous support and platform optimization with dedicated Customer Success Manager
+Camphouse uses **custom enterprise pricing**. No rates are publicly listed.
 
-### 🎓 **Training & Support**
-- **Dedicated Customer Success Manager**: Personal guidance throughout implementation and optimization
-- **Comprehensive FAQ**: Detailed instructions and video guides for all platform features
-- **Responsive Support Team**: Quick resolution of issues and technical questions
-- **Custom Setup**: Platform configuration tailored to specific brand requirements
-- **Best Practices**: Industry expertise and optimization recommendations
+- **Structure**: Per-user monthly pricing, minimum 20 users required
+- **Contract terms**: Annual and multi-year options available
+- **No free trial**: Prospective customers engage through a sales demo process
+- **Includes**: Dedicated Customer Success Manager, onboarding, and ongoing support
 
-### 💰 **Investment Details**
-- **Enterprise Pricing**: Custom user-based pricing starting at minimum 20 users
-- **Flexible Licensing**: Annual and multi-year contract options available
-- **Implementation Support**: Professional services for setup and data migration
-- **Training Included**: Comprehensive team onboarding and certification programs
-- **Scalable Investment**: Pricing grows with team expansion and feature usage
+Contact Camphouse sales for a custom quote based on team size, markets, and feature requirements.
 
-## Perfect For
+## Frequently Asked Questions
 
-- **Marketing Directors**: Leaders needing unified oversight of complex multi-channel campaigns
-- **CMOs**: Executives requiring data-driven insights for strategic decision-making and ROI demonstration
-- **Head of Media**: Specialists managing comprehensive media operations across multiple markets
-- **CFOs**: Financial leaders seeking transparent oversight of marketing investments and cost control
-- **Media Planners**: Teams requiring sophisticated planning tools with real-time collaboration
-- **Enterprise Brands**: Large organizations managing complex, multi-market campaign portfolios
+**Is Mediatool the same as Camphouse?**
+Yes. Mediatool rebranded as Camphouse on February 27, 2025. The platform and core functionality remain the same; the rebrand positions the product as the "obvious home for media campaigns." Existing Mediatool customers transitioned to the Camphouse platform.
 
-## Industry Success Stories
+**How much does Camphouse (Mediatool) cost?**
+Pricing is not publicly listed. The platform requires a minimum of 20 users and uses custom per-user monthly pricing on annual contracts. Contact the sales team for a quote specific to your team size and requirements.
 
-### 🌟 **Customer Testimonials**
-> *"As part of the initial process we identified and compared three different tools, but ultimately we chose Camphouse for its flexibility, great usability and personal client service."*
-> 
-> **Ruth Sainz**, Head of Growth Marketing
+**Is there a free trial for Mediatool / Camphouse?**
+No free trial is offered. The company runs a demo-led sales process.
 
-> *"We were looking for a software that would let us plan, analyze and manage our media plans and data, anywhere, at any time. Our search led us to Camphouse."*
-> 
-> **Jan Biedermann**, Stadt Feldkirch
+**How does Mediatool compare to Bionic for media planning?**
+[Bionic](/bionic) is primarily a media plan building and trafficking tool with strong RFP and flowchart functionality. Camphouse focuses more on workflow management, budget oversight, and cross-team collaboration across the full campaign lifecycle. Teams focused purely on plan creation may prefer Bionic; teams needing to manage entire campaign operations tend toward Camphouse.
 
-> *"What we appreciate with Camphouse is that we can have 100% visibility of all of our costs related to our marketing efforts, both during set-up and for specific campaigns."*
-> 
-> **Josephine Adorelle**, AIMO Solutions
+**How does Mediatool compare to Mediaocean?**
+[Mediaocean](/mediaocean) is a broader media management platform with billing, reconciliation, and agency workflow tools built in. Camphouse is lighter on financial reconciliation but stronger on collaborative planning and real-time campaign management UX for internal marketing teams.
 
-## Why Choose Mediatool (Camphouse)?
+**What integrations does Camphouse support?**
+The platform integrates with Google Analytics, Meta, LinkedIn, Twitter/X, and other major ad platforms, plus custom API connections for proprietary systems.
 
-✅ **Proven Impact**: Eliminates 40% of media spend waste through centralized workflow management  
-✅ **Complete Solution**: Single platform replacing 40+ scattered tools and spreadsheets  
-✅ **Enterprise Scale**: Built for complex, multi-market operations with global team collaboration  
-✅ **AI-Ready Data**: Transform chaotic data into structured insights for advanced analytics  
-✅ **Exceptional Support**: Dedicated Customer Success team and comprehensive training programs  
+## User Reviews & Social Proof
 
-## Advanced Capabilities
+Camphouse holds a **3.8/5 rating on G2** with 2 reviews. Additional reviews appear on Capterra and SoftwareAdvice.
 
-### 🔧 **Platform Customization**
-- **Custom Taxonomy**: Flexible data classification systems aligned with business needs
-- **Workflow Configuration**: Tailored approval processes and team collaboration structures
-- **Dashboard Creation**: Personalized reporting views for different stakeholder needs
-- **Integration Setup**: Custom API connections and third-party tool compatibility
-- **Multi-Brand Management**: Separate account structures for agencies and holding companies
+> "Except that Mediatool is a great end-to-end tool for media planning… we finally have all media data gathered in one place." — G2 reviewer
 
-### 📊 **Data Transformation**
-- **Spreadsheet Elimination**: Convert manual Excel processes to automated workflows
-- **Data Standardization**: Consistent naming conventions and classification systems
-- **Real-Time Updates**: Instant data synchronization across all platforms and users
-- **Historical Analysis**: Comprehensive campaign performance tracking and trend identification
-- **Predictive Insights**: AI-ready data structure enabling advanced analytics and forecasting
+> "Mediatool buys my time back, helps to improve planning & reporting. At the end of the day, Mediatool increases profitability…" — Capterra reviewer
+
+> "What I like the most is the overview and the ability to filter on whatever I want. That saves me a lot of time!" — SoftwareAdvice reviewer
+
+## Mediatool (Camphouse) vs Alternatives
+
+### Mediatool vs Bionic
+[Bionic](/bionic) is a purpose-built media planning platform with strong flowcharting, RFP management, and vendor communication tools. Camphouse is broader in scope — better suited for teams that need collaborative budget management and full campaign lifecycle oversight rather than focused plan production.
+
+### Mediatool vs Mediaocean
+[Mediaocean](/mediaocean) serves large agencies with deep billing, reconciliation, and financial workflow features. Camphouse targets in-house marketing teams and mid-to-large agencies that prioritize real-time collaboration and campaign visibility over financial back-office operations.
+
+### Mediatool vs Media Plan HQ
+[MediaPlanHQ](/mediaplanhq) is a simpler, more accessible media planning tool suited for smaller teams. Camphouse has more robust enterprise features — custom taxonomy, multi-market management, approval workflows — making it better suited for complex organizations.
+
+### Mediatool vs ClickUp
+[ClickUp](/clickup) is a general project management platform that some marketing teams adapt for campaign management. Camphouse is purpose-built for media planning, meaning native integrations, budget tracking, and media-specific data structures that ClickUp requires heavy customization to replicate.
+
+## Recent Updates (2025–2026)
+
+- **February 2025**: Mediatool rebranded as Camphouse, with a new identity positioned around being "the obvious home for media campaigns"
+- **2025**: AI-powered insights layer added to campaign performance reporting
+- **2025**: Unlimited plans, files, and organizations introduced for enterprise accounts
+- **2025**: Enhanced real-time KPI tracking and collaboration tools rolled out
+
+## Explore More Media Planning Tools
+
+- **[Bionic](/bionic)** — Media planning platform with strong RFP, flowchart, and trafficking capabilities
+- **[Mediaocean](/mediaocean)** — End-to-end agency media management with billing and reconciliation
+- **[MediaPlanHQ](/mediaplanhq)** — Accessible media planning tool for smaller teams and independent planners
+- **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
+- **[Guideline](/guideline)** — AI-powered media intelligence platform aggregating $156B in global ad spend data
+- **[Nielsen Media Impact](/nielsen-media-impact)** — Industry-standard cross-channel reach and frequency planning
 
 [Visit Mediatool (Camphouse) →](https://mediatool.com/)
-
----
-
-*The campaign workflow management platform transforming media chaos into AI-ready insights for enterprise success* 
