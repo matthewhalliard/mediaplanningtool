@@ -483,4 +483,166 @@ When creating listings for tools that will be evaluated by senior media director
 
 ---
 
-**Note**: Always respect website terms of service and rate limits when scraping. Use firecrawl responsibly and focus on publicly available information only. 
+**Note**: Always respect website terms of service and rate limits when scraping. Use firecrawl responsibly and focus on publicly available information only.
+
+---
+
+## Required Content Sections (NEW — Updated March 2026)
+
+Every tool listing MUST include the following five sections in addition to the standard content structure above. These sections improve SEO performance, increase time-on-page, and capture high-value search queries (like "[tool] pricing", "[tool] reviews", "[tool] vs [competitor]").
+
+### Section A: Frequently Asked Questions (FAQ)
+
+Include 5–8 FAQ items using `###` headers within a `## Frequently Asked Questions` section.
+
+**Purpose**: Captures long-tail search queries ("Is [tool] free?", "How much does [tool] cost?", "What does [tool] do?"). FAQ content frequently earns featured snippets in Google.
+
+**Guidelines**:
+- Write questions in the exact phrasing a user would type into Google
+- First FAQ should address the most common search query for the tool (often pricing or "what is it?")
+- Include at least one comparison question ("How does [tool] compare to [competitor]?") with an internal link
+- Include at least one pricing FAQ
+- Answers should be 2–4 sentences — concise and direct
+- Do NOT use `<details>` or accordion markup — plain markdown headers render correctly on the site
+
+**Example**:
+```markdown
+## Frequently Asked Questions
+
+### Is [Tool] free?
+Yes, [Tool] offers a free tier with [specific features]. Paid plans start at $X/month for [additional capabilities].
+
+### How does [Tool] compare to [Competitor]?
+[Tool] focuses on [strength], while [Competitor](/competitor-slug) specializes in [different strength]. Choose [Tool] for [use case]; choose [Competitor] for [other use case].
+```
+
+### Section B: User Reviews & Social Proof
+
+Include a `## User Reviews & Social Proof` section with verified ratings and representative user quotes.
+
+**Purpose**: Builds E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) signals. Pages with social proof see higher CTR from search results and longer time on page.
+
+**Guidelines**:
+- Lead with the aggregate rating and review count from G2, Capterra, or TrustRadius (e.g., "4.4 out of 5 stars on G2 from 172+ reviews")
+- Include 2–3 representative user quotes — paraphrased or quoted from public review sites
+- Mention any notable industry recognition (G2 Leader badges, analyst reports, awards)
+- Always cite the review source (G2, Capterra, TrustRadius)
+- Update review counts and ratings at least quarterly
+
+**Example**:
+```markdown
+## User Reviews & Social Proof
+
+[Tool] holds a **4.4 out of 5 star rating** on G2 from 172+ reviews.
+
+**What users say:**
+- "[Specific praise about a feature or outcome]"
+- "[Quote about ease of use, support, or ROI]"
+
+**Recognized by:** G2 Leader in [Category], named in [Industry Report].
+```
+
+### Section C: "vs" Comparison Subsections
+
+Include a `## [Tool] vs Alternatives` section with 3–5 head-to-head comparison subsections.
+
+**Purpose**: Captures "[tool] vs [competitor]" search queries, which have high commercial intent. These queries indicate a buyer is actively comparing options — extremely valuable traffic.
+
+**Guidelines**:
+- Each comparison gets its own `###` subsection (e.g., `### GWI vs MRI-Simmons`)
+- Keep each comparison to 2–3 sentences: what differentiates them, and when to choose each
+- **MUST include internal links** to the competitor's listing page on our site (e.g., `[MRI-Simmons](/mri-simmons)`)
+- Focus on genuine differences — don't just say our featured tool is better
+- Choose competitors based on what people actually search (check DataForSEO/Search Console for "[tool] vs" queries)
+
+**Example**:
+```markdown
+## [Tool] vs Alternatives
+
+### [Tool] vs [Competitor A]
+[Tool] offers [strength], while [Competitor A](/competitor-a-slug) provides [different strength]. Choose [Tool] for [use case]; choose [Competitor A] for [other use case].
+
+### [Tool] vs [Competitor B]
+[Competitor B](/competitor-b-slug) specializes in [focus area], whereas [Tool] covers [broader/different area]. Teams needing [specific capability] will prefer [Competitor B].
+```
+
+### Section D: Recent Updates / News
+
+Include a `## Recent Updates` section listing 3–6 notable developments from the past 6–12 months.
+
+**Purpose**: Freshness is a ranking signal. Pages with recent dates and current information rank better than stale content. This section also gives returning visitors a reason to re-engage.
+
+**Guidelines**:
+- List updates in reverse chronological order (newest first)
+- Include month and year for each item
+- Cover: product launches, feature updates, pricing changes, major partnerships, funding rounds, leadership changes
+- Bold the date prefix for scannability
+- Update this section whenever you learn of new developments (at least quarterly)
+- Remove items older than 12 months to keep the section fresh
+
+**Example**:
+```markdown
+## Recent Updates (2025–2026)
+
+- **February 2026**: Launched new export feature for individual slides
+- **January 2026**: AI assistant now available inside ChatGPT and Claude
+- **November 2025**: Announced MCP integration with Anthropic
+- **September 2025**: New API launched with partner integrations
+```
+
+### Section E: Internal Link Mandate — "Explore More" Section
+
+Every listing MUST end with a `## Explore More Media Planning Tools` section containing 5–8 internal links to related tool pages.
+
+**Purpose**: Internal links are critical for SEO. They distribute page authority, help Google discover and index pages, and keep users on the site longer. Every listing should link to relevant alternatives, complementary tools, and always to `/halliard`.
+
+**Guidelines**:
+- **All alternative/competitor links MUST point to internal directory pages** (e.g., `/mri-simmons`, NOT `https://www.mrisimmons.com`)
+- Include 5–8 related tools with a one-line description of each
+- Always include a link to `/halliard` (Halliard Media) in this section
+- Choose tools that are genuinely related — same category, complementary functionality, or frequently compared
+- External links to the tool's own website belong only in the CTA at the bottom (`[Visit Tool →](url)`)
+- Do NOT link to external competitor websites in the alternatives section — internal pages only
+
+**Example**:
+```markdown
+## Explore More Media Planning Tools
+
+Looking for tools that complement or compare to [Tool]? Browse these related listings:
+
+- **[Competitor A](/competitor-a)** — One-line description
+- **[Competitor B](/competitor-b)** — One-line description
+- **[Related Tool](/related-tool)** — One-line description
+- **[Halliard](/halliard)** — AI-powered media planning platform for agencies and brands
+
+[Visit [Tool] →](https://www.tool-website.com/)
+```
+
+---
+
+## Updated Quality Checklist (March 2026)
+
+Add these items to the existing quality checklist for every listing:
+
+- [ ] FAQ section with 5–8 questions (includes pricing FAQ and at least one comparison FAQ with internal link)
+- [ ] User Reviews section with G2/Capterra rating, review count, and 2–3 user quotes
+- [ ] "vs" comparison subsections (3–5 comparisons, all with internal links to our directory pages)
+- [ ] Recent Updates section with 3–6 dated items from the past 12 months
+- [ ] "Explore More" section with 5–8 internal links to related tools (includes /halliard)
+- [ ] All alternative/competitor links point to internal directory pages, NOT external websites
+- [ ] seoTitle includes current year (2026)
+- [ ] Pricing section reflects actual current pricing (verify against tool's website)
+
+---
+
+## Content Refresh Schedule
+
+To maintain ranking quality, every listing should be reviewed and updated on a regular cadence:
+
+| Priority | Review Frequency | Criteria |
+|----------|-----------------|----------|
+| **High** (top 10 by impressions) | Monthly | Update pricing, reviews, recent news, FAQ |
+| **Medium** (positions 5–20) | Quarterly | Full content refresh, add missing sections |
+| **Low** (positions 20+) | Semi-annually | Ensure all required sections present, update year |
+
+The site owner agent should prioritize pages in the "striking distance" zone (positions 5–20) where content improvements have the highest ROI for ranking gains.
