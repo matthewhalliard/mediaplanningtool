@@ -1,8 +1,8 @@
 ---
 id: google-dv360
 title: Google Display & Video 360
-seoTitle: "Google Display & Video 360: Pricing, Features & Best Alternatives 2025"
-description: Google's enterprise programmatic advertising platform offering end-to-end campaign management with seamless integration across Google's ecosystem and premium inventory access.
+seoTitle: "Google Display & Video 360: Pricing, Reviews & Features 2026"
+description: Google's enterprise programmatic advertising platform offering end-to-end campaign management with seamless integration across Google's ecosystem, premium inventory access including YouTube and CTV, and AI-powered optimization.
 tags:
   - media-buying
   - audience-analytics
@@ -31,109 +31,161 @@ pricing: Enterprise
 category: Enterprise DSP Platform
 ---
 
-**Google's enterprise demand-side platform for comprehensive campaign management**
+**Google's enterprise demand-side platform for programmatic display, video, CTV, and audio campaign management**
 
-Google Display & Video 360 (DV360) provides end-to-end campaign management for enterprises, combining media planning, creative development, audience targeting, and measurement in one integrated platform. With access to Google's premium inventory and seamless ecosystem integration, DV360 enables sophisticated programmatic advertising at scale.
+Google Display & Video 360 (DV360) is an enterprise-grade DSP that provides end-to-end campaign management — covering media planning, programmatic buying, creative development, audience management, and measurement in one platform. With access to 90+ ad exchanges, dedicated YouTube inventory, and tight integration across Google's marketing stack, DV360 is built for complex, large-scale advertising operations. Pricing is contract-based; minimum monthly media spend commitments typically start at $50,000+.
 
 ## Key Features
 
-### 🎯 **Comprehensive Campaign Management**
-- Unified platform for planning, buying, and measuring campaigns
-- Cross-channel campaign orchestration
-- Real-time campaign optimization
-- Advanced workflow automation
-- Integrated creative development tools
+### Comprehensive Campaign Management
+- Unified platform for planning, buying, and measuring programmatic campaigns
+- Real-time bidding across 90+ exchanges including premium CTV, audio, and DOOH
+- Cross-channel campaign orchestration with advanced workflow automation
+- Integrated creative development via Studio for dynamic and rich media formats
+- Demand Gen campaigns targeting YouTube, Gmail, and Discover placements
 
-### 📊 **Advanced Audience Management**
-- Google's extensive first-party data integration
-- Custom audience creation and management
-- Lookalike audience modeling
-- Cross-device targeting capabilities
-- Privacy-safe audience activation
+### Advanced Audience Management
+- Integration with Google's first-party data and Analytics 360 audiences
+- Custom audience creation, lookalike modeling, and cross-device targeting
+- AI Audience Persona tools and targeting templates for faster audience setup
+- Privacy-safe audience activation with consent-based data controls
 
-### 🚀 **Google Ecosystem Integration**
-- Native integration with Google Ads and Analytics 360
-- YouTube and Google properties access
-- Google Cloud AI and machine learning
-- Seamless data sharing across platforms
-- Unified reporting and attribution
+### Google Ecosystem Integration
+- Native integration with Google Ads, Analytics 360, and Campaign Manager 360
+- Seamless YouTube advertising with exclusive Google inventory access
+- Google Cloud AI and machine learning for bidding and optimization
+- Unified cross-platform reporting and attribution
 
-### 📺 **Premium Inventory Access**
-- Google Display Network and YouTube inventory
-- 80+ ad exchange partnerships
-- Premium publisher relationships
-- Connected TV and streaming platform access
-- Private marketplace and programmatic guaranteed deals
+### Premium Inventory and CTV
+- YouTube and Google Display Network exclusives not available on other DSPs
+- Connected TV and streaming platform inventory access
+- Private marketplace and programmatic guaranteed deal management
+- Live sports and event-specific CTV buying (e.g., NBCUniversal Olympics partnership, live 2026)
+
+### AI-Powered Optimization
+- Enhanced automation for bidding, pacing, and frequency management
+- Cross-device frequency management to reduce overexposure
+- Optimized targeting using Google's machine learning signals
+- YouTube Pause Ads format for CTV engagement
 
 ## Business Impact
 
-- **Scale**: Reach over 90% of internet users globally
-- **Performance**: AI-driven optimization improves campaign efficiency
-- **Integration**: Unified data and workflows across Google ecosystem
-- **Enterprise Grade**: Built for large-scale, complex advertising operations
+- **Scale**: Reach over 90% of internet users globally across display, video, CTV, and audio
+- **Performance**: AI-driven optimization reduces manual management and improves campaign efficiency
+- **Integration**: Unified data and workflows across the Google Marketing Platform
+- **Enterprise Grade**: Built for large-scale, complex advertising operations requiring governance and security
+
+## Pricing
+
+DV360 operates on an enterprise contract model with no publicly listed fixed tiers.
+
+- **Platform Fees**: Fee structure is spend-based; upper funnel (open auction/exchange) fees are approximately 10–15% of media spend; lower funnel (YouTube/programmatic guaranteed) fees are approximately 4%
+- **App Mediation**: Approximately 18% for in-app mediation inventory
+- **No Self-Serve Access**: DV360 is not available as a self-serve product; access requires a Google Marketing Platform contract and typically a sales engagement
+- **Minimum Spend**: Typically $50,000+ per month in media spend is the practical threshold for cost-effective use
+- **Professional Services**: Implementation, training, and optimization support are available through Google or certified partners
 
 ## Enterprise Features
 
-### 🏢 **Team Collaboration**
-- Multi-team workspace management
-- Granular user permissions and access controls
-- Collaborative creative development
-- Approval workflows and campaign governance
-- Enterprise-grade security protocols
+### Team Collaboration and Governance
+- Multi-team workspace management with granular user permissions
+- Approval workflows and campaign governance controls
+- Collaborative creative development across teams
+- Enterprise-grade security protocols and audit trails
 
-### 🔗 **Data Management**
+### Data Management
 - First-party data onboarding and activation
 - Google Analytics 360 audience integration
-- Custom conversion tracking
-- Advanced attribution modeling
-- Cross-platform measurement
+- Custom conversion tracking and advanced attribution modeling
+- Cross-platform measurement and reporting
 
-### 🛡️ **Security & Compliance**
-- Enterprise-grade data protection
-- GDPR and privacy regulation compliance
+### Security and Compliance
+- Enterprise-grade data protection and SOC 2 Type II certification
+- GDPR and privacy regulation compliance tools
 - Brand safety and fraud protection
-- Audit trails and governance controls
-- SOC 2 Type II certification
+- Governance controls with full audit trails
 
 ## Getting Started
 
-### 📋 **Implementation Timeline**
-- **Week 1-2**: Account setup and Google ecosystem integration
-- **Week 3-4**: Data source connections and audience configuration
-- **Week 5-6**: Campaign setup and creative development
-- **Ongoing**: AI-powered optimization and performance monitoring
-
-### 🎓 **Training & Support**
-- Skillshop certification programs
-- Google Marketing Platform training
-- Dedicated customer success management
-- 24/7 technical support
-- Regular optimization reviews
-
-### 💰 **Investment Details**
-- **Minimum Spend**: Typically $50,000+ monthly media spend
-- **Platform Fees**: Based on media spend percentage
-- **Professional Services**: Implementation and optimization support
-- **Training**: Google Skillshop certification programs included
+- **Week 1–2**: Account setup and Google Marketing Platform ecosystem integration
+- **Week 3–4**: Data source connections, audience configuration, and pixel implementation
+- **Week 5–6**: Campaign setup, creative trafficking, and deal ID configuration
+- **Ongoing**: AI-powered optimization, performance monitoring, and quarterly business reviews with Google
 
 ## Perfect For
 
-- **Enterprise Brands**: Large companies requiring sophisticated audience targeting and measurement
-- **Media Agencies**: Agencies managing complex, multi-client programmatic operations
-- **Marketing Directors**: Leaders needing unified campaign management across Google ecosystem
-- **Media Planners**: Specialists requiring advanced planning and optimization tools
-- **Campaign Managers**: Teams focused on execution and performance optimization
+- **Enterprise Brands**: Large companies requiring sophisticated programmatic buying with Google ecosystem advantages
+- **Media Agencies**: Agencies managing complex, multi-client programmatic operations at scale
+- **Marketing Directors**: Leaders needing unified campaign management and attribution across Google's stack
+- **Media Planners**: Specialists requiring advanced planning, audience, and CTV buying tools
+- **Campaign Managers**: Teams focused on execution and performance optimization at high volume
 
-## Why Choose Google Display & Video 360?
+## Frequently Asked Questions
 
-✅ **Google Integration**: Seamless workflow across Google's marketing ecosystem  
-✅ **Premium Inventory**: Direct access to YouTube and Google's exclusive ad inventory  
-✅ **Enterprise Scale**: Built to handle the most complex, large-scale advertising operations  
-✅ **AI-Powered**: Advanced machine learning for automated optimization and insights  
-✅ **Comprehensive Platform**: End-to-end solution from planning to measurement  
+**How much does Google DV360 cost?**
+DV360 uses a contract-based enterprise pricing model. There are no public fixed-price tiers. Platform fees are percentage-based on media spend — approximately 10–15% for open auction inventory and approximately 4% for YouTube and programmatic guaranteed. Practical minimum monthly spend to justify the platform is typically $50,000+.
+
+**Is Google DV360 available for small businesses or self-serve?**
+No. DV360 requires a Google Marketing Platform contract and is designed for enterprise advertisers and large agencies. Smaller advertisers are better served by Google Ads for search and display campaigns.
+
+**How does DV360 compare to The Trade Desk?**
+[The Trade Desk](/the-trade-desk) is the leading independent DSP and offers broader third-party data partnerships and a reputation for supply-chain transparency. DV360's primary advantage is exclusive access to YouTube inventory and deep integration with Google Analytics 360 and Campaign Manager. Enterprise advertisers often evaluate both based on inventory priorities.
+
+**How does DV360 compare to Amazon DSP?**
+[Amazon DSP](/amazon-dsp) specializes in leveraging Amazon's purchase-intent data for retail and e-commerce advertisers. DV360 offers broader reach across open-internet and Google-owned inventory. Advertisers in retail frequently use both platforms for complementary targeting signals.
+
+**Does DV360 support connected TV advertising?**
+Yes. DV360 provides access to CTV and streaming inventory through exchange partnerships and direct publisher deals. Recent additions include live sports inventory through an NBCUniversal partnership and Netflix exchange inventory through a creative pre-registration program.
+
+**What AI capabilities does DV360 offer?**
+DV360 includes AI-powered enhanced automation for bidding and targeting, Optimized Targeting for audience expansion, AI Audience Persona tools for audience creation, Demand Gen for YouTube/Gmail/Discover placements, and YouTube Pause Ads. Google continues to expand AI-driven campaign features across the platform.
+
+**Do I need other Google Marketing Platform tools to use DV360?**
+Not strictly, but DV360 is most valuable when integrated with Campaign Manager 360 (trafficking/measurement), Analytics 360 (audience and attribution), and Google Ads. Standalone use is possible but limits access to cross-platform data and optimization.
+
+## User Reviews & Social Proof
+
+DV360 does not have a standalone G2 profile. Google Marketing Platform holds an average rating of **4.1/5** from approximately **299 reviews** on G2.
+
+Capterra reviewers note:
+- *"Robust integration mechanism... customer support is awesome."*
+- *"Fantastic for large-scale campaigns... there is a learning curve for advanced dynamics."*
+
+Common praise focuses on the breadth of inventory access, YouTube exclusivity, and seamless Google ecosystem integration. Common criticisms include the complexity of the interface, the high spend threshold for practical viability, and limited flexibility compared to independent DSPs.
+
+## Google DV360 vs Alternatives
+
+### DV360 vs The Trade Desk
+[The Trade Desk](/the-trade-desk) is the most direct competitor to DV360 in the enterprise DSP space. The Trade Desk offers greater data marketplace access, stronger supply-path transparency commitments, and an independent (non-walled-garden) position. DV360's advantage is exclusive YouTube inventory and tighter Google stack integration. Most large agencies maintain both.
+
+### DV360 vs Amazon DSP
+[Amazon DSP](/amazon-dsp) provides unique access to Amazon's purchase-intent audience data, making it particularly effective for retail and CPG advertisers. DV360 offers broader open-internet reach and Google ecosystem advantages. Retail brands frequently use both platforms in tandem.
+
+### DV360 vs Meta Business Manager
+[Meta Business Manager](/meta-business-manager) provides access to Facebook, Instagram, and WhatsApp inventory — surfaces not available through DV360. DV360 covers open-internet display, video, CTV, and audio inventory. Enterprise advertisers typically run both as complementary channels rather than choosing one.
+
+### DV360 vs Basis Technologies
+Basis Technologies (formerly Centro) is an independent DSP with an integrated workflow covering planning, buying, and reporting. DV360 offers deeper programmatic capabilities and exclusive Google/YouTube inventory but requires larger minimum commitments. Basis may be more accessible for mid-market agencies.
+
+### DV360 vs MediaMath
+MediaMath is an independent enterprise DSP competing on data marketplace access and omnichannel reach. DV360 holds a structural advantage through YouTube exclusivity and Google's first-party data integration. MediaMath filed for bankruptcy in 2023 and exited the market, making DV360 and The Trade Desk the dominant enterprise DSP choices.
+
+## Recent Updates (2025–2026)
+
+- **March 2025**: Netflix exchange inventory made available through DV360 via a creative pre-registration program for select buyers.
+- **April 2025**: Demand Gen campaigns expanded to include Google Display Network image placements, broadening reach beyond YouTube, Gmail, and Discover.
+- **2025**: AI Audience Persona tools and targeting templates launched to streamline audience setup for programmatic campaigns.
+- **2025**: YouTube Pause Ads format introduced, allowing advertisers to display ads when viewers pause CTV content.
+- **January 2026**: NBCUniversal live sports CTV inventory made biddable within DV360, supporting Olympics and other live event buys.
+
+## Explore More Media Planning Tools
+
+- **[The Trade Desk](/the-trade-desk)** — Independent enterprise DSP for open-internet programmatic buying
+- **[Amazon DSP](/amazon-dsp)** — Programmatic DSP with Amazon purchase-intent audience data
+- **[Meta Business Manager](/meta-business-manager)** — Native platform for Facebook and Instagram advertising
+- **[Measured](/measured)** — Incrementality testing and MMM platform for cross-channel attribution
+- **[Comscore](/comscore)** — Audience measurement and cross-platform analytics
+- **[Basis](/basis)** — Integrated media buying platform covering programmatic and direct buys
+- **[Halliard](/halliard)** — Media planning tool built for independent agencies and in-house teams
 
 [Visit Google Display & Video 360 →](https://marketingplatform.google.com/about/display-video-360/)
-
----
-
-*Google's enterprise programmatic platform for comprehensive campaign management and optimization* 
