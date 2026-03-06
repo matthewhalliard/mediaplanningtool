@@ -1,8 +1,8 @@
 ---
 id: mri-simmons
 title: MRI-Simmons
-seoTitle: "MRI-Simmons: Pricing, Features & Best Alternatives 2025"
-description: Leading provider of actionable insights on the American consumer with comprehensive demographic, psychographic, and media consumption data through the Catalyst platform.
+seoTitle: "MRI-Simmons: Pricing, Reviews & Features 2026"
+description: Leading provider of actionable insights on the American consumer with 60,000+ data elements covering psychographics, media consumption, and brand preferences. The Catalyst platform enables audience profiling, analysis, and activation via ACT.
 tags:
   - audience-research
   - audience-analytics
@@ -33,121 +33,113 @@ pricing: Enterprise
 category: Consumer Intelligence Platform
 ---
 
-**The leading provider of actionable insights on the American consumer**
+**The most comprehensive view of the American consumer — 60,000+ data elements for planning, research, and audience activation**
 
-MRI-Simmons empowers marketers with the most comprehensive view of the American consumer through 60,000+ consumer elements, covering demographics, psychographics, media consumption, and brand preferences. The Catalyst platform transforms insights into activation across the customer lifecycle.
+MRI-Simmons is a consumer research and intelligence platform that provides marketers with the depth of data needed to understand, plan, and reach American audiences. Its flagship Catalyst platform covers 60,000+ consumer elements including demographics, psychographics, brand preferences, and media consumption patterns. Audiences built in Catalyst can be activated directly to DMPs, DSPs, and addressable media via the ACT tool. Pricing is enterprise-only. MRI-Simmons is not publicly rated on G2 or Capterra (reviews for "MRI-Simmons" on those platforms typically refer to unrelated property management software).
 
 ## Key Features
 
-### 📊 **Comprehensive Consumer Data**
-- 60,000+ consumer elements covering every aspect of American consumers
+### Comprehensive Consumer Data
+- 60,000+ consumer elements covering demographics, psychographics, media consumption, and brand preferences
 - 1,000+ attitudes and opinions for deep psychographic analysis
 - 6,500+ brands tracked across 1,000+ product categories
 - 90+ proprietary audience segments for targeted planning
+- Nationally representative, privacy-compliant survey data
 
-### 🚀 **Catalyst Platform**
-- Consumer insights and activation engine for strategy and results
-- Self-service experience with complete data transparency
-- Interactive charts and custom formatting for visual storytelling
+### Catalyst Platform
+- Self-service consumer insights and activation engine
+- Interactive charts and custom visualizations for reporting
+- Consumer profiling, cross-tabulation, and statistical analysis
 - Shareable reports and dashboards for team collaboration
+- Geo-mapping by region, state, market, or county
 
-### 🎯 **Activation & Targeting**
+### Audience Activation (ACT)
 - Direct audience activation to any DMP, DSP, SSP, or addressable media
 - Consistent audience definitions across the campaign lifecycle
-- Real-time campaign optimization and performance tracking
 - Privacy-compliant data activation and targeting
+- Maintains audience definition integrity from planning through execution
 
-### 📈 **Advanced Analytics**
+### Brand Analytics
 - Brand Catalyst for brand strategy and predictive segmentation
+- Competitive landscape and brand perception analysis
+- Consumer journey mapping and purchase behavior insights
 - Custom survey integration for proprietary research needs
-- Geo-mapping capabilities by region, state, market, or county
-- Quick reports and templated visualizations for faster insights
+
+### Local & National Studies
+- MRI-Simmons USA: comprehensive national consumer survey
+- Connect study for deeper behavioral insights
+- Market-by-Market local studies for geographic targeting
+- Local Flex Markets for specific geography focus
 
 ## Business Impact
 
-- **Campaign Performance**: Optimize campaigns with consistent audience targeting
-- **Market Understanding**: Comprehensive view of American consumer behavior
-- **Efficient Planning**: Streamlined workflow from insights to activation
-- **Competitive Advantage**: Access to the most trusted consumer dataset
+- Enables consistent audience targeting from planning through campaign execution
+- Supports strategic audience decisions with the most comprehensive US consumer dataset
+- Streamlines the path from insights to media activation
+- Published 2026 State of Black American Consumers report (February 2026)
 
-## Platform Modules
+## Pricing
 
-### 🔍 **Research Essentials**
-- Advanced consumer profiling and segmentation
-- Trend analysis and market intelligence
-- Cross-tabulation and statistical analysis
-- Custom audience definition and validation
+MRI-Simmons pricing is **enterprise-only** with no publicly available tiers or amounts. Third-party estimates of $500–$1,500 (found on some aggregator sites) are likely inaccurate. Custom enterprise licensing is available for agencies, brands, and research teams. Contact MRI-Simmons for a quote.
 
-### 🎨 **Brand Catalyst**
-- Brand positioning and perception analysis
-- Competitive landscape evaluation
-- Consumer journey mapping
-- Predictive audience modeling
+## Frequently Asked Questions
 
-### 💡 **Activation (ACT)**
-- Seamless audience activation across platforms
-- Campaign planning and execution tools
-- Performance measurement and optimization
-- Multi-channel audience consistency
+**How much does MRI-Simmons cost?**
+MRI-Simmons does not publish pricing. It is an enterprise product with custom licensing. Third-party sites list speculative ranges, but actual pricing requires contacting MRI-Simmons sales directly.
 
-## Data Excellence
+**Is there a free trial for MRI-Simmons?**
+No free trial is publicly offered. MRI-Simmons is an enterprise platform typically sold through a sales-led process.
 
-### 📋 **National Studies**
-- MRI-Simmons USA comprehensive consumer survey
-- Connect study for deeper behavioral insights
-- Regular data collection ensuring freshness
-- Statistically representative national sample
+**How does MRI-Simmons compare to GWI?**
+MRI-Simmons focuses on the American consumer with 60,000+ data elements and is considered the gold standard for US audience research. GWI (formerly GlobalWebIndex) provides global survey data covering 50+ countries, making it stronger for international research. GWI also offers more accessible tiered pricing. For US-only planning depth, MRI-Simmons has more comprehensive coverage; for global research needs, GWI provides wider reach.
 
-### 🏪 **Local Market Insights**
-- Market-by-Market detailed local studies
-- Local Flex Markets for specific geography focus
-- Custom local market reporting
-- Regional consumer behavior analysis
+**How does MRI-Simmons compare to Scarborough?**
+[Scarborough](/scarborough) (by Nielsen) focuses on local market consumer data across 83+ US DMAs, with strength in local broadcast media planning. MRI-Simmons focuses on national consumer psychographics, brand behavior, and media consumption with audience activation capabilities. The two platforms are complementary — Scarborough for local DMA-level planning, MRI-Simmons for national consumer profiling and activation.
 
-### 📰 **Media & Print Intelligence**
-- Magazine readership and engagement data
-- Digital media consumption patterns
-- Cross-platform media behavior
-- Issue-specific and brand studies
+**Can MRI-Simmons data be activated in programmatic campaigns?**
+Yes. The ACT tool enables direct activation of MRI-Simmons audience segments to DMPs, DSPs, SSPs, and addressable media platforms. Audience definitions remain consistent from planning through execution.
 
-## Getting Started
+**What is the difference between the Catalyst platform and ACT?**
+Catalyst is the research and analysis platform for building consumer profiles, running cross-tabulations, and visualizing data. ACT is the activation layer that takes audience segments built in Catalyst and pushes them to programmatic platforms for targeting.
 
-### 📋 **Implementation Timeline**
-- **Week 1**: Platform access and initial training
-- **Week 2-3**: Data integration and audience setup
-- **Week 4**: Campaign planning and activation testing
-- **Ongoing**: Optimization and performance monitoring
+**Does MRI-Simmons cover local markets?**
+Yes. MRI-Simmons offers Market-by-Market local studies and Local Flex Markets, though its primary strength is national consumer research. For deep DMA-level local planning, Scarborough tends to have more granular local market coverage.
 
-### 🎓 **Training & Support**
-- Comprehensive Catalyst platform training
-- Best practices workshops and certification
-- Dedicated customer success management
-- Technical support and optimization guidance
+## User Reviews & Social Proof
 
-### 💰 **Investment Details**
-- **Enterprise Pricing**: Custom packages based on usage and requirements
-- **Flexible Licensing**: Options for agencies, brands, and research teams
-- **Data Integration**: API access and custom data connections
-- **Professional Services**: Implementation and optimization support
+No public G2 or Capterra reviews are available for MRI-Simmons as a media research product. The platform is widely cited in agency RFPs and media planning workflows as an industry standard for US consumer research.
 
-## Perfect For
+MRI-Simmons is referenced by competitors like GWI, which notes in its own comparisons that MRI-Simmons is "a gold standard in US consumer research" and the primary alternative for US-focused planners.
 
-- **Media Agencies**: Agencies needing comprehensive consumer intelligence for client campaigns
-- **Marketing Directors**: Leaders requiring deep market insights for strategic planning
-- **Media Planners**: Specialists optimizing media strategies with audience data
-- **Research Teams**: Dedicated researchers conducting consumer and market studies
-- **Brand Strategists**: Teams developing positioning and messaging strategies
+## MRI-Simmons vs Alternatives
 
-## Why Choose MRI-Simmons?
+### MRI-Simmons vs GWI
+GWI provides global consumer survey data covering 50+ countries with accessible tiered pricing. MRI-Simmons provides deeper US-focused consumer data across 60,000+ elements. GWI is better for international research; MRI-Simmons is better for comprehensive US audience planning and activation.
 
-✅ **Industry Standard**: Trusted by the industry for decades as the gold standard  
-✅ **Comprehensive Data**: Most complete view of American consumer behavior  
-✅ **Activation Ready**: Seamless transition from insights to campaign execution  
-✅ **Privacy Compliant**: First-party data ensures privacy and compliance  
-✅ **Proven Results**: Track record of driving successful campaigns and strategies  
+### MRI-Simmons vs Scarborough
+[Scarborough](/scarborough) focuses on local market consumer data across 83+ US DMAs with strength in local broadcast planning. MRI-Simmons provides national consumer psychographics and brand data with direct audience activation. Both are frequently used together by agencies managing both local and national campaigns.
+
+### MRI-Simmons vs Comscore
+[Comscore](/comscore) measures actual campaign delivery and provides programmatic targeting segments through Proximic. MRI-Simmons is used for pre-campaign research, consumer profiling, and audience activation. Comscore is stronger for measurement; MRI-Simmons is stronger for consumer intelligence and strategic planning.
+
+### MRI-Simmons vs Resonate
+[Resonate](/resonate) provides AI-powered consumer intelligence with 250M US profiles and 15,000+ attributes, updated in real time. MRI-Simmons is survey-based with deeper historical depth across 60,000+ elements. Resonate is stronger for real-time consumer intent signals; MRI-Simmons is considered more authoritative for survey-based national research.
+
+## Recent Updates (2025–2026)
+
+- **February 2026**: Released the 2026 State of Black American Consumers report providing in-depth insights on Black American purchasing behavior, media consumption, and brand preferences
+- **December 2025**: Published insights on 2026 consumer trends and spending forecasts
+- **September 2025**: Released analysis of holiday shopping behaviors and consumer sentiment
+- **Ongoing**: Continued development of Catalyst platform with visualization and reporting enhancements
+
+## Explore More Media Planning Tools
+
+- **[Halliard](/halliard)** — Modern media planning platform with reach/frequency analysis and integrated audience tools
+- **[Scarborough](/scarborough)** — Local market consumer intelligence across 83+ DMAs for DMA-level media planning
+- **[Comscore](/comscore)** — Cross-platform campaign measurement and Proximic contextual targeting
+- **[GWI](/gwi)** — Global consumer research platform covering 50+ countries with accessible tiered pricing
+- **[Resonate](/resonate)** — AI-powered consumer intelligence with 250M US profiles and real-time behavioral data
+- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media simulation and planning tool using Nielsen audience data
+- **[Telmar Helixa](/telmar-helixa)** — AI-powered audience intelligence for psychographic profiling and planning
 
 [Visit MRI-Simmons →](https://www.mrisimmons.com/)
-
----
-
-*The most comprehensive view of the American consumer - empowering action from insights* 
