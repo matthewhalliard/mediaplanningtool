@@ -1,8 +1,8 @@
 ---
 id: guideline
 title: Guideline
-seoTitle: "Guideline: Pricing, Features & Best Alternatives 2025"
-description: AI-driven media planning and data intelligence platform that empowers strategy with unrivaled market intelligence, aggregating $156B in annual global media spend from major agencies to deliver precision and operational excellence for confident decision-making. Compare pricing, features, and alternatives.
+seoTitle: "Guideline: Pricing, Reviews & Features 2026"
+description: AI-driven media intelligence and planning platform aggregating $156B+ in annual global media spend from major agencies, now including an MCP Server for AI agent integration and an AI Factory for automated digital placement classification and ad spend insights.
 tags:
   - media-planning
   - audience-analytics
@@ -32,142 +32,129 @@ pricing: Enterprise
 category: AI Media Intelligence Platform
 ---
 
-**The future of media buying and selling made smarter with AI-driven platform and unrivaled market intelligence**
+**The AI-powered media intelligence and planning platform aggregating $156B+ in global ad spend data**
 
-Guideline revolutionizes media strategy with cutting-edge AI technology, delivering comprehensive market intelligence and operational excellence. By aggregating $156B in annual global media spend from leading agencies and independents, Guideline provides the most detailed market insights available, empowering media professionals to make confident decisions in an ever-evolving landscape.
+Guideline (guideline.ai) combines two capabilities: a real-time market intelligence engine built on aggregated billing data from leading agencies, and a dynamic media plan management platform for global teams. In 2025 and early 2026, the company significantly expanded its AI layer — launching an AI Factory for automated digital placement classification, an AI Agent for spend insights, and an MCP Server enabling AI agents to interact directly with media plan data. Trusted by 90% of top global media companies, including all five major US broadcasters and six major agency holding companies.
 
 ## Key Features
 
-### 🤖 **AI-Powered Intelligence**
-- Advanced artificial intelligence for automated market analysis
-- Real-time data processing and trend identification
-- Predictive analytics for campaign optimization
-- Automated insights generation and strategic recommendations
-- Machine learning algorithms for pattern recognition and forecasting
+### AI-Powered Intelligence
+- AI Factory: automated digital placement classification and AI-driven analysis across ad spend data (February 2026)
+- AI Agent for real-time ad spend insights and strategic recommendations (October 2025)
+- MCP (Model Context Protocol) Server enabling AI agents to interact with media plan management workflows (March 2026)
+- Predictive analytics for campaign optimization and market trend identification
+- Machine learning for pattern recognition across $156B+ in aggregated spend data
 
-### 📊 **Comprehensive Data Platform**
-- $156B in aggregated annual global media spend data
-- Exclusive billing data from world's leading agencies and independents
-- Real-time market indicators and trend analysis
+### Comprehensive Data Platform
+- $156B+ in aggregated annual global media spend from leading agencies and independents
+- Exclusive billing data providing forward-booking and pricing benchmark intelligence
+- Real-time market indicators across ad formats, channels, and markets
 - Cross-platform measurement and analytics capabilities
-- Transparent insights for competitive intelligence
+- Competitive intelligence built from actual spend flows rather than estimated models
 
-### 🎯 **Advanced Planning Platform**
-- Unified media planning with effortless integration
-- Real-time insights and seamless team collaboration
-- Standardization with flexibility for global and local teams
-- Enhanced workflow automation and approval processes
-- Intelligent reporting in flexible formats
+### Advanced Planning Platform
+- Dynamic media plan management with global team collaboration
+- Real-time insights integrated directly into planning workflows
+- Standardized data structures with flexibility for global and local teams
+- Enhanced workflow automation, approval processes, and version control
+- Intelligent reporting in flexible formats for different stakeholder needs
 
-### 🔍 **Market Leadership Tools**
-- Grow share of wallet with targeted insights
-- Master media trends with comprehensive analysis
-- Ad format pricing optimization
-- Competitive market sizing and positioning
-- Strategic decision-making support
+### Market Intelligence Tools
+- Ad format pricing optimization using forward-booking and historical benchmark data
+- Competitive market sizing and share-of-wallet analysis
+- Media trend identification across channels and markets
+- Strategic decision support for buy-side and sell-side media professionals
 
 ## Business Impact
 
 - **Market Coverage**: Trusted by 90% of top global media companies
-- **Data Scale**: $156B in annual media spend aggregated
-- **Industry Leadership**: 5 of 5 top US broadcasters use Guideline's solutions
-- **Agency Partnerships**: 6 major holding companies partnered for data exchange
+- **Data Scale**: $156B+ in annual global media spend aggregated
+- **Industry Adoption**: All 5 top US broadcasters use Guideline's solutions
+- **Agency Partnerships**: 6 major holding companies partner for bidirectional data exchange
 
 ## Enterprise Solutions
 
-### 🏢 **Media Strategy Excellence**
-- **Strategic Planning**: Comprehensive market intelligence for informed decision-making
-- **Competitive Analysis**: Deep insights into market dynamics and positioning
-- **Trend Identification**: Real-time analysis of emerging media patterns
-- **Budget Optimization**: Data-driven recommendations for media spend allocation
-- **Performance Benchmarking**: Industry-standard comparisons and insights
+### Media Strategy Excellence
+- Comprehensive market intelligence for informed budget allocation decisions
+- Deep competitive analysis of media market dynamics and pricing
+- Real-time trend identification across emerging and established media channels
+- Performance benchmarking against actual market spending norms
+- AI-generated insights layered on top of raw spend data
 
-### 💰 **Financial & Investment Intelligence**
-- **Market Analysis**: Detailed intelligence for informed investment decisions
-- **Financial Forecasting**: Sharp analysis designed for agile market navigation
-- **ROI Optimization**: Comprehensive measurement and optimization tools
-- **Risk Assessment**: Market insight for strategic risk management
-- **Investment Strategy**: Data-driven financial decision support
+### Financial & Investment Intelligence
+- Detailed market analysis for investment and financial forecasting decisions
+- Sharp market navigation designed for fast-moving advertising environments
+- ROI optimization with measurement and scenario tools
+- Risk assessment using market-level spend signals
 
-### 📈 **Research & Content Strategy**
-- **Global Trends**: Deep market intelligence for content optimization
-- **Publishing Strategy**: Audience insights for strategic content planning
-- **Competitive Edge**: Advanced analytics for market positioning
-- **Content Performance**: Data-driven insights for content optimization
-- **Market Research**: Comprehensive audience and market analysis
+### Research & Content Strategy
+- Global media trend data for content strategy and publishing decisions
+- Audience and market analysis for strategic content positioning
+- Competitive positioning intelligence across media channels
+- Cross-border strategy support for international media planning
 
-## Getting Started
+## Pricing
 
-### 📋 **Platform Implementation**
-- **Phase 1**: Data integration and platform configuration
-- **Phase 2**: Team training and workflow optimization
-- **Phase 3**: Advanced analytics and insights activation
-- **Ongoing**: Continuous optimization and strategic consulting
+Guideline does not publish pricing. The platform uses **custom enterprise contracts**.
 
-### 🎓 **Expert Training & Support**
-- **Platform Certification**: Comprehensive training on all platform capabilities
-- **Strategic Consulting**: Expert guidance from media industry veterans
-- **Best Practices**: Proven methodologies for platform optimization
-- **Ongoing Support**: Dedicated account management and technical support
-- **Regular Updates**: Continuous platform enhancements and feature releases
+- **Pricing model**: Custom enterprise; contact sales
+- **Typical structure**: Likely based on data access scope, number of users, and markets covered
+- **No self-serve tier**: Engagement through direct sales and demos
 
-### 💰 **Enterprise Investment**
-- **Custom Solutions**: Tailored pricing based on data needs and scale
-- **Global Licensing**: Multi-market intelligence and analytics capabilities
-- **API Access**: Integration support for custom development needs
-- **Strategic Partnership**: Long-term collaboration for ongoing optimization
-- **ROI Guarantee**: Proven market intelligence and decision-making improvement
+Contact Guideline sales at guideline.ai for pricing specific to your intelligence and planning requirements.
 
-## Perfect For
+## Frequently Asked Questions
 
-- **Media Strategy Professionals**: Leaders needing comprehensive market intelligence for strategic decisions
-- **Marketing Directors**: Executives requiring data-driven insights for campaign optimization
-- **Media Planners**: Specialists planning campaigns with real-time market intelligence
-- **Financial Analysts**: Professionals needing detailed market data for investment decisions
-- **Data Analysts**: Teams requiring comprehensive market insights and trend analysis
-- **Investment Analysts**: Professionals analyzing media market opportunities and risks
+**How much does Guideline cost?**
+Guideline does not publish pricing. The platform is sold through a custom enterprise contract process. Contact the sales team at guideline.ai for a quote based on your data requirements, team size, and market coverage.
 
-## Advanced Capabilities
+**What is the Guideline AI Factory?**
+The AI Factory, launched in February 2026, is Guideline's AI infrastructure layer designed to accelerate AI-powered capabilities across its intelligence and planning products. The first output was AI Digital Placement Classification — automated categorization of digital ad placements using AI.
 
-### 🔧 **Technology Integration**
-- **Real-Time Processing**: Instant access to market intelligence and insights
-- **API Connectivity**: Seamless integration with existing technology stacks
-- **Custom Dashboards**: Tailored visualization and reporting tools
-- **Data Export**: Flexible data access and integration capabilities
-- **Security**: Enterprise-grade data protection and privacy compliance
+**What is the Guideline MCP Server?**
+Launched in March 2026, Guideline's MCP (Model Context Protocol) Server allows AI agents and AI workflows to interact directly with media plan management data. It enables teams building AI-powered planning and reporting workflows to connect those agents to Guideline's plan management infrastructure.
 
-### 📊 **Analytics & Insights**
-- **Predictive Modeling**: AI-powered forecasting and trend prediction
-- **Market Segmentation**: Detailed analysis of market segments and opportunities
-- **Performance Tracking**: Comprehensive measurement and optimization tools
-- **Competitive Intelligence**: Deep insights into competitor strategies and performance
-- **Strategic Recommendations**: AI-generated insights for strategic decision-making
+**How does Guideline compare to Bionic for media planning?**
+[Bionic](/bionic) is a purpose-built media plan creation tool with strong flowchart, RFP, and trafficking features. Guideline combines market intelligence (real spend data from agencies) with plan management. The key differentiator is Guideline's data layer — actual billing data from major agencies providing pricing benchmarks and competitive intelligence that standalone planning tools lack.
 
-### 🌐 **Global Intelligence**
-- **Multi-Market Analysis**: Comprehensive insights across international markets
-- **Currency Conversion**: Real-time conversion and market comparisons
-- **Regional Trends**: Localized insights and market intelligence
-- **Global Benchmarking**: International performance comparisons and analysis
-- **Cross-Border Strategy**: Intelligence for global media planning and execution
+**Who uses Guideline?**
+Guideline serves both buy-side (agencies, brands) and sell-side (broadcasters, publishers) media professionals. On the buy side, media planners use it for market intelligence and plan management; on the sell side, broadcasters use it for competitive analysis and pricing strategy.
 
-## Why Choose Guideline?
+**Is Guideline only for large agencies?**
+Guideline's data scale (90% of top global media companies, 6 holding company data partnerships) positions it as an enterprise product, but the platform serves a range of media professionals from major holding companies to independent agencies and brand in-house teams.
 
-✅ **AI Leadership**: Cutting-edge artificial intelligence for automated market insights  
-✅ **Data Excellence**: Largest aggregated media spend database in the industry  
-✅ **Market Trust**: Trusted by 90% of top global media companies and agencies  
-✅ **Real-Time Intelligence**: Instant access to current market data and trends  
-✅ **Strategic Partnership**: Proven collaboration for measurable business impact  
+## User Reviews & Social Proof
 
-## Industry Recognition
+No verified user reviews for Guideline are available on G2 or Capterra. The product's enterprise positioning and specialized use case limit public review volume.
 
-- **Market Leadership**: 90% of top global media companies trust Guideline's solutions
-- **Data Authority**: $156B in annual media spend aggregated from major agencies
-- **Industry Adoption**: 5 of 5 top US broadcasters leverage Guideline's intelligence
-- **Partnership Network**: 6 major agency holding companies provide and receive data
-- **Innovation Leader**: Pioneering AI-driven media intelligence and planning solutions
+## Guideline vs Alternatives
+
+### Guideline vs Bionic
+[Bionic](/bionic) is a focused media planning tool strong on flowcharts, plan creation, and vendor management. Guideline adds a layer Bionic does not have: real-time market intelligence from $156B+ in actual agency billing data, providing pricing benchmarks, competitive intelligence, and spend trend data directly in the planning workflow. Teams choosing between them often consider whether market intelligence is a primary need or secondary to plan production.
+
+### Guideline vs Mediaocean
+[Mediaocean](/mediaocean) is an end-to-end media management platform with deep agency workflow, billing, and reconciliation capabilities. Guideline's differentiator is its AI intelligence layer and its unique aggregated spend data — most valuable for teams that need market-level insights alongside plan management, rather than back-office financial workflow.
+
+### Guideline vs Mediatool (Camphouse)
+[Mediatool](/mediatool) (now Camphouse) focuses on campaign workflow management, cross-team collaboration, and centralized plan data. Guideline's strength is in the intelligence layer: actual market spend data, forward pricing benchmarks, and AI-driven analysis. These tools address adjacent but distinct needs; some teams use both.
+
+### Guideline vs Halliard
+[Halliard](/halliard) is built for modern media planning workflows with a focus on strategic planning. Guideline's market intelligence capabilities — real spend data from major agencies — give it a distinct advantage for planners who need competitive pricing and spend benchmarks to inform strategy.
+
+## Recent Updates (2025–2026)
+
+- **March 2026**: Launched Media Plan Management MCP Server, enabling AI agents to directly interface with Guideline media plan data for AI-powered planning workflows
+- **February 2026**: Launched AI Factory with initial release of AI Digital Placement Classification, automating categorization of digital ad placements using AI
+- **October 2025**: Released AI Agent for ad spend insights, providing automated intelligence and recommendations from aggregated spend data
+- **June 2025**: Enhanced Planning Suite launched with advanced analytics and expanded collaboration capabilities
+
+## Explore More Media Planning Tools
+
+- **[Bionic](/bionic)** — Purpose-built media plan creation with flowcharts, RFP management, and trafficking tools
+- **[Mediaocean](/mediaocean)** — End-to-end agency media management with billing and reconciliation
+- **[Mediatool](/mediatool)** — Campaign workflow management platform for enterprise marketing teams
+- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-channel reach and frequency planning
+- **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
+- **[Keen](/keen)** — AI-powered marketing mix modeling for budget optimization and revenue forecasting
 
 [Visit Guideline →](https://www.guideline.ai/)
-
----
-
-*The AI-powered platform delivering unrivaled market intelligence for confident media strategy decisions* 
