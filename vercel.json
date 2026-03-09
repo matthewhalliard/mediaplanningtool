@@ -2,13 +2,18 @@
   "framework": "astro",
   "redirects": [
     {
+      "source": "/mediatool",
+      "destination": "/camphouse",
+      "permanent": true
+    },
+    {
       "source": "/tools/mediatool",
-      "destination": "/tools/camphouse",
+      "destination": "/camphouse",
       "permanent": true
     },
     {
       "source": "/directory/mediatool",
-      "destination": "/directory/camphouse",
+      "destination": "/camphouse",
       "permanent": true
     }
   ]
