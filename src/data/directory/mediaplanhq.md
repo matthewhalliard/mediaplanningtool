@@ -93,7 +93,7 @@ Paid users have full access to create and edit media plans. Observers are free a
 [Bionic](/bionic) is a well-established media planning and flowchart tool with RFP management and vendor research features, used widely by independent agencies. Both are accessible alternatives to enterprise platforms, with overlapping planning and budget tracking features. Bionic has stronger RFP and vendor outreach tools; MediaPlanHQ has a deeper invoice reconciliation workflow. Pricing is comparable.
 
 **How does MediaPlanHQ compare to Mediatool?**
-[Mediatool](/mediatool) (now operating as Camphouse) is a media planning and campaign management platform with collaboration and reporting features. Mediatool has stronger cross-team collaboration tools; MediaPlanHQ has a more focused financial reconciliation workflow for agencies managing invoice matching.
+[Camphouse](/camphouse) (now operating as Camphouse) is a media planning and campaign management platform with collaboration and reporting features. Camphouse has stronger cross-team collaboration tools; MediaPlanHQ has a more focused financial reconciliation workflow for agencies managing invoice matching.
 
 **Does MediaPlanHQ have AI features?**
 No AI features have been announced for MediaPlanHQ as of early 2026. The platform focuses on operational workflow — planning, invoicing, and reconciliation — rather than AI-driven analytics or optimization.
@@ -114,8 +114,8 @@ The tool appears in multiple independent media planning tool roundups, including
 ### MediaPlanHQ vs Bionic
 [Bionic](/bionic) is one of the most commonly recommended alternatives to spreadsheet-based media planning. It offers robust media plan creation, flowcharting, RFP management, and vendor research tools. MediaPlanHQ has deeper invoice reconciliation and integrated creative project management. Both target small-to-mid-sized agencies and publish accessible pricing.
 
-### MediaPlanHQ vs Mediatool
-[Mediatool](/mediatool) — now operating as Camphouse — provides media planning, campaign management, and cross-team collaboration tools. Mediatool has stronger collaboration and approval workflow features; MediaPlanHQ focuses more tightly on the planning-to-invoice workflow. Both are Subscription-tier tools appropriate for agency teams.
+### MediaPlanHQ vs Camphouse
+[Camphouse](/camphouse) — now operating as Camphouse — provides media planning, campaign management, and cross-team collaboration tools. Camphouse has stronger collaboration and approval workflow features; MediaPlanHQ focuses more tightly on the planning-to-invoice workflow. Both are Subscription-tier tools appropriate for agency teams.
 
 ### MediaPlanHQ vs GaleForce Media
 [GaleForce Media](/galeforce-media) is a media planning and buying platform with a focus on local and regional advertising. It includes traffic and billing capabilities suited to broadcast and digital buying. MediaPlanHQ is media-agnostic and focuses more on plan management and reconciliation across any channel.
@@ -133,7 +133,7 @@ The tool appears in multiple independent media planning tool roundups, including
 ## Explore More Media Planning Tools
 
 - **[Bionic](/bionic)** — Media planning and flowchart tool with RFP management for independent agencies
-- **[Mediatool](/mediatool)** — Campaign management and media planning collaboration platform
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[GaleForce Media](/galeforce-media)** — Media planning and buying platform for local and regional advertisers
 - **[Bluhorn](/bluhorn)** — Media buying and planning software for independent agencies
 - **[Strata](/strata)** — Media buying and traffic management for broadcast and digital agencies
