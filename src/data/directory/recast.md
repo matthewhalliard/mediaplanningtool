@@ -8,6 +8,7 @@ tags:
   - audience-analytics
 link: https://getrecast.com/
 featured: false
+image: ./images/recast.png
 targetUsers:
   - Growth teams
   - Marketing managers
