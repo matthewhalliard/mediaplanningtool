@@ -14,6 +14,7 @@ tags:
   - media-planners
 link: https://ads.tiktok.com/
 featured: false
+image: ./images/tiktok-ads-manager.png
 targetUsers:
   - Social Media Managers
   - Performance Marketers
