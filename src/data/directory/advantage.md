@@ -150,7 +150,7 @@ Workamajig is a project management and accounting platform for creative agencies
 - **[GaleForce Media](/galeforce-media)** — Web-based media planning and buying with invoice reconciliation
 - **[Mediaocean](/mediaocean)** — Enterprise campaign management from planning to billing
 - **[Placements.io](/placements-io)** — Modern order management system for media sales and buying
-- **[Mediatool](/mediatool)** — Cloud-based media planning and reporting platform
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Halliard](/halliard)** — Media planning tool built for modern agency workflows
 
 [Visit Advantage →](https://www.gotoadvantage.com/)
