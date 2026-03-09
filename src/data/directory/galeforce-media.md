@@ -14,6 +14,7 @@ tags:
   - in-house-teams
 link: https://galeforcedigital.com/
 featured: false
+image: ./images/galeforce-media.png
 targetUsers:
   - Media Agencies
   - Media Planners
