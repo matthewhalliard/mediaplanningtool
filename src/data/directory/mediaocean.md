@@ -111,7 +111,7 @@ Prisma is Mediaocean's core media buying and campaign management platform. It ha
 Yes. Mediaocean has invested significantly in AI, including the Moe AI assistant within Prisma, and AI Agents through Innovid (launched November 2025). The company published a 2026 Advertising Outlook Report in February 2026 focused on AI's rise in media operations.
 
 **What size organization is Mediaocean best suited for?**
-Mediaocean is designed for large agencies, holding companies, and enterprise brands. Smaller agencies or independent shops often find lighter tools like [Basis](/basis), [Bionic](/bionic), or [Mediatool](/mediatool) more practical and cost-effective.
+Mediaocean is designed for large agencies, holding companies, and enterprise brands. Smaller agencies or independent shops often find lighter tools like [Basis](/basis), [Bionic](/bionic), or [Camphouse](/camphouse) more practical and cost-effective.
 
 ## User Reviews & Social Proof
 
@@ -158,7 +158,7 @@ Common themes in reviews include Mediaocean's breadth of functionality, strong a
 - **[Adobe Advertising Cloud](/adobe-advertising-cloud)** — Programmatic buying and cross-channel campaign management in the Adobe ecosystem
 - **[The Trade Desk](/the-trade-desk)** — Programmatic DSP for data-driven omnichannel buying
 - **[Placements.io](/placements-io)** — Order management and ad operations platform for publishers and agencies
-- **[Mediatool](/mediatool)** — Campaign management and media planning collaboration platform
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
 [Visit Mediaocean →](https://www.mediaocean.com/)
