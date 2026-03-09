@@ -14,6 +14,7 @@ tags:
   - media-planners
 link: https://www.clickup.com/
 featured: false
+image: ./images/clickup.png
 targetUsers:
   - Marketing Teams
   - Media Planners
