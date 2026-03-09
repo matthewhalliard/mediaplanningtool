@@ -14,6 +14,7 @@ tags:
   - marketing-directors
 link: https://www.akkio.com/
 featured: false
+image: ./images/akkio.png
 targetUsers:
   - Media Agencies
   - Media Planners
