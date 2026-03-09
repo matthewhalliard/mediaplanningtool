@@ -9,6 +9,7 @@ tags:
   - featured
 link: https://measured.com/
 featured: true
+image: ./images/measured.png
 targetUsers:
   - Enterprise Marketers
   - Performance Marketing Teams
