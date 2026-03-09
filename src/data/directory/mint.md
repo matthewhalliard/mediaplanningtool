@@ -160,8 +160,8 @@ The platform was named **Best Marketing Campaign Management Platform** at the **
 ### MINT.ai vs Halliard
 [Halliard](/halliard) is a more accessible media planning OS with a free individual plan. MINT.ai targets enterprise-scale operations with its AI agents and deep actualization capabilities. Teams at the enterprise level with high actualization complexity may evaluate MINT.ai; smaller and mid-market teams often find Halliard a better fit.
 
-### MINT.ai vs Mediatool
-[Mediatool](/mediatool) offers a collaborative planning interface for global teams. MINT.ai differentiates with its AI automation layer, particularly for actualization and predictive planning at larger campaign volumes.
+### MINT.ai vs Camphouse
+[Camphouse](/camphouse) offers a collaborative planning interface for global teams. MINT.ai differentiates with its AI automation layer, particularly for actualization and predictive planning at larger campaign volumes.
 
 ## Recent Updates (2025–2026)
 
@@ -176,7 +176,7 @@ The platform was named **Best Marketing Campaign Management Platform** at the **
 - **[Halliard](/halliard)** — The OS for modern media teams: unified planning, approvals, and performance tracking with a free individual plan
 - **[Mediaocean](/mediaocean)** — Enterprise media management platform with deep financial and broadcast buying capabilities
 - **[Basis](/basis)** — Integrated digital media management with built-in DSP and planning tools
-- **[Mediatool](/mediatool)** — Collaborative media planning and performance management for global teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Bionic](/bionic)** — Agency-focused media planning and proposal workflow platform
 - **[Media Plan HQ](/mediaplanhq)** — Lightweight media plan builder for fast, shareable campaign plans
 - **[ClickUp](/clickup)** — All-in-one work management platform used by marketing teams for campaign coordination
