@@ -10,6 +10,7 @@ tags:
   - featured
 link: https://mediabrain.com/
 featured: true
+image: ./images/mediabrain.png
 targetUsers:
   - Agencies
   - Media Planners
