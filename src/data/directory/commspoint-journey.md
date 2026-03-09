@@ -14,6 +14,7 @@ tags:
   - media-planners
 link: https://www.nielsen.com/solutions/media-planning/
 featured: false
+image: ./images/commspoint-journey.png
 targetUsers:
   - Media Agencies
   - Brand Direct/In-House
