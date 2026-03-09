@@ -14,6 +14,7 @@ tags:
   - data-analysts
 link: https://business.adobe.com/products/advertising/adobe-advertising-cloud.html
 featured: false
+image: ./images/adobe-advertising-cloud.png
 targetUsers:
   - Enterprise Brands
   - Media Agencies
