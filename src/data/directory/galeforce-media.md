@@ -141,7 +141,7 @@ GaleForce Media has approximately 11–19 reviews across G2 and Capterra. User f
 - **[Strata](/strata)** — Broadcast media buying and traffic management platform
 - **[Bluhorn](/bluhorn)** — Independent media planning and buying platform for traditional channels
 - **[Advantage](/advantage)** — Full agency management with media, project, and accounting modules
-- **[Mediatool](/mediatool)** — Cloud-based media planning and campaign management
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Basis](/basis)** — Integrated digital advertising platform with programmatic and direct buying
 - **[Halliard](/halliard)** — Media planning tool built for modern agency workflows
 
