@@ -207,7 +207,7 @@ Both platforms target younger mobile-first audiences with short-form video. TikT
 - **[LinkedIn Campaign Manager](/linkedin-campaign-manager)** — B2B-focused ad platform with targeting by job title, company, and professional attributes
 - **[Google DV360](/google-dv360)** — Google's programmatic DSP for display, video, CTV, and audio buying across the open web
 - **[The Trade Desk](/the-trade-desk)** — Independent programmatic DSP for multi-channel campaigns with advanced data and identity capabilities
-- **[Mediatool](/mediatool)** — Campaign planning and media management platform for organizing multi-channel buys
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Halliard](/halliard)** — Modern media planning tool built for cross-channel campaign strategy and flowchart management
 - **[Northbeam](/northbeam)** — Multi-touch attribution platform for performance marketers running paid social and search campaigns
 
