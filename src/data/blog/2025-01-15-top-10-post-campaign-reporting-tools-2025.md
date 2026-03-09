@@ -261,7 +261,7 @@ Regular reporting helps stakeholders stay informed and enables faster optimizati
 
 Explore these tools from our directory that can help implement the strategies discussed:
 
-- **[Camphouse](/directory/camphouse)**: Comprehensive media planning and campaign management platform with built-in analytics
+- **[Camphouse](/camphouse)**: Comprehensive media planning and campaign management platform with built-in analytics
 - **[Google DV360](/directory/google-dv360)**: Programmatic advertising platform with advanced reporting and attribution capabilities  
 - **[Adobe Advertising Cloud](/directory/adobe-advertising-cloud)**: Integrated advertising platform with cross-channel reporting and optimization
 - **[Nielsen Media Impact](/directory/nielsen-media-impact)**: Advanced media measurement and attribution modeling for campaign analysis
