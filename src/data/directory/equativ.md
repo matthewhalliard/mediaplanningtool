@@ -14,6 +14,7 @@ tags:
   - media-planners
 link: https://www.equativ.com/
 featured: false
+image: ./images/equativ.png
 targetUsers:
   - Media Agencies
   - Programmatic Traders
