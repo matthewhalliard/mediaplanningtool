@@ -144,8 +144,8 @@ No public reviews are listed on G2 or Capterra for BriefBid. Feedback cited on t
 ### BriefBid vs Mediaocean
 [Mediaocean](/mediaocean) is an enterprise media management system covering planning, buying, billing, and reconciliation. BriefBid sits upstream in the workflow, helping planners identify and evaluate vendors before a buy is made. The two tools are largely complementary rather than competitive.
 
-### BriefBid vs Mediatool
-[Mediatool](/mediatool) offers media planning, campaign tracking, and reporting functionality in a subscription platform. BriefBid focuses exclusively on the RFP and vendor discovery process. Teams that already have a planning tool may add BriefBid for vendor sourcing without replacing existing workflows.
+### BriefBid vs Camphouse
+[Camphouse](/camphouse) offers media planning, campaign tracking, and reporting functionality in a subscription platform. BriefBid focuses exclusively on the RFP and vendor discovery process. Teams that already have a planning tool may add BriefBid for vendor sourcing without replacing existing workflows.
 
 ### BriefBid vs The Trade Desk
 [The Trade Desk](/the-trade-desk) is a programmatic DSP for automated media buying across open-internet inventory. BriefBid is a marketplace for direct-response RFPs covering both digital and traditional (OOH, DOOH, audio) channels. They serve different procurement models: automated bidding vs. direct vendor proposals.
@@ -165,7 +165,7 @@ Quantcast is an audience intelligence and programmatic platform. BriefBid is a v
 
 - **[Bionic](/bionic)** — Media planning software with flowcharts, RFP tools, and trafficking workflows
 - **[Mediaocean](/mediaocean)** — Enterprise media management platform covering planning, buying, and billing
-- **[Mediatool](/mediatool)** — Campaign planning and tracking platform for agencies and in-house teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[The Trade Desk](/the-trade-desk)** — Independent DSP for programmatic media buying across open internet
 - **[Placements.io](/placements-io)** — Omnichannel media buying platform with AI-assisted campaign activation
 - **[Strata](/strata)** — Media buying and order management system for TV, radio, and digital
