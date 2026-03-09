@@ -1,7 +1,8 @@
 /**
- * Extracts domain from a URL and returns Clearbit logo URL
+ * Extracts domain from a URL and returns company logo URL
+ * Uses CompanyEnrich free Logo API (replacement for deprecated Clearbit Logo API)
  * @param url - The company website URL
- * @returns Clearbit logo URL or null if invalid URL
+ * @returns Logo URL or null if invalid URL
  */
 export function getClearbitLogoUrl(url: string | undefined): string | null {
   if (!url) return null;
@@ -31,9 +32,9 @@ export function getClearbitLogoUrl(url: string | undefined): string | null {
       domain = 'adobe.com';
     }
     
-    return `https://logo.clearbit.com/${domain}`;
+    return `https://api.companyenrich.com/logo/${domain}`;
   } catch (error) {
-    console.warn('Invalid URL for Clearbit logo:', url);
+    console.warn('Invalid URL for logo:', url);
     return null;
   }
 }
