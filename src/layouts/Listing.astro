@@ -8,6 +8,7 @@ import AppShell from "@components/app/AppShell.astro";
 import config from "@util/themeConfig";
 import SidebarShell from "@components/app/SidebarShell.astro";
 import Tag from "@components/ui/tags/Tag.astro";
+import { Image } from "astro:assets";
 
 const siteTitle = themeConfig.general.title;
 const pageTitle = frontmatter?.title || siteTitle;
@@ -22,6 +23,7 @@ const category = frontmatter?.category;
 const functionality = frontmatter?.functionality || [];
 const targetUsers = frontmatter?.targetUsers || [];
 const featured = frontmatter?.featured;
+const heroImage = frontmatter?.image;
 ---
 
 <BaseLayout title={seoTitle} description={description} slug={slug}>
@@ -69,6 +71,19 @@ const featured = frontmatter?.featured;
               </div>
             </div>
           </div>
+
+          <!-- Hero Image -->
+          {heroImage && (
+            <div class="mb-6 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src={heroImage}
+                alt={`${pageTitle} overview infographic`}
+                width={1200}
+                height={675}
+                class="w-full h-auto object-cover"
+              />
+            </div>
+          )}
 
           <!-- Metadata Cards -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -170,6 +185,19 @@ const featured = frontmatter?.featured;
               </div>
             </div>
           </div>
+
+          <!-- Hero Image -->
+          {heroImage && (
+            <div class="mb-6 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src={heroImage}
+                alt={`${pageTitle} overview infographic`}
+                width={1200}
+                height={675}
+                class="w-full h-auto object-cover"
+              />
+            </div>
+          )}
 
           <!-- Metadata Cards -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
