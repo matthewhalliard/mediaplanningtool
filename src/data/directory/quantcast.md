@@ -14,6 +14,7 @@ tags:
   - in-house-teams
 link: https://www.quantcast.com/
 featured: true
+image: ./images/quantcast.png
 targetUsers:
   - Marketing Directors
   - Media Buyers
