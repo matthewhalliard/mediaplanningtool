@@ -135,8 +135,8 @@ No verified user reviews for Guideline are available on G2 or Capterra. The prod
 ### Guideline vs Mediaocean
 [Mediaocean](/mediaocean) is an end-to-end media management platform with deep agency workflow, billing, and reconciliation capabilities. Guideline's differentiator is its AI intelligence layer and its unique aggregated spend data — most valuable for teams that need market-level insights alongside plan management, rather than back-office financial workflow.
 
-### Guideline vs Mediatool (Camphouse)
-[Mediatool](/mediatool) (now Camphouse) focuses on campaign workflow management, cross-team collaboration, and centralized plan data. Guideline's strength is in the intelligence layer: actual market spend data, forward pricing benchmarks, and AI-driven analysis. These tools address adjacent but distinct needs; some teams use both.
+### Guideline vs Camphouse (Camphouse)
+[Camphouse](/camphouse) (now Camphouse) focuses on campaign workflow management, cross-team collaboration, and centralized plan data. Guideline's strength is in the intelligence layer: actual market spend data, forward pricing benchmarks, and AI-driven analysis. These tools address adjacent but distinct needs; some teams use both.
 
 ### Guideline vs Halliard
 [Halliard](/halliard) is built for modern media planning workflows with a focus on strategic planning. Guideline's market intelligence capabilities — real spend data from major agencies — give it a distinct advantage for planners who need competitive pricing and spend benchmarks to inform strategy.
@@ -152,7 +152,7 @@ No verified user reviews for Guideline are available on G2 or Capterra. The prod
 
 - **[Bionic](/bionic)** — Purpose-built media plan creation with flowcharts, RFP management, and trafficking tools
 - **[Mediaocean](/mediaocean)** — End-to-end agency media management with billing and reconciliation
-- **[Mediatool](/mediatool)** — Campaign workflow management platform for enterprise marketing teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform for enterprise marketing teams
 - **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-channel reach and frequency planning
 - **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 - **[Keen](/keen)** — AI-powered marketing mix modeling for budget optimization and revenue forecasting
