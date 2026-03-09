@@ -183,7 +183,7 @@ No representative user quotes are available from verified review platforms. User
 - **[Bionic](/bionic)** — Agency-focused media planning and proposal workflow platform
 - **[GaleForce Media](/galeforce-media)** — Broadcast and cable media buying platform for local and national advertisers
 - **[Strata](/strata)** — Established media buying and billing platform with broadcast industry depth
-- **[Mediatool](/mediatool)** — Collaborative media planning and performance tracking for global marketing teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Placements.io](/placements-io)** — Ad sales and media management platform for publishers and agencies
 - **[Mediaocean](/mediaocean)** — End-to-end media management platform for large agencies and brands
 
