@@ -13,6 +13,7 @@ tags:
   - agencies
 link: https://www.mint.ai/
 featured: false
+image: ./images/mint.png
 targetUsers:
   - Enterprise Marketing Teams
   - Media Agencies
