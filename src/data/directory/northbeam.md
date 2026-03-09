@@ -10,6 +10,7 @@ tags:
   - data-analysts
 link: https://northbeam.io/
 featured: false
+image: ./images/northbeam.png
 targetUsers:
   - Marketers
   - Data analysts
