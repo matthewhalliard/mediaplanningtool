@@ -155,8 +155,8 @@ Common themes across reviews: strong workflow customization, valuable integratio
 ### Placements.io vs BriefBid
 [BriefBid](/briefbid) handles the vendor discovery and RFP stage of media buying — finding and evaluating media partners. Placements.io handles the downstream buying, activation, and management workflow. The two can be complementary: BriefBid for vendor sourcing, Placements.io for executing and managing the resulting buys.
 
-### Placements.io vs Mediatool
-[Mediatool](/mediatool) offers media planning, campaign tracking, and reporting in a subscription platform. Placements.io provides deeper OMS and activation capabilities. Mediatool is better suited for planning and measurement; Placements.io for end-to-end buying workflow management.
+### Placements.io vs Camphouse
+[Camphouse](/camphouse) offers media planning, campaign tracking, and reporting in a subscription platform. Placements.io provides deeper OMS and activation capabilities. Camphouse is better suited for planning and measurement; Placements.io for end-to-end buying workflow management.
 
 ## Recent Updates (2025–2026)
 
@@ -170,7 +170,7 @@ Common themes across reviews: strong workflow customization, valuable integratio
 - **[Bionic](/bionic)** — Media planning software with flowcharts, RFP tools, and trafficking
 - **[Strata](/strata)** — Media buying and order management for TV, radio, and digital
 - **[BriefBid](/briefbid)** — Free vendor discovery and RFP marketplace for media agencies
-- **[Mediatool](/mediatool)** — Campaign planning and tracking platform for agencies and in-house teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Basis](/basis)** — Integrated media buying platform for programmatic and direct buys
 - **[Halliard](/halliard)** — Media planning tool built for independent agencies and in-house teams
 
