@@ -8,6 +8,7 @@ tags:
   - audience-analytics
 link: https://www.srds.com/
 featured: false
+image: ./images/srds-media-planning.png
 targetUsers:
   - Media planners
   - Media buyers
