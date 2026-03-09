@@ -179,8 +179,8 @@ Asana is the enterprise go-to for structured workflow governance. ClickUp compet
 ### ClickUp vs Halliard
 [Halliard](/halliard) is purpose-built for media teams — with channel integrations, reach/frequency analysis, buy approvals, and performance benchmarking built in. ClickUp covers the project management and coordination layer well, but media-specific workflows require workarounds. Teams often use ClickUp for general marketing operations and Halliard for media planning specifically.
 
-### ClickUp vs Mediatool
-[Mediatool](/mediatool) is a dedicated media planning platform for global marketing teams. ClickUp can be adapted for similar coordination purposes but lacks media-specific data features. For teams whose primary challenge is campaign project management rather than media-specific planning, ClickUp may be sufficient.
+### ClickUp vs Camphouse
+[Camphouse](/camphouse) is a dedicated media planning platform for global marketing teams. ClickUp can be adapted for similar coordination purposes but lacks media-specific data features. For teams whose primary challenge is campaign project management rather than media-specific planning, ClickUp may be sufficient.
 
 ## Recent Updates (2025–2026)
 
@@ -194,7 +194,7 @@ Asana is the enterprise go-to for structured workflow governance. ClickUp compet
 ## Explore More Media Planning Tools
 
 - **[Halliard](/halliard)** — The OS for modern media teams: purpose-built planning, approvals, and performance tracking
-- **[Mediatool](/mediatool)** — Dedicated media planning platform for global marketing teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Bionic](/bionic)** — Agency-focused media planning and proposal workflow platform
 - **[Media Plan HQ](/mediaplanhq)** — Lightweight media plan builder for fast, shareable campaign plans
 - **[Basis](/basis)** — Integrated digital media management platform with planning and DSP capabilities
