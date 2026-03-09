@@ -115,8 +115,8 @@ Bionic has limited public reviews on G2 but is reviewed on Capterra. User feedba
 ### Bionic vs GaleForce Media
 [GaleForce Media](/galeforce-media) is another subscription-based media planning and buying platform, often positioned as the most affordable option. Bionic's Jaime AI assistant and larger integration ecosystem give it an edge for agencies needing advanced AI features and broad platform connectivity.
 
-### Bionic vs Mediatool
-[Mediatool](/mediatool) (now rebranded as Camphouse) focuses on collaborative media planning and campaign management for global teams. Bionic is more specialized in end-to-end media buying workflows including IO generation and vendor reconciliation.
+### Bionic vs Camphouse
+[Camphouse](/camphouse) (now rebranded as Camphouse) focuses on collaborative media planning and campaign management for global teams. Bionic is more specialized in end-to-end media buying workflows including IO generation and vendor reconciliation.
 
 ### Bionic vs BluHorn
 [BluHorn](/bluhorn) starts at $198/month and targets smaller agencies and media buyers needing basic TV and radio buying workflows. Bionic offers a broader feature set including AI recommendations, making it more suitable for agencies managing complex omnichannel campaigns.
@@ -137,6 +137,6 @@ Bionic has limited public reviews on G2 but is reviewed on Capterra. User feedba
 - **[GaleForce Media](/galeforce-media)** — Affordable subscription-based media planning and buying with AI assistant GaiL
 - **[BluHorn](/bluhorn)** — Entry-level media buying platform for TV and radio with Nielsen/Comscore integrations
 - **[MediaPlanHQ](/mediaplanhq)** — Collaborative media planning tool with invoice validation and client portal
-- **[Mediatool](/mediatool)** — Campaign management platform for global media teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 
 [Visit Bionic →](https://www.bionic-ads.com/)
