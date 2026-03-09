@@ -57,7 +57,7 @@ If your primary need is building media plans, creating flowcharts, managing RFPs
 
 ---
 
-### 2. [Camphouse (formerly Mediatool)](/tools/mediatool) — Best for Campaign Workflow Management
+### 2. [Camphouse (formerly Mediatool)](/tools/camphouse) — Best for Campaign Workflow Management
 
 Mediatool rebranded as Camphouse in February 2025, and the platform has continued to evolve as the "House of Campaigns." In early 2026, Camphouse added an AI Smart Spend Analysis tool and automated Insertion Order generation directly from media plans — eliminating the double-entry that plagues most cross-market planning operations.
 
@@ -180,7 +180,7 @@ The right tool depends on your primary bottleneck:
 | If your bottleneck is... | Consider... |
 |---|---|
 | Building and trafficking media plans | [Bionic](/tools/bionic) |
-| Managing campaigns across markets | [Camphouse](/tools/mediatool) |
+| Managing campaigns across markets | [Camphouse](/tools/camphouse) |
 | Understanding your audience | [GWI](/tools/gwi) |
 | Optimizing cross-channel budget allocation | [Keen](/tools/keen) |
 | Cross-media reach/frequency planning | [Nielsen Media Impact](/tools/nielsen-media-impact) |
