@@ -159,7 +159,7 @@ Reviewers consistently highlight ease of use relative to enterprise alternatives
 - **[Google DV360](/google-dv360)** — Google's enterprise demand-side platform for programmatic campaigns
 - **[Bionic](/bionic)** — Media planning and flowchart tool for agency planners
 - **[Placements.io](/placements-io)** — Order management and ad operations for publishers and agencies
-- **[Mediatool](/mediatool)** — Campaign management and media planning collaboration platform
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
 [Visit Basis →](https://basis.com/)
