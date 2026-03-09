@@ -13,6 +13,7 @@ tags:
   - media-planners
 link: https://www.thetradedesk.com/
 featured: false
+image: ./images/the-trade-desk.png
 targetUsers:
   - Media Agencies
   - Enterprise Brands
