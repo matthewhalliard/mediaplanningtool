@@ -184,7 +184,7 @@ Halliard supports planning and analysis across 18+ channels including linear TV,
 Both Halliard and [Bionic](/bionic) serve media agencies, but with different strengths. Bionic focuses on media plan proposal generation and buying workflow, while Halliard emphasizes real-time performance tracking, approval workflows, and cross-channel reach/frequency analysis. Teams often choose Halliard when they need a shared source of truth across planning and measurement.
 
 **How does Halliard compare to Mediatool?**
-[Mediatool](/mediatool) is a strong choice for global media teams managing complex multi-market campaigns. Halliard is built specifically for the US market with deep reach/frequency modeling and a media-planner-first UX. Teams that prioritize real-time spend visibility and fast plan approval often prefer Halliard.
+[Camphouse](/camphouse) is a strong choice for global media teams managing complex multi-market campaigns. Halliard is built specifically for the US market with deep reach/frequency modeling and a media-planner-first UX. Teams that prioritize real-time spend visibility and fast plan approval often prefer Halliard.
 
 **How does Halliard compare to Media Plan HQ?**
 [Media Plan HQ](/mediaplanhq) is a lighter-weight tool for building and sharing media plans. Halliard goes further with real-time data integrations, performance benchmarking, and team approval workflows — making it a better fit for teams that need an ongoing management platform, not just a plan-building tool.
@@ -210,8 +210,8 @@ Halliard is not yet listed on G2 or Capterra with a public aggregate rating. The
 ### Halliard vs Bionic
 [Bionic](/bionic) is a mature agency tool with strong proposal and flowchart generation. Halliard competes directly but adds real-time spend tracking and performance benchmarking, making it more suited to ongoing campaign management rather than plan creation alone.
 
-### Halliard vs Mediatool
-[Mediatool](/mediatool) serves global marketing teams with a collaborative planning interface. Halliard is more tightly focused on the US media landscape, with deeper reach/frequency modeling and tighter integrations with the platforms that US planners buy most.
+### Halliard vs Camphouse
+[Camphouse](/camphouse) serves global marketing teams with a collaborative planning interface. Halliard is more tightly focused on the US media landscape, with deeper reach/frequency modeling and tighter integrations with the platforms that US planners buy most.
 
 ### Halliard vs Media Plan HQ
 [Media Plan HQ](/mediaplanhq) is a streamlined tool for building shareable media plans. Halliard is a fuller operating system — adding approvals, performance tracking, and real-time spend visibility that Media Plan HQ does not cover.
@@ -232,7 +232,7 @@ Halliard is not yet listed on G2 or Capterra with a public aggregate rating. The
 ## Explore More Media Planning Tools
 
 - **[Bionic](/bionic)** — Agency media planning and proposal workflow platform with strong flowchart generation
-- **[Mediatool](/mediatool)** — Collaborative media planning and performance management for global teams
+- **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Media Plan HQ](/mediaplanhq)** — Lightweight media plan builder for fast plan creation and sharing
 - **[Telmar Helixa](/telmar-helixa)** — Audience research and reach/frequency modeling platform
 - **[Basis](/basis)** — Integrated digital media planning, buying, and analytics platform
