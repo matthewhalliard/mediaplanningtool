@@ -13,6 +13,7 @@ tags:
   - media-planners
 link: https://business.linkedin.com/marketing-solutions/campaign-manager
 featured: false
+image: ./images/linkedin-campaign-manager.png
 targetUsers:
   - B2B Marketers
   - Media Agencies
