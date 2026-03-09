@@ -6,8 +6,8 @@ import { getClearbitLogoUrl, getFallbackLogoUrl } from "@util/clearbitLogo";
 
 const { myItem, href } = Astro.props;
 
-// Get Clearbit logo URL if no image is provided
-const clearbitLogoUrl = !myItem.image ? getClearbitLogoUrl(myItem.link) : null;
+// Always use the company logo for card thumbnails (not the infographic hero image)
+const clearbitLogoUrl = getClearbitLogoUrl(myItem.link);
 const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
 ---
 
@@ -15,10 +15,7 @@ const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
   class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300">
   { myItem.featured ? <DirectoryFeaturedTag class="ml-6"  /> : <></> }
   
-  { myItem.image ? (
-    <Image height={500} width={800} class="w-full h-40 rounded-t object-cover"
-      src={myItem.image} alt={myItem.title} />
-  ) : clearbitLogoUrl ? (
+  { clearbitLogoUrl ? (
     <div class="w-full h-40 flex justify-center items-center rounded-t bg-gray-50 dark:bg-gray-700 p-6">
       <img 
         src={clearbitLogoUrl} 
