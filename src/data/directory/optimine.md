@@ -12,6 +12,7 @@ tags:
   - agencies
 link: https://optimine.com
 featured: false
+image: ./images/optimine.png
 targetUsers:
   - Enterprise Marketers
   - Media Agencies
