@@ -9,6 +9,7 @@ tags:
   - budget-managers
 link: https://www.mediaplanhq.com/
 featured: false
+image: ./images/mediaplanhq.png
 targetUsers:
   - Agencies
   - Advertisers
