@@ -14,6 +14,7 @@ tags:
   - media-planners
 link: https://advertising.amazon.com/solutions/products/amazon-dsp
 featured: false
+image: ./images/amazon-dsp.png
 targetUsers:
   - Brand Advertisers
   - Media Agencies
