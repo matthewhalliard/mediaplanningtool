@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://ads.tiktok.com/
+heroImage: ./images/tiktok-ads-manager.png
 featured: false
 targetUsers:
   - Social Media Managers
