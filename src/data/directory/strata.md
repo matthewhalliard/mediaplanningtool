@@ -12,6 +12,7 @@ tags:
   - in-house-teams
   - marketing-directors
 link: https://www.gotostrata.com/
+heroImage: ./images/strata.png
 featured: false
 targetUsers:
   - Media Agencies
