@@ -1,0 +1,119 @@
+{
+  "type": "manifest",
+  "category": "channels",
+  "version": "1.0",
+  "last_updated": "2026-03-11",
+  "total_count": 11,
+  "channels": [
+    {
+      "slug": "linear-tv",
+      "name": "Linear / Traditional TV",
+      "file": "linear-tv.json",
+      "primary_objective": "Mass reach, brand awareness",
+      "buying_model": "Upfront / Scatter / Direct",
+      "typical_cpm_range": "$10–$60",
+      "best_for_demographics": "Adults 35+",
+      "maturity": "mature"
+    },
+    {
+      "slug": "ctv",
+      "name": "Connected TV (CTV) / Streaming",
+      "file": "ctv.json",
+      "primary_objective": "Targeted video reach, cord-cutter reach",
+      "buying_model": "Programmatic / Direct / Self-serve",
+      "typical_cpm_range": "$14–$45",
+      "best_for_demographics": "Adults 18–54",
+      "maturity": "growth"
+    },
+    {
+      "slug": "programmatic-display",
+      "name": "Programmatic Display",
+      "file": "programmatic-display.json",
+      "primary_objective": "Brand awareness, retargeting, audience extension",
+      "buying_model": "RTB / PMP / Programmatic Guaranteed",
+      "typical_cpm_range": "$1.50–$20",
+      "best_for_demographics": "Broad, contextual",
+      "maturity": "mature"
+    },
+    {
+      "slug": "paid-search",
+      "name": "Paid Search (SEM / PPC)",
+      "file": "paid-search.json",
+      "primary_objective": "Demand capture, direct response, lower-funnel conversion",
+      "buying_model": "CPC Auction",
+      "typical_cpm_range": "CPC avg $2.70–$5.26 (varies by industry)",
+      "best_for_demographics": "In-market intenders",
+      "maturity": "mature"
+    },
+    {
+      "slug": "paid-social-meta",
+      "name": "Paid Social — Meta (Facebook / Instagram)",
+      "file": "paid-social-meta.json",
+      "primary_objective": "Audience targeting, brand awareness, direct response, social commerce",
+      "buying_model": "Auction / Reservation",
+      "typical_cpm_range": "$7–$25 (US)",
+      "best_for_demographics": "Adults 25–65+",
+      "maturity": "mature"
+    },
+    {
+      "slug": "tiktok",
+      "name": "TikTok Advertising",
+      "file": "tiktok.json",
+      "primary_objective": "Brand awareness, cultural relevance, Gen Z/Millennial reach",
+      "buying_model": "Auction / CPD Reservation",
+      "typical_cpm_range": "$4–$20",
+      "best_for_demographics": "Adults 13–34",
+      "maturity": "growth"
+    },
+    {
+      "slug": "youtube",
+      "name": "YouTube / Online Video",
+      "file": "youtube.json",
+      "primary_objective": "Video brand awareness, consideration, CTV reach",
+      "buying_model": "Auction / CPV / Reservation",
+      "typical_cpm_range": "$5–$35",
+      "best_for_demographics": "Adults 18–49",
+      "maturity": "mature"
+    },
+    {
+      "slug": "audio-podcasts",
+      "name": "Audio / Podcasts / Streaming Audio",
+      "file": "audio-podcasts.json",
+      "primary_objective": "Engaged-audience reach, host-endorsed brand awareness",
+      "buying_model": "Direct / CPM / Self-serve (streaming)",
+      "typical_cpm_range": "$8–$50",
+      "best_for_demographics": "Educated, higher-income adults 25–54",
+      "maturity": "growth"
+    },
+    {
+      "slug": "ooh",
+      "name": "Out-of-Home (OOH) / Digital OOH",
+      "file": "ooh.json",
+      "primary_objective": "Geographic reach, brand presence, unskippable awareness",
+      "buying_model": "Direct / Programmatic (pDOOH)",
+      "typical_cpm_range": "$3–$40",
+      "best_for_demographics": "Commuters, urban, location-based audiences",
+      "maturity": "mature"
+    },
+    {
+      "slug": "retail-media",
+      "name": "Retail Media Networks",
+      "file": "retail-media.json",
+      "primary_objective": "Point-of-purchase influence, shopper marketing, closed-loop attribution",
+      "buying_model": "CPC Self-serve / DSP / Direct IO",
+      "typical_cpm_range": "CPC avg $0.50–$1.50; DSP display $2–$25 CPM",
+      "best_for_demographics": "In-market shoppers by category",
+      "maturity": "growth"
+    },
+    {
+      "slug": "native",
+      "name": "Native / Content Marketing Advertising",
+      "file": "native.json",
+      "primary_objective": "Content distribution, brand awareness, consideration",
+      "buying_model": "CPC Auction / Programmatic / Direct",
+      "typical_cpm_range": "$3–$50",
+      "best_for_demographics": "Content-engaged audiences, research-stage buyers",
+      "maturity": "mature"
+    }
+  ]
+}
