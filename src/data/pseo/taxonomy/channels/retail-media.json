@@ -1,0 +1,48 @@
+{
+  "slug": "retail-media",
+  "name": "Retail Media Networks",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Retail media encompasses advertising sold by retailers across their own digital properties (websites, apps, search) and off-site channels. Buying mechanisms vary by retailer tier: (1) Amazon—self-serve via Amazon Ads console for Sponsored Products, Sponsored Brands, and Sponsored Display; managed service for Amazon DSP; direct IO for high-impact custom placements and Amazon Streaming TV ads; (2) Walmart Connect—self-serve via Walmart's Luminate platform for Sponsored Products and Display, plus programmatic access via The Trade Desk and other DSPs through their DSP connect program; (3) Other RMNs (Kroger, Target, Roundel, Instacart, Albertsons)—varying mix of self-serve portals and managed service. Most on-site retail media (sponsored search) is keyword-based with CPC pricing; off-site and DSP display is CPM-based.",
+    "measurement_approaches": "Retail media's defining measurement advantage over other channels is closed-loop attribution—the retailer can directly connect an ad exposure to a purchase in their own ecosystem. Sponsored Products report attributed sales within 7-day or 14-day attribution windows, ROAS (Return on Ad Spend), new-to-brand metrics, and market share data. eMarketer estimated US retail media spend at $58.79B in 2025, growing to $69.33B in 2026. Key metrics: ROAS (the primary optimization metric), attributed sales, new-to-brand purchase rate, click-through rate, share of voice, organic rank impact, and category share. MMM vendors increasingly model retail media as a distinct input. The challenge is cross-retailer standardization—each RMN has proprietary measurement systems, making apples-to-apples comparisons difficult.",
+    "typical_cpms": "Amazon Sponsored Products: CPC-based, average $1.02–$1.21 CPC across categories (Feb 2026 average: $1.21); Amazon Sponsored Brands: $0.80–$1.50 CPC; Amazon DSP display (on-site and off-site): $2–$8 CPM for standard display, $12–$25 CPM for premium video and CTV; Walmart Sponsored Products: $0.50–$1.20 CPC (lower competition than Amazon); Instacart ads: $0.35–$0.95 CPC; Kroger Precision Marketing off-site display: $8–$18 CPM; Target Roundel (display): $8–$20 CPM. Amazon accounts for approximately 75–80% of all US retail media spend. CPCs are rising year-over-year as advertiser adoption increases faster than available inventory.",
+    "targeting_capabilities": [
+      "Purchase history targeting (audiences who previously purchased your category, competitive products, or your brand)",
+      "In-market/browse behavior (shoppers actively researching in a category on the retailer's platform)",
+      "Keyword-based sponsored search (appearing in results for specific product search terms on retailer sites)",
+      "Loyalty card/shopper data (Kroger, Albertsons, Target)—offline purchase behavior for audience modeling",
+      "Category and brand re-targeting (reaching shoppers who viewed competitor pages or complementary categories)",
+      "Household demographics derived from retail loyalty and payment data"
+    ],
+    "common_pitfalls": [
+      "Treating retail media as purely a performance channel and ignoring its brand-building potential, particularly Amazon DSP off-site and streaming TV inventory",
+      "Failing to coordinate retail media budgets with trade/shopper marketing teams—ad spend can drive incremental sales but also cannibalize organic search if not optimized",
+      "Over-relying on ROAS as the sole success metric without accounting for new-to-brand acquisition, which often looks 'worse' on ROAS but is more valuable long-term",
+      "Buying on a single RMN (typically Amazon) without evaluating where category shoppers index across multiple retailers—Walmart, Target, and Instacart can offer lower CPCs and incremental audiences",
+      "Underbidding on branded keywords, allowing competitors to conquest branded searches at a low cost",
+      "Not aligning paid retail media with content and organic optimization—strong sponsored performance combined with poor organic rank creates wasted spend"
+    ],
+    "formats": [
+      "Sponsored Products (keyword-targeted product listing ads in search and category browse pages)",
+      "Sponsored Brands (banner ads with logo, headline, and multiple products—top of search results)",
+      "Sponsored Display (product-level retargeting on and off the retailer's platform)",
+      "Display and video ads via retail DSP (Amazon DSP, Walmart DSP, Kroger off-site programmatic)",
+      "Streaming TV / CTV ads (Amazon Streaming TV, Walmart CTV—using first-party shopper data for targeting)",
+      "In-store digital OOH screens (Walmart, Kroger, Albertsons—physical aisle-level digital displays)",
+      "Shoppable video and social integrations (Amazon Posts, retailer-branded social amplification)"
+    ],
+    "key_platforms": [
+      "Amazon Ads (Sponsored Products, Sponsored Brands, Sponsored Display, Amazon DSP—75–80% of US retail media)",
+      "Walmart Connect (self-serve and managed, growing rapidly as #2 US retail media network)",
+      "Instacart Ads (grocery delivery platform, strong in CPG and household categories)",
+      "Target Roundel (Target's media network, strong loyalty data, programmatic access via TTD)",
+      "Kroger Precision Marketing (KPM) (Kroger loyalty card data, off-site programmatic, in-store digital)",
+      "Albertsons Media Collective (off-site DSP and onsite, powered by Albertsons' loyalty data)",
+      "Chewy Ads (pet category specialists), Home Depot Retail Media+ (home improvement)"
+    ],
+    "planning_considerations": "Retail media is now the fastest-growing segment of digital advertising, with US spend projected at $69B+ in 2026. It is unique in offering closed-loop purchase attribution using the retailer's own first-party transaction data—a structural advantage over all other digital channels. Key planning considerations: (1) On-site (sponsored search) and off-site (programmatic) are distinct strategies—on-site captures in-market shoppers, off-site builds awareness to drive shoppers back to the retailer; (2) Retail media budgets increasingly come from both brand marketing and trade/shopper marketing buckets, requiring cross-functional budget alignment; (3) Organic sales rank on Amazon affects and is affected by paid media—the relationship is bidirectional; (4) New-to-brand metrics are often more valuable than ROAS for growing brands.",
+    "trend_2026": "US retail media spend reached $58.79B in 2025 and is projected to hit $69.33B in 2026, cementing retail media as the dominant growth story in digital advertising. Amazon is expanding Prime Video and Prime streaming as a retail media surface. The Commerce Media convergence—where retail purchase data powers targeting in non-retail contexts (streaming TV, programmatic display)—is blurring the lines between retail media and general programmatic. Standardization efforts by IAB and the MRC are addressing the fragmentation of measurement across RMNs. Off-site retail media (using first-party shopper data to buy inventory outside the retailer's owned properties) is the fastest-growing sub-segment. Grocers and mass-market retailers are racing to build out their media networks to compete with Amazon's scale.",
+    "integration_with_other_channels": "Retail media is increasingly integrated into full-funnel media mixes. Key integrations: (1) Amazon DSP enables CTV and streaming video targeting using Amazon's first-party shopper data—bridging retail media with video; (2) Retail shopper data is activated off-platform via programmatic partners to reach target purchasers with display and video; (3) Retail media performance benchmarks feed into MMM models alongside TV, digital, and OOH spend; (4) Branded search campaigns on Google should coordinate with retail media keyword strategies to avoid bidding against yourself.",
+    "budget_allocation_guidance": "Retail media typically represents 15–30% of media budgets for CPG, eCommerce, and retail-dependent brands, with the figure growing annually. Amazon alone often captures 10–20% of total media spend for consumer packaged goods advertisers. Appropriate for any brand that sells through a major retail channel. Always-on sponsored search spend at the retail point of purchase is essentially non-negotiable for brands with retail distribution—it protects branded terms and conquests category searchers. Increase off-site/DSP retail media investment when building brand awareness across categories. Reduce when the brand does not sell through the relevant retailer's channel."
+  }
+}
