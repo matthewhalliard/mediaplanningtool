@@ -1,0 +1,47 @@
+{
+  "slug": "linear-tv",
+  "name": "Linear / Traditional TV",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Linear TV is primarily purchased through two mechanisms: the upfront market (held each spring for the following broadcast year, where networks pre-sell the majority of inventory—often 70–80%—at negotiated CPMs with guaranteed ratings delivery) and the scatter market (remaining or returned inventory sold closer to airdate at typically higher CPMs, offering more flexibility but less price certainty). Direct response (DR) TV is bought at discounted rates, often in remnant dayparts, on a per-unit or per-inquiry basis. Local broadcast and cable can also be purchased direct through station groups or via rep firms. Political advertising takes over inventory in election cycles, displacing commercial advertisers and driving scatter CPMs sharply higher.",
+    "measurement_approaches": "Audience measurement is dominated by Nielsen ratings, which report gross rating points (GRPs), target rating points (TRPs), reach, frequency, and average audience (AA%). Nielsen's National People Meter panel remains the currency for national buys; local measurement uses a mix of metered markets and diary methodology. Advertisers increasingly layer in brand lift studies, sales lift measurement (via MMM/MTA), and attribution through pixel and household-level matching. Cross-screen measurement is evolving as networks push unified viewers across linear and streaming (e.g., Nielsen One). Reach and frequency remain the primary planning metrics; CPP (cost per point) is the universal trading currency.",
+    "typical_cpms": "National broadcast network primetime: $35–$60 CPM; cable primetime: $12–$28 CPM; cable news and sports (ESPN, Fox News): $25–$60 CPM; local broadcast: $8–$25 CPM depending on market size (top-10 DMAs skew higher); daytime and late-night: $6–$15 CPM; scatter premiums can run 15–30% above upfront rates. Live sports and awards shows (Super Bowl, NFL, Oscars) command premium CPMs of $50–$400+ per 30-second unit depending on audience size.",
+    "targeting_capabilities": [
+      "Demographic targeting via GRP/TRP (age/gender cells, e.g., Adults 25-54)",
+      "Daypart and program-context targeting (primetime, news, sports, daytime)",
+      "Geographic targeting via DMA (Designated Market Area) and sub-DMA zone buys",
+      "Audience indexing using Nielsen custom segments and third-party panel overlays",
+      "Advanced audience targeting via programmer-specific data platforms (e.g., Nielsen Advanced Audiences for national cable)",
+      "Political and issue-based targeting via broadcast station footprints"
+    ],
+    "common_pitfalls": [
+      "Overrelying on GRP/reach metrics without accounting for declining linear viewership, particularly among adults under 50",
+      "Failing to negotiate make-goods when programs underdeliver on ratings guarantees, leaving audiences shortchanged",
+      "Treating all dayparts equally—daytime and late-night audiences differ dramatically from primetime in composition and engagement",
+      "Ignoring co-op advertising opportunities for local/regional advertisers that can stretch budgets 2–4x",
+      "Buying scatter inventory last-minute during political seasons without contingency planning, causing cost overruns",
+      "Not aligning creative lengths (15s vs. 30s vs. 60s) with brand objectives and audience behavior within the program context"
+    ],
+    "formats": [
+      "30-second spot (industry standard)",
+      "15-second spot (lower cost, lower impact for complex messaging)",
+      "60-second spot (direct response, complex products)",
+      "Integrated sponsorships and billboard mentions",
+      "Product placement and branded entertainment integrations",
+      "Roadblocks (exclusive category ownership across a daypart or network)"
+    ],
+    "key_platforms": [
+      "ABC, NBC, CBS, Fox (Big 4 broadcast networks)",
+      "ESPN, ESPN2, Fox Sports (sports cable)",
+      "Fox News, CNN, MSNBC (cable news)",
+      "HGTV, Food Network, Bravo, Lifetime (lifestyle cable)",
+      "Univision, Telemundo (Spanish-language broadcast)",
+      "Local TV stations and station groups (Nexstar, Sinclair, Gray, Tegna)",
+      "Ion, The CW (secondary broadcast networks)"
+    ],
+    "planning_considerations": "Linear TV is most effective for campaigns requiring mass simultaneous reach—particularly product launches, seasonal pushes, and events where cultural conversation value matters. Planners must weigh declining linear ratings (linear lost the TV viewing majority to streaming in 2025) against TV's still-unmatched reach among older demographics (55+). Lead times are long: upfront commitments are made 6–9 months in advance; creative deadlines typically 5–10 business days before airdate. Ratings guarantees and make-good policies should be negotiated upfront. Integration with digital/CTV campaigns is critical for frequency management across screens.",
+    "trend_2026": "Linear TV spend is projected at ~$48 billion in 2026, down from $55.2B in 2025 as budgets migrate to CTV and digital video. Live sports remain linear TV's most durable asset—NFL, NBA, college football, and major events continue to command premium scatter pricing and upfront commitments. Networks are aggressively packaging linear + streaming inventory together in multiplatform deals to stem the outflow. Nielsen One, a unified cross-media currency, is gaining traction as the measurement standard for cross-platform buys. Political advertising in 2026 (midterm election year) will tighten scatter inventory and inflate CPMs in Q3–Q4.",
+    "integration_with_other_channels": "Linear TV functions best as a reach-driver in a broader media mix. It is commonly paired with CTV/OTT for cross-screen frequency capping and to reach cord-cutters; with digital display and paid social for retargeting households exposed on TV; and with audio for extended audio reach among in-car audiences. TV + digital combinations typically show a 20–30% lift in brand awareness vs. either channel alone. In performance-oriented mixes, TV builds upper-funnel awareness that improves the conversion efficiency of lower-funnel channels like paid search.",
+    "budget_allocation_guidance": "Linear TV typically represents 10–25% of total media budgets for mass-market national advertisers, declining year-over-year. Appropriate for brands with broad demographics (especially 45+), CPG categories with mass distribution, and campaigns requiring fast national reach. Reduce allocation when target audience skews younger (18–34), when budgets are under ~$500K (below scale threshold for national buys), or when direct response/attribution is the primary objective. Increase during live sports seasons, political off-years when inventory is available, or when launching a new product requiring mass awareness."
+  }
+}
