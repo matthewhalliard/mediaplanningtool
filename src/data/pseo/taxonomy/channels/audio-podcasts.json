@@ -1,0 +1,48 @@
+{
+  "slug": "audio-podcasts",
+  "name": "Audio / Podcasts / Streaming Audio",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Audio advertising encompasses three distinct sub-segments with different buying mechanisms: (1) Podcast advertising—primarily bought direct from podcast networks (iHeart, Wondery, Podtrac, Acast, Spotify) or via podcast-specific ad marketplaces; host-read integrations are negotiated directly with shows or networks; programmatic podcast ads are growing via DSPs with DAI (Dynamic Ad Insertion) technology. (2) Streaming audio—Spotify, Pandora, and iHeart offer self-serve buying via their own ad platforms (Spotify Ads, Pandora AMP) and are also accessible via programmatic DSPs. (3) Digital radio—programmatic and direct buys via iHeart's digital network. Spotify offers a self-serve platform (Spotify Ads) with a $250 minimum budget. Podcast CPMs are negotiated on a per-thousand download/listen basis (IAB measurement standard). Major podcast networks negotiate quarterly or annual upfront deals for committed advertisers.",
+    "measurement_approaches": "Podcast attribution has historically been the weakest link in audio measurement. Standard methods include: vanity URL tracking (unique URLs per podcast ad), discount codes (qualitative indicator of response), and pixel-based attribution (pixel fires when a user who heard a podcast later visits the website—enabled by DAI platforms like Spotify, Podscribe, Chartable, and Veritonic). The IAB Podcast Measurement Technical Standards v2.1+ defines a 'download' as a 1MB file transfer per episode, the standard impression metric. Brand lift studies are available through Spotify, Podscribe, and Nielsen Audio. Streaming audio measurement uses standard digital metrics: impressions, CPM, audio completion rate (ACR), CTR on companion banner ads, and conversion tracking.",
+    "typical_cpms": "Host-read podcast mid-roll: $20–$45 CPM; host-read podcast pre-roll: $18–$30 CPM; post-roll (host-read): $10–$20 CPM; programmatic podcast (non-host-read, dynamically inserted): $8–$18 CPM; premium niche podcasts with highly targeted audiences: $40–$80 CPM; Spotify audio streaming ads: $15–$30 CPM; programmatic streaming audio (Pandora, iHeart, Spotify network): $8–$20 CPM; companion banner ads alongside audio: $1–$5 CPM add-on.",
+    "targeting_capabilities": [
+      "Genre and content category targeting (true crime, business, health, comedy, sports, news)",
+      "Demographic targeting (age, gender, household income—primarily modeled on streaming audio platforms)",
+      "Geographic targeting (DMA, state, metro, zip for streaming audio; podcast shows have national audiences by default)",
+      "Behavioral and psychographic segments on streaming audio platforms (Spotify data from listening history, search, playlist behavior)",
+      "Contextual targeting aligned to show topic (business podcast, parenting podcast, fitness podcast)",
+      "Host-read integrations—essentially sponsoring a host's organic voice, the most powerful targeting by show audience affinity"
+    ],
+    "common_pitfalls": [
+      "Selecting podcast shows solely on download numbers without verifying audience authenticity or engagement quality—download inflation is a known issue in the industry",
+      "Expecting podcast attribution to match digital pixel-based standards; audio-to-digital attribution inherently has gaps and requires multi-touch thinking",
+      "Writing scripts that are too long, overly produced, or promotional in tone for host-read placements—hosts typically rewrite overly scripted ads, leading to inconsistency",
+      "Ignoring programmatic podcast options in favor of only direct deals—DAI-based programmatic buys have improved substantially and allow audience targeting vs. content targeting alone",
+      "Not tracking podcast with unique vanity URLs and codes, leaving campaign measurement entirely dark",
+      "Treating streaming audio and podcast as interchangeable—they reach different audiences in different contexts (commute/gym audio vs. lean-in podcast listening)"
+    ],
+    "formats": [
+      "Host-read integrations (live-read or recorded, pre-roll: 15–30s, mid-roll: 60–90s, post-roll: 30–60s)",
+      "Announcer-read/produced spot (30- or 60-second brand-produced audio ad, dynamically inserted)",
+      "Branded podcast series (original podcast content produced by or for a brand)",
+      "Spotify Audio (15–30-second non-skippable ads between songs, with companion banner)",
+      "Pandora and iHeart audio spots (30s standard, sold programmatically and direct)",
+      "Sponsorship segments (episode sponsorship with brand mentions in host intro and outro)"
+    ],
+    "key_platforms": [
+      "Spotify (dominant streaming audio and podcast platform, self-serve and programmatic, Spotify Podcast Ads)",
+      "Apple Podcasts (largest podcast directory by downloads, no self-serve ads platform—buys are show-level direct)",
+      "iHeart Media (broadcast radio + streaming + podcast network, iHeart Podcast Network, self-serve platform)",
+      "Wondery (Amazon-owned premium podcast network, narrative shows, Murder on the Towpath, etc.)",
+      "Acast (independent global podcast marketplace, programmatic and direct)",
+      "SiriusXM / Pandora (satellite and streaming audio, programmatic via AdsWizz)",
+      "Podscribe, Magellan AI (podcast measurement, brand safety, and analytics platforms)",
+      "Audacy (formerly CBS Radio, national broadcast + digital audio network)"
+    ],
+    "planning_considerations": "Audio is the only media channel consumed primarily during activities incompatible with visual media—commuting, exercising, cooking, cleaning. Podcast advertising specifically benefits from the intimacy of the host-listener relationship: 69% of podcast listeners say host-read ads feel more authentic, and 38% have purchased based on a podcast recommendation. Key planning considerations: (1) host-read vs. produced—host-read ads on shows where the host has strong audience trust significantly outperform produced spots; (2) podcast show alignment with brand values is critical—listeners associate the host's endorsement with the brand; (3) frequency in audio is harder to control than in digital—plan for 3–5 exposures per month across shows; (4) programmatic audio is maturing rapidly via DAI and allows audience-based targeting not available in traditional show-level buys.",
+    "trend_2026": "Podcast ad revenue is projected to exceed $4 billion in 2026 in the US, growing 12–15% YoY. Video podcasting (podcast recorded on video, distributed on YouTube and Spotify) is the defining format shift of 2025-2026, enabling podcast advertisers to benefit from visual companion content. Spotify's AI-powered voice dubbing and host voice cloning technology can dynamically generate host-voiced ads at scale—early adoption is growing among performance advertisers. Programmatic podcast buying with audience data now accounts for a growing share of podcast revenue as DAI technology matures. Live sports audio (NFL on Westwood One, Amazon Alexa + Audacy) is driving premium podcast-adjacent audio inventory.",
+    "integration_with_other_channels": "Audio/podcast complements video-heavy media plans by reaching audiences during non-screen moments. Key integrations: (1) sequential storytelling—expose users to brand video on CTV, then reinforce with audio during commute; (2) podcast host-read ads drive branded search spikes—coordinate with search campaign budget increases; (3) podcast companion banner ads create a cross-medium touchpoint; (4) audio is especially powerful paired with outdoor advertising (listeners are often commuting and therefore also seeing OOH).",
+    "budget_allocation_guidance": "Audio/podcasts typically represent 5–12% of media budgets for brands where the audience's daily routine includes commute or fitness activities. Most effective for DTC brands, subscription services, fintech, healthcare/wellness, and B2B SaaS where podcast audiences index high. Minimum viable podcast investment: $10,000/month for a small number of targeted show sponsorships; $50,000+/month for a network strategy across multiple genres. Streaming audio (Spotify) is accessible at $250/month minimums for small budgets. Increase allocation when research shows high podcast consumption in your category; decrease when visual creative is a core brand element that cannot translate to audio."
+  }
+}
