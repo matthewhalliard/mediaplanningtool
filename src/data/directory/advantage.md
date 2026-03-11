@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://www.gotoadvantage.com/
+heroImage: ./images/advantage.png
 featured: false
 targetUsers:
   - Media Agencies
