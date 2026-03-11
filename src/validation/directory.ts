@@ -10,6 +10,7 @@ export const directorySchema = (imageSchema: z.ZodTypeAny) =>
       tags: z.array(z.string()).optional(),
       icon: z.string().optional(),
       image: imageSchema.optional(),
+      heroImage: imageSchema.optional(),
       link: z.string().url().optional(),
       featured: z.boolean().default(false),
     })
