@@ -9,7 +9,6 @@ tags:
   - data-analysts
 link: https://www.optalx.com/
 featured: false
-image: ./images/optalx.png
 targetUsers:
   - Media Planners
   - Campaign Optimizers
