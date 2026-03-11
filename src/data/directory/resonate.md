@@ -15,7 +15,6 @@ tags:
   - in-house-teams
 link: https://www.resonate.com/
 featured: false
-image: ./images/resonate.png
 targetUsers:
   - Marketing Teams
   - Media Agencies
