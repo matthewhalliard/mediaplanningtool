@@ -14,7 +14,6 @@ tags:
   - performance-marketers
 link: https://pixis.ai/products/prism/
 featured: false
-image: ./images/pixis-prism.png
 targetUsers:
   - Media Agencies
   - Full Service Agencies
