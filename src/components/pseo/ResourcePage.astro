@@ -1,0 +1,150 @@
+---
+import type { ResourcePage } from "@lib/pseo/schemas";
+import SharedCTA from "./SharedCTA.astro";
+import ChecklistRenderer from "./ChecklistRenderer.vue";
+
+interface Props {
+  data: ResourcePage;
+}
+
+const { data } = Astro.props;
+const { meta, seo, content } = data;
+const isChecklist = meta.content_type === "checklist";
+
+const contentTypeLabels: Record<string, string> = {
+  checklist: "Checklist",
+  template: "Template",
+  guide: "Guide",
+  tips: "Tips",
+  framework: "Framework",
+  calendar: "Calendar",
+  glossary: "Glossary",
+  budget_allocator: "Budget Allocator",
+  best_practices: "Best Practices",
+};
+
+const difficultyColors: Record<string, string> = {
+  beginner: "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400",
+  intermediate: "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400",
+  advanced: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
+};
+
+const priorityColors: Record<string, string> = {
+  critical: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
+  important: "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400",
+  "nice-to-have": "bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-400",
+};
+---
+
+<article class="max-w-4xl mx-auto">
+  <!-- Breadcrumbs -->
+  <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6">
+    <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+    <span>/</span>
+    <a href="/resources" class="hover:text-primary-600 transition-colors">Resources</a>
+    <span>/</span>
+    <span class="text-gray-700 dark:text-gray-300">{contentTypeLabels[meta.content_type] || meta.content_type}</span>
+  </nav>
+
+  <!-- Hero -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 mb-8">
+    <div class="flex flex-wrap gap-2 mb-4">
+      <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-400">
+        {contentTypeLabels[meta.content_type] || meta.content_type}
+      </span>
+      <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300">
+        {meta.vertical}
+      </span>
+      {meta.channel && (
+        <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300">
+          {meta.channel}
+        </span>
+      )}
+    </div>
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-gray-50 mb-4">
+      {seo.title.replace(/ \|.*$/, '')}
+    </h1>
+    <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+      {seo.description}
+    </p>
+  </div>
+
+  <!-- Intro -->
+  <div class="bg-white dark:bg-gray-800 rounded-xl p-6 md:p-8 border border-gray-200 dark:border-gray-700 mb-8">
+    <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">{content.intro}</p>
+  </div>
+
+  <!-- Checklist interactive mode or standard sections -->
+  {isChecklist ? (
+    <ChecklistRenderer sections={content.sections} client:load />
+  ) : (
+    content.sections.map((section) => (
+      <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 mb-6 overflow-hidden">
+        <div class="px-6 md:px-8 py-5 border-b border-gray-200 dark:border-gray-700">
+          <h2 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-50">{section.heading}</h2>
+        </div>
+        <div class="divide-y divide-gray-100 dark:divide-gray-700">
+          {section.items.map((item) => (
+            <div class="px-6 md:px-8 py-5">
+              <div class="flex flex-wrap items-start gap-3 mb-2">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 flex-1">{item.title}</h3>
+                {item.difficulty && (
+                  <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${difficultyColors[item.difficulty]}`}>
+                    {item.difficulty}
+                  </span>
+                )}
+                {item.priority && (
+                  <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${priorityColors[item.priority]}`}>
+                    {item.priority}
+                  </span>
+                )}
+              </div>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))
+  )}
+
+  <!-- Pro Tips -->
+  {content.pro_tips.length > 0 && (
+    <div class="bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800/30 rounded-xl p-6 md:p-8 mb-8">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-50 mb-4 flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"></path><path d="M10 22h4"></path><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path></svg>
+        Pro Tips
+      </h2>
+      <ul class="space-y-3">
+        {content.pro_tips.map((tip) => (
+          <li class="flex gap-3 text-gray-700 dark:text-gray-300">
+            <span class="text-amber-500 mt-1 flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"></path></svg>
+            </span>
+            <span>{tip}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  <!-- Related Tools -->
+  {content.related_tools.length > 0 && (
+    <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 md:p-8 mb-8">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-50 mb-4">Related Tools</h2>
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {content.related_tools.map((tool) => (
+          <a
+            href={`/${tool.slug}`}
+            class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors"
+          >
+            <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-1">{tool.slug.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())}</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400">{tool.relevance}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- CTA -->
+  <SharedCTA text={content.cta.text} link={content.cta.link} contentType={meta.content_type} />
+</article>

@@ -1,6 +1,7 @@
 import { z, defineCollection } from "astro:content";
 import { glob } from 'astro/loaders';
 import { createDirectoryCollection } from "@lib/loaders";
+import { resourcePageSchema, freeToolSchema, glossaryPageSchema } from "@lib/pseo/schemas";
 
 const directory = createDirectoryCollection();
 
@@ -22,8 +23,26 @@ const blog = defineCollection({
   }),
 });
 
+const pseoResources = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.json', base: "./src/data/pseo/resources" }),
+  schema: resourcePageSchema,
+});
+
+const pseoTools = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.json', base: "./src/data/pseo/tools" }),
+  schema: freeToolSchema,
+});
+
+const pseoGlossary = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.json', base: "./src/data/pseo/glossary" }),
+  schema: glossaryPageSchema,
+});
+
 export const collections = {
   directory,
   pages,
   blog,
+  pseoResources,
+  pseoTools,
+  pseoGlossary,
 };

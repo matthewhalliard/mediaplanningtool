@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "content_type": "guide",
+    "vertical": "retail",
+    "channel": "programmatic-display",
+    "role": "media-planner"
+  },
+  "seo": {
+    "title": "Programmatic Display Guide for Retail & E-Commerce | Media Planning Tool",
+    "description": "Complete guide to programmatic display advertising for retail and e-commerce brands. Covers DSP selection, audience targeting, retail media network integration, and ROAS optimization strategies.",
+    "keywords": ["programmatic display retail", "ecommerce display ads", "retail programmatic advertising", "display ad strategy ecommerce", "retail media display", "programmatic display guide"],
+    "slug": "guide-programmatic-display-retail"
+  },
+  "content": {
+    "intro": "Programmatic display remains a foundational channel for retail and e-commerce brands — from prospecting new customers at scale to retargeting cart abandoners with dynamic product ads. But retail display buying in 2025 is fundamentally different from five years ago: third-party cookies are contracting, retail media networks have exploded to capture 20–25% of all digital ad spend, and attention-based buying is replacing viewability as the quality standard. This guide covers how to plan, execute, and measure programmatic display campaigns specifically for retail brands.",
+    "sections": [
+      {
+        "heading": "DSP Selection & Supply Strategy",
+        "items": [
+          {
+            "title": "Choose DSPs based on your retail media needs",
+            "description": "If you sell on Amazon, Amazon DSP is essential for accessing Amazon's purchase intent data and extending reach off-Amazon. The Trade Desk is the strongest independent DSP for open web and PMP buying. DV360 offers deep integration with Google Shopping data. For mid-market brands, StackAdapt and Basis Technologies offer simpler UI and lower minimums.",
+            "difficulty": "intermediate"
+          },
+          {
+            "title": "Implement supply-path optimization (SPO)",
+            "description": "Audit your programmatic supply chain to minimize intermediary fees. A typical open auction impression passes through 2–3 SSPs before reaching the DSP, each taking a margin. Work with your DSP to identify the shortest path to premium publisher inventory and set up preferred supply-path rules.",
+            "difficulty": "advanced"
+          },
+          {
+            "title": "Balance open auction, PMP, and programmatic guaranteed",
+            "description": "Allocate roughly 30% of display budget to open auction (scale and retargeting), 40% to curated PMP deals (quality inventory at reasonable CPMs), and 30% to programmatic guaranteed (premium placements with guaranteed delivery). Adjust based on brand safety requirements — direct-to-consumer brands with sensitive creative may skew 70%+ to PMP/PG.",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting for Retail",
+        "items": [
+          {
+            "title": "Activate first-party purchase data",
+            "description": "Your most valuable targeting asset is your own customer data. Upload CRM and purchase history data through your DSP's identity resolution partner (LiveRamp, UID2) to build seed audiences. Create segments by recency (30/60/90-day purchasers), frequency (repeat vs. one-time), and AOV tiers.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build contextual targeting strategies for a cookieless world",
+            "description": "As third-party cookies decline, contextual targeting is experiencing a renaissance. Use AI-powered contextual engines (Oracle Contextual, IAS Context Control, Peer39) to place ads alongside relevant editorial content — fashion editorial for apparel, product review sites for electronics, recipe content for kitchen/home goods.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Deploy dynamic product retargeting",
+            "description": "Set up product-level retargeting using your product feed. Users who viewed specific products should see those exact items in display ads within 1–7 days. Configure the retargeting window by product category: impulse categories (beauty, accessories) at 3–7 days, considered purchases (electronics, furniture) at 14–30 days.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Exclude recent purchasers intelligently",
+            "description": "Suppress users who purchased in the last 7–30 days from prospecting and retargeting campaigns. Exception: for high-repurchase categories (consumables, beauty refills), shift recent buyers into a replenishment retargeting segment with messaging about their likely next purchase rather than suppressing entirely.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Strategy for Retail Display",
+        "items": [
+          {
+            "title": "Prioritize product feed quality over creative design",
+            "description": "For dynamic product ads, feed quality is the single largest performance lever. Ensure product titles are descriptive (include brand, product type, key attribute), images are high-resolution on white backgrounds, prices are accurate and up-to-date, and out-of-stock items are automatically excluded.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Test static vs. dynamic formats by funnel stage",
+            "description": "Use static creative for upper-funnel brand awareness (lifestyle imagery, brand story) and dynamic creative for mid- and lower-funnel (specific product recommendations, pricing, urgency messaging). Static ads build brand; dynamic ads drive conversion.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Design for high-impact formats when budget allows",
+            "description": "High-impact formats (skins, adhesion units, interstitials) command $4–10+ CPM but deliver 5–10x higher attention than standard banners. Use these for product launches, seasonal tent-pole campaigns (Black Friday, Prime Day), and brand storytelling moments.",
+            "difficulty": "intermediate",
+            "priority": "nice-to-have"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement & Optimization",
+        "items": [
+          {
+            "title": "Move beyond click-through rate as a success metric",
+            "description": "Display CTR averages 0.05–0.18% — optimizing toward CTR drives spend to bot-prone, low-quality placements. Instead, measure view-through conversions (with a conservative 1–7 day window), attention metrics (Active Attention seconds), and incrementality via holdout studies.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Run incrementality holdout tests quarterly",
+            "description": "Reserve 10–15% of your display audience as a holdout group receiving no display ads. Compare conversion rates between exposed and holdout groups to measure true incrementality. Retail retargeting often shows true incrementality of only 20–40% of reported ROAS — this is critical intelligence for budget allocation.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Track post-return ROAS for accurate profitability",
+            "description": "Integrate return data into your attribution model. Products with high return rates (fashion: 20–35%) inflate gross ROAS while destroying net economics. Calculate net ROAS by channel and product category to avoid over-investing in return-heavy segments.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "The biggest display efficiency gain for most retail brands isn't better targeting — it's filtering out Made for Advertising (MFA) sites. Use tools like Jounce Media or DoubleVerify's MFA detection to exclude low-quality inventory that can consume 20–40% of open auction spend without driving real business outcomes.",
+      "Pair programmatic display with CTV for sequential messaging: serve a 30-second brand video on CTV, then retarget the same household with product-specific display ads within 24–72 hours. This CTV-to-display sequence consistently shows 2–3x higher engagement than display alone.",
+      "For Black Friday and Cyber Monday, shift 70%+ of display budget into PMP and programmatic guaranteed deals 4–6 weeks in advance. Open auction CPMs spike 40–80% during peak retail periods, while pre-negotiated PMP rates hold firm.",
+      "Implement a creative refresh cycle of every 2–3 weeks for always-on campaigns. Banner blindness sets in rapidly — static creative with the same visual treatment delivers diminishing attention after 15+ exposures per user."
+    ],
+    "related_tools": [
+      {
+        "slug": "the-trade-desk",
+        "relevance": "Leading independent DSP for open web programmatic display buying"
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "Google's programmatic platform with deep Shopping data integration"
+      },
+      {
+        "slug": "amazon-ads",
+        "relevance": "Essential DSP for retail brands selling on Amazon with purchase-intent data"
+      }
+    ],
+    "cta": {
+      "text": "Measure what matters with Halliard — unified media planning for modern retail teams",
+      "link": "https://www.mediaplanningtool.com"
+    }
+  }
+}

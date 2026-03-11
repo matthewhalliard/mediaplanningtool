@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "CPM (Cost Per Mille) Definition | Media Planning Glossary",
+    "description": "What is CPM in advertising? Cost Per Mille (cost per thousand impressions) explained with examples, benchmarks by channel, and why it matters for media planning.",
+    "keywords": ["cpm definition", "cost per mille", "cost per thousand impressions", "cpm advertising", "cpm meaning", "what is cpm"],
+    "slug": "cost-per-mille"
+  },
+  "term": {
+    "name": "CPM (Cost Per Mille)",
+    "abbreviation": "CPM",
+    "definition": "CPM stands for Cost Per Mille (Latin for 'thousand') and measures the cost an advertiser pays for 1,000 ad impressions. It is the most widely used pricing model in display, video, and programmatic advertising.",
+    "extended_explanation": "CPM is calculated by dividing the total campaign cost by the total number of impressions, then multiplying by 1,000. For example, a $10,000 campaign that delivers 2,000,000 impressions has a $5.00 CPM. CPM is the standard currency for comparing media costs across channels, publishers, and formats — from a $2 CPM programmatic display banner to a $45 CPM premium CTV placement on Netflix. While CPM measures cost efficiency at the impression level, it does not inherently measure effectiveness. Two campaigns with the same CPM can have wildly different outcomes depending on audience quality, creative impact, viewability, and placement context. This is why modern media planners use CPM alongside quality metrics like viewability rates, attention scores, and cost-per-outcome measures (CPA, cost-per-visit) to evaluate true value.",
+    "example": "A retail brand runs a programmatic display campaign with a $15,000 budget. They negotiate a $10 CPM through a private marketplace deal with premium lifestyle publishers. This delivers 1,500,000 impressions (15,000 / 10 x 1,000 = 1,500,000). If they had instead purchased open auction inventory at a $3 CPM, they would have received 5,000,000 impressions — but potentially with 30–40% landing on low-quality Made for Advertising sites. The higher-CPM inventory delivered fewer impressions but significantly better attention, viewability, and downstream conversion rates.",
+    "why_it_matters": "CPM is the common language of media buying. Every channel — from linear TV (expressed as cost-per-point, convertible to CPM) to CTV, programmatic display, social media, and digital out-of-home — can be compared on a CPM basis. Understanding CPM benchmarks by channel allows media planners to allocate budgets intelligently, negotiate fair rates with publishers, and forecast impression delivery against budget constraints. However, optimizing purely for low CPM without accounting for quality is one of the most common and costly mistakes in programmatic advertising.",
+    "related_terms": [
+      {
+        "slug": "cost-per-click",
+        "name": "CPC (Cost Per Click)"
+      },
+      {
+        "slug": "cost-per-acquisition",
+        "name": "CPA (Cost Per Acquisition)"
+      },
+      {
+        "slug": "viewability",
+        "name": "Viewability"
+      },
+      {
+        "slug": "roas",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail display CPMs range from $1.50–$4 on open auction to $8–$20 for premium programmatic guaranteed. During Black Friday/Cyber Monday, expect 40–80% CPM inflation across all programmatic channels."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive CTV CPMs run $25–$45 for premium SVOD and $14–$20 for FAST channels. Dealer-level campaigns can achieve $12–$18 CPMs on programmatic display with DMA-level targeting."
+      },
+      {
+        "vertical": "Healthcare / Pharma",
+        "note": "Pharma CPMs are inflated by endemic health publisher premiums ($15–$35 CPM on WebMD, Healthgrades) and limited inventory for NPI-matched HCP targeting ($20–$50+ CPM on specialized health platforms like DeepIntent)."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What does CPM stand for in advertising?",
+        "answer": "CPM stands for Cost Per Mille, where 'mille' is Latin for 'thousand.' It represents the cost an advertiser pays for every 1,000 times their ad is displayed (impressions). The formula is: CPM = (Total Cost / Total Impressions) x 1,000."
+      },
+      {
+        "question": "What is the difference between CPM, CPC, and CPA?",
+        "answer": "CPM (Cost Per Mille) charges per 1,000 impressions — you pay for visibility. CPC (Cost Per Click) charges per click — you pay for engagement. CPA (Cost Per Acquisition) charges per conversion — you pay for results. CPM is most common in brand awareness campaigns and programmatic display/video; CPC dominates in paid search; CPA is used in performance/affiliate marketing."
+      },
+      {
+        "question": "What is a typical CPM for CTV advertising?",
+        "answer": "CTV CPMs in 2025–2026 range from $12–$22 for programmatic open auction and FAST channels (Tubi, Pluto TV), $22–$35 for mid-tier streaming (Hulu, Peacock, Paramount+), and $30–$45 for premium SVOD (Netflix, Max). Live sports streaming commands $35–$60+ CPM."
+      },
+      {
+        "question": "Why is my CPM higher than benchmarks suggest?",
+        "answer": "Several factors inflate CPM: narrow audience targeting (smaller audience = higher competition for limited supply), premium inventory selection (PMP/PG deals vs. open auction), geographic concentration (targeting one DMA vs. national), seasonal demand spikes (Q4, tent-pole events), and brand safety filtering (excluding categories and keywords reduces available supply). Higher CPM isn't inherently bad if it delivers better outcomes."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://www.mediaplanningtool.com"
+    }
+  }
+}
