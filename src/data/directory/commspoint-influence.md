@@ -10,7 +10,6 @@ tags:
   - marketing-directors
 link: https://www.nielsen.com/solutions/media-planning/commspoint-influence/
 featured: false
-image: ./images/commspoint-influence.png
 targetUsers:
   - Advertisers
   - Media agencies
