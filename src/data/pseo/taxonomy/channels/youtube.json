@@ -1,0 +1,47 @@
+{
+  "slug": "youtube",
+  "name": "YouTube / Online Video",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "YouTube advertising is purchased through Google Ads (self-serve) or through Google's DV360 for larger programmatic buys. Campaign types include: Video campaigns (Skippable in-stream, Non-skippable in-stream, Bumper ads, In-feed video, Outstream), Performance Max (AI-optimized across Google's full network including YouTube), and Video Reach campaigns (brand awareness with reach/frequency optimization). Auction-based buying is standard, with CPV (cost per view) and CPM bidding options. YouTube Select and YouTube Select Lineup (reservations-based) allow buying against premium content categories and lineups at guaranteed CPMs. YouTube masthead (homepage takeover) is sold on CPD (cost per day) through direct sales. Connected TV inventory on YouTube is increasingly treated as CTV inventory and accessed via DV360.",
+    "measurement_approaches": "YouTube's primary view metric is a 'view' (30-second watch or video completion if under 30 seconds, or interaction for skippable ads). Video metrics include view-through rate (VTR), completion rate at 25%/50%/75%/100%, and average view duration. Brand lift studies (Brand Lift Survey) measure awareness, consideration, and purchase intent lift versus a holdout group—this is YouTube's most distinctive measurement feature. Conversion tracking uses Google's tag and Google Ads attribution. YouTube data integrates with GA4 for cross-channel path analysis. For CTV YouTube inventory, household-level attribution is available via Google's household graph. Attention metrics (through DoubleVerify attention products) are increasingly layered onto YouTube buys.",
+    "typical_cpms": "Skippable in-stream (CPV billing): $0.01–$0.04 per view, equivalent to approximately $3–$10 CPM; Non-skippable in-stream (15s, CPM billing): $8–$18 CPM; Bumper ads (6s non-skippable, CPM billing): $5–$14 CPM; YouTube Select premium inventory: $20–$35 CPM; YouTube CTV (connected TV placements): $20–$35 CPM; YouTube Masthead: $300,000–$1M+ per day (CPD); overall YouTube advertiser CPM range (2025): $4–$15 for standard campaigns, with finance and tech niches commanding $15–$30+ CPM due to high advertiser competition. US-targeted campaigns average $8–$12 CPM across formats.",
+    "targeting_capabilities": [
+      "Google audience segments: affinity audiences, in-market audiences, life events",
+      "Custom intent audiences (people who searched specific keywords on Google search)",
+      "Custom affinity audiences (lookalike modeling based on URL and interest inputs)",
+      "Customer match / CRM audiences (email list upload matched to Google accounts)",
+      "Demographics and detailed demographics (household income, parental status, homeowner status)",
+      "Placement targeting (specific YouTube channels, videos, or categories)",
+      "Contextual targeting (keyword and topic-based content matching)"
+    ],
+    "common_pitfalls": [
+      "Running skippable ads without a strong hook in the first 5 seconds—viewers skip at the earliest opportunity, and only a compelling opening retains them past the skip point",
+      "Treating YouTube as a direct-response channel with last-click attribution—YouTube drives upper/mid-funnel impact that shows up in brand search lift, not in immediate conversions",
+      "Ignoring view-through rate and completion rate metrics, focusing only on clicks, which dramatically understates YouTube's effectiveness",
+      "Failing to exclude irrelevant placements (music videos, gaming content, children's content) that dilute brand-safety and waste impressions on low-intent audiences",
+      "Underestimating the value of YouTube CTV inventory—YouTube is the #1 most-watched streaming service on US TVs, and CTV placements command stronger attention and brand impact",
+      "Not using Brand Lift Studies to measure awareness and consideration impact, leaving YouTube's primary value invisible in performance reports"
+    ],
+    "formats": [
+      "Skippable in-stream ads (5-second skip option, any length, CPV billing)",
+      "Non-skippable in-stream ads (15-second max, no skip option, CPM billing)",
+      "Bumper ads (6-second non-skippable, CPM, brand awareness)",
+      "In-feed video ads (appear in YouTube search results and homepage, CPV billing)",
+      "YouTube Shorts ads (vertical video, appears between Shorts in the Shorts feed)",
+      "Outstream ads (video ads on Google Display Network partner sites, mobile only)",
+      "YouTube Masthead (full-width homepage placement, sold day-part or 24-hour)"
+    ],
+    "key_platforms": [
+      "YouTube (primary platform, 2B+ monthly active users globally, #1 video platform)",
+      "Google Ads (primary self-serve interface for YouTube campaign management)",
+      "DV360 (Google's DSP, enables programmatic access to YouTube and GDN video inventory)",
+      "YouTube Studio (creator analytics, not buying tool, but relevant for creator partnership intelligence)",
+      "Google Marketing Platform (enterprise campaign management and attribution suite)"
+    ],
+    "planning_considerations": "YouTube is the world's second-largest search engine and the largest video platform, reaching over 95% of US adults. As of 2025, YouTube on connected TVs sees more watch time than any other streaming service. Key planning considerations: (1) YouTube's dual-purpose nature as a social platform (creator subscriptions, comments) and a search/discovery engine requires different creative approaches for each use case; (2) the non-skippable/bumper combination (a 15s + 6s sequence) is a proven brand impact format; (3) YouTube CTV inventory should be planned and measured separately from mobile/desktop YouTube, as the lean-back context drives different engagement; (4) creator integrations (paid sponsorships within organic videos) exist outside the Google Ads buying system and require direct creator outreach or marketplace platforms.",
+    "trend_2026": "YouTube's CTV viewing surpassed Netflix in US total watch time in 2025, cementing its position as the dominant streaming destination. YouTube Shorts (short-form vertical video) has reached 70B+ daily views globally and is the platform's fastest-growing ad surface. YouTube is the leading platform for podcast video content, with major audio podcast shows migrating to YouTube video format. Shopping integrations—shoppable video ads linking directly to product pages—are maturing. YouTube's AI-powered video dubbing for multilingual advertising is enabling international campaign expansion. The YouTube Select Lineup strategy, packaging premium creator channels into audience-targeted inventory, is growing as an alternative to traditional TV buys for younger demographics.",
+    "integration_with_other_channels": "YouTube is the backbone of online video strategy and pairs naturally with CTV (for deduplication and complementary reach), paid search (YouTube exposure drives branded search volume—measurable via Brand Lift's search lift metric), and paid social (cross-platform video creative repurposing). YouTube audience segments (custom intent based on search behavior) are uniquely powerful, effectively bridging search intent with video targeting. YouTube should be planned alongside linear TV for cross-screen reach and frequency management.",
+    "budget_allocation_guidance": "YouTube typically represents 10–20% of digital media budgets for brand-focused advertisers, with higher allocations for video-first brands and entertainment. For performance-focused digital programs, YouTube is typically 5–10% of budget as a mid-funnel supplement to paid search and paid social. Minimum viable budgets for brand awareness: $25,000+/month for meaningful reach. YouTube Brand Lift requires a minimum spend threshold to generate statistically significant results (~$15,000+). Increase YouTube allocation when brand awareness and consideration are lagging, when target audiences are heavy video consumers, or when CTV reach needs supplementing at lower CPMs."
+  }
+}
