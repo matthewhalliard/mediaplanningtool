@@ -15,7 +15,6 @@ tags:
   - cmos
 link: https://www.nielsen.com/solutions/media-planning/
 featured: true
-image: ./images/nielsen-media-impact.png
 targetUsers:
   - Media Agencies
   - Marketing Directors
