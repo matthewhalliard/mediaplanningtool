@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Free CPM Calculator | Cost Per Mille Calculator for Media Planning",
+    "description": "Calculate CPM (cost per mille / cost per thousand impressions) instantly. Enter your total spend and impressions to find your CPM, or calculate impressions from budget and CPM. Includes benchmarks by channel.",
+    "keywords": ["cpm calculator", "cost per mille calculator", "cost per thousand impressions", "media planning calculator", "advertising cpm", "cpm formula"],
+    "slug": "cpm-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "total_spend",
+        "label": "Total Ad Spend",
+        "type": "currency",
+        "default_value": 10000,
+        "min": 0,
+        "max": 100000000,
+        "step": 100,
+        "help_text": "Total amount spent on the campaign or ad placement"
+      },
+      {
+        "id": "impressions",
+        "label": "Total Impressions",
+        "type": "number",
+        "default_value": 500000,
+        "min": 0,
+        "max": 10000000000,
+        "step": 1000,
+        "help_text": "Total number of ad impressions served"
+      }
+    ],
+    "formula": "(total_spend / impressions) * 1000",
+    "output": {
+      "label": "CPM (Cost Per Mille)",
+      "format": "currency",
+      "description": "Your cost per 1,000 impressions"
+    },
+    "presets": [
+      {
+        "name": "Programmatic Display (Open Auction)",
+        "values": { "total_spend": 5000, "impressions": 1666667 }
+      },
+      {
+        "name": "CTV / Streaming Video",
+        "values": { "total_spend": 25000, "impressions": 833333 }
+      },
+      {
+        "name": "Social Media (Meta)",
+        "values": { "total_spend": 10000, "impressions": 1000000 }
+      },
+      {
+        "name": "Premium Publisher (PMP Deal)",
+        "values": { "total_spend": 15000, "impressions": 1500000 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "CPM (Cost Per Mille) is the most fundamental pricing metric in media planning. It measures the cost to deliver 1,000 ad impressions and is used across virtually every digital and traditional channel to benchmark efficiency and compare inventory costs. Whether you're evaluating a CTV deal, pricing programmatic display, or comparing proposals from publishers, CPM is the common currency.",
+    "how_it_works": "The CPM formula is straightforward: **CPM = (Total Ad Spend / Total Impressions) x 1,000**. For example, if you spent $10,000 and received 500,000 impressions, your CPM is $20.00. You can also reverse the formula to estimate impressions from a given budget: **Impressions = (Budget / CPM) x 1,000**. This calculator handles both directions — enter your spend and impressions to find CPM, or use the presets to see how different channel benchmarks affect your impression volume.",
+    "faq": [
+      {
+        "question": "What is a good CPM for digital advertising?",
+        "answer": "CPMs vary dramatically by channel, format, and targeting. Programmatic display open auction averages $1.50–$4.00 CPM. Social media (Meta, TikTok) typically runs $5–$15 CPM. CTV/streaming video ranges from $14–$45 CPM depending on premium vs. FAST inventory. A 'good' CPM is one that delivers quality impressions to your target audience at a cost-per-outcome (conversion, visit, lead) that meets your ROI goals."
+      },
+      {
+        "question": "What is the difference between CPM and eCPM?",
+        "answer": "CPM is the price you pay per 1,000 impressions as an advertiser. eCPM (effective CPM) is the revenue metric publishers use, calculated as (total earnings / total impressions) x 1,000. For advertisers, eCPM is sometimes used to normalize costs across campaigns with different pricing models (CPC, CPA) into a comparable impressions-based rate."
+      },
+      {
+        "question": "Should I always optimize for the lowest CPM?",
+        "answer": "No. Low CPM often correlates with low-quality inventory — Made for Advertising (MFA) sites, bot traffic, and low-viewability placements. A $2 CPM on MFA inventory delivers less real value than a $25 CPM on premium CTV. Optimize for cost-per-outcome (CPA, cost-per-visit, cost-per-lead) rather than CPM alone, and use attention metrics and viewability to ensure quality."
+      },
+      {
+        "question": "How do CPMs change during peak advertising seasons?",
+        "answer": "CPMs spike significantly during high-demand periods. Black Friday/Cyber Monday typically sees 40–80% higher CPMs across display and social. Q4 (October–December) is the most expensive quarter broadly. Political election years inflate CPMs on local TV and connected TV in battleground states. Plan peak-season budgets with 30–50% CPM premiums built in, or lock in PMP rates in advance."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "the-trade-desk",
+        "relevance": "Major DSP where CPM-based buying is the primary pricing model"
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "Google's programmatic platform using CPM bidding across display and video"
+      }
+    ],
+    "cta": {
+      "text": "Plan smarter with Halliard — the OS for modern media teams",
+      "link": "https://www.mediaplanningtool.com"
+    }
+  }
+}

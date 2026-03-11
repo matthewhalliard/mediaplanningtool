@@ -1,0 +1,59 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import GlossaryPageComponent from "@components/pseo/GlossaryPage.astro";
+import type { GlossaryPage } from "@lib/pseo/schemas";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const glossary = await getCollection("pseoGlossary");
+  return glossary.map((entry) => {
+    const data = entry.data as GlossaryPage;
+    return {
+      params: { slug: data.seo.slug },
+      props: { entry: data },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const data = entry as GlossaryPage;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: data.term.name,
+    description: data.term.definition,
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      name: "Media Planning Glossary",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.content.faq.map((qa) => ({
+      "@type": "Question",
+      name: qa.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: qa.answer,
+      },
+    })),
+  },
+];
+---
+
+<BaseLayout title={data.seo.title} description={data.seo.description} slug={`glossary/${data.seo.slug}`}>
+  <AppShell>
+    <div class="w-full px-4 py-8">
+      <GlossaryPageComponent data={data} />
+    </div>
+  </AppShell>
+  {jsonLd.map((ld) => (
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  ))}
+</BaseLayout>

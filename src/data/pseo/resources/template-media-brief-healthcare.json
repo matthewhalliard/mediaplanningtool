@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "content_type": "template",
+    "vertical": "healthcare",
+    "role": "media-planner"
+  },
+  "seo": {
+    "title": "Healthcare Media Brief Template | Pharma & DTC Campaign Planning",
+    "description": "Free healthcare media brief template designed for pharma DTC, HCP promotion, and health system campaigns. Includes FDA compliance checkpoints, measurement frameworks, and budget allocation guidance.",
+    "keywords": ["healthcare media brief template", "pharma media plan template", "dtc campaign brief", "hcp media brief", "pharmaceutical advertising plan", "healthcare media planning"],
+    "slug": "template-media-brief-healthcare"
+  },
+  "content": {
+    "intro": "Healthcare and pharma media planning requires a brief that accounts for regulatory constraints no other vertical faces. This template is purpose-built for prescription DTC campaigns, HCP digital promotion, and health system patient acquisition — with FDA OPDP compliance checkpoints, HIPAA-aware audience strategy sections, and measurement frameworks that address the 6–8 week script lift data lag. Adapt each section to your campaign type: branded Rx, unbranded disease awareness, or OTC/device.",
+    "sections": [
+      {
+        "heading": "Campaign Overview",
+        "items": [
+          {
+            "title": "Campaign type classification",
+            "description": "Specify: Branded Rx DTC, Unbranded Disease Awareness, HCP Promotion, OTC/Device DTC, or Health System Patient Acquisition. This classification determines regulatory requirements, available channels, and measurement approach.",
+            "priority": "critical"
+          },
+          {
+            "title": "Brand and product details",
+            "description": "Document brand name, generic name, therapeutic area, indication, and competitive set. For branded Rx, include formulary status with top 3 payers and any REMS (Risk Evaluation and Mitigation Strategy) requirements that constrain messaging.",
+            "priority": "critical"
+          },
+          {
+            "title": "Campaign objectives and KPIs",
+            "description": "Define primary objective: NRx growth, disease awareness, HCP engagement, or patient support program enrollment. Set quantitative targets for each KPI (e.g., +15% NRx vs. control, 500K qualified patient site visits, 2,000 copay card activations).",
+            "priority": "critical"
+          },
+          {
+            "title": "Regulatory review timeline",
+            "description": "Map the MLR (Medical/Legal/Regulatory) review cycle for all creative assets. Budget 45–90 days for branded Rx creative approval. Identify which assets are already MLR-approved and which need new submissions. Flag any Black Box Warning requirements.",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Strategy",
+        "items": [
+          {
+            "title": "Patient audience definition",
+            "description": "Define diagnosed vs. undiagnosed patient populations. For DTC, specify condition prevalence, patient demographics, and psychographic segments (newly diagnosed vs. treatment-experienced vs. treatment-resistant). Identify caregivers as a secondary audience where relevant.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "HCP target list and NPI strategy",
+            "description": "For HCP campaigns, define the NPI (National Provider Identifier) target universe: specialist type, prescribing volume thresholds, geographic distribution, and any decile-based prioritization. Note the total addressable HCP count — if under 15,000, flag for specialized health data platform targeting (DeepIntent, Doceree, PulsePoint).",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "HIPAA compliance review for audience targeting",
+            "description": "Document how all audience segments comply with HIPAA Safe Harbor de-identification standards. Confirm that no condition-specific retargeting will be used that could imply knowledge of a user's health status. Review all third-party data segments for PHI (Protected Health Information) exposure risk.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Channel Strategy",
+        "items": [
+          {
+            "title": "DTC channel mix recommendation",
+            "description": "Recommend channels based on campaign type: Linear TV for broad DTC reach (still dominant for blockbuster Rx brands), CTV for younger demographics and cord-cutters, paid search for high-intent condition research queries, and digital health publishers (WebMD, Healthgrades) for contextual patient engagement.",
+            "difficulty": "intermediate",
+            "priority": "important",
+            "channel_relevance": ["linear-tv", "ctv", "paid-search", "programmatic-display"]
+          },
+          {
+            "title": "HCP channel mix recommendation",
+            "description": "Map HCP channels: NPI-matched programmatic via DeepIntent or PulsePoint, endemic health publisher placements (Epocrates, MDxHealth), medical congress sponsorships, and CTV reaching physicians at home via consumer streaming platforms with NPI-matched overlays.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Platform restriction documentation",
+            "description": "Document platform-specific restrictions: Meta pharmaceutical advertiser verification requirements, Google Rx drug ad policies, and any platform restrictions on condition-specific targeting. Identify which creative assets require platform pre-approval.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement Framework",
+        "items": [
+          {
+            "title": "Script lift study design",
+            "description": "Define the NRx/TRx measurement approach: exposed vs. matched control markets, IQVIA or Symphony Health data feed cadence (weekly preferred), and minimum measurement window (12+ weeks to account for 6–8 week data lag plus 4+ weeks of in-flight data).",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Leading indicator dashboard setup",
+            "description": "Establish real-time proxy metrics while awaiting script lift data: branded search volume, disease awareness site traffic, copay card downloads, patient support program enrollments, and HCP engagement events. These metrics enable mid-campaign optimization while NRx data processes.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Brand lift study specification",
+            "description": "Commission third-party brand lift studies (Kantar, Lucid) to measure unaided awareness, treatment consideration, and ad recall among the patient audience. For HCP campaigns, specify prescriber survey methodology and sample size requirements.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Start creative MLR submissions 12 weeks before campaign launch — not 8. The 45–90 day review cycle has minimal compression, and any revision round resets the clock. Having approved creative on the shelf 2 weeks early is far better than launching late.",
+      "For rare disease campaigns with fewer than 15,000 target HCPs, budget 30–40% more per NPI reached than standard specialty campaigns. The audience is so small that programmatic efficiency breaks down and you need direct publisher deals with health data platforms.",
+      "Run unbranded disease awareness campaigns 6–8 weeks ahead of branded launch. Unbranded creative has fewer regulatory constraints, can build condition recognition in the patient population, and primes the market for the branded message without competing for MLR review bandwidth.",
+      "Always coordinate DTC and HCP campaigns timing. A prescription converts only when the patient asks AND the doctor agrees — if HCP detailing runs 4 weeks behind DTC launch, you create demand that physicians aren't prepared to fulfill."
+    ],
+    "related_tools": [
+      {
+        "slug": "deepintent",
+        "relevance": "NPI-matched programmatic HCP targeting across premium health publisher inventory"
+      },
+      {
+        "slug": "iqvia",
+        "relevance": "Prescription data and script lift measurement for DTC pharma campaign attribution"
+      }
+    ],
+    "cta": {
+      "text": "Plan faster with Halliard — built for complex, multi-audience media planning",
+      "link": "https://www.mediaplanningtool.com"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import ResourcePageComponent from "@components/pseo/ResourcePage.astro";
+import type { ResourcePage } from "@lib/pseo/schemas";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const resources = await getCollection("pseoResources");
+  return resources.map((entry) => {
+    const data = entry.data as ResourcePage;
+    return {
+      params: { slug: data.seo.slug },
+      props: { entry: data },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const data = entry as ResourcePage;
+
+// JSON-LD structured data
+const contentType = data.meta.content_type;
+const isHowTo = contentType === "checklist" || contentType === "template" || contentType === "guide";
+
+const howToSteps = isHowTo
+  ? data.content.sections.flatMap((section) =>
+      section.items.map((item) => ({
+        "@type": "HowToStep",
+        name: item.title,
+        text: item.description,
+      }))
+    )
+  : [];
+
+const faqEntries = data.content.pro_tips.map((tip, i) => ({
+  "@type": "Question",
+  name: `Pro Tip ${i + 1}`,
+  acceptedAnswer: {
+    "@type": "Answer",
+    text: tip,
+  },
+}));
+
+const jsonLd: Record<string, unknown>[] = [];
+
+if (isHowTo) {
+  jsonLd.push({
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: data.seo.title,
+    description: data.seo.description,
+    step: howToSteps,
+  });
+}
+
+if (faqEntries.length > 0) {
+  jsonLd.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqEntries,
+  });
+}
+---
+
+<BaseLayout title={data.seo.title} description={data.seo.description} slug={`resources/${data.seo.slug}`}>
+  <AppShell>
+    <div class="w-full px-4 py-8">
+      <ResourcePageComponent data={data} />
+    </div>
+  </AppShell>
+  {jsonLd.map((ld) => (
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  ))}
+</BaseLayout>
