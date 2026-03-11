@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://basis.com/
+heroImage: ./images/basis.png
 featured: false
 targetUsers:
   - Media Agencies
