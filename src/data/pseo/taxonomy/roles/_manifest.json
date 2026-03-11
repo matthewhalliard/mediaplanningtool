@@ -1,0 +1,69 @@
+{
+  "type": "manifest",
+  "category": "roles",
+  "version": "1.0",
+  "last_updated": "2026-03-11",
+  "total_count": 6,
+  "roles": [
+    {
+      "slug": "media-planner",
+      "name": "Media Planner / Media Strategist",
+      "file": "media-planner.json",
+      "seniority_level": "mid",
+      "org_context": "Agency or in-house brand",
+      "primary_function": "Strategy & Planning",
+      "key_content_formats": ["templates", "calculators", "channel fact sheets", "CPM benchmarks"],
+      "typical_years_experience": "2–7"
+    },
+    {
+      "slug": "media-buyer",
+      "name": "Media Buyer / Investment Specialist",
+      "file": "media-buyer.json",
+      "seniority_level": "mid",
+      "org_context": "Agency (primarily)",
+      "primary_function": "Execution & Negotiation",
+      "key_content_formats": ["process guides", "IO templates", "negotiation scripts", "platform how-tos"],
+      "typical_years_experience": "2–8"
+    },
+    {
+      "slug": "media-director",
+      "name": "Media Director / VP, Media",
+      "file": "media-director.json",
+      "seniority_level": "senior",
+      "org_context": "Agency or in-house brand",
+      "primary_function": "Strategy Leadership & Team Management",
+      "key_content_formats": ["industry reports", "trend analyses", "case studies", "measurement frameworks"],
+      "typical_years_experience": "8–15"
+    },
+    {
+      "slug": "cmo",
+      "name": "CMO / Marketing Director",
+      "file": "cmo.json",
+      "seniority_level": "executive",
+      "org_context": "In-house brand",
+      "primary_function": "Business Strategy & Investment Decisions",
+      "key_content_formats": ["benchmarking reports", "annual outlooks", "executive summaries", "ROI frameworks"],
+      "typical_years_experience": "15–25"
+    },
+    {
+      "slug": "analytics-lead",
+      "name": "Analytics / Data / Measurement Lead",
+      "file": "analytics-lead.json",
+      "seniority_level": "mid-senior",
+      "org_context": "Agency or in-house brand",
+      "primary_function": "Measurement & Performance Analysis",
+      "key_content_formats": ["technical guides", "methodology frameworks", "measurement templates", "white papers"],
+      "typical_years_experience": "4–12"
+    },
+    {
+      "slug": "account-manager",
+      "name": "Account Manager / Client Lead (Agency)",
+      "file": "account-manager.json",
+      "seniority_level": "mid",
+      "org_context": "Agency",
+      "primary_function": "Client Relationship & Project Coordination",
+      "key_content_formats": ["client-ready templates", "case studies", "presentation frameworks", "workflow guides"],
+      "typical_years_experience": "2–8"
+    }
+  ]
+}
