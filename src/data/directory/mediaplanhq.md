@@ -8,6 +8,7 @@ tags:
   - budget-planning
   - budget-managers
 link: https://www.mediaplanhq.com/
+heroImage: ./images/mediaplanhq.png
 featured: false
 targetUsers:
   - Agencies
