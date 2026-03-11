@@ -13,6 +13,7 @@ tags:
   - data-analysts
   - marketing-directors
 link: https://www.akkio.com/
+heroImage: ./images/akkio.png
 featured: false
 targetUsers:
   - Media Agencies
