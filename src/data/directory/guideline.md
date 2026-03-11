@@ -14,7 +14,6 @@ tags:
   - agencies
 link: https://www.guideline.ai/
 featured: false
-image: ./images/guideline.png
 targetUsers:
   - Media Strategy Professionals
   - Marketing Directors
