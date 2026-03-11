@@ -13,6 +13,7 @@ tags:
   - data-analysts
   - performance-marketers
 link: https://pixis.ai/products/prism/
+heroImage: ./images/pixis-prism.png
 featured: false
 targetUsers:
   - Media Agencies
