@@ -1,0 +1,57 @@
+{
+  "slug": "financial-services",
+  "name": "Financial Services",
+  "type": "vertical",
+  "context": {
+    "audience": "Media and marketing directors at retail banks, credit unions, insurance carriers (P&C, life, health), wealth management firms, mortgage lenders, credit card issuers, and fintech brands. Audiences segmented by product (checking/savings, auto loans, mortgages, investments, insurance) and by lifecycle stage (new customer acquisition, cross-sell to existing customers, retention of high-value segments). High-net-worth (HNW) and ultra-HNW investor segments require entirely separate channel strategies.",
+    "pain_points": [
+      "Compliance approval bottlenecks: every ad unit, landing page, and email must pass legal/compliance review before launch, creating 2–6 week approval cycles that make real-time programmatic optimization nearly impossible for regulated claims",
+      "Keyword competition driving $50–$100+ CPCs in paid search for terms like 'best mortgage rate,' 'car insurance quotes,' and 'high yield savings' — making customer acquisition economics difficult to sustain without rigorous LTV modeling",
+      "Platform-level ad restrictions: Meta, Google, and TikTok all impose special ad category restrictions on credit, housing, and employment products that limit demographic targeting (age, ZIP code, income), reducing addressable audience precision in key product lines",
+      "Multi-product attribution at the household level: a customer opened a checking account from a social ad, got a mortgage through a branch, and has auto insurance through an agent — media gets no credit for the full relationship value despite influencing early-stage decisions",
+      "Fintech challenger brands with lower CPAs are eroding deposit and lending market share, forcing incumbents to increase paid media investment in categories where their brand equity no longer drives organic consideration",
+      "Rising TCPA restrictions (effective January 2025 under new FCC rule) limiting AI-generated outbound call/text marketing consent to single-company relationships, disrupting shared lead aggregator models used by insurance and mortgage advertisers"
+    ],
+    "kpis": [
+      "Cost per funded account (CPA to a funded checking, savings, or loan account — not just a lead form completion)",
+      "Cost per funded loan / cost per bound policy (insurance)",
+      "Customer Lifetime Value (CLV) modeled by acquisition channel — used to justify high CPAs in search and TV",
+      "Application-to-approval-to-funding conversion rates by channel (identifies where media quality breaks down)",
+      "Brand consideration vs. competitive set (measured via brand lift studies; critical for mortgage and insurance categories)",
+      "Net new deposits or AUM (assets under management) attributed to marketing programs",
+      "Digital self-service adoption rate — % of new customers completing onboarding without branch contact (tied to digital ad acquisition quality)"
+    ],
+    "regulatory": "Highly regulated vertical. Key constraints: FDIC advertising signage rules (updated 2024/2025, full digital compliance by 2027). FTC Regulation Z/TILA for credit advertising disclosures (APR must be prominently displayed). Fair Housing Act and ECOA restrict demographic targeting for mortgage and credit products — Meta's Special Ad Category limits geographic and age targeting. SEC/FINRA rules for investment product advertising require 'fair and balanced' presentation, no performance guarantees. State-level insurance advertising regulations vary by carrier type. TCPA consent requirements for outbound marketing communications. CFPB oversight of marketing practices for consumer financial products.",
+    "seasonality": "Mortgage originations peak in spring (March–June) as home buying season begins; refi windows open and close with rate movements. Insurance open enrollment periods (Medicare AEP: Oct 15–Dec 7; ACA Open Enrollment: Nov 1–Jan 15) create massive media concentration events. Tax season (Jan–Apr) drives demand for investment accounts (IRA contributions), tax-prep software, and refund-based personal loans. Q4 drives credit card acquisition (holiday spending, rewards redemption campaigns). Back-to-school creates student loan and youth banking demand.",
+    "budget_dynamics": "Financial services is the fastest-growing digital advertising sector at 16.3% digital spend growth in 2025 per industry benchmarks. Fintech challengers (Chime, SoFi, Rocket Mortgage, Lemonade) have forced traditional banks and insurers to significantly increase digital investment. Performance marketing (CPL, CPA models) dominates — financial brands want pay-for-outcome structures. Heavy investment in paid search (highest-intent channel) despite $50–100 CPCs. Growing investment in CTV for brand building as digital reach on social becomes constrained by special ad categories. In-housing of programmatic buying growing among tier-1 banks.",
+    "channels_that_work": [
+      "Paid search (Google/Bing) — highest intent channel; 'best mortgage rate,' 'compare car insurance,' 'open savings account' queries convert at 3–8x display rates despite high CPCs",
+      "Programmatic display and native — retargeting abandoners (quote forms, account applications); prospecting via financial intent data from Equifax, TransUnion data partnerships",
+      "Connected TV (CTV) — brand building for mortgage, insurance, and investment products; allows targeting by credit tier, income proxy, and homeownership status through data partnerships",
+      "Paid social (Meta, LinkedIn) — Meta for consumer acquisition (checking, credit cards, personal loans); LinkedIn for B2B financial services (commercial banking, wealth management for business owners)",
+      "Affiliate and lead aggregator networks (LendingTree, Credit Karma, NerdWallet, Bankrate) — high-volume performance-based leads; quality varies widely and must be underwritten with conversion data",
+      "Linear TV and streaming audio — still significant for insurance brands (GEICO, Progressive, State Farm) running mass-market brand campaigns; drives top-of-funnel consideration",
+      "Direct mail — remarkably durable for mortgage preapproval, credit card offers, and HELOC campaigns where USPS NCOA data enables precise household targeting"
+    ],
+    "measurement_challenges": [
+      "Long and complex purchase journeys: a mortgage prospect researches for 3–6 months across 20–30 touchpoints before applying — last-click attribution massively undervalues awareness-stage media",
+      "Offline conversion closure: funded loans and opened accounts happen in branches, over phone, or via DocuSign — connecting this outcome back to online media exposure requires robust call tracking and CRM matching",
+      "Special ad category restrictions prevent granular demographic performance analysis — you can't break down mortgage ad performance by age or ZIP code in Meta, making optimization against high-converting segments impossible",
+      "Lead quality vs. lead volume trade-off in affiliate channels — optimizing for CPL inflates volume of unqualifiable prospects; true cost-per-funded-account is often 5–10x the headline CPL",
+      "Brand lift measurement for regulated products: pharma-style effect modeling doesn't translate cleanly to financial services where trust and timing are the primary purchase drivers"
+    ],
+    "subtopics": [
+      "Mortgage advertising during rate cycle volatility (purchase vs. refi media strategy)",
+      "Insurance open enrollment media planning (Medicare AEP, ACA, commercial lines)",
+      "Wealth management and investment product advertising to high-net-worth audiences",
+      "Credit card acquisition media: rewards vs. balance transfer vs. secured card segments",
+      "Fintech challenger brand media strategy vs. incumbent bank awareness campaigns",
+      "Retail banking new account acquisition (checking, savings, CD campaigns)",
+      "B2B financial services media planning (commercial banking, treasury management, factoring)",
+      "TCPA-compliant lead generation and outbound marketing for financial products"
+    ],
+    "typical_budget_range": "Community bank or regional credit union: $500K–$5M/year. Regional bank (top 100): $10M–$75M/year. National insurance carrier: $100M–$1B+/year (GEICO spends ~$1.5B). Mortgage lender: highly variable — $5M–$200M depending on rate environment. Fintech challenger: $50M–$500M/year (growth-stage fintech routinely allocates 30–50% of revenue to marketing).",
+    "buying_model": "Performance marketing emphasis — CPL and CPA-based buying predominates for acquisition campaigns. Paid search is self-serve (Google Ads, Microsoft Ads) or agency-managed. CTV increasingly transacted programmatically via The Trade Desk, Amazon DSP, and direct streaming deals. TV upfront buying still used by major insurance carriers. Affiliate networks (LendingTree, Bankrate, Credit Karma) operate on cost-per-lead or revenue-share models. Data clean rooms (LiveRamp Safe Haven) used for audience matching with credit bureau data.",
+    "creative_considerations": "Trust signals are essential — FDIC/NCUA insured logos, BBB ratings, and customer testimonials reduce friction. Rates and offers must be legally accurate at time of impression with required disclosures — dynamic creative updating rates in real time is operationally complex but necessary in mortgage and savings product ads. Emotional storytelling (home ownership, retirement security, family financial stability) outperforms feature-benefit in brand campaigns. Simplicity is critical — financial products are inherently complex and consumers disengage from jargon-heavy creative. Mobile-first design imperative given 70%+ of financial search and application traffic is mobile."
+  }
+}
