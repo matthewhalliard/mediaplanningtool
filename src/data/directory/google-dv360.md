@@ -14,7 +14,6 @@ tags:
   - media-planners
 link: https://marketingplatform.google.com/about/display-video-360/
 featured: false
-image: ./images/google-dv360.png
 targetUsers:
   - Enterprise Brands
   - Media Agencies
