@@ -9,7 +9,6 @@ tags:
   - data-analysts
 link: https://www.telmar.com/
 featured: false
-image: ./images/telmar-helixa.png
 targetUsers:
   - Advertisers
   - Media planners
