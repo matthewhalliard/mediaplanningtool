@@ -1,0 +1,58 @@
+{
+  "slug": "account-manager",
+  "name": "Account Manager / Client Lead (Agency)",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Serving as the primary day-to-day client contact at the agency—managing communication, expectations, and relationship health across all workstreams",
+      "Coordinating internal agency teams (media planning, buying, analytics, creative) to deliver work on time and to client expectations",
+      "Scoping and managing campaign projects from brief to delivery—setting timelines, managing approvals, resolving blockers, and ensuring client milestones are met",
+      "Leading client-facing presentations, status calls, and campaign reviews—translating internal work into client-relevant narratives",
+      "Identifying and managing upsell and cross-sell opportunities—growing client revenue by proposing additional services or expanded channel investments",
+      "Monitoring client satisfaction and relationship health; escalating concerns to senior leadership before they become retention risks"
+    ],
+    "daily_tasks": [
+      "Facilitating the morning status check or stand-up with the internal team to review deliverable priorities, blockers, and client requests",
+      "Answering client emails and calls on campaign questions, creative feedback, reporting requests, or new project inquiries",
+      "Reviewing and quality-checking deliverables (media plans, reports, presentations) before they go to clients—ensuring accuracy, completeness, and appropriate framing",
+      "Writing project briefs and distributing them to internal specialist teams (media planners, analytics, creative) with clear scope and deadlines",
+      "Managing client approvals on media plans, insertion orders, creative assets, and campaign budgets",
+      "Tracking budget pacing and billing status to ensure client invoices align with contracted scopes and campaign delivery"
+    ],
+    "tools_they_use": [
+      "CRM platforms for account health tracking and client contact management (Salesforce, HubSpot)",
+      "Project management tools for deliverable tracking and team coordination (Asana, Workfront, Monday.com, ClickUp)",
+      "Communication and collaboration platforms (Slack, Microsoft Teams, Zoom for client and internal meetings)",
+      "Document management and presentation tools (Google Workspace, Microsoft 365—Google Slides and PowerPoint for client decks)",
+      "Campaign reporting dashboards (agency-built or platform native—Media Monitors, Google Analytics, platform dashboards for client reporting review)",
+      "Budget tracking and billing tools (agency finance systems, Excel/Sheets for SOW and budget management)"
+    ],
+    "content_needs": "Account managers need client-facing educational content to share with clients, and internal frameworks to manage relationships and projects more effectively. Most valuable: client presentation templates and media plan presentation frameworks, channel education materials that can be shared with marketing clients who are new to a channel, case studies that demonstrate agency or channel effectiveness, objection-handling guides for common client pushbacks (why ROAS looks different across platforms, why brand investment matters alongside performance), and project management templates for media campaign workflows.",
+    "decision_criteria": [
+      "Client expectation management: Does this recommendation or deliverable align to what the client expects, and if not, how is the gap being managed proactively?",
+      "Relationship health: Will this action strengthen the client relationship, or create friction that could affect retention?",
+      "Internal resource feasibility: Is this scope achievable given current team capacity and skill mix, or does it require a conversation about timing or additional resources?",
+      "Billing and scope integrity: Is this request in-scope for the current contract, and if not, has the client been advised of the SOW implication?",
+      "Business impact for client: Will this campaign or project demonstrably help the client meet their marketing objectives and justify the agency's value?",
+      "Agency profitability: Is this account being managed in a way that is profitable and sustainable for the agency, not just effective for the client?"
+    ],
+    "pain_points": [
+      "Being the middle person between client requests and internal team capacity—clients frequently request last-minute changes, expedited timelines, or out-of-scope work, and the account manager absorbs the resulting internal friction",
+      "Clients who micromanage tactical execution (wanting to approve individual placements, platform settings, or keyword lists) rather than trusting the agency's expertise, consuming significant non-strategic time",
+      "Explaining why campaign performance is different from what the client saw on a competitor or the results they expected—managing performance expectations without eroding confidence in the agency",
+      "Scope creep—clients routinely request additional analyses, creative variations, or strategy presentations not included in the SOW, and saying no is politically difficult even when commercially necessary",
+      "Multiple client contacts with conflicting priorities and no clear chain of authority—the junior client contact is enthusiastic about the plan, but the VP signs off and reverses direction at the last minute",
+      "Disconnection between what the agency's specialist teams deliver and what the client actually needed—translating client business objectives into actionable briefs for specialists is harder than it appears and errors are expensive"
+    ],
+    "career_path": "Account Coordinator → Account Executive → Account Manager → Senior Account Manager → Account Director → Group Account Director → Managing Director / Client Services Director. The account management track is the general management path in agency environments. Many Account Directors transition to client-side roles in brand marketing, sometimes to the client they managed at the agency. SVP and above agency roles often involve profit and loss (P&L) responsibility for a portfolio of accounts.",
+    "reports_to": "Account Director or Group Account Director (at full-service or integrated agencies); Head of Client Services or Agency MD (at smaller agencies). Account structure varies by agency model—some agencies embed account managers within specialized media teams; others maintain a separate account services function.",
+    "collaborates_with": [
+      "Media Planners (primary internal partner; account manager typically authors the client brief, and the planner translates it into a media strategy)",
+      "Media Director (requires their sign-off on major strategic recommendations before client presentation)",
+      "Analytics Lead (coordinates reporting cadence, interprets performance data for client communication)",
+      "Creative and Production teams (manages creative briefs, timelines, and approval workflows for campaign assets)",
+      "Finance and Operations (SOW management, billing approvals, resource allocation reviews)"
+    ],
+    "format_preferences": "Account managers value client-ready, polished content they can share directly—well-designed templates, clearly organized frameworks, and factual reference documents that build client confidence. Case studies with recognizable brand names and measurable outcomes are highly valued for client-facing use. They also benefit from internal process guides, onboarding checklists, and workflow templates that reduce the time spent on project management overhead. Content must be presentable to a non-specialist audience—account managers won't share highly technical content with clients."
+  }
+}
