@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - in-house-teams
 link: https://galeforcedigital.com/
+heroImage: ./images/galeforce-media.png
 featured: false
 targetUsers:
   - Media Agencies
