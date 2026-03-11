@@ -13,6 +13,7 @@ tags:
   - agencies
   - in-house-teams
 link: https://www.keends.com/
+heroImage: ./images/keen.png
 featured: false
 targetUsers:
   - Marketing Directors
