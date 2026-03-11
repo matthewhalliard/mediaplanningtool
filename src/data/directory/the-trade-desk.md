@@ -12,6 +12,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://www.thetradedesk.com/
+heroImage: ./images/the-trade-desk.png
 featured: false
 targetUsers:
   - Media Agencies
