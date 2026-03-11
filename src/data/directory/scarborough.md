@@ -11,6 +11,7 @@ tags:
   - agencies
   - media-planners
 link: https://www.nielsen.com/solutions/audience-measurement/scarborough/
+heroImage: ./images/scarborough.png
 featured: false
 targetUsers:
   - Marketers
