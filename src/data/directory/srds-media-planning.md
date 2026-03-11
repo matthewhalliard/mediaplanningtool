@@ -7,6 +7,7 @@ tags:
   - media-planning
   - audience-analytics
 link: https://www.srds.com/
+heroImage: ./images/srds-media-planning.png
 featured: false
 targetUsers:
   - Media planners
