@@ -12,6 +12,7 @@ tags:
   - media-planners
   - agencies
 link: https://www.mint.ai/
+heroImage: ./images/mint.png
 featured: false
 targetUsers:
   - Enterprise Marketing Teams
