@@ -13,6 +13,7 @@ tags:
   - in-house-teams
   - media-planners
 link: https://www.equativ.com/
+heroImage: ./images/equativ.png
 featured: false
 targetUsers:
   - Media Agencies
