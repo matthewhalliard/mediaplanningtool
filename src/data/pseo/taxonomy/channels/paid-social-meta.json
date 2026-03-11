@@ -1,0 +1,47 @@
+{
+  "slug": "paid-social-meta",
+  "name": "Paid Social — Meta (Facebook / Instagram)",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Meta advertising is purchased through Meta's self-serve Ads Manager or via the Meta Business Suite. The auction-based system evaluates three factors for ad placement and cost: advertiser bid, estimated action rate (Meta's prediction of how likely a user is to take the desired action), and ad quality/relevance score. Campaign structure follows three levels: Campaign (objective), Ad Set (targeting, budget, placement, schedule), and Ad (creative). Budget can be set at Campaign level (Campaign Budget Optimization, or CBO) or Ad Set level. Automated bidding (Advantage Campaign Budget, Advantage+ Audiences) is Meta's default recommendation and increasingly enforced. Major buying modes include Auction (standard, real-time) and Reservation (for reach/frequency campaigns booked in advance).",
+    "measurement_approaches": "Meta's native attribution reports conversions using its pixel and Conversions API (CAPI). The standard attribution window is 7-day click + 1-day view. Since Apple's App Tracking Transparency (ATT) changes in 2021 and the erosion of signal from iOS users, Meta uses statistical modeling to estimate conversions from privacy-impacted users—meaning reported conversions may not match Google Analytics or other platforms. Advertisers should compare Meta's reported metrics against GA4 and MMM/MTA models. Key performance metrics: CPM, CPC, CTR, ROAS, CPA, cost per lead (CPL), and Meta-specific metrics like frequency, reach, and video ThruPlay rate.",
+    "typical_cpms": "US market averages (2025-2026): Facebook Feed: $7–$15 CPM; Instagram Feed: $7–$13 CPM; Instagram Reels: $6–$12 CPM; Instagram Stories: $5–$10 CPM; Facebook Reels and Video: $6–$12 CPM; across all placements and objectives, the US average CPM is approximately $13–$23, with Q4 peak CPMs reaching $25–$35 due to advertiser competition. Lead generation campaigns average $25–$40 CPM; reach objective campaigns $10–$15; conversion campaigns $12–$30 depending on audience and vertical. Global average CPM is $6.59. CPMs rose approximately 12–20% YoY in 2025.",
+    "targeting_capabilities": [
+      "Core audiences: demographic targeting (age, gender, location, language, education, job title)",
+      "Interest and behavioral targeting (Meta's proprietary data from platform engagement and app activity)",
+      "Custom audiences: website visitors (Meta pixel), customer list uploads, video viewers, Instagram/Facebook engagers",
+      "Lookalike audiences: Meta's AI-generated audiences similar to custom audience seed lists (1–10% similarity range)",
+      "Advantage+ Audiences: AI-driven broad targeting that removes manual restrictions and lets Meta's algorithm find converters",
+      "Retargeting at all funnel stages: awareness audiences to warm leads to past purchasers"
+    ],
+    "common_pitfalls": [
+      "Over-narrowing audiences with stacked interest and demographic filters, which raises CPMs and limits Meta's algorithm's learning phase performance",
+      "Ignoring creative fatigue—Meta campaigns require frequent fresh creative, with ad frequency above 3–5 typically signaling saturation",
+      "Relying entirely on Meta's reported ROAS without cross-referencing GA4 or incrementality testing, particularly post-ATT where Meta over-reports modeled conversions",
+      "Underinvesting in creative production—creative variation is the primary lever for performance improvement, more impactful than targeting refinements",
+      "Disrupting the learning phase by making frequent bid, budget, or audience changes (requires 50 optimization events per week to exit learning)",
+      "Failing to implement the Conversions API (CAPI) server-side, leaving attribution gaps from browser privacy blockers and iOS restrictions"
+    ],
+    "formats": [
+      "Single image ads (Feed, Stories, Reels, Marketplace)",
+      "Single video ads (Feed, Reels, Stories, in-stream video)",
+      "Carousel ads (up to 10 images/videos with individual links)",
+      "Collection ads (immersive catalog browsing experience on mobile)",
+      "Dynamic Product Ads (DPA)—automated retargeting of product catalog based on user behavior",
+      "Reels ads (full-screen vertical video, highest organic-looking placement)",
+      "Lead generation ads (native lead forms, no landing page needed)",
+      "Instant Experience / Canvas (full-screen interactive mobile landing page within Meta)"
+    ],
+    "key_platforms": [
+      "Facebook (Feed, Stories, Reels, Marketplace, Groups, Watch)",
+      "Instagram (Feed, Stories, Reels, Explore, Shopping)",
+      "Messenger (Inbox ads, Click-to-Messenger ads)",
+      "Meta Audience Network (third-party app and mobile web placements, often excluded for brand safety)",
+      "WhatsApp (click-to-WhatsApp ads, growing in international markets)"
+    ],
+    "planning_considerations": "Meta is the dominant social commerce and mid-funnel advertising platform in the US, with unmatched scale across demographics. Key planning decisions: (1) Advantage+ campaigns vs. manual targeting—Meta's AI-driven Advantage+ Shopping Campaigns (ASC) consistently outperform manual targeting for eCommerce ROAS; (2) creative-first strategy—Meta's algorithm rewards high-engagement creative with lower CPMs; (3) campaign objective selection is critical and determines how the delivery algorithm optimizes (conversions vs. traffic vs. reach have dramatically different CPMs and outcomes); (4) post-iOS14, CAPI implementation is not optional—it is the foundation of Meta attribution.",
+    "trend_2026": "Meta's AI-powered Advantage+ suite is the dominant buying paradigm for 2026, with Meta continuing to reduce manual targeting controls in favor of algorithmic optimization. Reels advertising is the fastest-growing placement, capturing users who engage with short-form video. Meta AI and generative creative tools (automatic background replacement, text overlay generation) are reducing creative production time. Threads is being tested as an advertising surface. Meta's verified business accounts and business messaging are expanding as performance channels. WhatsApp advertising is growing internationally. CPMs continue rising year-over-year as advertiser demand outpaces supply; +12% CPM YoY trend persists.",
+    "integration_with_other_channels": "Meta functions as both an upper-funnel brand channel and a mid-to-lower-funnel performance channel. Top integrations: (1) pairs with TikTok for comprehensive social reach across demographics; (2) drives brand awareness that converts through paid search; (3) CRM data activation for cross-sell and retention; (4) creative sequencing from awareness (video) through conversion (DPA/carousel) across the funnel. Meta's household graph can be used for cross-screen attribution when layered with CTV campaigns via clean rooms or third-party identity providers.",
+    "budget_allocation_guidance": "Meta typically represents 15–35% of digital media budgets for DTC and eCommerce brands, and 10–25% for B2C service and CPG advertisers. It is the most scalable performance social channel for most US consumer brands. Appropriate when targeting broad adult demographics (18–65+), when strong first-party data exists for Custom Audience activation, or when visual and video creative are available. Reduce allocation when the primary target audience is Gen Z (18–24)—TikTok offers stronger engagement with that cohort. Meta budgets should always include a testing allocation (15–20% of total) for creative experimentation, as creative rotation is the primary performance lever."
+  }
+}
