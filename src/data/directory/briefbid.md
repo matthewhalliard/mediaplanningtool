@@ -14,7 +14,6 @@ tags:
   - in-house-teams
 link: https://www.briefbid.com/
 featured: false
-image: ./images/briefbid.png
 targetUsers:
   - Media Agencies
   - Media Planners
