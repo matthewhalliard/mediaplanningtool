@@ -14,6 +14,7 @@ tags:
   - data-analysts
   - in-house-teams
 link: https://www.resonate.com/
+heroImage: ./images/resonate.png
 featured: false
 targetUsers:
   - Marketing Teams
