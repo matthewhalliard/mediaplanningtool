@@ -13,6 +13,7 @@ tags:
   - in-house-teams
   - media-planners
 link: https://www.clickup.com/
+heroImage: ./images/clickup.png
 featured: false
 targetUsers:
   - Marketing Teams
