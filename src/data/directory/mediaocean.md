@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - cmos
 link: https://www.mediaocean.com/
+heroImage: ./images/mediaocean.png
 featured: false
 targetUsers:
   - Media Agencies
