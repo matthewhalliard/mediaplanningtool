@@ -14,7 +14,6 @@ tags:
   - cmos
 link: https://www.mediaocean.com/
 featured: false
-image: ./images/mediaocean.png
 targetUsers:
   - Media Agencies
   - Full Service Agencies
