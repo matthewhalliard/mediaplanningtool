@@ -9,6 +9,7 @@ tags:
   - marketing-directors
   - data-analysts
 link: https://northbeam.io/
+heroImage: ./images/northbeam.png
 featured: false
 targetUsers:
   - Marketers
