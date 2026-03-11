@@ -199,6 +199,18 @@ brandText = ""
 colorModeSelector = false
 
 [[header.navbar.links]]
+name = "Resources"
+href = "/resources"
+
+[[header.navbar.links]]
+name = "Tools"
+href = "/tools"
+
+[[header.navbar.links]]
+name = "Glossary"
+href = "/glossary"
+
+[[header.navbar.links]]
 name = "Blog"
 href = "/blog"
 
