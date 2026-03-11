@@ -15,7 +15,6 @@ tags:
   - in-house-teams
 link: https://www.halliardmedia.com/
 featured: true
-image: ./images/halliard.png
 targetUsers:
   - Media Planners
   - Media Agencies
