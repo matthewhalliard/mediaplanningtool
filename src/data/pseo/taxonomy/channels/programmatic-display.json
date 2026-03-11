@@ -1,0 +1,47 @@
+{
+  "slug": "programmatic-display",
+  "name": "Programmatic Display",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Programmatic display is purchased through automated auction-based systems. The primary transaction types are: (1) open auction (RTB) via DSP platforms—advertisers bid in real-time through ad exchanges with floor prices set by publishers; (2) private marketplace (PMP) deals—curated, invitation-only auctions with preferred publishers at negotiated floor CPMs; (3) programmatic guaranteed (PG)—direct IO-style buys executed programmatically, with guaranteed impressions and fixed CPMs; and (4) preferred deals—first-look access to inventory at a fixed price without guaranteed delivery. The buy side is dominated by DSPs (The Trade Desk, DV360, Amazon DSP, Xandr, Yahoo DSP); the sell side by SSPs (Magnite, PubMatic, OpenX, Index Exchange). Supply-path optimization (SPO) is increasingly a standard practice to reduce intermediary fees and reach publishers more directly.",
+    "measurement_approaches": "Click-through rate (CTR) is the most commonly reported metric despite being a poor proxy for brand impact (average display CTR is approximately 0.05–0.18% across formats). Standard brand campaigns use viewability (MRC-defined: 50% of pixels in view for 1 second) as a quality threshold—industry-wide viewability averages hover around 60–65% for display. Attribution is measured via view-through (VTC) and click-through conversions, though view-through attribution is increasingly scrutinized for over-crediting. Multi-touch attribution (MTA) models and media mix modeling (MMM) are used for more rigorous ROI estimation. Attention metrics (e.g., Active Attention seconds via Lumen, Adelaide AU scores) are gaining adoption as a quality alternative to viewability.",
+    "typical_cpms": "Open auction standard display: $1.50–$4.00 CPM; open auction high-impact formats: $4–$10 CPM; private marketplace deals: $4–$12 CPM; programmatic guaranteed (premium publisher direct): $8–$20 CPM; retargeting campaigns: $3–$8 CPM; contextual targeting: $3–$7 CPM; behavioral/interest targeting: $3–$9 CPM; brand safety-filtered premium inventory: $6–$15 CPM. CPMs have risen modestly in 2025-2026 driven by supply consolidation and rising demand for quality, verified inventory.",
+    "targeting_capabilities": [
+      "Third-party audience segments (demographic, interest, behavioral via DMP/data marketplace)",
+      "First-party data activation (CRM matching via identity resolution, site retargeting)",
+      "Contextual targeting (keyword, category, topic-level placement targeting)",
+      "Geolocation targeting (country, DMA, city, zip, radius, store-visit audiences)",
+      "Device and OS targeting (desktop, mobile web, in-app, browser)",
+      "Lookalike and predictive audience modeling based on seed audiences"
+    ],
+    "common_pitfalls": [
+      "Optimizing entirely toward CTR, which drives toward bot-prone, low-quality placements rather than real brand impact",
+      "Ignoring invalid traffic (IVT) and MFA (Made for Advertising) site exposure—without active exclusion lists, 20–40% of open auction buys can reach low-quality inventory",
+      "Over-relying on view-through attribution, which systematically over-credits display for conversions driven by other channels",
+      "Failing to implement frequency caps, leading to ad fatigue and banner blindness for users exposed to the same creative dozens of times",
+      "Not maintaining active brand safety controls and inclusion/exclusion lists, especially in open auction environments",
+      "Setting and forgetting campaigns without ongoing supply-path optimization, paying unnecessary intermediary margins"
+    ],
+    "formats": [
+      "Standard IAB display banners (728x90 leaderboard, 300x250 medium rectangle, 160x600 wide skyscraper)",
+      "High-impact formats (adhesion units, interstitials, expandables, skin/takeovers)",
+      "HTML5 animated display (rich media with animation, up to 15 seconds)",
+      "Native display (in-feed placements styled to match publisher content)",
+      "Digital display on DOOH screens via programmatic (pDOOH)",
+      "In-app mobile display (banner, interstitial, rewarded)"
+    ],
+    "key_platforms": [
+      "Google Display Network (GDN) via DV360 or Google Ads",
+      "The Trade Desk (DSP with broad open web and PMP access)",
+      "Amazon DSP (strong retail data, access to Amazon-owned and off-Amazon inventory)",
+      "Microsoft Advertising Display (via Xandr)",
+      "Yahoo DSP (formerly Oath/Verizon Media)",
+      "StackAdapt, Basis Technologies (mid-market DSP options)",
+      "Magnite, PubMatic, Index Exchange (leading SSPs/exchanges)"
+    ],
+    "planning_considerations": "Programmatic display is most effective as a supporting channel for brand building (upper funnel), retargeting (lower funnel), and audience extension at scale. Critical planning decisions include: inventory quality (open auction vs. curated PMP vs. PG), identity strategy (first-party data activation vs. contextual in a post-cookie world), and creative strategy (rich media vs. standard banners). The deprecation of third-party cookies in major browsers is reshaping audience targeting—planners must have a first-party data or contextual strategy in place. Viewability and attention quality metrics should anchor buying decisions, not just CPM efficiency.",
+    "trend_2026": "The third-party cookie ecosystem continues contracting—Google's Chrome has not fully deprecated cookies but adoption of alternative IDs (Unified ID 2.0, RampID, Google Privacy Sandbox APIs) is growing. Contextual targeting is experiencing a renaissance, with AI-powered contextual engines matching beyond simple keyword matching. Retail media display (on-site and off-site) is the fastest-growing display subsegment. Supply-side curation—where SSPs offer pre-packaged, curated deals rather than raw open auction inventory—is a structural shift that threatens DSP margin dominance. Attention-based buying (purchasing based on predicted attention seconds rather than impressions) is transitioning from experimentation to standard practice at leading agencies.",
+    "integration_with_other_channels": "Programmatic display works best as a supporting channel in a multi-channel mix. Primary synergies: (1) paired with CTV for sequential messaging (video exposure followed by display retargeting); (2) paired with paid search for retargeting site visitors who discovered the brand via search; (3) layered under paid social for cross-platform frequency management; (4) used to extend reach of TV campaigns programmatically to households and individuals who no longer watch linear TV. Display-only campaigns typically perform weaker than display in combination with video or search.",
+    "budget_allocation_guidance": "Programmatic display typically represents 5–15% of total digital media budgets, often declining as performance budgets shift to more attributable channels. Most valuable for: upper-funnel brand awareness at scale, retargeting (high ROI, relatively low spend), and contextual adjacency to relevant editorial content. Minimum viable monthly budgets for open auction: $5,000–$10,000; for PMP/PG campaigns at meaningful scale: $20,000+. Increase allocation for retargeting and always-on brand presence. Reduce when performance metrics demand attributable conversions and display VTC attribution is under scrutiny."
+  }
+}
