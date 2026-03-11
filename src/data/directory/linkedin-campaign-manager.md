@@ -12,6 +12,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://business.linkedin.com/marketing-solutions/campaign-manager
+heroImage: ./images/linkedin-campaign-manager.png
 featured: false
 targetUsers:
   - B2B Marketers
