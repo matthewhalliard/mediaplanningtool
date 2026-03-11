@@ -1,0 +1,46 @@
+{
+  "slug": "tiktok",
+  "name": "TikTok Advertising",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "TikTok advertising is purchased through TikTok Ads Manager (self-serve) or via a managed service arrangement for larger advertiser relationships. The auction-based system uses a three-level campaign structure: Campaign (objective), Ad Group (targeting, placement, budget, schedule), and Ad (creative). TikTok uses a Vickrey-Clarke-Groves (VCG) auction, where the winner pays what the second-highest bidder would have paid plus a small increment. Bidding strategies include: CPM (brand awareness/reach), CPC (traffic/app installs), CPV (video views, charged at 2-second or 6-second view), and oCPM/SmartBid (optimized for specific actions). Campaign minimum budgets are $500 at the campaign level; daily minimum is $50 per campaign and $20 per ad group. TikTok's TopView and Brand Takeover premium formats are sold on a CPD (Cost Per Day) reservation basis directly through TikTok's sales team.",
+    "measurement_approaches": "TikTok uses its native Pixel and Events API for conversion tracking, supplemented by TikTok's smart performance campaign attribution. Key metrics include CPM, CPC, CPV, video completion rate, VTR (view-through rate at 2s, 6s, and 100%), CTR, conversion rate, and CPA. TikTok's attribution has faced the same signal loss as Meta from iOS ATT, and the platform employs statistical modeling for privacy-impacted users. Brand lift studies are available through TikTok's Brand Lift Study tool. Third-party measurement partners (DoubleVerify, IAS, Nielsen) are integrated for viewability and brand safety verification. MMM vendors increasingly include TikTok as a standard input given its scale.",
+    "typical_cpms": "In-Feed Ads: $4–$8 CPM (standard placement within the For You feed); Spark Ads (boosted organic content): $5–$10 CPM; TopView (first ad seen on app open): $10–$20 CPM; Brand Takeover (full-screen exclusive): $20–$50 CPM; overall average CPM in 2025-2026: approximately $4.20–$9.16 CPM. TikTok CPMs are generally 30–50% below Meta CPMs on a like-for-like basis, making it one of the most cost-efficient large social platforms for reach. CPV averages $0.01–$0.07. CPC ranges from $0.17–$1.00 depending on objective and industry.",
+    "targeting_capabilities": [
+      "Interest targeting (TikTok's category-based interest classification system)",
+      "Behavioral targeting (based on in-app video engagement, searches, and interactions)",
+      "Custom Audiences (website visitors via pixel, customer CRM uploads, app users, video viewers, account engagers)",
+      "Lookalike Audiences (AI-modeled audiences similar to custom audience seeds, 1–20% expansion)",
+      "Demographic targeting (age, gender, location, language, device, OS)",
+      "TikTok Pulse (ads placed alongside the top 4% of trending content by category)"
+    ],
+    "common_pitfalls": [
+      "Repurposing polished TV or Meta creative without adaptation for TikTok's native, authentic format—professional-looking ads dramatically underperform organic-style content",
+      "Underinvesting in creative production—TikTok is a creative-first channel where content variety and rotation cadence drives more performance than targeting optimization",
+      "Setting overly narrow audience targets—TikTok's algorithm performs better with broader audiences, allowing the creative to self-select the right users",
+      "Ignoring the TikTok creator ecosystem—creator-made Spark Ads consistently outperform brand-produced content in CTR and completion rates",
+      "Failing to account for TikTok's regulatory uncertainty (potential US ban proceedings) when committing large long-term budgets",
+      "Using TikTok as a standalone lower-funnel channel—without audience warm-up, conversion campaigns often underperform Meta's established purchase intent pools"
+    ],
+    "formats": [
+      "In-Feed Ads (native full-screen vertical video appearing in the For You Page)",
+      "Spark Ads (amplifying existing organic TikTok posts from brand or creator accounts)",
+      "TopView Ads (first impression on app open, 5–60 seconds, non-skippable for first 3 seconds)",
+      "Brand Takeover (exclusive full-screen interstitial on app open, sold per day, limited inventory)",
+      "Branded Hashtag Challenge (user participation campaign with dedicated challenge page)",
+      "Branded Effects (custom AR filters, stickers, and interactive elements)",
+      "TikTok Shop Ads (product catalog-linked in-feed shopping ads with native checkout)"
+    ],
+    "key_platforms": [
+      "TikTok (primary platform, required for all campaign types)",
+      "TikTok for Business / Ads Manager (self-serve buying interface)",
+      "TikTok Creator Marketplace (brand-to-creator collaboration and paid partnership management)",
+      "TikTok Shop (native commerce integration for shoppable content)",
+      "Pangle (TikTok's audience network for in-app advertising across third-party apps, primarily international)"
+    ],
+    "planning_considerations": "TikTok is the dominant platform for reaching adults 18–34 and teens (13–17). As of 2025, TikTok has 170M+ US users and is the second most-used social app by daily time spent among adults 18–24. Planning must account for: (1) creative-first brief development—'make TikToks, not ads' is the platform's guiding principle; (2) creator partnership strategy (paid or organic UGC supplemented by paid Spark Ads); (3) US regulatory uncertainty—TikTok ownership requirements have created ongoing business continuity concerns for advertisers with long-term commitments; (4) TikTok Shop integration is increasingly important for eCommerce advertisers seeking native purchase conversion.",
+    "trend_2026": "TikTok Shop is the platform's most significant 2025-2026 growth area, integrating native commerce into the content experience and enabling creator-affiliate selling. TikTok's algorithm-driven discovery (non-social following-based feed) continues to differentiate it from Meta and YouTube. Generative AI creative tools within TikTok Ads Manager are reducing production friction. TikTok's ownership/regulatory situation in the US remains in flux following a March 2025 deadline—ByteDance's continued operation under a US-approved framework remains in negotiation, adding uncertainty for long-term media commitments. TikTok Search ads are an emerging placement for intent-based advertising as TikTok increasingly functions as a search engine for younger audiences.",
+    "integration_with_other_channels": "TikTok functions primarily as an upper-to-mid-funnel channel in most media mixes. Primary integrations: (1) pairs with Meta for comprehensive social/video reach across demographics—TikTok over-indexes on 18–34, Meta skews older; (2) TikTok-originated content and trends can be repurposed across Instagram Reels and YouTube Shorts for creative efficiency; (3) TikTok Pixel enables retargeting of engaged users via TikTok or cross-platform via identity matching; (4) brand search lift from TikTok campaigns is increasingly measurable and should be tracked in conjunction with paid search budgeting.",
+    "budget_allocation_guidance": "TikTok typically represents 8–20% of social/digital media budgets for brands targeting 18–34 demographics. Most appropriate for CPG, beauty, entertainment, food & beverage, fashion, and gaming categories where TikTok's culture-creation effect is strongest. Minimum effective monthly budgets: $10,000–$20,000 for In-Feed performance campaigns; $50,000+ for premium reservation formats. Increase allocation for product launches targeting younger demos or when leveraging creator-led viral moments. Reduce when the target demographic skews 45+ (lower TikTok penetration), when regulatory uncertainty is a board-level concern, or when conversion attribution is the primary success metric."
+  }
+}
