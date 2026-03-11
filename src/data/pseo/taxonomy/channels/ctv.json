@@ -1,0 +1,49 @@
+{
+  "slug": "ctv",
+  "name": "Connected TV (CTV) / Streaming",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "CTV inventory is purchased through three primary mechanisms: (1) programmatic, via DSPs like The Trade Desk, DV360, or Amazon DSP, accessing inventory through open auction or private marketplace (PMP) deals—the fastest-growing buying method; (2) direct deals with streaming publishers, either via insertion order or programmatic guaranteed, for premium inventory with audience guarantees; and (3) self-serve platforms on ad-supported tiers like Hulu, Peacock, Netflix, and Amazon. Upfront deals are increasingly common as streaming platforms mature, with publishers bundling CTV + content integrations. Programmatic buying now accounts for over 50% of CTV transactions. DSPs access supply via SSPs like Magnite, PubMatic, and FreeWheel.",
+    "measurement_approaches": "CTV measurement is fragmented and rapidly evolving. Completion rate (VCR, typically 95%+ for non-skippable) is the dominant in-flight metric. Reach and frequency are tracked via household-level identity, though cross-publisher deduplication remains a challenge. Conversion measurement uses pixel-based methods, household IP matching, and clean room-based attribution (e.g., LiveRamp, Amazon Marketing Cloud). Incremental reach studies measure how much CTV adds to linear TV reach. Brand lift studies via third-party vendors (Kantar, Lucid, Nielsen) are standard for brand campaigns. Currency is shifting toward impressions-based buying (CPM) rather than GRP-based, with iSpot.tv, VideoAmp, and Comscore competing with Nielsen as alternative currencies.",
+    "typical_cpms": "Premium SVOD (Netflix ad-supported, Max): $30–$45 CPM; mid-tier (Hulu, Peacock, Paramount+): $22–$35 CPM; Amazon Prime Video (post-2024 ad tier launch): $20–$28 CPM; FAST channels (Tubi, Pluto TV, Roku Channel, Samsung TV Plus): $14–$20 CPM; programmatic open auction: $12–$22 CPM; sports and live programming on streaming: $35–$60 CPM; overall market average: approximately $25–$35 CPM in 2025-2026.",
+    "targeting_capabilities": [
+      "Household-level demographic targeting (age, gender, HHI, education)",
+      "First-party data activation via publisher login/ACR (Automatic Content Recognition) data",
+      "Behavioral and interest targeting using third-party data segments",
+      "Retargeting website visitors and CRM audiences via clean rooms or pixel-based household matching",
+      "Contextual targeting by genre, content type, or daypart",
+      "Geographic targeting down to DMA, zip code, and household"
+    ],
+    "common_pitfalls": [
+      "Buying CTV without a frequency cap strategy, leading to excessive repetition (4–7+ exposures to the same household), a top viewer complaint",
+      "Conflating CTV (TV-connected devices) with OTT (the streaming delivery method)—buying OTT programmatically often includes mobile and desktop, inflating reach claims",
+      "Ignoring cross-publisher audience deduplication, resulting in inflated unique reach estimates",
+      "Selecting platforms based on CPM alone without considering audience quality, completion rates, and brand safety controls",
+      "Failing to localize or regionalize CTV buys despite the channel's ability to target at DMA or zip-code level",
+      "Overlooking co-viewing measurement—CTV households often have 2+ viewers per TV, so person-level reach is underestimated by household-only metrics"
+    ],
+    "formats": [
+      "15- and 30-second pre-roll and mid-roll video (non-skippable, dominant format)",
+      "Interactive/shoppable ad units (QR codes, pause ads, choose-your-adventure formats)",
+      "Pause ads (displayed when viewer pauses content, non-intrusive)",
+      "Binge-watching formats (e.g., ad breaks given back to viewers, sponsor-exclusive pods)",
+      "L-banner and branded overlays (lower-funnel, clickable on some platforms)",
+      "Host-read or content integrations within streaming originals"
+    ],
+    "key_platforms": [
+      "Netflix (ad-supported tier, launched 2022, ~94M global ad-tier subscribers as of 2025)",
+      "Amazon Prime Video (auto-enrolled ad tier launched early 2024, massive scale)",
+      "Hulu (established AVOD/SVOD hybrid, owned by Disney)",
+      "Peacock (NBCUniversal, strong in sports, news, and reality)",
+      "Max (Warner Bros. Discovery, premium CPMs, prestige content)",
+      "Paramount+ with Pluto TV (Paramount, includes FAST and SVOD)",
+      "Tubi and Pluto TV (leading FAST platforms, scale at lower CPMs)",
+      "Roku Channel and Samsung TV Plus (device-native FAST channels with first-party ACR data)",
+      "YouTube CTV (via TV app, increasingly treated as CTV inventory)"
+    ],
+    "planning_considerations": "CTV is the fastest-growing segment of the video advertising market and now the primary alternative to linear TV for video reach. Key planning considerations: (1) set household-level frequency caps across publishers (3–5 exposures per week is typical best practice); (2) negotiate VCR and viewability guarantees where possible; (3) ensure creative is adapted for the big-screen, lean-back experience—15s and 30s outperform repurposed digital mobile formats; (4) understand each platform's identity resolution approach (logged-in vs. modeled vs. ACR) before evaluating targeting claims; (5) live sports rights on streaming (NFL on Prime, NBA on NBC/Peacock, MLB on Apple TV+) are creating new premium inventory segments.",
+    "trend_2026": "CTV ad spend is projected to reach $33B+ in 2025, growing 18%+ YoY. Amazon Prime Video's rapid scale has added significant supply, applying downward pressure on average CPMs across the market. Netflix and Max remain the only platforms consistently above $30 CPM as of early 2026. Shoppable CTV formats are gaining traction, allowing viewers to purchase directly from ad units via QR code or remote interaction. Measurement currency wars are intensifying—VideoAmp, iSpot.tv, and Comscore are competing to displace Nielsen as the cross-platform standard. Clean rooms (Amazon Marketing Cloud, LiveRamp Safe Haven) are becoming essential for audience overlap and incrementality analysis. Live sports rights migration to streaming is the biggest structural shift, with Amazon, Apple, and Netflix all holding premium sports packages.",
+    "integration_with_other_channels": "CTV is most commonly layered with linear TV (complementary reach among cord-cutters), digital display (sequential retargeting of households post-CTV exposure), and paid social (cross-screen storytelling with audience sequencing). CTV + paid search combinations show measurable lifts in branded search volume after CTV exposure. QR code integrations create a direct bridge to digital conversion channels. In performance-focused campaigns, CTV is used as an upper- and mid-funnel driver with conversion attribution measured via clean rooms.",
+    "budget_allocation_guidance": "CTV typically represents 10–20% of total media budgets for national advertisers, trending up year-over-year. Most appropriate for campaigns targeting adults 18–54 who have reduced or eliminated linear TV viewing. Minimum effective budgets are generally $25,000–$50,000 per month per platform to achieve meaningful reach. Increase CTV allocation when targeting cord-cutters and cord-nevers, when wanting the contextual safety of premium streaming environments, or when needing measurable household-level attribution. Reduce when the primary target audience is 65+ (still strongly over-indexed on linear TV) or when campaign objectives are purely direct-response with last-click attribution requirements."
+  }
+}
