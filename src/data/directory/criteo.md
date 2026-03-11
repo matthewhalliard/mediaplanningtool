@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - data-analysts
 link: https://www.criteo.com/
+heroImage: ./images/criteo.png
 featured: false
 targetUsers:
   - E-commerce Brands
