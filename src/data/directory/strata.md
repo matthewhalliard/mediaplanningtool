@@ -13,7 +13,6 @@ tags:
   - marketing-directors
 link: https://www.gotostrata.com/
 featured: false
-image: ./images/strata.png
 targetUsers:
   - Media Agencies
   - Enterprise Brands
