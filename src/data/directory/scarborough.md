@@ -12,7 +12,6 @@ tags:
   - media-planners
 link: https://www.nielsen.com/solutions/audience-measurement/scarborough/
 featured: false
-image: ./images/scarborough.png
 targetUsers:
   - Marketers
   - Local Advertisers
