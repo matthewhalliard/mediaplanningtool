@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - in-house-teams
 link: https://www.briefbid.com/
+heroImage: ./images/briefbid.png
 featured: false
 targetUsers:
   - Media Agencies
