@@ -15,7 +15,6 @@ tags:
   - data-analysts
 link: https://www.mrisimmons.com/
 featured: false
-image: ./images/mri-simmons.png
 targetUsers:
   - Media Agencies
   - Marketing Directors
