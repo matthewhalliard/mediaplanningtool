@@ -13,6 +13,7 @@ tags:
   - data-analysts
   - agencies
 link: https://www.comscore.com/
+heroImage: ./images/comscore.png
 featured: true
 targetUsers:
   - Media Agencies
