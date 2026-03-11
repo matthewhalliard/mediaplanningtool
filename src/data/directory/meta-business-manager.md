@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://business.facebook.com/
+heroImage: ./images/meta-business-manager.png
 featured: false
 targetUsers:
   - Media Agencies
