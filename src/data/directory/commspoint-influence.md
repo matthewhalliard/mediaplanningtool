@@ -9,6 +9,7 @@ tags:
   - audience-analytics
   - marketing-directors
 link: https://www.nielsen.com/solutions/media-planning/commspoint-influence/
+heroImage: ./images/commspoint-influence.png
 featured: false
 targetUsers:
   - Advertisers
