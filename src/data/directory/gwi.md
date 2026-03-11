@@ -14,7 +14,6 @@ tags:
   - data-analysts
 link: https://www.gwi.com/
 featured: false
-image: ./images/gwi.png
 targetUsers:
   - Marketing Teams
   - Media Agencies
