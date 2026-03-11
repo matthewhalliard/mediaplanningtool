@@ -1,0 +1,57 @@
+{
+  "slug": "travel",
+  "name": "Travel & Hospitality",
+  "type": "vertical",
+  "context": {
+    "audience": "Marketing and media directors at airlines, hotel brands and chains, online travel agencies (OTAs), cruise lines, destination marketing organizations (DMOs), tour operators, car rental companies, and travel tech platforms. Sub-segments vary widely: OTAs (Expedia, Booking.com) compete directly with suppliers for the same traveler, creating a complex media dynamic. Luxury travel targets HNW audiences with very different channel profiles than mass-market leisure or business travel segments.",
+    "pain_points": [
+      "OTA vs. direct booking channel conflict: hotels and airlines invest in brand media to drive direct bookings (higher margin, customer data ownership) while simultaneously paying OTAs 15–25% commissions — OTAs then bid against the hotel's own brand on Google, creating a bidding war the hotel often loses without an explicit paid search defense strategy",
+      "Metasearch complexity: Google Hotel Ads, Tripadvisor, Trivago, and Kayak pull in real-time rate and availability data, functioning as a hybrid between search advertising and distribution — optimizing bids against price parity and conversion requires integration of rate management systems with media buying platforms that most hotel marketing teams have not yet built",
+      "Multi-device, long consideration cycle attribution: a traveler researches a trip across 20+ touchpoints over 4–12 weeks — beginning with inspirational social content, then OTA comparison, then direct site visit, then email, then booking — and most brands still apply last-click attribution that credits the final search click, misallocating budget away from upper-funnel channels that initiated the journey",
+      "Dynamic pricing interaction with media efficiency: a CTV impression on Monday drove a hotel searcher who finds the room $80 more expensive by Friday — media ROI suffers from pricing elasticity effects that have nothing to do with ad quality",
+      "Destination vs. accommodation media coordination: DMO campaigns drive destination intent, which benefits all accommodation providers — hotels free-ride on DMO media investment without contributing to it, and DMOs can't claim the commercial attribution that individual hotels receive",
+      "Business travel recovery and bleisure blurring: hybrid work patterns have changed booking windows, trip duration, and channel preferences for corporate travelers, requiring new audience definitions and media touchpoints that pre-pandemic playbooks don't address"
+    ],
+    "kpis": [
+      "Cost per booking (CPB) — total media cost divided by total bookings attributed; primary performance metric for direct response campaigns",
+      "Revenue per available room (RevPAR) lift attributed to media-driven direct bookings vs. OTA bookings",
+      "Return on Ad Spend (ROAS) calculated on booking revenue net of OTA commissions (direct booking revenue is significantly more valuable than OTA-mediated revenue)",
+      "Brand search volume lift — increase in branded search queries following upper-funnel campaign flights (leading indicator of brand health)",
+      "Ancillary revenue per booking — upsells (room upgrades, activities, dining) to media-acquired customers vs. OTA customers (direct bookers typically have higher ancillary spend)",
+      "Loyalty program enrollment rate from media-acquired travelers",
+      "Click-to-book rate on metasearch (Google Hotel Ads, Tripadvisor) and cost per click by market"
+    ],
+    "regulatory": "DOT consumer protection rules for airline advertising (advertised price must include all mandatory fees). FTC endorsement guidelines apply to travel influencer and media partnership content. GDPR and CCPA affect cookie-based retargeting of international travelers. Gambling advertising restrictions in some markets affect casino resort advertising. Destination marketing requires compliance with local tourism authority guidelines. Dynamic pricing disclosure requirements vary by jurisdiction (EU Package Travel Directive). ATOL/IATA requirements for travel agent advertising in UK/EU markets.",
+    "seasonality": "Summer (June–August) is peak for leisure travel in North America and Europe — media planning begins January for summer campaigns. Holiday travel (Thanksgiving, Christmas, New Year) requires October media starts for top-of-funnel, transitioning to direct response in November. January is the highest-volume booking month for summer cruises and international trips ('Dream Vacation Month'). Spring break (Feb–March) drives family and young adult leisure demand. Business travel peaks September–November and January–March, avoiding holiday and summer leisure windows.",
+    "budget_dynamics": "Travel is recovering strongly but digital transformation is reshaping budget allocation. US CTV ad spend reached $23.6B in 2024, up 16% YoY, with travel brands among the fastest adopters. 80% of US households have a smart TV or streaming device — CTV is now viable for mass-reach travel brand campaigns. Social media and influencer marketing have become central to travel inspiration and destination discovery. Metasearch investment (Google Hotel Ads) commands significant share of hotel marketing budgets because it intercepts high-intent, price-comparing shoppers. OTAs like Expedia and Booking.com are among the largest digital advertisers globally, making it difficult for smaller travel brands to compete in the same paid search auctions.",
+    "channels_that_work": [
+      "Connected TV / OTT — highest-growth channel; emotional storytelling capability combined with geographic/demographic targeting; 95% completion rates; completion rates 67% more effective than linear TV for travel",
+      "Google Hotel Ads / metasearch — high-intent, price-comparing shoppers at the moment of booking decision; requires real-time rate feed integration; direct channel defense against OTA bid competition",
+      "Paid search (branded + non-branded) — defending brand against OTA bids; capturing non-branded destination and accommodation queries from in-market travelers",
+      "Social media (Instagram, TikTok, Pinterest) — travel is visually driven and inspirational by nature; creator and influencer content dominates travel discovery; 75% of travelers cite social as inspiration source",
+      "Programmatic display and native — retargeting abandoned booking flows; prospecting by travel intent data, frequent flyer status, and household income",
+      "Streaming audio — contextual targeting for drive-time travel content and travel podcast adjacency; Spotify 'travel interest' targeting effective for road trip and domestic travel campaigns",
+      "Email and loyalty program CRM — most cost-effective channel for direct booking generation from known traveler base; personalized offers based on past travel patterns"
+    ],
+    "measurement_challenges": [
+      "Multi-device booking journey attribution: 67% of travelers use 3+ devices in the booking process — desktop research converts on mobile or over the phone, making standard digital attribution significantly under-count upper-funnel media's contribution",
+      "Inspiration-to-booking gap: an influencer post creates travel intent that may not convert for 6–18 months — traditional attribution windows miss the connection entirely",
+      "OTA cannibalization measurement: determining whether a direct booking was incremental or would have occurred through an OTA without brand media investment requires controlled holdout markets that most hotel brands don't run",
+      "Metasearch attribution complexity: Google Hotel Ads reports clicks and bookings, but a consumer may click through to the direct booking site and then book via OTA — the metasearch click gets no credit despite driving the comparison",
+      "Seasonal demand confounding: separating media-driven lift from seasonal demand increases is difficult when campaigns coincide with natural booking peaks"
+    ],
+    "subtopics": [
+      "Hotel direct booking vs. OTA channel strategy and paid search brand defense",
+      "Airline media planning: route launch campaigns and loyalty program acquisition",
+      "Destination marketing organization (DMO) media strategy and co-op programs",
+      "Cruise line media planning: long booking window and high-consideration purchase",
+      "Metasearch optimization: Google Hotel Ads, Tripadvisor, and Trivago strategy",
+      "Luxury travel media: targeting high-net-worth audiences with premium publisher strategies",
+      "Business and bleisure travel media: corporate traveler and hybrid work audience targeting",
+      "Travel influencer and creator marketing: partnership models for destination inspiration"
+    ],
+    "typical_budget_range": "Independent hotel or boutique property: $100K–$500K/year. Regional hotel brand (50–200 properties): $5M–$20M/year. Major hotel chain (Marriott, Hilton tier): $200M–$600M+/year. Airline: $200M–$1B+/year. OTA (Expedia, Booking.com): $5B–$7B+/year globally. DMO (state tourism boards): $5M–$50M/year. Cruise line (Royal Caribbean, Carnival tier): $100M–$300M+/year.",
+    "buying_model": "Airlines and major hotel chains: upfront TV, programmatic direct for CTV and premium inventory, direct search via Google Ads. Hotel chains: Google Hotel Ads managed via bid management platform or agency, metasearch via integrated rate management/booking engine. Independent hotels: primarily OTA listing investment + Google Hotel Ads + paid search via property management system-integrated tools. Programmatic media bought via The Trade Desk, DV360, or agency DSP. Social bought self-serve or via agency social team. Influencer partnerships negotiated directly or via creator marketplace platforms.",
+    "creative_considerations": "Aspirational visual storytelling is the creative foundation — travel purchase is emotionally driven. Video dominates: drone footage, lifestyle destination content, and authentic traveler experiences outperform static hotel room shots. Creator-produced content performs better on social than polished brand video because it reads as authentic recommendation rather than advertising. CTV creative needs a clear destination or experience hook in the first 5 seconds. Urgency and scarcity signals (limited availability, rate expiration) work well in lower-funnel retargeting but undermine premium brand positioning if overused. Personalization by traveler type (family, couples, adventure, luxury) significantly improves conversion rates and should be baked into creative strategy."
+  }
+}
