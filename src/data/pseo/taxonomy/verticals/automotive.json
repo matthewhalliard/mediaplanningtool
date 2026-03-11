@@ -1,0 +1,57 @@
+{
+  "slug": "automotive",
+  "name": "Automotive",
+  "type": "vertical",
+  "context": {
+    "audience": "Tier 1 OEM brand/awareness planners, Tier 2 regional dealer association media buyers, Tier 3 individual franchise dealer operators. Secondary audiences include in-market car shoppers (72-day average consideration window), in-service/parts buyers, and fleet/commercial vehicle purchasers.",
+    "pain_points": [
+      "Dealer co-op budget reconciliation — OEM sets approved channel lists and reimbursement rules, but tier 2/3 execution requires dealers to spend first and claim back, creating cash-flow friction and compliance audits",
+      "Tier conflict in paid search: OEM national campaigns, regional dealer group campaigns, and individual dealer campaigns all bid against each other on the same branded and model-specific keywords, inflating CPCs across the system",
+      "Attribution of test-drive and showroom visits back to specific digital touchpoints — the path from CTV impression to lot visit spans 8–12 weeks and multiple devices, making last-click models highly misleading",
+      "Managing model-year changeover campaigns: overlapping 'clearance of current year' and 'conquest for new model year' messaging requires precision geo-targeting and audience suppression to avoid cannibalizing each other",
+      "Inventory volatility disrupting always-on media plans — chip shortage cycles, electrification model launches, and regional supply imbalances force constant mid-flight budget reallocation across dealers and DMAs",
+      "EV-specific media strategy requires distinct audience segmentation (early adopter vs. range-anxious mainstream buyer) and channel mix separate from ICE conquest campaigns"
+    ],
+    "kpis": [
+      "Vehicle Detail Page (VDP) views per campaign dollar — primary measure of digital inventory engagement",
+      "Cost per showroom visit / test-drive booking (offline conversion via store visit measurement)",
+      "Cost per qualified lead (CPL) from form fills, phone calls, and chat on dealer sites",
+      "Share of voice (SOV) vs. competitor brands in-market within the DMA",
+      "Brand health metrics: unaided awareness, purchase consideration, conquest rate vs. competitive set",
+      "Dealer co-op fund utilization rate (% of eligible funds actually claimed and deployed)",
+      "Average days-to-sale and inventory turn velocity linked to media flight periods"
+    ],
+    "regulatory": "No direct pharmaceutical-style ad restrictions, but dealer advertising is heavily governed by FTC truth-in-advertising rules on pricing disclosures, APR/lease terms (TILA/Regulation Z), and state dealer licensing laws. OEM co-op programs must comply with Robinson-Patman Act (equitable dealer access). EV advertising increasingly scrutinized for range claim accuracy. Political broadcast adjacency standards apply on linear TV.",
+    "seasonality": "Tax refund season (Feb–Apr) drives highest volume for value/entry segments. Memorial Day, Labor Day, and Black Friday 'tent-pole' sales events require 4–6-week media build. Model-year-end clearance peaks August–September. December traditionally largest single month for luxury and near-luxury due to 'Season of Sales' campaigns. Winter/summer tire and service campaigns create secondary media windows for dealers.",
+    "budget_dynamics": "US automotive advertising reached $39.5B globally in 2025. Dealer-level digital now commands 65%+ of spend, up from ~40% five years ago. CTV is the fastest-growing channel, with 61% of car shoppers reporting CTV influenced their purchase decision. Paid search remains the workhorse (highest intent, highest CPCs). Shift underway from OEM-controlled national TV to dealer-addressable CTV+programmatic. Average franchise dealer spends $529K/year on advertising (NADA 2023). Co-op accrual models mean 50–70% of dealer digital spend is partially OEM-subsidized.",
+    "channels_that_work": [
+      "Paid search (Google/Bing) — captures in-market intent on model, trim, and financing queries; highest conversion channel despite $15–40 CPCs in competitive markets",
+      "Connected TV (CTV/OTT) — growing fastest for both OEM brand and dealer local; 61% purchase influence rate; allows geo-fencing by DMA with VIN-level inventory dynamic creative",
+      "Programmatic display with first-party DMS/CRM data — retargeting site visitors against specific inventory pages; lookalike modeling off past buyer data",
+      "Social (Meta + TikTok) — Meta Lead Ads for test-drive requests effective for under-35 buyers; TikTok growing for EV awareness among younger demographics",
+      "Third-party automotive platforms (Autotrader, Cars.com, KBB) — high-intent in-market inventory listings; Autotrader/KBB Alpha Ads for conquest positioning",
+      "Linear TV — still used by OEMs for national reach/brand events (Super Bowl, model launches); declining at dealer tier",
+      "Streaming audio (Spotify, Pandora) — drive-time commuter targeting; highest ROI-rated format among dealership stakeholders per Statista"
+    ],
+    "measurement_challenges": [
+      "Cross-device attribution across an 8–12 week purchase funnel with 8–10 touchpoints; store visit measurement varies significantly by vendor methodology",
+      "Co-op compliance reporting — verifying that dealer-level spend meets OEM creative standards and channel eligibility rules for reimbursement without a unified dashboard",
+      "Separating incremental sales lift from seasonality and inventory availability effects when running always-on campaigns",
+      "VDP-to-lead-to-sale funnel leakage: 70%+ of high-intent VDP visitors never submit a form, making visit-based attribution incomplete",
+      "EV conversion attribution: test-drive incentives, state rebate announcements, and charging infrastructure proximity all interact with media exposure in ways standard MTA models cannot isolate"
+    ],
+    "subtopics": [
+      "OEM national brand and model launch media planning",
+      "Dealer co-op program management and compliance",
+      "Tier 2 regional dealer association media coordination",
+      "EV and alternative powertrain conquest media strategy",
+      "Automotive paid search architecture (OEM vs. dealer keyword conflict)",
+      "In-market audience targeting and VDP retargeting",
+      "CTV and streaming video for automotive dealers",
+      "Service lane and aftersales media (parts, maintenance, accessories)"
+    ],
+    "typical_budget_range": "Franchise dealer: $400K–$1.2M/year. Regional dealer group (20–50 points): $5M–$25M/year. OEM Tier 1 national: $500M–$2B+/year (Ford, GM, Stellantis). Tier 2 regional ad association: $10M–$80M/year depending on market.",
+    "buying_model": "Highly fragmented across tiers. OEM Tier 1: primarily upfront/scatter broadcast TV, programmatic guaranteed, direct publisher deals. Tier 2: mix of linear TV, programmatic display, and search. Tier 3 (dealers): predominantly self-serve or agency-managed programmatic, paid search via platforms like Dealer.com, PureCars, or Dealers United. Co-op funding flows from OEM to dealer via accrual percentage of vehicle invoice, claimed against pre-approved media buys.",
+    "creative_considerations": "Vehicle imagery quality is paramount — lifestyle context (road, terrain, family) must match model positioning. Dealers require localized price/incentive call-outs compliant with OEM co-op rules (APR disclosures, MSRP vs. dealer pricing). CTV creative must work in 15s and 30s with logo/CTA visible in first 5 seconds before skip. EV campaigns must address range anxiety and charging accessibility with specificity. Dynamic creative optimization (DCO) needed to swap in VIN-specific inventory images at scale."
+  }
+}
