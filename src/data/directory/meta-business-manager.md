@@ -14,7 +14,6 @@ tags:
   - media-planners
 link: https://business.facebook.com/
 featured: false
-image: ./images/meta-business-manager.png
 targetUsers:
   - Media Agencies
   - Enterprise Brands
