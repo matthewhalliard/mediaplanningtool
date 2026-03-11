@@ -13,6 +13,7 @@ tags:
   - media-planners
   - marketing-directors
 link: https://www.bluhorn.com/
+heroImage: ./images/bluhorn.png
 featured: false
 targetUsers:
   - Media Agencies
