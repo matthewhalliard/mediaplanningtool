@@ -14,6 +14,7 @@ tags:
   - media-planners
   - cmos
 link: https://www.nielsen.com/solutions/media-planning/
+heroImage: ./images/nielsen-media-impact.png
 featured: true
 targetUsers:
   - Media Agencies
