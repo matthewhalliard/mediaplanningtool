@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - data-analysts
 link: https://business.adobe.com/products/advertising/adobe-advertising-cloud.html
+heroImage: ./images/adobe-advertising-cloud.png
 featured: false
 targetUsers:
   - Enterprise Brands
