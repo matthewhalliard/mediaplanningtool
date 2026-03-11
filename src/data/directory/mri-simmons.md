@@ -14,6 +14,7 @@ tags:
   - media-planners
   - data-analysts
 link: https://www.mrisimmons.com/
+heroImage: ./images/mri-simmons.png
 featured: false
 targetUsers:
   - Media Agencies
