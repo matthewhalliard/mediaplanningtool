@@ -12,7 +12,6 @@ tags:
   - media-planners
 link: https://www.simulmedia.com/
 featured: false
-image: ./images/simulmedia.png
 targetUsers:
   - Brands
   - TV Advertisers
