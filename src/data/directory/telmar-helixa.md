@@ -8,6 +8,7 @@ tags:
   - audience-analytics
   - data-analysts
 link: https://www.telmar.com/
+heroImage: ./images/telmar-helixa.png
 featured: false
 targetUsers:
   - Advertisers
