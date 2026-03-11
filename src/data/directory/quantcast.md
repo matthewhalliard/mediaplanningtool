@@ -13,6 +13,7 @@ tags:
   - agencies
   - in-house-teams
 link: https://www.quantcast.com/
+heroImage: ./images/quantcast.png
 featured: true
 targetUsers:
   - Marketing Directors
