@@ -14,7 +14,6 @@ tags:
   - media-planners
 link: https://www.gotoadvantage.com/
 featured: false
-image: ./images/advantage.png
 targetUsers:
   - Media Agencies
   - Marketing Directors
