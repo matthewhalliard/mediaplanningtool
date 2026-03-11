@@ -14,7 +14,6 @@ tags:
   - in-house-teams
 link: https://www.keends.com/
 featured: false
-image: ./images/keen.png
 targetUsers:
   - Marketing Directors
   - CMOs
