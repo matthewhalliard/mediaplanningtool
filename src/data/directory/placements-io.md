@@ -9,7 +9,6 @@ tags:
   - fast
 link: https://www.placements.io/media-planning-activation
 featured: false
-image: ./images/placements-io.png
 targetUsers:
   - Brands
   - Agencies
