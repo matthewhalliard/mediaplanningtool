@@ -14,7 +14,6 @@ tags:
   - media-planners
 link: https://basis.com/
 featured: false
-image: ./images/basis.png
 targetUsers:
   - Media Agencies
   - Enterprise Brands
