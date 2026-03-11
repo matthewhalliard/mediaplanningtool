@@ -14,7 +14,6 @@ tags:
   - data-analysts
 link: https://www.criteo.com/
 featured: false
-image: ./images/criteo.png
 targetUsers:
   - E-commerce Brands
   - Performance Marketers
