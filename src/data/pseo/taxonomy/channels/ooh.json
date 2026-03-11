@@ -1,0 +1,49 @@
+{
+  "slug": "ooh",
+  "name": "Out-of-Home (OOH) / Digital OOH",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Out-of-home advertising is purchased through several mechanisms depending on format: (1) Traditional OOH (static billboards, posters, transit shelters) is bought direct from operators (Lamar, Clear Channel, JCDecaux, Outfront) via insertion order for specific faces and flight periods—typically 4-week cycles; (2) Digital OOH (DOOH) is bought direct from operators or programmatically via DSPs like The Trade Desk, Hivestack, Vistar Media, and Place Exchange, which aggregate digital screens across networks; (3) Programmatic DOOH (pDOOH) enables real-time, audience-triggered buying—ads play on screens when target audience members are geographically proximate, based on mobile device location data. OOH is measured by gross impressions (traffic counts × display frequency) using the Geopath audience measurement system in the US.",
+    "measurement_approaches": "Traditional OOH measurement relies on Geopath mobility data (mobile GPS and traffic counts) to estimate audience impressions by demographic and DMA. CPM-equivalent metrics are standard for planning purposes. DOOH adds digital-native metrics: play count (verified ad displays), share of voice in digital pods (percentage of total loop time owned), and viewability estimation via camera-based attention data (VIOOH, Alfi) on select screens. Campaign attribution has improved significantly: mobile device ID tracking enables conversion lift measurement by comparing in-store visits, website visits, or app downloads from devices exposed to OOH locations vs. unexposed control groups. Brand lift studies via survey methodology are also standard for larger campaigns.",
+    "typical_cpms": "National large-format billboard (static): $3–$10 CPM; urban transit shelters and bus wraps: $5–$15 CPM; digital billboard (DOOH) at high-traffic intersections: $10–$25 CPM; programmatic DOOH (pDOOH): $8–$20 CPM depending on audience targeting precision; airport advertising: $15–$40 CPM; Times Square / iconic urban placements: $40–$100+ CPM; venue-based OOH (gyms, airports, stadiums, bars, restaurants): $10–$35 CPM; street furniture (bus shelters, kiosks): $8–$18 CPM. CPMs vary dramatically by location, market, and traffic density.",
+    "targeting_capabilities": [
+      "Geographic targeting by DMA, metro, city, neighborhood, zip code, or specific address radii",
+      "Contextual/venue targeting (airports, gyms, convenience stores, bars, transit stations, retail corridors)",
+      "Audience targeting via programmatic DOOH using mobile device location data (behavioral segments in proximity to screens)",
+      "Time-of-day and daypart targeting (morning commute, lunch, evening rush, weekend) for DOOH",
+      "Weather-triggered dynamic creative (ad content adapts to temperature, precipitation, or weather conditions)",
+      "Competitive conquesting (buying screens near competitor locations)"
+    ],
+    "common_pitfalls": [
+      "Designing creative with too much text or detail—the 3-second rule applies to OOH; complex messaging is impossible to process at 65mph",
+      "Buying static OOH without considering dwell time of the medium—billboards on 65mph highways have 3-second average views; airport/transit provides 10+ seconds",
+      "Failing to coordinate OOH with digital retargeting—exposed mobile devices near OOH screens can be captured for follow-up digital advertising, dramatically improving attribution",
+      "Over-concentrating spend in one large format instead of distributing across a market for cumulative frequency",
+      "Ignoring production costs and lead times for static OOH—vinyl installation, printing, and permitting can add 3–4 weeks of lead time",
+      "Not measuring OOH's contribution to lift—attribution is now possible via mobile device matching and store visit measurement, but many brands skip this step"
+    ],
+    "formats": [
+      "Bulletins / large-format billboards (14x48 ft, highest-visibility highway placements)",
+      "Posters (10x22 ft, street-level urban coverage)",
+      "Digital billboards / large DOOH (rotating 6–8 second ad slots, dynamic creative capable)",
+      "Street furniture (bus shelters, newsstands, transit kiosks—pedestrian-level, high dwell time)",
+      "Transit advertising (bus wraps, subway/rail station dominations, airport displays)",
+      "Place-based DOOH (gyms, bars, restaurants, convenience stores, office elevators—venue-specific audiences)",
+      "Spectacular / wallscapes (building wraps, 3D anamorphic installations for major brand moments)"
+    ],
+    "key_platforms": [
+      "Lamar Advertising (largest US OOH operator, 165,000+ displays)",
+      "Clear Channel Outdoor (global OOH operator, Smart Audience targeting platform)",
+      "Outfront Media (US OOH operator, strong transit position)",
+      "JCDecaux (global, strong in transit and urban street furniture)",
+      "Vistar Media (leading pDOOH programmatic platform/DSP)",
+      "Hivestack (programmatic DOOH SSP and DSP, global scale)",
+      "Place Exchange (programmatic OOH exchange, The Trade Desk integration)",
+      "Geopath (US audience measurement body for OOH)"
+    ],
+    "planning_considerations": "OOH's defining characteristics are its inability to be skipped, blocked, or fast-forwarded, and its physical presence in the real world. It is one of the few channels that cannot be ad-blocked. Planning considerations: (1) OOH is fundamentally a reach channel—it builds brand awareness through repeated geographic impressions; (2) creative must communicate in 3–5 seconds for highway/transit placements; longer dwell contexts (airports, elevators) allow more complex messaging; (3) programmatic DOOH allows dynamic creative delivery (weather triggers, live sports scores, countdown timers) that static cannot; (4) local market activation (DMAs, cities) is OOH's greatest strength—brands can dominate a specific geography efficiently; (5) OOH pairs well with digital retargeting of exposed device IDs.",
+    "trend_2026": "DOOH now represents approximately 67% of total OOH spend in major markets, surpassing static as the dominant format. Global OOH spend is on track to reach $49.8B in 2025. Programmatic DOOH spending is projected to reach $1.22B in the US in 2026, growing 22.6% YoY. Measurement innovation—particularly mobile device location matching for attribution and store visit lift—is making OOH more defensible in data-driven media plans. Retail media is integrating with OOH as retailers install DOOH screens within stores (in-store retail media screens). AI-powered creative optimization for DOOH (dynamic content personalization by audience, time, and context) is moving from experimental to standard. OOH operators are investing in first-party audience data strategies to compete with digital platforms.",
+    "integration_with_other_channels": "OOH is most powerful when integrated with digital channels to create a closed-loop ecosystem. Key integrations: (1) OOH + mobile retargeting—devices exposed to OOH placements are served follow-up mobile ads within hours; (2) OOH + paid search—OOH brand building drives branded search queries; QR codes on OOH bridge the physical-digital gap; (3) OOH + social—OOH activations (spectaculars, 3D installs) generate social sharing and earned media, amplifying paid reach; (4) OOH + audio—commuters see billboards while listening to podcasts/radio, creating multi-sense impression.",
+    "budget_allocation_guidance": "OOH typically represents 5–15% of media budgets for local/regional advertisers and 5–10% for national advertisers. Most effective for campaigns requiring geographic dominance, location-specific targeting (near retail, competitor locations, or events), or cultural moment activations where physical presence matters. Minimum viable OOH investment for a single DMA campaign: $15,000–$30,000/month for meaningful coverage. Increase OOH allocation for local market launches, retail-driven campaigns, or campaigns targeting consumers in specific physical contexts (gym, transit, airport). Reduce when the campaign is purely direct-response digital with no need for geographic presence or ambient brand building."
+  }
+}
