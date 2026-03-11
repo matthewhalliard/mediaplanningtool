@@ -8,6 +8,7 @@ tags:
   - audience-analytics
   - data-analysts
 link: https://www.optalx.com/
+heroImage: ./images/optalx.png
 featured: false
 targetUsers:
   - Media Planners
