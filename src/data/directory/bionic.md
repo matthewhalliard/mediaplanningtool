@@ -13,6 +13,7 @@ tags:
   - media-planners
   - marketing-directors
 link: https://www.bionic-ads.com/
+heroImage: ./images/bionic.png
 featured: false
 targetUsers:
   - Media Agencies
