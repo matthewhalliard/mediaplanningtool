@@ -9,6 +9,7 @@ tags:
   - fast
   - featured
 link: https://mediabrain.com/
+heroImage: ./images/mediabrain.png
 featured: true
 targetUsers:
   - Agencies
