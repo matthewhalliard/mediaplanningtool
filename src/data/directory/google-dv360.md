@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://marketingplatform.google.com/about/display-video-360/
+heroImage: ./images/google-dv360.png
 featured: false
 targetUsers:
   - Enterprise Brands
