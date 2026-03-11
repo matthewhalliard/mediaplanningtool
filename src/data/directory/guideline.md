@@ -13,6 +13,7 @@ tags:
   - data-analysts
   - agencies
 link: https://www.guideline.ai/
+heroImage: ./images/guideline.png
 featured: false
 targetUsers:
   - Media Strategy Professionals
