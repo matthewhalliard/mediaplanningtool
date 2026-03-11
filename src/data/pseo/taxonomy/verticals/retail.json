@@ -1,0 +1,57 @@
+{
+  "slug": "retail",
+  "name": "Retail / E-Commerce",
+  "type": "vertical",
+  "context": {
+    "audience": "Media and performance marketing leaders at omnichannel retailers, pure-play e-commerce brands, DTC companies, and marketplace sellers. Sub-segments include fashion/apparel, home goods, electronics, sporting goods, beauty, and grocery. For e-commerce, a distinct layer exists: brands selling on Amazon/Walmart marketplaces (endemic retail media buyers) vs. brands with owned DTC storefronts (full-funnel digital buyers). Agency planners serving mid-market retailers ($50M–$500M revenue) represent a large practice segment.",
+    "pain_points": [
+      "Shopper marketing and brand media budget silos: retail co-op dollars (managed by the trade team) and national brand media dollars (managed by marketing) are typically planned in isolation despite serving the same consumer — unified planning requires breaking down organizational walls that most retail brands haven't yet crossed",
+      "Amazon Ads complexity: within Amazon alone, a brand must now manage sponsored products, sponsored brands, sponsored display, DSP, video ads, audio ads, and streaming TV ads — each with different targeting logic, attribution windows, and reporting — before even considering off-Amazon media",
+      "ROAS tunnel vision: optimizing aggressively to ROAS on retail media platforms drives spend to bottom-of-funnel, in-market shoppers (who would likely convert anyway), at the expense of new customer acquisition — brands over-index on retargeting existing customers rather than driving household penetration",
+      "Returns and refund rate interaction with media efficiency: high-volume, low-AOV products with 20–35% return rates inflate gross ROAS while destroying net economics, yet most media optimization ignores post-purchase return signals",
+      "Cross-channel attribution between Amazon/retail media and owned DTC channels: customers exposed to an Amazon Sponsored Product ad often then search for the brand's DTC site to compare prices — DTC media gets the conversion credit while Amazon media drove the awareness that initiated the journey",
+      "Tariff and supply chain disruptions in 2025 are creating mid-season inventory shortfalls, requiring rapid media budget pauses and reallocation without reliable inventory forecasting integration into campaign management tools"
+    ],
+    "kpis": [
+      "Return on Ad Spend (ROAS) / Revenue per media dollar — primary e-commerce performance metric, tracked by channel and campaign type",
+      "New customer acquisition rate and new-to-brand customer percentage on retail media platforms",
+      "Customer Acquisition Cost (CAC) and payback period — months to recover acquisition investment from gross margin",
+      "Cart abandonment rate and remarketing recapture rate by channel",
+      "Average Order Value (AOV) by acquisition channel — distinguishes high-value from coupon-motivated buyers",
+      "Customer Lifetime Value (CLV) by acquisition cohort — determines sustainable CAC ceiling",
+      "Return rate by product category and acquisition channel — identifies creative or targeting quality issues"
+    ],
+    "regulatory": "FTC Endorsement and Testimonial Guides require clear disclosure for paid influencer and review-based promotion. FTC 'click to cancel' requirements for subscription e-commerce (effective 2024). CCPA/CPRA in California and expanding state privacy laws require cookie consent, data subject rights, and opt-out mechanisms that affect retargeting audience size and paid search remarketing lists. ADA accessibility compliance for digital ads and landing pages. Trade tariff classifications affect product pricing accuracy in dynamic ads. VTEC (verified customer review) and fake review laws intensifying FTC enforcement in 2025.",
+    "seasonality": "Retail is the most seasonally concentrated advertising vertical. Q4 (Oct–Dec) accounts for 30–40% of annual retail ad spend — Black Friday/Cyber Monday 5-day window is single largest media investment period. Amazon Prime Day (July) has become a second major spend peak. Back-to-school (July–Aug) is significant for apparel, electronics, and office supplies. Valentine's Day, Mother's Day, and Father's Day create mid-year burst windows. Summer clearance (June–July) and post-holiday clearance (Jan) complete the major seasonal calendar.",
+    "budget_dynamics": "Retail is the largest single advertising vertical in the US. Digital commands 87.1% of retail ad spend by 2026 per eMarketer (highest of any vertical). Retail media networks now represent 20–25% of all digital ad spend globally and $58.79B in US spend for 2025. Amazon and Walmart Connect absorb 89% of incremental RMN growth. Budget lines between shopper/trade and brand media are blurring as RMNs push into CTV, video, and off-site programmatic. Performance marketing (Google Shopping, Meta dynamic product ads) remains the backbone of DTC acquisition. Growing investment in creator/social commerce (TikTok Shop, Instagram Shopping) for impulse-driven categories.",
+    "channels_that_work": [
+      "Google Shopping / Performance Max — highest-intent product discovery; Shopping campaigns capture in-market buyers; PMax now accounts for 13–18% of Google spend and automates across inventory types",
+      "Amazon Ads (Sponsored Products, Sponsored Brands, DSP) — essential for brands selling on Amazon; Sponsored Products highest ROAS; DSP for new customer acquisition off-Amazon",
+      "Meta dynamic product ads (DPA) — retargeting product page visitors with specific items viewed; catalog-based prospecting for new customer acquisition at scale",
+      "Connected TV / streaming — growing for brand building in retail; Amazon DSP extends to Prime Video and Twitch for non-endemic brands; Walmart Connect expanding CTV reach",
+      "TikTok Shop + creator content — highest-growth channel for impulse categories (beauty, fashion, gadgets); product discovery driven by creator integrations, not traditional ad units",
+      "Retail media networks (Target Roundel, Kroger Precision Marketing, Instacart, Chewy Ads) — closed-loop attribution for CPG and consumables sold in-store and online",
+      "Paid search (branded + non-branded) — defending brand terms and capturing non-branded category queries; Google Shopping + text ads used in tandem"
+    ],
+    "measurement_challenges": [
+      "Online-to-offline attribution: customers who research online and purchase in-store represent a significant portion of retail spend that standard digital attribution models miss — requires store visit measurement via geofencing or card-linked transaction data",
+      "Amazon attribution vs. Google/Meta last-touch conflict: a consumer exposed to a Google display ad may complete purchase on Amazon — Google reports no conversion; Amazon reports a sale with no media credit given to Google",
+      "Incrementality of retargeting vs. organic repurchase: remarketing audiences that would have converted without re-exposure are common in high-repurchase categories (beauty, consumables) — holdout testing reveals true incrementality is often 20–40% of reported ROAS",
+      "Multi-retailer brand spend allocation: a brand selling through Amazon, Target, Walmart, and its own DTC store must decide how to split media investment without retailer-level profit contribution transparency",
+      "Return signal latency: returns often process 15–30 days after purchase, meaning ROAS-optimized campaigns are over-valuing categories with high return rates unless post-return revenue data is fed back into attribution"
+    ],
+    "subtopics": [
+      "Amazon Ads strategy: sponsored products, brand store, DSP, and streaming video integration",
+      "DTC acquisition media: building a profitable funnel from awareness to first purchase",
+      "Retail media network selection and budget allocation across RMN ecosystem",
+      "Black Friday/Cyber Monday media planning and competitive bidding strategy",
+      "Social commerce and TikTok Shop integration for product discovery categories",
+      "Customer retention and LTV media: loyalty program media, email/SMS integration",
+      "Omnichannel retail media: connecting online ad exposure to in-store sales",
+      "Subscription e-commerce media planning and payback period modeling"
+    ],
+    "typical_budget_range": "Mid-market DTC brand ($50M–$200M revenue): $5M–$25M/year. Omnichannel retailer ($500M–$2B revenue): $30M–$150M/year. Enterprise retailer (Target, Best Buy tier): $500M–$2B+/year. Amazon-native brand (marketplace focused): highly variable, 10–25% of revenue on Amazon Ads common in competitive categories.",
+    "buying_model": "Performance-heavy. Google Shopping and search primarily self-serve via agency or in-house performance team. Meta DPA and prospecting via agency or in-house social team. Amazon Ads split between self-serve (most brands) and Amazon-managed service for enterprise accounts. RMN buying is largely managed-service through retailer account teams. Programmatic display and CTV via agency DSP or The Trade Desk. TV increasingly bought programmatically; linear upfronts used only by enterprise retailers for brand campaigns. In-housing of programmatic growing rapidly across mid-to-large retailers.",
+    "creative_considerations": "Product photography quality is the single most important creative variable — clean white background vs. lifestyle context depends on funnel stage. Video creative for social (15s Reels/TikToks) must feature product in use within first 3 seconds. User-generated content and creator-produced content consistently outperforms brand-produced content on TikTok and Instagram for fashion, beauty, and home categories. Dynamic product ads require consistent, clean product data feed (title, description, price, image) — feed quality directly determines ad performance. Promotional messaging (discount percentage, urgency/scarcity signals) performs well in bottom-funnel but erodes brand perception if overused. Brand storytelling campaigns require longer video formats (30s–90s) and are best suited for CTV and YouTube."
+  }
+}
