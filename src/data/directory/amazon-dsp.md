@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://advertising.amazon.com/solutions/products/amazon-dsp
+heroImage: ./images/amazon-dsp.png
 featured: false
 targetUsers:
   - Brand Advertisers
