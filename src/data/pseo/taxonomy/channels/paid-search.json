@@ -1,0 +1,45 @@
+{
+  "slug": "paid-search",
+  "name": "Paid Search (SEM / PPC)",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Paid search operates on a real-time, keyword-triggered auction model. Advertisers bid on keywords, and ads are displayed when users search for those terms. Ad Rank—which determines placement—is calculated by multiplying the bid by Quality Score (a composite of expected CTR, ad relevance, and landing page experience). This means a well-optimized lower bid can outrank a higher bid. Google Ads is the dominant platform (~90%+ of paid search volume in the US), with Microsoft Advertising (Bing/Edge) as the significant secondary. Primary campaign types include Search (keyword-triggered text ads), Performance Max (Google's automated, cross-network campaign type using AI), Shopping (product listing ads with images/prices), and Dynamic Search Ads (automatically generated from website content). Automated Smart Bidding strategies (Target CPA, Target ROAS, Maximize Conversions) are now the default for most campaigns.",
+    "measurement_approaches": "Paid search is the most measurable digital channel. Standard KPIs include clicks, impressions, CTR, CPC, conversion rate, cost per conversion (CPA), and ROAS. Attribution is primarily last-click by default in Google Ads, though data-driven attribution (DDA) is now recommended and standard in most campaigns. Cross-channel attribution via Google Analytics 4 or third-party tools (Northbeam, Rockerbox, Triple Whale) helps understand search's role beyond last click. Impression share, Quality Score, Search Lost IS (budget) and Search Lost IS (rank) are diagnostic metrics for optimization. Google's conversion modeling (for privacy-impacted conversions) is now widely adopted to fill attribution gaps from consent-mode environments.",
+    "typical_cpms": "Paid search is primarily CPC-billed, not CPM. Average CPC across all US industries in 2025: approximately $4.66–$5.26 (Google Search Ads). By vertical: Legal/attorneys: $6.75–$8.58; Healthcare/medical: $5.00–$7.85; Finance/insurance: $3.46–$5.00; B2B services: $3.33–$5.58; Consumer services: $4.00–$6.40; eCommerce/retail: $1.50–$3.50; Travel: $1.53–$2.12; Restaurants: $1.50–$2.05. CPM equivalent for search varies widely by industry but typically ranges from $10–$30 CPM on a viewed-impression basis. Google Shopping CPC averages $0.66. Microsoft Advertising CPCs run approximately 20–30% lower than Google for comparable terms.",
+    "targeting_capabilities": [
+      "Keyword targeting (broad match, phrase match, exact match, negative keywords)",
+      "Audience layering (demographic, in-market, customer match, lookalike/similar audiences)",
+      "Geographic targeting (country, region, city, zip, radius, location exclusions)",
+      "Device bid adjustments (desktop, mobile, tablet)",
+      "Dayparting / ad schedule bidding",
+      "Remarketing lists for search ads (RLSA—adjusting bids for prior site visitors or converters)"
+    ],
+    "common_pitfalls": [
+      "Allowing too many broad match keywords without strong negative keyword lists, leading to irrelevant query spend",
+      "Over-consolidating into Performance Max without maintaining traditional search campaigns, losing keyword-level control and transparency",
+      "Setting and forgetting automated bidding strategies without giving them sufficient conversion data (recommended minimums: 30–50 conversions per month per campaign)",
+      "Ignoring search term reports—failing to identify and add converting queries as keywords or add irrelevant terms as negatives",
+      "Neglecting Quality Score improvements (landing page relevance, ad copy alignment), which directly increases CPCs",
+      "Misattributing search performance in last-click models, leading to underinvestment in upper-funnel channels that drive branded search volume"
+    ],
+    "formats": [
+      "Responsive Search Ads (RSA)—headline and description combinations tested by Google's AI (standard text format)",
+      "Performance Max campaigns (AI-driven, cross-network placements including search, display, shopping, YouTube, Gmail, Maps)",
+      "Google Shopping / Product Listing Ads (PLAs) with product image, price, and store name",
+      "Dynamic Search Ads (DSA)—automatically generated headlines based on website content",
+      "Call-only ads (mobile, generates phone calls rather than site visits)",
+      "Local Service Ads (LSA)—pay-per-lead, primarily for service businesses with Google Guarantee badge"
+    ],
+    "key_platforms": [
+      "Google Ads (dominant platform, ~90% US search ad share)",
+      "Microsoft Advertising / Bing Ads (second market position, unique audience of higher-income and older users)",
+      "Apple Search Ads (App Store keyword advertising for mobile apps)",
+      "Amazon Sponsored Products and Sponsored Brands (search advertising within Amazon's marketplace)",
+      "Yelp Ads (local business search advertising within Yelp's ecosystem)"
+    ],
+    "planning_considerations": "Paid search captures existing demand—users actively searching for a solution. It is the most efficient performance channel for lower-funnel objectives when search volume exists for target keywords. Critical planning considerations: (1) keyword research and search volume analysis before investment decisions; (2) landing page alignment with query intent (mismatch is the #1 cause of poor Quality Scores); (3) competitor landscape—heavily contested keywords in legal, finance, and healthcare can price out smaller advertisers; (4) budget pacing—daily budgets should not limit impression share below 80%+ for priority terms; (5) Performance Max requires careful product feed quality management and auction insights monitoring.",
+    "trend_2026": "Google's AI Overviews (Search Generative Experience) in the search SERP are changing click patterns—early studies suggest some reduction in organic CTR, though paid search appears more insulated due to placement above SGE results. Performance Max continues displacing traditional Search campaigns, though advertiser pushback over lack of transparency is prompting Google to add reporting features. Generative AI ad creation (responsive assets generated automatically) is now a standard feature. Microsoft Advertising is gaining share via Copilot AI integration in Bing. Retail search (Amazon, Walmart, Instacart) is increasingly treated as a distinct channel within SEM planning. Privacy-safe conversion modeling via Consent Mode v2 is now mandatory for EU advertisers.",
+    "integration_with_other_channels": "Paid search is the most common 'closer' in digital media mixes—it captures demand generated by upper-funnel channels. Primary synergies: TV and CTV advertising drives branded search volume (a measurable halo effect); paid social generates awareness that converts through search; display retargeting extends reach between search visits. Search impression share data is a key diagnostic for media mix health—if branded search volume is rising but impression share is declining, a competitor is capturing the demand generated by your awareness campaigns.",
+    "budget_allocation_guidance": "Paid search typically represents 20–40% of digital media budgets and is often the highest-ROI channel for performance-focused advertisers. Always-on budget for branded keywords is non-negotiable—protecting branded terms from competitor conquest spending is essential. Non-brand search budgets should be sized against available search volume and target CPA goals. Increase when ROI at current budget is strong and there is remaining impression share to capture. Reduce when search impression share exceeds 90% for priority terms (indicating budget is no longer the limiting factor) or when building upper-funnel brand awareness where search volume doesn't yet exist."
+  }
+}
