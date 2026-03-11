@@ -1,0 +1,57 @@
+{
+  "slug": "healthcare",
+  "name": "Healthcare / Pharma",
+  "type": "vertical",
+  "context": {
+    "audience": "Three distinct audience segments requiring separate media strategies: (1) Direct-to-Consumer (DTC) — patients and caregivers actively researching diagnoses, treatments, and prescription drugs; (2) Healthcare Provider (HCP) — physicians, nurse practitioners, pharmacists, and care team members targeted with clinical messaging; (3) Payers and Health Systems — insurance plan marketing, hospital/health system patient acquisition, and employer health benefit decision-makers. Rare disease campaigns further narrow HCP targeting to sub-100K prescriber populations.",
+    "pain_points": [
+      "HCP-DTC campaign coordination: a prescription drug ad converts only if both the patient asks their doctor AND the doctor agrees to prescribe — yet HCP and DTC campaigns are typically planned and measured in separate silos with different agencies, different KPIs, and no shared attribution model",
+      "FDA OPDP compliance on every promotional asset: DTC prescription drug ads must present fair balance of risks and benefits, disclose the black box warning, and maintain a brief summary — this creates 45–90 day legal/regulatory review cycles that make programmatic real-time optimization structurally impossible",
+      "Platform restrictions on prescription drug advertising: Meta and Google implemented stricter permissions in 2025 for Rx drug ads requiring pharmaceutical advertiser verification, limiting targeting options and complicating automated bidding strategies",
+      "Rare disease audience size: with 72% of new drug approvals now in rare disease, many NPI lists for target prescribers number fewer than 5,000–15,000 physicians nationally — making programmatic reach in traditional inventory extremely inefficient and requiring specialized health data providers (DeepIntent, Doceree, PulsePoint)",
+      "Privacy and HIPAA exposure in digital advertising: using condition-specific health data for audience targeting risks patient re-identification if data is not properly de-identified per HIPAA Safe Harbor standards; FTC enforcement on health data misuse intensified in 2023–2025",
+      "Script lift measurement latency: prescription media campaigns optimize toward leading indicators (brand recall, website visits, coupon downloads) but ultimate success is measured in NRx/TRx data from IQVIA or Symphony Health — which lags 6–8 weeks behind campaign activity, making in-flight optimization difficult"
+    ],
+    "kpis": [
+      "New-to-brand prescriptions (NRx) and total prescriptions (TRx) weekly trend attributed to DTC campaign flights",
+      "Script lift index — NRx velocity in media-exposed markets vs. matched control markets",
+      "HCP engagement metrics: detail aid opens, e-sample requests, Medical Science Liaison meeting bookings from HCP-targeted digital",
+      "Patient support program enrollment rate (hub enrollment, copay card activations) from DTC campaign traffic",
+      "Cost per patient start (CPS) — the cost to get one patient initiated on therapy, inclusive of all DTC and HCP media",
+      "Diagnosis/awareness KPIs for unbranded disease awareness campaigns: HCP survey scores on condition recognition, patient self-identification rates at point of care",
+      "Brand health tracking: unaided awareness, treatment consideration, net promoter score among diagnosed patient population"
+    ],
+    "regulatory": "Most regulated advertising vertical. FDA Office of Prescription Drug Promotion (OPDP) governs all Rx DTC and HCP promotional materials — pre-clearance not required but post-market surveillance is active. All broadcast DTC ads must include major statement of risks ('brief summary'). Black box warning drugs face heightened scrutiny. Social media promotion subject to FDA guidance on space-limited formats. FTC oversees OTC drug and device advertising. HIPAA constrains use of health condition data for targeting. EU pharma advertising to consumers is banned for prescription drugs in most member states, creating major international media planning differences. Dietary supplement advertising (FTC-regulated) allows broader claims but deceptive health claims enforcement is active.",
+    "seasonality": "Allergy and respiratory season (spring March–May and fall Sep–Oct) are launch windows for anti-allergy and asthma products. Flu season (Oct–Feb) dominates vaccine and antiviral advertising. Open enrollment periods (Oct–Jan) drive health insurance plan marketing. Mental health awareness month (May) and condition-awareness months (e.g., October for Breast Cancer Awareness) create earned/paid media inflection points for oncology and mental health brands. Rare disease awareness days (Rare Disease Day, Feb 28) support unbranded disease education campaigns.",
+    "budget_dynamics": "Healthcare and pharma is recession-resistant — Rx drug advertising budgets are tied to drug life cycle and payer access, not macroeconomic cycles. US pharma DTC ad spend is approximately $10B annually, heavily concentrated in TV and digital. HCP promotion adds another $5–7B across detailing, digital, congress/conference sponsorships, and CME. Digital share growing: programmatic HCP targeting via health data publishers (WebMD, Healthgrades, Doceree, DeepIntent) growing fastest. CTV penetration growing as pharma brands use it to reach HCPs as consumers. Traditional medical journal advertising declining; digital HCP platforms (Epocrates, Doceree, MDxHealth) gaining. Telehealth-adjacent brands (Roman, Hims/Hers, Noom) allocating 40–60% of revenue to performance media.",
+    "channels_that_work": [
+      "Linear TV — still dominant for DTC Rx brand advertising due to broad reach and regulatory precedent for fair balance delivery; network TV and cable remain top DTC spend channels for blockbuster drugs",
+      "Programmatic HCP targeting (DeepIntent, PulsePoint, Doceree, Epocrates) — NPI-matched audience delivery across premium health publisher inventory; enables physician-level targeting for HCP promotion",
+      "Paid search (Google) — high intent for diagnosed patients researching treatments; 'what is [condition]', '[drug name] side effects', and '[condition] treatment options' queries represent high-value traffic",
+      "Connected TV / Advanced TV — growing for both DTC (premium streaming adjacency) and HCP (reaching physicians at home via consumer streaming with NPI-matched targeting)",
+      "Digital health communities (Healthgrades, WebMD, Health Union condition-specific sites) — contextually relevant patient and caregiver audiences with deep condition engagement",
+      "Social (Facebook/Instagram) — unbranded disease awareness and patient community engagement; branded Rx ads require pharmaceutical advertiser verification; increasingly used for OTC, device, and telehealth",
+      "Patient influencer marketing (Health Union PGIM model) — patient leaders with chronic condition audiences; high engagement vs. typical pharma creative benchmarks"
+    ],
+    "measurement_challenges": [
+      "6–8 week lag between media activity and IQVIA/Symphony NRx data availability prevents real-time script lift optimization; brands must rely on leading indicators (website visits, copay card downloads) as proxies",
+      "Attribution across the patient journey: a patient sees a TV ad, researches online, downloads a coupon, visits a doctor, and receives a prescription — each touchpoint is measured by a different team with different tools",
+      "HCP and DTC campaign interaction effects: triangulating HCP prescribing behavior changes vs. patient demand pull vs. payer formulary access is a multi-variable problem without a unified measurement framework",
+      "HIPAA-constrained remarketing: you cannot retarget a user who visited a specific condition page with a pharma ad in a way that implies you know their health condition, limiting the effectiveness of standard programmatic retargeting",
+      "Small HCP population measurement: with target NPI lists of 5,000–20,000 physicians, statistically significant lift studies require long measurement periods and careful holdout design to avoid underpowered results"
+    ],
+    "subtopics": [
+      "Prescription DTC media planning and FDA OPDP compliance workflow",
+      "HCP digital promotion: NPI-matched programmatic and health publisher strategy",
+      "Rare disease media planning for ultra-small prescriber and patient populations",
+      "Telehealth and digital health brand performance media (Hims, Noom, Roman model)",
+      "Unbranded disease awareness campaigns and patient education media",
+      "Medical device DTC advertising (FDA 510(k) and PMA product categories)",
+      "OTC drug and supplement media planning (distinction from Rx promotion rules)",
+      "Healthcare system and hospital patient acquisition media planning"
+    ],
+    "typical_budget_range": "Specialty pharma brand (mid-market drug, $500M–$2B revenue): $50M–$200M/year DTC + HCP combined. Blockbuster drug (>$5B revenue): $300M–$800M/year. Rare disease brand: $5M–$30M/year (smaller scale, ultra-targeted). Hospital/health system: $2M–$20M/year local/regional. Telehealth brand: highly variable — typically 40–60% of revenue in growth stage.",
+    "buying_model": "DTC Rx: upfront broadcast TV bought via holding company agency; digital/programmatic via specialized pharma DSPs and health publishers. HCP: mix of managed-service via health data platforms (DeepIntent, Doceree), direct publisher deals with WebMD/Healthgrades, congress/medical meeting sponsorships. Regulatory approval cycle means media plans are often locked 8–12 weeks before launch. Real-time optimization limited by MLR (Medical/Legal/Regulatory) review requirements. Growing use of programmatic guaranteed deals to ensure brand-safe adjacencies.",
+    "creative_considerations": "DTC Rx creative must include mandatory fair balance (risk information) — voiceover risk disclosure defines ad length and pacing. First 5 seconds must establish condition and product name before patient attention is lost. Emotionally resonant patient stories outperform clinical messaging for DTC patient recruitment. HCP creative must be evidence-based with clinical data references, MOA (mechanism of action) explainers, and study citations — not emotional appeals. Mobile creative must present risk information legibly in small format. Unbranded disease awareness creative can be more evocative and shareable since it is not subject to branded promotion rules."
+  }
+}
