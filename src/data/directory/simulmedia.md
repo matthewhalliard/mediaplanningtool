@@ -11,6 +11,7 @@ tags:
   - in-house-teams
   - media-planners
 link: https://www.simulmedia.com/
+heroImage: ./images/simulmedia.png
 featured: false
 targetUsers:
   - Brands
