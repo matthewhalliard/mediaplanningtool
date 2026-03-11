@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - media-planners
 link: https://www.nielsen.com/solutions/media-planning/
+heroImage: ./images/commspoint-journey.png
 featured: false
 targetUsers:
   - Media Agencies
