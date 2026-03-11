@@ -14,6 +14,7 @@ tags:
   - marketing-directors
   - in-house-teams
 link: https://www.halliardmedia.com/
+heroImage: ./images/halliard.png
 featured: true
 targetUsers:
   - Media Planners
