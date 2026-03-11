@@ -1,0 +1,58 @@
+{
+  "slug": "media-buyer",
+  "name": "Media Buyer / Investment Specialist",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Negotiating and executing media buys across channels—securing inventory at optimal CPMs/CPCs within approved budgets and ensuring campaign delivery against plan",
+      "Managing vendor and publisher relationships, including upfront negotiations, make-good policies, added value, and bonus impressions",
+      "Issuing insertion orders (IOs), managing IO revisions, and ensuring terms align with approved plans",
+      "Monitoring in-flight campaign delivery pacing and performance against contracted terms; identifying and resolving underdelivery issues",
+      "Reconciling media invoices against contracted delivery, flagging discrepancies, and managing billing approval workflows",
+      "Managing programmatic campaign execution within DSP platforms—building campaigns, setting up targeting, optimizing bids and budgets in real time"
+    ],
+    "daily_tasks": [
+      "Pulling and reviewing pacing reports from platforms and vendor partners; flagging campaigns running over or under budget",
+      "Responding to publisher and platform questions on live campaigns (creative swaps, schedule changes, technical issues)",
+      "Negotiating make-goods or credit adjustments for campaigns that underdelivered against contracted specs",
+      "Managing programmatic campaign optimizations—adjusting bids, updating audience segments, reviewing supply-path performance in DSP",
+      "Processing invoices and reconciling billing discrepancies against insertion orders in financial tracking systems",
+      "Communicating delivery and performance updates to media planners and account managers"
+    ],
+    "tools_they_use": [
+      "DSP platforms for programmatic execution (The Trade Desk, DV360, Amazon DSP, Xandr)",
+      "Platform-native buying interfaces (Google Ads, Meta Ads Manager, TikTok Ads, LinkedIn Campaign Manager)",
+      "Ad serving and trafficking systems (Google Campaign Manager 360, Sizmek/Amazon Ad Server)",
+      "Invoice and billing management systems (MediaLink, Advantage, or custom financial tracking spreadsheets)",
+      "IO and contract management tools (electronic signature platforms, vendor portals)",
+      "Competitive intelligence and rate benchmarking tools (MediaRadar, Kantar, internal rate card databases)"
+    ],
+    "content_needs": "Media buyers need practical, execution-focused content: negotiation guides and scripts for specific channel negotiations (upfront TV, programmatic PMP deals), IO templates and checklist frameworks, platform how-tos and setup guides (especially for new channels), CPM benchmark databases for negotiation preparation, billing reconciliation process guides, and glossaries of platform-specific terms and specs.",
+    "decision_criteria": [
+      "Rate efficiency: Is the negotiated CPM/CPC at or below market rate, and does it compare favorably to plan estimates?",
+      "Inventory quality and delivery guarantee: Can the publisher/platform guarantee delivery of contracted impressions on schedule?",
+      "Vendor reliability and relationship history: Has this partner delivered on past commitments, handled make-goods professionally, and been a trustworthy partner?",
+      "Added value and bonus negotiation: What can be secured beyond the base buy—bonus impressions, content integrations, first-look deals?",
+      "Technical execution feasibility: Are the ad specs, tagging requirements, and creative deadlines achievable within campaign timelines?",
+      "Contractual terms and flexibility: Do cancellation terms, make-good policies, and contract flexibility match the client's needs?"
+    ],
+    "pain_points": [
+      "Invoice reconciliation is a constant time sink—billing discrepancies between what was ordered, what was delivered, and what the vendor invoiced require significant back-and-forth to resolve",
+      "Tracking hundreds of individual line items across dozens of vendors and platforms in manual spreadsheets is error-prone and time-inefficient",
+      "Publisher and platform account representatives have high turnover, requiring constant re-education of new contacts on account history and preferences",
+      "Make-good negotiations are contentious and time-consuming when vendors dispute delivery shortfalls or offer inadequate compensation",
+      "Programmatic transparency issues in open auction—media buyers cannot always verify that impressions ran where and when claimed, especially without ad verification tags",
+      "Rushed creative delivery from internal teams creates day-of-launch scrambles, trafficking delays, and potential missed campaign start dates"
+    ],
+    "career_path": "Assistant Media Buyer → Media Buyer → Senior Media Buyer → Associate Director, Buying / Investment → Director, Investment → VP, Investment → Chief Investment Officer / Head of Buying. Buyers can specialize by channel (TV buyer, digital/programmatic buyer, social buyer) or remain generalists. The programmatic specialty has become a distinct career track with demand for technical skills in DSP operation, audience data strategy, and supply-path optimization.",
+    "reports_to": "Associate Director or Director of Investment / Buying (at agencies); Media Director or VP, Media (at in-house brands); Group Media Director (at large holding company agency networks)",
+    "collaborates_with": [
+      "Media Planners (translates approved plans into executed buys; the planner-buyer handoff is the primary workflow interface)",
+      "Ad Operations / Trafficking team (coordinates ad serving setup, tag implementation, and creative specifications)",
+      "Analytics team (provides performance data context for buy optimization decisions)",
+      "Finance / Billing team (invoice approvals, budget reconciliation, vendor payment status)",
+      "Account Manager / Client Lead (escalates delivery issues or upsell opportunities that require client communication)"
+    ],
+    "format_preferences": "Process documentation and checklists are highly valued—buyers are execution-oriented and value standardized workflows. Platform-specific guides, IO templates, and negotiation prep sheets are the highest utility content. Rate benchmarking guides (to validate whether a negotiated rate is competitive) and channel spec sheets (ad formats, tagging requirements, creative deadlines) are regularly referenced. Buyers prefer concise, practical formats over conceptual frameworks."
+  }
+}
