@@ -1,0 +1,58 @@
+{
+  "slug": "cmo",
+  "name": "CMO / Marketing Director",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Setting the overall marketing and brand strategy, including media investment philosophy, budget allocation, and performance targets aligned to business objectives",
+      "Owning the marketing budget—defending it to the CFO and board, allocating across functions (brand, performance, media, content, PR), and managing ROI accountability",
+      "Building and leading the marketing organization, including in-house media functions, agency relationships, and MarTech/AdTech stack decisions",
+      "Serving as the bridge between marketing investment and business results—translating media KPIs into the revenue, growth, and market share metrics that the CEO and board track",
+      "Establishing measurement frameworks and making investment decisions based on marketing mix modeling, attribution, and experimentation results",
+      "Managing agency relationships at the executive level—agency reviews, contract negotiations, performance accountability, and evaluating in-housing vs. outsourcing tradeoffs"
+    ],
+    "daily_tasks": [
+      "Reviewing top-line performance dashboards and interpreting trends for leadership stakeholders (CEO, CFO, board)",
+      "Leading or participating in agency briefings, campaign reviews, and quarterly business reviews",
+      "Making budget allocation decisions—shifting dollars across channels, functions, or markets based on performance data and business priorities",
+      "Meeting with media platform executives for briefings on new products, partnership opportunities, or industry trends",
+      "Cross-functional alignment meetings with Sales, Product, Finance, and Operations to connect marketing investment to business pipeline and revenue",
+      "Presenting marketing results and recommendations to the board or executive leadership team"
+    ],
+    "tools_they_use": [
+      "Executive marketing dashboards (Tableau, Looker, Datorama/Salesforce Marketing Cloud Intelligence)",
+      "Marketing mix modeling platforms (Nielsen Marketing Mix, Analytic Partners, Ekimetrics, Northbeam for smaller orgs)",
+      "CRM and marketing automation platforms (Salesforce, HubSpot, Marketo) for demand generation visibility",
+      "Industry intelligence subscriptions (eMarketer/Insider Intelligence, WARC, Gartner for CMOs)",
+      "Brand tracking platforms (Kantar BrandZ, Morning Consult, Qualtrics XM) for awareness and consideration monitoring",
+      "Agency management and contract platforms for billing oversight and deliverable tracking"
+    ],
+    "content_needs": "CMOs consume content to benchmark their organization's investment levels against industry norms, validate major strategic directions, and maintain credibility in cross-functional conversations. Most valuable: industry benchmarking data (% of revenue on media, media mix share by category), ROI and ROAS benchmarks by channel and category, annual forecast reports from credible sources (GroupM, WARC, IAB), case studies demonstrating media-driven business outcomes, and frameworks for media mix decisions explained in business terms (not ad tech jargon).",
+    "decision_criteria": [
+      "Business outcome impact: Does this investment drive measurable growth in revenue, market share, customer acquisition, or retention—not just media efficiency metrics?",
+      "Budget defensibility: Can this investment be justified to the CFO and board with credible ROI evidence, benchmarks, and measurable outcomes?",
+      "Competitive parity or advantage: Are we investing at a level that maintains or grows our share of voice vs. key competitors?",
+      "Measurement confidence: Can we actually measure whether this worked? Is the attribution methodology trusted enough to make the decision defensible?",
+      "Organizational capability: Do we have the internal talent or the right agency partners to execute this strategy effectively?",
+      "Risk tolerance: What is the downside if this doesn't work, and is the potential upside worth the exposure?"
+    ],
+    "pain_points": [
+      "Proving marketing's contribution to revenue to a skeptical CFO—the last-click attribution models that finance prefers dramatically undervalue brand-building and upper-funnel investment",
+      "Managing agency relationships where the agency's incentives (media commissions, production revenue) aren't always aligned with the brand's best outcomes",
+      "Media fragmentation has made campaign management exponentially more complex—there are now 3–5x more channels to manage than a decade ago, each with its own KPIs, minimum spends, and specialist requirements",
+      "Data overload without clarity—having access to more data than ever but struggling to synthesize conflicting signals across platforms, attribution models, and research sources into clear decisions",
+      "Balancing short-term performance pressure (lead generation, eCommerce sales this quarter) with the long-term brand investments that drive sustainable growth—these are often structurally in tension in quarterly reporting cycles",
+      "Keeping up with the pace of ad tech change—privacy law evolution, AI-driven buying, measurement currency changes, and retail media's rise require constant strategic recalibration"
+    ],
+    "career_path": "CMOs typically have 15–25 years of marketing experience. Career paths vary widely: brand management track (P&G, Unilever model), agency track (from account leadership or strategy to client-side CMO), digital-native growth marketing track, or consulting/general management paths. CMO tenure averages only 4–5 years, reflecting the high accountability of the role to business results. Many CMOs move to board advisory roles, venture or growth equity operating partner roles, or fractional CMO consulting post-CMO tenure.",
+    "reports_to": "CEO or President (at most organizations). At private equity-backed companies, also accountable to PE operating partners. At divisions of large corporations, may report to a Divisional President or Group CMO.",
+    "collaborates_with": [
+      "CFO / Finance leadership (budget defense, ROI reporting, marketing investment as % of revenue benchmarking)",
+      "CEO / President (strategic alignment, brand positioning, growth objectives)",
+      "Sales / Revenue leadership (media investment's contribution to pipeline and revenue)",
+      "Product and Engineering (product-market fit feedback loops, go-to-market strategy for product launches)",
+      "Analytics / Data Science leadership (measurement framework, data infrastructure, attribution methodology)"
+    ],
+    "format_preferences": "CMOs prefer executive-level synthesis over operational detail—annual reports, benchmark studies, and one-page executive summaries. Visual formats (infographics, dashboard screenshots, comparison matrices) that communicate quickly are favored. Content that provides a defensible number ('brands that invest X% of revenue in media grow Y% faster') is highly valued for internal budget conversations. Avoids channel-specific tactical content; prefers integrated media mix and business outcome framing."
+  }
+}
