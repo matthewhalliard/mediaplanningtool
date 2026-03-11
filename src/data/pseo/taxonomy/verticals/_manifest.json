@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "created": "2026-03-11",
+  "description": "pSEO taxonomy vertical context files for mediaplanningtool.com. Each file provides deep niche context for generating genuinely useful media planning pages.",
+  "total_verticals": 9,
+  "verticals": [
+    {
+      "slug": "automotive",
+      "name": "Automotive",
+      "file": "automotive.json",
+      "description": "OEM, dealer, and tier 1/2/3 automotive advertising — covers co-op complexity, dealer paid search conflict, CTV growth, EV-specific strategy"
+    },
+    {
+      "slug": "cpg",
+      "name": "CPG / FMCG",
+      "file": "cpg.json",
+      "description": "Consumer packaged goods — covers retail media network fragmentation, shopper marketing integration, RMN measurement, and trade/media budget dynamics"
+    },
+    {
+      "slug": "financial-services",
+      "name": "Financial Services",
+      "file": "financial-services.json",
+      "description": "Banking, insurance, wealth management — covers compliance constraints, special ad categories, CPL quality vs. volume, and TCPA changes"
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare / Pharma",
+      "file": "healthcare.json",
+      "description": "DTC, HCP, and device advertising — covers FDA OPDP compliance, HCP-DTC coordination, rare disease targeting, and NRx measurement lag"
+    },
+    {
+      "slug": "retail",
+      "name": "Retail / E-Commerce",
+      "file": "retail.json",
+      "description": "Omnichannel retail and DTC — covers Amazon Ads ecosystem, RMN strategy, ROAS incrementality, seasonal concentration, and social commerce"
+    },
+    {
+      "slug": "travel",
+      "name": "Travel & Hospitality",
+      "file": "travel.json",
+      "description": "Airlines, hotels, OTAs, and DMOs — covers OTA channel conflict, metasearch optimization, long consideration cycles, and CTV adoption"
+    },
+    {
+      "slug": "technology",
+      "name": "Technology / SaaS / B2B Tech",
+      "file": "technology.json",
+      "description": "Enterprise and mid-market SaaS, B2B tech — covers ABM media strategy, buying committee fragmentation, LinkedIn economics, and dark funnel measurement"
+    },
+    {
+      "slug": "entertainment",
+      "name": "Entertainment / Media / Streaming",
+      "file": "entertainment.json",
+      "description": "Streaming services, film studios, gaming, live events — covers audience fragmentation, subscriber CAC/churn dynamics, theatrical P&A, and cross-platform measurement"
+    },
+    {
+      "slug": "qsr",
+      "name": "QSR / Restaurants",
+      "file": "qsr.json",
+      "description": "Quick service and fast casual restaurants — covers national co-op vs. local franchisee tension, LTO launch strategy, first-party digital ordering shift, and SSS measurement"
+    }
+  ],
+  "schema_fields": {
+    "audience": "Primary audience segments for this vertical",
+    "pain_points": "4-6 specific media planning pain points unique to this vertical",
+    "kpis": "5-7 specific KPIs this vertical tracks",
+    "regulatory": "Key regulatory constraints affecting media planning",
+    "seasonality": "Seasonal patterns that affect budget allocation and timing",
+    "budget_dynamics": "How budgets are typically structured and shifting",
+    "channels_that_work": "5-7 most effective channels for this vertical",
+    "measurement_challenges": "3-5 specific measurement challenges",
+    "subtopics": "5-8 niche subtopics within this vertical",
+    "typical_budget_range": "Typical annual media budget range for mid-market brands",
+    "buying_model": "How media is typically bought (programmatic, direct, etc.)",
+    "creative_considerations": "What makes creative work for this vertical"
+  }
+}
