@@ -1,0 +1,58 @@
+{
+  "slug": "media-director",
+  "name": "Media Director / VP, Media",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Setting the overall media strategy and philosophy for a client portfolio or brand, ensuring alignment with marketing and business objectives",
+      "Leading and developing a team of media planners, buyers, and strategists—managing workload allocation, quality control, and career growth",
+      "Owning senior client relationships and serving as the primary escalation point for strategic media questions, significant budget decisions, and performance concerns",
+      "Overseeing annual media budget planning, upfront negotiations, and quarterly business reviews (QBRs) with clients or leadership",
+      "Driving adoption of emerging channels, measurement approaches, and technology platforms—evaluating new opportunities for client applicability",
+      "Managing agency partnerships, vendor relationships at the strategic level, and platform partnership agreements"
+    ],
+    "daily_tasks": [
+      "Reviewing performance reports from team and preparing for client or executive presentations with strategic interpretation, not just data readout",
+      "Mentoring and reviewing work product from planners and buyers—approving media plans, strategies, and POVs before client delivery",
+      "Facilitating strategic planning sessions with account, strategy, and creative leadership for campaign launches or annual planning cycles",
+      "Meeting with senior platform and publisher representatives to understand roadmaps and evaluate partnership opportunities",
+      "Resolving escalations—client concerns about performance, team interpersonal issues, or vendor delivery failures that require director-level involvement",
+      "Contributing to new business pitches as the media subject-matter expert, presenting media strategy and channel rationale to prospective clients"
+    ],
+    "tools_they_use": [
+      "Executive dashboards and reporting platforms (Tableau, Looker, agency reporting suites) for portfolio-level performance monitoring",
+      "Media planning and budget management systems (agency planning platforms, custom Excel/Sheets models for budget scenario planning)",
+      "Industry research and trends databases (eMarketer, WARC, GroupM Intelligence, Insider Intelligence)",
+      "Competitive intelligence platforms (Kantar, MediaRadar, Pathmatics) for portfolio-level competitive monitoring",
+      "Presentation tools (PowerPoint, Keynote) for client-facing strategic presentations and internal reviews",
+      "Project management and workflow systems (Workfront, Asana, Monday.com) for team capacity and deadline management"
+    ],
+    "content_needs": "Media Directors consume strategic content for two purposes: (1) staying current on industry trends to maintain credibility and inform strategy, and (2) finding credible data and frameworks to support recommendations to clients or leadership. Most valuable content: annual industry outlook reports (GroupM, WARC, IAB spend forecasts), channel and platform deep-dives from credible sources, agency case studies demonstrating channel effectiveness, benchmarking data for client QBR preparation, and thought leadership on emerging measurement approaches.",
+    "decision_criteria": [
+      "Business impact: Does this channel, investment level, or measurement approach demonstrably move the metrics the client's business cares about?",
+      "Strategic fit: Is this recommendation aligned to the brand's positioning, competitive situation, and long-term objectives—not just short-term CPM efficiency?",
+      "Team capability: Does the team have the expertise to execute this channel or approach effectively, and what's the risk of underdelivery?",
+      "Client readiness: Is the client sophisticated enough to evaluate this strategy fairly, and is their measurement framework ready to capture its impact?",
+      "Portfolio precedent: Does this approach set a positive precedent across the book of business, or create a problematic expectation?",
+      "Competitive context: Is the brand winning or losing in this channel relative to key competitors, and how does the recommendation address the competitive dynamic?"
+    ],
+    "pain_points": [
+      "Being the single point of accountability for both strategic quality and operational execution—when team capacity is strained, directors often get pulled into execution work that consumes strategic bandwidth",
+      "Client relationships where the client contact doesn't have internal support to champion media investments upward, requiring the media director to 'sell' through multiple layers of client stakeholders",
+      "Keeping pace with platform and industry changes across all channels simultaneously—the rate of change in ad tech, measurement, and channel dynamics requires continuous learning that competes with day-to-day client demands",
+      "Translating complex measurement and attribution realities (MMM timelines, last-click vs. incrementality gaps) for clients who expect simple ROAS numbers",
+      "Managing team burnout and turnover in a high-demand industry—replacing experienced planners and buyers is expensive and disruptive to client quality",
+      "Proving the value of upper-funnel brand investments to performance-focused clients or CFOs who prioritize last-click attribution"
+    ],
+    "career_path": "Media Director / VP, Media typically represents 8–15 years into a media career. Path beyond: Managing Director, Head of Media, SVP/EVP Media (holding company agencies), Chief Media Officer, or transition to client-side roles (Head of Media at a major brand, VP Marketing). Some Media Directors move into ad tech, publishing, or media consulting. The role bifurcates at senior levels into either deeper specialization (advanced measurement, programmatic leadership) or broader general management.",
+    "reports_to": "Managing Director (agency), EVP/SVP Media (holding company), CMO or VP Marketing (in-house brand). At mid-size independent agencies, the Media Director may report directly to agency principals or CEO.",
+    "collaborates_with": [
+      "Account Management / Client Leadership (shared ownership of client relationship health and senior client communication)",
+      "Strategy and Planning teams (media strategy must align to brand strategy and comms planning)",
+      "Analytics and Measurement leadership (co-owns measurement framework and attribution approach with analytics lead)",
+      "Creative leadership (ensures creative strategy and channel strategy are aligned, especially for new or complex formats)",
+      "Finance and Operations (budget management, billing oversight, resource allocation)"
+    ],
+    "format_preferences": "Media Directors read to stay informed and find data to support recommendations—they value authoritative industry reports, concise executive summaries, and case studies with clear business outcomes. Annual outlooks, benchmark reports, and platform-specific trend analyses are consumed regularly. They appreciate content that anticipates client questions and provides quotable data points. They have little time for lengthy how-to content but will share frameworks and research with their teams."
+  }
+}
