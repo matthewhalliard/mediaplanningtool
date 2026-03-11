@@ -1,0 +1,116 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import type { GlossaryPage } from "@lib/pseo/schemas";
+
+export const prerender = true;
+
+const glossary = await getCollection("pseoGlossary");
+const allTerms = glossary.map((entry) => entry.data as GlossaryPage);
+allTerms.sort((a, b) => a.term.name.localeCompare(b.term.name));
+
+// Group by first letter
+const byLetter = new Map<string, GlossaryPage[]>();
+for (const term of allTerms) {
+  const letter = term.term.name.charAt(0).toUpperCase();
+  if (!byLetter.has(letter)) byLetter.set(letter, []);
+  byLetter.get(letter)!.push(term);
+}
+
+const sortedLetters = [...byLetter.keys()].sort();
+---
+
+<BaseLayout title="Media Planning Glossary — Key Terms & Definitions" description="Complete glossary of media planning terms. CPM, GRP, reach, frequency, programmatic, and hundreds more — defined clearly for media professionals.">
+  <AppShell>
+    <div class="w-full max-w-6xl mx-auto px-4 py-8">
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6">
+        <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+        <span>/</span>
+        <span class="text-gray-700 dark:text-gray-300">Glossary</span>
+      </nav>
+
+      <!-- Hero -->
+      <div class="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 mb-10">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-gray-50 mb-4">
+          Media Planning Glossary
+        </h1>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl leading-relaxed">
+          Clear, practical definitions of media planning terms — from CPM to connected TV, programmatic to reach curves. Written for practitioners, not textbooks.
+        </p>
+        {sortedLetters.length > 1 && (
+          <div class="mt-6 flex flex-wrap gap-2">
+            {sortedLetters.map((letter) => (
+              <a
+                href={`#letter-${letter}`}
+                class="inline-flex items-center justify-center w-9 h-9 rounded-lg text-sm font-semibold bg-white/80 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-white dark:hover:bg-gray-600 transition-colors border border-gray-200 dark:border-gray-600"
+              >
+                {letter}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- Terms by letter -->
+      {allTerms.length > 0 ? (
+        sortedLetters.map((letter) => {
+          const terms = byLetter.get(letter)!;
+          return (
+            <section id={`letter-${letter}`} class="mb-10">
+              <h2 class="text-xl font-bold text-gray-900 dark:text-gray-50 border-b border-gray-200 dark:border-gray-700 pb-2 mb-4">
+                {letter}
+              </h2>
+              <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {terms.map((term) => (
+                  <a
+                    href={`/glossary/${term.seo.slug}`}
+                    class="group block rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-4 hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md transition-all"
+                  >
+                    <div class="flex items-start justify-between gap-2">
+                      <div>
+                        <h3 class="text-base font-semibold text-gray-900 dark:text-gray-50 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                          {term.term.name}
+                          {term.term.abbreviation && (
+                            <span class="text-sm font-normal text-gray-400 ml-1">({term.term.abbreviation})</span>
+                          )}
+                        </h3>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">
+                          {term.term.definition}
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          );
+        })
+      ) : (
+        <div class="text-center py-16 text-gray-500 dark:text-gray-400">
+          <p class="text-lg">Glossary terms coming soon.</p>
+        </div>
+      )}
+
+      <!-- CTA -->
+      <section class="mt-8 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 border border-primary-200 dark:border-gray-700">
+        <div class="text-center max-w-2xl mx-auto">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-50 mb-4">
+            Plan smarter with Halliard
+          </h2>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
+            Put these terms into practice — plan, buy, and optimize media with a single platform.
+          </p>
+          <a
+            href="https://halliardmedia.com/trytoday"
+            class="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+          >
+            Get Started Free
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </section>
+    </div>
+  </AppShell>
+</BaseLayout>
