@@ -1,0 +1,59 @@
+{
+  "slug": "analytics-lead",
+  "name": "Analytics / Data / Measurement Lead",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Designing and owning the measurement framework for media campaigns—defining KPIs, attribution methodologies, and data collection standards across channels",
+      "Building and maintaining campaign reporting infrastructure, including dashboards, data pipelines, and automated reporting feeds from platforms to reporting environments",
+      "Conducting media mix modeling (MMM) or overseeing MMM vendor engagements to quantify the contribution of each channel to business outcomes",
+      "Running incrementality testing (geo-tests, holdout experiments, lift studies) to validate platform-reported attribution and measure true causal impact",
+      "Analyzing campaign performance to surface insights and recommendations for media optimization—not just reporting numbers but explaining what they mean and what to do",
+      "Managing data governance, tagging standards, pixel integrity, and first-party data strategies across the MarTech and AdTech stack"
+    ],
+    "daily_tasks": [
+      "Pulling, QA-ing, and publishing routine campaign performance reports (weekly, bi-weekly, or monthly depending on reporting cadence)",
+      "Diagnosing performance anomalies—investigating sudden changes in CPMs, conversion rates, or attribution metrics and identifying root causes",
+      "Managing and troubleshooting measurement infrastructure—checking pixel fires, tag implementations, conversion event configurations",
+      "Working with platform teams to configure attribution windows, conversion events, and campaign-level measurement settings",
+      "Analyzing A/B test or geo-test results and translating findings into budget recommendations or strategic shifts",
+      "Building ad hoc analyses for specific business questions—channel contribution breakdowns, audience performance comparison, creative performance analysis"
+    ],
+    "tools_they_use": [
+      "Data visualization and BI platforms (Tableau, Looker, Google Data Studio / Looker Studio, Power BI)",
+      "Analytics and data platforms (Google Analytics 4, Adobe Analytics, Amplitude, Mixpanel for web/app behavior)",
+      "Marketing mix modeling tools (Analytic Partners ROI Genome, Nielsen Marketing Mix, Northbeam, Meridian by Google)",
+      "Data pipeline and ETL tools (dbt, Fivetran, Supermetrics, Stape for server-side tagging)",
+      "Attribution and MTA platforms (Northbeam, Rockerbox, Triple Whale, Measured for DTC brands)",
+      "Statistical analysis and experimentation platforms (R, Python, Statsig, GrowthBook for A/B testing frameworks)",
+      "Clean room platforms (Amazon Marketing Cloud, Google Ads Data Hub, LiveRamp Safe Haven)"
+    ],
+    "content_needs": "Analytics leads need technically rigorous, methodologically sound content. Most valuable: measurement framework design guides, incrementality testing methodology documentation, MMM vs. MTA comparison analyses, attribution model comparison guides, technical how-tos for GA4 configuration and server-side tagging, clean room use case guides, and industry benchmarks for experimental lift (to set expectations for clients or leadership on effect sizes).",
+    "decision_criteria": [
+      "Methodological validity: Is this measurement approach statistically sound, and does it measure what we claim it measures (causal impact vs. correlation)?",
+      "Data quality: Is the underlying data clean, consistent, and complete enough to support this analysis?",
+      "Actionability: Will this analysis produce a recommendation that decision-makers can act on, or is it interesting-but-not-actionable?",
+      "Attribution model alignment: Is the measurement framework appropriate for this channel (e.g., view-through attribution for brand channels, last-click for search)?",
+      "Speed vs. precision tradeoff: Does this analytical approach produce results fast enough to inform in-flight decisions, or is it a longer-cycle strategic diagnostic?",
+      "Stakeholder comprehension: Can the methodology be explained in terms that the CMO or clients can understand and trust?"
+    ],
+    "pain_points": [
+      "Reconciling wildly different performance numbers across platforms—Meta, Google, and GA4 all report different attribution for the same campaign, creating constant confusion for clients and stakeholders who don't understand the methodology differences",
+      "Third-party measurement signal loss from iOS ATT, cookie deprecation, and growing consent rejection rates means a growing proportion of conversions are modeled rather than directly observed, reducing measurement confidence",
+      "Being asked to provide definitive conclusions from limited or incomplete data—pressure to 'just tell us the answer' when the data genuinely can't support a confident conclusion",
+      "Tag management chaos—multiple teams adding, modifying, or breaking tags without coordination, leading to data quality issues that only surface weeks later when someone questions the numbers",
+      "Timelines for MMM and advanced measurement projects (typically 8–16 weeks) are incompatible with clients who expect real-time optimization insights",
+      "Educating media and account teams on measurement limitations—explaining why a channel can't be judged by last-click ROAS without being perceived as making excuses for underperformance"
+    ],
+    "career_path": "Junior Analyst / Data Analyst → Marketing Analyst → Senior Analyst → Manager, Analytics → Director, Analytics → VP, Data & Analytics → Chief Analytics Officer or VP, Data Science. Alternatively, many analytics leads move into ad tech companies, measurement consultancies, or MMM vendor roles. Data science expertise opens doors to broader technology roles. Some analytics leads evolve into hybrid 'growth' roles that combine measurement with growth strategy.",
+    "reports_to": "VP, Media or Media Director (at media agencies); CMO, CTO, or VP Marketing (at brands); Chief Analytics Officer or VP, Data Science (at large organizations with centralized analytics). Reporting structure varies more than other media roles depending on whether analytics is centralized or embedded in the media function.",
+    "collaborates_with": [
+      "Media Planners and Buyers (provides performance data interpretation and measurement setup; receives questions about campaign-level attribution)",
+      "CMO / Marketing Director (translates measurement findings into business decisions and budget recommendations)",
+      "Marketing Technology / AdTech / IT teams (depends on infrastructure for data pipelines, tag management, and data warehouse access)",
+      "Finance (aligns on ROI definitions, revenue attribution methodology, and how marketing spend is accounted for in business forecasting)",
+      "Research and Brand Strategy teams (integrates brand tracking and consumer research with paid media performance data)"
+    ],
+    "format_preferences": "Analytics leads prefer technically detailed, methodology-explicit content. White papers, technical documentation, and case studies that show the full analytical approach (not just the conclusion) are most valued. Reproducible frameworks and templates (measurement plan templates, attribution scorecard templates) are useful. They distrust content that oversimplifies measurement—they want to see the assumptions and limitations acknowledged. Industry research from credible methodological sources (Nielsen, WARC, ISBA, IPA) is valued over agency self-published benchmarks."
+  }
+}
