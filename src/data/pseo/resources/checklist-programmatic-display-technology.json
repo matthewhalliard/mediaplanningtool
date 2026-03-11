@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "technology",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Programmatic Display Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+    "description": "Programmatic display checklist for B2B technology and SaaS \u2014 covering ABM account targeting, intent signal activation, vendor comparison site conquesting, pipeline attribution, and dark funnel measurement.",
+    "keywords": [
+      "B2B technology programmatic display",
+      "SaaS ABM display advertising",
+      "enterprise tech programmatic checklist",
+      "B2B display advertising strategy",
+      "technology brand programmatic",
+      "SaaS account-based display",
+      "B2B programmatic display planning",
+      "tech brand retargeting checklist"
+    ],
+    "slug": "checklist/programmatic-display-technology"
+  },
+  "content": {
+    "intro": "Programmatic display in B2B technology serves a fundamentally different role than in consumer categories. A 300x250 banner is never going to close a $500,000 enterprise software contract on last click \u2014 but it's an essential thread in the account-level awareness tapestry that makes a decision-maker recognize your brand name when your BDR calls, creates the 'I see you everywhere' familiarity that accelerates the sales cycle, and allows your brand to maintain a presence in the consciousness of your 500 most important target accounts at a fraction of the cost of ABM direct mail or conference sponsorship. The planners who understand this role execute programmatic display as an account coverage tool, not a lead generation tool \u2014 and they measure it accordingly.",
+    "sections": [
+      {
+        "heading": "Account-Based Display Strategy",
+        "items": [
+          {
+            "title": "Build the target account list (TAL) before configuring any display targeting",
+            "description": "Every B2B tech programmatic display campaign should start with a defined TAL \u2014 the list of companies (not individuals) that represent your addressable market for a given product tier or vertical. Work with sales leadership to define and segment the TAL: Tier 1 (top 100\u2013200 accounts for intensive ABM), Tier 2 (next 500 accounts for scaled digital air cover), and Tier 3 (broader ICP for awareness). Each tier receives different budget allocation, frequency targets, and measurement frameworks.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Activate TAL targeting via ABM DSPs (6sense, Demandbase, Terminus) or cookie-based company ID",
+            "description": "Standard DSPs (The Trade Desk, DV360) lack account-level company targeting by default. To run ABM-specific programmatic display, either (1) activate a dedicated ABM DSP like 6sense DSP, Demandbase Advertising, or Terminus display, or (2) use company-level audience building via IP-to-company matching providers (Clearbit, RollWorks) that generate cookie audiences from account domain lists. Confirm minimum account list size requirements \u2014 most ABM platforms require 50+ accounts per campaign for sufficient scale.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Layer buying role targeting within target accounts to reach the economic buyer, not just the technical champion",
+            "description": "Enterprise B2B deals involve buying committees where the economic buyer (CFO, VP of Finance, C-suite) has veto power despite not being the primary evaluator. ABM display programs that only reach IT or technical roles miss the economic approval layer. Layer job function and seniority targeting within TAL accounts: IT/Security roles for technical product champions, Finance/Operations/C-suite for economic buyer awareness, and specific user roles for champion-enablement messaging.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set separate frequency targets for Tier 1 vs. Tier 2 vs. Tier 3 account segments",
+            "description": "Tier 1 high-priority accounts should receive intensive coverage: 30\u201350 monthly impressions per identified individual within the account, across multiple formats and devices. Tier 2 accounts warrant moderate coverage (10\u201320 monthly impressions per identified buyer). Tier 3 ICP accounts receive awareness-level coverage (3\u20138 impressions monthly). Applying flat frequency caps across all account tiers wastes impression budget on Tier 3 accounts while underweighting Tier 1 priority accounts.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Intent Signal Activation & Account Targeting",
+        "items": [
+          {
+            "title": "Build display campaigns that run 'air cover' for active deal accounts in the sales pipeline",
+            "description": "Accounts in active pipeline (opportunities created but not yet closed) should receive elevated display impression frequency from the point of opportunity creation through close. This 'deal air cover' display reinforces the brand with the buying committee members who haven't yet engaged with sales \u2014 the economic buyer who hasn't taken a meeting, the legal reviewer who hasn't seen the product \u2014 reducing the risk that the deal encounters resistance from unwarmed stakeholders during final approval.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Activate third-party intent data signals to identify accounts in active evaluation cycles",
+            "description": "Platforms like 6sense, Bombora, TechTarget, G2 Buyer Intent, and Gartner Digital Markets provide intent signals showing which companies are actively researching specific technology categories on third-party sites. Accounts showing high intent signals for your product category are 3\u20135x more likely to accept a sales conversation than accounts showing no intent signals. Activate these intent audiences in your ABM display campaigns to shift budget toward the most ready-to-buy accounts in real time.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build retargeting audiences from high-value website behaviors beyond just homepage visits",
+            "description": "B2B SaaS website retargeting should segment by page depth and intent quality: pricing page visitors (highest intent, bid aggressively), case study/ROI calculator visitors (mid-funnel evaluation), demo page visitors who didn't submit a form (intent drop-off \u2014 serve reminder creative), and documentation/integration page visitors (technical evaluation stage). Each segment warrants distinct messaging. Flat website retargeting without intent segmentation treats a pricing page visitor identically to a blog reader \u2014 a significant missed optimization.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Conquest accounts showing high intent for competitor technology categories",
+            "description": "Third-party intent data platforms identify companies actively researching competitor products. Accounts showing elevated intent for 'Salesforce CRM' that you know are in your ICP are actively evaluating a category \u2014 they represent your best conquest display opportunity. Build ABM display campaigns specifically targeting accounts showing competitor intent signals, with messaging that positions your specific competitive differentiators (cost, implementation speed, specific capability gaps).",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Target accounts near G2 and Gartner review page visits as high-intent indicators",
+            "description": "G2 and Gartner Digital Markets provide buyer intent data showing which companies are researching specific product categories on their platforms. This buyer research behavior is one of the highest-quality intent signals in B2B technology advertising. Activate G2 Buyer Intent or Gartner's DM intent data to serve ABM display to companies actively comparing products in your category \u2014 these accounts are in formal vendor evaluation mode and receptive to comparative and proof-point-heavy creative.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Strategy for B2B Tech Display",
+        "items": [
+          {
+            "title": "Build messaging matrix with role-specific and industry-specific creative variants",
+            "description": "A single display creative cannot effectively address a CISO's security concern, a CFO's ROI concern, and a DevOps engineer's integration concern simultaneously. Build a creative messaging matrix: rows = buying roles (IT, Finance, Operations, C-suite); columns = funnel stage (awareness, consideration, decision). Each cell should have distinct headline, visual, and CTA appropriate to that role's primary concern. Total creative variants for a full matrix: 12\u201320, which is manageable in a programmatic creative template framework.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Lead with business outcomes, not product features, in B2B tech display creative",
+            "description": "B2B technology display ads that lead with product capabilities ('Our platform has 47 integrations' or 'Featuring AI-powered analytics') dramatically underperform ads that lead with business outcomes ('Reduce security incidents by 40%' or 'Cut finance close time from 5 days to 2'). Decision-makers don't buy features \u2014 they buy outcomes that justify budget approval. Test outcome-led creative against feature-led creative on every B2B tech display campaign.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Include named customer logos and specific metrics in display creative as social proof",
+            "description": "Enterprise B2B buyers are risk-averse \u2014 they respond to evidence that peers at comparable companies have already made the same decision successfully. Display creative featuring recognizable customer logos ('Trusted by Microsoft, Salesforce, JPMorgan') and specific outcome metrics ('Acme Corp reduced churn by 35% in 90 days') consistently outperforms generic brand creative on B2B display CTR and engagement rate. Get customer approval for logo use in paid display before trafficking.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Measure ABM display through account engagement rate and pipeline influence, not CTR",
+            "description": "B2B tech programmatic display should never be evaluated on CTR (typically 0.03\u20130.10% for B2B display \u2014 essentially zero). The correct KPIs are: percentage of TAL accounts showing engagement (site visits, CRM touches, demo requests) within the measurement period; pipeline influence (value of opportunities where the account was exposed to display vs. not exposed); and account progression rate (movement from awareness to active opportunity stage). These require CRM integration with display exposure data.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a CRM-to-display exposure matching workflow for pipeline attribution",
+            "description": "To measure display's contribution to pipeline, match your CRM opportunity data against DSP impression logs using company domain matching or clean room integration. For each open opportunity, determine whether accounts received display impressions in the 90 days prior to opportunity creation. Compare win rates and sales cycle length for display-exposed vs. non-exposed accounts within the same cohort period. This attribution methodology connects display investment to revenue outcomes in a format finance and sales leadership can act on.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Track 'account coverage rate' as a leading indicator \u2014 % of TAL accounts receiving impressions",
+            "description": "ABM display success requires actually reaching a high percentage of your target accounts with meaningful frequency. Track account coverage rate weekly: what percentage of your Tier 1 TAL received at least 20 impressions in the past 30 days? Low coverage rate indicates audience targeting issues (accounts not being matched to display inventory) that must be diagnosed before any pipeline attribution discussion. Target 70\u201380%+ coverage of Tier 1 accounts with sufficient impression frequency.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build a 'dark funnel contribution' model using IP-reveal on display landing pages",
+            "description": "B2B display audiences who click but don't fill a form remain measurable via IP-to-company identification tools (Clearbit Reveal, 6sense). Enable IP reveal on all display campaign landing pages and configure rules to pass identified company domains to your CRM and ABM platform. This identifies accounts showing high display engagement interest without formal lead capture \u2014 these warm accounts should be routed to SDR outreach within 24 hours, converting display spend into pipeline through human follow-through.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Conduct quarterly ABM display effectiveness reviews with sales leadership using CRM-matched data",
+            "description": "The most important accountability mechanism for B2B tech display investment is a quarterly review with sales leadership that shows: which target accounts received display coverage, what account behaviors followed (website visits, content downloads, SDR meetings booked), and what pipeline resulted. This review creates alignment between marketing and sales on display's role in the revenue funnel and provides the shared evidence base for budget decisions. Without this meeting, display budgets are perpetually under threat of cancellation.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Run a 6-month A/B test comparing ABM account-targeted programmatic display against standard behavioral/interest-targeted display for the same product category. The ABM approach will always win on pipeline influence rate (deals per 1,000 impressions) but may lose on scale and total accounts reached. The right balance depends on your TAL size and pipeline capacity \u2014 brands with small, well-defined target account lists (under 1,000 accounts) should weight heavily toward ABM-specific targeting; brands with broad ICPs benefit from a blended approach.",
+      "Coordinate display creative rotation with product release cycles and major conference announcements. Launch new display creative 2 weeks before Dreamforce, RSA Conference, or Gartner Symposium that references your conference presence and any new product announcements. Accounts attending these conferences see your display ad in the week before the event and then encounter your booth, sponsored session, or in-person meeting \u2014 the familiarity effect from display pre-exposure measurably increases booth traffic and meeting acceptance rates.",
+      "For SaaS brands with a 'versus' comparison page (e.g., yourcompany.com/vs/competitor), build a dedicated display campaign targeting competitor brand-intent audiences with creative that drives directly to the comparison page. This is the highest-converting display tactic in competitive SaaS markets because: the audience is explicitly considering a competitor; the comparison page directly addresses the buyer's evaluation question; and comparison pages benefit from SEO organic traffic that supplements the paid audience.",
+      "B2B SaaS brands expanding into new verticals (e.g., a horizontal analytics platform moving into healthcare) should run programmatic display on industry-specific B2B publisher PMP deals (Health IT, healthcare finance publications, clinical informatics sites) before investing in demand gen campaigns or content syndication in that vertical. Display PMPs in industry media build familiarity among vertical buyers before you've built vertical-specific SEO, case studies, or paid search presence \u2014 reducing the cold start problem for vertical expansion.",
+      "Use LinkedIn Matched Audiences (company list + job title targeting) as a validation tool for your Google Display Network and Trade Desk ABM targeting. Run the same TAL through both platforms and compare the account coverage rates. If LinkedIn shows 80% TAL match rate but your DSP shows only 40% coverage rate, the DSP's IP-to-company matching methodology has gaps that need addressing \u2014 either through a different identity provider or a supplemental LinkedIn display investment for uncovered accounts."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard manages B2B tech programmatic display plans with TAL integration, ABM campaign tier management, CRM pipeline influence tracking, and quarterly account coverage reporting for sales-marketing alignment."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides B2B tech brands with programmatic display access through intent data partnerships (Bombora, TechTarget), CTV ABM delivery, and clean room pipeline attribution integration."
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "DV360 enables B2B tech brands to run programmatic display alongside YouTube in unified campaigns, with Customer Match account targeting and GA4 conversion path attribution for SQL-level ROI measurement."
+      },
+      {
+        "slug": "quantcast",
+        "relevance": "Quantcast's AI audience modeling identifies lookalike accounts and intent-based B2B technology audiences at scale, complementing TAL-based ABM display with broader ICP prospecting campaigns."
+      }
+    ],
+    "cta": {
+      "text": "Manage your B2B tech ABM display plan with TAL coverage tracking and pipeline influence measurement \u2014 start with Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "financial-services",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Programmatic Display Media Planning Checklist for Financial Services Campaigns",
+    "description": "Programmatic display planning checklist for financial services \u2014 covering Special Ad Category compliance, credit bureau data activation, compliance approval workflows, and retargeting abandoners across complex purchase journeys.",
+    "keywords": [
+      "financial services programmatic display",
+      "banking display advertising checklist",
+      "insurance programmatic display",
+      "financial services retargeting",
+      "mortgage display advertising",
+      "Special Ad Category compliance",
+      "fintech programmatic",
+      "financial display media planning"
+    ],
+    "slug": "checklist/programmatic-display-financial-services"
+  },
+  "content": {
+    "intro": "Financial services programmatic display operates under a unique constraint that no other vertical faces at scale: the Special Ad Category (SAC) classification on Meta and the FCRA restrictions on credit-based targeting mean that the most natural audience signals \u2014 age, ZIP code, household income, and creditworthiness \u2014 are either restricted or unavailable on the same platforms where financial product consumers actually browse. The planners who win in financial services display have moved beyond demographic targeting to contextual signals, financial intent data from credit bureau partnerships, and retargeting architectures built around every micro-conversion in the 3\u20136 month application journey.",
+    "sections": [
+      {
+        "heading": "Compliance Setup & Regulatory Framework",
+        "items": [
+          {
+            "title": "Classify all financial product campaigns under the correct regulatory category before targeting setup",
+            "description": "Consumer credit products (loans, credit cards, mortgages, auto financing), housing-related ads, and employment are classified as Special Ad Categories under Meta and restricted categories under Google. Programmatic display on The Trade Desk, DV360, and Amazon DSP also restricts certain targeting attributes for financial products under FCRA. Misclassifying campaigns and using age or ZIP targeting for credit products exposes the brand to FTC and CFPB enforcement actions.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Establish a compliance approval workflow for all display creative before trafficking",
+            "description": "Financial services display creative undergoes 2\u20136 week legal and compliance review cycles. Any rate, fee, APR, or product feature claim must be pre-approved by compliance before entering the DSP. Build a creative trafficking calendar that accounts for review lead times \u2014 creative finalized at T-minus-6 weeks provides buffer for revisions, re-review, and trafficking setup without delaying campaign launches.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Verify FDIC and NCUA signage compliance in all display creative",
+            "description": "The FDIC updated its advertising signage rules with full digital compliance required by 2027 \u2014 display ads for insured deposit products (checking, savings, CDs) must include the official FDIC insured statement or logo in a legible format. For credit union display ads, equivalent NCUA language applies. Review current FDIC digital advertising guidelines with your compliance team and ensure all display templates include compliant signage elements.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Document audience targeting methodology for compliance records on each campaign",
+            "description": "Financial regulators (CFPB, FTC, state attorneys general) increasingly request audience targeting documentation during examinations and enforcement investigations. Maintain campaign-level records of audience segments used, data sources, and demographic attributes included or excluded. For mortgage and credit card campaigns especially, demonstrate that protected class targeting was not used \u2014 even inadvertently via proxy variables in lookalike models.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Review platform-specific financial advertiser verification requirements before new DSP activation",
+            "description": "Google, Meta, TikTok, and programmatic DSPs each have distinct financial advertiser verification processes \u2014 some requiring business license uploads, compliance officer certifications, or accepted use policy agreements for specific product types. Completing verification before campaign launch avoids account suspension mid-flight. Allow 2\u20134 weeks for verification processing on new platform accounts.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Strategy & Intent Targeting",
+        "items": [
+          {
+            "title": "Activate financial intent data from FCRA-compliant bureau data partners",
+            "description": "TransUnion, Equifax, and Oracle Data Cloud offer FCRA-compliant audience segments based on financial intent signals (in-market for personal loans, mortgage inquiry activity, credit card considerers). These segments are available through major DSPs and provide the closest proxy to verified purchase intent without requiring demographic targeting. Data add-on costs are typically $3\u2013$6 CPM but deliver materially higher application intent than behavioral interest segments.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build retargeting audiences from the application funnel at each abandonment stage",
+            "description": "Financial product applications have multi-step funnels: rate quote page \u2192 terms disclosure \u2192 form start \u2192 form submit \u2192 document upload \u2192 approval \u2192 funded. Build separate retargeting audiences for each stage using website URL path tracking and GA4 events. Users who abandoned at 'form start' are warmer than users who viewed only the landing page. Each segment needs distinct creative urgency and message tailored to the abandonment point.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Layer contextual targeting on financial content environments for top-of-funnel prospecting",
+            "description": "Without demographic targeting on credit and mortgage products, contextual signals become the primary prospecting targeting lever. Build PMP deals with NerdWallet, Bankrate, Credit Karma editorial sections, and WSJ/Bloomberg financial content verticals. Contextual adjacency on personal finance comparison content delivers audiences actively researching financial products \u2014 without the FCRA and SAC restrictions that block direct audience targeting.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Use CRM matching to suppress existing customers from new acquisition campaigns",
+            "description": "Upload current customer lists (hashed by email and phone) to the DSP as suppression audiences. Serving new checking account or mortgage rate ads to customers who already have those products wastes budget and creates a confusing brand experience. For financial services brands with diverse product lines, suppressions must be product-specific \u2014 a mortgage customer is still a valid target for a HELOC or investment account campaign.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Activate life-event targeting for mortgage and life insurance campaigns",
+            "description": "Life event signals (recent home search activity, engagement/marriage intent signals, newborn-associated purchase behavior) are available through DSP data marketplaces and are not classified as protected characteristics under FCRA. These signals are among the strongest predictors of mortgage, life insurance, and college savings product consideration. Identify which life event segments are available through your DSP's data marketplace for each product line.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build separate audience strategies for high-net-worth acquisition vs. mass market",
+            "description": "Wealth management, private banking, and premium credit card products require high-income proxies (premium content consumption, luxury lifestyle interest, frequent international travel) rather than general mass-market display prospecting. These audiences require dedicated campaign structures with entirely different creative messages, landing pages, and CPM targets (premium publisher PMP deals at $15\u2013$30 CPM rather than open auction at $3\u2013$8).",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Requirements & Compliance",
+        "items": [
+          {
+            "title": "Include all mandatory rate disclosures and APR references in display creative",
+            "description": "Any display ad featuring a specific interest rate, APR, monthly payment, or loan term must include required TILA disclosures. For small-format display (300x250, 728x90), disclosure may need to appear on the landing page with qualifying language in the ad ('Representative APR: see site for terms'). Consult with your compliance team on how to handle disclosure requirements in constrained display formats for each product type.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build trust signals into all financial services display creative",
+            "description": "Display ads for financial products must overcome the fundamental trust barrier that separates a click from an application. Trust signals in the creative include: FDIC/NCUA logos, BBB rating badge, number of customers served, J.D. Power rating, or security certification marks. A/B test trust-forward creative variants against benefit-forward creative \u2014 in financial services, trust consistently outperforms pure rate-competitive messaging for new customer acquisition.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Set dynamic rate creative update workflow for mortgage and savings product ads",
+            "description": "Mortgage rates and high-yield savings APYs change frequently, and display creative featuring outdated rates creates regulatory exposure and destroys conversion rates. Implement a dynamic creative solution (e.g., Sizmek, Flashtalking, or Google Studio rate feeds) that pulls current rates from the bank's own systems daily and updates display ad templates automatically. Establish a content-freeze process for rate creative when compliance approvals cannot keep pace with rate changes.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Build offline conversion matching between funded accounts and media exposure data",
+            "description": "Financial services conversions (funded loans, opened accounts, bound insurance policies) happen offline \u2014 in branch, over phone, or through document signing \u2014 not as trackable pixel events. Implement a CRM-to-media match methodology: export funded account lists monthly (hashed PII) and match against DSP impression logs using a clean room or identity resolution vendor. This offline conversion matching is the only way to measure true cost-per-funded-account from display.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Set post-click attribution windows appropriate to financial product purchase cycles",
+            "description": "A mortgage prospect takes 3\u20136 months from first digital ad exposure to loan funding. Standard 30-day attribution windows capture only a fraction of display's contribution to mortgage acquisition. Work with your attribution vendor to set custom 90-day or 180-day post-click windows for mortgage and investment product campaigns. Document the attribution window decisions for internal reporting consistency and compliance records.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Track application-start-to-funded-account conversion funnel by media source",
+            "description": "Media quality in financial services is revealed not at the click but at the application completion rate and funded account rate. A display campaign generating 1,000 application starts but only 50 funded accounts reveals a lead quality problem \u2014 the audience or creative is attracting people who don't meet underwriting criteria. Track this full-funnel rate by channel and campaign to identify quality vs. quantity tradeoffs.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Monitor brand lift in unaided awareness and consideration among display-exposed audiences",
+            "description": "Financial services display investment in upper-funnel prospecting should show measurable brand impact in tracked awareness and consideration scores. Commission brand lift studies via DoubleVerify or Kantar for any prospecting campaign running at $100K+ in spend. Use Nielsen Brand Effect or equivalent to measure aided/unaided recall and purchase intent. If awareness doesn't lift, the creative or targeting isn't reaching relevant audiences.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build a creative versioning system that links each display asset to its MLR approval record",
+            "description": "Financial services display campaigns often run multiple creative versions simultaneously \u2014 different rate creative, different product lines, different audience segments. Each version must be traceable to its specific MLR approval documentation. Build a naming convention and tracking system that links each trafficking asset to its compliance review record. When a compliance team member needs to verify that a live display unit was properly approved, this system enables verification in under 5 minutes.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For insurance products under open enrollment pressure (Medicare AEP: Oct 15\u2013Dec 7; ACA: Nov 1\u2013Jan 15), start programmatic display prospecting 6 weeks before enrollment opens. The enrollment window is short and competitive \u2014 brands that build top-of-mind awareness before the window opens convert at 2\u20133x the rate of brands that start media only when enrollment begins. Pre-enrollment display should focus on education and trust, not enrollment CTA.",
+      "TCPA restrictions effective January 2025 limit AI-generated outbound call consent to single-company relationships, directly impacting the lead aggregator model used by mortgage and insurance advertisers. Redirect programmatic display budget formerly allocated to driving leads to affiliate networks toward direct-to-brand landing pages where your own consent language applies. Own the consumer relationship from first click to avoid TCPA exposure.",
+      "High-net-worth display targeting on premium publisher PMP deals (WSJ, FT, Bloomberg, Barron's) often outperforms third-party HNW audience segments by 3\u20135x on brand engagement metrics for wealth management and private banking products. The contextual signal of actively reading financial content is a better proxy for financial product consideration than any modeled demographic audience available through the data marketplace.",
+      "Build separate programmatic display campaigns for rate-cycle moments \u2014 when the Fed moves interest rates, mortgage demand spikes within hours. Pre-build mortgage rate announcement campaign templates (creative and audiences loaded, campaigns paused) so you can launch within 2 hours of a rate announcement. Competitors who react within hours capture the search and display intent spike before it dissipates over the following 72 hours.",
+      "Fintech challenger brands (Chime, SoFi, Marcus) have high unaided awareness among 25\u201340 year-olds and are conquesting traditional bank customers. Traditional financial services brands can run conquest display targeting using contextual adjacency on fintech comparison content (NerdWallet, Credit Karma fintech review pages) to intercept consideration-stage shoppers before they complete fintech applications."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard tracks financial services programmatic display plans with compliance documentation fields, approval workflow tracking, and multi-product campaign structuring across mortgage, deposit, and insurance product lines."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides access to FCRA-compliant financial intent audience data from TransUnion and Equifax, along with clean room integration for offline funded-account attribution matching."
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "DV360 enables financial services brands to run compliant display alongside YouTube and CTV in unified campaigns, with Google's audience verification for financial advertiser certification."
+      },
+      {
+        "slug": "basis",
+        "relevance": "Basis Technologies provides an integrated DSP and media management platform widely used by financial services agencies for programmatic display buying, compliance workflow, and performance reporting."
+      }
+    ],
+    "cta": {
+      "text": "Manage your financial services display campaign with compliance workflow and offline attribution built in \u2014 start with Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

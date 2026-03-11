@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "travel",
+    "channel": "ooh"
+  },
+  "seo": {
+    "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for Travel & Hospitality Brands",
+    "description": "OOH and DOOH planning checklist for travel brands \u2014 covering airport domination strategy, travel corridor targeting, weather-triggered DOOH, mobile retargeting integration, and seasonal booking activation.",
+    "keywords": [
+      "travel OOH advertising checklist",
+      "hotel outdoor advertising strategy",
+      "airport OOH travel media",
+      "destination DOOH planning",
+      "travel brand billboard strategy",
+      "programmatic DOOH travel",
+      "tourism outdoor advertising",
+      "travel OOH media plan"
+    ],
+    "slug": "checklist/ooh-travel"
+  },
+  "content": {
+    "intro": "No advertising medium captures the travel-aspiration moment as naturally as OOH \u2014 a billboard showing crystal-clear Maldivian water on an airport connector road, or a transit domination of a major train station with beach imagery on a cold Monday morning, speaks to the traveler's deep desire for escape in a way that no digital format can replicate. Travel brands have historically used OOH for brand awareness in the broadest possible sense, but the combination of programmatic DOOH, mobile device retargeting of exposed audiences, and airport-specific OOH environments creates a far more targeted and measurable travel OOH strategy than most hotel and airline planners are currently executing.",
+    "sections": [
+      {
+        "heading": "Location Strategy & Format Selection",
+        "items": [
+          {
+            "title": "Prioritize airport OOH as the highest-intent travel audience environment",
+            "description": "Airport advertising reaches travelers in active or imminent travel mode \u2014 passengers departing and arriving are the highest-intent travel audience in OOH. Airports offer multiple format types: departure lounge digital displays (high dwell time, 10+ seconds per impression), baggage claim digital screens (captive audience, 15\u201320 minute dwell), concourse domination packages (brand takeover of major concourse), and terminal transit advertising. Airport CPMs run $15\u2013$40 but deliver uniquely relevant traveler audiences.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Map travel corridor outdoor placements to feeder markets for destination-specific campaigns",
+            "description": "Hotels, resorts, and destinations benefit most from OOH in feeder market cities \u2014 the originating cities where their target travelers live. A Caribbean resort should prioritize OOH in cold-weather feeder markets (New York, Chicago, Boston, Toronto) with aspirational destination imagery. Airport OOH in feeder markets (JFK, O'Hare, Logan, Pearson) reaches travelers as they're actively thinking about their next trip \u2014 or departing on one that confirms travel is a habit.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use transit OOH (subway, commuter rail) for urban feeder market travel inspiration campaigns",
+            "description": "Major US commuter transit systems (NYC MTA, Chicago CTA, Washington Metro, BART, SEPTA) deliver daily impressions to millions of urban dwellers who are prime leisure travel targets. Transit shelter and station dominations with aspirational destination imagery work in 'travel aspiration mode' during the twice-daily commute. Large-format station takeovers (full-platform dominations) can achieve 30M+ annual impressions in a single high-traffic station at NYC Penn or GCT.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Plan destination-adjacent OOH to capture local awareness and tourism intent",
+            "description": "Hotels and attractions at a destination benefit from OOH placement in the destination itself \u2014 highway billboards approaching the destination, DOOH in hotel corridors and lobby areas, digital screens near attraction entrances. This 'last mile' OOH captures travelers already present in the destination and directs them to specific properties, dining experiences, or activities they haven't yet booked. In-destination OOH can drive meaningful ancillary revenue uplift for hotels.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Digital OOH, Programmatic & Mobile Retargeting",
+        "items": [
+          {
+            "title": "Secure OOH placements near travel booking trigger locations: car dealerships, travel agencies, passport offices",
+            "description": "Contextual location conquesting is an underused travel OOH strategy. OOH near car rental counters, AAA travel offices, US passport agency offices, and travel vaccination clinics reaches people who are actively making travel logistics decisions. These hyper-contextual placements \u2014 available through programmatic DOOH via Vistar Media or Place Exchange \u2014 reach travel-ready audiences at moments of highest decision-making openness.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          },
+          {
+            "title": "Deploy weather-triggered DOOH creative that activates during cold or rainy weather in feeder markets",
+            "description": "DOOH's dynamic creative capability allows travel brands to activate destination imagery specifically when local weather creates the strongest aspiration gap. A digital billboard in Chicago showing 30-second tropical beach footage when the temperature drops below 20\u00b0F is one of the highest-relevance contextual advertising moments possible. Set up weather-triggered DOOH rules via Vistar Media or Clear Channel's Smart Audience system: activate tropical/warm-weather creative when temperature falls below 35\u00b0F or precipitation probability exceeds 70%.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use programmatic DOOH to achieve real-time audience targeting in high-travel-intent locations",
+            "description": "Programmatic DOOH (pDOOH) via The Trade Desk, Vistar Media, or Hivestack enables audience-based buying of digital OOH screens when travel-intent audiences are geographically proximate. Mobile device location data identifies travel-interest segments (frequent travelers, luxury shoppers, airline loyalty app users) near pDOOH screens and triggers ad delivery for those audience types. This transforms static location-based OOH into audience-targeted digital media.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up countdown-to-departure creative triggers for time-sensitive travel deals",
+            "description": "DOOH's ability to display real-time dynamic creative enables countdown timers, live seat availability counts, or 'last chance' pricing messages for time-sensitive travel offers. A cruise line showing 'Only 12 cabins remaining \u2014 Caribbean April 15 sailing' on a DOOH screen in a major transit hub creates genuine scarcity urgency. Set up live data feeds from the booking system to pDOOH ad servers for availability-triggered creative deployment.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Integrate QR codes in DOOH to bridge the physical-digital gap for travel booking",
+            "description": "QR codes on DOOH placements \u2014 particularly in high-dwell-time environments like airport lounges, hotel lobbies, and transit stations \u2014 enable immediate digital response from an OOH impression. A QR code leading to a pre-built booking inquiry page, loyalty enrollment form, or destination inspiration gallery creates a measurable conversion pathway from OOH to digital. Track QR scan rates by placement and time-of-day to identify the highest-performing OOH environments for your audience.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Mobile Retargeting Integration",
+        "items": [
+          {
+            "title": "Set up mobile device retargeting of audiences exposed to OOH placements",
+            "description": "Devices that pass near OOH placements can be captured in audience pools (via DSP integrations with location data providers Foursquare, StreetLight Data, or Vistar) and retargeted with mobile display and social ads within hours of OOH exposure. A traveler who sees a resort billboard at JFK departures should receive a mobile booking offer within 2 hours on their phone. This OOH-to-mobile sequential strategy typically lifts site visit rates 30\u201360% vs. OOH alone.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Target mobile devices near competitor hotels and airlines for travel conquesting",
+            "description": "DOOH and mobile retargeting can be combined for competitive conquesting: buy OOH placements near competitor hotel check-in areas or at airports where competing airlines dominate, capturing device IDs of competitor travelers for mobile retargeting campaigns. This 'location conquesting' strategy reaches travelers in the act of engaging with a competitor, when switching consideration is naturally highest. Build competitor location audiences quarterly from location data providers.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Build a seasonal awareness measurement framework using mobile device visit attribution",
+            "description": "Measure travel OOH campaign effectiveness by tracking mobile device visits to the brand's website, branded app, or physical properties (hotels, airports, travel agency offices) among devices exposed to OOH placements vs. unexposed control devices. This visit rate lift metric provides an attribution proxy for OOH's contribution to travel consideration \u2014 supplement it with branded search volume tracking during OOH campaign flights.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Follow the 3-second rule for highway OOH: one image, one message, one destination brand",
+            "description": "Travel OOH creative at highway speeds (65mph) is viewed for approximately 3 seconds. The entire creative brief must resolve in that window: one aspirational destination image, destination name + brand logo, and at most one simple qualifier ('Now booking summer 2026'). Reservation prices, booking URLs, and fine print are invisible at highway speeds and create cluttered creative that dilutes the impact of the central image. Save text-heavy creative for transit shelter and airport high-dwell formats.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Allow longer messaging for airport and transit environments with high dwell time",
+            "description": "Airport gate areas (15\u201330 minute average dwell), subway platforms (3\u20135 minute average), and baggage claim (10\u201320 minute average) provide the creative canvas for more developed travel storytelling. In these formats, a 3-panel static series or a 10-second digital loop can present destination experience detail, loyalty program benefits, or specific booking offers that highway-speed OOH cannot carry. Develop distinct creative versioning for high-dwell airport/transit formats vs. highway billboard formats.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Plan production and permitting lead times for static OOH \u2014 minimum 4 weeks",
+            "description": "Static billboard vinyl requires design finalization (5\u20137 days before production deadline), print production (5\u20137 days), shipping to market (3\u20135 days), and installation/permitting (2\u20135 days). Total minimum lead time from creative brief to in-market static OOH: 3\u20134 weeks in most markets; longer in regulated markets (NYC requires permit processing that adds 2+ weeks). Build these lead times into campaign planning timelines and never commit to seasonal travel messaging with less than 6 weeks of production lead time.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Develop destination-specific seasonal creative that reflects the actual seasonal appeal of the destination",
+            "description": "A generic beach image is less effective than a beach image that captures exactly the environmental moment a traveler from a cold feeder market is fantasizing about in February. Brief OOH creative with the specific experience being sold to the specific audience in their current seasonal context \u2014 a Caribbean resort's January campaign in Chicago should show the most extreme contrast possible with Chicago's weather: bright sun, warm turquoise water, and guests visibly relaxed. Creative that exaggerates the aspiration gap performs better than generic beauty shots.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Measure OOH brand lift using split-panel mobile survey methodology",
+            "description": "Survey-based brand lift measurement for travel OOH uses mobile intercept surveys: respondents near OOH placements are asked about brand awareness and travel intent, compared against a matched panel not exposed to the placements. Vendors like Lucid, Kantar, or Clear Channel's own brand lift tool provide this measurement methodology. For travel brands spending $50K+ in a single market OOH campaign, brand lift studies provide the evidence needed to justify OOH investment to stakeholders who expect digital-style attribution.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For hotel brands in major US cities with strong inbound tourism, buy airport corridor OOH in the arrival terminal rather than only departure. Arriving travelers who are in the destination for business or leisure are in the mindset to consider hotel upgrades, dining reservations, and local experiences \u2014 hotel brands with local properties can serve 'Staying nearby? You're already here' creative to arriving travelers at baggage claim DOOH screens, directing them to property upgrades or future-stay booking offers.",
+      "Time your major travel OOH deployments to appear in urban transit markets in the 2\u20133 weeks immediately following a major weather event (polar vortex, nor'easter, extended heatwave). Post-weather event travel intent spikes measurably \u2014 'escape travel' searches increase 40\u201360% in the first 10 days following an extreme cold weather event in major Northern US cities. Travel brands that can deploy pDOOH creative within 48 hours of a weather event capture this organic intent lift with environmental context that amplifies the message.",
+      "Negotiate airport OOH packages that include both departure lounge and arrivals hall placements as a package \u2014 the arrivals hall reinforces destination recall among returning travelers (and their phones carry the device IDs you'll want for mobile retargeting) while departure lounge reaches travelers in active planning mode. The combined package builds frequency across the full airport experience and is often available at a 15\u201320% package discount vs. individual placement purchases.",
+      "For cruise lines, coordinate OOH campaigns in winter feeder markets with the timing of deposit deadlines for next-summer sailings. Early deposit windows on major itineraries (Alaska, Mediterranean, Caribbean) create a natural urgency message: 'Book by March 31 \u2014 Alaska deposits close.' OOH creative with specific deadline language in high-dwell transit environments (morning commute stations) reaches prospects during their daily consideration window with a genuine booking catalyst.",
+      "Use DOOH creative dynamically to display real-time seat availability or hotel availability counts in certain airport or transit environments where inventory data feed integration is feasible. Showing '3 first-class seats remaining \u2014 NYC to Paris tonight' on a JCDecaux display at JFK Terminal 4 departure lounge is a highly contextual, urgency-driven message to an audience that is demonstrably prepared to fly. Live inventory-triggered creative requires booking engine API integration with pDOOH ad servers but is increasingly feasible through Vistar Media's data connection partnerships."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard manages travel OOH plans with airport format selection, pDOOH integration, mobile retargeting workflow documentation, and booking window calendar alignment alongside digital channel plans."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic's media planning workflow structures travel OOH placements with airport-specific format breakdowns, pDOOH line items, seasonal creative rotation schedules, and cross-channel integration with digital SEM plans."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides programmatic DOOH buying through Place Exchange integration, enabling travel brands to buy audience-triggered digital OOH alongside CTV and display in unified campaigns."
+      },
+      {
+        "slug": "quantcast",
+        "relevance": "Quantcast's audience intelligence platform identifies travel-intent audience segments for OOH mobile retargeting, enabling travel brands to match DOOH-exposed device IDs with travel interest signals for sequential digital campaigns."
+      }
+    ],
+    "cta": {
+      "text": "Build your travel OOH plan with airport domination strategy and mobile retargeting integration \u2014 start with Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

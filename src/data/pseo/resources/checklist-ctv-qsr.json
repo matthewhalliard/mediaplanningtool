@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "qsr",
+    "channel": "ctv"
+  },
+  "seo": {
+    "title": "Connected TV (CTV) / Streaming Media Planning Checklist for QSR / Restaurants",
+    "description": "CTV media planning checklist for QSR marketers — covering franchise co-op structure, LTO launches, daypart targeting, and same-store sales attribution.",
+    "keywords": ["CTV advertising QSR", "restaurant streaming TV ads", "QSR CTV media planning", "fast food CTV campaign", "QSR connected TV checklist", "restaurant LTO CTV", "franchise CTV co-op"],
+    "slug": "checklist/ctv-qsr"
+  },
+  "content": {
+    "intro": "QSR brands are among the most sophisticated CTV advertisers in the US — iSpot research has specifically cited quick-service restaurant chains as best-practice examples of how brands can leverage streaming to deliver locally targeted, daypart-specific creative at national scale. With McDonald's, Wendy's, and Taco Bell all aggressively migrating budgets from linear TV to CTV, the franchise model introduces planning complexity that consumer-goods CTV campaigns don't face: national co-op campaigns must coexist with regional dealer association buys and individual franchisee local market spend, often purchased through different agencies with competing creative standards and DMA-level frequency caps.",
+    "sections": [
+      {
+        "heading": "Campaign Structure and Co-op Alignment",
+        "items": [
+          {
+            "title": "Separate national co-op CTV campaigns from franchisee local market buys",
+            "description": "National QSR co-op CTV campaigns — managed by the brand AOR with system-wide funding — must be structured independently from individual franchisee or regional association CTV buys. Without coordinated planning, a franchisee in the Chicago DMA may be running CTV ads simultaneously with the national co-op campaign, resulting in household frequency of 8–12 exposures per week against local customers. Establish DMA-level co-op and local spend visibility before any CTV flight goes live.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Document OEM co-op channel eligibility rules before committing CTV spend",
+            "description": "For franchise QSR brands, individual franchisees can only reclaim CTV spend from the co-op fund if they purchase through OEM-approved vendors, use approved creative assets, and meet minimum spend thresholds per DMA. Review the current co-op eligibility guidelines from the brand's AOR before placing any franchisee-level CTV buy — non-compliant placements will not be reimbursed. Channel eligibility for CTV varies by brand: some approve programmatic buys via specific DSPs, others require direct publisher IO only.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Establish a cross-tier frequency management protocol with national and local buyers",
+            "description": "QSR household frequency disasters occur when national co-op, Tier 2 regional association, and individual franchisee CTV campaigns all serve impressions to the same household in the same week without coordination. Implement a shared frequency reporting dashboard — or at minimum a weekly call between national AOR and regional buyers — to set aggregate household exposure caps (no more than 5–7 total QSR-branded CTV impressions per household per week across all tiers).",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a LTO launch media calendar integrating CTV ramp-up timing",
+            "description": "QSR LTO campaigns have 4–6 week windows requiring front-loaded CTV media weight to drive early trial. Model the weekly spend curve: weeks 1–2 at 40% of total LTO CTV budget (launch impact), weeks 3–4 at 35% (sustain and expand), weeks 5–6 at 25% (close and urgency). CTV campaigns require 7–10 days of lead time for DSP trafficking and publisher deal execution — plan CTV kickoff at least 3 weeks before the LTO goes national.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting and Daypart Strategy",
+        "items": [
+          {
+            "title": "Build separate audience segments for each of the five QSR dayparts",
+            "description": "QSR's breakfast, lunch, afternoon snack, dinner, and late-night occasions each have distinct target audiences and competitive contexts. Breakfast campaigns should target adults with 'breakfast out of home' behavioral segments and morning routine profiles. Late-night CTV targeting should concentrate on A18–34, 'night owl' behavioral patterns, and urban demos. Build separate ad sets by daypart with distinct creative, audience segments, and CTV daypart delivery windows rather than running undifferentiated always-on campaigns.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Apply geographic geotargeting at DMA and zip-code level to drive restaurant traffic",
+            "description": "CTV's ability to target down to DMA and zip code — unlike national linear TV buys — is QSR's most important CTV advantage. Overlay restaurant location density data with zip-code targeting to concentrate impressions in neighborhoods within a 3–5 mile radius of franchisee locations. Markets with fewer franchisee locations should receive proportionally lower impression allocations to avoid driving awareness where conversion to visit is geographically impossible.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Activate location visit data audiences for customer retargeting and lookalike expansion",
+            "description": "Use location data platforms (Placer.ai, Foursquare, SafeGraph) to build CTV audiences of customers who have visited QSR locations in the past 90 days. These visit-based audiences can be imported into major DSPs via data marketplace integrations and used as: (1) loyalty customer retargeting for frequency/value offers, and (2) lookalike modeling seeds to find new households with similar visit-propensity profiles. Location-based CTV audiences show 2x–3x higher conversion-to-visit rates vs. demographic-only targeting.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Target competitor QSR restaurant visitors with conquest CTV campaigns",
+            "description": "Location data providers can identify households where device patterns indicate regular visits to competing QSR chains. Building a competitor-visitation audience on DSPs allows conquest CTV campaigns targeting McDonald's regulars with Wendy's value messaging, or Taco Bell regulars with a competing Mexican fast-casual brand's launch creative. Competitor conquest audiences on CTV typically yield 25–40% higher trial intent lift vs. untargeted broad audiences in matched-market studies.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Suppress loyalty app users from new-customer acquisition CTV campaigns",
+            "description": "Upload the active loyalty app user list as a suppression audience on all acquisition-oriented CTV campaigns. Current high-frequency visitors seeing acquisition-focused advertising (particularly trial offers and first-visit promotions) represents wasted spend and can create customer frustration if advertised offers are not available to existing members. Ensure CRM suppression lists are refreshed weekly through an automated data integration with the loyalty platform.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Use weather-triggered CTV delivery for beverage and seasonal menu promotions",
+            "description": "CTV's programmatic buying infrastructure supports weather data triggers. QSR beverage promotions (frozen drinks, iced coffee) should be configured with weather-conditional delivery: increase impression weight by 30–50% when temperature exceeds 85°F in the targeted DMA. Conversely, soup, chili, or warm beverage promotions should trigger in markets where temperature drops below 45°F. Weather-triggered CTV campaign variants for QSR seasonal items show 20–35% improvement in visit conversion rates in A/B studies.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          }
+        ]
+      },
+      {
+        "heading": "Creative and Format Strategy",
+        "items": [
+          {
+            "title": "Produce location-specific creative variants with address callouts and daypart messaging",
+            "description": "CTV's geo-targeting capability is only fully realized when creative is localized. Produce dynamic creative with versioned supers ('Now at all [City] locations') and daypart-specific messaging ('Breakfast served until 11AM') using dynamic creative optimization (DCO) tools in platforms like The Trade Desk or Innovid. Brands running localized CTV creative for QSR see 25–40% higher store visit lift vs. identical national creative, because the ad's relevance to the viewer's daily geography dramatically increases its persuasive impact.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Lead all QSR CTV creative with the food hero shot in the first 3 seconds",
+            "description": "QSR CTV spots must make the food look appetizing within the first 3 seconds, before any brand messaging, offer details, or talent appearance. Eye-tracking research on restaurant advertising confirms that food imagery is the primary attention trigger — ads that open on food shots have 30–50% higher in-restaurant visit intent among exposed households than spots opening on lifestyle footage or brand slogans. Brief your production partners with explicit 'food first' creative direction in every QSR CTV spec.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Create LTO countdown creative variants for the final 7 days of a limited offer",
+            "description": "Produce a dedicated creative variant for the final week of each LTO campaign that explicitly communicates scarcity: 'Only Available Through [Date]' or 'Last Chance — Ends Sunday.' Deadline-urgency creative on QSR CTV consistently drives 15–25% higher visit intent in the final week vs. standard promotional creative, because urgency overcomes the 'I'll go later' inertia that prevents trial. Swap to countdown creative automatically via DCO rule on the campaign's penultimate week.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and Attribution",
+        "items": [
+          {
+            "title": "Implement store visit measurement via Foursquare, Placer.ai, or Neustar for every CTV campaign",
+            "description": "QSR CTV attribution must connect media exposure to physical restaurant visits. Integrate one of the three leading location-measurement platforms with your DSP to measure incremental store visit lift in CTV-exposed households vs. matched control households. Standard QSR CTV campaigns show 0.3–0.8% incremental visit lift per exposed household — translating to $4–$15 CPV (cost per incremental visit) depending on traffic volume and market. This metric is the QSR CMO's primary CTV ROI evidence.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Run matched-market tests to isolate CTV contribution to same-store sales lift",
+            "description": "QSR same-store sales (SSS) are affected by weather, competitor promotions, commodity prices, and staffing — so isolating CTV's causal contribution requires a matched-market test design. Select 10–15 matched DMA pairs with similar SSS trends, run CTV in half the markets, and compare SSS deltas at 4 and 8 weeks. Well-designed QSR CTV tests at major chains have shown 1.2%–3.5% incremental SSS lift in CTV-active markets, providing the business case for ongoing investment.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Track digital order mix as a CTV conversion proxy for app-download campaigns",
+            "description": "When QSR CTV campaigns include an app download or first-party digital ordering CTA, track the digital order mix percentage (first-party app + website orders as % of total orders) in CTV-active markets vs. control markets. Digital order mix is a cleaner conversion proxy than visit data because it's captured exactly via POS and CRM data. A 2–4 percentage point improvement in digital order mix in CTV markets represents significant revenue and delivery platform fee savings.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Measure co-viewing uplift by adjusting household-level CTV reach metrics by 1.3x–1.5x",
+            "description": "CTV measurement platforms report household-level impressions, but QSR's family-oriented occasions mean co-viewing significantly inflates actual person-level reach. Industry research suggests QSR-relevant CTV viewing (dinner occasions, family programming) has a co-viewing multiplier of 1.3x–1.5x compared to household-only metrics. Adjust reach reporting upward by this factor when presenting CTV campaign reach to QSR marketing leadership to avoid systematically under-representing the channel's audience delivery.",
+            "difficulty": "intermediate",
+            "priority": "nice-to-have"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Amazon Prime Video's post-2024 ad tier launch created massive QSR-relevant CTV inventory because Prime membership over-indexes with family households, suburban demographics, and frequent delivery/convenience purchasers — exactly the QSR core customer. Negotiate Amazon DSP-direct deals for QSR campaigns to access first-party Amazon purchase data (grocery, delivery orders) as audience targeting signals unavailable on any other CTV platform.",
+      "For LTO campaigns, buy CTV inventory the day before and day of LTO go-live — not just the sustained flight. A 2-day 'LTO launch burst' on Tuesday or Wednesday (depending on your launch day) with 2x–3x normal impression weight creates a surge of household exposures that drives trial in the first week, when social buzz and earned media are also at their peak. This front-loading approach consistently outperforms even-paced CTV delivery for QSR launches.",
+      "QSR national co-op TV budgets are now going through a structural shift toward CTV, but franchise legal agreements often require co-op funds to be used within calendar-year accrual periods. Identify franchisees with high year-end co-op balances (November/December) and help them deploy remaining accruals into CTV — these unplanned year-end buys can be highly effective for holiday and New Year value platform campaigns.",
+      "Integrate your QSR CTV DSP with real-time POS transaction data via a clean room setup so that when CTV impression-to-visit attribution spikes above benchmark, you can immediately increase budget allocation to the over-performing audience segments without waiting for weekly reporting cycles. Real-time CTV optimization in QSR is only possible if POS and location data flows automatically.",
+      "For QSR breakfast campaigns, the most underserved CTV targeting window is 6–9am — households watching morning news or catch-up content on connected TVs. Standard QSR CTV planners ignore morning CTV in favor of primetime, but morning CTV actually delivers the highest relevance for breakfast daypart messaging and faces significantly less advertiser competition, often with 20–35% lower CPMs than evening inventory."
+    ],
+    "related_tools": [
+      {"slug": "halliard", "relevance": "Halliard coordinates QSR CTV buys across national co-op, regional, and franchisee tiers in a unified media plan — solving the frequency duplication and DMA-level spend visibility problems unique to franchise restaurant media structures."},
+      {"slug": "the-trade-desk", "relevance": "The Trade Desk's DSP provides household frequency management across CTV publishers, location data integrations for QSR store visit attribution, and dynamic creative optimization for daypart-specific QSR ad versioning."},
+      {"slug": "amazon-dsp", "relevance": "Amazon DSP unlocks Prime Video CTV inventory with first-party grocery and delivery purchase data targeting — uniquely relevant for QSR brands targeting frequent food delivery and convenience purchasers."},
+      {"slug": "strata", "relevance": "Strata manages QSR co-op compliance workflows — tracking which CTV placements are eligible for national co-op reimbursement, verifying creative approvals, and automating the claim reconciliation process across franchisee markets."}
+    ],
+    "cta": {
+      "text": "Coordinate your QSR CTV campaigns across every franchise tier and publisher in one plan — try Halliard free today.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

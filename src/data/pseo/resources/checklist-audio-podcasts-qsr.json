@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "qsr",
+    "channel": "audio-podcasts"
+  },
+  "seo": {
+    "title": "Audio / Podcasts / Streaming Audio Media Planning Checklist for QSR / Restaurants",
+    "description": "Podcast and streaming audio planning checklist for QSR marketers — covering drive-time targeting, LTO host-read strategy, and food occasion audio campaigns.",
+    "keywords": ["podcast advertising QSR", "restaurant audio ads", "QSR streaming audio", "fast food podcast sponsorship", "QSR drive-time audio", "host-read QSR ads", "restaurant podcast checklist"],
+    "slug": "checklist/audio-podcasts-qsr"
+  },
+  "content": {
+    "intro": "Audio is the only advertising channel that reaches QSR's core customer at the exact moment they're most likely to make a food decision: during the morning drive-time commute, walking to lunch, or on the way home in the evening. Spotify research shows that 76% of consumers say food and dining content on audio platforms inspires immediate purchase decisions, and QSR brands like Sonic, Taco Bell, and Burger King have used audio's contextual intimacy — particularly host-read podcast integrations — to build the kind of trust that turns a radio habit into a restaurant habit. For multi-unit QSR operators, audio's daypart targeting precision and relatively lower CPMs make it an efficient reach extension channel alongside CTV and linear TV.",
+    "sections": [
+      {
+        "heading": "Strategy and Planning Foundation",
+        "items": [
+          {
+            "title": "Map audio buy to specific QSR daypart objectives before planning shows or platforms",
+            "description": "Audio's effectiveness for QSR depends entirely on daypart alignment. A breakfast campaign should concentrate on 6–9am morning drive, targeted via streaming audio platforms with daypart controls (Spotify, Pandora, iHeart) and drive-time podcast shows. Lunch campaigns target 11am–1pm. Late-night targeting uses 9pm–midnight programming on comedy, gaming, and entertainment podcast genres. Define which daypart you're targeting before selecting shows or platforms — daypart-undefined audio buys rarely generate meaningful QSR visit lift.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Determine the right mix of host-read podcast integrations vs. programmatic streaming audio",
+            "description": "Host-read podcast integrations deliver stronger trust and recall (38% of podcast listeners have purchased after hearing a host recommendation) but require longer lead times (4–6 weeks), minimum spend commitments, and limited geo-targeting. Programmatic streaming audio on Spotify, Pandora, and iHeart offers precise geographic and demographic targeting with 2–3 week lead times at lower CPMs ($8–$20). QSR campaigns typically perform best with a 60/40 split: 60% programmatic streaming audio for daypart/geo precision, 40% host-read podcast for brand trust and occasion association.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a QSR audio calendar that mirrors LTO launch windows",
+            "description": "QSR audio buys should be structured around the brand's annual LTO calendar. Each LTO launch (typically 4–6 per year) should trigger a 4–6 week audio flight with front-loaded weight in weeks 1–2. Always-on audio should run at a lower base level between LTO windows to maintain brand consideration. Schedule audio buys 8–10 weeks in advance of each LTO launch to ensure preferred podcast show availability and programmatic targeting setups are in place before the item goes on menu.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Assess podcast show audience authenticity with Podscribe or Magellan AI before commitment",
+            "description": "Download inflation is endemic in podcast measurement — some shows report download numbers that significantly overstate engaged listens by counting automated bot downloads or stale episode pulls. Before committing to a podcast show integration for QSR, verify audience authenticity via Podscribe's brand safety and engagement data, or Magellan AI's advertiser competitive intelligence (which shows which QSR brands are already buying the show successfully). Avoid shows where more than 30% of downloads occur within 24 hours of a trigger event (often a bot signal).",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Podcast Show Selection and Host-Read Strategy",
+        "items": [
+          {
+            "title": "Prioritize food, cooking, and daily lifestyle podcast shows for direct occasion relevance",
+            "description": "Food and cooking podcast audiences have 2x–3x higher QSR visit intent conversion rates vs. genre-mismatched shows because the content activates the food decision mindset. Prioritize shows in categories: food and dining (The Splendid Table, Bon Appétit), daily news/morning shows (Up First, The Daily) for breakfast daypart alignment, sports and comedy shows for lunch and late-night, and true crime for dinner cooking/commute occasions. Request show-level demo and HHI data from network sales reps before committing.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Write QSR host-read scripts that sound like a genuine personal recommendation, not an ad",
+            "description": "The single biggest QSR podcast advertising mistake is sending a heavily scripted ad for hosts to read verbatim. Hosts rewrite over-scripted QSR ads in ways that introduce inconsistency and sometimes error. Instead, provide a creative brief with: (1) the 3 key message points (e.g., 'new LTO name, what it is, available now'), (2) the specific offer or CTA with vanity URL, and (3) 2–3 optional personal use prompts ('next time you're rushing before the morning commute'). Let the host find their authentic delivery — it dramatically outperforms word-for-word reads.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Negotiate mid-roll placement for QSR podcast ads, not pre-roll",
+            "description": "Pre-roll podcast ads are skipped at 40–60% higher rates than mid-roll placements in the first 10–15 minutes of episode content. Mid-roll integrations (typically 15–30 minutes into an episode) reach an audience that has already demonstrated 15+ minutes of listening commitment — these listeners are more engaged, more trusting of the host, and less likely to skip. Mid-roll commands a 20–30% CPM premium over pre-roll, but QSR campaigns consistently see 2x–3x higher vanity URL response rates from mid-roll vs. pre-roll placements.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Secure 8-week minimum commitment on podcast shows for QSR campaigns",
+            "description": "Single-episode podcast sponsorships for QSR rarely deliver sufficient frequency to drive behavioral change — listeners may only hear the ad once before the next sponsor rotates in. Research on podcast advertising recall shows that 3+ exposures per listener are required for QSR visit intent lift. Negotiate a minimum 8-week exclusive or preferred-sponsor commitment on your highest-priority shows, which ensures enough episode-level frequency to build recognition and change the behavior of the show's loyal listeners.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Evaluate comedy podcasts for late-night QSR daypart alignment",
+            "description": "Comedy podcasts (My Favorite Murder, Conan O'Brien Needs a Friend, SmartLess) index heavily with A18–34 audiences whose listening patterns align with late-night snacking and food delivery occasions. Late-night QSR campaigns (10pm–2am) targeting younger adults generate significantly higher conversion from comedy podcast adjacency vs. news or business show contexts. Comedy show audiences also have above-average fast-casual and QSR food spend per capita in consumer research panel data.",
+            "difficulty": "intermediate",
+            "priority": "nice-to-have"
+          }
+        ]
+      },
+      {
+        "heading": "Streaming Audio Platform Strategy",
+        "items": [
+          {
+            "title": "Use Spotify's context targeting for 'workout,' 'commute,' and 'cooking' playlists",
+            "description": "Spotify's contextual playlist targeting allows QSR ads to appear in semantically relevant listening moments. 'Cooking' and 'Dinner party' playlist adjacency aligns audio ads with the exact food decision moment. 'Morning commute' playlists target breakfast consideration windows. 'Workout' playlists index with health-conscious consumers relevant for healthier menu promotions. Spotify reports 30–40% higher ad recall from contextually matched playlist targeting vs. demographic-only targeting for food and beverage categories.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Run geo-targeted programmatic audio in a 3–5 mile radius around restaurant locations",
+            "description": "Programmatic streaming audio on Pandora and iHeart supports zip-code and GPS-radius targeting. Configure QSR streaming audio campaigns with a 3–5 mile geofence around each restaurant location cluster so that impressions only serve to listeners who are geographically proximate to a restaurant. This eliminates impressions served to listeners in markets without QSR access — a common waste in programmatic audio campaigns that target broad DMAs rather than restaurant-trade-area geographies.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Include a companion banner ad with every streaming audio placement",
+            "description": "Spotify and Pandora offer visual companion banner ads displayed on the listener's screen during audio ad playback. For QSR campaigns, the companion banner should feature a high-appetite food hero image of the promoted LTO item with a direct 'Order Now' or 'Find Location' CTA. Audio-plus-banner combinations for QSR show 40–60% higher brand recall vs. audio-only placements because the visual food trigger reinforces the verbal message. Always spec and upload companion banner creative when purchasing streaming audio.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Layer demographic and behavioral filters on programmatic audio for QSR value-seeker audiences",
+            "description": "QSR's core value-seeker customer segment — A18–34, HHI $30–$60K, high fast-food purchase frequency — is precisely targetable on Spotify, Pandora, and iHeart via first-party behavioral data (food content listening) and third-party demographic overlays. Apply these filters to programmatic audio campaigns to eliminate HHI $100K+ impressions where QSR frequency of visit is substantially lower. This demographic refinement typically reduces total reach by 25–35% but improves cost-per-visit efficiency by 30–45%.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and Attribution",
+        "items": [
+          {
+            "title": "Deploy unique vanity URLs and offer codes for every podcast show integration",
+            "description": "Because podcast attribution is inherently more opaque than pixel-based digital channels, vanity URLs (e.g., [brandname].com/[showname]) and unique promo codes are the primary response measurement tools. Every podcast show integration should have its own vanity URL (tracked in Google Analytics as a UTM-tagged destination) and a unique offer code for food redemption (e.g., 'Use code PODCAST for free fries'). Redemption rate benchmarks for QSR podcast offers are 0.5–2.0% of estimated episode downloads — below this signals show audience mismatch or script quality issues.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Implement pixel-based attribution with Podscribe or Spotify DAI for programmatic audio",
+            "description": "For programmatic podcast ads served via Dynamic Ad Insertion (DAI) platforms (Spotify, AdsWizz/SiriusXM), pixel-based attribution links listener device IDs to subsequent website visits and app opens. Podscribe and Chartable integrate with DSPs to provide website visit lift and conversion measurement for QSR programmatic audio campaigns. This attribution approach captures 30–40% of incremental visits that vanity URLs alone miss, as many listeners visit directly via app or Google search rather than the vanity URL.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Measure 7-day and 14-day conversion windows for QSR audio attribution",
+            "description": "QSR audio advertising generates delayed behavioral response — a listener hears an ad during their morning commute and visits the restaurant at lunch or the following day. Standard audio measurement within 24 hours of exposure systematically undercounts QSR visit attribution by 40–60%. Configure audio attribution windows of 7 days (primary conversion window) and 14 days (secondary for loyalty-type promotions) to capture the full behavioral impact of each audio exposure.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For QSR franchise brands, consider negotiating a national podcast network upfront deal (iHeart, Wondery, Spotify) that includes DMA-level delivery customization — a single network upfront at national volume pricing can provide the geographic targeting precision of local buys at 20–35% lower CPMs. This is particularly valuable for multi-unit franchise operators who need regional market flexibility within a national brand campaign structure.",
+      "Run QSR audio ads during podcast episodes that feature food discussions or cooking segments specifically — these contextual moments in non-food shows (a true crime host mentioning their breakfast routine, a comedian discussing late-night fast food runs) drive 3x higher visit intent than the same ad placement in the same show during non-food content moments. Magellan AI's topic-level targeting can identify these specific episode segments.",
+      "Sonic Drive-In, Dunkin', and McDonald's have all demonstrated that audio creative that incorporates branded sound design — a specific sound effect (ice clinking, sizzle sounds, signature music) — drives 25–40% higher brand recall vs. voice-only announcer reads. Budget for a QSR audio brand identity: a 3–5 second sonic signature that becomes a Pavlovian food cue for regular listeners.",
+      "QSR host-read podcast ads benefit enormously from the host sharing a specific personal use case ('I grab a [specific item] every Tuesday before recording'). This specificity — a named day, a specific product, a routine — generates 50–60% higher listener action rates vs. generic endorsements. Brief hosts with specific talking points about when and how they eat QSR, not just product features.",
+      "Build a rotating podcast sponsorship calendar across 12–15 shows so that you maintain presence across food, comedy, sports, and daily news genres year-round at sustainable CPMs, rather than concentrating all audio budget in 2–3 shows at a time. This rotation also prevents listener fatigue — a single QSR brand that dominates a single show's ad inventory for 52 weeks becomes background noise by Q3."
+    ],
+    "related_tools": [
+      {"slug": "halliard", "relevance": "Halliard integrates QSR audio and podcast buys alongside CTV, OOH, and digital in a single media plan — enabling unified daypart planning and cross-channel frequency management for restaurant campaigns."},
+      {"slug": "bionic", "relevance": "Bionic's media planning platform handles the complex QSR podcast vendor mix — tracking host-read commitments, vanity URL assignments, and show-level performance alongside programmatic audio spending in one workflow."},
+      {"slug": "the-trade-desk", "relevance": "The Trade Desk enables programmatic audio buying across Spotify, Pandora, and podcast DAI inventory with geo-targeting at zip-code level and restaurant-trade-area radius targeting essential for QSR campaigns."},
+      {"slug": "gwi", "relevance": "GWI's audience data identifies QSR target audiences' podcast listening habits by genre, show type, and platform — the foundational research for building a show selection strategy aligned to daypart and demographic objectives."}
+    ],
+    "cta": {
+      "text": "Plan QSR audio campaigns alongside every other channel — from podcast networks to CTV — in one Halliard media plan. Start free.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

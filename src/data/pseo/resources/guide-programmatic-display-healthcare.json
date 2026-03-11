@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "content_type": "guide",
+    "vertical": "healthcare",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Complete Guide to Programmatic Display for Healthcare / Pharma Marketers",
+    "description": "The definitive programmatic display guide for healthcare and pharma media planners — covering NPI targeting, HIPAA compliance, HCP strategy, and pharma DSP selection.",
+    "keywords": ["programmatic display healthcare", "pharma programmatic advertising guide", "NPI targeting programmatic", "HCP programmatic display", "HIPAA programmatic advertising", "healthcare display advertising", "pharma DSP guide"],
+    "slug": "guide/programmatic-display-healthcare"
+  },
+  "content": {
+    "intro": "Programmatic display in healthcare operates under constraints that make it uniquely demanding among all advertising verticals: HIPAA's prohibition on using identified health condition data for targeting, FDA OPDP's oversight of every promotional asset served to patients or physicians, and platform restrictions on prescription drug advertising that narrowed dramatically on Meta and Google in 2025. Yet programmatic display remains a cornerstone of pharmaceutical media strategy — it is the primary vehicle for reaching the 1.1 million active prescribers in the US across the open web, delivering NPI-matched physician-level targeting at scale through platforms like DeepIntent, Doceree, and PulsePoint that are purpose-built for healthcare's regulatory reality.",
+    "sections": [
+      {
+        "heading": "Healthcare Programmatic Fundamentals and Regulatory Compliance",
+        "items": [
+          {
+            "title": "Distinguish DTC patient targeting from HCP professional targeting — these require completely separate campaigns",
+            "description": "Healthcare programmatic campaigns must be structured in two completely separate environments: DTC (Direct-to-Consumer) campaigns targeting diagnosed patients and caregivers, and HCP (Healthcare Provider) campaigns targeting physicians, nurse practitioners, and pharmacists. DTC programmatic runs on general DSPs (The Trade Desk, DV360) with condition-agnostic behavioral and demographic targeting; HCP programmatic requires healthcare-specific DSPs (DeepIntent, Doceree, PulsePoint) with NPI-matched physician targeting. Conflating these in a single DSP or campaign structure creates regulatory risk and targeting inefficiency.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Implement HIPAA-compliant targeting that never implies knowledge of an individual's health condition",
+            "description": "The FTC and HHS Office for Civil Rights have both issued guidance that using inferred health condition data to target individuals — even without their name — can violate HIPAA if the data could re-identify a patient. Compliant DTC pharma programmatic targeting uses: (1) general behavioral segments (health information seekers, not condition-specific), (2) contextual targeting on health content without audience data, or (3) intent-based segments built from anonymized search patterns rather than condition diagnosis data. Never use third-party audience segments labeled with specific ICD-10 diagnosis codes for DTC patient targeting.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Submit all programmatic creative assets through MLR review before any live trafficking",
+            "description": "FDA OPDP oversight applies to digital display ads just as it does to broadcast TV spots — every banner, HTML5 animated unit, and landing page link must receive Medical/Legal/Regulatory (MLR) approval before it can be trafficked in a DSP. The typical MLR review cycle for display creative is 4–8 weeks for Rx drugs. Build this review timeline into your campaign launch planning: a campaign intended to launch March 1 requires creative submissions to MLR by January 15 at the latest. Never traffic 'placeholder' creative intending to swap it after launch — this is a compliance violation.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Maintain an always-current list of approved landing pages linked from display creative",
+            "description": "Every display ad served for an Rx drug must link to a landing page that has also received MLR approval and presents fair balance of risk information. If a landing page is updated with new content — including new clinical data, pricing, or safety updates — the page must re-clear MLR review before the linked ads can continue serving. Build a landing page version control system that automatically flags active display campaigns when their linked page enters MLR re-review, preventing the display campaign from serving to a non-compliant page.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "HCP Programmatic Targeting with NPI Data",
+        "items": [
+          {
+            "title": "Select a healthcare-specific DSP with NPI-list matching for HCP campaigns",
+            "description": "General-purpose DSPs cannot match programmatic ad delivery to physician NPI numbers — a requirement for HCP promotion targeting. Healthcare-specific DSPs (DeepIntent, Doceree, PulsePoint, OptimizeRx) use NPI-to-device mapping to identify when prescribers are browsing on their personal devices and serve ads accordingly. DeepIntent reports HCP targeting accuracy of 87%+ for specialties with large NPI pools; PulsePoint reaches HCPs through its publisher network including WebMD, Healthgrades, and Medscape. Select your HCP DSP based on NPI matching rate for your specific target specialty.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build NPI target lists from IQVIA prescriber data and segment by decile",
+            "description": "The target NPI list is the foundation of HCP programmatic display. Source your prescriber universe from IQVIA's physician prescription data, segmenting by prescribing volume decile (D1–D10) for your drug's therapeutic category. Heavy prescribers (D8–D10) should receive the highest-frequency display exposure and receive detail-level clinical creative; moderate prescribers (D5–D7) receive awareness and trial-encouragement messaging. Light prescribers (D1–D4) typically receive educational, unbranded disease content rather than branded promotion, as conversion cost is prohibitive for low-volume prescribers.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Target HCPs during their professional content consumption windows, not general browsing",
+            "description": "HCP programmatic display performs significantly better when ads serve during professional online activity (reading clinical journals, CME modules, Epocrates drug reference lookups) vs. personal browsing (news, sports, social media). Healthcare DSPs with publisher network access to Medscape, JAMA, NEJM, and Doceree's HCP-authenticated properties deliver 3x–5x higher HCP ad recall and e-sample request rates vs. HCP-targeted ads appearing on general consumer websites. Prioritize healthcare publisher inventory in private marketplace (PMP) deals over open auction for HCP campaigns.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Deploy rich media e-detail units for HCP display in lieu of standard banner formats",
+            "description": "Standard IAB 300x250 and 728x90 banner formats are insufficient for HCP clinical promotion — they cannot accommodate the efficacy data, mechanism of action, and risk summary that MLR requires and that physicians need for professional evaluation. Rich media 'e-detail' units (300x600, 970x250, or expandable full-page formats) present interactive clinical data, trial data readouts, and fair balance in a single HCP display unit. DeepIntent and Doceree both support rich media e-detail formats that outperform standard banners by 60–80% on HCP engagement depth metrics.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Suppress non-prescribing NPI types from HCP campaigns (retired physicians, non-relevant specialties)",
+            "description": "A comprehensive physician NPI list includes retired physicians, non-prescribing administrative physicians, and practitioners in specialties irrelevant to your drug's therapeutic area. Upload a refined suppression list to your healthcare DSP that removes: (1) NPIs flagged in IQVIA data as retired or inactive, (2) specialties with zero prescribing relevance to your drug's indication, and (3) NPIs in states where formulary access is not yet secured (since promotion to non-accessible prescribers generates demand that cannot be filled and creates HCP frustration). This suppression typically improves HCP campaign cost-per-detail by 25–40%.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "DTC Patient and Caregiver Programmatic Display",
+        "items": [
+          {
+            "title": "Use contextual targeting as the primary DTC display audience strategy, not condition-based behavioral data",
+            "description": "For DTC Rx display campaigns, contextual targeting — placing ads on health content pages related to your drug's condition without using audience data that implies knowledge of the viewer's health status — is both compliant and highly effective. Contextual engines from Integral Ad Science, DoubleVerify, and Peer39 can identify pages discussing specific symptoms, treatment decisions, and condition management in real time. Contextual DTC pharma display on condition-relevant health content achieves CTRs 2x–4x higher than general behavioral targeting while avoiding HIPAA-adjacent data risks.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Run DTC programmatic display on premium health publisher private marketplace (PMP) deals",
+            "description": "Open auction programmatic for healthcare DTC creates brand safety risk — pharmaceutical ads appearing alongside inappropriate or low-quality content and landing in environments that don't meet the editorial standards pharma brands require. Build PMP deals directly with premium health publishers: Everyday Health, WebMD, Health Union condition-specific communities (HealthCentral, PatientsLikeMe), and hospital system content portals. PMP deals at $6–$15 CPM provide brand-safe, contextually relevant environments with verified health-audience composition — commanding a premium worth paying vs. open auction for regulated pharmaceutical advertising.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use retargeting for DTC patient display to re-engage brand site visitors within FDA guidelines",
+            "description": "Retargeting patients who have visited your branded drug website is permissible under FDA guidelines as long as retargeted display ads use the same MLR-approved creative and do not infer new health information beyond what the user voluntarily revealed by visiting the site. Configure retargeting pools from patients who visited specific pages (product information, copay savings program, FAQ) with corresponding creative tailored to where in the patient journey they dropped off. Patient site retargeting for Rx drugs shows 3x–5x higher conversion-to-patient-support-enrollment vs. cold prospecting.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Target caregivers as a distinct DTC segment with adapted creative and media strategy",
+            "description": "For chronic condition drugs targeting older patients (Alzheimer's, oncology, MS), caregivers — typically adult children, spouses, or professional care managers — make or heavily influence the prescription decision. Build a distinct caregiver audience segment using behavioral signals (caregiver lifestyle, eldercare research behavior) and serve separate creative that speaks to caregiver concerns: treatment manageability, patient quality of life, and support program availability. Caregiver-targeted DTC programmatic for chronic conditions shows 40–60% higher copay card download rates and patient support program enrollment vs. patient-only campaigns.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and Attribution in Healthcare Programmatic",
+        "items": [
+          {
+            "title": "Use NRx script lift as the ultimate attribution metric for HCP display campaigns",
+            "description": "IQVIA and Symphony Health provide weekly prescribing data (NRx/TRx) at the NPI level — the ground truth for whether HCP programmatic display is changing prescribing behavior. Connect your HCP DSP (DeepIntent, PulsePoint) to IQVIA data feeds and measure NRx velocity in media-exposed prescribers vs. matched control NPI holdouts. This NRx lift study design — standard at major pharma companies — typically shows 8–15% incremental NRx lift per campaign quarter among heavy prescribers targeted at 5+ frequency. The 6–8-week lag in IQVIA data requires patience, but this is the only metric that truly validates HCP display ROI.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Track patient journey proxy metrics: website visits, copay card activations, patient support program enrollments",
+            "description": "Because NRx data lags 6–8 weeks behind media activity, DTC pharma teams use a hierarchy of leading indicators to gauge campaign effectiveness in real time: (1) disease awareness site traffic from display referrals, (2) branded website visits, (3) copay card PDF downloads or activations (the single highest-intent DTC conversion action), (4) patient support program phone calls and web enrollments. Build a conversion pyramid tracking all four metrics weekly via UTM-tagged display campaigns and your CRM's enrollment data to provide real-time signal before IQVIA confirms script lift.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Run matched-market holdout studies for DTC display campaigns in FDA-compliant methodology",
+            "description": "The cleanest attribution methodology for DTC pharma display — approved by both regulatory and internal compliance teams — is a geographic holdout study: pause display in 10–15 matched DMAs while maintaining all other media, then measure NRx velocity and patient support enrollment rates in dark markets vs. active markets over 12 weeks. This design, used by companies like Pfizer and Merck as their standard display attribution methodology, generates statistically defensible evidence of display's incremental contribution to patient starts, independent of other media channels.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For rare disease HCP campaigns with NPI target lists under 10,000 physicians, standard programmatic display campaigns will chronically underdeliver because there simply aren't enough NPI-matched impressions available in the open web. Switch to OptimizeRx's point-of-care platform, which serves display ads within physician EHR (Electronic Health Record) systems at the moment of prescribing — when the physician is actively writing or reviewing prescriptions for your drug's indication. In-EHR display for rare disease achieves NPI coverage rates of 65–80% vs. 30–40% for standard healthcare DSP programmatic.",
+      "Build a pharma programmatic display campaign that distinguishes between 'pre-diagnosis' audiences (symptom researchers, condition-query searchers) and 'post-diagnosis' audiences (treatment-decision researchers, current medication switchers). These audiences require completely different creative strategies: pre-diagnosis needs disease education and prompting to seek professional help; post-diagnosis needs clinical differentiation, patient testimonials (with FDA-compliant disclosures), and copay savings program awareness. Running unified creative across both wastes 40–60% of display impressions on mismatched message-audience pairings.",
+      "Negotiate a first-party data partnership with a digital health publisher (Everyday Health, Healio, or a Health Union condition community) that enables audience segmentation based on their verified patient registration data rather than inferred behavioral signals. These publisher-direct data deals — typically $2–$5 CPM premium above market rate — provide the most defensible, HIPAA-compliant patient audience targeting in programmatic display, because the audience targeting is based on user-declared health interest rather than inferred condition data.",
+      "For multi-indication drugs, build indicator-specific display creative variants and audience segments for each indication separately. A drug approved for both rheumatoid arthritis and psoriatic arthritis requires distinct NPI target lists (rheumatologists vs. dermatologists), distinct patient messaging (joint pain focus vs. skin and joint focus), and distinct contextual targeting (arthritis content vs. psoriasis content). Blending indications into one display campaign dilutes relevance for every target segment and creates MLR review complexity around which indication's fair balance to include.",
+      "The most underused attribution tool in healthcare programmatic display is the 'eNRx alert' from IQVIA and Symphony Health: a weekly data notification when prescribers in your NPI target list show a detectable increase or decrease in prescribing velocity vs. baseline. Configuring these alerts for your top 500 HCP targets and correlating timing with display ad exposure waves allows real-time mid-campaign optimization — pulling budget toward the prescriber segments showing NRx lift and suppressing segments showing no response within the campaign flight."
+    ],
+    "related_tools": [
+      {"slug": "halliard", "relevance": "Halliard coordinates healthcare programmatic display — HCP and DTC campaigns across multiple DSPs — in a unified media plan with compliance documentation tracking and cross-channel frequency management."},
+      {"slug": "the-trade-desk", "relevance": "The Trade Desk integrates with healthcare data providers (DeepIntent, PulsePoint) and supports healthcare PMP deals with premium health publishers, while providing contextual targeting for HIPAA-compliant DTC campaigns."},
+      {"slug": "google-dv360", "relevance": "DV360 provides programmatic guaranteed deal access with major health publishers (WebMD, Everyday Health) and supports advanced contextual targeting for DTC pharma display within Google's brand-safe publisher network."},
+      {"slug": "basis", "relevance": "Basis Technologies provides a compliant programmatic workflow for healthcare advertisers, with MLR-connected creative trafficking controls and pharmaceutical-specific brand safety filtering built into its DSP platform."}
+    ],
+    "cta": {
+      "text": "Plan compliant HCP and DTC programmatic display campaigns alongside all your pharma media channels in one Halliard plan — try it free.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "retail",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "Paid Search (SEM / PPC) Media Planning Checklist for Retail / E-Commerce Brands",
+    "description": "Paid search checklist for retail and e-commerce brands \u2014 covering Google Shopping feed quality, Performance Max strategy, RLSA for cart abandoners, branded defense against Amazon and comparison sites, and BFCM bid preparation.",
+    "keywords": [
+      "retail paid search checklist",
+      "e-commerce Google Ads planning",
+      "Google Shopping retail strategy",
+      "Performance Max e-commerce",
+      "BFCM paid search planning",
+      "retail SEM checklist",
+      "e-commerce PPC strategy",
+      "Google Shopping feed optimization retail"
+    ],
+    "slug": "checklist/paid-search-retail"
+  },
+  "content": {
+    "intro": "Retail paid search in 2026 operates within a competitive architecture that most planning teams don't fully appreciate: every product query on Google returns a SERP where Google Shopping placements, Performance Max ads, and Amazon Sponsored Products (redirecting to Amazon) are all competing for the same conversion \u2014 and in many categories, the Amazon sponsored result is the one the shopper clicks. Understanding that retail paid search isn't just a Google versus Bing decision but a Google versus Amazon versus Instacart decision is the foundational reframe that separates truly integrated retail SEM planning from single-platform execution.",
+    "sections": [
+      {
+        "heading": "Google Shopping & Product Feed Optimization",
+        "items": [
+          {
+            "title": "Treat the product data feed as the most critical creative asset in Google Shopping",
+            "description": "Google Shopping placement, click-through rate, and conversion rate are all determined by product feed quality \u2014 not by keyword or ad copy as in text search. Product titles must include the most important search terms (brand, product type, key attribute, size/color where relevant) in the first 70 characters. Product descriptions must include relevant purchase-intent keywords. Images must be high resolution (800x800px+ for standard, 1000x1000px for apparel). Poor feed quality is invisible \u2014 it just quietly degrades performance by 30\u201350%.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set up automated feed supplementation to enrich product titles with missing attributes",
+            "description": "Many retail brands have e-commerce platforms (Shopify, Magento, Salesforce Commerce) where product titles are merchandising-optimized rather than search-optimized. Use a feed management tool (DataFeedWatch, Feedonomics, GoDataFeed) to automatically append brand name, category keywords, and key attributes to product titles and descriptions without manual SKU-by-SKU editing. Feed supplementation rules pay immediate dividends in Shopping campaign impression share and CTR.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Implement custom labels in the product feed for campaign segmentation by margin, price tier, and seasonality",
+            "description": "Custom labels (0\u20134) in the Google Merchant Center product feed allow you to segment campaigns by any product attribute relevant to bidding strategy. Label high-margin products for aggressive bidding (custom_label_0: 'high_margin'), new arrivals for discovery campaigns (custom_label_1: 'new_arrival'), sale items for clearance campaigns (custom_label_2: 'on_sale'), and BFCM deals (custom_label_3: 'bfcm_deal'). Without custom labels, Shopping campaign optimization is blind to the business context that should drive bid differences.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Maintain price parity between the data feed and the actual product landing page",
+            "description": "Google's Merchant Center automatically disapproves products where the feed price doesn't match the landing page price. Even temporary sale price mismatches \u2014 where a promotional price on the site hasn't updated in the feed \u2014 trigger disapprovals that remove those products from Shopping entirely during peak demand periods. Set up automated price mismatch monitoring with email alerts and establish a maximum 2-hour SLA for price update propagation from e-commerce platform to feed.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Campaign Structure & Performance Max",
+        "items": [
+          {
+            "title": "Run Performance Max campaigns alongside traditional Shopping campaigns with careful segmentation",
+            "description": "Performance Max campaigns access Google's full inventory (Search, Shopping, Display, YouTube, Gmail, Maps) and typically capture incremental conversions that Shopping-only campaigns miss \u2014 particularly for mobile/map-based queries. However, PMax's black-box budget allocation means Shopping campaigns should remain active alongside PMax with sufficient budget to compete for pure Shopping placement. Use PMax for exploratory growth and Standard Shopping for core high-volume SKU defense.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build PMax asset groups segmented by product category with separate creative assets and landing pages",
+            "description": "A single PMax campaign for an entire e-commerce catalog produces mediocre results across all categories. Build separate asset groups per category (women's shoes, home kitchen, electronics accessories) with category-specific image creative, video assets, headlines, and landing pages. This segmentation allows the algorithm to optimize creative-audience match at the category level and provides visibility into which categories PMax is driving efficiently vs. wasting budget.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Maintain traditional branded search campaigns outside of PMax to retain control",
+            "description": "Performance Max will serve against branded queries and may allocate significant budget to branded terms that are your highest-converting and lowest-CPC keywords. Run traditional branded search campaigns with exact-match and phrase-match branded keywords to ensure controlled bidding on branded terms. Set PMax campaign priority with proper bidding instructions to avoid cannibalizing branded search from your manual campaigns, which should always maintain 90%+ branded impression share.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Implement RLSA to differentiate bids for cart abandoners, product viewers, and past purchasers",
+            "description": "RLSA (Remarketing Lists for Search Ads) allows differentiated bid adjustments for users who previously interacted with the site. Set bid increases for cart abandoners (+75\u2013100%), product page viewers without add-to-cart (+30\u201350%), and category browsers (+15\u201325%). Exclude recent purchasers from non-relevant cross-sell campaigns (or set tailored cross-sell creative for them). RLSA bid adjustments for warm audiences consistently deliver 40\u201360% lower CPA than cold prospecting.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Competitive Defense & Category Strategy",
+        "items": [
+          {
+            "title": "Defend branded search terms against Amazon and comparison site conquest bidding",
+            "description": "Amazon routinely bids on retail brand terms to capture shoppers and direct them to Amazon's marketplace versions of the brand's products. Pull Auction Insights reports weekly for branded campaigns. When Amazon appears in branded Auction Insights at 20%+ overlap rate, increase branded bids to maintain top-of-page position and create ad extensions that highlight direct-purchase advantages (free shipping, exclusive products, loyalty program) to counter the Amazon redirect.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Build non-branded category keyword campaigns targeting competitor comparison queries",
+            "description": "Non-branded category queries ('best running shoes under $100', 'affordable standing desk', 'wireless earbuds for commuting') represent in-market shoppers who haven't yet committed to a brand. Build category-level text ad campaigns targeting these queries alongside Google Shopping. Category non-brand CPCs for retail typically run $0.50\u2013$2.50 \u2014 significantly lower than branded terms \u2014 and can generate substantial new customer acquisition volume at favorable CPAs.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up Google Vehicle-style competitors conquest campaigns for top comparable SKUs",
+            "description": "If a competitor's hero product is widely searched by name and your product is a viable alternative, build a conquest text ad campaign with carefully crafted comparative copy ('Looking for [competitor product]? Compare [your brand]'). Google policies prohibit using the competitor trademark in the ad text but allow bidding on trademark terms. Conquest campaigns for retail typically generate lower conversion rates than branded campaigns but can acquire genuinely new-to-brand customers in competitive product categories.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Start BFCM keyword bid preparation 4 weeks before Cyber Week",
+            "description": "Google's automated bidding algorithms (Target ROAS, Target CPA) use historical performance data to calibrate bid levels. If campaigns don't have BFCM-period performance history, the algorithm enters BFCM cold and underperforms during the critical first 24\u201348 hours when CPCs and conversion rates are most extreme. Build Smart Bidding history by gradually increasing bids 4 weeks before BFCM and setting seasonal adjustments (percentage bid increases for Nov 28\u2013Dec 2) in the bid strategy settings.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set promotional price extensions and sale annotations in Merchant Center for BFCM",
+            "description": "Google Shopping supports 'Sale Price' annotations that visually highlight discounted products in the Shopping SERP with a strikethrough original price and red sale price indicator. These sale annotations significantly increase CTR (typically 15\u201330%) for promotional items. Update sale prices in the product feed at least 24 hours before BFCM deals go live to allow Merchant Center review and approval before the traffic peak.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Build a daily budget pacing model for BFCM that front-loads budget to the highest-conversion windows",
+            "description": "Cyber Monday purchase rates peak between 12pm\u20133pm Eastern time based on historical retail conversion data. Build an ad scheduling bid adjustment that increases bids by 20\u201330% during these peak conversion hours and reduces by 15\u201320% during low-conversion late-night/early-morning windows. Without this dayparting, flat daily budget distribution means BFCM spend runs out before the highest-conversion window of the day.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build Google Vehicle Ads or Product Listing Ad formats as a visual competitive advantage",
+            "description": "Google Shopping ads (Product Listing Ads) display product images, prices, and store names alongside text ads in the SERP. For retail brands with strong product photography and competitive pricing, Shopping ads capture visual attention in a text-ad-dominated environment. Ensure product feed quality is high and Shopping campaigns are active for all hero SKUs to claim visual real estate in relevant product queries.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up Google Price Drop alerts to respond to competitor pricing changes in real time",
+            "description": "Google Shopping surfaces price comparison data that shows when your prices are above competitors. Monitor Google's Price Competitiveness report in Merchant Center weekly to identify hero SKUs where your prices are consistently above-average in the Shopping auction \u2014 these products have suppressed Shopping impression share due to price disadvantage. Coordinate with merchandising to evaluate price adjustments or supplemental promotional messaging.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Use Google's Search Term Performance report in Performance Max to identify your top 20 non-branded search queries driving PMax conversions. If high-volume, high-converting non-branded queries are emerging from PMax, build them into standard Shopping or Search campaigns with exact-match keywords, specific ad creative, and better-matched landing pages. PMax is great for discovery; manual campaigns are better for scaling proven queries at controlled CPAs.",
+      "For subscription e-commerce products (razors, vitamins, skincare subscriptions), build separate paid search campaigns with 'subscription first order' as the conversion goal, bidding to a CPA that accounts for full LTV rather than first-order economics. A first-order CPA of $85 is unprofitable on a $40 product in isolation but entirely rational if subscription LTV over 12 months is $420. Set this LTV-adjusted CPA explicitly in the campaign settings and share the model with your finance team to prevent shortsighted CPA cuts.",
+      "Monitor Google Merchant Center product disapproval rates daily during BFCM prep. Any product with an unresolved feed issue (price mismatch, unavailable landing page, policy violation) is silently excluded from Shopping auctions. Set up automated Merchant Center alerts for disapprovals and maintain a 'BFCM readiness' dashboard that confirms all hero SKUs are fully approved and live in the Shopping feed at least 7 days before Cyber Week.",
+      "For omnichannel retailers with physical stores, enable Google's 'Local Inventory Ads' (LIA) feature in Merchant Center to show in-store availability in Shopping results. LIA significantly increases CTR (15\u201325%) for 'near me' and local intent queries because it answers the shopper's fundamental question \u2014 'can I get this today?' \u2014 directly in the SERP. LIA requires store inventory feed integration with Merchant Center and store address data in Business Profile.",
+      "Build Google Smart Shopping or Performance Max campaigns specifically for international expansion markets as a separate experiment before full budget commitment. International market Product Listing Ad performance can be tested at $500\u2013$2,000/month in target markets (Canada, UK, Australia) using existing US product feeds with minor currency/localization adjustments. International PLA data will reveal whether demand exists before investing in localized fulfillment, landing pages, or localized paid search text campaigns."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard manages retail paid search line items alongside Amazon Ads and Meta DPA in a unified media plan with BFCM calendar planning, feed quality tracking, and cross-channel attribution integration."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic's media planning workflow structures complex omnichannel retail SEM plans with budget approval routing, Performance Max and Shopping campaign documentation, and Q4 planning calendars."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk complements retail paid search with programmatic display retargeting of paid search click visitors who didn't convert, closing the funnel loop with sequential messaging."
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "DV360 integrates retail programmatic display and YouTube campaigns with Google Ads data, enabling unified frequency management and sequential messaging across the full Google ecosystem for retail brands."
+      }
+    ],
+    "cta": {
+      "text": "Manage your retail paid search across Google, Amazon, and Meta in one plan \u2014 start with Halliard today.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "financial-services",
+    "channel": "native"
+  },
+  "seo": {
+    "title": "Native / Content Marketing Advertising Media Planning Checklist for Financial Services Campaigns",
+    "description": "Native advertising planning checklist for financial services \u2014 covering content strategy for regulated categories, compliance-safe educational content, premium publisher deals, and attribution for long financial purchase journeys.",
+    "keywords": [
+      "financial services native advertising",
+      "bank content marketing advertising",
+      "insurance native ads checklist",
+      "financial services Taboola Outbrain",
+      "mortgage content advertising",
+      "fintech native media planning",
+      "financial publisher sponsored content",
+      "financial services content strategy"
+    ],
+    "slug": "checklist/native-financial-services"
+  },
+  "content": {
+    "intro": "Native advertising has an outsized role in financial services because it sidesteps the fundamental problem of financial product advertising: consumers trust advertising about financial products less than almost any other category, but they trust financial editorial content at levels that rival their relationships with actual advisors. A native article titled 'Five questions to ask before refinancing your mortgage' placed in a premium personal finance publisher context is functionally more persuasive than a rate-comparison banner ad \u2014 and it doesn't trigger the Special Ad Category compliance restrictions that limit display and social targeting for credit products. The planners who understand this distinction are building content-led native programs that generate 3\u20135x longer engagement times and dramatically better application quality than standard display.",
+    "sections": [
+      {
+        "heading": "Content Strategy & Topic Planning",
+        "items": [
+          {
+            "title": "Map content topics to financial product consideration triggers, not product features",
+            "description": "Native content for financial services must educate, not sell. 'How to compare CD rates in 2026' outperforms 'Our CD rates are now 5.2% APY' in both platform approval rates and consumer engagement. Map content topics to the life events and financial questions that trigger product consideration: home purchase consideration \u2192 mortgage education content; retirement within 10 years \u2192 IRA/401k comparison content. The brand's product is the natural solution that emerges, not the headline.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build an unbranded/lightly branded educational content library for awareness-stage native",
+            "description": "Native content for financial products should have a content-to-marketing ratio of roughly 80/20 \u2014 80% genuinely useful financial education, 20% brand attribution. Heavily branded content gets flagged as advertorial by publishers and generates poor engagement from readers who feel deceived. Create a library of 10\u201315 educational articles per product category that provide real value regardless of whether the reader ever becomes a customer.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Identify rate-trigger content opportunities and pre-build content templates",
+            "description": "Interest rate announcements from the Federal Reserve create massive spikes in financial content consumption. Pre-build content article templates for key rate scenarios: 'What a Fed rate cut means for your savings account,' 'Mortgage rates fell \u2014 should you refinance now?' These templates need only the rate-specific facts filled in at the time of announcement, enabling same-day native content deployment that rides the organic interest wave.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Plan insurance-specific education content aligned with open enrollment periods",
+            "description": "Medicare AEP (Oct 15\u2013Dec 7) and ACA Open Enrollment (Nov 1\u2013Jan 15) create defined windows of high financial content consumption intent. Native insurance content campaigns should start educational content 4\u20136 weeks before enrollment opens: 'How to compare Medicare Advantage plans,' 'What to know about ACA subsidies in 2026.' Consumers who engage with educational pre-enrollment content convert at 2\u20133x the rate of those who only see enrollment-period direct response ads.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Develop separate content tracks for different financial product life cycles",
+            "description": "A checking account consideration cycle may last days; a mortgage purchase journey spans 3\u20136 months; a retirement planning relationship may span decades. Each requires a fundamentally different content cadence, depth, and topic progression. Don't run the same 'explainer article' for a 3-day checking account consideration as you would for a 6-month mortgage journey. Map article series, newsletter topics, and sponsored content placements to the actual consideration timeline of each product.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Publisher Selection & Buying Mechanics",
+        "items": [
+          {
+            "title": "Negotiate premium branded content packages with authoritative financial publishers",
+            "description": "For high-LTV financial products (mortgages, wealth management, insurance), branded content packages with WSJ Custom Content, Bloomberg Media Studios, Forbes BrandVoice, or Bankrate editorial guarantee audience credibility transfer from the publisher's established financial authority. These packages start at $50,000\u2013$200,000 but consistently deliver higher application quality than content discovery network traffic \u2014 the engaged editorial audience is already in financial research mode.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Use Taboola and Outbrain content discovery for awareness and volume at lower CPCs",
+            "description": "Content discovery networks (Taboola, Outbrain) distribute financial content articles at scale across premium publisher networks at $0.10\u2013$0.50 CPC for consumer financial content. These networks deliver volume that branded publisher packages cannot match. Use discovery networks for middle-of-funnel content distribution targeting in-market financial product researchers with article topics matched to intent stage. Apply topic category targeting (personal finance, real estate, investing) to improve content relevance.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Set up contextual keyword targeting on financial content environments",
+            "description": "Taboola and Outbrain both support contextual keyword targeting that places your content adjacent to articles about specific financial topics. Set keyword targets for each product category: ['mortgage rate', 'refinance', 'home loan', 'HELOCs'] for mortgage content; ['Medicare', 'AEP', 'Medicare Advantage', 'Medigap'] for Medicare products. This contextual alignment substantially improves post-click engagement because the reader has already demonstrated a compatible interest signal.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Build premium newsletter sponsorship strategy for affluent financial content audiences",
+            "description": "Email newsletters from financial publications (Morning Brew, Axios Markets, The Economist weekly, Kiplinger personal finance newsletter) provide direct access to engaged, affluent readers with demonstrated financial content interest. Native newsletter placements (paid sponsorships within the editorial newsletter) deliver 4\u20138x higher engagement rates than typical display CPMs in the same audience demographic. Negotiate directly or through newsletter ad platforms like Paved, Swapstack, or Beehiiv.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Exclude MFA and low-quality financial content sites from content discovery campaigns",
+            "description": "Financial content niches on Taboola/Outbrain include a significant volume of MFA (Made for Advertising) clickbait sites with headlines like 'Banks hate this simple trick.' These sites generate clicks but zero application intent \u2014 and being associated with low-quality financial content environments damages brand credibility. Build aggressive site exclusion lists from your DSP's MFA blocklist vendors and review placement reports weekly to add new MFA domains.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Compliance & Regulatory Review",
+        "items": [
+          {
+            "title": "Submit all native content articles and sponsored content to compliance review before publication",
+            "description": "Native content for financial services is subject to the same regulatory standards as display advertising \u2014 TILA/Regulation Z disclosures, FINRA/SEC fair balance requirements for investment content, and FTC deceptive advertising standards. Publishers also require FDIC and NCUA signage compliance for content promoting deposit products. Allow 3\u20134 weeks for compliance review of editorial-format content, which is typically more complex to review than banner copy.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Ensure all sponsored content is clearly labeled as branded content per FTC guidelines",
+            "description": "FTC native advertising disclosure guidance requires clear and conspicuous labeling of sponsored content \u2014 disclosures like 'Sponsored Content,' 'Paid Content,' or 'Promoted by [Brand]' must appear in a font and location where a reasonable reader will see it. Financial brands face compounded risk: FTC advertising enforcement + CFPB oversight of financial product marketing. Non-compliant native content can result in enforcement actions from both agencies simultaneously.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Include appropriate risk disclosures within investment and insurance native content",
+            "description": "FINRA requires that investment product content (stocks, bonds, mutual funds, ETFs, retirement accounts) present a 'fair and balanced' view including material risks. SEC regulations prohibit performance guarantees in investment advertising. For insurance content, state-specific regulatory disclosures may apply depending on where the content is served. Work with compliance to develop a standard disclosure block for each product category of native content.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Measure post-click content engagement quality, not just click volume",
+            "description": "Native advertising success in financial services is determined by engagement quality after the click \u2014 time-on-page (target 2+ minutes for quality financial content), scroll depth (70%+ for well-crafted articles), and email signup or calculator tool engagement as a micro-conversion. Set up GA4 events to capture scroll depth milestones, form interactions within content pages, and time-on-page bands. CPCs from content discovery networks are low \u2014 the quality test is post-click behavior.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a content engagement to application retargeting journey in parallel with native campaigns",
+            "description": "Native content readers who spent 2+ minutes on an educational mortgage article and scrolled past the 70% mark are highly qualified mortgage consideration audiences. Build a display and paid search retargeting pool of these high-engagement readers (using GA4 audience definitions) and serve them product-specific follow-up ads. This editorial-to-retargeting journey typically delivers application rates 3\u20135x higher than cold retargeting of all content article clicks.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Track branded search lift as the primary brand impact metric for native awareness campaigns",
+            "description": "Native awareness content increases branded search query volume as consumers who engaged with educational content begin to actively seek out the brand's product offerings. Monitor Google Search Console branded query volume weekly during and after native content campaigns. A well-executed educational native program for a mortgage brand should produce measurable branded search lift of 10\u201320% in the target DMA or national market within 4\u20136 weeks of content activation.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build a quarterly compliance content audit process for all live native content",
+            "description": "Financial services native content ages quickly \u2014 rates change, product terms update, and regulatory guidance evolves. Audit all live native content placements quarterly for rate accuracy, disclosure compliance, and policy alignment. Content that was compliant when published may become non-compliant if product terms or regulatory guidance changes without a corresponding content update.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Maintain documentation of each compliance review cycle for native content in regulatory files",
+            "description": "CFPB examinations increasingly request documentation of marketing content approval processes. For each native content asset, maintain records of: original MLR/compliance submission date, specific claims reviewed, approver names, approval date, and any conditions or modifications required. This compliance file becomes your defense documentation if a regulatory inquiry targets a specific native content campaign.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For wealth management native content targeting HNW audiences, skip content discovery networks entirely and negotiate directly with curated financial newsletter publishers and premium financial media (Barron's, Bloomberg, WSJ, The Motley Fool). The volume is lower but the audience quality is dramatically higher \u2014 and HNW prospects are precisely the audience who actively avoids digital advertising but actively reads financial content. The CPM premium is worth it: cost-per-qualified-prospect is consistently lower than for mass-market programmatic native.",
+      "Build a content calendar that leads with financial life event triggers: tax season content in January, back-to-school college savings content in August, year-end IRA contribution deadline content in November. These seasonal financial content windows have significantly higher engagement rates than evergreen content because they match immediate consumer financial urgency. Financial brands that plan content 6\u20138 weeks ahead of life-event peaks own those intent windows.",
+      "LinkedIn Sponsored Content is often overlooked in financial services native planning but is exceptionally effective for B2B financial products (commercial banking, business credit, commercial insurance, wealth management for business owners). LinkedIn's professional targeting allows native content placement specifically to CFOs, business owners, or HR managers \u2014 audiences that generic content discovery networks cannot precisely reach.",
+      "Use heatmapping (Hotjar or Microsoft Clarity) on native content landing pages to identify where financial article readers disengage before completing a content-to-CTA journey. Most financial content pages lose 60\u201370% of readers before the brand attribution or product CTA appears. Restructure the article flow to include a natural product reference point at the 40\u201350% scroll depth \u2014 just after the reader has invested enough time to feel the content's value.",
+      "Reddit's sponsored posts are an underused native channel for reaching younger financial product consumers (25\u201334) who are active in financial communities (r/personalfinance, r/investing, r/financialindependence). Reddit native ads appear as regular posts in these communities and receive genuine community engagement when content quality is high. CPMs are $5\u2013$12 \u2014 lower than most financial services native CPMs \u2014 with audience quality comparable to premium content sites for personal finance topics."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard documents financial services native content campaigns with compliance approval status tracking, publisher-level performance reporting, and integration with full-funnel media plan views."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic structures native advertising line items for financial services alongside programmatic and paid search in a unified plan, with budget approval workflows and financial compliance documentation."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides access to TripleLift and Sharethrough native SSP inventory programmatically, enabling financial services planners to buy native in-feed placements at scale through a single DSP."
+      },
+      {
+        "slug": "gwi",
+        "relevance": "GWI's audience intelligence platform profiles financial product consideration segments by content consumption habits, informing native publisher and topic selection for mortgage, savings, and insurance campaigns."
+      }
+    ],
+    "cta": {
+      "text": "Plan your financial services native content campaigns with compliance workflow and full-funnel attribution \u2014 start with Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

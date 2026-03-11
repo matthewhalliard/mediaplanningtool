@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "travel",
+    "channel": "ctv"
+  },
+  "seo": {
+    "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Travel & Hospitality Brands",
+    "description": "CTV planning checklist for travel and hospitality \u2014 covering destination storytelling creative, loyalty audience targeting, direct booking attribution, OTA channel conflict defense, and seasonal booking window alignment.",
+    "keywords": [
+      "travel CTV advertising checklist",
+      "hospitality streaming media planning",
+      "hotel CTV advertising",
+      "airline CTV strategy",
+      "travel programmatic video",
+      "tourism CTV checklist",
+      "direct booking CTV",
+      "travel brand streaming advertising"
+    ],
+    "slug": "checklist/ctv-travel"
+  },
+  "content": {
+    "intro": "Travel and hospitality brands have a natural affinity with CTV that no other vertical enjoys \u2014 travel is fundamentally an aspirational category where the visual storytelling capability of the television screen does work that no 300x250 banner ever could. A 30-second CTV spot for a Caribbean resort featuring aerial drone footage, turquoise water, and an empty beach can move a viewer from 'I should plan a trip' to 'I need to book this week' in a way that programmatic display retargeting cannot replicate. The challenge is that 80% of CTV travel campaigns are built around generic destination imagery and fail to connect that inspirational moment to a specific booking action \u2014 this checklist builds the bridge.",
+    "sections": [
+      {
+        "heading": "Strategic Planning & Booking Window Alignment",
+        "items": [
+          {
+            "title": "Map CTV flight windows to the booking curve for each travel product type",
+            "description": "Travel CTV should launch at the opening of the primary booking window for each product, not at the travel date. Hotel and airline summer travel booking peaks in January\u2013March for June\u2013August travel \u2014 CTV must be live by late December to influence early bookers who represent 30\u201340% of total summer travel volume. Holiday travel books in August\u2013September. Launching CTV in April for June travel reaches only the last-minute segment, missing the full booking curve.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build separate CTV flights for inspiration (upper funnel) and direct booking (lower funnel) objectives",
+            "description": "Upper-funnel CTV (destination awareness, brand consideration) should run 10\u201314 weeks before peak travel period with aspirational creative and broad audience targeting. Lower-funnel CTV (direct booking CTAs, rate/availability creative, loyalty program enrollment) should run 4\u20136 weeks before peak travel, targeting in-market traveler audiences with specific booking offers. Conflating both objectives in a single campaign undermines both \u2014 lower-funnel creative shown too early fails to convert; upper-funnel creative shown too late misses the awareness building window.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Plan CTV spend around 'Dream Vacation Month' \u2014 January is the highest-intent travel booking window",
+            "description": "January is the single highest-volume booking month for summer cruises and international leisure travel in the US. Post-holiday consumer mindset (new year resolutions to travel, post-holiday blues) creates peak travel intent precisely when most travel brands are cutting media spend. CTV investment in January for summer/fall travel products captures the highest-volume booking window at potentially below-peak media rates, as many competitors have already exhausted their Q4 budgets.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Establish direct booking attribution methodology before campaign launch",
+            "description": "Travel CTV ROI is measured through direct bookings \u2014 revenue that bypasses OTA commissions (15\u201325% of gross booking value). Set up a distinct direct booking conversion event in your CTV measurement framework (separate from total revenue booked). Track CTV campaign periods against direct booking channel mix: if CTV is working, the percentage of bookings originating from the brand's own website should increase during and after CTV flights vs. pre-flight baselines.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Coordinate CTV flights with hotel revenue management to avoid advertising during low-value inventory windows",
+            "description": "CTV advertising during periods of compressed ADR (average daily rate) due to unsold inventory can drive bookings at discounted rates, improving occupancy but not RevPAR. Coordinate CTV flight timing with revenue management to ensure CTV drives demand during normal or above-normal rate periods. CTV is most effective when it drives demand that the hotel can capture at full rack rate \u2014 not as a last-resort occupancy fill tool.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting & Loyalty Segmentation",
+        "items": [
+          {
+            "title": "Activate travel intent data to target households actively researching travel",
+            "description": "Third-party travel intent data segments are available through DSP data marketplaces: households actively visiting travel booking sites, searching flight routes, or browsing hotel comparison pages. These segments are updated weekly and represent travelers in active consideration mode. Travel intent audiences for CTV campaigns typically deliver 2\u20134x the branded search lift vs. general demographic targeting because they identify households already in the travel planning mindset.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Segment loyalty program members from non-members for distinct CTV creative tracks",
+            "description": "Existing loyalty members (hotel rewards, airline frequent flyer) require completely different CTV creative from cold prospecting audiences. Loyalty member creative should lead with member-exclusive benefits, bonus point offers, and recognition messaging. Non-member prospecting creative should lead with destination aspiration and the value of direct booking without assuming any brand relationship. Mixing these audiences in a single campaign serves neither optimally.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Target business traveler audiences separately for corporate travel and bleisure campaigns",
+            "description": "Business and bleisure travelers have distinct behavior signals: frequent weekday travel patterns, business-class interest, hotel loyalty program engagement, corporate card spending patterns. Build separate CTV campaigns for business traveler audiences targeting premium news, business content, and professional lifestyle programming. Creative for business travelers should emphasize connectivity, loyalty status benefits, and premium service \u2014 not family vacation photography.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build high-net-worth traveler targeting for luxury travel and premium hotel brands",
+            "description": "Luxury travel CTV must reach affluent households on premium streaming inventory (Netflix, Max, Apple TV+) where HNW audiences are increasingly concentrated. Build HNW proxy targeting using income indicators, luxury purchase behavior, premium content consumption, and geographic indicators (affluent ZIP codes, second-home markets). Premium streaming CPMs of $35\u2013$55 are appropriate for luxury travel \u2014 the value of a single HNW travel booking (typically $2,000\u2013$15,000+ per transaction) justifies the premium.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up retargeting audiences from abandoned booking flows for direct response CTV",
+            "description": "Households that began a hotel or flight booking process but didn't complete are your highest-value CTV retargeting audience. Match website abandonment event data (via household IP or clean room) to CTV device IDs for retargeting with specific booking incentive creative. Booking abandonment retargeting via CTV can serve a message like 'Complete your booking \u2014 rates may change' within 24 hours of abandonment, reaching the household on their living room screen with a high-urgency directness.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Requirements & Formats",
+        "items": [
+          {
+            "title": "Lead with the destination experience, not the property specifications, in the first 5 seconds",
+            "description": "CTV travel creative that opens with external shots of a hotel building, resort map, or airline logo fails to create the emotional hook that drives travel consideration. The first 5 seconds must deliver an experiential visual: turquoise water, mountain powder, a vibrant city street at golden hour, or a moment of delight on property. The property and brand identity follow this hook. Travel decisions are emotional before they are rational \u2014 the creative must speak to emotion first.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Build personalized creative variants for each destination or travel product in the campaign portfolio",
+            "description": "A hotel brand advertising 5 destination properties in a single CTV campaign with generic brand creative is wasting the targeting capability of the channel. Build destination-specific :30s creative variants for each property or route (for airlines) and serve destination-specific creative to audiences with demonstrated interest in each destination. Using DCO (dynamic creative optimization) with destination-variant templates is the most efficient approach for brands with large property portfolios.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Include a clear loyalty program enrollment CTA in all CTV creative for direct booking conversion",
+            "description": "CTV is the ideal channel to drive loyalty program enrollment \u2014 the large screen, non-skippable format provides enough attention to communicate the value proposition of joining. Include a QR code (or simple URL) linking to a loyalty program enrollment page as a secondary CTA in all travel CTV creative. Loyalty enrollments from CTV are trackable, high-value conversions: enrolled members book direct at 2\u20133x the rate of non-members and generate significantly higher RevPAR.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Develop separate creative for 'inspiration' vs. 'intent' audience segments within the same CTV campaign",
+            "description": "Upper-funnel inspiration audiences (no known travel intent) respond to emotional storytelling creative (30s, destination lifestyle, minimal CTA). Mid-funnel intent audiences (known travel searchers, loyalty members) respond to specific offer/deal creative with urgency and direct booking CTA (15s, specific offer, clear URL or QR code). Delivering inspiration creative to intent-stage audiences wastes high-conversion-probability impressions on content that's too soft to close.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Run a CTV brand defense strategy to protect direct booking share against OTA CTV spend",
+            "description": "Expedia and Booking.com are among the largest digital advertisers globally and have expanded significantly into CTV advertising. Their CTV creative targets travelers who have already been inspired by hotel brand CTV creative \u2014 essentially hijacking the demand a hotel brand just generated. When running CTV brand campaigns, simultaneously ensure paid search branded defense is fully funded, and monitor your direct vs. OTA booking mix weekly during active CTV flights.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Measure brand search volume lift as the primary in-flight CTV performance proxy for travel",
+            "description": "Travel CTV campaigns take 4\u20138 weeks to generate bookings through the full consideration cycle. Track branded search query volume in Google Search Console weekly during CTV flights \u2014 a well-executed travel CTV campaign should produce 15\u201330% branded search lift within 2\u20133 weeks of air date. Rising branded search is both a confirmation of CTV impact and an actionable signal to increase paid search branded defense bids to capture the demand CTV is generating.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Evaluate incremental reach vs. linear TV before setting CTV budget allocation",
+            "description": "For travel brands running or considering linear TV, CTV's primary value is incremental reach among cord-cutters and cord-nevers \u2014 households that are not reached by linear TV placements. Use Nielsen Media Impact or cross-platform reach tools to model linear TV vs. CTV audience overlap. If your linear TV buy achieves 65% target audience reach, CTV's marginal value is concentrated in the remaining 35% unreached households. This analysis determines optimal CTV/linear split.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Include a direct booking CTA with urgency language in lower-funnel CTV creative",
+            "description": "CTV creative targeting in-market travelers who have already searched for specific destinations should include a time-limited offer or availability signal: 'Limited availability for peak summer,' 'Early-bird rates through March 31,' or 'Book now \u2014 prices changing.' Urgency language in lower-funnel CTV creative increases post-impression site visit rates by 20\u201335% vs. inspirational creative served to the same in-market audience.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For cruise lines and luxury resort brands with long booking windows (customers book 6\u201312 months in advance), launch CTV campaigns in November\u2013December for the upcoming summer season. These early-intent travel CTV impressions reach consumers during a high-research period (post-Thanksgiving, before holiday travel) when cruise and premium resort consideration is naturally high. The booking window for summer Alaska cruises, Mediterranean itineraries, and luxury Caribbean all-inclusives opens in earnest in Q4 of the prior year.",
+      "TripAdvisor's CTV advertising product enables travel brands to reach verified TripAdvisor searchers in their streaming environments, combining declared travel intent signals with premium CTV placement. This is one of the highest-quality travel intent targeting solutions in CTV because it uses first-party TripAdvisor search data rather than third-party modeled intent. CPMs are higher ($35\u2013$55), but cost-per-booking-inquiry typically outperforms standard demographic CTV by 2\u20133x for hotel and destination campaigns.",
+      "Hotel chains should coordinate CTV campaigns with the opening of rate availability on the booking calendar. When new seasonal inventory becomes bookable (typically 11\u201313 months out on most hotel booking engines), running CTV creative that features specific availability and incentive for early booking creates genuine urgency. 'Book by February 28 for early-bird rates' in CTV creative during January drives immediate booking action while the aspiration is fresh from the CTV inspiration.",
+      "Measure the 'OTA leakage rate' during CTV campaigns: track the percentage of bookings coming via OTA channels vs. direct channels weekly during and after CTV flights. If CTV is effectively driving direct booking consideration, the OTA booking percentage should decline relative to the pre-flight baseline as consumers book direct in response to CTV brand exposure. A rising OTA percentage during a CTV brand flight suggests the campaign is building general travel category demand that OTAs are capturing \u2014 a signal that OTA paid search conquest defense needs to be increased simultaneously.",
+      "For destination marketing organizations (DMOs), structure CTV around two distinct economic goals: driving visitor intent (measured by branded destination searches and tourism website visits) and enabling cooperative halo lift for accommodation providers (hotels, vacation rentals, tour operators) who benefit from DMO media investment without contributing to it. Run partner co-op CTV programs where hotels and experiences can contribute budget to augment DMO flights \u2014 this expands reach while creating a funding model that ties DMO CTV to measurable hotel bookings."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard manages travel CTV plans with booking window calendar alignment, loyalty program enrollment conversion tracking, and OTA direct booking share monitoring integrated into the campaign management workflow."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides travel intent audience access, OTA-matched conquesting audiences, and household-level frequency management across streaming platforms for travel brand CTV campaigns."
+      },
+      {
+        "slug": "commspoint-journey",
+        "relevance": "Commspoint Journey maps the multi-device travel consideration pathway from inspiration to booking, identifying CTV's role in the 4\u201312 week journey and optimal sequential channel touchpoints."
+      },
+      {
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen Media Impact models incremental reach of CTV vs. linear TV for travel brands, enabling data-driven budget split decisions between traditional broadcast and streaming video investment."
+      }
+    ],
+    "cta": {
+      "text": "Align your travel CTV plan with booking windows and direct booking attribution \u2014 build it in Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

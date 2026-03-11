@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "cpg",
+    "channel": "linear-tv"
+  },
+  "seo": {
+    "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+    "description": "Linear TV media planning checklist for CPG brands \u2014 covering upfront vs. scatter strategy, GRP targets by category, retailer co-investment alignment, sales lift measurement, and Q4 tent-pole planning.",
+    "keywords": [
+      "CPG linear TV checklist",
+      "FMCG television media planning",
+      "CPG TV upfront strategy",
+      "grocery brand linear TV",
+      "CPG television GRP planning",
+      "Q4 CPG TV advertising",
+      "linear TV CPG attribution",
+      "shopper marketing TV integration"
+    ],
+    "slug": "checklist/linear-tv-cpg"
+  },
+  "content": {
+    "intro": "CPG brands still allocate more of their media budget to linear television than any other format \u2014 and for good reason. Household penetration for mass CPG categories depends on simultaneous reach at scale, and no other channel delivers 20M+ households with a single primetime placement. But linear TV's declining ratings among adults under 50, combined with the explosion of retail media as a measurement-accountable complement, means the planning challenge in 2026 isn't whether to be on TV \u2014 it's how to integrate linear TV investment with retailer joint business plan commitments, RMN co-investment, and a measurement framework that finally connects GRP weight to scanner data velocity.",
+    "sections": [
+      {
+        "heading": "Upfront Planning & Scatter Strategy",
+        "items": [
+          {
+            "title": "Establish upfront vs. scatter budget split based on pricing risk tolerance",
+            "description": "CPG brands typically commit 60\u201375% of their TV budget in the upfront market (each spring, for the next broadcast year) to lock in CPM rates and ratings guarantees. The remaining 25\u201340% in scatter provides flexibility for reactive spending during promotional periods or competitive response. The 2026 midterm election year will tighten scatter inventory significantly in Q3\u2013Q4 \u2014 increase the upfront commitment percentage by 10\u201315 points vs. non-election-year strategy.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Negotiate ratings guarantees and make-good rights for every upfront commitment",
+            "description": "Linear TV viewership has declined consistently, and networks frequently underdeliver on demographic ratings guarantees. Every upfront IO should specify the target demo (typically W25\u201354 or A18\u201349 for broad CPG categories), the guaranteed GRP delivery, and the make-good right (options to air additional spots at no charge or receive credits). Agencies should track quarterly delivery against guarantees throughout the broadcast year.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Map TV daypart selection to category consumption occasions",
+            "description": "Food and beverage CPG brands should prioritize early morning (breakfast context), daytime (cooking/household viewing), and early fringe (dinner preparation time). Personal care brands align with morning and evening routines (news and late-night). Household cleaning aligns with daytime and weekend programming. Daypart selection driven by consumption occasion indexing \u2014 not just cost efficiency \u2014 consistently improves brand relevance scores in tracking studies.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Coordinate TV flight timing with retailer promotional calendar",
+            "description": "Linear TV GRP weight in isolation moves brand awareness but rarely moves store velocity unless it aligns with retailer feature-and-display events. Map your TV flight weeks against the retailer's promotional calendar (obtained from your category management team) to ensure flights coincide with end-cap placement, in-store feature, or digital circular inclusion at major retail partners. This is the CPG planner's version of full-funnel integration.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build Q4 TV plan early to avoid political inventory displacement",
+            "description": "2026 is a midterm election year. Political advertising will displace commercial inventory in contested-seat DMAs in September\u2013November, driving scatter CPMs 20\u201340% above normal levels and forcing pre-emption of confirmed buys. Lock Q4 CPG TV buys in the upfront for critical October\u2013November flights, and build contingency budget for scatter alternatives (CTV, audio) if linear gets pre-empted by political.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Calculate minimum effective GRP weight for brand objectives by category",
+            "description": "Effective reach requires sufficient weekly GRP weight to overcome decay. Food and beverage brands typically need 75\u2013100 weekly GRPs in target demo during active flights to show measurable awareness lift; personal care may require 50\u201375 GRPs weekly. Below-threshold TV buys are costly noise \u2014 if the budget doesn't support effective weight in national buys, consider focusing spend in 3\u20135 key DMAs where weight can be concentrated.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Planning & Network Selection",
+        "items": [
+          {
+            "title": "Negotiate category exclusivity for high-priority programming environments",
+            "description": "Category roadblocking (exclusive category ownership in a specific daypart or program) prevents a private label competitor or challenger brand from appearing in the same break. This is particularly valuable for competitive CPG categories (yogurt, snack bars, cleaning) where the category leader is most at risk. Roadblock pricing is typically 15\u201325% above standard CPMs but eliminates in-break competitive noise.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          },
+          {
+            "title": "Align network and program selection with category target consumer profile",
+            "description": "Use Nielsen Advanced Audience data or cross-reference Nielsen panel with your brand's purchaser profile (from Circana/Nielsen POS data and loyalty card demographics) to identify which networks over-index for your category buyer. Food Network and HGTV over-index for household CPG buyers; MTV and Freeform over-index for Gen Z beauty consumers; Univision/Telemundo are essential for Hispanic-skewing food and beverage brands.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Plan Spanish-language broadcast separately for Hispanic market investment",
+            "description": "Univision and Telemundo require dedicated media investment with Spanish-language creative \u2014 they cannot be served with general-market English creative. Hispanic households over-index on CPG category consumption in food, personal care, and household products. If Hispanic households represent 15%+ of your brand's target purchaser base, maintain a dedicated Spanish-language TV budget of proportional scale.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Review prior-year Nielsen demo delivery data before confirming daypart mix",
+            "description": "Networks frequently under-deliver on advertised demographic compositions. Pull last-year actuals (C3 or C7 ratings for time-shifted viewing) for each network and daypart combination before confirming upfront commitments. Relying on network-provided media kits without independent delivery verification is one of the most common planning errors in CPG broadcast buying.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Assess reach curves for target demo before locking network mix",
+            "description": "Running too many consecutive weeks on a single cable network builds frequency without incremental reach after the first few weeks. Use Nielsen Media Impact or Comscore planning tools to model reach curves across potential network combinations \u2014 the optimal mix for a CPG product launch may require 8\u201310 networks to achieve 85%+ reach of the target demo before frequency becomes saturating.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Include lifestyle cable programming aligned with brand usage occasion for CPG",
+            "description": "For food and beverage brands, cooking and lifestyle programming (Food Network, Bravo, HGTV) creates contextual relevance that general entertainment placements don't achieve. Contextually adjacent programming consistently delivers higher brand recall scores in post-campaign tracking for food CPG. Budget for a contextual premium but negotiate a CPM floor \u2014 contextual placements should not cost more than 25% above demo-equivalent general entertainment buys.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative, Copy & Compliance",
+        "items": [
+          {
+            "title": "Ensure all health and nutrition claims in TV creative are FDA/FTC-compliant",
+            "description": "CPG TV creative making 'natural,' 'clean label,' 'low fat,' 'heart healthy,' or similar claims must be substantiated and comply with FDA standards of identity and FTC advertising substantiation requirements. Health claims in TV ads receive heightened FTC scrutiny. Route all claim language through legal/regulatory review before creative lock and retain documentation of claim substantiation.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Verify alcohol advertising age-gating and placement compliance",
+            "description": "For alcoholic beverage CPG brands, Beer Institute and Distilled Spirits Council guidelines require that at least 71.6% of the audience of any TV placement is of legal drinking age (21+). Certain programming (cartoons, kids' programs) are explicitly prohibited. Verify Nielsen demographic data shows compliant audience age composition for all placements before trafficking alcohol creative.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Develop 15-second and 30-second versions for all CPG TV creative",
+            "description": "Standard CPG TV buys include both :30s (for new product launches where communication complexity requires more time) and :15s (for reminders and promotional flights where brand equity is established). :15s are typically priced at 55\u201365% of :30s on comparable time, offering significant cost efficiency in frequency-building phases. Plan for both lengths in the creative brief.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Ensure CALM Act audio loudness compliance for all TV creative masters",
+            "description": "The Commercial Advertisement Loudness Mitigation (CALM) Act requires TV ads to match program audio levels. Networks will reject non-compliant audio masters and return them for correction \u2014 which can cause flight delays. Confirm all creative masters are mixed to ATSC A/85 loudness standards before trafficking. Most network clearance teams flag this within 48 hours of receipt.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Pre-arrange TV-to-sales-lift measurement before the flight, not after",
+            "description": "TV\u2192retail sales attribution requires matched-market design (test DMAs with TV weight vs. control DMAs without) or household-level panel data from Nielsen or Circana. Measurement vendors (NCSolutions, IRI/Circana, Nielsen Catalina Solutions) need 4\u20138 weeks of lead time to set up the measurement framework. Trying to attribute TV to sales velocity retroactively using only GRP data and POS sales delivers no statistically valid insight.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Layer Nielsen or Circana POS data against GRP delivery for market-level correlation",
+            "description": "After the TV flight, run a DMA-level regression: market velocity (units per store per week from Circana/Nielsen POS) vs. TV GRP delivery by market. CPG TV campaigns generating significant sales lift will show a positive correlation between GRP weight and velocity uplift. Markets with similar distribution and promotion but higher GRP weight should show measurably faster velocity growth.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Track brand awareness and purchase intent lift via continuous tracking study",
+            "description": "For major brand campaigns, commission a brand tracker study (Ipsos, Kantar, or Millward Brown methodology) with pre-flight, mid-flight, and post-flight waves. Track unaided brand awareness, brand consideration, purchase intent, and message association scores. A brand with strong TV GRP delivery that shows no brand tracking movement has a creative or message problem, not a media problem \u2014 this distinction requires the tracking data to diagnose.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Establish a 'media dark' market comparison methodology for incrementality",
+            "description": "Hold 10\u201315% of TV budget back from 2\u20133 demographically matched DMAs to create true media-dark control markets. Compare brand velocity, awareness, and household penetration metrics in active vs. dark markets over the campaign period. This controlled approach to TV incrementality is more rigorous than pre/post analysis alone and provides the evidence needed to defend or expand the TV budget line.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For new product launches, the first 6\u20138 weeks of TV should run heavier GRP weight (100+ weekly GRPs) with a single 30-second message to establish brand identity. Cutting to :15s or rotating multiple messages too early in the launch phase undermines the awareness threshold needed for shelf trial. Don't optimize for efficiency before you've built sufficient awareness to motivate retailer buyers and consumers alike.",
+      "In years with concentrated political advertising (2026 midterms), preemptively negotiate 'political protection' clauses into your IO for key election season programming \u2014 news adjacency is particularly vulnerable. Some network rep firms will sell pre-emption-protected guaranteed positions at a 10\u201320% premium that insulates your schedule from political displacement. This insurance is often worth the price for tent-pole campaign timing.",
+      "Align TV creative with the retailer's key in-store promotional period with 2-week precision. If a major retailer has your brand on the end-cap during weeks 14\u201316 of the year, your heaviest TV GRP weight should fall in exactly those same weeks. The combination of TV push and in-store pull, when aligned, typically generates 2\u20133x the sales lift of either in isolation, yet most CPG brands still plan these independently.",
+      "Use Nielsen's Nielsen Advanced Audiences product (bought through the network) rather than standard age/gender demo buys when targeting a specific CPG buyer profile. Advanced audience segments can target 'heavy category buyers' or 'brand switchers' using panel-based purchase behavior overlaid on linear viewing data. The CPM premium is typically 15\u201325% vs. standard demo buys but reduces wastage significantly for established-category brands defending against private label.",
+      "Run a regression between your brand's TV weight in each DMA and your Google Trends branded search volume in that same DMA over the same period. TV-to-search correlation is one of the fastest and most cost-effective ways to quantify TV's brand-building impact without waiting for the POS sales data. A strong correlation (R\u00b2 > 0.5) across markets is compelling evidence for the TV budget in stakeholder reviews."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard's planning workspace connects CPG linear TV line items with RMN co-investment planning, aligning GRP delivery windows with retailer promotional calendar timing in one view."
+      },
+      {
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen Media Impact is essential for CPG TV planners \u2014 it models reach/frequency across network combinations, outputs GRP curves by target demo, and supports cross-linear/CTV deduplication."
+      },
+      {
+        "slug": "mediaocean",
+        "relevance": "Mediaocean is the dominant broadcast buying and reconciliation platform used by CPG holding company agencies for linear TV upfront and scatter buying, invoice management, and post-buy analysis."
+      },
+      {
+        "slug": "commspoint-journey",
+        "relevance": "Commspoint Journey maps the CPG consumer purchase path and helps planners model the relative contribution of TV at each stage of the brand funnel, supporting optimal budget allocation decisions."
+      }
+    ],
+    "cta": {
+      "text": "Align your CPG TV plan with retailer co-investment and RMN schedules \u2014 build it in Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

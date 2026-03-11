@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "entertainment",
+    "channel": "youtube"
+  },
+  "seo": {
+    "title": "YouTube / Online Video Media Planning Checklist for Entertainment / Media / Streaming Brands",
+    "description": "YouTube media planning checklist for entertainment marketers — covering trailer strategy, creator partnerships, brand lift, and CTV inventory planning.",
+    "keywords": ["YouTube entertainment advertising", "film marketing YouTube", "streaming service YouTube ads", "trailer campaign YouTube", "YouTube brand lift entertainment", "TrueView entertainment", "YouTube CTV entertainment"],
+    "slug": "checklist/youtube-entertainment"
+  },
+  "content": {
+    "intro": "YouTube has displaced Netflix as the most-watched streaming service on US connected TVs, making it simultaneously the world's largest video advertising platform and a direct competitor to the streaming services buying ads on it. For entertainment brands, YouTube's unique position as both a search engine (the second largest globally) and a lean-back TV experience means theatrical trailers, streaming service spots, and gaming launch videos must be architected to work across three distinct contexts: mobile-first discovery, YouTube CTV primetime, and YouTube search intent capture for title-specific queries. Brands that plan YouTube as a single channel leave significant reach and intent value on the table.",
+    "sections": [
+      {
+        "heading": "Campaign Structure and Objective Setting",
+        "items": [
+          {
+            "title": "Separate YouTube CTV inventory from mobile and desktop in campaign planning",
+            "description": "YouTube on connected TV (TV screen placements) commands $20–$35 CPM vs. $4–$12 for mobile/desktop, but delivers dramatically higher attention, completion rates, and brand recall because of the lean-back context. Plan and budget YouTube CTV inventory as a discrete line item alongside other CTV publishers rather than blending it into a YouTube campaign average. For entertainment launches, YouTube CTV should represent 30–40% of total YouTube spend to capture the premium attention environment.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a campaign architecture covering awareness, intent capture, and retargeting",
+            "description": "YouTube's unique dual role as a discovery platform (TrueView, in-feed) and a search/intent platform (YouTube Search, in-feed keyword targeting) requires a three-layer campaign structure: (1) Awareness layer — skippable in-stream or non-skippable for reach; (2) Intent layer — in-feed video ads appearing in YouTube search results for title-specific queries and genre keywords; (3) Retargeting layer — custom audience re-engagement of trailer viewers and channel subscribers.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set Brand Lift Study parameters before campaign launches, not after",
+            "description": "YouTube's Brand Lift Survey (integrated into Google Ads) measures awareness, ad recall, consideration, and purchase intent lift versus a holdout group — but the holdout group must be established at campaign start. For any entertainment campaign over $150K on YouTube, implement Brand Lift before the first impression serves. The resulting data — typically 2–4 percentage point awareness lift per major entertainment campaign — provides post-mortem evidence of video impact beyond view counts.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Align YouTube campaign timing to theatrical release or streaming premiere calendar",
+            "description": "Film studio YouTube campaigns should ramp spend 4 weeks pre-release (official trailer drops typically in this window), then surge in the final 10 days with maximum weight. Streaming service original content premieres should run YouTube campaigns in the 2-week window before and after episode one drops — the critical subscriber acquisition window before a new series either catches cultural conversation or fades. Build the delivery schedule into Google Ads bid adjustments and campaign flight dates before launch.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting and Intent Strategy",
+        "items": [
+          {
+            "title": "Build custom intent audiences from genre-specific and title-specific search queries",
+            "description": "YouTube's custom intent audiences capture users who recently searched related terms on Google. For a sci-fi streaming series launch, build audiences from search queries like 'best sci-fi shows 2025,' 'sci-fi series streaming,' and '[competitive title] season 2' — these represent peak in-market viewers for your content category. Custom intent audiences consistently outperform affinity audiences for streaming acquisition campaigns, with 40–60% lower CPS.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use YouTube in-market audiences: 'Movie Tickets' and 'Gaming Apps' for vertical-specific campaigns",
+            "description": "Google's in-market audience segments include 'Movie and Theater Tickets,' 'Streaming Service Subscribers,' 'Mobile Games,' and 'Console and PC Games.' These segments capture users actively researching and purchasing in each category based on Google Search and YouTube viewing behavior. For theatrical releases, the 'Movie and Theater Tickets' in-market segment delivers 2x–3x higher purchase intent than broad demographic targeting alone.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Target competitive streaming service subscribers using placement exclusions and content categories",
+            "description": "For streaming service acquisition, identify the YouTube channels and content categories most watched by subscribers of your target competitor platforms. A service targeting Netflix cord-cutters should buy in-stream inventory within 'binge-worthy drama' and 'Netflix-adjacent' content channels. Layer custom affinity audiences built around competitor platform URLs with content category targeting for a double-filter approach to competitive conquest.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Activate Customer Match with CRM email lists for churned subscriber reactivation",
+            "description": "For streaming services, upload churned subscriber email lists to Google's Customer Match to create a YouTube retargeting audience of lapsed users. Serve this audience a reactivation video ad featuring new original content released since they cancelled, with a discounted return offer. Customer Match-based reactivation audiences on YouTube consistently show 3x–5x higher subscription re-conversion rates than cold prospecting, and are one of the highest-ROI audience strategies available in the channel.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Use placement targeting on competitor franchise fan channels for conquest campaigns",
+            "description": "YouTube allows direct placement targeting on specific channels and videos. For a new action franchise launch, identify the 20–50 most-watched fan channels, reaction channels, and review channels for competing franchises and buy in-stream ads directly against their content. This laser-focused placement strategy ensures your trailer appears in front of the exact audience already demonstrating appetite for your genre — often at lower effective CPMs than broad targeting.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Strategy and Format Mix",
+        "items": [
+          {
+            "title": "Engineer the first 5 seconds of every skippable ad to defeat the skip button",
+            "description": "On YouTube skippable in-stream ads, 60–70% of viewers will skip at the 5-second mark unless compelled to stay. For entertainment, this 5-second window must contain: a recognizable star's face, a visually arresting action sequence, or a dramatically intriguing story hook. Studios that A/B test their 5-second opening retain 40–50% of viewers through the full trailer vs. 20–25% for ads with slow-burn openers. Build the skip-defeating hook into the script brief, not as an edit afterthought.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use the 15-second non-skippable + 6-second bumper sequence for frequency-efficient brand building",
+            "description": "YouTube's 'Reach and Frequency' buying allows sequenced delivery of a 15-second non-skippable ad followed by a 6-second bumper reminder to the same user. This format pair — a proven combination for entertainment campaigns — delivers the full story arc in the 15s then locks in the key message in the 6s bumper. Studies show this sequence drives 20–30% higher ad recall vs. either format alone. Budget this format for the final 2 weeks of any theatrical launch campaign.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Produce dedicated in-feed video ad creative for YouTube search placements",
+            "description": "In-feed video ads appear in YouTube search results and suggested video sidebars — a discovery context entirely different from in-stream pre-roll. In-feed ads require a compelling thumbnail image and a title that reads like organic YouTube content ('Watch the First 10 Minutes of [Title],' 'Why Everyone Is Talking About [Series]'). Entertainment brands that repurpose in-stream creative as in-feed ads without adaptation see 60–70% lower CTR vs. natively designed in-feed units.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Produce YouTube Shorts ads for Gen Z reach on gaming and entertainment launches",
+            "description": "YouTube Shorts has reached 70B+ daily views globally and the Shorts feed is a native space for gaming, entertainment, and music content. For gaming launches and entertainment brands targeting A18–24, YouTube Shorts ads (vertical 9:16, 15–60 seconds) offer lower CPMs than standard in-stream and reach a Gen Z audience whose YouTube behavior is primarily Shorts-first. Produce Shorts-native creative — not resized trailers — with fast cuts, text overlays, and trend-aware audio.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Negotiate YouTube Select Lineup placements for premium content franchise adjacency",
+            "description": "YouTube Select Lineups package the top 5% of most-watched YouTube channels into curated, brand-safe contextual environments: entertainment, gaming, music, sports, and more. For a Marvel or Star Wars franchise release, buying the 'Entertainment' or 'Film & Animation' YouTube Select Lineup guarantees adjacency to the highest-affinity entertainment content on the platform at guaranteed CPMs of $20–$35. This premium placement signals cultural importance and reaches authentic franchise fans.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creator and Organic Content Integration",
+        "items": [
+          {
+            "title": "Identify the top 50 creator channels by genre and franchise for direct partnership deals",
+            "description": "YouTube's creator ecosystem — reaction channels, review channels, lore-explainer channels, genre fan channels — commands deeply loyal, high-intent audiences. For major entertainment launches, direct creator partnership deals (paid sponsorship segments within organic videos) outside the Google Ads system generate authenticity that pre-roll cannot replicate. Use Magellan AI or Podscribe data to identify which YouTube creator channels have the highest engagement rates with your target content genre before outreach.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Amplify creator-published content as paid in-feed ads via Video Discovery campaigns",
+            "description": "Once a creator partner publishes their sponsored or seeded video, amplify it as a YouTube In-Feed Video Ad (Video Discovery campaign type) targeting the creator's own subscriber audience plus related genre fans. This approach combines the creator's organic credibility with paid distribution scale. Creator-amplified in-feed ads for entertainment launches achieve 3x–5x higher view-through rates vs. brand-produced in-feed content because the creator's face and thumbnail style earns viewer trust.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and Search Lift Attribution",
+        "items": [
+          {
+            "title": "Track YouTube Search Lift as a leading indicator of campaign effectiveness",
+            "description": "YouTube's Brand Lift survey includes a Search Lift metric — the incremental increase in YouTube and Google searches for your brand or title among exposed audiences vs. a holdout group. For theatrical launches, a 5–15% search lift for the film's title is a strong leading indicator of opening-weekend box office success. Monitor search lift in weekly Brand Lift reports and reallocate spend toward the targeting segments driving the highest search lift, not just the lowest CPV.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Measure organic video view lift via creator content alongside paid campaign metrics",
+            "description": "Entertainment campaigns on YouTube have a dual-channel measurement obligation: paid campaign metrics (views, VTR, CPV, brand lift) AND organic content performance (trailer view count growth, organic share rate, comment sentiment). A theatrical trailer that goes viral on YouTube — exceeding 5–10M organic views in the launch window — represents $500K–$2M+ in equivalent paid media value. Build organic view velocity tracking alongside paid campaign dashboards and attribute the interaction effect.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Reconcile YouTube view counts with paying audience segmentation in post-campaign analysis",
+            "description": "100M trailer views is a vanity metric without audience composition analysis. Pull YouTube Analytics demographic breakdowns to confirm what percentage of views came from your target A18–49 demographic vs. children or non-target audiences. For theatrical and gaming campaigns, verify that GRP-equivalent delivery matches the planned target demo composition. Adjust audience targeting in flight if demographic delivery skews more than 15% away from plan.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For film studios with recurring franchise launches, build a YouTube Managed Account agreement with Google that includes annual upfront deals combining YouTube Select reservations, YouTube CTV inventory, and Creator partnership marketplace access. Studios spending $5M+ annually on YouTube qualify for strategic partnership support that unlocks first-look at new ad product betas and premium inventory access before open-market availability.",
+      "Run your theatrical trailer on YouTube as a paid in-feed discovery ad before it goes viral organically — in the first 48 hours after a trailer drops, YouTube in-feed ads targeting your own YouTube channel subscribers and genre fans can accelerate organic viral spread by 2x–3x by seeding the algorithm with early view velocity and engagement signals that YouTube's recommendation system rewards.",
+      "Never use a single audience segment for a theatrical campaign. Use audience layering: combine a genre-affinity audience (sci-fi enthusiasts) with a device-type filter (connected TV only for CTV-positioned campaigns) AND a daypart restriction (7–11pm for primetime lean-back audiences). This three-layer approach can reduce CPM by 15–25% while dramatically increasing ad relevance scores because the algorithm finds concentrated, high-intent viewers.",
+      "Video podcasting is YouTube's fastest-growing entertainment content category. For streaming services and entertainment brands targeting 25–45 audiences, sponsor the pre-roll and mid-roll positions on the top 10–20 video podcast shows in your genre category — these audiences actively consume long-form audio/video content and are disproportionately likely to subscribe to complementary streaming services.",
+      "Use YouTube's Comparison Lift feature (available for campaigns over $500K) to measure the causal impact of YouTube spend on lower-funnel conversions — specifically streaming subscriptions and theatrical ticket purchases via integration with Google's conversion tracking. Comparison Lift is more rigorous than view-through attribution because it uses a geo-based holdout design that separates YouTube's incremental contribution from organic conversion."
+    ],
+    "related_tools": [
+      {"slug": "halliard", "relevance": "Halliard integrates YouTube alongside CTV, paid social, and display in a unified entertainment launch media plan, enabling cross-channel reach deduplication and consolidated performance reporting across all video channels."},
+      {"slug": "google-dv360", "relevance": "DV360 provides programmatic access to YouTube inventory including YouTube CTV, with integrated Brand Lift study setup, audience management, and cross-channel attribution alongside other Google-sold inventory."},
+      {"slug": "nielsen-media-impact", "relevance": "Nielsen Media Impact models reach and frequency across linear TV, YouTube CTV, and digital video together — essential for entertainment brands managing total video investment and planning incremental reach from YouTube."},
+      {"slug": "the-trade-desk", "relevance": "The Trade Desk's video planning tools allow YouTube CTV to be planned alongside non-Google CTV publishers in a holistic cross-screen video strategy, useful for entertainment brands managing multi-DSP video campaigns."}
+    ],
+    "cta": {
+      "text": "Build your entire entertainment launch media plan — YouTube, CTV, social, and beyond — in one place with Halliard. Try it free.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

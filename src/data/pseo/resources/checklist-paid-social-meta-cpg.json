@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "cpg",
+    "channel": "paid-social-meta"
+  },
+  "seo": {
+    "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+    "description": "Meta paid social planning checklist for CPG brands \u2014 covering Advantage+ campaigns, new product launch sequencing, DPA catalog strategy, health claims compliance, and shopper intent amplification.",
+    "keywords": [
+      "CPG Meta advertising checklist",
+      "FMCG Facebook Instagram strategy",
+      "CPG Advantage+ campaigns",
+      "grocery brand Meta ads",
+      "CPG paid social planning",
+      "new product launch Meta CPG",
+      "CPG Facebook catalog ads",
+      "Meta FMCG media planning"
+    ],
+    "slug": "checklist/paid-social-meta-cpg"
+  },
+  "content": {
+    "intro": "Meta advertising is how CPG brands close the gap between national TV awareness and retailer shelf conversion \u2014 it's where your target household sees a product in a recipe video on Tuesday and receives a dynamic catalog ad featuring the same product on Wednesday before their Thursday Kroger run. The CPG opportunity on Meta is not the ROAS it generates in isolation (which is modest for most food, beverage, and household brands); it's the role Meta plays as the social proof and purchase-intent amplifier in a larger media system where TV builds awareness and retail media captures the conversion at shelf.",
+    "sections": [
+      {
+        "heading": "Campaign Objective & Structure",
+        "items": [
+          {
+            "title": "Separate brand awareness objectives from sales/conversion objectives in campaign structure",
+            "description": "CPG Meta campaigns serve two distinct purposes: upper-funnel brand building (reach, video views, brand awareness objective) and lower-funnel sales activation (conversions, catalog sales, store traffic objective). These objectives require different bidding strategies, creative formats, and success metrics. Mixing them in a single campaign forces the algorithm into a conflicted optimization state. Run separate campaigns with separate budgets for each role in the funnel.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Deploy Advantage+ Shopping Campaigns for conversion-focused product promotions",
+            "description": "Meta's Advantage+ Shopping Campaigns (ASC) use AI to automatically allocate budget between prospecting and retargeting audiences based on real-time conversion signals. For CPG brands with functioning e-commerce or DTC channels, ASC consistently outperforms manual audience targeting on ROAS. Start with a 14-day learning phase, provide minimum 50 purchase events/week, and allow the algorithm to find its own optimization patterns before intervening.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build Reach & Frequency campaigns for new product launch awareness bursts",
+            "description": "CPG new product launches require guaranteed reach against specific audiences during the launch window \u2014 Meta's Reach & Frequency (R&F) buying mode allows pre-booking of reach against a defined target audience at a fixed CPM. For a brand launching a new SKU into national retail distribution, R&F ensures the awareness message reaches the defined household target 3\u20135 times during the critical 4\u20136 week trial stimulation window without the volatility of auction-based buying.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set CAPI (Conversions API) server-side implementation as the first technical prerequisite",
+            "description": "For CPG brands with e-commerce, DTC, or retailer affiliate conversion tracking, server-side CAPI implementation is the foundation of reliable Meta attribution post-iOS ATT. Without CAPI, 20\u201340% of conversion signals from iOS users are invisible to Meta's optimization algorithm. Most CPG brands without CAPI see inflated CPA numbers and underperforming algorithm learning phases. This is a development task that must be completed before any conversion objective campaign launches.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Plan for Q4 CPM inflation by locking budgets and creative earlier",
+            "description": "Q4 is the most critical CPG advertising period (35\u201350% of annual spend concentrated in Nov\u2013Dec), but Q4 also sees CPM peaks of $25\u2013$35+ in the US as all categories compete simultaneously. CPG brands that wait until October to plan their Q4 creative and audiences are entering an already-inflated auction. Final Q4 creative should be locked by September 1, audiences built by October 1, and campaigns launched in learning phase by October 15 before the peak price surge.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Strategy & Targeting",
+        "items": [
+          {
+            "title": "Build category purchase intent audiences using Meta's CPG purchase behavior segments",
+            "description": "Meta's interest and behavioral targeting includes 'grocery shoppers,' 'frequent travelers,' 'household income' indicators, and category-specific behavior segments. For CPG, layer 'health & wellness interest' for better-for-you brands, 'food and cooking interest' for food categories, and 'parenting' for family-size product targeting. These are imprecise but provide directional relevance in the absence of first-party purchaser data.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Activate Custom Audiences from retailer partner data (where available) via clean rooms",
+            "description": "Some CPG brands with data-sharing agreements with major retailers (Kroger, Target, Albertsons) can onboard retailer loyalty card purchaser data via LiveRamp or CDP integrations to build Meta Custom Audiences of known category buyers. This is the highest-value CPG targeting approach on Meta and enables reach to verified purchasers rather than interest proxies. Confirm clean room data use terms with each retailer partner before activation.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Build lookalike audiences from brand website visitors and DTC purchasers",
+            "description": "For CPG brands with DTC e-commerce sites or high-traffic brand.com properties, Meta Pixel-based website visitor Custom Audiences provide the seed for 1% lookalike audiences that index toward likely category purchasers. Even brands without significant DTC sales volumes generate enough website traffic for statistically valid lookalike seeds \u2014 a 10,000-person seed audience is sufficient to build a quality 1% national lookalike.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Segment audiences by household composition for family-size and single-serve targeting",
+            "description": "Meta's household composition targeting (families with children, single-person households) enables product sizing alignment \u2014 target family-size pack creative at households with children 6\u201312; target single-serve or snacking creative at single/couple households 22\u201335 in urban markets. This segmentation requires separate ad sets with distinct creatives and CPM expectations for each household type.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Test Advantage+ Audience (fully algorithmic) against custom audience targeting",
+            "description": "Meta's Advantage+ Audience mode removes manual targeting constraints and allows Meta's algorithm to find converters or brand engagers across the full Meta ecosystem. For CPG brands with established CAPI signals, Advantage+ Audience often outperforms manually defined audiences by 15\u201325% on CPM efficiency because the algorithm can find cross-category converters that rigid interest targeting excludes. Run a 30-day A/B test before committing fully to either approach.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Plan separate audience strategies for Hispanic and multicultural CPG consumers",
+            "description": "Meta's Spanish-language targeting, combined with interest segments for Hispanic culture, food, and family occasions, enables CPG brands to reach Hispanic households who over-index on category consumption in food, beverages, and personal care. Serve Spanish-language creative to Spanish-language-preference audiences. Multicultural creative investment on Meta is chronically underfunded in CPG \u2014 brands that invest appropriately see 15\u201330% incremental household reach among high-value consumer segments.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative Strategy for CPG",
+        "items": [
+          {
+            "title": "Lead with product in context, not just pack shot, in the first 3 seconds",
+            "description": "CPG Meta creative must show the product in a consumption moment \u2014 not floating on a white background. Research consistently shows that lifestyle-in-context creative (family at breakfast table with the product visible in use) generates 30\u201350% higher engagement rates than pack-shot-only creative on Meta. The first 3 seconds must feature the product organically integrated into a real usage scenario to stop the scroll.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Ensure all health and 'free-from' claims in Meta creative pass FTC substantiation review",
+            "description": "CPG Meta creative is fully subject to FTC advertising substantiation requirements \u2014 'all-natural,' 'clinically proven,' 'antioxidant-rich,' and similar claims require documented substantiation. Meta's own ad policies also prohibit misleading health claims and can take down non-compliant creative without warning. Route all health claim language through legal review before creative goes live, maintaining a claims substantiation file for each claim used.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a minimum of 5\u20138 creative variants per campaign to combat Meta ad fatigue",
+            "description": "Meta campaigns require fresh creative to maintain algorithm efficiency. Average frequency above 3\u20134 impressions/user signals creative fatigue and drives CPM increases as the algorithm struggles to find new audiences. For an 8-week CPG campaign, plan to introduce at least 2\u20133 new creative variants every 2 weeks. Pre-produce a creative bank of 8+ variants before launch rather than producing reactively mid-flight.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Test creator/UGC-style content against polished brand production creative",
+            "description": "For CPG categories where authenticity and relatability drive trial (snacking, beverages, beauty, personal care), creator-produced or UGC-style content routinely outperforms polished brand production creative on Meta by 20\u201340% on CTR and cost-per-landing-page-view. Commission 3\u20135 creator content pieces alongside the brand production suite and test them in parallel. The best-performing creator content can then be amplified with Spark Ad-equivalent Meta boosting.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Develop Reels-native creative for Instagram and Facebook Reels placements",
+            "description": "Reels is the fastest-growing Meta placement format and delivers CPMs 20\u201330% below Feed on a reach-equivalent basis. However, Feed-format creative performs poorly in Reels without adaptation. Reels-native CPG creative should be vertical (9:16), under 30 seconds, feature text overlays with product name and key benefit, and ideally follow the 'hook-problem-solution-product' story arc that native content creators use.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Align Meta flight timing with retailer feature-and-display weeks",
+            "description": "CPG Meta campaigns generate the most measurable impact when they run concurrent with retailer promotional events (end-cap placement, digital circular features, in-store demo weeks). Coordinate Meta media flights with the trade marketing calendar so that brand social impressions occur in the same 2-week window as retailer activation. The combination of Meta reach and retailer conversion surface delivers 2\u20134x the incremental sales lift of either alone.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use 'Store Traffic' objective campaigns for CPG brands with significant brick-and-mortar retail distribution",
+            "description": "Meta's Store Traffic campaign objective optimizes for driving physical retail store visits, using Meta's location data to find users near retailer locations and measure store visit attribution. For CPG brands with wide brick-and-mortar distribution, this objective connects Meta investment to in-store trial more directly than conversion objective campaigns. Requires Meta Business Locations setup with retailer store addresses.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Run separate Meta campaigns to support digital circular promotions on key retailer apps",
+            "description": "When a CPG brand runs a feature in a retailer's digital circular (Kroger app, Target Circle, Instacart storefront promotion), amplify it with a geofenced Meta campaign targeting households within 5 miles of participating retailer locations, featuring the promotional price and CTA 'Now at [Retailer].' This coordinated approach can increase circular coupon redemption rates by 25\u201340% compared to circular-only activation.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For CPG seasonal limited editions (holiday packaging, summer flavors), launch Meta campaigns with a 'product reveal' video creative in the first week of the flight before the product is widely available on shelves. This builds anticipation and drives early retail search behavior that benefits sponsored search visibility at RMNs. Consumers who 'discover' a new limited edition on Meta before seeing it in store arrive at retail with pre-formed purchase intent.",
+      "Meta's 'collaborative ads' product (CPAS \u2014 Collaborative Ads) allows CPG brands to run dynamic ads that link directly to product listings on retailer partner websites (Walmart, Target, Instacart, Kroger) rather than the brand's own DTC site. This is the most direct bridge between Meta awareness and retail purchase, and the retailer's closed-loop attribution makes it one of the few Meta formats with actual purchase attribution for brands without DTC e-commerce.",
+      "A/B test video thumbnail images with explicit product labeling vs. lifestyle-only thumbnails in Feed placements. For CPG brands with strong on-pack brand equity (Tide, Lay's, Heinz), showing the pack prominently in the thumbnail generates 15\u201320% higher click-through rates than lifestyle thumbnails where the product is secondary. For challenger or new brands with lower brand recognition, lifestyle-first thumbnails outperform because the human/occasion context provides more relevance cues.",
+      "Monitor the CARU (Children's Advertising Review Unit) guidelines when targeting Meta audiences for CPG products that might be construed as primarily child-appealing (candy, cereals, sugary beverages). COPPA and CARU standards apply to online advertising directed at children under 13. Meta's minimum targeting age is 13, but serving sugary food creative to 13\u201317 audiences draws regulatory scrutiny from CARU. Exclude under-18 from any CPG category where child advertising restrictions apply.",
+      "Use Meta's 'creative-first' testing approach: before scaling a CPG campaign, run a 50/50 split on 4\u20136 creative concepts with $500\u2013$1,000 per concept in a small audience test pool for 72 hours. The winning concept's early CTR and cost-per-landing-page-view predict large-scale campaign performance with approximately 80% accuracy. This process pays for itself by avoiding scaling of underperforming creative."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard connects CPG Meta campaign planning with retailer promotional calendar alignment and RMN co-investment schedules, preventing the common silo problem where Meta and trade marketing operate independently."
+      },
+      {
+        "slug": "meta-business-manager",
+        "relevance": "Meta Business Manager is the required platform for managing CPG Meta advertising, audience setup, CAPI configuration, and multi-account access for agency and brand-side teams."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic's media planning workflow documents CPG Meta line items alongside TV, RMN, and other channels, providing unified plan management with clear budget allocation across shopper and brand media."
+      },
+      {
+        "slug": "gwi",
+        "relevance": "GWI's audience intelligence platform provides category-level CPG consumer behavior and media habit data to inform Meta targeting strategy and creative message hierarchy for specific product segments."
+      }
+    ],
+    "cta": {
+      "text": "Coordinate your CPG Meta campaign with retailer promotional weeks and RMN co-investment \u2014 plan it in Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

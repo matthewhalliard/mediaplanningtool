@@ -2,142 +2,291 @@
   "meta": {
     "content_type": "checklist",
     "vertical": "automotive",
-    "channel": "ctv",
-    "role": "media-planner"
+    "channel": "ctv"
   },
   "seo": {
-    "title": "CTV Advertising Checklist for Automotive Brands | Media Planning Tool",
-    "description": "Complete connected TV advertising checklist for automotive dealerships and OEMs. Cover audience targeting, frequency capping, inventory strategy, and measurement for CTV campaigns.",
-    "keywords": ["ctv advertising automotive", "connected tv car ads", "automotive ctv checklist", "dealer ctv campaign", "streaming tv automotive", "oem ctv strategy"],
-    "slug": "checklist-ctv-automotive"
+    "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Automotive Brands",
+    "description": "Step-by-step CTV media planning checklist for automotive advertisers \u2014 covering geo-targeting, inventory-aware DCO, co-op compliance, and attribution across the 8\u201312 week car-buying journey.",
+    "keywords": [
+      "automotive CTV advertising",
+      "car dealer CTV checklist",
+      "OEM streaming media planning",
+      "CTV auto advertising",
+      "dealer co-op CTV",
+      "automotive programmatic video",
+      "VDP retargeting CTV",
+      "connected TV auto campaign"
+    ],
+    "slug": "checklist/ctv-automotive"
   },
   "content": {
-    "intro": "Connected TV is the fastest-growing channel for automotive advertisers, with 61% of car shoppers reporting CTV influenced their purchase decision. This checklist covers every step of planning, launching, and measuring a CTV campaign for automotive brands — from OEM Tier 1 national buys to Tier 3 individual dealer campaigns. Use it to ensure no critical setup step is missed before your first impression serves.",
+    "intro": "Car shoppers are spending an average of 72 days in the consideration funnel, and 61% report that CTV advertising directly influenced their purchase decision \u2014 yet most dealer-tier campaigns still lack household-level frequency caps, letting the same household see the same 30-second spot 10+ times in a week. Getting CTV right in automotive means aligning Tier 1 OEM brand money, Tier 2 regional association flights, and Tier 3 dealer local buys on a single frequency management framework. This checklist walks through every step, from campaign brief to post-flight attribution.",
     "sections": [
       {
-        "heading": "Pre-Campaign Setup",
+        "heading": "Campaign Strategy & Tier Alignment",
         "items": [
           {
-            "title": "Define tier-level campaign objectives",
-            "description": "Clarify whether this is a Tier 1 OEM brand campaign (awareness/consideration), Tier 2 regional dealer association campaign (model promotion), or Tier 3 individual dealer campaign (lot traffic/leads). Each tier has different KPIs, budgets, and creative requirements.",
+            "title": "Clarify tier ownership before buying a single impression",
+            "description": "Map out which CTV line items are OEM-funded (Tier 1), dealer-association-funded (Tier 2), or individual dealer-funded (Tier 3). Overlapping flights on the same DMA without frequency coordination inflate household exposure and drive viewer fatigue. Document the tier split in the media plan before approaching any DSP or streaming publisher.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
-            "title": "Set household-level frequency caps",
-            "description": "Configure frequency caps at 3–5 exposures per household per week across all publishers. Over-frequency is the number-one CTV viewer complaint and wastes budget on diminishing returns. Coordinate caps across DSP and direct publisher buys.",
+            "title": "Align CTV creative strategy to model-year calendar",
+            "description": "Model-year-end clearance peaks August\u2013September while new model-year conquest launches follow immediately after. Build separate campaign structures for each messaging phase \u2014 clearance creative must carry lease/APR disclosure language that differs from launch conquest creative, and audiences need to be suppressed between phases to avoid delivering conflicting messages to the same household.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
-            "title": "Establish DMA-level geo-targeting",
-            "description": "Map campaign geo-targeting to dealership primary market areas (PMAs). For Tier 3 dealers, target the specific DMA or zip codes within the dealer's selling radius. For Tier 2, align to the regional association footprint.",
+            "title": "Define EV vs. ICE campaign separation from the outset",
+            "description": "EV-conquest audiences (early adopter, range-anxiety-concerned mainstream buyer) require distinct audience segments and different creative messaging compared to ICE vehicle campaigns. Combining them in a single campaign structure leads to wasted impressions and muddled attribution. Separate campaign objectives \u2014 EV awareness vs. ICE conquest \u2014 from day one.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build the seasonal media calendar around tent-pole sales events",
+            "description": "Memorial Day, Labor Day, and Black Friday each require a 4\u20136 week CTV build-up phase before peak. Map CTV flight start dates backward from the event \u2014 upper-funnel awareness impressions should begin 5 weeks out; transition to high-frequency local dealer creative 2 weeks out. Missing this ramp-up window forces expensive last-minute scatter buys at premium CPMs.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Establish co-op eligibility for CTV before launching",
+            "description": "OEM co-op programs typically have an approved channel and vendor list; CTV is on most major OEM programs but often with specific DSP, creative length, and disclosure requirements. Confirm co-op eligibility before committing dealer budgets. Dealers who spend first and then discover CTV doesn't qualify face real cash-flow exposure given the accrual-and-claim model.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
-            "title": "Upload first-party DMS/CRM audience segments",
-            "description": "Activate dealership CRM data (past buyers, service customers, website VDP visitors) through your DSP or clean room partner. Create suppression lists for recent purchasers (90-day window) to avoid wasting impressions on customers who just bought.",
+            "title": "Set realistic budget thresholds for CTV effectiveness by tier",
+            "description": "Minimum effective CTV investment is typically $25,000\u2013$50,000/month per DMA to achieve meaningful household reach. Below this threshold, frequency is too low to drive brand recall. For Tier 3 individual dealers in mid-size markets, this often means pooling dealer co-op dollars through a dealer group rather than running solo flights.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Identify competitive conquest goals and map to inventory selection",
+            "description": "Conquest CTV campaigns targeting shoppers in-market for competing brands (Honda targeting Toyota Camry consideration set, for example) require third-party in-market auto data overlays. Plan which DSP has access to auto-intender segments from Polk/S&P Global Mobility, IHS Markit, or Oracle's Automotive audience and negotiate data costs before setting CPM targets.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Confirm political inventory risk windows before flight dates",
+            "description": "2026 is a US midterm election year. Political ads have displacement priority on broadcast-adjacent streaming inventory in Q3\u2013Q4. Lock in programmatic guaranteed or PMP deals for premium streaming inventory (Hulu, Peacock, Paramount+) well before September, or plan for CPM inflation of 15\u201330% in political battleground DMAs during Oct\u2013Nov.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting & Data Setup",
+        "items": [
+          {
+            "title": "Activate in-market auto-intender segments at the DMA level",
+            "description": "Use automotive in-market data from sources like S&P Global Mobility (Polk), Oracle Data Cloud, or Experian Automotive to target households actively researching specific makes and models. These segments typically carry a $2\u2013$4 CPM data add-on but deliver dramatically higher VDP visit rates post-exposure than broad demographic targeting alone.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Build lookalike audiences from DMS/CRM past buyer data",
+            "description": "Export past buyer records from the dealer's DMS (CDK, Reynolds & Reynolds, Dealertrack) and onboard via LiveRamp or Trade Desk UID2 for CTV lookalike modeling. Past buyer lookalikes at 1\u20133% similarity typically outperform third-party auto intender data on cost-per-VDP-visit by 20\u201335% in A/B tests.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Separate in-market audience from service/aftersales audience",
+            "description": "Customers already in your service lane are valuable for accessories, extended warranty, and trade-in upsell \u2014 but serving them vehicle-purchase creative wastes impressions. Segment CRM data to exclude recent purchasers within 24 months from vehicle conquest campaigns, and route them to a separate service-lane CTV campaign with distinct creative.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set household-level frequency caps across all publishers",
+            "description": "The single biggest complaint from automotive CTV audiences is over-exposure. Set a household cap of 3\u20135 exposures per week across all publisher placements combined \u2014 not per publisher. This requires consolidated frequency management at the DSP level (The Trade Desk, DV360, or Amazon DSP). Publisher-level caps are insufficient because they don't deduplicate across streaming apps.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Layer geography targeting to match dealer trading zones",
+            "description": "Most franchise dealers have a primary trading zone (typically 20\u201340 mile radius) and a secondary conquest zone. Set up distinct CTV geo-targets matching these zones \u2014 primary zone gets higher CPM bids and tighter audience targeting; secondary conquest zone gets broader, lower-CPM prospecting flights. Zip-code-level geo on CTV is standard on all major DSPs.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Suppress recent purchasers and out-of-market households",
+            "description": "Build a suppression list combining recent purchasers (last 6 months from DMS), active lease customers (unlikely to be in-market), and households outside the dealer's core trading zone. Load these into a custom audience exclusion. Running conquest creative against your own recent buyers is one of the fastest ways to waste co-op budget.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Plan for co-viewing measurement in household attribution",
+            "description": "CTV households average 2.3 viewers per screen, meaning household-level impression data understates person-level reach. When reporting reach to dealer stakeholders or OEM co-op compliance teams, note the co-viewing factor and use person-level estimated reach from your DSP's panel methodology rather than raw household counts.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          },
+          {
+            "title": "Set up sequential audience journeys from CTV to retargeting",
+            "description": "Households exposed to a CTV brand impression but that haven't yet visited the VDP should flow into a programmatic display retargeting pool 24\u201348 hours after exposure. This CTV-to-display sequential strategy typically delivers 40\u201360% higher VDP visit rates than display prospecting alone and can be set up using household IP matching or clean room attribution in The Trade Desk or Amazon DSP.",
             "difficulty": "advanced",
             "priority": "important"
           }
         ]
       },
       {
-        "heading": "Inventory & Platform Selection",
+        "heading": "Creative & Format Requirements",
         "items": [
           {
-            "title": "Allocate budget across premium and FAST inventory",
-            "description": "Split budget between premium SVOD (Netflix, Hulu, Max at $25–45 CPM) for brand-safe, high-attention placements and FAST channels (Tubi, Pluto TV at $14–20 CPM) for incremental reach. A 60/40 premium-to-FAST split is a common starting point for automotive.",
-            "difficulty": "intermediate",
-            "priority": "important",
-            "channel_relevance": ["ctv"]
-          },
-          {
-            "title": "Secure live sports inventory for conquest campaigns",
-            "description": "Reserve CTV sports inventory (NFL on Prime Video, NBA on Peacock) for model launch and conquest campaigns. Sports viewers index high for in-market auto intenders. Expect $35–60 CPMs for live sports streaming.",
-            "difficulty": "advanced",
-            "priority": "nice-to-have",
-            "channel_relevance": ["ctv"]
-          },
-          {
-            "title": "Negotiate VCR and viewability guarantees",
-            "description": "Require 90%+ video completion rate (VCR) guarantees in insertion orders. CTV non-skippable formats typically deliver 95%+ VCR, but verify this is contractually guaranteed rather than estimated.",
-            "difficulty": "intermediate",
-            "priority": "important"
-          }
-        ]
-      },
-      {
-        "heading": "Creative & Compliance",
-        "items": [
-          {
-            "title": "Produce 15s and 30s big-screen creative",
-            "description": "Ensure creative is designed for lean-back, big-screen viewing — not repurposed mobile or social video. Logo and dealer CTA must be visible in the first 5 seconds. For model launches, hero the vehicle in motion within the first 3 seconds.",
+            "title": "Ensure 15s and 30s versions exist for every placement type",
+            "description": "FAST channels (Tubi, Pluto, Roku Channel) often insert ads at 15s; premium SVOD (Netflix, Hulu) typically uses 30s non-skippable. Both versions must be in-spec before campaign launch. Automotive co-op creative with APR and lease disclosure language often requires a 30s minimum to fit all mandatory text \u2014 confirm with OEM brand standards team.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
-            "title": "Implement dynamic creative optimization (DCO) for VIN-specific inventory",
-            "description": "Set up DCO templates that pull in real-time VIN-level inventory data (make, model, trim, price, image) to serve locally relevant ads. This is especially impactful for Tier 3 dealer campaigns where showing actual available inventory drives lot visits.",
+            "title": "Front-load brand and vehicle identity in the first 5 seconds",
+            "description": "CTV viewers who co-view or multitask during ads must receive the brand signal before any skip or distraction. Vehicle exterior shot, dealership name (for local Tier 3 creative), and logo should appear in the first 3\u20135 seconds. OEM brand guidelines typically require logo lockup by second 5 \u2014 confirm compliance before trafficking creative.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Build VIN-level Dynamic Creative Optimization (DCO) for dealer inventory",
+            "description": "Tier 3 dealer CTV campaigns are most effective when they display actual in-stock inventory with current pricing. DCO platforms (Innovid, Clinch, or similar) can pull live VDP data feeds from the dealer's website and dynamically insert the specific vehicle, price, and availability into 15s or 30s ad templates. CPC-linked inventory data requires daily feed refresh to avoid advertising units already sold.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
-            "title": "Verify co-op compliance for dealer-funded campaigns",
-            "description": "Confirm creative meets OEM co-op program requirements: approved disclaimers, APR/lease disclosure per TILA/Reg Z, OEM brand guidelines, and approved channel eligibility. Non-compliant creative risks co-op reimbursement denial.",
+            "title": "Confirm APR/lease disclosure language meets TILA/Regulation Z requirements",
+            "description": "Any CTV creative mentioning a specific APR, monthly payment, or lease term is subject to FTC Regulation Z and must include the full disclosure language (down payment, number of payments, total due at signing). Work with the OEM's compliance team and dealer's legal counsel to approve disclosure language before trafficking. Errors can invalidate co-op claims and trigger regulatory scrutiny.",
             "difficulty": "intermediate",
             "priority": "critical"
+          },
+          {
+            "title": "Consider QR code CTAs for living-room-to-mobile bridge",
+            "description": "Shoppable CTV formats with QR codes that direct viewers to the dealer's VDP or trade-in tool are gaining traction across Hulu, Peacock, and Roku. A/B test QR-enabled creative against standard :30 spots and track website traffic spikes during campaign windows. VDP visit rate is the primary KPI to optimize against \u2014 QR codes can lift it by 15\u201325% in controlled tests.",
+            "difficulty": "intermediate",
+            "priority": "nice-to-have"
+          },
+          {
+            "title": "Align creative messaging to funnel stage and audience segment",
+            "description": "Upper-funnel conquest audiences should receive model lifestyle/brand creative; mid-funnel in-market audiences should receive specific trim, pricing, and availability creative; lower-funnel VDP visitors should receive urgency-driven dealer-specific retargeting creative. Serving conquest brand creative to a household that visited the VDP three times is a missed conversion opportunity.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Verify creative specs for each streaming platform before trafficking",
+            "description": "Netflix, Amazon Prime Video, Hulu, and Peacock each have different spec requirements for file format, bitrate, closed captioning, and audio loudness normalization (CALM Act compliance). Build a spec verification checklist for each platform in your campaign plan. Traffic errors cause flight delays that can cost critical days of a seasonal campaign window.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Test model-specific creative against brand-umbrella creative in Tier 2 flights",
+            "description": "Tier 2 regional association flights often face a dilemma: air model-specific creative (more conversion-focused) or OEM brand umbrella creative (more co-op-compliant). Test both in 50/50 split and measure VDP visits per $1,000 in media spend. In most markets, model-specific creative outperforms umbrella brand creative on VDP engagement by 30\u201350%.",
+            "difficulty": "advanced",
+            "priority": "important"
           }
         ]
       },
       {
-        "heading": "Measurement & Attribution",
+        "heading": "Buying, Inventory, & Trafficking",
         "items": [
           {
-            "title": "Set up store visit measurement",
-            "description": "Activate geofencing-based store visit measurement (via Foursquare, Cuebiq, or DSP-native measurement) to attribute dealership lot visits back to CTV ad exposure. This bridges the 8–12 week automotive purchase funnel from impression to physical visit.",
-            "difficulty": "advanced",
+            "title": "Evaluate CPM across inventory tiers against audience quality, not just cost",
+            "description": "FAST channels (Tubi, Pluto) deliver $14\u2013$20 CPMs but audiences over-index on low-income, non-car-buying demographics in many markets. Premium SVOD (Netflix, Max) at $30\u2013$45 CPM can deliver better cost-per-VDP-visit when targeting households with HHI $75K+ and vehicle ownership signals. Model expected cost-per-outcome at each CPM tier before over-indexing on lowest-cost inventory.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Secure programmatic guaranteed deals for sports and live events",
+            "description": "NFL Sunday, college football Saturdays, and major motorsports events on streaming (Amazon Prime, ESPN+) deliver the highest automotive intender audiences. These premium sports packages sell out early \u2014 negotiate PG deals 4\u20136 weeks ahead for any flight adjacent to sports events. Scatter pricing for sports CTV inventory in competitive auto markets can run 40\u201360% above standard CPMs.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Implement brand safety controls before opening the auction",
+            "description": "Set content category exclusions (news, political content, crime/violence, mature content) before activating open auction CTV buying. Automotive brands are particularly sensitive to adjacency with news and political content during election cycles. Use GARM (Global Alliance for Responsible Media) category blocks as a baseline and supplement with IAS or DoubleVerify pre-bid filters.",
+            "difficulty": "beginner",
             "priority": "critical"
           },
           {
-            "title": "Configure cross-publisher reach deduplication",
-            "description": "Implement household-level deduplication across publishers using a unified measurement partner (iSpot.tv, VideoAmp, or Comscore). Without deduplication, unique reach will be overstated by 15–30%.",
+            "title": "Negotiate VCR guarantees in direct publisher deals",
+            "description": "Non-skippable CTV typically delivers 95%+ video completion rates \u2014 but open-auction programmatic inventory from lower-quality FAST channels can deliver as low as 80% on connected TV apps with interruptive ad behavior. Negotiate minimum VCR thresholds (90%+) in any direct or PMP deal and establish make-good rights if delivery falls below threshold.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Confirm platform-specific identity resolution approach before evaluating targeting claims",
+            "description": "Different streaming platforms use logged-in user IDs (Netflix, Amazon), ACR (Automatic Content Recognition) data (Roku, Samsung), or modeled household identity (FAST apps). Each has different targeting precision and privacy compliance implications. Understand the identity methodology before assuming demographic targeting claims are equivalent across platforms.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
-            "title": "Track VDP views as a leading conversion indicator",
-            "description": "Set up Vehicle Detail Page (VDP) view tracking as the primary digital conversion event. VDP views per campaign dollar is the most meaningful mid-funnel metric for automotive CTV campaigns before showroom attribution data becomes available.",
+            "title": "Establish pacing review cadence to align with inventory availability",
+            "description": "Automotive inventory volatility from supply chain disruptions can make some models unsaleable mid-flight. Build a weekly pacing review into the campaign management process, with a pre-agreed reallocation protocol for shifting budget between model-specific campaigns if a model sells through or a new allocation arrives. Automated pacing rules in DSPs can reduce response time from days to hours.",
             "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up store visit measurement for dealer lot attribution",
+            "description": "Household-level CTV exposure can be matched to physical dealership visits using mobile device location data from providers like Foursquare, SafeGraph, or built-in DSP store visit measurement (The Trade Desk Visit Rate, Amazon Stores). This is the most direct CTV-to-showroom attribution available. Establish the measurement vendor and conversion window (typically 30\u201390 days post-exposure for automotive) before campaign launch.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Track branded search volume lift as a leading KPI during CTV flight",
+            "description": "Branded search query volume on Google/Bing increases measurably within 1\u20132 weeks of a CTV campaign going live \u2014 often 15\u201325% lift in competitive markets. Monitor Google Ads impression share reports for brand keywords and Google Search Console for branded queries during the flight. Rising branded search is the fastest in-flight proxy for CTV brand impact before VDP visit data accumulates.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Run an incrementality study for the first major CTV flight",
+            "description": "Split DMAs into test (CTV active) and control (CTV dark) groups and measure VDP visit rates, test-drive bookings, and eventual vehicle sales velocity in each cohort. CTV incrementality studies for automotive typically require 4\u20138 week hold periods and matched market pairs to be statistically valid. Results inform the ROI model used to justify budget expansion across future flights.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Document co-op compliance reporting requirements before campaign launch",
+            "description": "OEM co-op programs require specific campaign reporting artifacts \u2014 typically screenshot proof of impression delivery, completion rates, and OEM-approved creative versions. Build a compliance reporting workflow that captures these artifacts from the DSP or publisher at weekly intervals during the flight, not retroactively at month end. Late or incomplete co-op claims are the #1 reason dealer co-op funds go unspent.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Reconcile VDP visits against paid search conversion paths post-flight",
+            "description": "CTV drives upper-funnel intent that converts through paid search 2\u20136 weeks after exposure. After each major CTV flight, compare branded search CPCs and conversion volumes in the subsequent 30 days against pre-flight baselines. This cross-channel attribution analysis quantifies the CTV\u2192search halo effect and supports a full-funnel ROI calculation that justifies CTV's CPM premium over other digital channels.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Report on unique household reach, not just gross impressions, to stakeholders",
+            "description": "Automotive stakeholders (dealer principals, OEM marketing managers) often confuse impression totals with household reach. Gross impressions count each exposure; unique reach counts distinct households. Always present both metrics in campaign reports, alongside average frequency. A campaign delivering 5M impressions to 200K unique households at average frequency 25 is a red flag \u2014 compress those numbers into a frequency problem framing.",
+            "difficulty": "beginner",
             "priority": "important"
           }
         ]
       }
     ],
     "pro_tips": [
-      "Layer CTV with programmatic display retargeting to re-engage households after CTV exposure. Sequential messaging from CTV awareness to display retargeting with model-specific creative drives 2–3x higher VDP engagement.",
-      "Use model-year changeover periods (August–September) to increase CTV frequency for clearance messaging while simultaneously running conquest creative for the incoming model year — just ensure audience suppression prevents the same household from seeing both.",
-      "For EV-specific campaigns, separate your CTV audiences into early adopters (target with performance/technology messaging) and mainstream-curious buyers (address range anxiety and charging access). These segments respond to fundamentally different creative strategies.",
-      "Coordinate with your paid search team: CTV campaigns consistently lift branded search volume by 15–25%. Ensure branded search budgets are increased during CTV flight windows to capture the downstream demand you're generating."
+      "Amazon DSP allows targeting households that browsed competitor vehicle listings on Amazon's auto research pages \u2014 this is one of the most underused conquest signals in automotive CTV buying. Activate it via Amazon's 'In-Market Auto' and 'Automotive Competitive' audience segments within the DSP console.",
+      "In model-year-end clearance periods (August\u2013September), suppress previous-year model buyers from conquest campaigns immediately \u2014 the DMS knows exactly who took delivery in the last 30 days. Fresh delivery households receiving new-model-year conquest ads are a compliance and brand safety risk.",
+      "For Tier 2 regional associations, negotiate cross-publisher frequency caps with each streaming platform as a line item in the IO, not just at the DSP level. Some publishers (especially Hulu) will accept guaranteed frequency caps in their direct PG deals that DSP-level caps cannot enforce on publisher-served inventory.",
+      "Sync CTV flight start and end dates with Google Ads branded keyword bidding strategy. Increase branded keyword bids by 20\u201330% on the same days CTV is live \u2014 CTV-exposed searchers are more likely to click branded ads, and not having sufficient budget on branded search terms during a CTV flight is one of the most common missed conversion opportunities in automotive.",
+      "Check whether the OEM's co-op program allows Dynamic Creative Optimization \u2014 some programs require static, OEM-pre-approved creative and disallow feed-based VIN insertion. Violating this rule disqualifies the entire campaign for co-op reimbursement, which can represent 50\u201370% of the dealer's CTV budget."
     ],
     "related_tools": [
       {
+        "slug": "halliard",
+        "relevance": "Halliard centralizes multi-tier automotive CTV planning, tracks co-op compliance documentation, and reconciles Tier 1/2/3 budget splits against OEM-approved channel lists in a single workspace."
+      },
+      {
         "slug": "the-trade-desk",
-        "relevance": "Leading DSP for CTV programmatic buying with automotive-specific audience segments"
+        "relevance": "The Trade Desk's DSP provides cross-publisher household-level frequency capping, automotive in-market audience access, and store visit measurement for dealer-level CTV campaigns."
       },
       {
         "slug": "google-dv360",
-        "relevance": "Google's DSP with YouTube CTV and programmatic guaranteed capabilities"
+        "relevance": "DV360 enables automotive brands to layer CTV with YouTube and display in unified frequency-managed campaigns, with cross-channel household attribution via Google Analytics 4 integration."
       },
       {
-        "slug": "nielsen",
-        "relevance": "Cross-platform measurement for CTV + linear TV deduplicated reach"
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen Media Impact models automotive CTV reach and frequency across linear and streaming simultaneously, essential for Tier 1 OEM planners balancing upfront linear TV with programmatic CTV investment."
       }
     ],
     "cta": {
-      "text": "Plan your automotive CTV campaigns faster with Halliard — the OS for modern media teams",
-      "link": "https://www.mediaplanningtool.com"
+      "text": "Manage your automotive CTV plan across all tiers in Halliard \u2014 co-op compliance tracking, frequency management, and cross-channel attribution in one place.",
+      "link": "https://www.halliardmedia.com/trytoday"
     }
   }
 }

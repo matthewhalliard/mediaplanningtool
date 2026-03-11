@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "healthcare",
+    "channel": "ctv"
+  },
+  "seo": {
+    "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Healthcare / Pharma Brands",
+    "description": "CTV media planning checklist for healthcare and pharma \u2014 covering FDA OPDP compliance for DTC broadcast ads, NPI-matched HCP targeting, fair balance delivery requirements, and script lift attribution methodology.",
+    "keywords": [
+      "healthcare CTV advertising checklist",
+      "pharma CTV media planning",
+      "DTC prescription drug CTV",
+      "HCP CTV targeting",
+      "healthcare streaming advertising",
+      "FDA OPDP CTV compliance",
+      "pharmaceutical CTV checklist",
+      "healthcare programmatic video"
+    ],
+    "slug": "checklist/ctv-healthcare"
+  },
+  "content": {
+    "intro": "CTV is now the fastest-growing channel in pharmaceutical DTC media plans \u2014 and for good reason: premium streaming environments (Netflix, Max, Hulu) deliver the engaged, lean-back viewing experience that enables a patient to genuinely hear a 60-second prescription drug fair balance statement, while simultaneously offering the demographic and behavioral targeting capabilities that linear TV cannot match. But healthcare CTV planning carries compliance obligations that no other vertical faces: every second of a DTC prescription drug CTV spot must be planned with FDA OPDP guidance in mind, HCP targeting via CTV requires NPI-matched methodology validation, and HIPAA constraints on audience targeting demand a fundamentally different data governance workflow than any other sector.",
+    "sections": [
+      {
+        "heading": "Regulatory Framework & Compliance Setup",
+        "items": [
+          {
+            "title": "Classify the product type before selecting CTV inventory: DTC Rx, OTC, device, or health system",
+            "description": "FDA OPDP regulations apply specifically to prescription drug DTC advertising. OTC drug and device advertising is governed by FTC, not FDA. Health system/hospital patient acquisition has no product-specific regulatory overlay. The compliance requirements for CTV are entirely different across these four categories \u2014 misclassifying means either under-complying (FDA risk for Rx) or over-complying (unnecessary cost/delay for OTC). Confirm product classification with your regulatory affairs team before campaign strategy begins.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Integrate CTV creative into the MLR (Medical/Legal/Regulatory) review process",
+            "description": "All DTC prescription drug CTV creative must pass MLR review before airing \u2014 including the visual storyboard, voiceover script, superimposed text, and the complete fair balance risk disclosure section. MLR review cycles for CTV creative typically run 8\u201312 weeks end-to-end. Lock CTV creative brief 14 weeks before intended air date to allow time for MLR review, revision rounds, and final trafficking. Agencies that plan CTV creative on the same timeline as programmatic display creative routinely miss flight windows.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Confirm the major statement (brief summary) delivery method for each streaming platform",
+            "description": "FDA requires DTC prescription drug broadcast ads to include a 'major statement' disclosing serious and common risks. For CTV, this is typically delivered via voiceover during the last 15\u201320 seconds of a :60s spot. Confirm with each streaming platform (Hulu, Netflix, Peacock, Amazon) how they handle the major statement requirement for non-skippable ad pods and whether their closed captioning and audio delivery requirements are met. Platform-specific testing is recommended before national rollout.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Plan CTV creative lengths specifically for the major statement duration requirements",
+            "description": "A DTC Rx CTV creative that includes all required fair balance language typically needs a minimum of 45\u201360 seconds for complex indication products \u2014 a 15-second or 30-second format is generally insufficient to present a fair balance for most Rx drugs without running into FDA guidance on space-constrained formats. Plan CTV buys with :60s spots as the primary unit for DTC Rx, accepting the higher cost per unit in exchange for compliance completeness.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "HCP Targeting & NPI-Matched CTV Strategy",
+        "items": [
+          {
+            "title": "Validate HIPAA compliance for any health condition-based audience targeting in CTV",
+            "description": "Targeting CTV audiences based on health condition signals (diagnosed condition data, prescription history, health app behavioral data) risks violating HIPAA Safe Harbor standards if the data use implies knowledge of an individual's health status. Work with your privacy counsel to validate that any health-condition audience segments used for CTV targeting are derived from de-identified data meeting HIPAA Safe Harbor criteria. FTC enforcement on health data misuse has intensified significantly in 2023\u20132025.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Target CTV households using condition-proxy behavioral data, not diagnosed condition data",
+            "description": "Condition-specific audience segments for DTC Rx CTV should be built using HIPAA-compliant proxy signals: content consumption (health content categories, condition-adjacent interest topics), OTC purchase behavior (allergy, diabetes management OTC purchases as proxy for condition presence), and general health interest signals. Avoid data segments that explicitly identify individuals as having been diagnosed with a condition \u2014 these cross the HIPAA re-identification threshold.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use geographic targeting to weight CTV delivery in high-prevalence condition markets",
+            "description": "Many chronic conditions have meaningful geographic prevalence variation \u2014 Type 2 diabetes prevalence is significantly higher in the Southeastern US; MS prevalence is higher in Northern states; cardiovascular conditions vary by diet culture and physical activity levels regionally. Weight CTV GRP delivery toward DMAs with higher condition prevalence using CDC or IQVIA prevalence data. This geographic prioritization improves efficiency without requiring individual health data.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build separate DTC and HCP CTV audience strategies with distinct creative and measurement",
+            "description": "DTC CTV reaches patients as consumers in their homes; HCP CTV targets physicians and prescribers as professional TV viewers. These audiences require different creative messaging, different inventory environments, and completely separate measurement frameworks. Never mix patient and HCP targeting in the same CTV campaign \u2014 a TV ad designed for patients seen by a physician will fail on both dimensions.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Layer caregiver targeting for conditions where the caregiver drives the treatment conversation",
+            "description": "For conditions affecting elderly patients (Alzheimer's, Parkinson's, advanced oncology), the caregiver is often more influential in the HCP conversation than the patient. Build CTV audience targeting that includes caregiver behavioral signals (adult children with elderly parents, products commonly purchased by caregivers). Caregiver-directed CTV creative should acknowledge the caregiver's role explicitly and direct them to resources they can share with the treating physician.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "HCP Targeting on CTV",
+        "items": [
+          {
+            "title": "Validate NPI-matched household targeting methodology with health data platform partners",
+            "description": "HCP-targeted CTV uses NPI (National Provider Identifier) matched household data from platforms like DeepIntent, Doceree, or PulsePoint. These platforms match physician NPI data to household addresses and connected TV device IDs, enabling CTV ads to reach physicians in their homes. Validate the match rate methodology, match confidence scores, and privacy compliance approach with each platform before committing budget. NPI lists of 5,000\u201315,000 target prescribers require specialized health DSP infrastructure \u2014 standard CTV DSPs cannot execute this targeting.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Prioritize specialty CTV inventory for rare disease HCP campaigns",
+            "description": "For rare disease drugs with NPI target lists under 10,000 prescribers nationally, standard CTV scale doesn't work \u2014 the target audience is simply too small for open auction CTV to reach efficiently. Partner with health data platforms (DeepIntent's HCP CTV product) that operate programmatic guaranteed or PMP deals with NPI-matched audiences across premium streaming inventory. Accept higher CPMs ($40\u2013$80+) for HCP CTV as the appropriate price for surgical specialty prescriber reach.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Use HCP CTV as an awareness and message recall channel, not a direct response channel",
+            "description": "Physicians watching streaming TV at home respond to professional-quality medical data messaging \u2014 not direct call-to-action. HCP CTV creative should focus on clinical differentiation (mechanism of action, key trial data, indication positioning) to build sub-conscious prescriber familiarity that manifests when the patient is in the office. Track HCP CTV impact via separate NRx tracking of prescriber cohorts rather than direct response metrics.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Prioritize premium SVOD inventory for DTC Rx brand safety and fair balance delivery quality",
+            "description": "Premium streaming environments (Netflix at $30\u2013$45 CPM, Hulu, Max) provide guaranteed non-skippable placements in brand-safe, long-form content adjacencies where viewers are engaged enough to genuinely hear the fair balance disclosure. FAST channel inventory (Tubi, Pluto TV) at $14\u2013$20 CPM delivers lower-quality viewing conditions for fair balance disclosure and is less appropriate for DTC Rx where the regulatory standard is 'clear, conspicuous, and adequate.' Budget the premium for premium environments.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Exclude news and political content adjacency for all healthcare DTC CTV campaigns",
+            "description": "Healthcare advertising \u2014 particularly prescription drug DTC \u2014 is heightened in sensitivity when placed adjacent to political content, health news coverage, or news cycles about drug pricing controversy. Apply GARM content category blocks for political/electoral content, news discussing pharmaceutical industry issues, and violent or trauma-adjacent content. Build a healthcare-specific exclusion list of news programs and current events programming as a persistent brand safety measure.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Evaluate live sports inventory for conditions with male-skewing patient or physician audiences",
+            "description": "Cardiovascular, Type 2 diabetes, and certain urology indications have patient and prescriber demographics that align well with NFL, college football, and NBA CTV audiences on streaming. Sports CTV inventory at $35\u2013$60 CPM can deliver strong target audience reach in these categories. Negotiate live sports streaming deals (Amazon Prime NFL, Peacock NFL) early \u2014 sports inventory in Q4 is heavily contested and health-adjacent categories should establish upfront relationships.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Establish leading indicator KPIs to track CTV impact before script lift data is available",
+            "description": "IQVIA and Symphony Health NRx data lags CTV campaign activity by 6\u20138 weeks. During the campaign flight, track leading indicators: branded search volume for the drug name and condition, patient support website visits (copay card pages, hub enrollment starts), patient site unbranded section traffic, and doctor discussion guide downloads. These digital proxies confirm that CTV is driving consideration before the NRx data can confirm the script lift.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Design a pre-campaign DMA-level script lift measurement framework",
+            "description": "Before CTV launches, work with your IQVIA or Symphony Health partner to establish a matched-market measurement design: select 8\u201312 high-CTV-weight DMAs as test markets and 8\u201312 matched-profile DMAs as control markets (matched on NRx baseline, specialty prescriber counts, and media environment). Compare weekly NRx velocity in test vs. control markets over a 12\u201316 week period to calculate CTV-attributable script lift and cost-per-script.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Track CTV video completion rate (VCR) as a proxy for fair balance adequate presentation",
+            "description": "Non-skippable DTC CTV placements should achieve 95%+ VCR \u2014 confirming that the full :60s including the fair balance disclosure was presented. If VCR falls below 90% on specific publishers, investigate whether content interruptions, technical issues, or app-level skip functionality is preventing full ad delivery. Maintain VCR data in compliance documentation as evidence that the major statement was adequately presented to the viewing audience.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Build separate reach and frequency tracking for DTC vs. HCP CTV campaigns",
+            "description": "DTC and HCP CTV campaigns serve fundamentally different audiences with different optimal frequency levels. DTC patient campaigns should target 4\u20136 household exposures per 4-week period; HCP campaigns on small NPI target lists may require higher frequency (8\u201312+ exposures) to achieve the professional recall needed to influence prescribing habits. Track frequency against each audience separately and manage independently.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "For telehealth and digital health brands (Roman, Hims, Noom), CTV DRTV approaches work exceptionally well \u2014 include a :15s response element within the :60s creative (QR code to a condition screener tool, or a short-form URL) that drives immediate action from engaged viewers. Unlike traditional pharma where response metrics are indirect, telehealth CTV can be bought on an outcome basis and directly measured with QR scan attribution. CPAs from telehealth CTV typically run $45\u2013$80 per app download or consultation booking.",
+      "Run disease awareness 'unbranded' CTV creative for conditions where low diagnosis rate is the primary barrier to patient volume. Unbranded disease education ads (e.g., 'Only 1 in 5 people with [condition] know they have it \u2014 talk to your doctor') are not subject to branded FDA OPDP requirements, can use any content format and length, and often out-perform branded DTC creative on per-impression patient initiation rates because they reach undiagnosed patients at the top of the awareness funnel.",
+      "Negotiate with streaming platforms to place DTC Rx :60s ads in 'solo pod' positions (the only ad in a break) for premium programming. Solo pod placement, while commanding a 30\u201350% CPM premium, ensures the fair balance disclosure is heard without competitive advertising noise in the same break \u2014 and eliminates any potential brand safety comparison from appearing in the same pod as a competitor's ad. For blockbuster drug brands, this placement distinction is worth the premium.",
+      "The 6\u20138 week lag between CTV air dates and IQVIA script data means that CTV optimization is effectively done in arrears. Implement a biweekly 'predicted script lift' model using branded search volume, site visit trends, and copay card download velocity as real-time proxies, calibrated against prior flight periods where both proxy data and eventual NRx data are available for regression modeling.",
+      "For rare disease HCP CTV campaigns targeting fewer than 15,000 NPI-matched prescribers, request 'audience verification' reporting from your health data platform \u2014 a certificate from the vendor confirming what percentage of served impressions matched confirmed NPI records vs. modeled/probabilistic matches. Top-line 'HCP audience' segments can include significant non-HCP wastage. NPI-verified match rates below 60% suggest you're effectively running a general consumer CTV campaign with HCP labeling."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard manages healthcare CTV plans with MLR review status tracking, NPI-versus-DTC campaign separation, and integration of script lift measurement timelines against media flight schedules."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk provides CTV buying with health data marketplace access and DeepIntent integration for NPI-matched HCP targeting across premium streaming inventory."
+      },
+      {
+        "slug": "commspoint-journey",
+        "relevance": "Commspoint Journey maps the patient and caregiver media journey from condition awareness to HCP conversation, informing CTV channel weighting within the overall pharma media mix."
+      },
+      {
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen Media Impact models healthcare CTV reach against patient-population demographics and enables cross-platform deduplication between linear TV and streaming for DTC brand planning."
+      }
+    ],
+    "cta": {
+      "text": "Plan compliant healthcare CTV campaigns with MLR tracking and script lift measurement timelines \u2014 try Halliard.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

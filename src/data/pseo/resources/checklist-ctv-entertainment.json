@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "entertainment",
+    "channel": "ctv"
+  },
+  "seo": {
+    "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Entertainment / Media / Streaming Brands",
+    "description": "A hands-on CTV media planning checklist for entertainment marketers — covering streaming inventory, audience, measurement, and creative strategy.",
+    "keywords": ["CTV media planning entertainment", "streaming advertising checklist", "entertainment CTV strategy", "subscriber acquisition CTV", "streaming ad planning", "OTT entertainment marketing", "CTV frequency capping"],
+    "slug": "checklist/ctv-entertainment"
+  },
+  "content": {
+    "intro": "Entertainment brands face the irony of buying CTV inventory on the very same platforms — Netflix, Hulu, Amazon — whose content they are promoting or competing against, making publisher relationship management and brand safety controls uniquely complex in this vertical. CTV now delivers 95%+ video completion rates for non-skippable formats, making it the highest-attention channel available to film studios, streaming services, and live events marketers. With CTV ad spend projected to exceed $33B in 2025, entertainment brands must operate with precision audience segmentation, disciplined frequency management, and robust cross-publisher measurement to outperform in a crowded launch window.",
+    "sections": [
+      {
+        "heading": "Campaign Strategy and Objective Setting",
+        "items": [
+          {
+            "title": "Define campaign objective: subscriber acquisition vs. content awareness",
+            "description": "Streaming services and film studios must explicitly separate subscriber acquisition campaigns (CPL/CPS-optimized, performance-driven) from content awareness campaigns (reach/frequency, brand-building). These require different inventory tiers, creative strategies, and measurement frameworks. Blending objectives in a single CTV campaign results in wasted spend on premium CPM inventory that isn't driving conversion, or vice versa.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Set a realistic campaign window aligned to release or launch calendar",
+            "description": "Theatrical P&A campaigns must concentrate media weight in a 4–6 week pre-release window, requiring front-loaded CTV impression delivery schedules. Streaming subscriber acquisition runs always-on but should flex budget 3x–5x around original content premiere dates when intent signals peak. Live events media should launch 8–10 weeks before on-sale dates with a secondary flight 2 weeks before the event.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Segment audience strategy by entertainment sub-vertical",
+            "description": "A mobile game launch requires in-market gamers and app-install-intent audiences; a theatrical release needs weekend moviegoer segments; a streaming service needs competitor subscriber lookalikes and churned-subscriber re-engagement audiences. Build separate audience strategies and creative briefs for each sub-vertical before unifying at the media plan level. Bundling all entertainment audiences into 'A18–49 entertainment fans' wastes 40–60% of CTV impressions on disqualified viewers.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Map competing studio or platform content in the launch window",
+            "description": "Identify all competitive entertainment releases within 4 weeks of your launch date. Competing tentpole films, major streaming premieres, or live sporting events will inflate CTV CPMs by 20–40% during shared windows. Adjust scatter budgets accordingly and consider pre-booking guaranteed inventory 6–8 weeks in advance to lock in favorable CPMs before competitive pressure arrives.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Determine linear TV vs. CTV audience split before planning reach",
+            "description": "Entertainment brands traditionally relied on linear TV for mass reach, but cord-cutting has shifted audiences: adults 18–34 are now 60%+ reachable only via CTV, not linear. Model your target audience's linear vs. CTV viewing composition before setting budgets — if 45% of your A18–34 target is cord-cutters or cord-nevers, allocating less than 35% of video budget to CTV produces a structural reach gap that brand awareness scores will reflect.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          }
+        ]
+      },
+      {
+        "heading": "Inventory Selection and Publisher Strategy",
+        "items": [
+          {
+            "title": "Evaluate each streaming publisher's content adjacency for brand safety",
+            "description": "Entertainment brands must contend with the awkward reality that buying ads on Netflix, Amazon, or Hulu means appearing adjacent to competing content. A film studio promoting a new action franchise on Amazon Prime Video may find ads placed before a competing Amazon Original film. Negotiate genre exclusivity clauses or contextual blocks in IO deals with premium publishers. For programmatic buys, use blocklists excluding competitor content categories.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Separate premium SVOD from FAST channel buys and set distinct CPM floors",
+            "description": "Netflix ad-supported ($30–$45 CPM) and Max ($30–$40 CPM) deliver premium, brand-safe, high-attention inventory appropriate for theatrical launches targeting upscale audiences. FAST channels (Tubi, Pluto TV, Roku Channel) at $14–$20 CPM offer scale for broad awareness among cord-cutters but carry lower audience quality scores. Allocate 60–70% of CTV budgets to premium SVOD for launch events and use FAST for reach extension and frequency fill.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Assess live sports inventory on streaming for relevant sports or event marketing",
+            "description": "Live sports on streaming (NFL on Amazon Prime, NBA on Peacock, MLB on Apple TV+) command $35–$60 CPM but deliver concentrated, leaned-in audiences with household demographic profiles that match premium entertainment buyers. For sports leagues, live events promoters, and studios targeting male A25–54, live sports streaming inventory should represent 15–25% of total CTV spend despite the premium pricing.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Negotiate VCR (video completion rate) guarantees in direct IO deals",
+            "description": "Premium streaming publishers will guarantee 90–95%+ completion rates for non-skippable formats in direct deals. Programmatic buys via open auction lack this guarantee and can see completion rates as low as 75–80% on lower-quality inventory. For launch events where message delivery is non-negotiable, secure VCR guarantees in writing and include make-good provisions for shortfalls.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Explore content integration and sponsorship opportunities alongside ad inventory",
+            "description": "Major streaming publishers offer content integration packages where entertainment brands can sponsor episode drops, first-view positions in SVOD new release carousels, or branded break experiences within binge-watching sessions. These premium integrations at $50K–$250K+ can deliver engagement rates 3x–5x standard pre-roll. For streaming service vs. streaming service competition, first-view carousel placements are particularly effective in acquisition campaigns.",
+            "difficulty": "advanced",
+            "priority": "nice-to-have"
+          }
+        ]
+      },
+      {
+        "heading": "Audience Targeting and Segmentation",
+        "items": [
+          {
+            "title": "Activate ACR (Automatic Content Recognition) data for competitive conquest targeting",
+            "description": "ACR data from Roku, Samsung, and LG devices identifies households currently watching competing streaming services or specific competitive content. A new streaming platform can target households with heavy Netflix or Disney+ viewing patterns. A new action film can conquest households watching competitive franchises. ACR-based segments are available at $3–$8 CPM data add-on and represent the most precise competitive targeting in CTV.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Build churned-subscriber retargeting audiences using CRM data and clean rooms",
+            "description": "For streaming services, churned subscribers within the past 6–12 months represent the highest-LTV reactivation opportunity at a fraction of new-subscriber CAC. Upload CRM lists of churned users into DSP clean rooms (Amazon Marketing Cloud, LiveRamp Safe Haven) and match against CTV households for reactivation creative. Churned-subscriber CTV campaigns typically show 2x–4x higher subscription conversion rates vs. net-new prospecting audiences.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Segment gaming campaign audiences by platform: mobile, console, and PC",
+            "description": "Video game title launches require separate audience strategies for mobile UA (app-install intent, hyper-casual gamers), console releases (households with gaming devices, identified via ACR and DSP device-graph data), and PC gaming (esports fans, gaming tech purchasers). Console and PC gaming audiences on CTV are best reached via FAST channels and YouTube CTV, where gaming content is heavily indexed. Mobile game UA on CTV typically targets broad A18–34 with in-app purchase behavioral data.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Apply household income filters for premium streaming service and live events campaigns",
+            "description": "Streaming subscription campaigns for premium services (Max, Apple TV+) and live event ticketing (concerts at $150+ average ticket price, Broadway, sports premium seating) should filter to HHI $75K+ to concentrate budget on conversion-likely households. CTV platforms offer HHI targeting in quartiles via third-party data appends. This filter typically reduces reach by 40–50% but improves CPS (cost per subscriber) and cost-per-ticket metrics by 30–60%.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set daypart targeting aligned to theatrical opening-weekend media blitz",
+            "description": "For film launches, front-load CTV impressions in the Thursday–Saturday primetime window (7–11pm) preceding opening weekend. Primetime CTV CPMs run $5–$10 higher than off-peak but deliver 2x–3x the brand recall lift for entertainment content per Nielsen studies. Suppress weekday daytime impressions where entertainment consumption intent is minimal and redirect those budgets to evening and weekend slots within the same week.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Creative and Format Strategy",
+        "items": [
+          {
+            "title": "Adapt theatrical trailers for the CTV big-screen, lean-back experience",
+            "description": "Film and TV trailers cut for social media (vertical, text-heavy, front-loaded for 3-second attention) perform poorly on connected TV's lean-back context. CTV creative should be 30-second story-arc cuts with cinematic production value — the big screen context rewards visual storytelling. Avoid repurposing mobile-first social cuts directly to CTV; brands that produce CTV-specific cuts see 15–25% higher brand recall and 20% higher purchase intent lift in Nielsen Brand Effect studies.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Use interactive QR code units for direct response from film and streaming campaigns",
+            "description": "Shoppable CTV formats with QR codes enable entertainment campaigns to bridge the lean-back viewing experience to immediate ticket purchase or app download. QR engagement rates on entertainment CTV ads average 0.5–1.5% — low by digital standards, but representing incremental high-intent converters who were moved to act in the moment. Place QR codes on non-skippable 30-second units with a clear call to action in the final 10 seconds.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Create audience-specific creative variants: subscriber lapse vs. net-new vs. gift giver",
+            "description": "For streaming subscription acquisition, produce at minimum three creative variants: (1) net-new subscribers featuring breadth of content library, (2) churned re-subscribers featuring new original content they missed, and (3) gift givers in Q4 holiday season featuring subscription gifting mechanics. Each variant should have a distinct offer CTA. Dynamic creative optimization tools in major DSPs can serve the right variant by audience segment automatically.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Produce a 15s bumper version of every CTV creative for frequency management",
+            "description": "As household frequency climbs beyond 3–5 exposures, rotate from 30-second primary creatives to 15-second reinforcement cuts. The 15-second format maintains brand message and CTA without the viewer fatigue that drives negative brand sentiment at high frequency. Budget 10–15% of production costs for 15-second edits of all primary CTV assets — this creative flexibility reduces ad frequency complaints and extends campaign flight without additional media spend.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Measurement, Attribution, and Optimization",
+        "items": [
+          {
+            "title": "Implement a cross-publisher frequency cap of 5 exposures per household per week",
+            "description": "CTV's biggest viewer satisfaction issue is ad repetition — households report seeing the same ad 7+ times in a single evening when buying across multiple publishers without coordinated caps. For entertainment launches, set a campaign-wide frequency cap of 5 impressions per household per week via your DSP, and negotiate publisher-side caps in direct IOs to match. Platforms like The Trade Desk's household frequency management tools or DV360's cross-channel reach controls are specifically designed for this.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Run a CTV brand lift study for every theatrical campaign above $1M",
+            "description": "For theatrical P&A campaigns, brand lift studies from Kantar, Lucid, or Nielsen brand effect are the primary evidence that CTV spend is moving unaided awareness and purchase intent. Studies typically require 2–3 weeks and $15K–$50K to execute. The output — statistical proof of awareness and intent lift above holdout groups — is essential for post-mortems and for defending CTV budget allocation against performance-only stakeholders. Don't run a major theatrical campaign without one.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Track branded search volume lift as a CTV leading indicator",
+            "description": "CTV brand exposure drives measurable spikes in branded Google search volume within 24–72 hours of a flight going live. Monitor Google Trends and Google Ads branded search impression data as a real-time proxy for CTV campaign impact, especially valuable during a compressed theatrical launch window. A 15–30% increase in branded search impressions after a CTV flight launch is a strong signal the campaign is generating curiosity before box office results confirm.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Use clean room attribution to measure incremental subscriber lift vs. organic sign-ups",
+            "description": "For streaming services, the critical question is: how many subscribers would have signed up anyway, versus how many are directly attributable to CTV media exposure? Amazon Marketing Cloud and LiveRamp Safe Haven enable clean room analysis connecting media exposure to CRM sign-up data without exposing user-level data. Running incremental lift tests — where 10–15% of matched households receive no CTV ads — allows calculation of true incremental CPS separate from organic baseline conversion.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Build a post-campaign P&A efficiency scorecard for film releases",
+            "description": "Theatrical campaigns are judged on opening weekend box office per dollar of P&A spent, but isolating media contribution requires a structured scorecard including: opening weekend gross, unaided awareness at launch vs. 4-week pre-release, Rotten Tomatoes audience score trajectory, branded search volume index, social conversation share, and ticket pre-sale velocity. Build this scorecard template before campaign launch so measurement infrastructure is in place before the first CTV impression serves.",
+            "difficulty": "advanced",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Purchase Amazon Prime Video CTV inventory via Amazon DSP rather than programmatic open auction — Amazon's first-party shopper data (purchase history, Prime membership tier, content viewing patterns) enables entertainment audience targeting precision that no third-party data source can replicate, and Prime Video's post-2024 ad tier has massive scale at $20–$28 CPM.",
+      "For streaming service subscriber acquisition, target 'competitive churn windows' — periods when competitor services raise prices or reduce content libraries. Netflix price increases in particular generate predictable waves of competitive research intent that Roku ACR data can identify via viewing drop-off patterns, creating a high-conversion CTV retargeting moment.",
+      "Build a 'day-and-date' CTV creative delivery schedule for theatrical campaigns: serve a teaser campaign 6 weeks out, switch to full trailer 3 weeks out, then activate location-specific showtimes creative in the final 7 days. Most film studios run a single creative throughout the launch window — the sequential approach drives 35–45% higher purchase intent in sequential brand lift studies.",
+      "Negotiate CTV upfront deals in Q4 for the following year's entertainment calendar — a studio with a slate of 3–4 releases can lock in premium SVOD inventory at 15–25% below scatter pricing. Bring the full annual slate to upfront negotiations even if individual release dates aren't finalized, as commitment to annual spend volume is the leverage point.",
+      "For live events and concert media, use geofenced CTV targeting within 25–50 mile radius of each venue and dynamically update ad creative with venue-specific show dates. This local CTV approach outperforms national blast campaigns by 3x–4x in ticket sale conversion because it eliminates a key friction point — the audience knows immediately whether the event is accessible to them."
+    ],
+    "related_tools": [
+      {"slug": "halliard", "relevance": "Halliard centralizes CTV buys across publishers like Netflix, Hulu, and Peacock alongside other channels in a single plan, solving the cross-publisher frequency duplication problem that plagues entertainment launch campaigns."},
+      {"slug": "the-trade-desk", "relevance": "The Trade Desk's CTV buying tools include household frequency management across publishers, ACR data activation, and clean room attribution integrations essential for entertainment campaign precision."},
+      {"slug": "google-dv360", "relevance": "DV360 enables cross-publisher CTV reach planning including YouTube CTV, programmatic SVOD inventory, and integrated brand lift measurement — critical for film studios running multi-platform video campaigns."},
+      {"slug": "nielsen-media-impact", "relevance": "Nielsen Media Impact provides cross-screen reach and frequency planning across linear TV, CTV, and digital video — the essential tool for entertainment brands managing total video investment and deduplication."}
+    ],
+    "cta": {
+      "text": "Plan your next entertainment CTV campaign across every streaming publisher in one place — try Halliard free.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}

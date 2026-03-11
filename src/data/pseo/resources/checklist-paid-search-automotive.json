@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "content_type": "checklist",
+    "vertical": "automotive",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "Paid Search (SEM / PPC) Media Planning Checklist for Automotive Brands",
+    "description": "Comprehensive paid search checklist for automotive advertisers \u2014 covering keyword architecture across OEM, dealer group and individual dealer tiers, Quality Score, and VDP attribution.",
+    "keywords": [
+      "automotive paid search checklist",
+      "car dealer SEM planning",
+      "OEM paid search strategy",
+      "automotive Google Ads",
+      "dealer keyword conflict",
+      "VDP paid search",
+      "automotive PPC",
+      "co-op paid search compliance"
+    ],
+    "slug": "checklist/paid-search-automotive"
+  },
+  "content": {
+    "intro": "Automotive paid search is one of the most structurally complex SEM environments in any vertical \u2014 OEM national campaigns, Tier 2 regional dealer associations, and hundreds of individual franchise dealers all bid simultaneously on the same branded and model-specific keywords, inflating CPCs across the system and cannibalizing each other's budgets. In competitive markets, CPCs for terms like 'new Tacoma near me' or 'best lease deals Toyota' routinely exceed $15\u2013$40, and without a coordinated keyword architecture across tiers, every dollar of OEM investment inadvertently raises the cost basis for every dealer. This checklist builds the foundation for a tiered, non-cannibalizing paid search program.",
+    "sections": [
+      {
+        "heading": "Keyword Architecture & Tier Conflict Prevention",
+        "items": [
+          {
+            "title": "Audit current keyword overlap across all tiers before campaign launch",
+            "description": "Run an auction insights report across OEM, regional association, and individual dealer accounts to identify where each tier is competing against the others on the same keywords. This is the most expensive and least visible problem in automotive SEM. Coordinate with the OEM's digital vendor (Dealer.com, PureCars, or equivalent) to establish non-overlapping keyword ownership by tier.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Assign keyword ownership by tier and enforce through negative keyword sharing",
+            "description": "OEM Tier 1 should own national brand and model name terms. Tier 2 regional associations should own regional + model combos ('Toyota dealers [city/region]'). Tier 3 individual dealers should own hyper-local terms ('Toyota dealer [zip code]', dealership name). Each tier should add the other tiers' focus keywords as negatives to prevent ad overlap and bid inflation.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Build a master negative keyword list for all automotive campaigns",
+            "description": "Include negatives for competitor brand names, non-purchase intent queries ('how to fix', 'recall', 'owner manual'), and irrelevant vehicle categories (heavy truck, motorcycle, RV). Maintain the master negative list in a shared spreadsheet and apply it via a shared negative keyword list in Google Ads Manager Account (MCC). Review quarterly for emerging irrelevant queries.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Separate model-year-end clearance campaigns from new model-year launch campaigns",
+            "description": "Overlapping 'clearance' and 'new model' keywords require exact-match structuring and strict negative keyword suppression to avoid delivering clearance-pricing ads to buyers researching the incoming model year (which can undermine perceived brand value). Build separate campaigns with distinct ad groups, ad copy, and landing pages for each phase.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Create dedicated EV keyword campaigns separate from ICE model campaigns",
+            "description": "EV search queries have distinct intent patterns ('range', 'charging', 'tax credit', 'federal rebate') that require separate ad copy and landing pages from ICE model campaigns. Running EV and ICE keywords in the same campaign conflates bidding strategies and quality scores. Separate accounts or at minimum separate campaigns are needed to optimize each independently.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Research and bid on federal/state EV tax credit terms during incentive periods",
+            "description": "Queries like 'EV tax credit 2025 [model name]', 'federal EV rebate', and '[state] EV incentive' spike dramatically when new incentive announcements occur. Set up a keyword alert workflow to add these terms within 24 hours of incentive announcements \u2014 these are high-intent queries from buyers who are already financially motivated and often convert at 2\u20133x the rate of standard model queries.",
+            "difficulty": "advanced",
+            "priority": "important"
+          },
+          {
+            "title": "Defend all OEM branded keywords against competitor conquest spending",
+            "description": "Competitors and auto comparison sites (Cars.com, Autotrader, CarGurus) regularly bid on branded OEM and dealer terms. Monitor Auction Insights weekly for new entrants conquesting branded keywords. Branded defense bids should maintain impression share above 90% at all times \u2014 the cost of ceding branded keywords to competitors is typically 3\u20135x the cost of simply maintaining defensive bids.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Build automotive inventory-specific Dynamic Search Ad campaigns",
+            "description": "Dynamic Search Ads (DSA) crawl VDP landing pages and auto-generate headlines based on in-stock inventory titles and page content. This is a highly effective tactic for Tier 3 dealers with large and rapidly changing inventories \u2014 DSA campaigns surface specific VINs and models for queries that exact-match keyword lists miss. Limit DSA targets to vehicle inventory pages only, excluding service, parts, and blog pages.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Set up dealer-specific callout and structured snippet extensions",
+            "description": "Ad extensions for automotive should include dealership hours, service department highlight, Google reviews rating, and inventory count callouts. Structured snippets for 'Models' (list current inventory makes) and 'Services' (oil change, tire rotation, collision) differentiate dealer ads from OEM brand ads in the SERP. Extensions add no cost but significantly improve ad rank and CTR.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Bidding Strategy & Budget Management",
+        "items": [
+          {
+            "title": "Set automated bidding strategies only after meeting the 30\u201350 conversion/month minimum",
+            "description": "Google's Target CPA and Target ROAS Smart Bidding require a minimum of 30\u201350 conversions per month per campaign to learn effectively. Automotive dealer campaigns with small budgets often don't hit this threshold on a per-campaign basis. Consolidate tightly segmented campaigns into broader structures (one ICE campaign, one EV campaign) to pool conversion data before enabling automated bidding.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Model CPCs against LTV, not just cost-per-lead",
+            "description": "Average CPCs in competitive automotive markets run $15\u2013$40 for model-specific terms. A $40 CPC becomes economically rational if the conversion-to-showroom rate is 3% and the vehicle gross is $4,000+. Build a CPC ceiling model using LTV backwards: (vehicle gross \u00d7 close rate \u00d7 conversion rate) = maximum allowable CPA \u2192 reverse-engineer maximum CPC. Share this model with every stakeholder who questions high CPCs.",
+            "difficulty": "advanced",
+            "priority": "critical"
+          },
+          {
+            "title": "Build seasonally adjusted budget plans for tent-pole events",
+            "description": "Memorial Day, Labor Day, and December 'Season of Sales' each require pre-planned budget increases of 30\u201350% above baseline to compete effectively. The worst outcome is entering a high-demand window without the budget to maintain impression share \u2014 competitors who retain budget during peak periods capture disproportionate consideration. Build seasonal multipliers into the media plan and budget approvals process.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Use dayparting to allocate budget to high-intent windows",
+            "description": "Automotive search intent peaks on weekday evenings (7\u201310pm) and weekend mornings when consumers research from home. Pull time-of-day performance reports segmented by device and apply bid adjustments accordingly. Saturday 9am\u20131pm is often the highest-converting window for dealer-level search campaigns \u2014 ensure budget doesn't run out by mid-week.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Implement RLSA (Remarketing Lists for Search Ads) to adjust bids for VDP visitors",
+            "description": "Overlay RLSA on paid search campaigns to increase bids by 30\u201350% for users who have previously visited a specific vehicle's VDP page. These high-intent users have already signaled model preference and are significantly more likely to convert on a search click than cold prospects. RLSA bid adjustments are campaign-level settings in Google Ads and require the Google Ads tag or GA4 audience published to Ads.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Set mobile bid adjustments based on device conversion rate data",
+            "description": "60\u201370%+ of automotive search queries originate on mobile, but desktop users convert at significantly higher rates (test-drive booking, form completion). Pull last-90-day device performance reports and apply negative mobile bid adjustments (typically -15% to -30%) if mobile cost-per-conversion is materially higher than desktop. Re-evaluate monthly as mobile UX improvements shift these ratios.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Protect impression share on branded keywords at all times",
+            "description": "Set branded keyword campaigns to 'Target Impression Share: Top of Page 90%' using the automated bidding strategy. Branded terms are the lowest-cost, highest-converting keywords in any automotive account. Ceding top-of-page position on your own dealer or model name to CarGurus, Autotrader, or a competitor is effectively paying them to intercept your own demand.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Audit VDP landing page speed on mobile \u2014 below 3 seconds is non-negotiable",
+            "description": "Google Quality Score weighs landing page experience heavily. VDP pages with load times above 3 seconds on mobile lose significant Quality Score, which directly inflates CPCs. Run monthly Core Web Vitals audits on VDP landing pages and prioritize page speed improvements with the dealer's digital retailing provider. A 1-second improvement in VDP load time can reduce CPC by 10\u201320% through Quality Score improvement alone.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Match ad copy headlines to VDP landing page content precisely",
+            "description": "Google rewards close alignment between keyword, ad headline, and landing page headline with higher Quality Scores. If an ad headline says '2025 Camry \u2014 Best Price in [City]' the landing page must show 2025 Camry inventory with price prominently displayed. Generic 'Visit Our Dealership' landing pages for specific model keyword groups are the single biggest Quality Score killer in automotive SEM.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Set up conversion tracking for all lead types: form, call, chat, and trade-in",
+            "description": "Automotive conversions include VDP form submissions, phone calls (Google forwarding number), live chat initiations, test-drive bookings, and trade-in appraisal starts. Each must be tracked as a distinct conversion action in Google Ads with appropriate value assignments. Missing phone call conversion tracking is the most common gap \u2014 calls often represent 40\u201360% of dealer lead volume from paid search.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Create offer-specific landing pages for finance and lease promotions",
+            "description": "Search campaigns promoting specific APR or lease offers must link to landing pages featuring exactly those terms with proper TILA disclosures. Generic inventory pages for APR-specific ads create Quality Score penalties and compliance risk. Build dedicated campaign-period landing pages for each major promotional offer and sunset them immediately after the promotion ends.",
+            "difficulty": "intermediate",
+            "priority": "important"
+          },
+          {
+            "title": "Verify dealer hours and contact information in Local Extensions are current",
+            "description": "Google Ads Location Extensions pulling from Google Business Profile must have accurate hours, especially during holiday sales events when dealer hours change. Incorrect hours in ads (showing 'Closed' when the dealer is running a Saturday sales event) directly reduce CTR and damage consumer trust. Audit location extensions at the start of every major tent-pole campaign.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      },
+      {
+        "heading": "Co-op Compliance & Reporting",
+        "items": [
+          {
+            "title": "Confirm OEM co-op eligibility for each paid search platform and campaign type",
+            "description": "Most OEM co-op programs cover Google Ads and Microsoft Advertising for dealer-tier paid search, but not all campaign types are eligible. Performance Max is often excluded or only partially eligible. Confirm the specific eligible campaign types, keyword topic restrictions, and required ad copy elements with the OEM's co-op vendor before structuring campaigns.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Store monthly Google Ads performance exports for co-op claim documentation",
+            "description": "OEM co-op reimbursement typically requires proof of spend by platform and date range, along with impression, click, and conversion reports. Export PDF performance summaries from Google Ads at month-end and archive them by co-op period. Many dealers lose reimbursement due to missing or incorrectly formatted documentation \u2014 build this into the monthly campaign management workflow.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Track and report on VDP visits (not just clicks) as the primary dealer KPI",
+            "description": "Paid search clicks that land on a non-VDP page (homepage, contact us) are wasted in automotive SEM. Configure Google Analytics 4 custom events for VDP page views and import as a conversion into Google Ads. Report 'Cost per VDP Visit' to dealer stakeholders alongside standard CPC metrics \u2014 this is the metric that connects paid search investment to actual inventory engagement.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Submit co-op reimbursement claims within the OEM's required submission window",
+            "description": "Most OEM co-op programs require reimbursement claims to be submitted within 60\u201390 days of campaign completion. Claims submitted late \u2014 even for fully eligible spend \u2014 are routinely rejected. Build a co-op submission calendar that schedules claim preparation to begin within 2 weeks of flight completion and submission within the first 30 days of the claim window.",
+            "difficulty": "beginner",
+            "priority": "critical"
+          },
+          {
+            "title": "Verify that all co-op-eligible SEM spend is tagged with the correct OEM program identifier",
+            "description": "OEM co-op programs require media invoices and platform reports to clearly identify which program the spend applies to. Google Ads invoices and billing summaries must be linked to the dealer's account and labeled with the correct OEM co-op program code. Some OEM programs require specific UTM parameters or campaign naming conventions in Google Ads to validate eligibility during the claim audit.",
+            "difficulty": "beginner",
+            "priority": "important"
+          },
+          {
+            "title": "Build a co-op accrual dashboard to track year-to-date earned vs. claimed vs. unclaimed funds",
+            "description": "Dealer co-op funds accrue as a percentage of vehicle invoice (typically 1\u20133% of each vehicle purchased from the OEM) and must be claimed within the program year. A co-op accrual dashboard that tracks earned balance, claimed amounts, and pending claims in real time prevents the most common dealer media waste: reaching December with unclaimed funds that expire on January 1.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Audit all search campaign ad copy for OEM creative standards compliance before submission",
+            "description": "OEM co-op programs typically require that dealer paid search ads meet specific creative standards: approved model names, correct trademark usage, compliant pricing disclosure language, and no competitor model name references. Review all active SEM ad copy against current OEM creative standards documents before each co-op claim submission. Non-compliant creative is the most common reason for partial co-op claim rejection.",
+            "difficulty": "intermediate",
+            "priority": "critical"
+          },
+          {
+            "title": "Reconcile platform-reported spend against invoices before submitting co-op documentation",
+            "description": "Google Ads billing statements and the actual media spend amounts in campaign reports sometimes differ due to billing adjustments, credit memos, and invalid click refunds. Always reconcile Google Ads invoice amounts against campaign-level spend reports before submitting co-op documentation. Claiming more than the verified platform invoice amount is an audit risk; claiming less leaves money on the table.",
+            "difficulty": "beginner",
+            "priority": "important"
+          }
+        ]
+      }
+    ],
+    "pro_tips": [
+      "Run a dedicated Microsoft Advertising (Bing) paid search campaign for automotive \u2014 Bing's automotive audience over-indexes on adults 45\u201365 with higher household incomes, which maps closely to near-luxury and luxury vehicle buyers. Bing CPCs in automotive are typically 20\u201330% below Google for equivalent terms, delivering better CPL economics for that audience segment.",
+      "Use Google Ads Auction Insights reports filtered to model-specific ad groups to identify which third-party automotive comparison sites (CarGurus, Cars.com, Autotrader, KBB) are most aggressively bidding against which of your models. This intelligence should inform not just SEM tactics but your listing and review strategy on those third-party platforms.",
+      "Set up a shared negative keyword list at the MCC (Manager Account) level and push it to all dealer accounts under management. When a new irrelevant search term is identified in any dealer account, adding it once to the shared list blocks it across the entire portfolio instantly. This saves hours of per-account negative keyword management monthly.",
+      "Segment campaigns by inventory status \u2014 'In Stock', 'In Transit', and 'Factory Order'. Tailor ad copy and bids to each segment: in-stock units can lead with urgency and availability; in-transit units should lead with reservation options; factory order should lead with customization. Bidding equally on all inventory statuses wastes budget on units that can't close in the current sales window.",
+      "For tax refund season (February\u2013April), build specific ad copy variants highlighting 'Use Your Tax Refund as a Down Payment' \u2014 this messaging directly addresses a buyer's financial barrier and has historically delivered 15\u201325% higher form completion rates in below-average-income trading zones. Few competitors run this seasonal message, creating temporary share-of-voice opportunity."
+    ],
+    "related_tools": [
+      {
+        "slug": "halliard",
+        "relevance": "Halliard consolidates keyword performance across all dealer tiers in one view, tracks co-op documentation, and flags keyword overlap conflicts between Tier 1, 2, and 3 accounts."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic's media planning workflow supports multi-tier automotive paid search plan documentation with structured line items, budget allocation across dealers, and vendor compliance tracking."
+      },
+      {
+        "slug": "basis",
+        "relevance": "Basis integrates paid search campaign management with programmatic buying, enabling automotive planners to manage search + display + CTV campaigns in a single platform with unified reporting."
+      },
+      {
+        "slug": "guideline",
+        "relevance": "Guideline's media buying workflow provides structured approval and reconciliation for dealer-tier paid search investment, streamlining the co-op documentation process for OEM reimbursement claims."
+      }
+    ],
+    "cta": {
+      "text": "Coordinate your automotive paid search tiers without the keyword conflict \u2014 try Halliard's multi-tier planning tools free.",
+      "link": "https://www.halliardmedia.com/trytoday"
+    }
+  }
+}
