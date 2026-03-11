@@ -8,6 +8,7 @@ tags:
   - multi-channel
   - fast
 link: https://www.placements.io/media-planning-activation
+heroImage: ./images/placements-io.png
 featured: false
 targetUsers:
   - Brands
