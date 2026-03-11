@@ -8,6 +8,7 @@ tags:
   - audience-analytics
   - featured
 link: https://measured.com/
+heroImage: ./images/measured.png
 featured: true
 targetUsers:
   - Enterprise Marketers
