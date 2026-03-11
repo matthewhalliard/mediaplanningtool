@@ -1,0 +1,57 @@
+{
+  "slug": "cpg",
+  "name": "CPG / FMCG",
+  "type": "vertical",
+  "context": {
+    "audience": "Brand managers and media directors at consumer packaged goods companies spanning food & beverage, personal care, household products, and alcoholic beverages. Audiences range from national shopper marketing leads managing retail co-investment to digital media specialists at challenger brands running DTC-first strategies. Secondary: agency teams at holding companies managing billion-dollar CPG rosters.",
+    "pain_points": [
+      "Shopper marketing vs. brand media budget tension: trade/retailer investment (funded co-op, FSI, RMN sponsored listings) competes with national brand media for the same consumer dollar, with no unified attribution across both",
+      "Retail Media Network fragmentation — brands must now manage 30+ separate RMN platforms (Amazon, Walmart Connect, Kroger Precision Marketing, Instacart, Target Roundel) each with different UIs, targeting logic, reporting metrics, and minimum spends",
+      "Measuring incremental sales lift vs. baseline velocity: retail closed-loop attribution shows correlation between ad exposure and purchase, but isolating true incrementality from seasonal and promotional effects requires clean holdout experiments that most RMNs don't run by default",
+      "Category captain shelf dynamics complicate media: retailers control end-cap and in-store digital screen placements as part of joint business plan negotiations, blurring the line between media buy and trade deal",
+      "Private label encroachment is accelerating — as store brands capture 25–30% share in key categories, CPG brands face rising CPCs and CPMs as they must defend branded keywords and shelf adjacency digitally",
+      "First-party data scarcity for endemic CPG: unlike DTC brands, CPG companies don't own the point-of-sale transaction at retail, making it difficult to build owned audiences for retargeting without retailer data partnerships"
+    ],
+    "kpis": [
+      "Incremental sales lift (measured via controlled holdout test vs. control group within RMN clean rooms)",
+      "Return on Ad Spend (ROAS) measured to in-store and online units sold, not just digital revenue",
+      "Household penetration rate — % of target demographic households purchasing the brand at least once in the measurement period",
+      "Share of voice (SOV) vs. category competitors across search, social, and display",
+      "New household acquisition rate — first-time buyers as a proportion of total purchasers",
+      "Market share velocity by retailer and geography (tracked via Nielsen/Circana POS data)",
+      "Brand equity indices: prompted/unprompted awareness, purchase intent, net sentiment"
+    ],
+    "regulatory": "Advertising substantiation requirements (FTC) for health claims, 'natural,' 'clean,' or nutrient content claims. Alcohol advertising governed by TTB and state regulations with age-gating requirements and platform-specific restrictions. FTC influencer disclosure rules (material relationship disclosure in social). Children's advertising restrictions (CARU/COPPA) for brands marketed to under-13. EU HFSS (High Fat, Salt, Sugar) restrictions now in effect for UK/EU digital CPG advertising, relevant for global media plans.",
+    "seasonality": "Holiday Q4 (Nov–Dec) is peak for food, beverage, gifting, and personal care — typically 35–50% of annual media spend concentrated here. Summer peaks for beverages, suncare, and grilling categories. Back-to-school (July–Aug) relevant for snacking, beverages, and lunchbox items. New Year/resolution period (Jan–Feb) drives health & wellness CPG campaigns. Seasonal NPD launches require coordinated burst media to drive trial at retail distribution.",
+    "budget_dynamics": "US CPG digital ad spend reached $52.99B in 2025 per eMarketer (up 6.1% YoY, a deceleration from 16.6% growth in 2024). Display outpaces search — CPG allocates ~58% to display ($30.66B) vs. search ($21.30B), reflecting upper-funnel brand investment priority. Retail media is capturing a growing share of formerly trade-classified budgets: US retail media spend projected at $58.79B in 2025. Amazon and Walmart Connect dominate — 89% of incremental RMN spend flows to these two players. Shift: shopper marketing budgets are migrating to RMN sponsored search and off-site programmatic, blurring the trade/media line.",
+    "channels_that_work": [
+      "Retail Media Networks (Amazon Ads, Walmart Connect, Kroger Precision Marketing, Instacart, Target Roundel) — closed-loop attribution to purchase; sponsored product listings are highest-ROAS CPG channel",
+      "Paid social (Meta, TikTok) — awareness and trial for new product launches; TikTok Shop increasingly driving impulse purchases in beauty, food, and beverage categories",
+      "Programmatic video/CTV — brand building at scale; Amazon DSP allows targeting based on purchase data extended to CTV and streaming inventory",
+      "Linear TV — still used by top-50 CPG brands for mass reach in categories with broad demographic targets (household cleaners, processed food); declining as percentage of total",
+      "Influencer and creator marketing — micro and nano creators driving UGC and authentic product integration, especially in food, beauty, and wellness; PGIM (pharma-grade influencer methodology) migrating to CPG",
+      "Digital out-of-home (DOOH) — grocery store proximity targeting, airport/transit for premiumization brands",
+      "Streaming audio (Spotify, Pandora) — contextual targeting (cooking playlists, workout content) for food and beverage brands"
+    ],
+    "measurement_challenges": [
+      "Omnichannel sales attribution: CPG purchases happen across 4–8 retail touchpoints (online, in-store, subscription), making it impossible to assign media credit without retailer data-sharing agreements",
+      "RMN measurement fragmentation: each retail media network reports on different metrics and definitions of 'sales lift,' making cross-platform comparison apples-to-oranges without clean room normalization",
+      "Distinguishing media-driven incrementality from trade promotion and pricing effects: a temporary price reduction in the same week as a media flight contaminates lift studies",
+      "Long purchase cycle categories (vitamins, pet food) have delayed attribution windows that standard 7- or 14-day RMN attribution windows miss entirely",
+      "TV-to-purchase attribution: brand TV spend influences retailer sell-through but GRP-to-unit-volume modeling is imprecise and delayed by 4–8 weeks"
+    ],
+    "subtopics": [
+      "Retail media network strategy and budget allocation across Amazon, Walmart, and grocery RMNs",
+      "New product launch media sequencing (awareness-to-trial-to-repurchase)",
+      "Shopper marketing integration with national brand media planning",
+      "DTC vs. retail distribution media strategy for omnichannel CPG brands",
+      "Influencer and creator marketing programs for CPG trial generation",
+      "Category defense media in the face of private label growth",
+      "International CPG media planning with HFSS and regulatory variation by market",
+      "Clean room measurement and incrementality testing for RMN investments"
+    ],
+    "typical_budget_range": "Challenger brand (sub-$500M revenue): $10M–$50M/year media. Mid-tier CPG brand: $50M–$200M/year. Top-50 CPG brand (Unilever, P&G portfolio brand): $200M–$1B+/year. Retail media investment often tracked separately from national media; may add 20–40% of total media budget.",
+    "buying_model": "Blend of upfront broadcast TV (negotiated by holding company), programmatic (via agency trading desks or in-house DSPs), and self-serve RMN platforms (Amazon, Walmart, Instacart). RMN buying is increasingly a mix of managed-service (account managers at the retailer) and self-serve. Large CPGs are in-housing more programmatic execution but retaining agency for strategy and TV negotiation. Clean room data collaboration (LiveRamp, InfoSum, AWS Clean Rooms) required for RMN measurement.",
+    "creative_considerations": "Product as hero — pack shot clarity and shelf relevance are non-negotiable for RMN sponsored ads. Brand campaigns require lifestyle and occasion context (family dinner, morning routine). Short-form video (6s–15s) dominant on social and CTV pre-roll; story format on Instagram/TikTok requires native-first creative, not TV repurpose. Limited edition and seasonal packaging variants create urgency in social. Health and wellness claims must match regulatory-approved language exactly. UGC authenticity outperforms polished production on TikTok and Instagram Reels."
+  }
+}
