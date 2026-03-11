@@ -14,7 +14,6 @@ tags:
   - agencies
 link: https://www.comscore.com/
 featured: true
-image: ./images/comscore.png
 targetUsers:
   - Media Agencies
   - Marketing Directors
