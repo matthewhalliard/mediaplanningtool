@@ -14,7 +14,6 @@ tags:
   - marketing-directors
 link: https://www.bluhorn.com/
 featured: false
-image: ./images/bluhorn.png
 targetUsers:
   - Media Agencies
   - Marketing Teams
