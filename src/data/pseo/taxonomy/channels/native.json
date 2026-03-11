@@ -1,0 +1,47 @@
+{
+  "slug": "native",
+  "name": "Native / Content Marketing Advertising",
+  "type": "channel",
+  "context": {
+    "buying_mechanics": "Native advertising is purchased through three primary models: (1) Content discovery networks—Taboola and Outbrain are the dominant platforms, operating self-serve auctions where advertisers bid on clicks (CPC) or impressions (CPM) to place sponsored content recommendations on premium publisher sites; minimum budgets start at $10–$50/day; (2) Programmatic native via DSPs (The Trade Desk, DV360, Xandr) that access native ad inventory through SSPs like TripleLift, Sharethrough, and Index Exchange; (3) Direct publisher integrations—premium 'paid content' or 'sponsored content' placements negotiated directly with major publishers (Forbes BrandVoice, NYT T-Brand Studio, Washington Post Brand Studio) at premium fixed rates. Branded content studios at major publishers offer editorial-quality content creation + guaranteed placement packages.",
+    "measurement_approaches": "Native advertising measurement centers on content engagement rather than pure impression metrics. Key metrics: CTR (click-through rate from the native unit to the content), time on site / engagement rate after click, scroll depth, content read rate, downstream conversions (purchases, form fills, email signups), and branded search lift. Content discovery networks report cost-per-click (CPC) and cost-per-visit (CPV). View-through and post-click attribution models vary by platform. For branded content, brand lift studies (awareness, consideration, message association) are the most relevant brand impact measurement. Content performance analytics (scroll depth, heat mapping, time-on-page) inform content optimization.",
+    "typical_cpms": "Content discovery network (Taboola/Outbrain) standard CPM: $3–$10 CPM; CPC on content discovery typically $0.10–$0.50 per click (B2C) and $0.50–$3.00 (B2B); programmatic native via SSPs: $4–$12 CPM; premium publisher in-feed native (Forbes, Vox, Atlantic—direct deals): $20–$50 CPM; premium branded content packages (NYT T-Brand, WaPo BrandStudio): $30–$80+ CPM with content production included; social in-feed native (Facebook, Instagram, TikTok In-Feed—treated here as the social native format in non-social context): $5–$20 CPM. Native CPMs are generally higher than standard display due to placement within content streams and higher engagement rates.",
+    "targeting_capabilities": [
+      "Keyword and topic contextual targeting (appearing alongside editorially relevant content)",
+      "Demographic targeting via third-party data segments on discovery networks",
+      "Interest and behavioral targeting layered onto discovery network traffic",
+      "Geographic targeting (country, region, DMA, city)",
+      "Device and platform targeting (desktop, mobile web, tablet)",
+      "Publisher-level targeting (select specific premium publications for direct native placements)"
+    ],
+    "common_pitfalls": [
+      "Writing clickbait-style headlines that drive high CTRs but generate low engagement after click, wasting budget on low-quality traffic",
+      "Treating the click as the success metric rather than on-site engagement, time spent, and downstream conversion quality",
+      "Failing to align native content with the audience's actual stage of awareness—pushing purchase-intent content to cold audiences who discovered the brand for the first time through native",
+      "Ignoring content quality on landing pages—native discovery audiences are in content-consumption mode; a product page or hard-sell landing page after a content ad creates jarring experience and poor conversion",
+      "Allowing native placements on low-quality MFA (Made for Advertising) publisher sites without active exclusion lists on discovery networks",
+      "Not testing multiple content formats, headlines, and images—content discovery platforms require continuous A/B creative rotation to maintain performance"
+    ],
+    "formats": [
+      "In-feed content recommendation units (thumbnail + headline, appearing in publisher content feeds—Taboola, Outbrain)",
+      "In-feed social native (sponsored posts styled to match platform content—Meta, LinkedIn, Twitter/X)",
+      "Branded/sponsored content articles (editorial-format brand journalism hosted on publisher or brand site)",
+      "In-ad native (in-article native units that appear within the editorial text flow of a page)",
+      "Content recommendation widgets (below-article 'read more' content grids on publisher pages)",
+      "Sponsored newsletters (native content or banner within email newsletter placements)"
+    ],
+    "key_platforms": [
+      "Taboola (largest content discovery network, integrated with thousands of premium publishers)",
+      "Outbrain (content discovery, merged Teads in 2024 creating expanded premium native inventory)",
+      "TripleLift (programmatic native SSP, in-feed native at scale for brand-safe publishers)",
+      "Sharethrough (programmatic native advertising platform and SSP)",
+      "Forbes BrandVoice, NYT T-Brand Studio, Washington Post WP BrandStudio (premium editorial content studios)",
+      "LinkedIn Sponsored Content (B2B native in-feed ads, distinct from other social due to professional context)",
+      "Nativo (native advertising platform for publishers and brands, programmatic-first)"
+    ],
+    "planning_considerations": "Native advertising bridges the gap between advertising and content marketing—it delivers brand-relevant content in a format that matches the surrounding editorial environment. Key planning considerations: (1) content quality is the primary driver of performance—native is only as effective as the content it promotes; (2) the funnel role of native is typically upper-to-mid-funnel awareness and consideration, not last-click conversion; (3) for content discovery networks, budget optimization should focus on improving post-click engagement (reduce CPC-chasing that attracts low-quality clicks); (4) direct publisher partnerships (branded content studios) command significant premiums but offer audience credibility transfer from trusted editorial brands.",
+    "trend_2026": "Native advertising is benefiting from the increased focus on contextual targeting as third-party cookies continue their decline—content adjacency is a privacy-safe targeting signal. AI-generated content poses both an opportunity (faster content production) and a threat (publisher quality erosion). Outbrain's 2024 acquisition of Teads created a larger programmatic native competitor to Taboola. Newsletter advertising (paid native placements within email newsletters via Beehiiv Boosts, Substack, and direct newsletter deals) is a fast-growing native sub-channel for reaching engaged topic-specific audiences. Sponsored content on Reddit is gaining advertiser interest as Reddit's scale and topic-community targeting offer unique contextual alignment.",
+    "integration_with_other_channels": "Native works best as a mid-funnel channel within a multi-stage content marketing strategy. Key integrations: (1) Pairs with programmatic display for retargeting users who engaged with native content; (2) Content promoted via native can be amplified simultaneously on paid social for cross-platform reach; (3) SEO synergy—content developed for native campaigns can earn organic search traffic if structured for search intent; (4) Native content discovery campaigns drive brand awareness that lifts paid search performance (especially branded search); (5) Integrates with email nurture sequences—users who engage with native content can be added to CRM sequences.",
+    "budget_allocation_guidance": "Native advertising typically represents 5–10% of digital media budgets for content-forward brands and B2B advertisers. Most appropriate when: (1) brand has high-quality content assets or is investing in content production; (2) the customer journey involves research and education before purchase; (3) brand safety and editorial context adjacency matter; (4) the target audience is resistant to traditional banner advertising. Content discovery networks (Taboola/Outbrain) are accessible with budgets as low as $1,000–$5,000/month. Premium branded content packages with major publishers typically start at $50,000–$200,000. Reduce when creative/content resources are insufficient—native without quality content is wasted spend."
+  }
+}
