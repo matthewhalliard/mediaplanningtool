@@ -13,6 +13,7 @@ tags:
   - marketing-directors
   - data-analysts
 link: https://www.gwi.com/
+heroImage: ./images/gwi.png
 featured: false
 targetUsers:
   - Marketing Teams
