@@ -9,6 +9,7 @@ tags:
   - multi-channel
   - marketing-directors
 link: https://www.multinex.com/
+heroImage: ./images/multinex.png
 featured: false
 targetUsers:
   - Marketers
