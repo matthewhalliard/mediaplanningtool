@@ -11,6 +11,7 @@ tags:
   - in-house-teams
   - agencies
 link: https://optimine.com
+heroImage: ./images/optimine.png
 featured: false
 targetUsers:
   - Enterprise Marketers
