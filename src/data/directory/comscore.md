@@ -33,77 +33,58 @@ pricing: Enterprise
 category: Media Measurement Platform
 ---
 
-**Cross-platform audience measurement and media analytics trusted by agencies, publishers, and advertisers**
+**Cross-platform audience measurement and media analytics for agencies, publishers, and advertisers**
 
-Comscore is a media measurement company providing cross-platform audience analytics across digital, TV, CTV, and audio. Its measurement data is used for media planning, campaign evaluation, and publisher monetization. Proximic by Comscore provides 1,350+ predictive audience segments for programmatic targeting without relying on traditional identifiers. Comscore holds a 4.2/5 rating on G2 from 75 reviews. Pricing is enterprise only — contact sales for custom quotes.
+Comscore is a cross-platform measurement company that helps media teams plan, transact, and evaluate campaigns across digital, TV, CTV, and audio. For media planning teams, it’s most relevant for (1) reach/frequency and campaign measurement, and (2) Proximic by Comscore — a privacy-forward activation layer used for contextual targeting and predictive audiences.
+
+Comscore pricing is enterprise-only for most products (measurement, planning, Proximic). For self-serve digital analytics, Comscore also offers Comscore Direct.
 
 ## Key Features
 
-### Cross-Platform Campaign Measurement
-- Holistic, de-duplicated view of campaigns across TV, CTV, desktop, and mobile
-- Person-level measurement with advanced reach and frequency models
-- Real-time campaign reporting with demographic delivery tracking
-- Co-viewing insights and audience validation
-- Program-level content measurement with daily reporting powered by agentic AI
+### Cross-Platform Measurement
+- De-duplicated measurement across TV, CTV, desktop, and mobile
+- Reach & frequency reporting and audience delivery analysis
+- Content/program-level measurement (useful for sellers and planners validating inventory)
+- Support for campaign evaluation across fragmented viewing environments
 
-### Audience Intelligence
-- 1,350+ predictive audience segments for precision targeting
-- 4,000+ niche targets across 22 interest, behavior, and lifestyle categories
-- Advanced audience segmentation and lookalike modeling
-- Cross-device identity resolution and behavioral tracking
-- Unduplicated person-centric data from census network integration
+### Audience Intelligence & Activation (Proximic)
+- Predictive audience segments for programmatic targeting
+- Contextual targeting designed for cookie loss / privacy changes
+- Brand suitability and supply controls (varies by activation partner)
 
-### Proximic Contextual Targeting
-- ID-free targeting capabilities for privacy-compliant programmatic advertising
-- Contextual and behavioral targeting without third-party identifiers
-- Scaled audience activation across premium publisher networks
-- Political audience targeting on CTV (partnership with Yahoo DSP, 2026)
-- Audio targeting and measurement capabilities (partnership with The Trade Desk, 2026)
-
-### Media Planning Tools
-- Multi-platform digital planning with reach/frequency optimization
-- Real-world campaign simulation and effectiveness assessment
-- Frequency capping and budget allocation optimization
-- Cross-channel audience overlap analysis
-- Media efficiency measurement and ROI optimization
-
-## Business Impact
-
-- Trusted by 90% of top global media companies as a measurement standard
-- Measures media investment and audience reach at scale across all platforms
-- Expanded program-level measurement with agentic AI for daily reporting
-- Growing audio and CTV measurement capabilities through strategic partnerships
+### Media Planning Use Cases
+- Planning support via validated audience measurement and overlap insights
+- Outcome-focused reporting inputs (conversion rate, ROAS, reach/frequency)
+- Cross-channel performance measurement signals for budget reallocation
 
 ## Pricing
 
-Comscore pricing is **enterprise only** — no tiers or amounts are publicly listed. Pricing is custom based on measurement scope, market coverage, and scale. A free self-service tagging option is available via Comscore Direct for basic digital measurement. Contact Comscore sales for a custom quote.
+Comscore pricing is **enterprise only** — no tiers or amounts are publicly listed. Pricing is typically scoped by:
+- Products licensed (measurement, planning, Proximic)
+- Markets and geographies
+- Audience / inventory coverage needs
+- Data delivery method (UI, API, custom feeds)
 
 ## Frequently Asked Questions
 
 **Is Comscore free?**
-Comscore offers a free self-service tagging option through Comscore Direct for basic site audience measurement. Full cross-platform measurement, planning tools, and Proximic targeting require an enterprise contract priced by scope.
+Comscore offers Comscore Direct for self-serve digital analytics. Cross-platform measurement, planning tools, and Proximic activation are typically enterprise contracts.
 
 **How much does Comscore cost?**
-Comscore pricing is not publicly available. It is custom enterprise pricing based on measurement scope, number of markets, and platform coverage. Contact Comscore sales for a quote.
-
-**How does Comscore compare to Nielsen?**
-Both Comscore and Nielsen are major currency measurement providers used by agencies for TV and digital planning. Nielsen is dominant in TV measurement with the Nielsen ONE cross-platform suite, while Comscore has strong digital, CTV, and programmatic targeting capabilities through Proximic. Many agencies use both for different measurement needs.
-
-**How does Comscore compare to MRI-Simmons?**
-[MRI-Simmons](/mri-simmons) focuses on consumer psychographics, brand attitudes, and media consumption patterns for planning. Comscore focuses on audience measurement, campaign ratings, and programmatic targeting segments. The two are complementary — MRI-Simmons for audience insight and strategy, Comscore for campaign measurement and activation.
+Comscore doesn’t publish list pricing. Expect custom enterprise pricing based on measurement scope, markets, and platform coverage.
 
 **What is Proximic by Comscore?**
-Proximic is Comscore's contextual targeting product that delivers 1,350+ predictive audience segments for programmatic advertising. It operates without relying on third-party cookies or device IDs, making it viable for privacy-compliant campaign targeting.
+Proximic is Comscore’s activation suite for contextual targeting and predictive audiences designed for privacy-forward programmatic buying.
 
-**Does Comscore measure audio advertising?**
-Yes. Comscore launched audio targeting and measurement capabilities with The Trade Desk in January 2026, expanding its measurement coverage into digital audio.
+**Does Comscore support media planning, or only measurement?**
+Comscore is primarily a measurement and activation data provider; planners use it to validate audiences, understand overlap, and evaluate campaign delivery across channels.
 
-**Is Comscore used for media planning or just measurement?**
-Comscore serves both functions. Its measurement data is used in media planning tools for reach/frequency modeling, and Proximic segments are activated directly in programmatic platforms for buying.
+**What are the biggest programmatic trends Comscore is pointing to in 2026?**
+In Proximic by Comscore’s 2026 State of Programmatic report, 58% of respondents expected programmatic investment to increase in 2026 and 82% said AI-powered optimization is essential. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
 
 ## User Reviews & Social Proof
 
-Comscore holds a **4.2/5 rating on G2** from 75 reviews.
+Comscore holds a **4.2/5 rating on G2** (75 reviews).
 
 > "Measuring Audiences Made Easy: ease of its use — dashboards are straight, making it easy to analyze the data of the audience." — Data Analyst Intern (G2)
 
@@ -114,32 +95,30 @@ Comscore holds a **4.2/5 rating on G2** from 75 reviews.
 ## Comscore vs Alternatives
 
 ### Comscore vs Nielsen
-Nielsen is the dominant TV audience measurement currency in the US, with Nielsen ONE providing cross-platform measurement. Comscore has strong digital measurement and Proximic targeting capabilities. Both are widely used by agencies; the choice often depends on which serves as the planning currency for specific clients or media buys.
+Nielsen is the dominant TV measurement currency in many markets; Comscore is often used for cross-platform and digital-centric measurement and for Proximic activation. Many agencies use both depending on client reporting requirements.
 
 ### Comscore vs MRI-Simmons
-[MRI-Simmons](/mri-simmons) is a consumer research platform providing psychographic profiling, brand attitudes, and media consumption data for strategic planning. Comscore measures actual campaign delivery and provides programmatic targeting segments. They serve different parts of the planning and buying process.
+[MRI-Simmons](/mri-simmons) is consumer research (attitudes, psychographics, survey-based planning). Comscore is measurement + activation data (delivery, audiences, targeting segments).
 
 ### Comscore vs Scarborough
-[Scarborough](/scarborough) (also by Nielsen) focuses on local market consumer insights and DMA-level audience data. Comscore focuses on cross-platform campaign measurement and digital audience analytics. Scarborough is stronger for local market consumer profiling; Comscore is stronger for national and cross-platform campaign measurement.
+[Scarborough](/scarborough) (Nielsen) is strong for local market consumer profiling; Comscore is more centered on cross-platform measurement and digital audience analytics.
 
 ### Comscore vs GWI
-GWI (formerly GlobalWebIndex) offers global consumer survey data with psychographic and behavioral insights. Comscore focuses on measurement of actual media consumption and campaign delivery. GWI is typically used for audience research and strategy; Comscore for measurement and targeting activation.
+[GWI](/gwi) is global survey-based audience insights; Comscore is measurement and activation.
 
 ## Recent Updates (2025–2026)
 
-- **March 2026**: Partnered with Yahoo DSP to deliver Proximic Political Audiences on CTV for campaign targeting
-- **January 2026**: Launched audio targeting and measurement capabilities in partnership with The Trade Desk
-- **January 2026**: ESPN adopted Comscore's cross-platform content measurement for program-level reporting
-- **January 2026**: Signed 5-year deal with Santikos Entertainment for Cinema ACE measurement
-- **2025–2026**: Expanded Connected Content Measurement (CCM) to daily program-level reporting powered by agentic AI
+- **Jan 2026**: Proximic by Comscore released its **2026 State of Programmatic** report, highlighting CTV and audio as expected growth areas and calling AI-powered optimization “essential” for 2026. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
+- **Jan 2026**: Proximic report: 43% planned to increase contextual targeting in 2026 and 50% said contextual was the main tactic in privacy-regulated verticals. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
+- **Jan 2026**: Proximic report: top expected AI applications for 2026 included audience targeting/modeling (88%) and campaign pacing/bid automation (77%). (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
 
 ## Explore More Media Planning Tools
 
 - **[Halliard](/halliard)** — Modern media planning platform with built-in reach/frequency analysis across 18+ channels
-- **[MRI-Simmons](/mri-simmons)** — Consumer intelligence platform with 60,000+ data elements for audience profiling
-- **[Scarborough](/scarborough)** — Local market consumer insights across 83+ DMAs for targeted local planning
-- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media planning and simulation tool using respondent-level data
-- **[Quantcast](/quantcast)** — AI-powered DSP with cookieless audience targeting and omnichannel buying
-- **[The Trade Desk](/the-trade-desk)** — Independent DSP with access to Comscore audience segments for buying
+- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media planning and simulation tool
+- **[MRI-Simmons](/mri-simmons)** — Consumer intelligence and audience research for planning
+- **[Scarborough](/scarborough)** — Local market consumer insights
+- **[Quantcast](/quantcast)** — AI-powered programmatic platform and audience insights
+- **[The Trade Desk](/the-trade-desk)** — Independent DSP often paired with third-party measurement and data
 
 [Visit Comscore →](https://www.comscore.com/)
