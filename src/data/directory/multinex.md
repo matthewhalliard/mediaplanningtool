@@ -10,7 +10,6 @@ tags:
   - marketing-directors
 link: https://www.multinex.com/
 featured: false
-image: ./images/multinex.png
 targetUsers:
   - Marketers
   - Media strategists
