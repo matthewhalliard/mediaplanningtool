@@ -1,0 +1,58 @@
+{
+  "slug": "media-planner",
+  "name": "Media Planner / Media Strategist",
+  "type": "role",
+  "context": {
+    "primary_responsibilities": [
+      "Developing comprehensive media strategies and channel mix recommendations aligned to client or brand objectives, target audiences, budgets, and campaign timelines",
+      "Building and maintaining media flowcharts and detailed media plans (documenting placements, flight dates, budgets, CPMs, impressions, and estimated reach/frequency)",
+      "Conducting audience research using syndicated data tools to understand target consumer media consumption and behavior",
+      "Evaluating publisher and platform proposals, writing POVs (point-of-view documents) on new channels, formats, and opportunities",
+      "Collaborating with buying teams to ensure planned strategies are executable at planned CPMs and that contracted delivery matches plan",
+      "Monitoring campaign performance against plan, reconciling budget pacing, and recommending optimizations"
+    ],
+    "daily_tasks": [
+      "Updating media flowcharts and budget trackers in Excel or planning platforms as campaign details change",
+      "Reviewing overnight performance data from platforms (Google Ads, Meta, DSP dashboards) and flagging pacing issues or underdelivery",
+      "Responding to internal briefs and client requests for scenario planning, budget reallocation, or new channel recommendations",
+      "Meeting with media sales representatives to review new programs, opportunities, or research supporting their inventory",
+      "Writing and updating campaign documentation: insertion orders, client approval memos, POVs, competitive landscape summaries",
+      "Coordinating with creative and trafficking teams on ad specifications, tagging, and deadline management"
+    ],
+    "tools_they_use": [
+      "Media planning and flowchart software (Lumanu, MediaLink, Bionic Advertising Systems, or custom Excel/Google Sheets templates)",
+      "Audience research and syndicated data platforms (MRI-Simmons, GWI, Nielsen National TV, Comscore for digital)",
+      "Competitive intelligence platforms (Kantar Ad Intelligence, MediaRadar, Pathmatics/Sensor Tower)",
+      "Digital platform dashboards for monitoring (Google Ads, Meta Ads Manager, The Trade Desk, DV360)",
+      "Project management and workflow tools (Workfront, Asana, Jira for trafficking and campaign coordination)",
+      "Presentation tools (PowerPoint, Google Slides for client-facing plan presentations)"
+    ],
+    "content_needs": "Media planners benefit most from templates, calculators, and how-to frameworks rather than thought leadership. High-value content includes: channel comparison matrices (CPM benchmarks, reach, targeting capabilities), audience research guides, media math reference sheets (GRP/reach/frequency calculations), briefing templates, RFP templates, flowchart and media plan templates, CPM benchmark reports by channel, and decision frameworks for channel selection based on objectives.",
+    "decision_criteria": [
+      "Audience reach and composition: Does the channel deliver sufficient reach against the target audience at a meaningful index?",
+      "Cost efficiency: What is the CPM or CPC versus alternatives, and what is the cost per target impression (CPTI)?",
+      "Channel fit to objective: Does the channel's format and context support the campaign objective (awareness, consideration, conversion)?",
+      "Attribution and measurability: Can the channel's contribution to outcomes be tracked and reported to clients?",
+      "Competitive landscape: Are competitors present in this channel, and does the brand need to defend or differentiate in this space?",
+      "Budget scalability: Can the plan be executed at the approved budget, or are minimum investment thresholds a barrier?"
+    ],
+    "pain_points": [
+      "Spending an excessive proportion of time on administrative tasks—building, updating, and reformatting media plan spreadsheets and flowcharts—rather than strategic thinking",
+      "Difficulty getting real-time budget pacing visibility across multiple platforms and partners without manually pulling reports and reconciling in Excel",
+      "Being handed a brief with insufficient information (no defined target audience, vague objectives, unrealistic budget for stated goals) and being expected to produce a plan immediately",
+      "Keeping CPM benchmarks and channel data current—reference data ages quickly and outdated benchmarks undermine credibility with clients",
+      "Coordinating deliverables across multiple internal teams (creative, strategy, analytics, buying) and external partners while managing competing deadlines",
+      "Justifying media mix decisions to clients who have preconceived channel preferences not supported by data or audience research"
+    ],
+    "career_path": "Assistant Media Planner → Media Planner → Senior Media Planner → Associate Media Director → Media Director → VP, Media / Group Media Director → Managing Director, Media. At agencies, this path typically takes 7–12 years from entry-level to Director. In-house brand roles often offer accelerated progression with broader responsibilities. Some planners specialize into channel strategy (digital-only, TV specialty) rather than following the generalist management track.",
+    "reports_to": "Associate Media Director or Media Director (at agencies); Head of Media or CMO (at in-house brands); Group Account Director (in integrated agency structures where media planning is embedded in account teams)",
+    "collaborates_with": [
+      "Media Buyers / Investment team (executes the channels the planner recommends and negotiates rates)",
+      "Analytics / Measurement team (defines KPIs, attribution methodology, and interprets performance data)",
+      "Account Managers / Client Leads (the interface between planner's recommendations and client approval)",
+      "Creative Strategy and Creative teams (ensures channel-specific ad specifications are met and creative is adapted for placement contexts)",
+      "Brand / Marketing Strategy team (aligns media strategy to overall brand and campaign objectives)"
+    ],
+    "format_preferences": "Templates and calculators above all else—media planners are highly pragmatic and value tools that reduce time-on-task. Flowchart templates, RFP templates, and brief templates are high-utility. Concise channel fact sheets (one-pagers) for client education. Benchmarking guides with current CPM ranges by channel. How-to guides for newer channels or formats. Avoid long-form thought leadership articles; prioritize scannable formats with clear data tables."
+  }
+}
