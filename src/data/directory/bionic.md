@@ -14,7 +14,6 @@ tags:
   - marketing-directors
 link: https://www.bionic-ads.com/
 featured: false
-image: ./images/bionic.png
 targetUsers:
   - Media Agencies
   - Full Service Agencies
