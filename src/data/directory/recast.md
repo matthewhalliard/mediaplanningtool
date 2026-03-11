@@ -7,6 +7,7 @@ tags:
   - mmm
   - audience-analytics
 link: https://getrecast.com/
+heroImage: ./images/recast.png
 featured: false
 targetUsers:
   - Growth teams
