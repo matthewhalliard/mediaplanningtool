@@ -8,8 +8,8 @@ logo = ""
 iconLogo = "tabler:chart-line"
 
 [general.seo]
-name = "Best Media Planning Tools 2025 | Complete Guide"
-description = "Discover the top media planning tools for 2025. Compare Adobe Advertising Cloud, GWI, Trade Desk, and more. Free guide with pricing and features."
+name = "Best Media Planning Tools 2026 | Complete Guide"
+description = "Discover the top media planning tools for 2026. Compare Adobe Advertising Cloud, GWI, Trade Desk, and more. Free guide with pricing and features."
 url = "https://www.mediaplanningtool.com"
 
 [listings]
@@ -215,8 +215,8 @@ name = "Blog"
 href = "/blog"
 
 [[header.navbar.links]]
-name = "2025 Guide"
-href = "/2025-guide"
+name = "2026 Guide"
+href = "/2026-guide"
 
 [header.actionButton]
 text = ""
