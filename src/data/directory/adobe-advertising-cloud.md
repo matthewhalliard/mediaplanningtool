@@ -34,7 +34,7 @@ category: Enterprise DSP Platform
 
 **Adobe's enterprise demand-side platform for data-driven programmatic advertising — deeply integrated with Adobe Experience Platform**
 
-Adobe Advertising Cloud (now branded Adobe Advertising) delivers comprehensive programmatic capabilities tightly integrated with Adobe Experience Platform. Built for enterprise advertisers and agencies, it runs data-driven campaigns across display, video, audio, and Connected TV, using Adobe Sensei AI for spend forecasting, real-time optimization, and automated audience targeting. In 2026, Adobe's research shows 76% of organizations report improvements in content volume and speed from generative AI — and Adobe Advertising is the activation layer where those AI-produced assets reach audiences at scale.
+Adobe Advertising Cloud (now branded Adobe Advertising) is Adobe’s enterprise programmatic platform that includes Advertising DSP and Advertising Creative. It’s built for enterprise advertisers and agencies running campaigns across display, video, audio, and connected TV, with tight integration into Adobe Experience Platform for first-party data activation.
 
 ## Key Features
 
@@ -48,9 +48,9 @@ Adobe Advertising Cloud (now branded Adobe Advertising) delivers comprehensive p
 ### Programmatic Campaign Management
 - Multi-channel campaign orchestration across display, video, audio, and CTV
 - Real-time bidding with automated budget allocation
-- CTV retargeting capabilities (launched beta 2025)
-- Redesigned campaign bulksheets for streamlined bulk trafficking
-- Agentic AI workflows (in development for 2026) to automate campaign orchestration tasks
+- Campaign and placement management for display, video, audio, and CTV
+- Bulk editing via “bulksheets” for faster trafficking
+- Optimization goals including Highest Return on Ad Spend (ROAS) and Lowest Cost per Acquisition (CPA) (requires conversion metric)
 
 ### Adobe Experience Platform Integration
 - Unified customer profiles and segmentation shared across the full Adobe stack
@@ -61,10 +61,10 @@ Adobe Advertising Cloud (now branded Adobe Advertising) delivers comprehensive p
 
 ### Performance Measurement
 - Advanced attribution modeling across multiple touchpoints
-- Highest ROAS and Lowest CPA optimization goals (added 2025)
-- Cross-channel performance tracking with real-time dashboards
-- Brand safety controls via DoubleVerify and Peer39 integrations
-- AI-driven visit share and traffic analytics (Adobe reports 1,151% AI traffic growth over 18 months)
+- Cross-channel reporting with customizable dimensions and “package flight” reporting
+- Cost reporting for Advertising Creative via the All-in Cost report (GA)
+- Brand-safety and media-quality integrations including DoubleVerify and Peer39 category targeting
+- Alerts surfaced via the Pulse Panel (DSP + Creative)
 
 ## Business Impact
 
@@ -114,19 +114,19 @@ Adobe does not publish pricing. The platform uses custom enterprise contracts wi
 Yes. Adobe rebranded and consolidated its advertising products. The DSP component is now part of the Adobe Advertising suite, which includes both the DSP and Adobe Advertising Search, Social & Commerce (formerly Adobe Advertising Cloud Search).
 
 **How does Adobe Advertising Cloud compare to The Trade Desk?**
-[The Trade Desk](/tools/the-trade-desk) operates as an independent DSP with no walled-garden data advantages, offering arguably greater inventory transparency. Adobe's strength lies in its native integration with Adobe Experience Platform for brands already running the full Adobe stack. Trade Desk's Kokai AI is broadly seen as more mature for pure-play DSP optimization.
+[The Trade Desk](/the-trade-desk) operates as an independent DSP with no walled-garden data advantages, offering arguably greater inventory transparency. Adobe's strength lies in its native integration with Adobe Experience Platform for brands already running the full Adobe stack. Trade Desk's Kokai AI is broadly seen as more mature for pure-play DSP optimization.
 
 **What AI features does Adobe Advertising Cloud offer in 2026?**
-Adobe Sensei powers spend forecasting, real-time optimization opportunity identification, and automated bidding. Adobe's 2026 AI and Digital Trends Report highlights that 76% of organizations report improvements from generative AI in content production speed and volume. Adobe Advertising connects that AI-generated content pipeline to programmatic activation. Agentic AI capabilities are in development for 2026, enabling autonomous campaign orchestration.
+Adobe Sensei powers spend forecasting, optimization, and automated bidding. Adobe’s 2026 AI and Digital Trends report says 76% of organizations reported “moderate” to “significant” improvements from generative AI in content ideation/production volume and speed ([Adobe for Business](https://business.adobe.com/blog/2026-adobe-ai-digital-trends-report-four-key-takeaways)).
 
 **Who is Adobe Advertising Cloud best suited for?**
-Enterprise brands and agencies already using Adobe Experience Cloud get the most value — the tighter the Adobe ecosystem integration, the stronger the use case. Standalone DSP buyers may find [The Trade Desk](/tools/the-trade-desk) or [Google DV360](/tools/google-dv360) more cost-effective.
+Enterprise brands and agencies already using Adobe Experience Cloud get the most value — the tighter the Adobe ecosystem integration, the stronger the use case. Standalone DSP buyers may find [The Trade Desk](/the-trade-desk) or [Google DV360](/google-dv360) more cost-effective.
 
 **Does Adobe Advertising Cloud support CTV advertising?**
-Yes. The platform supports Connected TV buying, with CTV retargeting launched in beta in 2025. With 47% of TV usage now accounted for by streaming (per Nielsen's January 2026 report), CTV capabilities are increasingly central to the platform's value proposition.
+Yes. The platform supports Connected TV buying, and DSP supports CTV placements with pre-bid fraud blocking integrations like DoubleVerify for standard connected TV placements ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
 
 **How is Adobe responding to the shift toward AI-assisted consumer research?**
-Adobe's 2026 AI and Digital Trends research reveals 25% of customers now use AI platforms like ChatGPT as their top research tool. Adobe Advertising's response is to help brands activate first-party data more effectively — so that when consumers find brands through AI platforms, those brands have precise retargeting and reach capabilities ready to follow up across programmatic channels.
+Adobe’s 2026 AI and Digital Trends research notes that 25% of customers now use AI platforms like ChatGPT as their top research tool ([Adobe for Business](https://business.adobe.com/blog/2026-adobe-ai-digital-trends-report-four-key-takeaways)).
 
 **What happened to Oracle/BlueKai data on Adobe Advertising Cloud?**
 Following Oracle's sunset of the BlueKai data marketplace in 2024, Adobe published alternative third-party data partner guidance for affected campaigns. The platform has shifted toward first-party data activation via Adobe's Real-time CDP as the primary targeting strategy.
@@ -150,16 +150,16 @@ The pattern in reviews: users praise the Adobe ecosystem integration and reporti
 ## Adobe Advertising Cloud vs Alternatives
 
 ### Adobe Advertising Cloud vs The Trade Desk
-[The Trade Desk](/tools/the-trade-desk) is the most commonly cited alternative for enterprise programmatic. Trade Desk operates fully independently of any walled garden, which appeals to buyers who prioritize transparency. Adobe's advantage is native Experience Platform integration — if your brand already runs CDP, Analytics, and Marketo through Adobe, the unified data layer adds real value. Trade Desk's Kokai AI is broadly seen as more mature for pure-play DSP optimization.
+[The Trade Desk](/the-trade-desk) is the most commonly cited alternative for enterprise programmatic. Trade Desk operates fully independently of any walled garden, which appeals to buyers who prioritize transparency. Adobe's advantage is native Experience Platform integration — if your brand already runs CDP, Analytics, and Marketo through Adobe, the unified data layer adds real value. Trade Desk's Kokai AI is broadly seen as more mature for pure-play DSP optimization.
 
 ### Adobe Advertising Cloud vs Google DV360
-[Google DV360](/tools/google-dv360) offers deep access to Google and YouTube inventory, which Adobe cannot match. For brands where YouTube is a major channel, DV360 is often the stronger choice. Adobe wins when first-party data activation across a broader customer data platform matters more than YouTube reach.
+[Google DV360](/google-dv360) offers deep access to Google and YouTube inventory, which Adobe cannot match. For brands where YouTube is a major channel, DV360 is often the stronger choice. Adobe wins when first-party data activation across a broader customer data platform matters more than YouTube reach.
 
 ### Adobe Advertising Cloud vs Amazon DSP
-[Amazon DSP](/tools/amazon-dsp) excels for brands selling on Amazon, with unique retail purchase data for targeting and measurement. Adobe competes better for brands with complex customer data needs that go beyond purchase signals.
+[Amazon DSP](/amazon-dsp) excels for brands selling on Amazon, with unique retail purchase data for targeting and measurement. Adobe competes better for brands with complex customer data needs that go beyond purchase signals.
 
 ### Adobe Advertising Cloud vs Basis
-[Basis](/tools/basis) is an agency-focused platform that combines DSP, search, social, and planning in one workflow. It is typically more accessible on pricing and less dependent on a broader tech stack than Adobe's enterprise offering.
+[Basis](/basis) is an agency-focused platform that combines DSP, search, social, and planning in one workflow. It is typically more accessible on pricing and less dependent on a broader tech stack than Adobe's enterprise offering.
 
 ### Feature Comparison
 
@@ -174,23 +174,28 @@ The pattern in reviews: users praise the Adobe ecosystem integration and reporti
 
 ## Recent Updates (2025–2026)
 
-- **February 2026**: Adobe's 2026 AI and Digital Trends Report published — surveying 3,000 executives and 4,000 customers globally on AI-powered customer experience; found AI-driven visit share grew 1,151% over 18 months
-- **January 2026**: Adobe's 2026 Creative Trends Report identifies four creative themes (All the Feels, Connectioneering, Surreal Silliness, Local Flavor) shaping visual culture — informing ad creative strategies for Adobe Advertising users
+- **2026-01-21:** Adobe GenStudio for Performance Marketing import to Advertising Creative libraries, enabling export to DSP as placements ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+- **2025-11-26:** All-in Cost report for Advertising Creative moved from beta to generally available ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+- **2025-12-17:** Pulse Panel added separate DSP and Creative alert tabs in Campaigns view ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+- **2025-05-07:** Video targeting enhancements (player size, skippability, ad position) and broader bulksheet edit coverage ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+- **2025-03-26:** Login transition toward Adobe Identity Management Service (IMS) for unified Experience Cloud sign-in ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+
+- **2026-02-19:** Adobe’s 2026 AI and Digital Trends Report (with Oxford Economics) surveyed 3,000 executives/practitioners and 4,000 customers; Adobe notes AI-driven visit share grew 1,151% over the prior 18 months ([Adobe for Business](https://business.adobe.com/blog/2026-adobe-ai-digital-trends-report-four-key-takeaways)).
+- **2026-01-08:** Adobe published its 2026 Creative Trends report and supporting write-up outlining major creative themes for 2026 ([Adobe Blog](https://blog.adobe.com/en/publish/2026/01/08/how-creators-leveraging-adobe-2026-creative-trends)).
 - **2025**: Expanded Peer39 partnership for custom brand safety category targeting
 - **2025**: DoubleVerify integration added Debated News & Politics segments for brand safety control
 - **2025**: Redesigned campaign bulksheets to streamline bulk trafficking workflows
-- **2025**: New optimization goals added — Highest ROAS and Lowest CPA
-- **2025**: CTV retargeting launched in beta
-- **2025**: Oracle/BlueKai third-party data sunset — Adobe published alternative data partner guidance for affected campaigns
+- **2025-02-03:** For Highest ROAS and Lowest CPA optimization goals, the Conversion Metric setting became required for packages ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
+- **2025-09-25:** Oracle/BlueKai-related services were removed as Oracle sunset its advertising business; Adobe listed alternative data partners and brand-safety options ([Adobe Experience League](https://experienceleague.adobe.com/en/docs/advertising/dsp/home)).
 
 ## Explore More Media Planning Tools
 
-- **[The Trade Desk](/tools/the-trade-desk)** — Independent enterprise DSP with Kokai AI and premium global inventory
-- **[Google DV360](/tools/google-dv360)** — Google's enterprise DSP with unmatched YouTube and Google inventory access
-- **[Amazon DSP](/tools/amazon-dsp)** — Amazon's DSP powered by unique retail and streaming audience data
-- **[Basis](/tools/basis)** — Integrated cross-channel media platform combining DSP, search, and social
-- **[Mediaocean](/tools/mediaocean)** — End-to-end media management platform for agencies and enterprise brands
-- **[Criteo](/tools/criteo)** — Commerce media platform with strong retail data for performance campaigns
-- **[Halliard](/tools/halliard)** — Media planning and strategy tool built for modern planning workflows
+- **[The Trade Desk](/the-trade-desk)** — Independent enterprise DSP with Kokai AI and premium global inventory
+- **[Google DV360](/google-dv360)** — Google's enterprise DSP with unmatched YouTube and Google inventory access
+- **[Amazon DSP](/amazon-dsp)** — Amazon's DSP powered by unique retail and streaming audience data
+- **[Basis](/basis)** — Integrated cross-channel media platform combining DSP, search, and social
+- **[Mediaocean](/mediaocean)** — End-to-end media management platform for agencies and enterprise brands
+- **[Criteo](/criteo)** — Commerce media platform with strong retail data for performance campaigns
+- **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 
 [Visit Adobe Advertising Cloud →](https://business.adobe.com/products/advertising/adobe-advertising-cloud.html)
