@@ -1,0 +1,233 @@
+{
+  "slug": "checklist/linear-tv-technology",
+  "title": "Linear / Traditional TV Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+  "metaDescription": "A practical linear TV media planning checklist tailored for Technology / SaaS / B2B Tech brands \u2014 strategy, inventory, optimization, and measurement.",
+  "updatedAt": "2026-03-12",
+  "channel": {
+    "id": "linear-tv",
+    "name": "Linear / Traditional TV"
+  },
+  "vertical": {
+    "id": "technology",
+    "name": "Technology / SaaS / B2B Tech"
+  },
+  "contentType": "checklist",
+  "intro": "This checklist helps Technology / SaaS / B2B Tech teams plan, buy, and measure linear TV campaigns with fewer missed details. Use it as a pre-launch QA list and as a weekly in-flight operating rhythm.",
+  "sections": [
+    {
+      "title": "Strategy & Targeting",
+      "items": [
+        {
+          "title": "Define Technology / SaaS / B2B Tech audience segments and viewing contexts",
+          "description": "Start with 2\u20134 core segments tied to Technology / SaaS / B2B Tech. For linear TV, map when those audiences are most likely to watch (dayparts, live events, seasonality) so you can align reach with real viewing habits instead of generic demos."
+        },
+        {
+          "title": "Set a reach and frequency goal (and the tradeoff)",
+          "description": "Linear TV excels at broad reach but can overserve if frequency is unmanaged. Define your ideal weekly frequency range for Technology / SaaS / B2B Tech and decide where you will cap, rotate, or shift budget to maintain efficient incremental reach."
+        },
+        {
+          "title": "Choose a KPI hierarchy (awareness \u2192 response)",
+          "description": "Pick leading indicators (reach, GRPs, brand lift proxies) and lagging indicators (site traffic, searches, store visits) that fit Technology / SaaS / B2B Tech. Make sure the KPI set is feasible with your measurement stack before you commit."
+        },
+        {
+          "title": "Select programming environments that fit the buying thesis",
+          "description": "For Technology / SaaS / B2B Tech, list 5\u201310 program genres, networks, or tentpole events that match your audience and brand safety needs. Prioritize placements where linear TV delivery is reliable and context aligns with your creative message."
+        },
+        {
+          "title": "Document competitive spend windows and counter-programming",
+          "description": "Note when competitors in Technology / SaaS / B2B Tech typically burst (product launches, seasonal peaks). Use linear TV\u2019s predictability to defend key windows or find efficient counter-programming where CPMs are lower but attention is high."
+        },
+        {
+          "title": "Plan creative rotation to avoid wear-out",
+          "description": "Build a rotation plan (at least 3\u20135 creative variants) and tie swaps to frequency or week number. Linear TV wear-out is common in narrow demos; having a plan reduces performance drop-off in Technology / SaaS / B2B Tech flights."
+        },
+        {
+          "title": "Confirm geo strategy (national vs. local split)",
+          "description": "If your Technology / SaaS / B2B Tech outcomes are local (stores, regional demand), define which markets get incremental weight and why. For national buys, document any exclusions and ensure affiliates or local inventory isn\u2019t double-counted."
+        },
+        {
+          "title": "Align budget to flighting (always-on vs. pulses)",
+          "description": "Decide whether your linear TV plan for Technology / SaaS / B2B Tech should be always-on for baseline reach or pulsed around key moments. Tie flighting to production timelines so creative arrives before impressions do."
+        },
+        {
+          "title": "Validate category compliance and claims",
+          "description": "Certain Technology / SaaS / B2B Tech categories have strict claim rules. Confirm legal/compliance review for linear TV scripts (superimposed text, disclosures, offer terms) early to prevent missed air dates."
+        },
+        {
+          "title": "Define success criteria for optimization decisions",
+          "description": "Write down what triggers a change: e.g., underdelivery vs. GRP goal, cost-per-reach point thresholds, or brand lift deltas. Linear TV optimization cycles are slower, so decision rules matter for Technology / SaaS / B2B Tech."
+        }
+      ]
+    },
+    {
+      "title": "Planning Inputs & Inventory",
+      "items": [
+        {
+          "title": "Lock down the target demo and any audience overlays",
+          "description": "List your primary demo and any overlays relevant to Technology / SaaS / B2B Tech (income, life stage, household). Clarify whether the buy is strictly demo-based or if you will use data-driven linear where available."
+        },
+        {
+          "title": "Build a network/program short list with rationale",
+          "description": "Create a short list of networks and program types that index well for Technology / SaaS / B2B Tech. Add a one-line rationale for each so stakeholders understand why a placement is in (or out)."
+        },
+        {
+          "title": "Estimate reach curves using prior campaigns or benchmarks",
+          "description": "Use last year\u2019s Technology / SaaS / B2B Tech linear TV performance, if available, to estimate reach at different spend levels. If you don\u2019t have history, document the benchmark source and assumptions so you can recalibrate mid-flight."
+        },
+        {
+          "title": "Confirm daypart strategy and delivery expectations",
+          "description": "Dayparts drive both cost and audience composition. Define which dayparts are mandatory vs. flexible for Technology / SaaS / B2B Tech, and note where you\u2019ll accept makegoods if delivery shifts."
+        },
+        {
+          "title": "Plan for makegoods and preemptions",
+          "description": "Linear TV often requires makegoods when programs are preempted (sports overruns, breaking news). Define acceptable makegood rules up front so the Technology / SaaS / B2B Tech plan doesn\u2019t drift from the original strategy."
+        },
+        {
+          "title": "Coordinate with CTV/streaming plans to avoid duplicated reach",
+          "description": "If you also run CTV, define how linear TV contributes incremental reach for Technology / SaaS / B2B Tech. Align audiences and reporting so you can understand overlap and avoid paying twice for the same households."
+        },
+        {
+          "title": "Finalize creative specs and trafficking checklist",
+          "description": "Confirm spot lengths, formats, and closed-captioning requirements. Linear TV trafficking errors can delay air dates; a single standardized checklist reduces rework for Technology / SaaS / B2B Tech campaigns."
+        },
+        {
+          "title": "Confirm measurement tags and attribution plan",
+          "description": "Linear TV attribution often uses matched market tests, lift studies, or modeled attribution. Document how you will capture response for Technology / SaaS / B2B Tech (vanity URLs, call tracking, time-series lift) before launch."
+        },
+        {
+          "title": "Set up a weekly reporting cadence",
+          "description": "Create a repeatable weekly dashboard: delivery vs. plan, GRPs, reach estimates, and outcome proxies. Linear TV planning benefits from consistency so you can compare Technology / SaaS / B2B Tech flights apples-to-apples."
+        },
+        {
+          "title": "Define contingency inventory options",
+          "description": "Have 2\u20133 backup networks or dayparts in case inventory tightens. For Technology / SaaS / B2B Tech, contingency options keep pacing on track without sacrificing brand safety or audience fit."
+        }
+      ]
+    },
+    {
+      "title": "Optimization & In-Flight Management",
+      "items": [
+        {
+          "title": "Monitor pacing vs. weekly GRP targets",
+          "description": "Check pacing weekly and compare planned vs. delivered GRPs. If Technology / SaaS / B2B Tech delivery is behind, adjust network mix or dayparts early rather than waiting until the end of the flight."
+        },
+        {
+          "title": "Review frequency distribution to reduce overserve",
+          "description": "Ask for frequency distributions (not just averages). If a subset of the Technology / SaaS / B2B Tech demo is seeing too many ads, consider creative rotation, schedule shifts, or reallocating to incremental reach tactics."
+        },
+        {
+          "title": "Analyze program-level performance proxies",
+          "description": "Use available signals\u2014site traffic spikes, branded search lift, or call volume\u2014by airing window. For Technology / SaaS / B2B Tech, this helps you identify which environments are delivering attention even if direct attribution is limited."
+        },
+        {
+          "title": "Adjust creative based on learnings (message-market fit)",
+          "description": "If a specific Technology / SaaS / B2B Tech segment responds better to a certain message (price vs. quality vs. availability), update rotation rules and ensure the right creative runs in the right programs and markets."
+        },
+        {
+          "title": "Track competitive activity and react quickly",
+          "description": "If competitors in Technology / SaaS / B2B Tech increase share of voice during your flight, consider short bursts in high-attention programming or rebalancing to protect reach targets."
+        },
+        {
+          "title": "Validate makegoods and post logs weekly",
+          "description": "Reconcile airing logs against invoices. For Technology / SaaS / B2B Tech campaigns, missed spots can materially impact reach; catching issues early avoids end-of-flight surprises."
+        },
+        {
+          "title": "Coordinate cross-channel creative sequencing",
+          "description": "If digital retargeting follows linear TV exposure, ensure timing and messaging are aligned. For Technology / SaaS / B2B Tech, sequencing can turn awareness into measurable response when TV alone is hard to attribute."
+        },
+        {
+          "title": "Update stakeholders with decisions, not just metrics",
+          "description": "Weekly updates should include what changed and why (network swaps, market weights, creative rotation). This keeps Technology / SaaS / B2B Tech leadership aligned and reduces second-guessing."
+        },
+        {
+          "title": "Document learnings for the next planning cycle",
+          "description": "Capture which networks, dayparts, and markets were most efficient for Technology / SaaS / B2B Tech. Linear TV planning improves over time when learnings are written down and reused."
+        },
+        {
+          "title": "Prepare a post-campaign analysis framework early",
+          "description": "Define how you\u2019ll evaluate the flight: delivery, reach, brand lift, and outcome proxies. For Technology / SaaS / B2B Tech, early planning ensures you can secure the data needed for a credible readout."
+        }
+      ]
+    },
+    {
+      "title": "Measurement & Next Steps",
+      "items": [
+        {
+          "title": "Run a lift analysis windowed to airings",
+          "description": "Compare response (traffic, searches, conversions) in windows around linear TV airings. For Technology / SaaS / B2B Tech, windowed analysis can reveal impact patterns even without perfect user-level attribution."
+        },
+        {
+          "title": "Quantify incremental reach vs. streaming/video plans",
+          "description": "Estimate overlap and incremental households reached by linear TV. Knowing incremental reach helps justify the linear portion of the Technology / SaaS / B2B Tech mix in future budget conversations."
+        },
+        {
+          "title": "Audit creative and offer compliance in final deliverables",
+          "description": "Ensure the final report includes proof of compliance (disclosures, offer terms) where relevant. This is especially important in regulated Technology / SaaS / B2B Tech categories."
+        },
+        {
+          "title": "Create a reusable media plan template for next quarter",
+          "description": "Turn your flight plan into a template: goals, assumptions, network mix, market weights, and reporting cadence. For Technology / SaaS / B2B Tech, this reduces time-to-plan in the next cycle."
+        },
+        {
+          "title": "Identify 2\u20133 test ideas for the next flight",
+          "description": "Based on results, propose tests like new networks, different dayparts, or creative messaging. Linear TV improvements for Technology / SaaS / B2B Tech often come from disciplined experimentation."
+        },
+        {
+          "title": "Package insights for stakeholders and partners",
+          "description": "Write a one-page summary: what worked, what didn\u2019t, and what you\u2019ll do next. For Technology / SaaS / B2B Tech, concise insights help secure support for future linear TV investment."
+        },
+        {
+          "title": "Map learnings to complementary channels",
+          "description": "If linear TV drove awareness but not response, outline how paid social, search, or CTV can capture demand. For Technology / SaaS / B2B Tech, cross-channel planning makes TV impact more measurable."
+        },
+        {
+          "title": "Update your measurement stack for the next run",
+          "description": "If attribution was a pain point, list the exact gaps (spot-level logs, geo-level outcomes, lift study access). Closing those gaps increases confidence in linear TV decisions for Technology / SaaS / B2B Tech."
+        },
+        {
+          "title": "Confirm next quarter\u2019s budget and buying timelines",
+          "description": "Linear TV requires lead times. For Technology / SaaS / B2B Tech, confirm upfront vs. scatter approach, and lock key milestones (RFP, creative delivery, trafficking) to avoid rushed decisions."
+        },
+        {
+          "title": "Add a \u201cdo this again / don\u2019t do this again\u201d checklist item",
+          "description": "The final step is operational: capture 3 repeatable wins and 3 avoidable mistakes. This makes the next Technology / SaaS / B2B Tech linear TV plan better with less effort."
+        }
+      ]
+    }
+  ],
+  "proTips": [
+    "For Technology / SaaS / B2B Tech, reserve time in the timeline for clearance/standards review so the flight doesn't slip.",
+    "Ask for post logs in a consistent format every week so reporting doesn't become manual.",
+    "Treat makegoods like inventory, not freebies\u2014ensure they still match your strategy.",
+    "Pair TV bursts with search/paid social coverage to capture the demand TV creates.",
+    "Write down assumptions (reach curves, CPMs, daypart mix) so you can learn and iterate next cycle."
+  ],
+  "relatedTools": [
+    {
+      "id": "halliard",
+      "name": "Halliard",
+      "url": "https://www.mediaplanningtool.com/halliard"
+    },
+    {
+      "id": "mediaocean",
+      "name": "Mediaocean",
+      "url": "https://www.mediaplanningtool.com/mediaocean"
+    },
+    {
+      "id": "nielsen-media-impact",
+      "name": "Nielsen Media Impact",
+      "url": "https://www.mediaplanningtool.com/nielsen-media-impact"
+    },
+    {
+      "id": "srds-media-planning",
+      "name": "SRDS Media Planning",
+      "url": "https://www.mediaplanningtool.com/srds-media-planning"
+    }
+  ],
+  "cta": {
+    "title": "Need help building a modern media plan?",
+    "body": "Halliard helps teams design planning workflows, measurement, and cross-channel operating systems.",
+    "buttonText": "Try Halliard",
+    "buttonUrl": "https://halliardmedia.com/trytoday"
+  }
+}
