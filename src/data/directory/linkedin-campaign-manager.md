@@ -34,7 +34,7 @@ category: B2B Advertising Platform
 
 **LinkedIn's B2B advertising platform for precision professional audience targeting**
 
-LinkedIn Campaign Manager is the primary advertising interface for LinkedIn's network of over 1 billion professionals across 200+ countries. It enables B2B advertisers to reach decision-makers by job title, function, seniority, company, industry, and professional skills — targeting attributes unavailable on any other platform at this scale. In 2025 and 2026, LinkedIn significantly expanded its AI capabilities, including the Accelerate automated campaign tool, AI-generated ad creatives, and predictive audience modeling.
+LinkedIn Campaign Manager is LinkedIn’s self-serve advertising platform for reaching professional audiences by job title, function, seniority, company, industry, and skills. Recent updates include Media Planner forecasting, Ads Duplication, Dynamic UTMs, and AI-assisted creative drafting inside Campaign Manager ([LinkedIn Marketing Solutions](https://www.linkedin.com/business/marketing/blog/linkedin-ads/new-linkedin-campaign-manager-updates-empowering-marketers-for-greater-success)).
 
 ## Key Features
 
@@ -48,8 +48,8 @@ LinkedIn Campaign Manager is the primary advertising interface for LinkedIn's ne
 - Predictive audiences powered by AI (2025)
 
 ### AI-Powered Campaign Management
-- **Accelerate**: Automated campaign creation that recommends audience, budget, and creative based on your objective
-- AI-generated ad copy and creative variations
+- **Accelerate**: AI-assisted campaign creation that generates budget, schedule, audience, ads, and placements for review before launch ([LinkedIn Help Center](https://www.linkedin.com/help/lms/answer/a1687594)).
+- **Draft with AI / AI-generated ads**: Generate draft ad text (and, for some flows, full draft ads) for single image, video, and document ads ([LinkedIn Help Center](https://www.linkedin.com/help/lms/answer/a1640349)).
 - Performance insights and automated optimization recommendations
 - Smart bidding with manual override options
 - A/B testing for ad creative and audience optimization
@@ -65,7 +65,7 @@ LinkedIn Campaign Manager is the primary advertising interface for LinkedIn's ne
 - Detailed professional demographic reporting on who engaged with ads
 - Lead quality scoring with CRM integration
 - Conversion tracking and attribution
-- Company-level engagement insights for ABM reporting
+- Company-level insights via Companies (which replaced the Company Engagement Report) for account engagement analysis ([LinkedIn Help Center](https://www.linkedin.com/help/lms/answer/a422150)).
 - Custom reporting and data export
 
 ## Business Impact
@@ -150,12 +150,11 @@ Google Ads captures demand at the search intent level, while LinkedIn creates de
 
 ## Recent Updates (2025–2026)
 
-- **2025**: Accelerate automated campaign creation launched — AI recommends audience, budget, and creative based on campaign objective
-- **2025**: AI-generated ad copy and creative variation tools added to Campaign Manager
-- **2025**: Career journey targeting introduced — targets professionals based on their historical job title progression
-- **2025**: Predictive audience modeling added to improve reach beyond manually defined audience parameters
-- **2025**: Campaign Manager UI updated with enhanced performance insights and streamlined workflow
-- **2025–2026**: CRM integration improvements for tighter lead flow automation with Salesforce and HubSpot
+- **2025-03-25:** LinkedIn rolled out Campaign Manager updates including Media Planner for forecasting, Ads Duplication, and Dynamic UTMs ([LinkedIn Marketing Solutions](https://www.linkedin.com/business/marketing/blog/linkedin-ads/new-linkedin-campaign-manager-updates-empowering-marketers-for-greater-success)).
+- **2025-05-29:** LinkedIn updated duplication workflows (and ended audience “asset copying”); advertisers can duplicate Classic campaigns and reuse/duplicate ads across campaigns/accounts ([LinkedIn Help Center](https://www.linkedin.com/help/lms/answer/a425537)).
+- **2024-11:** Company Engagement Report was replaced by Companies in Campaign Manager for account engagement insights ([LinkedIn Help Center](https://www.linkedin.com/help/lms/answer/a422150)).
+- **2025-09-30:** LinkedIn introduced “Draft with AI” for faster creative iteration in Campaign Manager ([LinkedIn Marketing Solutions](https://business.linkedin.com/advertise/ads/product-updates)).
+- **2024-12-30:** Qualified Leads optimization (beta) and expanded measurement features (Measurement Insights) announced ([LinkedIn Marketing Solutions](https://business.linkedin.com/advertise/ads/product-updates)).
 
 ## Explore More Media Planning Tools
 
