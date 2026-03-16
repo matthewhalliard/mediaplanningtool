@@ -50,4 +50,15 @@ TelmarHelixa provides comprehensive media planning and data analytics solutions 
 - **Media Planners**: Requiring sophisticated planning tools
 - **Data Analysts**: Working with media performance data
 
+
+## Explore More
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
 [Visit TelmarHelixa →](https://www.telmar.com/) 
