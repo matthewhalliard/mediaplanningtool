@@ -182,4 +182,14 @@ The platform was named **Best Marketing Campaign Management Platform** at the **
 - **[Media Plan HQ](/mediaplanhq)** — Lightweight media plan builder for fast, shareable campaign plans
 - **[ClickUp](/clickup)** — All-in-one work management platform used by marketing teams for campaign coordination
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit MINT.ai →](https://www.mint.ai/)
