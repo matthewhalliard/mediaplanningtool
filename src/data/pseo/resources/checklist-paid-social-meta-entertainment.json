@@ -191,6 +191,28 @@
     "cta": {
       "text": "Explore more paid social meta planning tools and resources for entertainment brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/paid-social-meta-cpg",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-retail",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-entertainment",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-entertainment",
+        "title": "Linear / Traditional TV Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
