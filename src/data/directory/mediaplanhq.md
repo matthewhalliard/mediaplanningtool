@@ -141,4 +141,17 @@ The tool appears in multiple independent media planning tool roundups, including
 - **[Mediaocean](/mediaocean)** — Enterprise omnichannel advertising infrastructure for large agencies and brands
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation
+
+
 [Visit MediaPlanHQ →](https://www.mediaplanhq.com/)
