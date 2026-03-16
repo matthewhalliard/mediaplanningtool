@@ -170,6 +170,28 @@
     "cta": {
       "text": "Explore more retail media planning tools and resources for retail brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "guide/retail-media-retail",
+        "title": "Complete Guide to Retail Media Networks for Retail / E-Commerce Marketers",
+        "type": "Guide"
+      },
+      {
+        "slug": "checklist/retail-media-cpg",
+        "title": "Retail Media Networks Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-retail",
+        "title": "Linear / Traditional TV Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-retail",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
