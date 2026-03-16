@@ -167,10 +167,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard's planning workspace connects CPG linear TV line items with RMN co-investment planning, aligning GRP delivery windows with retailer promotional calendar timing in one view."
-      },
-      {
         "slug": "nielsen-media-impact",
         "relevance": "Nielsen Media Impact is essential for CPG TV planners \u2014 it models reach/frequency across network combinations, outputs GRP curves by target demo, and supports cross-linear/CTV deduplication."
       },
@@ -184,8 +180,8 @@
       }
     ],
     "cta": {
-      "text": "Align your CPG TV plan with retailer co-investment and RMN schedules \u2014 build it in Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more linear tv planning tools and resources for cpg brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
