@@ -158,6 +158,33 @@
     "cta": {
       "text": "Explore more programmatic display planning tools and resources for healthcare brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "guide/programmatic-display-healthcare",
+        "title": "Complete Guide to Programmatic Display for Healthcare / Pharma Marketers",
+        "type": "Guide"
+      },
+      {
+        "slug": "template/programmatic-display-healthcare",
+        "title": "Media Brief Template for Healthcare / Pharma Programmatic Display Campaigns",
+        "type": "Template"
+      },
+      {
+        "slug": "checklist/programmatic-display-automotive",
+        "title": "Programmatic Display Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/programmatic-display-financial-services",
+        "title": "Programmatic Display Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-healthcare",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Healthcare / Pharma Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
