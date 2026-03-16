@@ -164,6 +164,33 @@
     "cta": {
       "text": "Explore more paid search planning tools and resources for technology brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "tips/paid-search-technology",
+        "title": "Paid Search (SEM / PPC) Advertising Tips for Technology / SaaS / B2B Tech Brands",
+        "type": "Tips"
+      },
+      {
+        "slug": "checklist/paid-search-automotive",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-financial-services",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-technology",
+        "title": "Linear / Traditional TV Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/programmatic-display-technology",
+        "title": "Programmatic Display Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
