@@ -224,6 +224,28 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for technology brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-technology",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/programmatic-display-technology",
+        "title": "Programmatic Display Media Planning Checklist for Technology / SaaS / B2B Tech Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
