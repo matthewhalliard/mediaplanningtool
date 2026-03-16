@@ -121,4 +121,18 @@ Nielsen is the dominant TV measurement currency in many markets; Comscore is oft
 - **[Quantcast](/quantcast)** — AI-powered programmatic platform and audience insights
 - **[The Trade Desk](/the-trade-desk)** — Independent DSP often paired with third-party measurement and data
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform
+- **[SRDS Media Planning](/srds-media-planning)** — Comprehensive media research and planning database
+
+
 [Visit Comscore →](https://www.comscore.com/)
