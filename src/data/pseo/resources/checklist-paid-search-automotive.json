@@ -236,6 +236,28 @@
     "cta": {
       "text": "Explore more paid search planning tools and resources for automotive brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/paid-search-financial-services",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-healthcare",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Healthcare / Pharma Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-automotive",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
