@@ -221,10 +221,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard consolidates keyword performance across all dealer tiers in one view, tracks co-op documentation, and flags keyword overlap conflicts between Tier 1, 2, and 3 accounts."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning workflow supports multi-tier automotive paid search plan documentation with structured line items, budget allocation across dealers, and vendor compliance tracking."
       },
@@ -238,8 +234,8 @@
       }
     ],
     "cta": {
-      "text": "Coordinate your automotive paid search tiers without the keyword conflict \u2014 try Halliard's multi-tier planning tools free.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for automotive brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
