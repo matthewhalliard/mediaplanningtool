@@ -143,10 +143,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard tracks healthcare programmatic display campaigns with MLR approval workflow documentation, HCP vs. DTC campaign separation, and integration of NRx lag measurement timelines with campaign flight schedules."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk offers healthcare data marketplace access with HIPAA-compliant audience partners and DeepIntent DSP integration for NPI-matched HCP display buying at scale."
       },
@@ -160,8 +156,8 @@
       }
     ],
     "cta": {
-      "text": "Build HIPAA-compliant healthcare display plans with MLR workflow and HCP/DTC campaign separation \u2014 try Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more programmatic display planning tools and resources for healthcare brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
