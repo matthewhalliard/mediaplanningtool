@@ -209,10 +209,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Relevant media planning tool"
-      },
-      {
         "slug": "mediaocean",
         "relevance": "Relevant media planning tool"
       },
@@ -226,8 +222,8 @@
       }
     ],
     "cta": {
-      "text": "Try Halliard for AI-powered media planning",
-      "link": "https://halliardmedia.com/trytoday"
+      "text": "Explore more linear tv planning tools and resources for automotive brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
