@@ -34,6 +34,8 @@ const priorityColors: Record<string, string> = {
   important: "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400",
   "nice-to-have": "bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-400",
 };
+
+const relatedResources = (content as any).related_resources || [];
 ---
 
 <article class="max-w-4xl mx-auto">
@@ -139,6 +141,26 @@ const priorityColors: Record<string, string> = {
           >
             <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-1">{tool.slug.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())}</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400">{tool.relevance}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Related Resources -->
+  {relatedResources.length > 0 && (
+    <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 md:p-8 mb-8">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-50 mb-4">Related Resources</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        {relatedResources.map((resource: {slug: string, title: string, type: string}) => (
+          <a
+            href={`/resources/${resource.slug}`}
+            class="flex items-start gap-3 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors"
+          >
+            <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-400 flex-shrink-0 mt-0.5">
+              {resource.type}
+            </span>
+            <span class="font-medium text-gray-900 dark:text-gray-100">{resource.title}</span>
           </a>
         ))}
       </div>
