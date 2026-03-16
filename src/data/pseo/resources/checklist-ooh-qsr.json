@@ -156,6 +156,28 @@
     "cta": {
       "text": "Explore more ooh planning tools and resources for qsr brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "best_practices/ooh-qsr",
+        "title": "Out-of-Home (OOH) / Digital OOH Best Practices for QSR / Restaurants Campaigns",
+        "type": "Best Practices"
+      },
+      {
+        "slug": "checklist/ooh-travel",
+        "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/audio-podcasts-qsr",
+        "title": "Audio / Podcasts / Streaming Audio Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-qsr",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      }
+    ]
   }
 }
