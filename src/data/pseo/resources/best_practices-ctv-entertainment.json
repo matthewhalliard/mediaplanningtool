@@ -149,6 +149,13 @@
     "cta": {
       "text": "Explore more ctv planning tools and resources for entertainment brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ctv-entertainment",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
