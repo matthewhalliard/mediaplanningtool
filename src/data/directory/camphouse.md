@@ -192,4 +192,18 @@ Camphouse holds a **4.7/5 rating on GetApp** across 11 reviews, with 100% positi
 - **[Nielsen Media Impact](/tools/nielsen-media-impact)** — Industry-standard cross-channel reach and frequency planning
 - **[Keen](/tools/keen)** — Marketing mix modeling platform for optimizing budget allocation across channels
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation
+- **[Mint](/mint)** — Cloud-based media planning and buying platform
+
+
 [Visit Camphouse →](https://camphouse.io/)
