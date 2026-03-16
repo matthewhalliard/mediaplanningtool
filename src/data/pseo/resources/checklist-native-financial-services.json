@@ -155,10 +155,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard documents financial services native content campaigns with compliance approval status tracking, publisher-level performance reporting, and integration with full-funnel media plan views."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic structures native advertising line items for financial services alongside programmatic and paid search in a unified plan, with budget approval workflows and financial compliance documentation."
       },
@@ -172,8 +168,8 @@
       }
     ],
     "cta": {
-      "text": "Plan your financial services native content campaigns with compliance workflow and full-funnel attribution \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more native planning tools and resources for financial services brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
