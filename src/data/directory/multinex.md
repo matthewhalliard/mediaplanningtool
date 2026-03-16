@@ -129,4 +129,14 @@ The platform is relatively early-stage in terms of public profile, but has attra
 - **[GWI](/gwi)** — Global consumer research platform for audience and market insights
 - **[Halliard](/halliard)** — Media planning tool built for modern agency workflows
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Free planning resource
+- **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Free planning resource
+
+### 📝 From the Blog
+- **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
+
+
 [Visit Multinex →](https://www.multinex.com/)
