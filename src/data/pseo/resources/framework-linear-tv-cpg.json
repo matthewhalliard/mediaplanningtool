@@ -161,6 +161,13 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for cpg brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
