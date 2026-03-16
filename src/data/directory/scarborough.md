@@ -138,4 +138,14 @@ GWI provides global survey-based consumer research with behavioral and psychogra
 - **[Telmar Helixa](/telmar-helixa)** — AI-powered audience intelligence and psychographic profiling
 - **[GWI](/gwi)** — Global consumer research platform with behavioral and lifestyle data
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Scarborough →](https://www.nielsen.com/solutions/audience-measurement/scarborough/)
