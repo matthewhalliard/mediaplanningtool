@@ -198,4 +198,14 @@ The pattern in reviews: users praise the Adobe ecosystem integration and reporti
 - **[Criteo](/criteo)** — Commerce media platform with strong retail data for performance campaigns
 - **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Adobe Advertising Cloud →](https://business.adobe.com/products/advertising/adobe-advertising-cloud.html)
