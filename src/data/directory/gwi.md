@@ -215,4 +215,17 @@ Looking for tools that complement or compare to GWI? Browse these related listin
 - **[CommsPoint Influence](/commspoint-influence)** — AI-powered audience intelligence for media planning
 - **[Halliard](/halliard)** — AI-powered media planning platform for agencies and brands
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[SRDS Media Planning](/srds-media-planning)** — Comprehensive media research and planning database
+
+
 [Visit GWI →](https://www.gwi.com/)
