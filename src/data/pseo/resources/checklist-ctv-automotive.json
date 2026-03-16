@@ -268,10 +268,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard centralizes multi-tier automotive CTV planning, tracks co-op compliance documentation, and reconciles Tier 1/2/3 budget splits against OEM-approved channel lists in a single workspace."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk's DSP provides cross-publisher household-level frequency capping, automotive in-market audience access, and store visit measurement for dealer-level CTV campaigns."
       },
@@ -285,8 +281,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your automotive CTV plan across all tiers in Halliard \u2014 co-op compliance tracking, frequency management, and cross-channel attribution in one place.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more ctv planning tools and resources for automotive brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
