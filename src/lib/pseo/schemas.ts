@@ -50,6 +50,13 @@ export const resourcePageSchema = z.object({
         relevance: z.string(),
       })
     ),
+    related_resources: z.array(
+      z.object({
+        slug: z.string(),
+        title: z.string(),
+        type: z.string(),
+      })
+    ).optional(),
     cta: z.object({
       text: z.string(),
       link: z.string(),
