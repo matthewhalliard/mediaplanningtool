@@ -215,6 +215,33 @@
     "cta": {
       "text": "Explore more ctv planning tools and resources for entertainment brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "best_practices/ctv-entertainment",
+        "title": "Connected TV (CTV) / Streaming Best Practices for Entertainment / Media / Streaming Campaigns",
+        "type": "Best Practices"
+      },
+      {
+        "slug": "checklist/ctv-automotive",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-healthcare",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Healthcare / Pharma Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-entertainment",
+        "title": "Linear / Traditional TV Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-entertainment",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
