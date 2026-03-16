@@ -203,6 +203,21 @@ Most enterprise media operations use a combination of 3–4 tools: one for audie
 
 ---
 
+
+## Planning Resources
+
+Looking for hands-on planning resources? Check out these free guides and checklists:
+
+- **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Step-by-step CTV campaign planning guide
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Complete programmatic planning resource
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Framework for traditional TV campaign planning
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Meta campaign planning checklist
+- **[Paid Search Tips for Technology Brands](/resources/tips/paid-search-technology)** — Search campaign optimization tips
+
+Browse all resources at [MediaPlanningTool.com/resources](/resources).
+
+---
+
 ## Where to Start
 
 If you're building or rebuilding a media planning tech stack, start with the basics:
