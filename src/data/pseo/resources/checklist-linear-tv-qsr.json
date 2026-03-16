@@ -224,6 +224,28 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for qsr brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/audio-podcasts-qsr",
+        "title": "Audio / Podcasts / Streaming Audio Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-qsr",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      }
+    ]
   }
 }
