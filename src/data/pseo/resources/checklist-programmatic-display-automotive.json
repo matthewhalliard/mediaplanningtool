@@ -209,10 +209,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages multi-dealer programmatic display line items with co-op compliance tagging, DCO feed linkage documentation, and consolidated cross-tier reach and frequency reporting."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk's DSP provides automotive in-market audience access, store visit measurement, household-level frequency capping across CTV and display, and DMS audience onboarding support."
       },
@@ -226,8 +222,8 @@
       }
     ],
     "cta": {
-      "text": "Build your automotive programmatic display plan with co-op compliance and DCO feed management built in \u2014 start with Halliard today.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more programmatic display planning tools and resources for automotive brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
