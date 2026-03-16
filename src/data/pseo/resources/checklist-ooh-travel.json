@@ -149,10 +149,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages travel OOH plans with airport format selection, pDOOH integration, mobile retargeting workflow documentation, and booking window calendar alignment alongside digital channel plans."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning workflow structures travel OOH placements with airport-specific format breakdowns, pDOOH line items, seasonal creative rotation schedules, and cross-channel integration with digital SEM plans."
       },
@@ -166,8 +162,8 @@
       }
     ],
     "cta": {
-      "text": "Build your travel OOH plan with airport domination strategy and mobile retargeting integration \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more ooh planning tools and resources for travel brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
