@@ -138,4 +138,17 @@ Reviews note Strata's ubiquity in the TV buying space alongside its complexity a
 - **[BluHorn](/bluhorn)** — Entry-level media buying platform with TV/radio workflows and Nielsen integrations
 - **[Advantage](/advantage)** — Full agency management platform including media buying, accounting, and production
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Mint](/mint)** — Cloud-based media planning and buying platform
+
+
 [Visit Strata →](https://www.gotostrata.com/)
