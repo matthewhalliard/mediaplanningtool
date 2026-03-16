@@ -185,4 +185,14 @@ Analytic Partners is a global measurement consultancy offering MMM services with
 - **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media reach and frequency planning with Nielsen audience data
 - **[Basis](/basis)** — Integrated digital media planning, buying, and analytics platform
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Free planning resource
+- **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Free planning resource
+
+### 📝 From the Blog
+- **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
+
+
 [Visit OptiMine →](https://optimine.com)
