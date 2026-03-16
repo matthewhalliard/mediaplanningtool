@@ -106,11 +106,25 @@ Nielsen Media Impact is typically purchased by enterprise agencies and large adv
 
 ## Explore More
 
-- /comscore
-- /mri-simmons
-- /gwi
-- /quantcast
-- /the-trade-desk
-- /google-dv360
-- /amazon-dsp
-- /halliard
+- **[Comscore](/comscore)**
+- **[MRI-Simmons](/mri-simmons)**
+- **[GWI](/gwi)**
+- **[Quantcast](/quantcast)**
+- **[The Trade Desk](/the-trade-desk)**
+- **[Google DV360](/google-dv360)**
+- **[Amazon DSP](/amazon-dsp)**
+- **[Halliard](/halliard)**
+
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform
+- **[SRDS Media Planning](/srds-media-planning)** — Comprehensive media research and planning database
+
