@@ -149,10 +149,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard integrates retail Meta plan management with product catalog feed tracking, BFCM campaign timing, and cross-channel attribution alignment between Meta and retail media investments."
-      },
-      {
         "slug": "meta-business-manager",
         "relevance": "Meta Business Manager is the required platform for managing all retail e-commerce Meta advertising, including DPA catalog management, CAPI configuration, Advantage+ Shopping Campaigns, and multi-account access."
       },
@@ -166,8 +162,8 @@
       }
     ],
     "cta": {
-      "text": "Coordinate your retail Meta campaigns with product feed management and BFCM planning in Halliard \u2014 try it free.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid social meta planning tools and resources for retail brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
