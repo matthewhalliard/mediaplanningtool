@@ -125,4 +125,14 @@ Given the enterprise and specialist nature of the tool, user feedback tends to s
 - **[MRI-Simmons](/mri-simmons)** — Consumer research database for audience profiling and media planning
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Commspoint Influence →](https://www.nielsen.com/solutions/media-planning/commspoint-influence/)
