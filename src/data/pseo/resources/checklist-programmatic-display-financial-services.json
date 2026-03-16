@@ -161,10 +161,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard tracks financial services programmatic display plans with compliance documentation fields, approval workflow tracking, and multi-product campaign structuring across mortgage, deposit, and insurance product lines."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk provides access to FCRA-compliant financial intent audience data from TransUnion and Equifax, along with clean room integration for offline funded-account attribution matching."
       },
@@ -178,8 +174,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your financial services display campaign with compliance workflow and offline attribution built in \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more programmatic display planning tools and resources for financial services brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
