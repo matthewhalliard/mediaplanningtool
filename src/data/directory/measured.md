@@ -157,4 +157,14 @@ Common themes across reviews: strong incrementality methodology, high-quality te
 - **[Meta Business Manager](/meta-business-manager)** — Native platform for Facebook and Instagram advertising
 - **[Halliard](/halliard)** — Media planning tool built for independent agencies and in-house teams
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Free planning resource
+- **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Free planning resource
+
+### 📝 From the Blog
+- **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
+
+
 [Visit Measured →](https://measured.com/)
