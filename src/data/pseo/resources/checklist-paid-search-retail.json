@@ -143,10 +143,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages retail paid search line items alongside Amazon Ads and Meta DPA in a unified media plan with BFCM calendar planning, feed quality tracking, and cross-channel attribution integration."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning workflow structures complex omnichannel retail SEM plans with budget approval routing, Performance Max and Shopping campaign documentation, and Q4 planning calendars."
       },
@@ -160,8 +156,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your retail paid search across Google, Amazon, and Meta in one plan \u2014 start with Halliard today.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for retail brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
