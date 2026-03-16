@@ -144,6 +144,13 @@
     "cta": {
       "text": "Explore more ooh planning tools and resources for qsr brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ooh-qsr",
+        "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      }
+    ]
   }
 }
