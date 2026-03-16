@@ -150,6 +150,13 @@
     "cta": {
       "text": "Explore more paid social meta planning tools and resources for retail brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/paid-social-meta-retail",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
