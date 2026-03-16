@@ -262,10 +262,21 @@ Regular reporting helps stakeholders stay informed and enables faster optimizati
 Explore these tools from our directory that can help implement the strategies discussed:
 
 - **[Camphouse](/camphouse)**: Comprehensive media planning and campaign management platform with built-in analytics
-- **[Google DV360](/directory/google-dv360)**: Programmatic advertising platform with advanced reporting and attribution capabilities  
-- **[Adobe Advertising Cloud](/directory/adobe-advertising-cloud)**: Integrated advertising platform with cross-channel reporting and optimization
-- **[Nielsen Media Impact](/directory/nielsen-media-impact)**: Advanced media measurement and attribution modeling for campaign analysis
-- **[Comscore](/directory/comscore)**: Digital analytics and measurement platform for comprehensive campaign insights
+- **[Google DV360](/google-dv360)**: Programmatic advertising platform with advanced reporting and attribution capabilities  
+- **[Adobe Advertising Cloud](/adobe-advertising-cloud)**: Integrated advertising platform with cross-channel reporting and optimization
+- **[Nielsen Media Impact](/nielsen-media-impact)**: Advanced media measurement and attribution modeling for campaign analysis
+- **[Comscore](/comscore)**: Digital analytics and measurement platform for comprehensive campaign insights
+
+## Planning Resources
+
+Need more hands-on help with media planning? Check out these free resources:
+
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Step-by-step programmatic campaign planning
+- **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Optimization tips for retail media campaigns
+- **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Search campaign planning resource
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — Our latest tool roundup
+
+Browse all resources at [MediaPlanningTool.com/resources](/resources).
 
 ## What's Next?
 
