@@ -224,6 +224,28 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for entertainment brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-entertainment",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-entertainment",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
