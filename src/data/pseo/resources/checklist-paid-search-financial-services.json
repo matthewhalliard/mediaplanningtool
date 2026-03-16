@@ -143,10 +143,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages financial services paid search plans across product lines with compliance approval workflow tracking, rate-change ad copy update protocols, and unified performance reporting."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning platform structures complex multi-product financial services SEM plans with budget approval routing appropriate for regulated advertising workflows."
       },
@@ -160,8 +156,8 @@
       }
     ],
     "cta": {
-      "text": "Bring compliance-ready structure to your financial services paid search plan \u2014 try Halliard free.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for financial services brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
