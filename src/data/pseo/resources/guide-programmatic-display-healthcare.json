@@ -162,6 +162,23 @@
     "cta": {
       "text": "Explore more programmatic display planning tools and resources for healthcare brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/programmatic-display-healthcare",
+        "title": "Programmatic Display Media Planning Checklist for Healthcare / Pharma Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "template/programmatic-display-healthcare",
+        "title": "Media Brief Template for Healthcare / Pharma Programmatic Display Campaigns",
+        "type": "Template"
+      },
+      {
+        "slug": "guide/programmatic-display-retail",
+        "title": "Programmatic Display Guide for Retail & E-Commerce | Media Planning Tool",
+        "type": "Guide"
+      }
+    ]
   }
 }
