@@ -149,10 +149,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages B2B tech programmatic display plans with TAL integration, ABM campaign tier management, CRM pipeline influence tracking, and quarterly account coverage reporting for sales-marketing alignment."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk provides B2B tech brands with programmatic display access through intent data partnerships (Bombora, TechTarget), CTV ABM delivery, and clean room pipeline attribution integration."
       },
@@ -166,8 +162,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your B2B tech ABM display plan with TAL coverage tracking and pipeline influence measurement \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more programmatic display planning tools and resources for technology brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
