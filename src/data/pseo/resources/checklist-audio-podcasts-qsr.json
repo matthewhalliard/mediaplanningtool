@@ -162,6 +162,18 @@
     "cta": {
       "text": "Explore more audio podcasts planning tools and resources for qsr brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ctv-qsr",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-qsr",
+        "title": "Linear / Traditional TV Media Planning Checklist for QSR / Restaurants Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
