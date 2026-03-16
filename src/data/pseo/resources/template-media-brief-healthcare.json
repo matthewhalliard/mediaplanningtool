@@ -140,6 +140,13 @@
     "cta": {
       "text": "Explore more  planning tools and resources for healthcare brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "template/programmatic-display-healthcare",
+        "title": "Media Brief Template for Healthcare / Pharma Programmatic Display Campaigns",
+        "type": "Template"
+      }
+    ]
   }
 }
