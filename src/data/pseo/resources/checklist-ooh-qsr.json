@@ -6,37 +6,45 @@
   },
   "seo": {
     "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for QSR / Restaurants",
-    "description": "OOH and DOOH media planning checklist for QSR marketers — covering drive-through proximity, LTO billboard strategy, and programmatic daypart targeting.",
-    "keywords": ["OOH advertising QSR", "restaurant billboard advertising", "QSR DOOH campaign", "fast food out-of-home media", "QSR billboard checklist", "restaurant proximity OOH", "QSR drive-time billboard"],
+    "description": "OOH and DOOH media planning checklist for QSR marketers \u2014 covering drive-through proximity, LTO billboard strategy, and programmatic daypart targeting.",
+    "keywords": [
+      "OOH advertising QSR",
+      "restaurant billboard advertising",
+      "QSR DOOH campaign",
+      "fast food out-of-home media",
+      "QSR billboard checklist",
+      "restaurant proximity OOH",
+      "QSR drive-time billboard"
+    ],
     "slug": "checklist/ooh-qsr"
   },
   "content": {
-    "intro": "Out-of-home advertising's singular advantage for QSR is its ability to intercept the food decision at the exact moment of maximum influence: a driver approaching a highway exit with 5 competing restaurant options within a mile. That 3-second billboard impression — appearing when hunger is active, location is proximate, and the purchase decision is imminent — is a fundamentally different media moment than any digital channel can replicate. Major QSR chains like McDonald's, Wendy's, and Taco Bell use directional OOH, transit shelter dominations, and programmatic DOOH as core components of their local market activation strategy, and programmatic DOOH's weather-triggered and time-of-day creative capabilities are transforming what was once a static awareness channel into a real-time conversion tool.",
+    "intro": "Out-of-home advertising's singular advantage for QSR is its ability to intercept the food decision at the exact moment of maximum influence: a driver approaching a highway exit with 5 competing restaurant options within a mile. That 3-second billboard impression \u2014 appearing when hunger is active, location is proximate, and the purchase decision is imminent \u2014 is a fundamentally different media moment than any digital channel can replicate. Major QSR chains like McDonald's, Wendy's, and Taco Bell use directional OOH, transit shelter dominations, and programmatic DOOH as core components of their local market activation strategy, and programmatic DOOH's weather-triggered and time-of-day creative capabilities are transforming what was once a static awareness channel into a real-time conversion tool.",
     "sections": [
       {
         "heading": "Campaign Strategy and Location Planning",
         "items": [
           {
             "title": "Map restaurant locations and build trade-area OOH coverage rings before buying",
-            "description": "Every QSR OOH campaign should begin with a restaurant location mapping exercise: plot all franchisee and corporate locations on a market map, then identify OOH inventory within 0.5-mile, 1-mile, and 3-mile radii. Prioritize inventory in the 0.5–1-mile 'conquest zone' for directional and promotional messaging, and the 1–3-mile ring for awareness and daypart priming. Buying OOH inventory in markets without convenient restaurant access wastes 100% of that impression — geographic alignment is the foundation of QSR OOH.",
+            "description": "Every QSR OOH campaign should begin with a restaurant location mapping exercise: plot all franchisee and corporate locations on a market map, then identify OOH inventory within 0.5-mile, 1-mile, and 3-mile radii. Prioritize inventory in the 0.5\u20131-mile 'conquest zone' for directional and promotional messaging, and the 1\u20133-mile ring for awareness and daypart priming. Buying OOH inventory in markets without convenient restaurant access wastes 100% of that impression \u2014 geographic alignment is the foundation of QSR OOH.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Identify drive-through traffic patterns and capture highway approach inventory",
-            "description": "For QSR brands with drive-through operations (which account for 60–70% of QSR transactions), highway and arterial approach billboards pointing toward restaurant exits are the highest-converting OOH format available. Work with operators (Lamar, Clear Channel) to identify bulletins within 1–2 miles of your restaurant exits on major traffic arteries. These directional placements consistently outperform all other OOH formats on cost-per-visit metrics for QSR, often delivering $3–$8 CPV vs. $15–$30 for non-directional general market placements.",
+            "description": "For QSR brands with drive-through operations (which account for 60\u201370% of QSR transactions), highway and arterial approach billboards pointing toward restaurant exits are the highest-converting OOH format available. Work with operators (Lamar, Clear Channel) to identify bulletins within 1\u20132 miles of your restaurant exits on major traffic arteries. These directional placements consistently outperform all other OOH formats on cost-per-visit metrics for QSR, often delivering $3\u2013$8 CPV vs. $15\u2013$30 for non-directional general market placements.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Plan OOH coverage by daypart objective: separate breakfast, lunch, and dinner market strategies",
-            "description": "QSR's multi-daypart strategy requires OOH thinking beyond static 4-week cycle buying. For breakfast campaigns, concentrate on commuter transit corridors and highway billboards active during 6–9am rush. Lunch campaigns benefit from pedestrian-level urban posters and transit shelters near office districts. Late-night campaigns should prioritize bar districts, entertainment venues, and post-midnight DOOH digital displays. Define which daypart each OOH placement serves before including it in the plan.",
+            "description": "QSR's multi-daypart strategy requires OOH thinking beyond static 4-week cycle buying. For breakfast campaigns, concentrate on commuter transit corridors and highway billboards active during 6\u20139am rush. Lunch campaigns benefit from pedestrian-level urban posters and transit shelters near office districts. Late-night campaigns should prioritize bar districts, entertainment venues, and post-midnight DOOH digital displays. Define which daypart each OOH placement serves before including it in the plan.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Evaluate venue-based DOOH inside convenience stores and gas stations",
-            "description": "Convenience store and gas station DOOH screens (available via platforms like Alfi and GSTV) reach consumers in the midst of a snack or meal consideration moment, often within 0.25 miles of QSR locations. GSTV gas station TV screens reach 115 million unique viewers monthly, with a QSR-relevant demographic profile: A18–49, food impulse buyers, high drive frequency. These venue-based screens at $10–$20 CPM deliver the highest contextual relevance for QSR hunger occasion targeting available in the OOH ecosystem.",
+            "description": "Convenience store and gas station DOOH screens (available via platforms like Alfi and GSTV) reach consumers in the midst of a snack or meal consideration moment, often within 0.25 miles of QSR locations. GSTV gas station TV screens reach 115 million unique viewers monthly, with a QSR-relevant demographic profile: A18\u201349, food impulse buyers, high drive frequency. These venue-based screens at $10\u2013$20 CPM deliver the highest contextual relevance for QSR hunger occasion targeting available in the OOH ecosystem.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -47,31 +55,31 @@
         "items": [
           {
             "title": "Apply the 3-second rule: one product, one price, one direction",
-            "description": "QSR OOH creative that violates the 3-second rule — attempting to communicate more than one product offer, multiple price points, or complex promotional mechanics — fails at highway speeds and in transit glances. The most effective QSR billboard creative contains: a high-appetite food hero image (60% of ad space), one price or offer callout (large type, one number), and a directional arrow or '1 exit ahead' locator. McDonald's and Wendy's consistently execute this discipline; competitors that crowd the format with legal disclaimers and secondary messages underperform by 40–60% on recall.",
+            "description": "QSR OOH creative that violates the 3-second rule \u2014 attempting to communicate more than one product offer, multiple price points, or complex promotional mechanics \u2014 fails at highway speeds and in transit glances. The most effective QSR billboard creative contains: a high-appetite food hero image (60% of ad space), one price or offer callout (large type, one number), and a directional arrow or '1 exit ahead' locator. McDonald's and Wendy's consistently execute this discipline; competitors that crowd the format with legal disclaimers and secondary messages underperform by 40\u201360% on recall.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Design DOOH creative as a 6-second animation loop, not a static billboard resized",
-            "description": "Digital OOH screens rotate through 6–8 second ad slots among typically 4–8 advertisers. QSR DOOH creative must be designed specifically for this format: a short 3-frame animation that shows the food item, reveals the price, then delivers the CTA in 6 seconds. Brands that resize static billboard creative for DOOH miss the format's motion opportunity — motion on DOOH screens increases attention by 30–50% vs. static equivalents per eye-tracking research. Invest in dedicated DOOH creative assets, not repurposed print files.",
+            "description": "Digital OOH screens rotate through 6\u20138 second ad slots among typically 4\u20138 advertisers. QSR DOOH creative must be designed specifically for this format: a short 3-frame animation that shows the food item, reveals the price, then delivers the CTA in 6 seconds. Brands that resize static billboard creative for DOOH miss the format's motion opportunity \u2014 motion on DOOH screens increases attention by 30\u201350% vs. static equivalents per eye-tracking research. Invest in dedicated DOOH creative assets, not repurposed print files.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Set up weather-triggered DOOH creative for beverage and seasonal QSR items",
-            "description": "Programmatic DOOH platforms (Vistar Media, The Trade Desk's pDOOH integration) support real-time weather triggers. Configure ice cream, frozen beverage, and cold drink creative to activate automatically when temperature exceeds 85°F in the targeted market. Configure soup, chili, and hot beverage creative to activate below 45°F. Weather-triggered QSR DOOH campaigns show 25–40% higher food-consideration lift vs. static always-on creative because the message is perfectly contextually timed to the consumer's physical experience.",
+            "description": "Programmatic DOOH platforms (Vistar Media, The Trade Desk's pDOOH integration) support real-time weather triggers. Configure ice cream, frozen beverage, and cold drink creative to activate automatically when temperature exceeds 85\u00b0F in the targeted market. Configure soup, chili, and hot beverage creative to activate below 45\u00b0F. Weather-triggered QSR DOOH campaigns show 25\u201340% higher food-consideration lift vs. static always-on creative because the message is perfectly contextually timed to the consumer's physical experience.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Build LTO countdown creative for DOOH that updates remaining days automatically",
-            "description": "Programmatic DOOH's dynamic creative capability allows a live countdown to LTO end date ('Only 4 More Days!') to update automatically each day without reprinting or re-trafficking static artwork. Commission a DOOH countdown creative template at the beginning of each LTO cycle, connect it to a simple date-logic data feed, and deploy via Vistar or Place Exchange. Dynamic countdown urgency messaging on QSR DOOH increases visit intent by 20–35% in the final 5 days of an LTO window vs. non-countdown promotional creative.",
+            "description": "Programmatic DOOH's dynamic creative capability allows a live countdown to LTO end date ('Only 4 More Days!') to update automatically each day without reprinting or re-trafficking static artwork. Commission a DOOH countdown creative template at the beginning of each LTO cycle, connect it to a simple date-logic data feed, and deploy via Vistar or Place Exchange. Dynamic countdown urgency messaging on QSR DOOH increases visit intent by 20\u201335% in the final 5 days of an LTO window vs. non-countdown promotional creative.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Integrate directional elements for any OOH within 1 mile of a QSR location",
-            "description": "Every OOH unit within 1 mile of a restaurant location should include a directional element: an exit number ('Exit 14, right turn'), a distance indicator ('200 yards on right'), or a turn arrow. Directional information on QSR billboards increases actual drive-in conversion by 2x–3x vs. non-directional brand messaging because it removes the friction of the 'where exactly is it?' question at the moment of decision. This is particularly critical in dense urban markets where restaurant density is high and a competitor may be on the same block.",
+            "description": "Every OOH unit within 1 mile of a restaurant location should include a directional element: an exit number ('Exit 14, right turn'), a distance indicator ('200 yards on right'), or a turn arrow. Directional information on QSR billboards increases actual drive-in conversion by 2x\u20133x vs. non-directional brand messaging because it removes the friction of the 'where exactly is it?' question at the moment of decision. This is particularly critical in dense urban markets where restaurant density is high and a competitor may be on the same block.",
             "difficulty": "beginner",
             "priority": "critical"
           }
@@ -82,19 +90,19 @@
         "items": [
           {
             "title": "Use mobile location data to target DOOH screens with high QSR-visitor audience index",
-            "description": "Programmatic DOOH platforms enrich DOOH screen-level audience profiles using mobile device location data — identifying which screens are passed by mobile devices that also show frequent QSR visit patterns. Prioritize DOOH inventory with a QSR audience index above 120 (20% above average) when buying via Vistar Media or The Trade Desk's pDOOH integration. This audience-indexed buying concentrates QSR impressions on screens in locations actually visited by frequent fast-food customers.",
+            "description": "Programmatic DOOH platforms enrich DOOH screen-level audience profiles using mobile device location data \u2014 identifying which screens are passed by mobile devices that also show frequent QSR visit patterns. Prioritize DOOH inventory with a QSR audience index above 120 (20% above average) when buying via Vistar Media or The Trade Desk's pDOOH integration. This audience-indexed buying concentrates QSR impressions on screens in locations actually visited by frequent fast-food customers.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Build a competitive conquest OOH strategy targeting screens adjacent to competitor QSR locations",
-            "description": "DOOH and static OOH inventory directly adjacent to — or visible from — competitor QSR locations represents the highest-conversion conquest opportunity in the channel. Mapping competitor drive-through entrances and identifying OOH inventory within 300–500 feet of those locations allows a QSR brand to intercept customers in the consideration moment before they commit to a competitor. This conquest approach, used extensively by McDonald's and Wendy's against each other, is most effective for value and price messaging — 'better deal here' conquesting at the point of competitive decision.",
+            "description": "DOOH and static OOH inventory directly adjacent to \u2014 or visible from \u2014 competitor QSR locations represents the highest-conversion conquest opportunity in the channel. Mapping competitor drive-through entrances and identifying OOH inventory within 300\u2013500 feet of those locations allows a QSR brand to intercept customers in the consideration moment before they commit to a competitor. This conquest approach, used extensively by McDonald's and Wendy's against each other, is most effective for value and price messaging \u2014 'better deal here' conquesting at the point of competitive decision.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Execute time-of-day DOOH bid multipliers to concentrate budget in high-conversion windows",
-            "description": "Programmatic DOOH allows daypart bid multipliers — increasing your bid and share of voice on targeted digital screens during your priority dayparts. For QSR lunch campaigns (11am–2pm), set bid multipliers of 2x–3x during the lunch window, reducing to 0.5x off-hours to preserve budget for peak moments. This daypart optimization in pDOOH is analogous to digital search bid adjustments and ensures QSR media weight concentrates when food decisions are being made, not evenly distributed across 24 hours.",
+            "description": "Programmatic DOOH allows daypart bid multipliers \u2014 increasing your bid and share of voice on targeted digital screens during your priority dayparts. For QSR lunch campaigns (11am\u20132pm), set bid multipliers of 2x\u20133x during the lunch window, reducing to 0.5x off-hours to preserve budget for peak moments. This daypart optimization in pDOOH is analogous to digital search bid adjustments and ensures QSR media weight concentrates when food decisions are being made, not evenly distributed across 24 hours.",
             "difficulty": "advanced",
             "priority": "important"
           }
@@ -105,19 +113,19 @@
         "items": [
           {
             "title": "Measure store visit lift from OOH exposure using mobile device ID matching",
-            "description": "Modern OOH attribution connects mobile devices observed near OOH placements (via geofencing of billboard locations) to subsequent restaurant visits via store visit measurement partners integrated into the DSP. Placer.ai, Foursquare, and Geopath Activate enable OOH-to-visit attribution at the campaign level. Standard QSR OOH campaigns in urban markets show 0.5–1.5% incremental visit lift among exposed device cohorts, translating to $5–$15 cost-per-incremental-visit. Run this measurement on every OOH flight to build a CPV benchmark for channel optimization.",
+            "description": "Modern OOH attribution connects mobile devices observed near OOH placements (via geofencing of billboard locations) to subsequent restaurant visits via store visit measurement partners integrated into the DSP. Placer.ai, Foursquare, and Geopath Activate enable OOH-to-visit attribution at the campaign level. Standard QSR OOH campaigns in urban markets show 0.5\u20131.5% incremental visit lift among exposed device cohorts, translating to $5\u2013$15 cost-per-incremental-visit. Run this measurement on every OOH flight to build a CPV benchmark for channel optimization.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Track branded search volume lift in markets with active OOH campaigns",
-            "description": "OOH campaigns for QSR generate measurable spikes in branded Google search queries ('McDonald's near me,' 'Taco Bell breakfast') within 24–48 hours of major placements going live or DOOH campaigns activating at scale. Monitor Google Trends index for branded terms and location-specific search queries ('{brand} + [city]') during OOH flight periods vs. control markets without OOH. A 10–20% branded search lift in OOH-active markets vs. control is a reliable leading indicator that OOH is driving consumer action.",
+            "description": "OOH campaigns for QSR generate measurable spikes in branded Google search queries ('McDonald's near me,' 'Taco Bell breakfast') within 24\u201348 hours of major placements going live or DOOH campaigns activating at scale. Monitor Google Trends index for branded terms and location-specific search queries ('{brand} + [city]') during OOH flight periods vs. control markets without OOH. A 10\u201320% branded search lift in OOH-active markets vs. control is a reliable leading indicator that OOH is driving consumer action.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Use QR codes on transit and pedestrian OOH to measure direct digital response",
-            "description": "For QSR OOH placements in pedestrian-level contexts (bus shelters, transit stations, urban street furniture), include a QR code linking to the LTO landing page or app download. Transit and urban pedestrians have sufficient dwell time (10+ seconds) to engage with QR codes — unlike highway billboards. QR code engagement rates on QSR transit OOH average 0.3–0.8% of estimated daily audience, providing a direct digital attribution signal separate from visit measurement. Track QR scans as a campaign KPI alongside store visit lift.",
+            "description": "For QSR OOH placements in pedestrian-level contexts (bus shelters, transit stations, urban street furniture), include a QR code linking to the LTO landing page or app download. Transit and urban pedestrians have sufficient dwell time (10+ seconds) to engage with QR codes \u2014 unlike highway billboards. QR code engagement rates on QSR transit OOH average 0.3\u20130.8% of estimated daily audience, providing a direct digital attribution signal separate from visit measurement. Track QR scans as a campaign KPI alongside store visit lift.",
             "difficulty": "beginner",
             "priority": "nice-to-have"
           }
@@ -125,21 +133,29 @@
       }
     ],
     "pro_tips": [
-      "QSR brands running LTO campaigns should dominate the DOOH inventory within a 0.25-mile radius of every location for the LTO's opening week — complete 'share-of-screen' domination at the local level during a 7-day burst drives 3x–5x the visit intent of diluted market-wide OOH campaigns, because the consumer literally cannot miss the promotion when approaching any restaurant location.",
+      "QSR brands running LTO campaigns should dominate the DOOH inventory within a 0.25-mile radius of every location for the LTO's opening week \u2014 complete 'share-of-screen' domination at the local level during a 7-day burst drives 3x\u20135x the visit intent of diluted market-wide OOH campaigns, because the consumer literally cannot miss the promotion when approaching any restaurant location.",
       "Negotiate 'traffic guarantee' clauses into QSR OOH contracts with Lamar and Clear Channel. These operators use Geopath-verified impression counts; if a billboard's actual traffic falls more than 15% below the contracted audience estimate (e.g., due to road construction or detours), you are entitled to make-goods or credit. QSR campaigns are particularly sensitive to traffic count accuracy because directional value depends on actual vehicle pass-through volume.",
-      "The most underutilized QSR OOH format is grocery store parking lot DOOH — screens positioned at the entrance and exit of major grocery retailers reach shoppers in the exact decision moment where QSR competes: 'should I cook tonight or grab fast food?' Grocery lot DOOH from networks like Alfi and Grocery TV is available at $8–$15 CPM with first-party shopper behavioral data appended for targeting.",
-      "For franchise QSR brands with national co-op OOH budgets, negotiate programmatic DOOH upfront deals through Vistar Media or The Trade Desk that pool national volume for DMA-level customization — this unlocks national CPM pricing ($10–$18 CPM vs. local $18–$30 CPM) while delivering city-specific creative versioning for each DMA, solving the local relevance vs. national scale tension inherent in franchise OOH planning.",
-      "Winter DOOH campaigns for QSR value items benefit enormously from real-time social proof triggers — dynamic DOOH creative that displays a live social mention counter ('47,000 people talked about our new sandwich this week') alongside the food creative activates social validation at the point of drive-by decision in ways static campaigns never could. This format is available through Hivestack and Vistar's Dynamic Creative Optimization tools."
+      "The most underutilized QSR OOH format is grocery store parking lot DOOH \u2014 screens positioned at the entrance and exit of major grocery retailers reach shoppers in the exact decision moment where QSR competes: 'should I cook tonight or grab fast food?' Grocery lot DOOH from networks like Alfi and Grocery TV is available at $8\u2013$15 CPM with first-party shopper behavioral data appended for targeting.",
+      "For franchise QSR brands with national co-op OOH budgets, negotiate programmatic DOOH upfront deals through Vistar Media or The Trade Desk that pool national volume for DMA-level customization \u2014 this unlocks national CPM pricing ($10\u2013$18 CPM vs. local $18\u2013$30 CPM) while delivering city-specific creative versioning for each DMA, solving the local relevance vs. national scale tension inherent in franchise OOH planning.",
+      "Winter DOOH campaigns for QSR value items benefit enormously from real-time social proof triggers \u2014 dynamic DOOH creative that displays a live social mention counter ('47,000 people talked about our new sandwich this week') alongside the food creative activates social validation at the point of drive-by decision in ways static campaigns never could. This format is available through Hivestack and Vistar's Dynamic Creative Optimization tools."
     ],
     "related_tools": [
-      {"slug": "halliard", "relevance": "Halliard integrates QSR OOH and DOOH buys alongside CTV, audio, and digital in a unified franchise media plan — enabling DMA-level budget allocation and cross-channel frequency tracking across all tiers."},
-      {"slug": "the-trade-desk", "relevance": "The Trade Desk's programmatic DOOH capabilities (via Place Exchange integration) enable weather-triggered, daypart-optimized QSR digital OOH with unified audience targeting across pDOOH, display, and CTV."},
-      {"slug": "bionic", "relevance": "Bionic manages the complex OOH vendor mix — tracking static billboard IOs from Lamar and Clear Channel alongside programmatic DOOH spend from Vistar in a single media plan with automated reconciliation."},
-      {"slug": "guideline", "relevance": "Guideline's OOH planning and compliance tools help QSR co-op managers verify that franchisee OOH buys meet brand creative standards and location-eligibility requirements for co-op reimbursement."}
+      {
+        "slug": "the-trade-desk",
+        "relevance": "The Trade Desk's programmatic DOOH capabilities (via Place Exchange integration) enable weather-triggered, daypart-optimized QSR digital OOH with unified audience targeting across pDOOH, display, and CTV."
+      },
+      {
+        "slug": "bionic",
+        "relevance": "Bionic manages the complex OOH vendor mix \u2014 tracking static billboard IOs from Lamar and Clear Channel alongside programmatic DOOH spend from Vistar in a single media plan with automated reconciliation."
+      },
+      {
+        "slug": "guideline",
+        "relevance": "Guideline's OOH planning and compliance tools help QSR co-op managers verify that franchisee OOH buys meet brand creative standards and location-eligibility requirements for co-op reimbursement."
+      }
     ],
     "cta": {
-      "text": "Coordinate QSR OOH campaigns across every DMA and franchise tier with Halliard's unified media planning — try it free.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more ooh planning tools and resources for qsr brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
