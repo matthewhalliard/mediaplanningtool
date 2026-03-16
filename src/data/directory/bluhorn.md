@@ -188,4 +188,14 @@ No representative user quotes are available from verified review platforms. User
 - **[Placements.io](/placements-io)** — Ad sales and media management platform for publishers and agencies
 - **[Mediaocean](/mediaocean)** — End-to-end media management platform for large agencies and brands
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit BluHorn →](https://www.bluhorn.com/)
