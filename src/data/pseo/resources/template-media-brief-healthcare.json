@@ -7,11 +7,18 @@
   "seo": {
     "title": "Healthcare Media Brief Template | Pharma & DTC Campaign Planning",
     "description": "Free healthcare media brief template designed for pharma DTC, HCP promotion, and health system campaigns. Includes FDA compliance checkpoints, measurement frameworks, and budget allocation guidance.",
-    "keywords": ["healthcare media brief template", "pharma media plan template", "dtc campaign brief", "hcp media brief", "pharmaceutical advertising plan", "healthcare media planning"],
+    "keywords": [
+      "healthcare media brief template",
+      "pharma media plan template",
+      "dtc campaign brief",
+      "hcp media brief",
+      "pharmaceutical advertising plan",
+      "healthcare media planning"
+    ],
     "slug": "template-media-brief-healthcare"
   },
   "content": {
-    "intro": "Healthcare and pharma media planning requires a brief that accounts for regulatory constraints no other vertical faces. This template is purpose-built for prescription DTC campaigns, HCP digital promotion, and health system patient acquisition — with FDA OPDP compliance checkpoints, HIPAA-aware audience strategy sections, and measurement frameworks that address the 6–8 week script lift data lag. Adapt each section to your campaign type: branded Rx, unbranded disease awareness, or OTC/device.",
+    "intro": "Healthcare and pharma media planning requires a brief that accounts for regulatory constraints no other vertical faces. This template is purpose-built for prescription DTC campaigns, HCP digital promotion, and health system patient acquisition \u2014 with FDA OPDP compliance checkpoints, HIPAA-aware audience strategy sections, and measurement frameworks that address the 6\u20138 week script lift data lag. Adapt each section to your campaign type: branded Rx, unbranded disease awareness, or OTC/device.",
     "sections": [
       {
         "heading": "Campaign Overview",
@@ -33,7 +40,7 @@
           },
           {
             "title": "Regulatory review timeline",
-            "description": "Map the MLR (Medical/Legal/Regulatory) review cycle for all creative assets. Budget 45–90 days for branded Rx creative approval. Identify which assets are already MLR-approved and which need new submissions. Flag any Black Box Warning requirements.",
+            "description": "Map the MLR (Medical/Legal/Regulatory) review cycle for all creative assets. Budget 45\u201390 days for branded Rx creative approval. Identify which assets are already MLR-approved and which need new submissions. Flag any Black Box Warning requirements.",
             "priority": "critical"
           }
         ]
@@ -49,7 +56,7 @@
           },
           {
             "title": "HCP target list and NPI strategy",
-            "description": "For HCP campaigns, define the NPI (National Provider Identifier) target universe: specialist type, prescribing volume thresholds, geographic distribution, and any decile-based prioritization. Note the total addressable HCP count — if under 15,000, flag for specialized health data platform targeting (DeepIntent, Doceree, PulsePoint).",
+            "description": "For HCP campaigns, define the NPI (National Provider Identifier) target universe: specialist type, prescribing volume thresholds, geographic distribution, and any decile-based prioritization. Note the total addressable HCP count \u2014 if under 15,000, flag for specialized health data platform targeting (DeepIntent, Doceree, PulsePoint).",
             "difficulty": "advanced",
             "priority": "important"
           },
@@ -69,7 +76,12 @@
             "description": "Recommend channels based on campaign type: Linear TV for broad DTC reach (still dominant for blockbuster Rx brands), CTV for younger demographics and cord-cutters, paid search for high-intent condition research queries, and digital health publishers (WebMD, Healthgrades) for contextual patient engagement.",
             "difficulty": "intermediate",
             "priority": "important",
-            "channel_relevance": ["linear-tv", "ctv", "paid-search", "programmatic-display"]
+            "channel_relevance": [
+              "linear-tv",
+              "ctv",
+              "paid-search",
+              "programmatic-display"
+            ]
           },
           {
             "title": "HCP channel mix recommendation",
@@ -90,7 +102,7 @@
         "items": [
           {
             "title": "Script lift study design",
-            "description": "Define the NRx/TRx measurement approach: exposed vs. matched control markets, IQVIA or Symphony Health data feed cadence (weekly preferred), and minimum measurement window (12+ weeks to account for 6–8 week data lag plus 4+ weeks of in-flight data).",
+            "description": "Define the NRx/TRx measurement approach: exposed vs. matched control markets, IQVIA or Symphony Health data feed cadence (weekly preferred), and minimum measurement window (12+ weeks to account for 6\u20138 week data lag plus 4+ weeks of in-flight data).",
             "difficulty": "advanced",
             "priority": "important"
           },
@@ -110,10 +122,10 @@
       }
     ],
     "pro_tips": [
-      "Start creative MLR submissions 12 weeks before campaign launch — not 8. The 45–90 day review cycle has minimal compression, and any revision round resets the clock. Having approved creative on the shelf 2 weeks early is far better than launching late.",
-      "For rare disease campaigns with fewer than 15,000 target HCPs, budget 30–40% more per NPI reached than standard specialty campaigns. The audience is so small that programmatic efficiency breaks down and you need direct publisher deals with health data platforms.",
-      "Run unbranded disease awareness campaigns 6–8 weeks ahead of branded launch. Unbranded creative has fewer regulatory constraints, can build condition recognition in the patient population, and primes the market for the branded message without competing for MLR review bandwidth.",
-      "Always coordinate DTC and HCP campaigns timing. A prescription converts only when the patient asks AND the doctor agrees — if HCP detailing runs 4 weeks behind DTC launch, you create demand that physicians aren't prepared to fulfill."
+      "Start creative MLR submissions 12 weeks before campaign launch \u2014 not 8. The 45\u201390 day review cycle has minimal compression, and any revision round resets the clock. Having approved creative on the shelf 2 weeks early is far better than launching late.",
+      "For rare disease campaigns with fewer than 15,000 target HCPs, budget 30\u201340% more per NPI reached than standard specialty campaigns. The audience is so small that programmatic efficiency breaks down and you need direct publisher deals with health data platforms.",
+      "Run unbranded disease awareness campaigns 6\u20138 weeks ahead of branded launch. Unbranded creative has fewer regulatory constraints, can build condition recognition in the patient population, and primes the market for the branded message without competing for MLR review bandwidth.",
+      "Always coordinate DTC and HCP campaigns timing. A prescription converts only when the patient asks AND the doctor agrees \u2014 if HCP detailing runs 4 weeks behind DTC launch, you create demand that physicians aren't prepared to fulfill."
     ],
     "related_tools": [
       {
@@ -126,7 +138,7 @@
       }
     ],
     "cta": {
-      "text": "Plan faster with Halliard — built for complex, multi-audience media planning",
+      "text": "Explore more  planning tools and resources for healthcare brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
     }
   }
