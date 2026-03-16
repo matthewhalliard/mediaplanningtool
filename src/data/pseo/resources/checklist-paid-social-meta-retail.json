@@ -164,6 +164,33 @@
     "cta": {
       "text": "Explore more paid social meta planning tools and resources for retail brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "best_practices/paid-social-meta-retail",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Best Practices for Retail / E-Commerce Campaigns",
+        "type": "Best Practices"
+      },
+      {
+        "slug": "checklist/paid-social-meta-cpg",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-entertainment",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-retail",
+        "title": "Linear / Traditional TV Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-retail",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
