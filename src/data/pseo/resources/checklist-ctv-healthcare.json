@@ -176,6 +176,28 @@
     "cta": {
       "text": "Explore more ctv planning tools and resources for healthcare brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ctv-automotive",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-entertainment",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-healthcare",
+        "title": "Linear / Traditional TV Media Planning Checklist for Healthcare / Pharma Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-healthcare",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Healthcare / Pharma Campaigns",
+        "type": "Checklist"
+      }
+    ]
   }
 }
