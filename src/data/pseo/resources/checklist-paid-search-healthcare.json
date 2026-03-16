@@ -143,10 +143,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages healthcare paid search plans with MLR approval status documentation, HCP vs. DTC campaign separation, and integration of leading-indicator conversion events into the media plan performance dashboard."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning workflow structures pharma SEM line items alongside TV, programmatic, and HCP digital channels in a single plan with compliant approval routing for regulatory teams."
       },
@@ -160,8 +156,8 @@
       }
     ],
     "cta": {
-      "text": "Build compliant healthcare paid search plans with MLR workflow and copay card conversion tracking \u2014 try Halliard free.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for healthcare brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
