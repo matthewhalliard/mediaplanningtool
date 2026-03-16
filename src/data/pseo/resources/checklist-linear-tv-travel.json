@@ -224,6 +224,28 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for travel brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-travel",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ooh-travel",
+        "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
