@@ -172,6 +172,18 @@
     "cta": {
       "text": "Explore more ctv planning tools and resources for automotive brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ctv-automotive",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "guide/ctv-automotive",
+        "title": "Complete Guide to Connected TV (CTV) / Streaming for Automotive Marketers",
+        "type": "Guide"
+      }
+    ]
   }
 }
