@@ -154,4 +154,17 @@ For retail media specifically, Amazon DSP's first-party data from Amazon.com is 
 - **[TikTok Ads Manager](/tiktok-ads-manager)** — TikTok's self-serve advertising platform
 - **[Halliard](/halliard)** — Media planning tool built for modern agency workflows
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)
+
+
 [Visit Amazon DSP →](https://advertising.amazon.com/solutions/products/amazon-dsp)
