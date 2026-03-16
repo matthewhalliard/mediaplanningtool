@@ -170,6 +170,18 @@
     "cta": {
       "text": "Explore more native planning tools and resources for financial services brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/linear-tv-financial-services",
+        "title": "Linear / Traditional TV Media Planning Checklist for Financial Services Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-financial-services",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      }
+    ]
   }
 }
