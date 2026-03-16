@@ -161,10 +161,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard connects CPG Meta campaign planning with retailer promotional calendar alignment and RMN co-investment schedules, preventing the common silo problem where Meta and trade marketing operate independently."
-      },
-      {
         "slug": "meta-business-manager",
         "relevance": "Meta Business Manager is the required platform for managing CPG Meta advertising, audience setup, CAPI configuration, and multi-account access for agency and brand-side teams."
       },
@@ -178,8 +174,8 @@
       }
     ],
     "cta": {
-      "text": "Coordinate your CPG Meta campaign with retailer promotional weeks and RMN co-investment \u2014 plan it in Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid social meta planning tools and resources for cpg brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
