@@ -167,10 +167,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard tracks CPG retail media investment across Amazon, Walmart, Kroger, and Instacart in a unified plan with normalized performance metrics and shopper marketing budget integration."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk enables CPG brands to activate Amazon DSP and Walmart Connect DSP programmatic off-site buying alongside brand media programmatic campaigns in a unified DSP environment."
       },
@@ -184,8 +180,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your CPG retail media portfolio across all RMNs in one unified plan \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more retail media planning tools and resources for cpg brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
