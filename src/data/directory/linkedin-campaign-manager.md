@@ -165,4 +165,14 @@ Google Ads captures demand at the search intent level, while LinkedIn creates de
 - **[Basis](/basis)** — Cross-channel media management platform for agencies managing multi-platform campaigns
 - **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 
+
+### 📚 Planning Resources
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+- **[TikTok Ads Checklist for Retail](/resources/checklist/tiktok-retail)** — Free planning resource
+- **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit LinkedIn Campaign Manager →](https://business.linkedin.com/marketing-solutions/campaign-manager)
