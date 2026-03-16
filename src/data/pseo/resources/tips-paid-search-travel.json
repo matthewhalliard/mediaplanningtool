@@ -144,6 +144,18 @@
     "cta": {
       "text": "Explore more paid search planning tools and resources for travel brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/paid-search-travel",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "tips/paid-search-technology",
+        "title": "Paid Search (SEM / PPC) Advertising Tips for Technology / SaaS / B2B Tech Brands",
+        "type": "Tips"
+      }
+    ]
   }
 }
