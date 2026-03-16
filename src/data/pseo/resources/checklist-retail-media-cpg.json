@@ -182,6 +182,28 @@
     "cta": {
       "text": "Explore more retail media planning tools and resources for cpg brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "tips/retail-media-cpg",
+        "title": "Retail Media Networks Advertising Tips for CPG / FMCG Brands",
+        "type": "Tips"
+      },
+      {
+        "slug": "checklist/retail-media-retail",
+        "title": "Retail Media Networks Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-cpg",
+        "title": "Linear / Traditional TV Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-cpg",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
