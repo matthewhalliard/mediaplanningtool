@@ -143,4 +143,17 @@ GWI provides global consumer survey data covering 50+ countries with accessible 
 - **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media simulation and planning tool using Nielsen audience data
 - **[Telmar Helixa](/telmar-helixa)** — AI-powered audience intelligence for psychographic profiling and planning
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[SRDS Media Planning](/srds-media-planning)** — Comprehensive media research and planning database
+
+
 [Visit MRI-Simmons →](https://www.mrisimmons.com/)
