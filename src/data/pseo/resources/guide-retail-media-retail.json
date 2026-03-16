@@ -162,6 +162,18 @@
     "cta": {
       "text": "Explore more retail media planning tools and resources for retail brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/retail-media-retail",
+        "title": "Retail Media Networks Media Planning Checklist for Retail / E-Commerce Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "guide/programmatic-display-retail",
+        "title": "Programmatic Display Guide for Retail & E-Commerce | Media Planning Tool",
+        "type": "Guide"
+      }
+    ]
   }
 }
