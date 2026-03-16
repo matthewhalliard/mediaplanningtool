@@ -167,4 +167,14 @@ GWI (formerly GlobalWebIndex) is a survey-based consumer intelligence platform c
 - **[Akkio](/akkio)** — AI analytics platform for media agencies with audience segmentation and predictive modeling
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Resonate →](https://www.resonate.com/)
