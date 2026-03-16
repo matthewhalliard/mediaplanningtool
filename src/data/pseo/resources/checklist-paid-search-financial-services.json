@@ -158,6 +158,33 @@
     "cta": {
       "text": "Explore more paid search planning tools and resources for financial services brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "template/paid-search-financial-services",
+        "title": "Media Brief Template for Financial Services Paid Search Campaigns",
+        "type": "Template"
+      },
+      {
+        "slug": "checklist/paid-search-automotive",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-search-healthcare",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Healthcare / Pharma Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-financial-services",
+        "title": "Linear / Traditional TV Media Planning Checklist for Financial Services Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/native-financial-services",
+        "title": "Native / Content Marketing Advertising Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      }
+    ]
   }
 }
