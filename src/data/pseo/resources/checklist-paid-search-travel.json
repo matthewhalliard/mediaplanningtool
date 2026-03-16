@@ -143,10 +143,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages travel SEM plans with Google Hotel Ads feed status monitoring, OTA impression share tracking, booking window calendar alignment, and loyalty program conversion tracking integrated into the campaign dashboard."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic structures travel brand SEM plans with Google Hotel Ads, metasearch, and brand defense line items in a unified plan with seasonal budget allocation and OTA defense budget tracking."
       },
@@ -160,8 +156,8 @@
       }
     ],
     "cta": {
-      "text": "Build your travel paid search plan with OTA defense tracking and direct booking attribution \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for travel brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
