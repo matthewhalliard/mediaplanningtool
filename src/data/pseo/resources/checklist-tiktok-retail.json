@@ -149,10 +149,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard integrates TikTok retail campaign planning with product catalog feed status, creator content production calendars, and cross-channel BFCM planning alongside Meta and Amazon budgets."
-      },
-      {
         "slug": "meta-business-manager",
         "relevance": "Meta Business Manager complements TikTok strategy \u2014 cross-platform retail brands should coordinate Meta and TikTok creative production so content shot for TikTok is adapted for Meta Reels simultaneously."
       },
@@ -166,8 +162,8 @@
       }
     ],
     "cta": {
-      "text": "Plan your retail TikTok campaigns with creator content calendars and TikTok Shop integration \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more tiktok planning tools and resources for retail brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
