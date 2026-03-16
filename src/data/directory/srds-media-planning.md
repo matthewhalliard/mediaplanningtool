@@ -137,4 +137,14 @@ SQAD provides media cost estimating and negotiation data. SRDS provides rate car
 - **[Resonate](/resonate)** — Audience intelligence platform for consumer insights and targeting
 - **[Halliard](/halliard)** — Media planning tool built for modern agency workflows
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Healthcare](/resources/guide/programmatic-display-healthcare)** — Free planning resource
+- **[Linear TV Planning Checklist for CPG](/resources/checklist/linear-tv-cpg)** — Free planning resource
+- **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit SRDS Media Planning →](https://www.srds.com/)
