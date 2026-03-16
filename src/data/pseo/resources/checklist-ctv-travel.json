@@ -155,10 +155,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages travel CTV plans with booking window calendar alignment, loyalty program enrollment conversion tracking, and OTA direct booking share monitoring integrated into the campaign management workflow."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk provides travel intent audience access, OTA-matched conquesting audiences, and household-level frequency management across streaming platforms for travel brand CTV campaigns."
       },
@@ -172,8 +168,8 @@
       }
     ],
     "cta": {
-      "text": "Align your travel CTV plan with booking windows and direct booking attribution \u2014 build it in Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more ctv planning tools and resources for travel brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
