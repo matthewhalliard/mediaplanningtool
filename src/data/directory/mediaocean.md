@@ -162,4 +162,17 @@ Common themes in reviews include Mediaocean's breadth of functionality, strong a
 - **[Camphouse](/camphouse)** — Campaign workflow management platform (formerly Mediatool)
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Mint](/mint)** — Cloud-based media planning and buying platform
+
+
 [Visit Mediaocean →](https://www.mediaocean.com/)
