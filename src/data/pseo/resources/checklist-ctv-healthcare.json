@@ -161,10 +161,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages healthcare CTV plans with MLR review status tracking, NPI-versus-DTC campaign separation, and integration of script lift measurement timelines against media flight schedules."
-      },
-      {
         "slug": "the-trade-desk",
         "relevance": "The Trade Desk provides CTV buying with health data marketplace access and DeepIntent integration for NPI-matched HCP targeting across premium streaming inventory."
       },
@@ -178,8 +174,8 @@
       }
     ],
     "cta": {
-      "text": "Plan compliant healthcare CTV campaigns with MLR tracking and script lift measurement timelines \u2014 try Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more ctv planning tools and resources for healthcare brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
