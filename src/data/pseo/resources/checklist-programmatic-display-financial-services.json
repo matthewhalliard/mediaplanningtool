@@ -176,6 +176,28 @@
     "cta": {
       "text": "Explore more programmatic display planning tools and resources for financial services brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/programmatic-display-automotive",
+        "title": "Programmatic Display Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/programmatic-display-healthcare",
+        "title": "Programmatic Display Media Planning Checklist for Healthcare / Pharma Campaigns",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-financial-services",
+        "title": "Linear / Traditional TV Media Planning Checklist for Financial Services Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/native-financial-services",
+        "title": "Native / Content Marketing Advertising Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      }
+    ]
   }
 }
