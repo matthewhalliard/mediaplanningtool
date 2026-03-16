@@ -214,4 +214,14 @@ Both platforms target younger mobile-first audiences with short-form video. TikT
 
 ---
 
+
+### 📚 Planning Resources
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+- **[TikTok Ads Checklist for Retail](/resources/checklist/tiktok-retail)** — Free planning resource
+- **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit TikTok Ads Manager →](https://ads.tiktok.com/)
