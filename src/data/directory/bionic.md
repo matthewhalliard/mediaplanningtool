@@ -95,10 +95,23 @@ If you’re evaluating Bionic, ask for a workflow demo focused on your core oper
 
 ## Explore More
 
-- /strata
-- /mediaocean
-- /placements-io
-- /camphouse
-- /the-trade-desk
-- /google-dv360
-- /halliard
+- **[Strata](/strata)**
+- **[Mediaocean](/mediaocean)**
+- **[Placements.io](/placements-io)**
+- **[Camphouse](/camphouse)**
+- **[The Trade Desk](/the-trade-desk)**
+- **[Google DV360](/google-dv360)**
+- **[Halliard](/halliard)**
+
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation
+
