@@ -158,4 +158,14 @@ No verified user reviews for Guideline are available on G2 or Capterra. The prod
 - **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 - **[Keen](/keen)** — AI-powered marketing mix modeling for budget optimization and revenue forecasting
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[Programmatic Display Checklist for Technology](/resources/checklist/programmatic-display-technology)** — Free planning resource
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Guideline →](https://www.guideline.ai/)
