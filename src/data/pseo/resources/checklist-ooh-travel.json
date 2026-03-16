@@ -164,6 +164,23 @@
     "cta": {
       "text": "Explore more ooh planning tools and resources for travel brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/ooh-qsr",
+        "title": "Out-of-Home (OOH) / Digital OOH Media Planning Checklist for QSR / Restaurants",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/ctv-travel",
+        "title": "Connected TV (CTV) / Streaming Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-travel",
+        "title": "Linear / Traditional TV Media Planning Checklist for Travel & Hospitality Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
