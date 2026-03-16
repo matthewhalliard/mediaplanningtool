@@ -155,10 +155,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard consolidates retail media plans across Amazon, Walmart Connect, Target Roundel, and Instacart into a unified view with ROAS normalization, BFCM calendar alignment, and new-to-brand metric tracking."
-      },
-      {
         "slug": "amazon-dsp",
         "relevance": "Amazon DSP extends retail media beyond on-site sponsored search into CTV, streaming audio, and off-site programmatic display, using Amazon's first-party purchase data for closed-loop attribution."
       },
@@ -172,8 +168,8 @@
       }
     ],
     "cta": {
-      "text": "Manage your retail media portfolio across Amazon, Walmart, and Target in one unified plan \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more retail media planning tools and resources for retail brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
