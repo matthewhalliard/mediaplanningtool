@@ -143,6 +143,13 @@
     "cta": {
       "text": "Explore more paid search planning tools and resources for financial services brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/paid-search-financial-services",
+        "title": "Paid Search (SEM / PPC) Media Planning Checklist for Financial Services Campaigns",
+        "type": "Checklist"
+      }
+    ]
   }
 }
