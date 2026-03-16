@@ -135,4 +135,14 @@ Nielsen offers custom marketing mix modeling as a managed service for large adve
 - **[Nielsen Media Impact](/nielsen-media-impact)** — Nielsen's cross-media reach and frequency planning tool
 - **[Halliard](/halliard)** — Media planning and flowchart tool built for independent agencies
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Free planning resource
+- **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Free planning resource
+
+### 📝 From the Blog
+- **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
+
+
 [Visit Recast →](https://getrecast.com/)
