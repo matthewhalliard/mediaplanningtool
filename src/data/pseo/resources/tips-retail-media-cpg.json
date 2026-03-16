@@ -150,6 +150,13 @@
     "cta": {
       "text": "Explore more retail media planning tools and resources for cpg brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "checklist/retail-media-cpg",
+        "title": "Retail Media Networks Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
