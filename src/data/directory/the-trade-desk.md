@@ -211,4 +211,18 @@ The company reported **$2.9B in FY2025 revenue** with 18% year-over-year growth,
 - **[Quantcast](/quantcast)** — AI-powered programmatic advertising and audience insights platform
 - **[Comscore](/comscore)** — Cross-platform audience measurement for validating programmatic campaign reach
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+### 🔧 Also Worth Checking
+- **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)
+- **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform
+
+
 [Visit The Trade Desk →](https://www.thetradedesk.com/)
