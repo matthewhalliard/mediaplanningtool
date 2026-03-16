@@ -149,10 +149,6 @@
     ],
     "related_tools": [
       {
-        "slug": "halliard",
-        "relevance": "Halliard manages B2B SaaS SEM plans with SQL pipeline value modeling, competitor keyword monitoring, ABM target account list integration, and cross-channel coordination with programmatic ABM campaigns."
-      },
-      {
         "slug": "bionic",
         "relevance": "Bionic's media planning workflow structures enterprise SaaS SEM plans with budget allocation by campaign tier (BOFU/TOFU), offline SQL conversion tracking integration, and sales pipeline-connected KPI reporting."
       },
@@ -166,8 +162,8 @@
       }
     ],
     "cta": {
-      "text": "Build your B2B SaaS paid search plan with SQL pipeline modeling and ABM integration \u2014 start with Halliard.",
-      "link": "https://www.halliardmedia.com/trytoday"
+      "text": "Explore more paid search planning tools and resources for technology brands in our directory.",
+      "link": "https://www.mediaplanningtool.com"
     }
   }
 }
