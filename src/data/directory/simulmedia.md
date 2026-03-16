@@ -182,4 +182,14 @@ The platform's specialist positioning in TV advertising limits broad review volu
 - **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-media planning and reach/frequency optimization
 - **[Basis](/basis)** — Integrated digital media planning, buying, and analytics platform
 
+
+### 📚 Planning Resources
+- **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
+- **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Free planning resource
+- **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Simulmedia →](https://www.simulmedia.com/)
