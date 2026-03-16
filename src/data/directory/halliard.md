@@ -240,4 +240,14 @@ Halliard is not yet listed on G2 or Capterra with a public aggregate rating. The
 - **[ClickUp](/clickup)** — All-in-one project management platform used by some marketing teams for campaign tracking
 - **[Mediaocean](/mediaocean)** — Enterprise-grade media management platform for large agencies
 
+
+### 📚 Planning Resources
+- **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
+- **[CTV Campaign Template for Automotive](/resources/template/ctv-automotive)** — Free planning resource
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Halliard → Start Free at halliardmedia.com/trytoday](https://www.halliardmedia.com/trytoday)
