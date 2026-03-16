@@ -195,4 +195,14 @@ Common praise centers on reach, targeting depth, and the free access model. Comm
 - **[Measured](/measured)** — Incrementality testing and MMM platform for cross-channel measurement
 - **[Halliard](/halliard)** — Media planning tool built for independent agencies and in-house teams
 
+
+### 📚 Planning Resources
+- **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
+- **[TikTok Ads Checklist for Retail](/resources/checklist/tiktok-retail)** — Free planning resource
+- **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
+
+### 📝 From the Blog
+- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+
+
 [Visit Meta Business Manager →](https://business.facebook.com/)
