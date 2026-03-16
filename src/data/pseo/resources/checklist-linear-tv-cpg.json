@@ -182,6 +182,33 @@
     "cta": {
       "text": "Explore more linear tv planning tools and resources for cpg brands in our directory.",
       "link": "https://www.mediaplanningtool.com"
-    }
+    },
+    "related_resources": [
+      {
+        "slug": "framework/linear-tv-cpg",
+        "title": "Linear / Traditional TV Strategy Framework for CPG / FMCG Teams",
+        "type": "Framework"
+      },
+      {
+        "slug": "checklist/linear-tv-automotive",
+        "title": "Linear / Traditional TV Media Planning Checklist for Automotive Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/linear-tv-entertainment",
+        "title": "Linear / Traditional TV Media Planning Checklist for Entertainment / Media / Streaming Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/paid-social-meta-cpg",
+        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      },
+      {
+        "slug": "checklist/retail-media-cpg",
+        "title": "Retail Media Networks Media Planning Checklist for CPG / FMCG Brands",
+        "type": "Checklist"
+      }
+    ]
   }
 }
