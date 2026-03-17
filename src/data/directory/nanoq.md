@@ -9,7 +9,6 @@ tags:
   - programmatic
   - ai
 link: https://ai.nanointeractive.com/
-heroImage: ./images/nanoq.png
 featured: false
 targetUsers:
   - Media Agencies
