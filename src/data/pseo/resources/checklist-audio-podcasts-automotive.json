@@ -365,26 +365,11 @@
       }
     ],
     "pro_tips": [
-      {
-        "title": "Pro tip 1",
-        "description": "Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
-      },
-      {
-        "title": "Pro tip 2",
-        "description": "Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
-      },
-      {
-        "title": "Pro tip 3",
-        "description": "Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
-      },
-      {
-        "title": "Pro tip 4",
-        "description": "Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
-      },
-      {
-        "title": "Pro tip 5",
-        "description": "Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
-      }
+      "Pro tip 1: Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency.",
+      "Pro tip 2: Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency.",
+      "Pro tip 3: Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency.",
+      "Pro tip 4: Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency.",
+      "Pro tip 5: Bake audio podcasts learnings into a reusable playbook for automotive so each flight improves targeting, creative, and measurement consistency."
     ],
     "related_tools": [
       {
