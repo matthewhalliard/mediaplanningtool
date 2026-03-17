@@ -1,7 +1,7 @@
 ---
 id: nielsen-media-impact
 title: Nielsen Media Impact
-seoTitle: "Nielsen Media Impact: Pricing, Reviews & Features 2026"
+seoTitle: "Nielsen Media Impact: Pricing, Use Cases & Features (2026)"
 description: Nielsen’s cross-media planning platform for reach and frequency optimization across TV, CTV/streaming, digital, and audio using deduplicated audience measurement.
 tags:
   - reach-frequency
@@ -31,12 +31,12 @@ functionality:
   - Market Research
   - Performance Attribution
 pricing: Enterprise
-category: Media Measurement & Analytics
+category: Cross-Media Planning Platform
 ---
 
 **Cross-media reach & frequency planning for TV, CTV/streaming, digital, and audio — backed by Nielsen data.**
 
-Nielsen Media Impact is Nielsen’s cross-media planning product for building and comparing scenarios across channels and understanding deduplicated reach and frequency. It’s commonly used by agencies and enterprise advertisers for audience-based planning workflows where you need to model incremental reach, manage frequency, and align plans to measurement.
+Nielsen Media Impact is Nielsen’s cross-media planning product It’s also frequently referenced alongside Nielsen’s Upfront/NewFront planning research (including FAST/AVOD demographic breakouts) to inform assumptions. for building and comparing scenarios across channels and understanding deduplicated reach and frequency. It’s commonly used by agencies and enterprise advertisers for audience-based planning workflows where you need to model incremental reach, manage frequency, and align plans to measurement.
 
 ## Key Features
 
