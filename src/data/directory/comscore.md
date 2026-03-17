@@ -1,7 +1,7 @@
 ---
 id: comscore
 title: Comscore
-seoTitle: "Comscore: Pricing, Reviews & Features 2026"
+seoTitle: "Comscore (Proximic): Pricing, Reviews & Key Features (2026)"
 description: Leading cross-platform measurement and media analytics company providing audience intelligence, campaign measurement, and Proximic AI-powered contextual targeting across digital, TV, CTV, and audio.
 tags:
   - audience-analytics
@@ -70,7 +70,7 @@ Comscore pricing is **enterprise only** — no tiers or amounts are publicly lis
 **Is Comscore free?**
 Comscore offers Comscore Direct for self-serve digital analytics. Cross-platform measurement, planning tools, and Proximic activation are typically enterprise contracts.
 
-**How much does Comscore cost?**
+**How much does Comscore cost (pricing)?**
 Comscore doesn’t publish list pricing. Expect custom enterprise pricing based on measurement scope, markets, and platform coverage.
 
 **What is Proximic by Comscore?**
@@ -111,6 +111,7 @@ Nielsen is the dominant TV measurement currency in many markets; Comscore is oft
 - **Jan 2026**: Proximic by Comscore released its **2026 State of Programmatic** report, highlighting CTV and audio as expected growth areas and calling AI-powered optimization “essential” for 2026. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
 - **Jan 2026**: Proximic report: 43% planned to increase contextual targeting in 2026 and 50% said contextual was the main tactic in privacy-regulated verticals. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
 - **Jan 2026**: Proximic report: top expected AI applications for 2026 included audience targeting/modeling (88%) and campaign pacing/bid automation (77%). (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscore-2026-State-of-Programmatic-Report)
+- **Jan 2026**: Comscore announced ESPN will use Comscore Content Measurement (CCM) to unify audience measurement across linear, streaming, digital, and social. (Source: https://www.comscore.com/Insights/Press-Releases/2026/1/Comscores-Cross-Platform-Content-Measurement-to-Service-ESPN)
 
 ## Explore More Media Planning Tools
 
