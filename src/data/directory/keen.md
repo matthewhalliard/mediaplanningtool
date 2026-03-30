@@ -1,8 +1,8 @@
 ---
 id: keen
 title: Keen
-seoTitle: "Keen: Pricing, Reviews & Features 2026"
-description: AI-powered marketing mix modeling platform that optimizes $7.5B+ in marketing budgets globally using adaptive Bayesian methods, delivering real-time scenario planning and revenue forecasting without requiring data scientists.
+seoTitle: "Keen MMM Pricing 2026: Marketing Mix Modeling Platform Review"
+description: Keen Decision Systems MMM review. Adaptive Bayesian modeling, real-time scenario planning, and pricing details. Compare to Recast, Northbeam, and Measured.
 tags:
   - mmm
   - media-planning
