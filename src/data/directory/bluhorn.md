@@ -1,8 +1,8 @@
 ---
 id: bluhorn
 title: Bluhorn
-seoTitle: "Bluhorn: Pricing, Reviews & Features 2026"
-description: Cloud-based media planning and buying platform for agencies and advertisers. Integrates Nielsen/Comscore data, invoice reconciliation, and post-buy analysis in a unified workflow starting at $198/month.
+seoTitle: "Bluhorn Pricing 2026: Media Buying Platform From $198/mo"
+description: Bluhorn media buying software starting at $198/mo. Nielsen/Comscore integration, invoice reconciliation, and post-buy analysis. Compare plans and alternatives.
 tags:
   - media-planning
   - media-buying
