@@ -1,8 +1,8 @@
 ---
 id: advantage
 title: "Advantage (now Simpli.fi)"
-seoTitle: "Advantage (now Simpli.fi): Pricing, Reviews & Features 2026"
-description: Enterprise agency management software integrating media planning, buying, project management, and accounting in one platform. Now part of Simpli.fi, Advantage serves 2,000+ advertising agencies with omnichannel workflow automation.
+seoTitle: "Simpli.fi Pricing 2026: Advantage Platform Costs & Agency Features"
+description: Simpli.fi (formerly Advantage) pricing, features, and agency workflow tools. Media planning, buying, and accounting in one platform for 2,000+ agencies.
 tags:
   - media-planning
   - media-buying
