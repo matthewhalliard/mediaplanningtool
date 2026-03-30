@@ -1,8 +1,8 @@
 ---
 id: comscore
 title: Comscore
-seoTitle: "Comscore (Proximic): Pricing, Reviews & Key Features (2026)"
-description: Leading cross-platform measurement and media analytics company providing audience intelligence, campaign measurement, and Proximic AI-powered contextual targeting across digital, TV, CTV, and audio.
+seoTitle: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
+description: How much does Comscore cost? Estimated pricing from ~$799/mo, cross-platform measurement features, Proximic contextual targeting, and comparisons to Nielsen and GWI.
 tags:
   - audience-analytics
   - media-planning
