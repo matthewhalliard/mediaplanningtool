@@ -1,8 +1,8 @@
 ---
 id: gwi
 title: "GWI (Global Web Index)"
-seoTitle: "GWI Pricing, Reviews & Features: Platform Guide 2026"
-description: Leading consumer research platform with free and paid plans, AI-powered Agent Spark, and 250K+ profiling points across 50+ markets for audience insights and media planning.
+seoTitle: "GWI Pricing 2026: Free vs Paid Plans, Features & Top Alternatives"
+description: What does GWI cost? Compare free and paid tiers, 250K+ profiling points, and how GWI stacks up against MRI-Simmons and Comscore for audience research.
 tags:
   - audience-analytics
   - media-planning
