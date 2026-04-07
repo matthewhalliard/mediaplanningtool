@@ -1,8 +1,8 @@
 ---
 id: the-trade-desk
 title: The Trade Desk
-seoTitle: "The Trade Desk: Pricing, Reviews & Features 2026"
-description: The leading independent demand-side platform (DSP) for programmatic advertising across the open internet. The Trade Desk's Kokai AI analyzes 15M+ ad opportunities per second across CTV, display, audio, and digital OOH. Enterprise pricing.
+seoTitle: "The Trade Desk Pricing 2026: DSP Cost, Fees & Alternatives"
+description: The Trade Desk fees run ~15–20% of media spend, $100K+ quarterly minimum. Independent DSP with Kokai AI. Compare vs DV360, Amazon DSP, and Adobe.
 tags:
   - media-buying
   - audience-analytics
