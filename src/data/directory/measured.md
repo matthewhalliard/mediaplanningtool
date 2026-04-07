@@ -1,8 +1,8 @@
 ---
 id: measured
 title: Measured
-seoTitle: "Measured: Pricing, Reviews & Features 2026"
-description: Incrementality testing and test-calibrated marketing mix modeling (MMM) platform for enterprise and mid-market advertisers. Uses causal experiments to measure true media contribution across channels. Rated 4.9/5 on G2.
+seoTitle: "Measured Pricing 2026: Incrementality Testing Costs"
+description: "Measured incrementality testing starts around $50K/year. Enterprise MMM pricing is custom. Compare vs. Northbeam, Recast, and Haus for your budget."
 tags:
   - mmm
   - audience-analytics
