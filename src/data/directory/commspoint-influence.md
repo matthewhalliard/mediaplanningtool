@@ -1,8 +1,8 @@
 ---
 id: commspoint-influence
 title: Commspoint Influence
-seoTitle: "Commspoint Influence: Pricing, Reviews & Features 2026"
-description: A Nielsen solution that helps brands and agencies identify the optimal communication channel mix using Nielsen's industry-leading audience measurement data. Compare pricing, features, and alternatives for media planning optimization.
+seoTitle: "Commspoint Influence Pricing 2026: Nielsen Channel Mix"
+description: "Commspoint Influence is Nielsen's channel mix optimizer with enterprise custom pricing. Compare vs. Commspoint Journey and Nielsen Media Impact 2026."
 tags:
   - media-planning
   - multi-channel
