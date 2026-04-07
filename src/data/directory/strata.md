@@ -1,8 +1,8 @@
 ---
 id: strata
 title: Strata
-seoTitle: "Strata: Pricing, Reviews & Features 2026"
-description: Enterprise media planning, buying, and financial management platform by FreeWheel. Covers cross-media campaign workflows, OneStrata Digital, and Financial Bridge integrations for agencies managing complex multi-channel buys.
+seoTitle: "Strata by FreeWheel Pricing 2026: Media Buying Platform"
+description: "Strata by FreeWheel is an enterprise cross-media buying platform with custom pricing. Compare vs. Mediaocean Prisma and Bionic for TV/digital buying."
 tags:
   - media-buying
   - io-billing
