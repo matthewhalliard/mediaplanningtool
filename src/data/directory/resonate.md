@@ -1,8 +1,8 @@
 ---
 id: resonate
 title: Resonate
-seoTitle: "Resonate: Pricing, Reviews & Features 2026"
-description: AI-powered consumer intelligence platform providing predictive insights on 250M US consumer profiles with 15K+ attributes through the Ignite platform. Rated 4.6/5 on G2. Compare pricing, features, and alternatives for audience targeting and data enrichment.
+seoTitle: "Resonate Pricing 2026: AI Audience Platform & Alternatives"
+description: Resonate's Ignite platform covers 250M US consumer profiles with 15K+ attributes. Enterprise pricing, custom quotes. Compare vs MRI-Simmons, Comscore, GWI.
 tags:
   - audience-research
   - audience-analytics
