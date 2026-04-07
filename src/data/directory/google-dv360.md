@@ -1,8 +1,8 @@
 ---
 id: google-dv360
 title: Google Display & Video 360
-seoTitle: "Google Display & Video 360: Pricing, Reviews & Features 2026"
-description: Google's enterprise programmatic advertising platform offering end-to-end campaign management with seamless integration across Google's ecosystem, premium inventory access including YouTube and CTV, and AI-powered optimization.
+seoTitle: "Google DV360 Pricing 2026: DSP Cost, Fees & Alternatives"
+description: Google DV360 costs 10–15% of media spend, $50K+/month minimum. Enterprise DSP with exclusive YouTube inventory. Compare vs The Trade Desk and Amazon DSP.
 tags:
   - media-buying
   - audience-analytics
