@@ -1,8 +1,8 @@
 ---
 id: recast
 title: Recast
-seoTitle: "Recast: Pricing, Reviews & Features 2026"
-description: Bayesian marketing mix modeling platform designed for complex brand advertisers, offering 94%+ weekly forecast accuracy, multi-stage MMM, and GeoLift incrementality testing. Compare pricing, features, and alternatives.
+seoTitle: "Recast MMM Pricing 2026: Bayesian Mix Modeling Costs"
+description: "Recast uses Bayesian MMM with custom enterprise pricing. GeoLift testing from $100/mo. Compare vs. Measured, Northbeam, and Mutinex for MMM."
 tags:
   - mmm
   - audience-analytics
