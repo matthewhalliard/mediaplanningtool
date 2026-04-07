@@ -1,8 +1,8 @@
 ---
 id: mediaplanhq
 title: MediaPlanHQ
-seoTitle: "MediaPlanHQ: Pricing, Reviews & Features 2026"
-description: End-to-end media planning platform for agencies and advertisers covering plan creation, invoice reconciliation, creative project management, and client request portals. Starts at $45/user/month. Compare pricing, features, and alternatives.
+seoTitle: "MediaPlanHQ Pricing 2026: From $39/User/Mo"
+description: "MediaPlanHQ starts at $39/user/month (annual) with a 30-day free trial and free observer seats. A budget-friendly alternative to Bionic and Camphouse."
 tags:
   - media-planning
   - budget-planning
