@@ -1,8 +1,8 @@
 ---
 id: meta-business-manager
 title: Meta Business Manager
-seoTitle: "Meta Business Manager: Pricing, Reviews & Features 2026"
-description: Comprehensive platform for managing Facebook and Instagram advertising campaigns, with advanced AI-powered targeting capabilities and access to Meta's family of apps and services. Free to use — costs come from ad spend only.
+seoTitle: "Meta Business Manager 2026: Free Platform Setup Guide"
+description: "Meta Business Manager is free to use — you only pay for ads. Manage Facebook and Instagram campaigns, assets, and team access in one place."
 tags:
   - media-buying
   - audience-analytics
