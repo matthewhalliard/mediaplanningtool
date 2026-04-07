@@ -1,8 +1,8 @@
 ---
 id: briefbid
 title: BriefBid
-seoTitle: "BriefBid: Pricing, Reviews & Features 2026"
-description: Digital media marketplace connecting advertisers and publishers through automated RFP processes, providing access to 700+ media vendors across all channels with completely free access for agencies and brands.
+seoTitle: "BriefBid Pricing 2026: Free RFP Marketplace for Buyers"
+description: "BriefBid is 100% free for agencies and brands — access 700+ vetted media vendors and submit RFPs at no cost. Vendors pay on successful placements only."
 tags:
   - media-planning
   - media-buying
