@@ -1,8 +1,8 @@
 ---
 id: telmar-helixa
 title: TelmarHelixa
-seoTitle: "TelmarHelixa: Pricing, Features & Best Alternatives 2025"
-description: Media planning and data analytics solutions for audience optimization.
+seoTitle: "TelmarHelixa Pricing 2026: Audience Planning Platform"
+description: "TelmarHelixa combines audience insights with cross-media planning. Enterprise custom pricing. Compare vs. Nielsen Media Impact and GWI for 2026."
 tags:
   - media-planning
   - audience-analytics
