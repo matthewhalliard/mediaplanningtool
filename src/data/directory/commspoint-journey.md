@@ -1,8 +1,8 @@
 ---
 id: commspoint-journey
 title: Commspoint Journey
-seoTitle: "Commspoint Journey: Pricing, Reviews & Features 2026"
-description: Nielsen's enterprise consumer journey mapping platform that reveals up to 15,000 customer pathways across 30+ categories and 70+ media channels to optimize touchpoint strategy and campaign effectiveness.
+seoTitle: "Commspoint Journey Pricing 2026: Nielsen Enterprise"
+description: "Nielsen Commspoint Journey starts at $100K+/year for enterprise consumer journey mapping. Often bundled with other Nielsen suite products."
 tags:
   - media-planning
   - audience-analytics
