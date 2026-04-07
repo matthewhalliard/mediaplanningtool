@@ -1,8 +1,8 @@
 ---
 id: galeforce-media
 title: GaleForce Media
-seoTitle: "GaleForce Media: Pricing, Reviews & Features 2026"
-description: Web-based media planning and buying platform for TV, radio, digital, and print. GaleForce Media is known for fast invoice reconciliation, attribution insights that link spots to web traffic, and responsive customer support.
+seoTitle: "GaleForce Media Pricing 2026: Affordable TV & Radio"
+description: "GaleForce Media is built for TV, radio, and digital buying — the most affordable traditional media planning platform. Custom quote required."
 tags:
   - media-planning
   - media-buying
