@@ -1,8 +1,8 @@
 ---
 id: pixis-prism
 title: Pixis Prism
-seoTitle: "Pixis Prism: Pricing, Reviews & Features 2026"
-description: AI-powered marketing operating system that turns natural language prompts into campaign insights, budget optimizations, and automated actions — trained on over 3 billion data points with integrations into Meta, Google, and more.
+seoTitle: "Pixis Prism Pricing 2026: From $200/mo, Free Trial"
+description: "Pixis Prism starts at $200/month with a 14-day free trial. AI-driven campaign optimization. Enterprise custom plans available. Compare vs. Alli AI."
 tags:
   - media-planning
   - multi-channel
