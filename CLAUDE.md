@@ -65,3 +65,5 @@ Tags are configured in `settings.toml` and used for categorizing listings:
 - Deployed on Vercel as a server-rendered application
 - Uses Vercel adapter with web analytics enabled
 - Environment variables for PostHog analytics and Notion integration
+
+<!-- Last content update: 2026-04-07T16:35:57Z -->
