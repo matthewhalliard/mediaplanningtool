@@ -1,8 +1,8 @@
 ---
 id: srds-media-planning
 title: SRDS Media Planning
-seoTitle: "SRDS Media Planning: Pricing, Reviews & Features 2026"
-description: SRDS is a comprehensive media research database giving planners and buyers access to 125,000+ media properties with ad rates, audience demographics, and contact data across digital and traditional channels.
+seoTitle: "SRDS Media Planning Pricing 2026: Free to Start"
+description: "SRDS offers a free account (Zeus Prime) with no setup fees — pay only for impressions delivered. Media database for cross-channel research and planning."
 tags:
   - media-planning
   - audience-analytics
