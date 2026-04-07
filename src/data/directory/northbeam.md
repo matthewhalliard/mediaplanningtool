@@ -1,8 +1,8 @@
 ---
 id: northbeam
 title: Northbeam
-seoTitle: "Northbeam: Pricing, Reviews & Features 2026"
-description: Marketing attribution and media mix modeling platform for DTC and e-commerce brands. Northbeam combines multi-touch attribution, MMM+, and creative analytics with a Starter plan at $1,500/month for brands spending under $250k/month in media.
+seoTitle: "Northbeam Pricing 2026: From $1,500/Mo + MMM Options"
+description: "Northbeam starts at $1,500/mo for Starter (MTA). Professional from $2,500/mo. Compare vs. Triple Whale, Measured, and Recast for attribution + MMM."
 tags:
   - mmm
   - audience-analytics
