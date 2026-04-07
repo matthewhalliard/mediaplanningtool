@@ -1,8 +1,8 @@
 ---
 id: scarborough
 title: Scarborough
-seoTitle: "Scarborough: Pricing, Reviews & Features 2026"
-description: Nielsen's local market consumer intelligence platform covering 83+ DMAs with 330,000+ annual surveys. Used for audience profiling, media planning, and advanced audience segment creation — now integrated with Nielsen ONE.
+seoTitle: "Scarborough Nielsen Pricing 2026: Local Market Data"
+description: "Nielsen Scarborough: enterprise local consumer data from $50K+/year. Compare vs. GWI and MRI-Simmons for audience planning."
 tags:
   - audience-analytics
   - media-planning
