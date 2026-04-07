@@ -1,8 +1,8 @@
 ---
 id: mint
 title: Mint
-seoTitle: "Mint (MINT.ai): Pricing, Reviews & Features 2026"
-description: AI-powered media planning and buying platform for enterprise advertising teams. MINT.ai uses a Multi-Agent AI system to automate workflows, cross-channel planning, and campaign actualization. Custom enterprise pricing.
+seoTitle: "MINT.ai Pricing 2026: Enterprise Media Planning Cost"
+description: "MINT.ai uses custom enterprise pricing based on media spend, seats, and campaigns — no free trial. Compare vs. Camphouse and Mediaocean for large teams."
 tags:
   - media-planning
   - media-buying
