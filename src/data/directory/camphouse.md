@@ -1,8 +1,8 @@
 ---
 id: camphouse
 title: "Camphouse (formerly Mediatool)"
-seoTitle: "Camphouse (formerly Mediatool): Pricing, Reviews & Features 2026"
-description: Campaign workflow management platform — formerly Mediatool, rebranded in February 2025 — that centralizes media planning, tracking, and reporting across all channels for enterprise teams. Compare pricing, features, and alternatives.
+seoTitle: "Camphouse Pricing 2026: Mediatool's New Name Explained"
+description: "Camphouse (formerly Mediatool) uses custom enterprise pricing with a 20-user minimum. See alternatives like Bionic and MediaPlanHQ from $199/mo."
 tags:
   - media-planning
   - multi-channel
