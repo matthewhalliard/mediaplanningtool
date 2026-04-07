@@ -1,8 +1,8 @@
 ---
 id: bionic
 title: Bionic
-seoTitle: "Bionic: Pricing, Reviews & Features 2026"
-description: All-in-one media planning and buying platform for agencies managing multi-channel plans, IOs/RFPs, pacing, and reconciliation workflows.
+seoTitle: "Bionic Media Planning Pricing 2026: From $199/User"
+description: "Bionic starts at $199/user/mo ($995/mo for 5 users). 14-day trial. Compare vs. MediaPlanHQ, Camphouse for media planning agencies."
 tags:
   - media-planning
   - media-buying
