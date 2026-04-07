@@ -1,8 +1,8 @@
 ---
 id: guideline
 title: Guideline
-seoTitle: "Guideline: Pricing, Reviews & Features 2026"
-description: AI-driven media intelligence and planning platform aggregating $156B+ in annual global media spend from major agencies, now including an MCP Server for AI agent integration and an AI Factory for automated digital placement classification and ad spend insights.
+seoTitle: "Guideline AI: Media Intelligence Platform Review 2026"
+description: Guideline AI aggregates ~$200B in real ad spend from billing systems, with an AI Factory, conversational AI Agent, and MCP Server for AI agent integration.
 tags:
   - media-planning
   - audience-analytics
@@ -33,138 +33,183 @@ pricing: Enterprise
 category: AI Media Intelligence Platform
 ---
 
-**The AI-powered media intelligence and planning platform aggregating $156B+ in global ad spend data**
+**AI-powered media intelligence and planning built on $200B+ in real transaction data from the world's leading agencies**
 
-Guideline (guideline.ai) combines two capabilities: a real-time market intelligence engine built on aggregated billing data from leading agencies, and a dynamic media plan management platform for global teams. In 2025 and early 2026, the company significantly expanded its AI layer — launching an AI Factory for automated digital placement classification, an AI Agent for spend insights, and an MCP Server enabling AI agents to interact directly with media plan data. Trusted by 90% of top global media companies, including all five major US broadcasters and six major agency holding companies.
+Guideline (guideline.ai) combines two products: an Ad Intelligence platform built on aggregated billing data from major holding companies and independents, and a Media Plan Management (MPM) platform for global teams. The distinguishing feature is the data source — Guideline pulls actualized transaction data directly from agency billing systems, not rate cards, surveys, or projection models. That means what the industry actually paid, not what it should have paid.
+
+In 2025 and early 2026, Guideline significantly accelerated its AI layer with three major product launches: the [AI Agent](https://www.guideline.ai/blog/guideline-unveils-ai-agent-accelerating-insight-into-the-industrys-most-powerful-media-intelligence-data) for conversational spend intelligence (October 2025), the [AI Factory](https://www.guideline.ai/blog/guideline-launches-ai-factory-to-speed-ai-innovation-across-ad-intelligence-and-media-plan-management) for automated placement classification (February 2026), and an [MCP Server](https://www.prnewswire.com/news-releases/guideline-launches-media-plan-management-mcp-server-enabling-agentic-ai-workflows-across-media-planning--buying-302704200.html) enabling external AI agents to interact directly with media plan data (March 2026).
+
+## What Makes Guideline Different
+
+The core differentiator is data provenance. Most competitive intelligence tools in advertising — including estimation services and panel-based platforms — use projection models or rate card data. Guideline uses actual billing transactions from agencies. According to Kelley Train, VP of Data and Strategic Alliances at Guideline, "We're getting actualized data from billing systems. We're not going off of rate cards or what someone thinks should have been paid. We're not using projection models, ad occurrences, surveys or scraping, so we're able to show what really happened versus what we think happened." ([AdExchanger](https://www.adexchanger.com/data-exchanges/media-intelligence-startup-guideline-ai-aims-to-take-the-guesswork-out-of-media-planning/))
+
+This approach gives buy-side teams real pricing benchmarks for negotiation, and gives sell-side teams (broadcasters, publishers) actual market share and competitive pricing intelligence.
 
 ## Key Features
 
-### AI-Powered Intelligence
-- AI Factory: automated digital placement classification and AI-driven analysis across ad spend data (February 2026)
-- AI Agent for real-time ad spend insights and strategic recommendations (October 2025)
-- MCP (Model Context Protocol) Server enabling AI agents to interact with media plan management workflows (March 2026)
-- Predictive analytics for campaign optimization and market trend identification
-- Machine learning for pattern recognition across $156B+ in aggregated spend data
+### AI Factory
+
+Launched February 11, 2026, the [Guideline AI Factory](https://www.prnewswire.com/news-releases/guideline-launches-ai-factory-to-speed-ai-innovation-across-ad-intelligence-and-media-plan-management-302684738.html) is an internal innovation engine built to accelerate the delivery of AI-powered capabilities across Guideline's Ad Intelligence and Media Plan Management products. It is not a standalone product — it is the operating model behind Guideline's AI feature pipeline.
+
+The AI Factory's first output is **AI Digital Placement Classification**: a capability that converts inconsistent digital media placement names into standardized, decision-grade reporting. Digital placement names carry valuable signals about ad format, audience targeting, buying method, and content specifics, but were created to execute campaigns — not to function as a clean data model. Guideline's classification engine uses a hybrid approach combining deterministic rules-based matching (for known patterns and structured naming conventions) with natural language processing (NLP) for contextual interpretation and long-tail variants.
+
+What distinguishes Guideline's approach is what the company calls "governed transparency" — customers can see not just the classification output, but the reasoning behind how each placement name was interpreted. This auditability matters in enterprise environments where strategic oversight is required.
+
+Alberto Leyes, SVP of AI Innovation at Guideline, described the goal: "By applying AI in a disciplined and transparent way to our aggregated industry pool data, we can now translate that signal into structured data that unlocks previously unseen intelligence for our buy and sell-side customers across investment, pricing, revenue, and audience impressions." ([PR Newswire](https://www.prnewswire.com/news-releases/guideline-launches-ai-factory-to-speed-ai-innovation-across-ad-intelligence-and-media-plan-management-302684738.html))
+
+Additional AI Factory capabilities planned for 2026 include strategic planning assistance, ad investment and pricing analysis, yield optimization workflows, content acquisition insights, and sales enablement tooling.
+
+### AI Agent
+
+Launched October 2025, the [Guideline AI Agent](https://www.prnewswire.com/news-releases/guideline-unveils-ai-agent-accelerating-insight-into-the-industrys-most-powerful-media-intelligence-data-302578092.html) is a conversational interface built directly into the platform's customer-facing data layer. Users ask questions in plain English and receive answers as text, charts, tables, visual comparisons, or diagnostic context — without manual data pulls or waiting on reporting cycles.
+
+Core capabilities include:
+- **Automated Visualizations**: Every query generates a customizable chart or table
+- **Data Export & Sharing**: Download results in PNG, CSV, or XLSX for use in presentations and workflows
+- **Custom Analytics**: Filter, compare dimensions, and adjust visuals to surface patterns and outliers
+- **Dynamic Dashboards**: Pin and organize visualizations into interactive dashboards that evolve with each new question
+
+CEO Vincent Mifsud described the vision: "Our customers can now move from a plain English question to decision in seconds, accelerating time to value, enhancing insight readiness, and unlocking new ways to apply differentiated intelligence across their organizations." The AI Agent is designed to move beyond descriptive and diagnostic intelligence toward predictive and prescriptive guidance as it matures.
+
+### MCP Server
+
+Launched March 5, 2026, the [Guideline Media Plan Management MCP Server](https://www.prnewswire.com/news-releases/guideline-launches-media-plan-management-mcp-server-enabling-agentic-ai-workflows-across-media-planning--buying-302704200.html) allows any MCP-compatible AI agent — including Claude, ChatGPT, or proprietary internal tools — to connect directly to Guideline's media plan management platform. No custom API development or integration work is required.
+
+The MCP Server is built on the Model Context Protocol, the open standard for agentic AI connectivity originally introduced by Anthropic and now adopted by OpenAI, Google, and Microsoft. The protocol has become the de facto standard for AI-to-tool connectivity; industry analysts project 75% of enterprise gateway vendors will support MCP by end of 2026.
+
+Practical use cases enabled by the MCP Server:
+- Querying campaign status, budget allocation, and vendor performance conversationally
+- Running plan-to-actual comparisons across clients, campaigns, and markets in a single conversation
+- Generating summaries and reporting within AI tools already embedded in daily workflows
+- Multi-step analysis without switching between platforms or pulling manual exports
+
+The server provides secure, read-only access, giving agencies confidence that plan data remains protected. Steve Silvers, Guideline's Chief Product Officer, described the strategic intent: "We're meeting our clients where they are by integrating with their own AI-powered workflows. By adopting the Model Context Protocol, we're giving agencies and brands the freedom to bring their own AI agents and unlock the full power of our platform without the friction of traditional integrations."
 
 ### Comprehensive Data Platform
-- $156B+ in aggregated annual global media spend from leading agencies and independents
-- Exclusive billing data providing forward-booking and pricing benchmark intelligence
-- Real-time market indicators across ad formats, channels, and markets
-- Cross-platform measurement and analytics capabilities
-- Competitive intelligence built from actual spend flows rather than estimated models
 
-### Advanced Planning Platform
-- Dynamic media plan management with global team collaboration
-- Real-time insights integrated directly into planning workflows
-- Standardized data structures with flexibility for global and local teams
-- Enhanced workflow automation, approval processes, and version control
-- Intelligent reporting in flexible formats for different stakeholder needs
+Guideline's proprietary spend and pricing data represents approximately $200 billion in annual media investment across 65 countries — updated figures from the [March 2026 Local Dynamics launch](https://finance.yahoo.com/markets/articles/guideline-expands-ad-intelligence-insights-130000553.html). The platform sources this data through a "give to get" model: holding companies, large independents, and niche agencies contribute anonymized billing data and receive executive dashboards back for custom slices of the aggregated pool.
 
-### Market Intelligence Tools
-- Ad format pricing optimization using forward-booking and historical benchmark data
-- Competitive market sizing and share-of-wallet analysis
-- Media trend identification across channels and markets
-- Strategic decision support for buy-side and sell-side media professionals
+The data covers:
+- Ad spend by category, channel, and market
+- Pricing benchmarks from actual transactions (not rate cards)
+- Forward-booking data and upfront spending patterns
+- Media mix and allocation by category and sector
+- Share-of-wallet and competitive spend analysis
 
-## Business Impact
+### Local Dynamics
 
-- **Market Coverage**: Trusted by 90% of top global media companies
-- **Data Scale**: $156B+ in annual global media spend aggregated
-- **Industry Adoption**: All 5 top US broadcasters use Guideline's solutions
-- **Agency Partnerships**: 6 major holding companies partner for bidirectional data exchange
+Launched March 19, 2026, [Local Dynamics](https://www.guideline.ai/blog/guideline-expands-its-ad-intelligence-insights-with-local-dynamics-bringing-transaction-level-benchmarking-to-local-ad-markets) is a subscription report delivering quarterly analysis of advertising investment across local markets. Coverage spans 175+ DMAs and 100+ product/service sub-categories investing in local media (OOH, TV, radio, and digital). Unlike traditional market intelligence built on estimates, Local Dynamics is powered by real transaction-level data.
 
-## Enterprise Solutions
+Use cases include tracking category-level ad demand across local markets, pinpointing which categories drive local revenue growth, arming sales teams with data-backed pricing narratives, and identifying underpriced inventory against market benchmarks.
 
-### Media Strategy Excellence
-- Comprehensive market intelligence for informed budget allocation decisions
-- Deep competitive analysis of media market dynamics and pricing
-- Real-time trend identification across emerging and established media channels
-- Performance benchmarking against actual market spending norms
-- AI-generated insights layered on top of raw spend data
+### Media Plan Management Platform
 
-### Financial & Investment Intelligence
-- Detailed market analysis for investment and financial forecasting decisions
-- Sharp market navigation designed for fast-moving advertising environments
-- ROI optimization with measurement and scenario tools
-- Risk assessment using market-level spend signals
+The planning platform addresses the fragmentation problem most media teams face: dispersed spreadsheets, disconnected systems, and delayed decisions. Key capabilities include:
+- Custom taxonomies and role-based permissions for global teams
+- Standardized templates with consistency across markets and geographies
+- Automated approval workflows, version control, and report scheduling
+- Seamless third-party integrations with client systems
+- Real-time insights centralized in a single database
 
-### Research & Content Strategy
-- Global media trend data for content strategy and publishing decisions
-- Audience and market analysis for strategic content positioning
-- Competitive positioning intelligence across media channels
-- Cross-border strategy support for international media planning
+## Data Scale and Market Position
+
+- **~$200B** in annual global media spend represented, across 65 countries ([Guideline, March 2026](https://finance.yahoo.com/markets/articles/guideline-expands-ad-intelligence-insights-130000553.html))
+- **90%** of top global media companies use Guideline's data solutions
+- **All 5** top US broadcasters leverage Guideline
+- **6** major agency holding companies are data partners
 
 ## Pricing
 
-Guideline does not publish pricing. The platform uses **custom enterprise contracts**.
+Guideline does not publish pricing. The platform operates on **custom enterprise contracts** only — no self-serve tier, no published price list.
 
-- **Pricing model**: Custom enterprise; contact sales
-- **Typical structure**: Likely based on data access scope, number of users, and markets covered
-- **No self-serve tier**: Engagement through direct sales and demos
+- **Pricing model**: Custom; contact sales
+- **Typical structure**: Likely based on data access scope, number of users, markets covered, and product modules (Ad Intelligence vs. Plan Management vs. both)
+- **Local Dynamics**: Available as a subscription report, separate from the full platform
+- **Getting started**: Request a demo at guideline.ai; dedicated sales team for enterprise contracts
 
-Contact Guideline sales at guideline.ai for pricing specific to your intelligence and planning requirements.
+Neither G2 nor Capterra have verified pricing data for Guideline. The enterprise-only positioning reflects both the data sensitivity involved and the custom configuration requirements of major holding companies and broadcasters.
 
 ## Frequently Asked Questions
 
-**How much does Guideline cost?**
-Guideline does not publish pricing. The platform is sold through a custom enterprise contract process. Contact the sales team at guideline.ai for a quote based on your data requirements, team size, and market coverage.
+**What is Guideline AI?**
+Guideline AI is an advertising data and media plan management platform that aggregates real transaction data from agency billing systems to produce market intelligence on ad spend, pricing, and media mix. It serves both the buy side (agencies, brands) and sell side (broadcasters, publishers). Unlike panel-based or model-estimated intelligence tools, Guideline's data comes from actual billing records.
 
 **What is the Guideline AI Factory?**
-The AI Factory, launched in February 2026, is Guideline's AI infrastructure layer designed to accelerate AI-powered capabilities across its intelligence and planning products. The first output was AI Digital Placement Classification — automated categorization of digital ad placements using AI.
+The AI Factory, launched February 2026, is Guideline's internal infrastructure for accelerating AI product development across its Ad Intelligence and Media Plan Management tools. Its first product release is AI Digital Placement Classification — automated categorization of digital ad placements using a hybrid of rules-based matching and NLP. Additional AI Factory capabilities are planned throughout 2026 covering strategic planning, pricing analysis, yield optimization, and sales enablement.
 
 **What is the Guideline MCP Server?**
-Launched in March 2026, Guideline's MCP (Model Context Protocol) Server allows AI agents and AI workflows to interact directly with media plan management data. It enables teams building AI-powered planning and reporting workflows to connect those agents to Guideline's plan management infrastructure.
+Launched March 5, 2026, the Guideline MCP Server allows any MCP-compatible AI agent (Claude, ChatGPT, or proprietary tools) to connect directly to Guideline's media plan management platform. Teams can query campaign status, budget allocation, and vendor performance conversationally — without custom API development. It provides secure read-only access and supports multi-step analysis across campaigns, clients, and markets.
 
-**How does Guideline compare to Bionic for media planning?**
-[Bionic](/bionic) is a purpose-built media plan creation tool with strong flowchart, RFP, and trafficking features. Guideline combines market intelligence (real spend data from agencies) with plan management. The key differentiator is Guideline's data layer — actual billing data from major agencies providing pricing benchmarks and competitive intelligence that standalone planning tools lack.
+**How much does Guideline cost?**
+Guideline does not publish pricing. The platform is enterprise-only, sold through a custom contract process. Pricing likely depends on data scope, user count, markets, and product modules. Contact guideline.ai for a quote.
 
-**Who uses Guideline?**
-Guideline serves both buy-side (agencies, brands) and sell-side (broadcasters, publishers) media professionals. On the buy side, media planners use it for market intelligence and plan management; on the sell side, broadcasters use it for competitive analysis and pricing strategy.
+**How does Guideline's data differ from Nielsen or Comscore?**
+Nielsen and Comscore produce audience measurement data — who is watching, reading, or listening to what. Guideline produces spend and pricing intelligence — what advertisers actually paid, in aggregate. The data sources are different: Nielsen uses metered panels and set-top-box data; Comscore uses device-based measurement; Guideline pulls from actual agency billing transactions. The tools are often complementary rather than competing — a planner might use Guideline for spend benchmarks and negotiation and Nielsen for audience measurement.
 
-**Is Guideline only for large agencies?**
-Guideline's data scale (90% of top global media companies, 6 holding company data partnerships) positions it as an enterprise product, but the platform serves a range of media professionals from major holding companies to independent agencies and brand in-house teams.
+**Who uses Guideline AI?**
+Guideline serves both sides of the media market. On the buy side: media agencies, independent agencies, brand in-house teams, and investment analysts use it for market intelligence, planning, and competitive benchmarking. On the sell side: broadcasters, publishers, and station groups use it for competitive pricing analysis, market share tracking, and revenue management. The 90% adoption rate among top global media companies reflects both buy and sell-side usage.
+
+**What is Guideline Local Dynamics?**
+Local Dynamics, launched March 2026, is a subscription report delivering quarterly transaction-level benchmarks across 175+ US DMAs and 100+ advertising sub-categories. It covers OOH, TV, radio, and digital, and is designed for agencies, publishers, and station groups that need category-level spend data in local markets.
+
+**Is Guideline only for large holding companies?**
+Guideline's core data partnerships are with major holding companies and large independents, but the platform serves a range of buyers and sellers. Mid-size agencies and brand in-house teams use the Ad Intelligence products; the Media Plan Management platform scales to different team sizes. The enterprise-only pricing model does effectively filter out very small organizations.
 
 ## User Reviews & Social Proof
 
-No verified user reviews for Guideline are available on G2 or Capterra. The product's enterprise positioning and specialized use case limit public review volume.
+No verified user reviews for Guideline are available on G2 or Capterra. The platform's enterprise positioning, specialized use case, and data sensitivity (agencies contributing anonymized billing data) limit public review volume.
+
+However, adoption signals are strong: 90% of top global media companies and all five top US broadcasters use Guideline's solutions. The platform was profiled by [AdExchanger in December 2025](https://www.adexchanger.com/data-exchanges/media-intelligence-startup-guideline-ai-aims-to-take-the-guesswork-out-of-media-planning/) as a notable intelligence platform addressing a persistent industry need for transaction-based data versus modeled estimates.
+
+The company, founded in 2020, has grown its data pool to approximately $200B in annual spend across 65 countries, suggesting strong data contribution from its agency partners — which is effectively a validation of the platform's utility.
 
 ## Guideline vs Alternatives
 
-### Guideline vs Bionic
-[Bionic](/bionic) is a focused media planning tool strong on flowcharts, plan creation, and vendor management. Guideline adds a layer Bionic does not have: real-time market intelligence from $156B+ in actual agency billing data, providing pricing benchmarks, competitive intelligence, and spend trend data directly in the planning workflow. Teams choosing between them often consider whether market intelligence is a primary need or secondary to plan production.
+### Guideline vs Comscore
 
-### Guideline vs Mediaocean
-[Mediaocean](/mediaocean) is an end-to-end media management platform with deep agency workflow, billing, and reconciliation capabilities. Guideline's differentiator is its AI intelligence layer and its unique aggregated spend data — most valuable for teams that need market-level insights alongside plan management, rather than back-office financial workflow.
+[Comscore](/comscore) is an audience measurement platform tracking who watches, reads, or engages across digital and TV. Guideline measures what advertisers actually paid. The two serve fundamentally different questions: Comscore answers "who is this audience?" while Guideline answers "what did this media cost and how does that compare to market?" Both are used by agencies, but for different workflow stages — Comscore for audience planning and campaign measurement, Guideline for spend benchmarking and competitive pricing intelligence.
 
-### Guideline vs Camphouse (Camphouse)
-[Camphouse](/camphouse) (now Camphouse) focuses on campaign workflow management, cross-team collaboration, and centralized plan data. Guideline's strength is in the intelligence layer: actual market spend data, forward pricing benchmarks, and AI-driven analysis. These tools address adjacent but distinct needs; some teams use both.
+### Guideline vs Nielsen Media Impact
 
-### Guideline vs Halliard
-[Halliard](/halliard) is built for modern media planning workflows with a focus on strategic planning. Guideline's market intelligence capabilities — real spend data from major agencies — give it a distinct advantage for planners who need competitive pricing and spend benchmarks to inform strategy.
+[Nielsen Media Impact](/nielsen-media-impact) is a cross-channel reach and frequency planning tool built on Nielsen audience measurement. It helps planners optimize GRPs and audience delivery across TV, digital, and other channels. Guideline addresses a separate need: actual market pricing and spend data from billing transactions. A planner might use Nielsen Media Impact to optimize audience delivery and Guideline to validate whether the rates being negotiated are in line with what the market actually paid.
+
+### Guideline vs GWI
+
+[GWI](/gwi) (formerly GlobalWebIndex) is a consumer survey platform covering 50+ countries, providing attitudinal data on consumer preferences, media consumption, and brand perceptions. Guideline is a spend and pricing intelligence platform built from billing transactions. GWI tells you what audiences think and do; Guideline tells you what advertisers are spending and paying. These tools address adjacent but distinct needs in the planning workflow.
+
+### Guideline vs MRI-Simmons
+
+[MRI-Simmons](/mri-simmons) is the gold standard for US consumer psychographic data — 60,000+ data elements on American consumer attitudes, brand preferences, and media consumption for audience profiling and activation. Guideline focuses on ad market intelligence and plan management. The two are complementary: MRI-Simmons informs audience strategy, Guideline informs market pricing and competitive benchmarking.
+
+### Guideline vs Basis
+
+[Basis](/basis) is an end-to-end programmatic and media management platform with integrated DSP, campaign management, and reporting capabilities for digital media execution. Guideline is primarily an intelligence and planning layer — it does not execute media buys. Teams may use Guideline for market intelligence and plan management upstream, then execute digitally through a platform like Basis. There is limited direct competitive overlap.
 
 ## Recent Updates (2025–2026)
 
-- **March 2026**: Launched Media Plan Management MCP Server, enabling AI agents to directly interface with Guideline media plan data for AI-powered planning workflows
-- **February 2026**: Launched AI Factory with initial release of AI Digital Placement Classification, automating categorization of digital ad placements using AI
-- **October 2025**: Released AI Agent for ad spend insights, providing automated intelligence and recommendations from aggregated spend data
-- **June 2025**: Enhanced Planning Suite launched with advanced analytics and expanded collaboration capabilities
+- **March 19, 2026**: Launched [Local Dynamics](https://www.guideline.ai/blog/guideline-expands-its-ad-intelligence-insights-with-local-dynamics-bringing-transaction-level-benchmarking-to-local-ad-markets), a new subscription report with quarterly transaction-level ad spend benchmarks across 175+ US DMAs and 100+ advertising sub-categories covering OOH, TV, radio, and digital
+- **March 5, 2026**: Launched [Media Plan Management MCP Server](https://www.prnewswire.com/news-releases/guideline-launches-media-plan-management-mcp-server-enabling-agentic-ai-workflows-across-media-planning--buying-302704200.html), enabling any MCP-compatible AI agent (Claude, ChatGPT, proprietary tools) to connect directly to Guideline's media plan management platform
+- **February 11, 2026**: Launched [AI Factory](https://www.prnewswire.com/news-releases/guideline-launches-ai-factory-to-speed-ai-innovation-across-ad-intelligence-and-media-plan-management-302684738.html) with initial release of AI Digital Placement Classification, using hybrid rules-based and NLP classification to standardize digital ad placement data at scale
+- **December 2025**: Profiled by [AdExchanger](https://www.adexchanger.com/data-exchanges/media-intelligence-startup-guideline-ai-aims-to-take-the-guesswork-out-of-media-planning/) as a media intelligence platform built on transaction-based agency billing data — "what really happened versus what we think happened"
+- **October 2025**: Released [AI Agent](https://www.prnewswire.com/news-releases/guideline-unveils-ai-agent-accelerating-insight-into-the-industrys-most-powerful-media-intelligence-data-302578092.html) for conversational ad spend and pricing intelligence — plain-English queries return charts, tables, and dashboards from Guideline's market data in seconds
 
 ## Explore More Media Planning Tools
 
+- **[Comscore](/comscore)** — Cross-platform audience measurement for TV, digital, and connected devices
+- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-channel reach and frequency planning built on Nielsen audience data
+- **[GWI](/gwi)** — Global consumer survey data across 50+ countries for audience profiling and media planning
+- **[MRI-Simmons](/mri-simmons)** — Deep US consumer psychographic data across 60,000+ elements for national audience strategy
+- **[Basis](/basis)** — Integrated programmatic and digital media management platform for campaign execution
 - **[Bionic](/bionic)** — Purpose-built media plan creation with flowcharts, RFP management, and trafficking tools
 - **[Mediaocean](/mediaocean)** — End-to-end agency media management with billing and reconciliation
-- **[Camphouse](/camphouse)** — Campaign workflow management platform for enterprise marketing teams
-- **[Nielsen Media Impact](/nielsen-media-impact)** — Cross-channel reach and frequency planning
-- **[Halliard](/halliard)** — Media planning and strategy tool built for modern planning workflows
 - **[Keen](/keen)** — AI-powered marketing mix modeling for budget optimization and revenue forecasting
 
-
-### 📚 Planning Resources
+### Planning Resources
 - **[Linear TV Strategy Framework for CPG](/resources/framework/linear-tv-cpg)** — Free planning resource
 - **[Programmatic Display Checklist for Technology](/resources/checklist/programmatic-display-technology)** — Free planning resource
 - **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
 
-### 📝 From the Blog
+### From the Blog
 - **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
 
 
