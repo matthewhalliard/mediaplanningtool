@@ -1,8 +1,8 @@
 ---
 id: adobe-advertising-cloud
 title: Adobe Advertising Cloud
-seoTitle: "Adobe Advertising Cloud: Pricing, Reviews & Features 2026"
-description: Adobe's enterprise demand-side platform for programmatic advertising, offering seamless integration with Adobe Experience Platform and advanced audience targeting powered by Adobe Sensei AI. Compare pricing, features, and alternatives.
+seoTitle: "Adobe Advertising Cloud: Enterprise DSP Pricing 2026"
+description: Adobe Advertising Cloud uses custom enterprise pricing (% of media spend, $500K+ annually). Compare vs The Trade Desk, DV360, and Amazon DSP.
 tags:
   - media-buying
   - audience-analytics
