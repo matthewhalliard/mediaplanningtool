@@ -1,8 +1,8 @@
 ---
 id: placements-io
 title: Placements.io
-seoTitle: "Placements.io: Pricing, Reviews & Features 2026"
-description: Omnichannel media buying and order management platform connecting planning, activation, and ad operations in one system. Includes AI Copilot for natural language campaign management. Rated 4.5/5 on G2 across 20 reviews.
+seoTitle: "Placements.io Pricing 2026: Ad Sales & Buying OS"
+description: "Placements.io (AdSalesOS + MarketerOS) uses per-seat custom pricing for ad sales and media buying teams. Compare vs. Mediaocean and FreeWheel Strata."
 tags:
   - media-buying
   - multi-channel
