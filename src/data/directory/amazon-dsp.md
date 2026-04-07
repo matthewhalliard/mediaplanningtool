@@ -1,8 +1,8 @@
 ---
 id: amazon-dsp
 title: Amazon DSP
-seoTitle: "Amazon DSP: Pricing, Reviews & Features 2026"
-description: Amazon's demand-side platform for programmatic advertising, offering access to Amazon's first-party shopping data, premium inventory across Prime Video, Twitch, and Alexa devices, and AI-powered campaign optimization.
+seoTitle: "Amazon DSP Pricing 2026: $50K Minimum & Self-Serve Guide"
+description: "Amazon DSP managed service starts at ~$50K/mo. Self-serve available via agency partners. Compare vs. Quantcast and The Trade Desk."
 tags:
   - media-buying
   - audience-analytics
