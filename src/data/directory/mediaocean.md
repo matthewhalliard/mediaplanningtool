@@ -1,8 +1,8 @@
 ---
 id: mediaocean
 title: Mediaocean
-seoTitle: "Mediaocean: Pricing, Reviews & Features 2026"
-description: The foundational partner for omnichannel advertising, providing seamless orchestration across channels, formats, and devices with AI-powered automation. Rated 4.1/5 on G2 from 815 reviews. Compare pricing, features, and alternatives.
+seoTitle: "Mediaocean Prisma Pricing 2026: Enterprise Ad Platform"
+description: "Mediaocean (Prisma) is an enterprise omnichannel ad platform with custom pricing. No free trial. Compare vs. Strata, Bionic, and Camphouse for agencies."
 tags:
   - media-planning
   - media-buying
