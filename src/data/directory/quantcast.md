@@ -1,8 +1,8 @@
 ---
 id: quantcast
 title: Quantcast
-seoTitle: "Quantcast: Pricing, Reviews & Features 2026"
-description: AI-driven omnichannel DSP with cookieless audience intelligence, real-time optimization, and a free self-serve platform for agencies and performance marketers. Rated a G2 DSP Leader in 2025.
+seoTitle: "Quantcast DSP Pricing 2026: Free Tier vs. $50K Managed"
+description: "Quantcast offers a free self-serve DSP with $5K ad credit for new users. Managed service requires $50K/mo min. Compare vs. The Trade Desk & Amazon DSP."
 tags:
   - audience-analytics
   - media-buying
