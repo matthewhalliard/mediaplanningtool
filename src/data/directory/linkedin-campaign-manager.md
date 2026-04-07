@@ -1,8 +1,8 @@
 ---
 id: linkedin-campaign-manager
 title: LinkedIn Campaign Manager
-seoTitle: "LinkedIn Campaign Manager: Pricing, Reviews & Features 2026"
-description: LinkedIn's B2B advertising platform for reaching over 1 billion professionals with precision targeting based on job titles, industries, company size, and professional attributes. Includes AI-powered campaign creation via Accelerate.
+seoTitle: "LinkedIn Campaign Manager: Complete Guide 2026 + Ad Costs"
+description: Complete guide to LinkedIn Campaign Manager 2026. Ads start at $10/day, CPC typically $2–$9. Set up B2B campaigns, target professionals, compare alternatives.
 tags:
   - media-buying
   - audience-analytics
