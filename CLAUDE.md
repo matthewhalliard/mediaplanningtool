@@ -67,3 +67,4 @@ Tags are configured in `settings.toml` and used for categorizing listings:
 - Environment variables for PostHog analytics and Notion integration
 
 <!-- Last content update: 2026-04-07T16:35:57Z -->
+<!-- deploy trigger: 20260407174610 -->
