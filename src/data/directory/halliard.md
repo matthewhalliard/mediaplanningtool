@@ -1,8 +1,8 @@
 ---
 id: halliard
 title: Halliard
-seoTitle: "Halliard: Pricing, Reviews & Features 2026"
-description: The operating system for modern media teams—unifying planning, approvals, and performance tracking in one connected workspace. Built by media people for media people. Free plan available.
+seoTitle: "Halliard Pricing 2026: Free Media Planning Tool"
+description: "Halliard offers a free plan for individual media planners — no credit card required. Premium and Enterprise plans available. Plan 18+ channels instantly."
 tags:
   - media-planning
   - budget-planning
