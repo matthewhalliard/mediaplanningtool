@@ -1,8 +1,8 @@
 ---
 id: multinex
 title: Multinex
-seoTitle: "Multinex: Pricing, Reviews & Features 2026"
-description: AI-powered marketing mix modeling and media optimization platform. Multinex (also branded as Mutinex) helps marketers run MMM at scale with predictive scenario planning, cross-channel budget optimization, and real-time data integration via its GrowthOS suite.
+seoTitle: "Mutinex Pricing 2026: AI MMM Platform, Custom Plans"
+description: "Mutinex (also Multinex) is an AI marketing mix modeling platform with custom enterprise pricing. Compare vs. Recast, Measured, and Northbeam for MMM."
 tags:
   - media-planning
   - audience-analytics
