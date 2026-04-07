@@ -1,8 +1,8 @@
 ---
 id: criteo
 title: Criteo
-seoTitle: "Criteo: Pricing, Reviews & Features 2026"
-description: Performance marketing and retail media platform powered by AI and commerce data. Criteo specializes in retargeting, customer acquisition, and retail media activation, with a dataset spanning billions of shopping events globally.
+seoTitle: "Criteo Pricing 2026: Retargeting Cost & Alternatives"
+description: Criteo charges a % of media spend (CPC/CPM model, no setup fee). Leading retail media & retargeting platform. Compare vs Amazon DSP, Trade Desk, AdRoll.
 tags:
   - media-buying
   - audience-analytics
