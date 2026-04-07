@@ -1,8 +1,8 @@
 ---
 id: tiktok-ads-manager
 title: TikTok Ads Manager
-seoTitle: "TikTok Ads Manager: Pricing, Reviews & Features 2026"
-description: TikTok's native advertising platform for reaching Gen Z and millennial audiences through short-form video. Free to access with pay-per-performance pricing; AI-powered Smart+ automation and Symphony creative tools added in 2025–2026.
+seoTitle: "TikTok Ads Manager 2026: Free Platform, $50/Day Min"
+description: "TikTok Ads Manager is free to access. Campaigns require a minimum $50/day budget. Compare TikTok vs. Meta Ads for reach, CPMs, and audience targeting."
 tags:
   - media-buying
   - audience-analytics
