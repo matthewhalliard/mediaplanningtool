@@ -8,25 +8,31 @@ const socialNames = Object.keys(config.footer.socials);
 
 const navigation = [
   {
-    title: "Directory",
+    title: "Guides",
     links: [
-      { title: "Submit", link: "/submit" },
-      { title: "Advertise", link: "/advertise" },
+      { title: "Complete Guide (2026)", link: "/guide" },
+      { title: "Selection Guide", link: "/2026-guide" },
+      { title: "All Resources", link: "/resources" },
+      { title: "Blog", link: "/blog" },
     ],
   },
   {
-    title: "Categories",
-    links: config.directoryData.tags
-      ?.filter((e) => e && e.name)
-      .map((e) => ({
-        title: e.name,
-        link: `/tags/${e.key}`,
-      }))
-      .slice(0, 4),
+    title: "Compare Tools",
+    links: [
+      { title: "Bionic vs. Halliard", link: "/blog/bionic-vs-halliard" },
+      { title: "Mediaocean vs. Halliard", link: "/blog/mediaocean-vs-halliard" },
+      { title: "Camphouse vs. Halliard", link: "/blog/camphouse-vs-halliard" },
+      { title: "All 54 Tools", link: "/" },
+    ],
   },
   {
-    title: "Blog",
-    links: [{ title: "Articles", link: "/blog" }],
+    title: "Popular Tools",
+    links: [
+      { title: "Halliard", link: "/tools/halliard" },
+      { title: "Bionic", link: "/tools/bionic" },
+      { title: "Mediaocean", link: "/tools/mediaocean" },
+      { title: "The Trade Desk", link: "/tools/the-trade-desk" },
+    ],
   },
   {
     title: "Legal",
