@@ -6,6 +6,7 @@ import { render } from "astro:content";
 import Sidebar from "@layouts/Sidebar.astro";
 import Landing from "@layouts/Landing.astro";
 import { getRootPages } from "@lib/getRootPages";
+import { extractFAQs, generateFAQSchema } from "@util/extractFAQs";
 
 export const prerender = true;
 
@@ -20,6 +21,10 @@ export async function getStaticPaths() {
 }
 
 const landingView = slug === "blog";
+
+// Extract FAQ structured data from markdown body for JSON-LD schema
+const faqs = entry.body ? extractFAQs(entry.body) : [];
+const faqSchema = generateFAQSchema(faqs);
 ---
 
 {
@@ -28,7 +33,7 @@ const landingView = slug === "blog";
       <Content />
     </Landing>
   ) : (
-    <Listing frontmatter={entry.data} slug={slug}>
+    <Listing frontmatter={entry.data} slug={slug} faqSchema={faqSchema}>
       <Content />
     </Listing>
   )

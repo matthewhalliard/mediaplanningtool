@@ -2,7 +2,7 @@
 id: comscore
 title: Comscore
 seoTitle: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
-description: Comscore pricing from ~$799/mo: cross-platform measurement, Proximic contextual targeting, plus comparisons to Nielsen and GWI for media planners.
+description: "Comscore pricing from ~$799/mo: cross-platform measurement, Proximic contextual targeting, plus comparisons to Nielsen and GWI for media planners."
 tags:
   - audience-analytics
   - media-planning

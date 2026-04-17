@@ -1,8 +1,8 @@
 ---
 id: gwi
 title: "GWI (Global Web Index)"
-seoTitle: "GWI Pricing 2026: Free vs Paid Plans, Features & Top Alternatives"
-description: What does GWI cost? Compare free and paid tiers, 250K+ profiling points, and how GWI stacks up against MRI-Simmons and Comscore for audience research.
+seoTitle: "GWI Platform Review 2026: Pricing, Free Plan & Alternatives Compared"
+description: "Is GWI worth it? Free vs paid plans, 250K+ profiling points across 50+ markets. See how GWI compares to MRI-Simmons, Comscore & Resonate for audience research."
 tags:
   - audience-analytics
   - media-planning

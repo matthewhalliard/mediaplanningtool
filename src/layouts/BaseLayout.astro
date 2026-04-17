@@ -6,7 +6,7 @@ import Posthog from "@components/analytics/Posthog.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
-const { title, description, slug } = Astro.props;
+const { title, description, slug, faqSchema } = Astro.props;
 const siteTitle = themeConfig.general.title;
 
 const calculatedTitle = title || siteTitle;
@@ -40,6 +40,9 @@ const calculatedDescription = description || themeConfig.general.seo.description
     <meta name="twitter:description" content={calculatedDescription} />
     <meta name="twitter:image" content={getOGImage(slug)} />
     <ClientRouter />
+    {faqSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    )}
   </head>
   <body class="bg-white dark:bg-gray-900">
     <slot />

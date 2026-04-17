@@ -1,8 +1,8 @@
 ---
 id: akkio
 title: Akkio
-seoTitle: "Akkio Pricing 2026: Plans From $49/mo, Full Cost Breakdown"
-description: Full Akkio pricing breakdown for 2026. Compare Starter, Growth, and Enterprise plans. See per-seat costs, feature limits, and cheaper alternatives.
+seoTitle: "Akkio Pricing 2026: $49/mo Starter Plan, All Tiers Compared"
+description: "Complete Akkio pricing for 2026 — Starter ($49/mo), Growth, and Enterprise plans. Per-seat costs, feature limits, free tier details, and cheaper AI alternatives."
 tags:
   - audience-analytics
   - media-planning

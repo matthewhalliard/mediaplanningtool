@@ -1,8 +1,8 @@
 ---
 id: the-trade-desk
 title: The Trade Desk
-seoTitle: "The Trade Desk Pricing 2026: DSP Cost, Fees & Alternatives"
-description: The Trade Desk fees run ~15–20% of media spend, $100K+ quarterly minimum. Independent DSP with Kokai AI. Compare vs DV360, Amazon DSP, and Adobe.
+seoTitle: "The Trade Desk Review 2026: Pricing, Fees & Top DSP Alternatives"
+description: "The Trade Desk charges 15–20% of media spend with a $100K+ quarterly minimum. See Kokai AI features, real user reviews, and how TTD compares to DV360 & Amazon DSP."
 tags:
   - media-buying
   - audience-analytics

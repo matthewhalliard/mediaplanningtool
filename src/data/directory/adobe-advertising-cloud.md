@@ -1,8 +1,8 @@
 ---
 id: adobe-advertising-cloud
 title: Adobe Advertising Cloud
-seoTitle: "Adobe Advertising Cloud: Enterprise DSP Pricing 2026"
-description: Adobe Advertising Cloud uses custom enterprise pricing (% of media spend, $500K+ annually). Compare vs The Trade Desk, DV360, and Amazon DSP.
+seoTitle: "Adobe Advertising Cloud Pricing 2026: Cost, Features & Honest Review"
+description: "What does Adobe Advertising Cloud actually cost? Custom pricing starts at $500K+/year. Full feature breakdown, G2 reviews, and how it stacks up vs DV360 & Trade Desk."
 tags:
   - media-buying
   - audience-analytics

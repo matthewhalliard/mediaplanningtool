@@ -1,8 +1,8 @@
 ---
 id: basis
 title: Basis
-seoTitle: "Basis DSP: Enterprise Ad Platform Review 2026"
-description: Basis DSP is a top-ranked demand-side platform for agencies and brands. Omnichannel programmatic, search, social & CTV. 4.5/5 on G2 from 287 reviews.
+seoTitle: "Basis Technologies Review 2026: Pricing, Pros & Cons, Best Alternatives"
+description: "Honest Basis DSP review from real users. #1-rated DSP on G2 (4.5/5, 287 reviews). See pricing, omnichannel features, and how it compares to The Trade Desk & DV360."
 tags:
   - media-buying
   - multi-channel
