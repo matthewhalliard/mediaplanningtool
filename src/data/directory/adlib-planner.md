@@ -2,7 +2,7 @@
 id: adlib-planner
 title: AdLib Planner
 seoTitle: "AdLib Planner: Pricing, Features & Best Alternatives 2026"
-description: Free programmatic media planning tool that generates data-backed media plans in minutes with live CPM benchmarks, Bellwether-verified inventory quality, and pitch-ready exports.
+description: Free programmatic media planning tool generating data-backed plans in minutes with live CPM benchmarks, verified inventory quality, and pitch-ready exports.
 tags:
   - media-planning
   - budget-planning

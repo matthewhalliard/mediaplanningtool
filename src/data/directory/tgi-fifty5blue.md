@@ -2,7 +2,7 @@
 id: tgi-fifty5blue
 title: TGI (Fifty5Blue)
 seoTitle: "TGI by Fifty5Blue: Pricing, Features & Best Alternatives 2026"
-description: Global consumer profiling and targeting survey from Fifty5Blue (formerly Kantar Media) covering 700,000 consumers annually with 25 billion data points across 1,200+ media vehicles for audience segmentation, media planning, and activation.
+description: Fifty5Blue (formerly Kantar Media) global consumer profiling survey covering 700K+ consumers and 1,200+ media vehicles for audience segmentation and planning.
 tags:
   - audience-analytics
   - media-planning

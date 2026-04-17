@@ -1,6 +1,6 @@
 ---
 title: "Mediaocean vs Halliard: Why Independent Agencies Don't Need the Enterprise Tax"
-description: "Mediaocean powers $185B+ in annual ad spend for holding companies. But for independent agencies, it's overbuilt, overpriced, and over-engineered. Here's the full comparison."
+description: "Mediaocean powers $185B+ in ad spend for holding companies. For independent agencies, it's overbuilt and overpriced. Full side-by-side comparison inside."
 pubDate: 2026-03-30
 author: "Media Planning Tools Team"
 tags:

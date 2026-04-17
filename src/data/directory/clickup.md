@@ -2,7 +2,7 @@
 id: clickup
 title: ClickUp
 seoTitle: "ClickUp: Pricing, Reviews & Features 2026"
-description: All-in-one work management platform replacing 40+ apps with project management, AI automation, and collaboration tools. Trusted by 10M+ users. Free plan available; paid plans from $7/user/month.
+description: All-in-one work management platform with project management, AI automation, and collaboration. Trusted by 10M+ users. Free plan; paid from $7/user/month.
 tags:
   - media-planning
   - budget-planning

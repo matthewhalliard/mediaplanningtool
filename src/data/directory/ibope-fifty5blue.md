@@ -2,7 +2,7 @@
 id: ibope-fifty5blue
 title: Ibope (Fifty5Blue)
 seoTitle: "Ibope by Fifty5Blue: Latin America TV Ratings, Features & Alternatives 2026"
-description: Latin America's primary TV audience measurement currency from Fifty5Blue (formerly Kantar IBOPE Media), providing television ratings, cross-media analytics, advertising insights, and media planning data across Brazil and Latin America.
+description: Fifty5Blue (formerly Kantar IBOPE): Latin America's primary TV audience measurement currency with ratings and cross-media planning data for Brazil and LatAm.
 tags:
   - audience-analytics
   - media-planning

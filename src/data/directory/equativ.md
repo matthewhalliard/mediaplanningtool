@@ -2,7 +2,7 @@
 id: equativ
 title: "Equativ (Maestro)"
 seoTitle: "Equativ Maestro: Pricing, Reviews & Features 2026"
-description: Independent end-to-end media platform with AI-powered media planning agents. Equativ's Maestro platform transforms campaign briefs into activated programmatic deals — cutting planning time by 40%. Compare pricing, features, and alternatives.
+description: Independent end-to-end media platform with AI planning agents. Equativ's Maestro turns briefs into programmatic deals, cutting planning time 40%.
 tags:
   - media-buying
   - programmatic

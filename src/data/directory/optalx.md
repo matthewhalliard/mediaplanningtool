@@ -2,7 +2,7 @@
 id: optalx
 title: optalX
 seoTitle: "optalX: Pricing, Reviews & Features 2026"
-description: Creative analytics platform using proprietary Intermix Modeling™ to measure both direct response performance and brand equity across paid social, search, CTV, and other channels. Launched mid-2025 with tiered subscription pricing starting at $29/month.
+description: Creative analytics platform using Intermix Modeling™ to measure direct response and brand equity across paid social, search, and CTV. Plans from $29/month.
 tags:
   - media-planning
   - audience-analytics

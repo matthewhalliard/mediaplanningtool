@@ -1,6 +1,6 @@
 ---
 title: "Best Media Planning Tools 2026: The Complete Guide"
-description: "A comprehensive guide to the best media planning tools in 2026 — from AI-powered platforms to enterprise DSPs — with feature comparisons, pricing, and expert picks."
+description: "The best media planning tools in 2026: AI-powered platforms, enterprise DSPs, and agency tools compared side-by-side with pricing and expert picks."
 pubDate: 2026-03-09
 author: "Media Planning Tools Team"
 tags:

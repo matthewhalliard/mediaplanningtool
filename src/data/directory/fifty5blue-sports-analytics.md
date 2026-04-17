@@ -2,7 +2,7 @@
 id: fifty5blue-sports-analytics
 title: Fifty5Blue Sports Market Analytics
 seoTitle: "Fifty5Blue Sports Market Analytics: Features & Alternatives 2026"
-description: Sports audience measurement and market analytics platform from Fifty5Blue (formerly Kantar Media) measuring fan engagement, sports viewership, and business impact across broadcast and streaming for leagues, rights holders, agencies, and sponsors.
+description: Fifty5Blue (formerly Kantar Media) sports audience analytics measuring fan engagement and viewership across broadcast and streaming for leagues and sponsors.
 tags:
   - audience-analytics
   - media-planning

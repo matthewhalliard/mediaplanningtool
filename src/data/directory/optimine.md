@@ -2,7 +2,7 @@
 id: optimine
 title: OptiMine
 seoTitle: "OptiMine: Pricing, Reviews & Features 2026"
-description: Privacy-safe marketing mix modeling and cross-channel attribution platform. OptiMine provides granular ad and campaign-level measurement across digital and traditional channels using AI/ML automation. Acquired by Uptempo in August 2025.
+description: Privacy-safe marketing mix modeling and attribution platform. AI/ML measurement across digital and traditional channels. Acquired by Uptempo in Aug 2025.
 tags:
   - media-planning
   - multi-channel

@@ -2,7 +2,7 @@
 id: mediabrain
 title: Mediabrain
 seoTitle: "Mediabrain: Pricing, Reviews & Features 2026"
-description: AI-powered media planning and optimization platform offering automated forecasting, buying optimization, and real-time monitoring through a single integrated console with open APIs. Pricing is not publicly listed.
+description: AI-powered media planning platform with automated forecasting, buying optimization, and real-time monitoring in one console with open APIs. Custom pricing.
 tags:
   - media-planning
   - audience-analytics
