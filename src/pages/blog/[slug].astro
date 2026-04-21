@@ -21,6 +21,6 @@ export async function getStaticPaths() {
 }
 ---
 
-<Article>
+<Article frontmatter={entry.data} slug={`blog/${entry.id}`}>
   <Content />
 </Article>
