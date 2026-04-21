@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "Google Ads Budget Calculator — Estimate Monthly Google Ads Spend",
+    "description": "Calculate monthly Google Ads budget from target clicks, CPC, and campaign goals. Includes budget pacing guidance and Quality Score impact.",
+    "keywords": ["google ads budget calculator", "google adwords budget", "monthly google ads spend", "adwords budget calculator", "ppc budget calculator"],
+    "slug": "google-ads-budget-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "target_clicks",
+        "label": "Target Clicks per Month",
+        "type": "number",
+        "default_value": 2000,
+        "min": 1,
+        "max": 10000000,
+        "step": 10,
+        "help_text": "How many monthly clicks you need to hit your goal."
+      },
+      {
+        "id": "avg_cpc",
+        "label": "Expected Average CPC",
+        "type": "currency",
+        "default_value": 2.5,
+        "min": 0.01,
+        "max": 500,
+        "step": 0.1,
+        "help_text": "Your expected average cost per click. Use the CPC Calculator to find your historical baseline."
+      },
+      {
+        "id": "buffer_pct",
+        "label": "Safety Buffer (%)",
+        "type": "percentage",
+        "default_value": 15,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Extra budget cushion for seasonality, auction volatility, and testing. 10–20% is typical."
+      }
+    ],
+    "formula": "target_clicks * avg_cpc * (1 + (buffer_pct / 100))",
+    "output": {
+      "label": "Recommended Monthly Budget",
+      "format": "currency",
+      "description": "Monthly Google Ads budget needed to hit your click target"
+    },
+    "presets": [
+      {
+        "name": "Small Local Business",
+        "values": { "target_clicks": 500, "avg_cpc": 3, "buffer_pct": 15 }
+      },
+      {
+        "name": "Mid-Size Ecommerce",
+        "values": { "target_clicks": 5000, "avg_cpc": 1.8, "buffer_pct": 20 }
+      },
+      {
+        "name": "B2B SaaS (non-brand)",
+        "values": { "target_clicks": 1500, "avg_cpc": 12, "buffer_pct": 20 }
+      },
+      {
+        "name": "Legal / Insurance / Finance",
+        "values": { "target_clicks": 500, "avg_cpc": 45, "buffer_pct": 25 }
+      },
+      {
+        "name": "Brand-Only Campaign",
+        "values": { "target_clicks": 3000, "avg_cpc": 0.8, "buffer_pct": 10 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Google Ads budgeting is deceptively simple — target clicks × expected CPC — but skipping the buffer and the pacing math is why so many accounts burn their budget by the 20th of the month. This calculator gives you a realistic monthly Google Ads budget with a built-in safety buffer for auction volatility, seasonality, and testing. Use it as a planning baseline, then tune by campaign type and historical account performance.",
+    "how_it_works": "The formula is: **Monthly Budget = Target Clicks × Average CPC × (1 + Buffer %)**. A plan for 2,000 clicks at a $2.50 average CPC with a 15% buffer yields: 2,000 × $2.50 × 1.15 = $5,750. The buffer covers Q4 CPC inflation (often 20–40% above Q1 rates), competitive auction spikes, and the natural overdelivery Google allows daily budgets (up to 2× daily cap on any single day). Plan against a monthly budget, not a daily cap — Google now smooths pacing across the month automatically.",
+    "faq": [
+      {
+        "question": "How should I split my Google Ads budget across campaign types?",
+        "answer": "A typical healthy mix: 30–50% brand and defensive non-brand search (high ROAS, low waste), 20–35% non-brand search on priority intent terms, 10–20% Performance Max (if using), 5–15% Display and YouTube for retargeting and upper funnel, 5–10% reserved for testing new campaign types, keywords, or audiences. Avoid single-campaign accounts — diversification across campaign types dramatically improves efficiency."
+      },
+      {
+        "question": "How much should my daily budget be?",
+        "answer": "Daily budget = Monthly budget ÷ 30.4. If your monthly budget is $5,000, your daily budget is roughly $164. Google allows campaigns to spend up to 2× daily budget on high-opportunity days but will smooth pacing to not exceed 30.4× daily budget per month. For small budgets (<$30/day), campaigns often under-deliver because there isn't enough budget to enter the auction consistently — consolidate to fewer campaigns with higher daily caps."
+      },
+      {
+        "question": "Why does my actual CPC keep exceeding my expected CPC?",
+        "answer": "Most common causes: Quality Score declined (check each keyword's QS — scores below 5 inflate CPCs 50–200%), competition increased (run Auction Insights report), match type drift from exact to broad (broad match CPCs are typically 20–40% higher), bid strategy switched to maximize clicks or target impression share (both can overpay), or you added new keywords with no historical data and Google is exploring aggressively. Audit each cause before raising budget."
+      },
+      {
+        "question": "Should I use Performance Max?",
+        "answer": "Performance Max is effective when you have clear conversion tracking, decent historical data, and can tolerate reduced transparency into placements and search terms. It's less effective for new accounts without conversion history, brands that need granular creative control, or niche B2B categories where Google's audience signals are weak. Start with Performance Max at 15–25% of budget alongside structured search campaigns, not as a replacement for them."
+      },
+      {
+        "question": "How do I know when to increase my Google Ads budget?",
+        "answer": "Three signals indicate headroom: (1) Lost impression share due to budget is above 10% on profitable campaigns, (2) your search terms show high-intent queries you aren't bidding on because budget is capped, and (3) CAC from Google Ads is below your blended CAC target with volume available. If all three are true, raise budget 15–25% and monitor for 2 weeks before raising further. Jumping budget by 50%+ overnight often destabilizes bid strategies."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpc-calculator",
+        "relevance": "Calculate expected CPC from historical data to feed into this budget calculator."
+      },
+      {
+        "slug": "tools/ctr-calculator",
+        "relevance": "Model clicks needed for your target conversion volume at your expected CTR."
+      },
+      {
+        "slug": "tools/roas-calculator",
+        "relevance": "Validate that your budget target will hit ROAS goals."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Plan Google Ads alongside Meta, LinkedIn, and CTV in one budget view."
+      }
+    ],
+    "cta": {
+      "text": "Plan Google Ads alongside every other channel in Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "ROAS Calculator — Free Return on Ad Spend Calculator (2026)",
+    "description": "Calculate ROAS (return on ad spend) from revenue and ad spend. Includes blended ROAS benchmarks by channel and guidance on the ROAS vs POAS debate.",
+    "keywords": ["roas calculator", "return on ad spend calculator", "roas formula", "roas benchmark", "advertising roi calculator", "marketing roas"],
+    "slug": "roas-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "revenue",
+        "label": "Attributed Revenue",
+        "type": "currency",
+        "default_value": 40000,
+        "min": 0,
+        "max": 1000000000,
+        "step": 100,
+        "help_text": "Revenue attributed to the campaign (from your measurement source of truth)."
+      },
+      {
+        "id": "ad_spend",
+        "label": "Total Ad Spend",
+        "type": "currency",
+        "default_value": 10000,
+        "min": 1,
+        "max": 1000000000,
+        "step": 100,
+        "help_text": "Total media spend for the campaign or period."
+      }
+    ],
+    "formula": "revenue / ad_spend",
+    "output": {
+      "label": "ROAS (Return on Ad Spend)",
+      "format": "number",
+      "description": "Dollars of revenue returned per dollar of ad spend"
+    },
+    "presets": [
+      {
+        "name": "Ecommerce — Strong",
+        "values": { "revenue": 50000, "ad_spend": 10000 }
+      },
+      {
+        "name": "Ecommerce — Average",
+        "values": { "revenue": 30000, "ad_spend": 10000 }
+      },
+      {
+        "name": "B2B Lead Gen (pipeline ROAS)",
+        "values": { "revenue": 80000, "ad_spend": 10000 }
+      },
+      {
+        "name": "DTC Prospecting Campaign",
+        "values": { "revenue": 18000, "ad_spend": 10000 }
+      },
+      {
+        "name": "Branded Search (High Intent)",
+        "values": { "revenue": 120000, "ad_spend": 10000 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "ROAS — return on ad spend — is the ratio of revenue generated to money spent on advertising. It's the headline number on nearly every performance dashboard, used to decide what to scale, what to kill, and where to reallocate budget. This calculator gives you ROAS instantly and provides benchmarks by campaign type so you know whether a 3× ROAS is a win or a warning sign for your vertical.",
+    "how_it_works": "The formula is: **ROAS = Revenue ÷ Ad Spend**. Spend $10,000 and drive $40,000 in attributed revenue, and your ROAS is 4.0 (sometimes written 4× or 400%). ROAS ignores gross margin, fulfillment, and operating costs — it's a top-line efficiency metric, not a profitability metric. For true profitability, use POAS (profit on ad spend), which substitutes gross profit for revenue in the numerator.",
+    "faq": [
+      {
+        "question": "What is a good ROAS for ecommerce in 2026?",
+        "answer": "A healthy blended ROAS for most ecommerce brands lands between 3.0 and 5.0. Brands with strong gross margins (60%+) can sustainably run at 2.0–2.5 ROAS. Low-margin brands (<30% gross margin) typically need 5.0+ to break even after COGS, fulfillment, and overhead. Branded search often returns 15–30× ROAS but cannibalizes organic; prospecting usually runs 1.5–3.0× while adding incremental customers."
+      },
+      {
+        "question": "What is the difference between ROAS and ROI?",
+        "answer": "ROAS only counts ad spend in the denominator and revenue in the numerator. ROI is broader — it subtracts all costs (media, production, fees, COGS, fulfillment) and expresses the result as a percentage of total investment. A campaign can have strong ROAS but negative ROI if margins are thin or production/agency costs are high. Executives want ROI; channel managers usually optimize to ROAS."
+      },
+      {
+        "question": "Should I use ROAS or POAS?",
+        "answer": "POAS (profit on ad spend) replaces revenue with gross profit in the ROAS formula. It's the better signal for profitability-driven optimization, especially for brands with variable product margins or heavy promo discounting. Leading DTC brands increasingly bid to POAS rather than ROAS because optimizing to revenue alone pushes the algorithm toward low-margin SKUs and discount-hungry customers."
+      },
+      {
+        "question": "Why is my platform-reported ROAS different from my actual ROAS?",
+        "answer": "Ad platforms (Meta, Google, TikTok) report ROAS using their own attribution windows and last-touch or click-priority attribution. Your internal ROAS — from MMM, incrementality testing, or post-purchase surveys — typically comes in 30–60% lower because platforms take credit for demand they didn't create. Use platform ROAS for intra-platform optimization and MMM/incrementality for true cross-channel allocation."
+      },
+      {
+        "question": "What's a 'target ROAS' and how is it used?",
+        "answer": "Target ROAS is an automated bidding strategy in Google Ads and Meta. You tell the system the ROAS you want — say, 4.0 — and it adjusts bids to hit that average. Setting target ROAS too high will suffocate volume; setting it too low will burn budget on marginal conversions. Start near your historical campaign ROAS, then adjust by 10–15% increments while watching volume."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/marketing-roi-calculator",
+        "relevance": "Calculate full marketing ROI with all costs in the denominator, not just media."
+      },
+      {
+        "slug": "tools/cac-calculator",
+        "relevance": "Pair ROAS with customer acquisition cost for a complete unit economics view."
+      },
+      {
+        "slug": "tools/cpc-calculator",
+        "relevance": "Tie cost per click to ROAS to find inefficient keyword or audience segments."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard consolidates platform-reported and internal ROAS in one view."
+      }
+    ],
+    "cta": {
+      "text": "Reconcile platform ROAS with true ROAS using Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

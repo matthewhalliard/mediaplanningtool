@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Share of Voice Calculator — SOV Calculator for Advertising & Social",
+    "description": "Calculate share of voice from your spend or impressions vs total category. Includes excess share of voice (ESOV) methodology and competitive benchmarking guidance.",
+    "keywords": ["share of voice calculator", "sov calculator", "share of voice formula", "excess share of voice", "esov", "share of voice marketing"],
+    "slug": "share-of-voice-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "your_spend",
+        "label": "Your Ad Spend (or Impressions)",
+        "type": "currency",
+        "default_value": 2500000,
+        "min": 0,
+        "max": 100000000000,
+        "step": 1000,
+        "help_text": "Your brand's advertising spend or impressions in the measurement period."
+      },
+      {
+        "id": "category_total",
+        "label": "Total Category Spend (or Impressions)",
+        "type": "currency",
+        "default_value": 25000000,
+        "min": 1,
+        "max": 100000000000,
+        "step": 1000,
+        "help_text": "Total category spend or impressions across all competitors in the same period."
+      }
+    ],
+    "formula": "(your_spend / category_total) * 100",
+    "output": {
+      "label": "Share of Voice (SOV)",
+      "format": "percentage",
+      "description": "Your brand's share of total category advertising activity"
+    },
+    "presets": [
+      {
+        "name": "Category Leader",
+        "values": { "your_spend": 10000000, "category_total": 25000000 }
+      },
+      {
+        "name": "Challenger Brand",
+        "values": { "your_spend": 4000000, "category_total": 25000000 }
+      },
+      {
+        "name": "Niche Competitor",
+        "values": { "your_spend": 1500000, "category_total": 25000000 }
+      },
+      {
+        "name": "Local Market Leader",
+        "values": { "your_spend": 250000, "category_total": 800000 }
+      },
+      {
+        "name": "Paid Search Auction SOV",
+        "values": { "your_spend": 45, "category_total": 100 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Share of voice (SOV) measures how much of the category's total advertising activity belongs to your brand. It's the single strongest long-term predictor of market share growth — brands that consistently invest above their market share (positive excess share of voice, or ESOV) grow; brands that invest below it shrink. This calculator gives you SOV from spend or impression data and includes guidance on how to use ESOV to defend and grow budget.",
+    "how_it_works": "The formula is: **SOV = (Your Spend ÷ Total Category Spend) × 100**. If your brand spends $2.5M in a category where total competitive spend is $25M, your SOV is 10%. SOV can be calculated on spend, impressions, GRPs, or auction metrics (Google Ads reports an 'Impression Share' which is SOV within the search auction). The more important derived metric is ESOV (Excess Share of Voice): **ESOV = SOV − Market Share**. Positive ESOV correlates with market share growth; negative ESOV correlates with decline. Les Binet and Peter Field's IPA analysis found that every 10 points of ESOV drives roughly 0.5 points of market share growth per year.",
+    "faq": [
+      {
+        "question": "What data sources can I use to calculate SOV?",
+        "answer": "For broad category SOV: Nielsen Ad Intel (linear TV, digital, print, radio, OOH), Kantar Media (comparable multi-channel), Pathmatics or Sensor Tower (digital display and social). For paid search: Google Ads Auction Insights (reports impression share vs named competitors). For social: Sprout Social, Brandwatch, Similarweb for competitive spend and reach estimates. For earned media and PR: Meltwater, Muck Rack. Always clarify which channels are included — 'SOV' without channel scope is meaningless."
+      },
+      {
+        "question": "What is Excess Share of Voice (ESOV)?",
+        "answer": "ESOV = SOV − Market Share. It's the gap between how loud your brand is in market vs how big your brand is in market. Positive ESOV (louder than your market share) is the single strongest correlate of market share growth in consumer categories. Analysis from IPA and Les Binet/Peter Field's 'The Long and the Short of It' found brands investing at 10+ points of positive ESOV consistently grew market share; brands at negative ESOV declined."
+      },
+      {
+        "question": "Does SOV still matter in performance-led, digital-first categories?",
+        "answer": "Yes. Even in performance-driven DTC categories, brands that maintain positive ESOV grow market share faster than spend-matched competitors. The mechanism differs — in performance categories, SOV influences brand consideration set presence, which makes performance media more efficient by raising conversion rates on lower-funnel clicks. Brands that try to 'skip the brand layer' often see CAC inflate over 18–24 months as the consideration set erodes."
+      },
+      {
+        "question": "What's a healthy SOV target for my brand?",
+        "answer": "The planning rule: target SOV ≥ Market Share + 10 points for brands trying to grow. For market leaders, maintaining SOV equal to market share is usually sufficient. For challenger brands, positive ESOV of 15+ points is common during growth phases. For niche or late-entrant brands, focus on category-segment SOV rather than total category — owning 40% voice in a specific subcategory is more valuable than 2% of the total category."
+      },
+      {
+        "question": "How often should I recalculate SOV?",
+        "answer": "Quarterly is the standard cadence for brand-level SOV tracking. Monthly is appropriate for highly seasonal categories (retail, travel, back-to-school) or during competitive spend shifts (M&A, new entrants, major product launches). Paid search auction SOV (impression share) should be checked weekly — it's the most volatile and most immediately actionable of the SOV variants."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Translate SOV gaps into impression and budget requirements."
+      },
+      {
+        "slug": "tools/reach-and-frequency-calculator",
+        "relevance": "Reach-weighted SOV analysis requires reach data alongside spend."
+      },
+      {
+        "slug": "tools/marketing-roi-calculator",
+        "relevance": "Pair SOV with marketing ROI to justify brand investment."
+      },
+      {
+        "slug": "quantcast",
+        "relevance": "Quantcast provides competitive audience and reach benchmarking."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard tracks your SOV by channel vs named competitor sets in real time."
+      }
+    ],
+    "cta": {
+      "text": "Track competitive SOV in Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

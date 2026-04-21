@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Impressions Calculator — Estimate Impressions from Budget and CPM",
+    "description": "Calculate how many impressions a media budget will deliver at a given CPM. Plan reach, budget allocations, and flight delivery across any channel.",
+    "keywords": ["impressions calculator", "ad impressions calculator", "estimate impressions", "media budget to impressions", "cpm to impressions"],
+    "slug": "impressions-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "budget",
+        "label": "Media Budget",
+        "type": "currency",
+        "default_value": 25000,
+        "min": 0,
+        "max": 1000000000,
+        "step": 100,
+        "help_text": "Total budget available for the flight or channel."
+      },
+      {
+        "id": "cpm",
+        "label": "CPM (Cost Per 1,000 Impressions)",
+        "type": "currency",
+        "default_value": 12,
+        "min": 0.01,
+        "max": 500,
+        "step": 0.1,
+        "help_text": "Expected or quoted CPM for the inventory."
+      }
+    ],
+    "formula": "(budget / cpm) * 1000",
+    "output": {
+      "label": "Estimated Impressions",
+      "format": "number",
+      "description": "Total impressions the budget will deliver at the entered CPM"
+    },
+    "presets": [
+      {
+        "name": "Open-Auction Programmatic Display",
+        "values": { "budget": 25000, "cpm": 3 }
+      },
+      {
+        "name": "Paid Social (Meta/TikTok)",
+        "values": { "budget": 25000, "cpm": 10 }
+      },
+      {
+        "name": "CTV / Streaming Video",
+        "values": { "budget": 50000, "cpm": 35 }
+      },
+      {
+        "name": "YouTube In-Stream",
+        "values": { "budget": 25000, "cpm": 18 }
+      },
+      {
+        "name": "Premium Publisher PMP",
+        "values": { "budget": 25000, "cpm": 15 }
+      },
+      {
+        "name": "Audio / Podcast",
+        "values": { "budget": 25000, "cpm": 25 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Media planners constantly need to answer one question: how many impressions will my budget deliver? This impressions calculator reverses the CPM formula to give you a projected impression count for any budget and expected CPM. Use it to size flights, compare channel efficiency, and stress-test reach assumptions before committing spend.",
+    "how_it_works": "The formula is: **Impressions = (Budget ÷ CPM) × 1,000**. A $25,000 budget at a $12 CPM delivers approximately 2,083,333 impressions. This is the inverse of the standard CPM formula (CPM = Spend ÷ Impressions × 1,000). Because impressions scale linearly with budget and inversely with CPM, doubling your budget at the same CPM doubles impressions — but shifting from a $3 open-auction CPM to a $30 CTV CPM cuts impressions by 10× for the same dollar amount. Plan channel mix with this trade-off in mind.",
+    "faq": [
+      {
+        "question": "Is this the same as reach?",
+        "answer": "No. Impressions are total ad exposures — counting every view, including repeat views to the same person. Reach is the number of unique people exposed at least once. Frequency (average impressions per person) = Impressions ÷ Reach. A 2M-impression campaign might reach 400K unique people at a frequency of 5. Use our Reach and Frequency Calculator to model the distinction."
+      },
+      {
+        "question": "Why does CPM matter so much for impression counts?",
+        "answer": "CPM is the single biggest driver of impression volume for a fixed budget. A $50,000 budget delivers 16.7M impressions at a $3 programmatic CPM but only 1.4M impressions at a $35 CTV CPM. That's not wasteful spending — CTV impressions carry far more attention, sound-on viewability, and brand lift. But planners must reconcile 'cheap impressions at scale' with 'premium impressions with impact' during media mix decisions."
+      },
+      {
+        "question": "How accurate are projected impressions?",
+        "answer": "Accuracy depends on CPM stability. Open-auction programmatic can drift 20–40% from quoted CPM due to supply, seasonality, and ad quality factors. Fixed-price PMP deals, upfront CTV commitments, and direct-sold impressions tend to deliver within 5–10% of quoted rates. Build a ±15% cushion into any projected impression number for auction-based buys, and always reconcile after flight."
+      },
+      {
+        "question": "What happens if actual CPM comes in higher than expected?",
+        "answer": "Your impression count drops proportionally. If you planned at $10 CPM and actual CPM comes in at $12, you lose 16.7% of expected impressions. Most DSPs and ad servers let you set a budget cap (which sacrifices impressions) or a CPM cap (which sacrifices budget delivery). Which you choose depends on whether reach or efficiency matters more for the flight."
+      },
+      {
+        "question": "Can I calculate impressions across multiple channels with different CPMs?",
+        "answer": "Run the calculation once per channel, then sum. For a $100K plan split 40% CTV ($35 CPM), 40% programmatic display ($4 CPM), and 20% paid social ($10 CPM), you'd calculate: CTV = 1.14M impressions, programmatic = 10M impressions, paid social = 2M impressions. Total = 13.14M impressions. Halliard automates this across every line item in a plan."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Calculate CPM from spend and impressions (the inverse calculation)."
+      },
+      {
+        "slug": "tools/reach-and-frequency-calculator",
+        "relevance": "Convert impressions into unique reach and average frequency."
+      },
+      {
+        "slug": "tools/ctr-calculator",
+        "relevance": "Estimate clicks from projected impressions using your channel CTR benchmark."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard aggregates delivered impressions across all channels in real time."
+      }
+    ],
+    "cta": {
+      "text": "Plan and reconcile impressions across every channel with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

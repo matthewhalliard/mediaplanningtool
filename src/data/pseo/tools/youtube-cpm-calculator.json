@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "youtube"
+  },
+  "seo": {
+    "title": "YouTube CPM Calculator — Cost Per 1,000 Views on YouTube Ads (2026)",
+    "description": "Calculate YouTube CPM from ad spend and impressions. Includes 2026 benchmarks for TrueView, skippable in-stream, non-skippable, bumper, and YouTube Shorts.",
+    "keywords": ["youtube cpm calculator", "youtube ads cpm", "youtube cpm benchmark", "trueview cpm", "youtube shorts cpm"],
+    "slug": "youtube-cpm-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "total_spend",
+        "label": "YouTube Ad Spend",
+        "type": "currency",
+        "default_value": 20000,
+        "min": 0,
+        "max": 100000000,
+        "step": 100,
+        "help_text": "Total amount spent on the YouTube campaign or ad group."
+      },
+      {
+        "id": "impressions",
+        "label": "YouTube Impressions",
+        "type": "number",
+        "default_value": 1333333,
+        "min": 1,
+        "max": 10000000000,
+        "step": 1000,
+        "help_text": "Total YouTube impressions delivered."
+      }
+    ],
+    "formula": "(total_spend / impressions) * 1000",
+    "output": {
+      "label": "YouTube CPM",
+      "format": "currency",
+      "description": "Your cost per 1,000 YouTube impressions"
+    },
+    "presets": [
+      {
+        "name": "TrueView In-Stream (Skippable)",
+        "values": { "total_spend": 20000, "impressions": 1666667 }
+      },
+      {
+        "name": "Non-Skippable In-Stream (15s)",
+        "values": { "total_spend": 25000, "impressions": 1000000 }
+      },
+      {
+        "name": "Bumper Ads (6-second)",
+        "values": { "total_spend": 12000, "impressions": 2000000 }
+      },
+      {
+        "name": "YouTube Shorts",
+        "values": { "total_spend": 8000, "impressions": 2000000 }
+      },
+      {
+        "name": "YouTube Masthead (Takeover)",
+        "values": { "total_spend": 150000, "impressions": 5000000 }
+      },
+      {
+        "name": "Discovery / In-Feed Ads",
+        "values": { "total_spend": 10000, "impressions": 1250000 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "YouTube pricing varies significantly across formats — a 6-second bumper, a skippable TrueView, and a premium masthead all have different CPMs, delivery mechanics, and pricing models. This calculator gives you CPM for any YouTube spend and impression combination, and includes 2026 benchmarks for every major format so you can tell instantly whether a YouTube proposal or rate card is in line with the market.",
+    "how_it_works": "The formula is the standard CPM calculation: **CPM = (Total Spend ÷ Impressions) × 1,000**. YouTube complicates this slightly because TrueView campaigns charge on views (CPV) rather than impressions — so the displayed CPM is effectively a 'viewable CPM' for counted views. For non-skippable, bumper, and masthead buys, CPM is the primary pricing model. Use the presets to benchmark against current 2026 rates across format types.",
+    "faq": [
+      {
+        "question": "What is a typical YouTube CPM in 2026?",
+        "answer": "Expect these ranges: TrueView skippable in-stream $8–$18 CPM (or ~$0.05–$0.12 CPV). Non-skippable in-stream $15–$30 CPM. Bumper ads (6-second) $6–$12 CPM. YouTube Shorts $3–$8 CPM. Discovery/in-feed ads $6–$12 CPM. YouTube Masthead $25–$50 CPM depending on demographic and duration. Rates spike 30–60% in Q4 and during tentpole events (Super Bowl week, holiday shopping, elections)."
+      },
+      {
+        "question": "What's the difference between CPM and CPV on YouTube?",
+        "answer": "CPV (cost per view) is TrueView's pricing model — you're charged only when someone watches 30 seconds (or the full ad if shorter) or engages with the ad. CPM charges per 1,000 impressions regardless of view-through. Bumper ads, non-skippable, and masthead all use CPM. TrueView uses CPV. YouTube reports a 'viewable CPM' for CPV campaigns to help with cross-format benchmarking, but the actual charging mechanic is per-view."
+      },
+      {
+        "question": "Should I buy YouTube Shorts or in-stream in 2026?",
+        "answer": "Depends on audience and objective. Shorts have lower CPMs and reach younger audiences (under 35), but with lower attention and completion rates. In-stream on traditional YouTube reaches broader demos and allows longer-form creative. For awareness at scale against a broad target, in-stream is often more efficient on attention-weighted metrics. For Gen Z reach and lower-funnel performance, Shorts often outperforms despite inferior completion rates — users self-select into Shorts engagement."
+      },
+      {
+        "question": "How does YouTube CPM compare to CTV streaming CPMs?",
+        "answer": "YouTube CPMs are generally 30–50% cheaper than premium CTV like Hulu, Max, or Netflix. Premium CTV runs $25–$50 CPM; comparable YouTube formats run $10–$25. The trade-off: premium CTV delivers full attention (living room, big screen, often family co-viewing), while YouTube delivers scale and targeting precision but often on smaller screens with more multitasking. Most media plans use both."
+      },
+      {
+        "question": "Can I negotiate YouTube CPMs?",
+        "answer": "For self-serve Google Ads buys, no — pricing is auction-driven. For YouTube Reservation (formerly Google Preferred) and masthead buys, yes — these are sold by Google sales teams and are negotiable especially in softer quarters (Q1, early Q3). Expect 10–25% discounts vs rate card for committed spend, quarterly prepayment, or strategic alignment. Programmatic guaranteed deals through DV360 also allow rate negotiation but typically come in higher than open-auction CPMs."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Calculate CPM across any channel, not just YouTube."
+      },
+      {
+        "slug": "tools/ctr-calculator",
+        "relevance": "Pair YouTube CPM with CTR for efficiency benchmarking."
+      },
+      {
+        "slug": "google-dv360",
+        "relevance": "Google's DSP handles YouTube programmatic guaranteed and reservation deals."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard consolidates YouTube alongside CTV, Meta, and TikTok video planning."
+      }
+    ],
+    "cta": {
+      "text": "Plan YouTube alongside CTV, Meta, and TikTok with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

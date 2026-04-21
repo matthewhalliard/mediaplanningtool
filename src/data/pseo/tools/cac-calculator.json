@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "Customer Acquisition Cost (CAC) Calculator — Free CAC Calculator",
+    "description": "Calculate customer acquisition cost from total spend and customers acquired. Includes paid-only CAC, fully-loaded CAC, and CAC payback period guidance.",
+    "keywords": ["customer acquisition cost calculator", "cac calculator", "cac formula", "customer acquisition cost", "marketing cac", "blended cac"],
+    "slug": "cac-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "total_spend",
+        "label": "Total Sales & Marketing Spend",
+        "type": "currency",
+        "default_value": 50000,
+        "min": 0,
+        "max": 1000000000,
+        "step": 500,
+        "help_text": "All sales and marketing costs in the period (media, payroll, tools, agency fees)."
+      },
+      {
+        "id": "new_customers",
+        "label": "New Customers Acquired",
+        "type": "number",
+        "default_value": 250,
+        "min": 1,
+        "max": 10000000,
+        "step": 1,
+        "help_text": "Net new paying customers acquired in the same period."
+      }
+    ],
+    "formula": "total_spend / new_customers",
+    "output": {
+      "label": "Customer Acquisition Cost",
+      "format": "currency",
+      "description": "Your average cost to acquire one new customer"
+    },
+    "presets": [
+      {
+        "name": "DTC Ecommerce — Strong",
+        "values": { "total_spend": 50000, "new_customers": 500 }
+      },
+      {
+        "name": "DTC Ecommerce — Average",
+        "values": { "total_spend": 50000, "new_customers": 250 }
+      },
+      {
+        "name": "SaaS SMB (self-serve)",
+        "values": { "total_spend": 100000, "new_customers": 200 }
+      },
+      {
+        "name": "SaaS Mid-Market",
+        "values": { "total_spend": 500000, "new_customers": 100 }
+      },
+      {
+        "name": "SaaS Enterprise",
+        "values": { "total_spend": 1000000, "new_customers": 20 }
+      },
+      {
+        "name": "Subscription Consumer App",
+        "values": { "total_spend": 100000, "new_customers": 3000 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Customer acquisition cost (CAC) is the fully-loaded cost of acquiring one new paying customer. It's the denominator in nearly every unit economics calculation (LTV:CAC, payback period, contribution margin). This calculator gives you CAC instantly from spend and customer counts, and includes benchmarks for DTC, SaaS, and subscription models so you can quickly see whether CAC is tracking healthy, neutral, or dangerous for your category.",
+    "how_it_works": "The formula is: **CAC = Total Sales & Marketing Spend ÷ New Customers Acquired**. Spend $50,000 and acquire 250 customers, and your CAC is $200. There are two common variants: **paid CAC** (media spend only ÷ customers from paid) and **fully-loaded CAC** (all sales and marketing costs including headcount, tools, and agency fees ÷ all new customers). Fully-loaded CAC is the number CFOs care about; paid CAC is what channel teams optimize to.",
+    "faq": [
+      {
+        "question": "What is a good CAC in 2026?",
+        "answer": "CAC should be evaluated against lifetime value (LTV), not as an absolute number. Healthy LTV:CAC ratios: DTC ecommerce 3:1, SaaS SMB 3:1 to 4:1, SaaS mid-market 4:1 to 5:1, SaaS enterprise 5:1+, subscription consumer 3:1. A $500 CAC is terrific if your LTV is $3,000 and dangerous if LTV is $800. Also watch CAC payback period — how many months until gross margin from the customer covers CAC. Under 12 months is healthy for SaaS; under 6 months for DTC."
+      },
+      {
+        "question": "What's the difference between blended CAC and paid CAC?",
+        "answer": "Blended CAC (fully-loaded) counts all sales and marketing spend and divides by all new customers, including those from organic, word of mouth, and referral. Paid CAC counts only media spend and customers attributable to paid. Paid CAC is always higher than blended CAC — often 2–5× higher — and it's the number you should optimize media buys against. Blended CAC is the number you report to the board."
+      },
+      {
+        "question": "Should CAC include salaries?",
+        "answer": "For fully-loaded CAC, yes — include the salaries of sales and marketing employees plus their loaded costs (benefits, payroll taxes, equity). Exclude engineering, product, and G&A. Include agency fees, software tools, and content production costs. This gets you to the CFO-grade CAC that reflects true cost to acquire."
+      },
+      {
+        "question": "How is CAC different from cost per lead?",
+        "answer": "Cost per lead (CPL) is what it costs to acquire a lead, MQL, or signup — before any sales or conversion activity. CAC is what it costs to acquire a paying customer. For B2B, CAC is typically 5–20× higher than CPL because of lead-to-customer conversion rates. Track both: CPL tells you whether top-of-funnel efficiency is healthy; CAC tells you whether the overall go-to-market model works."
+      },
+      {
+        "question": "Why is my CAC rising?",
+        "answer": "The most common culprits: audience saturation (you've reached your cheap, high-intent audience and are now buying lower-intent impressions), increased competition (more advertisers in the same auction), iOS privacy and signal loss (worse targeting and attribution), lower creative freshness, or channel mix shift toward higher-CAC channels like paid search B2B. Segment CAC by channel and cohort to find the specific driver."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/roas-calculator",
+        "relevance": "Pair CAC with ROAS for a full top-line-to-unit-economics view."
+      },
+      {
+        "slug": "tools/marketing-roi-calculator",
+        "relevance": "Calculate marketing ROI using CAC and LTV."
+      },
+      {
+        "slug": "tools/cpc-calculator",
+        "relevance": "Understand how cost per click aggregates up into CAC."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard connects media spend to customer data for real-time CAC by channel."
+      }
+    ],
+    "cta": {
+      "text": "See CAC by channel in real time with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

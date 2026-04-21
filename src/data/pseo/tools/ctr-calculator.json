@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "CTR Calculator — Free Click-Through Rate Calculator for Media Planners",
+    "description": "Calculate click-through rate instantly. Enter clicks and impressions to find your CTR, or compare to benchmarks by channel — paid search, display, social, CTV, and more.",
+    "keywords": ["ctr calculator", "click through rate calculator", "click-through rate calculator", "ctr formula", "ctr benchmark", "advertising ctr"],
+    "slug": "ctr-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "clicks",
+        "label": "Total Clicks",
+        "type": "number",
+        "default_value": 2500,
+        "min": 0,
+        "max": 1000000000,
+        "step": 1,
+        "help_text": "Total number of clicks (or engagements) the campaign received."
+      },
+      {
+        "id": "impressions",
+        "label": "Total Impressions",
+        "type": "number",
+        "default_value": 500000,
+        "min": 1,
+        "max": 10000000000,
+        "step": 1000,
+        "help_text": "Total number of ad impressions served."
+      }
+    ],
+    "formula": "(clicks / impressions) * 100",
+    "output": {
+      "label": "Click-Through Rate (CTR)",
+      "format": "percentage",
+      "description": "Percentage of impressions that resulted in a click"
+    },
+    "presets": [
+      {
+        "name": "Google Search (Brand)",
+        "values": { "clicks": 3000, "impressions": 50000 }
+      },
+      {
+        "name": "Google Search (Non-Brand)",
+        "values": { "clicks": 1500, "impressions": 100000 }
+      },
+      {
+        "name": "Programmatic Display",
+        "values": { "clicks": 400, "impressions": 1000000 }
+      },
+      {
+        "name": "Meta Feed (Facebook/Instagram)",
+        "values": { "clicks": 900, "impressions": 100000 }
+      },
+      {
+        "name": "LinkedIn Sponsored Content",
+        "values": { "clicks": 400, "impressions": 100000 }
+      },
+      {
+        "name": "YouTube TrueView",
+        "values": { "clicks": 1200, "impressions": 400000 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Click-through rate (CTR) is the percentage of impressions that result in a click. It's one of the most-watched performance metrics across every paid channel because it signals creative relevance, audience targeting quality, and placement fit. This calculator gives you CTR instantly and includes 2026 channel benchmarks so you can tell immediately whether a campaign is pacing ahead of or behind its channel norm.",
+    "how_it_works": "The formula is: **CTR = (Clicks ÷ Impressions) × 100**. If your ad served 500,000 impressions and drove 2,500 clicks, your CTR is 0.50%. CTR is almost always reported as a percentage. Because CTR scales with intent and format, always compare it against the benchmark for the specific channel and placement — not against a universal target. A 0.3% CTR on programmatic display is strong; a 0.3% CTR on brand search is a disaster.",
+    "faq": [
+      {
+        "question": "What is a good CTR in 2026?",
+        "answer": "Benchmarks vary wildly by channel. Brand search: 8–15%. Non-brand search: 2–5%. Meta feed: 0.9–2.0%. Programmatic display: 0.05–0.10%. CTV (clickable formats): 0.15–0.40%. LinkedIn Sponsored Content: 0.35–0.60%. YouTube TrueView clickthrough: 0.3–0.5%. Compare against the channel benchmark, then against your account's historical performance for that channel — both matter."
+      },
+      {
+        "question": "Is a higher CTR always better?",
+        "answer": "Not always. A spike in CTR with no corresponding lift in conversions is a red flag for bot traffic, accidental-click formats (interstitials, auto-play), or misaligned creative drawing the wrong audience. Pair CTR with post-click engagement metrics — bounce rate, time on site, and conversion rate — before declaring a campaign healthy."
+      },
+      {
+        "question": "How does CTR relate to Quality Score in Google Ads?",
+        "answer": "Expected CTR is one of the three components of Google's Quality Score (alongside ad relevance and landing page experience). A higher CTR relative to other advertisers bidding on the same keyword improves Quality Score, which lowers your CPC and raises your ad rank. This is why poor CTR in search is a double penalty — fewer clicks and higher cost per click."
+      },
+      {
+        "question": "What's the difference between CTR and engagement rate?",
+        "answer": "CTR measures only clicks divided by impressions. Engagement rate (used heavily in paid social) is broader — it can include likes, comments, shares, reactions, video views, and carousel swipes. A high engagement rate with low CTR usually means creative is resonant but not action-driving; tighten the CTA or add a stronger landing page hook."
+      },
+      {
+        "question": "How do I improve a low CTR?",
+        "answer": "Start with creative — headline relevance to the query or audience is usually the biggest lever. For search, test ad copy that matches the query wording more literally. For display and social, tighten audience targeting before changing creative, then test new imagery and copy. Check frequency — over-exposed audiences see CTR decay. Finally, audit placement lists in programmatic: MFA and low-quality sites depress CTR systemwide."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Calculate cost per 1,000 impressions using the same impression data."
+      },
+      {
+        "slug": "tools/cpc-calculator",
+        "relevance": "Calculate cost per click alongside CTR to triangulate campaign efficiency."
+      },
+      {
+        "slug": "tools/roas-calculator",
+        "relevance": "Tie clicks to revenue and understand the full funnel past CTR."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Track CTR across every channel in one unified media plan."
+      }
+    ],
+    "cta": {
+      "text": "See CTR across every channel in one dashboard with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Media Plan Template & Budget Allocator — Free Media Plan Calculator",
+    "description": "Free media plan sizing tool and template. Enter total budget and channel mix percentages to see spend allocation, impressions, and projected reach across CTV, programmatic, social, search, audio, and OOH.",
+    "keywords": ["media plan template", "media planning template", "free media plan", "media budget allocation", "media plan calculator", "media planning framework"],
+    "slug": "media-plan-template"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "total_budget",
+        "label": "Total Media Budget",
+        "type": "currency",
+        "default_value": 500000,
+        "min": 0,
+        "max": 1000000000,
+        "step": 1000,
+        "help_text": "Total budget across all channels for the campaign."
+      },
+      {
+        "id": "ctv_pct",
+        "label": "CTV / Video Allocation",
+        "type": "percentage",
+        "default_value": 30,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Share of budget for connected TV, YouTube, and premium video."
+      },
+      {
+        "id": "social_pct",
+        "label": "Paid Social Allocation",
+        "type": "percentage",
+        "default_value": 25,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Share of budget for Meta, TikTok, LinkedIn, and other social platforms."
+      },
+      {
+        "id": "search_pct",
+        "label": "Paid Search Allocation",
+        "type": "percentage",
+        "default_value": 20,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Share of budget for Google Ads and Bing search."
+      },
+      {
+        "id": "display_pct",
+        "label": "Programmatic Display Allocation",
+        "type": "percentage",
+        "default_value": 15,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Share of budget for programmatic display and retargeting."
+      }
+    ],
+    "formula": "total_budget * (ctv_pct + social_pct + search_pct + display_pct) / 100",
+    "output": {
+      "label": "Allocated Spend (sum of entered channels)",
+      "format": "currency",
+      "description": "Total across CTV, social, search, and display — remaining budget goes to OOH, audio, and other channels"
+    },
+    "presets": [
+      {
+        "name": "DTC Brand Launch",
+        "values": { "total_budget": 500000, "ctv_pct": 35, "social_pct": 30, "search_pct": 15, "display_pct": 10 }
+      },
+      {
+        "name": "Performance-Led Ecommerce",
+        "values": { "total_budget": 500000, "ctv_pct": 15, "social_pct": 35, "search_pct": 35, "display_pct": 10 }
+      },
+      {
+        "name": "B2B Enterprise Demand Gen",
+        "values": { "total_budget": 500000, "ctv_pct": 10, "social_pct": 35, "search_pct": 40, "display_pct": 10 }
+      },
+      {
+        "name": "Awareness / Brand Campaign",
+        "values": { "total_budget": 500000, "ctv_pct": 45, "social_pct": 20, "search_pct": 10, "display_pct": 10 }
+      },
+      {
+        "name": "Local / Retail Campaign",
+        "values": { "total_budget": 250000, "ctv_pct": 25, "social_pct": 25, "search_pct": 30, "display_pct": 10 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Every media plan starts with a blank canvas: a total budget and an open question about channel mix. This calculator helps you size a plan in seconds — enter your total budget and the percentage allocation for each major channel, and see the dollar breakdown. Use it as a starting framework before diving into detailed flighting, audience targeting, and vendor selection. Below we've included a full media plan template structure you can copy into your own spreadsheet.",
+    "how_it_works": "This tool multiplies your total budget by the allocation percentages you enter for each channel. For a full plan, the four channels shown should sum to 65–95% (the rest goes to audio, OOH, influencer, or other line items). Use the presets as starting points: a DTC brand launch might lean heavier on CTV and paid social, while a B2B SaaS demand-gen plan skews toward paid search and LinkedIn. The real work of media planning happens after this allocation — flight scheduling, creative sizing, audience layering, and vendor negotiation.",
+    "faq": [
+      {
+        "question": "What should a complete media plan include?",
+        "answer": "A full media plan typically includes: (1) objectives and KPIs, (2) target audience definition with data sources, (3) channel strategy and rationale, (4) budget allocation by channel and flight, (5) detailed line items with vendor, placement, CPM/CPC, impressions, and clicks, (6) flighting calendar across the campaign window, (7) creative requirements and specs by format, (8) measurement plan with primary and secondary KPIs, and (9) optimization cadence and reporting schedule."
+      },
+      {
+        "question": "How do I decide channel allocation percentages?",
+        "answer": "Start with the objective. Awareness-led plans skew 50%+ to video (CTV, YouTube, TV). Performance-led plans skew 50%+ to paid search, paid social, and retargeting. B2B plans over-index on LinkedIn and search. Local retail plans lean on social, local digital, and OOH. Then layer in audience data: where does your buyer actually spend media time? Consumer data tools like GWI and MRI-Simmons tell you channel consumption by audience segment. Finally, apply historical performance — last year's winners usually deserve a bigger share this year."
+      },
+      {
+        "question": "What's a standard media plan structure in Excel or Google Sheets?",
+        "answer": "Rows = line items (one per placement). Columns = Campaign, Channel, Partner/Vendor, Placement/Buy Type, Ad Unit/Format, Targeting, Flight Start, Flight End, Rate Type (CPM/CPC/Flat), Rate, Planned Spend, Planned Impressions, Planned Clicks, Primary KPI, Notes. Most planners add a pivot summary above the line items showing allocation by channel, by week, and by primary KPI. Halliard standardizes this structure across clients so reporting rollups work without manual column-mapping."
+      },
+      {
+        "question": "How much of a media plan should be reserved for testing?",
+        "answer": "Typical best practice is 10–20% of budget reserved for new channel, audience, or creative tests — separate from proven evergreen tactics. Brands running quarterly incrementality tests often reserve a specific holdout region or cohort rather than a budget percentage. New-to-channel tests should run long enough to reach statistical significance (4–8 weeks minimum) with clear pre-defined success metrics."
+      },
+      {
+        "question": "Should I download a template or use a media planning tool?",
+        "answer": "Spreadsheet templates work for single-campaign, single-planner workflows. As soon as you have multiple flights per quarter, multiple planners or agencies, or need reconciliation between planned vs delivered vs billed, a dedicated media planning tool becomes cheaper than the spreadsheet errors. Halliard, MediaOcean, and Mediatool all solve this. Start with a spreadsheet if you're on one campaign; move to a tool once you cross five concurrent flights."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Use CPM to convert plan line items into impression projections."
+      },
+      {
+        "slug": "tools/impressions-calculator",
+        "relevance": "Size impressions per channel from allocated budget."
+      },
+      {
+        "slug": "tools/reach-and-frequency-calculator",
+        "relevance": "Model reach and frequency against total plan impressions."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard replaces the media plan spreadsheet with a real-time, collaborative system of record."
+      },
+      {
+        "slug": "mediatool",
+        "relevance": "Alternative media planning platform with spreadsheet-like flexibility."
+      }
+    ],
+    "cta": {
+      "text": "Ditch the spreadsheet — plan in Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

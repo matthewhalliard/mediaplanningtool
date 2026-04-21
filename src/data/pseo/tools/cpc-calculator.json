@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "CPC Calculator — Free Cost Per Click Calculator for Paid Search & Social",
+    "description": "Calculate cost per click from ad spend and clicks. Includes 2026 CPC benchmarks for Google Ads, Meta, LinkedIn, TikTok, and programmatic display.",
+    "keywords": ["cpc calculator", "cost per click calculator", "cpc formula", "google ads cpc", "meta cpc", "cpc benchmark"],
+    "slug": "cpc-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "ad_spend",
+        "label": "Total Ad Spend",
+        "type": "currency",
+        "default_value": 5000,
+        "min": 0,
+        "max": 100000000,
+        "step": 100,
+        "help_text": "Total amount spent on the campaign or keyword set."
+      },
+      {
+        "id": "clicks",
+        "label": "Total Clicks",
+        "type": "number",
+        "default_value": 2500,
+        "min": 1,
+        "max": 100000000,
+        "step": 1,
+        "help_text": "Total number of clicks driven by the spend."
+      }
+    ],
+    "formula": "ad_spend / clicks",
+    "output": {
+      "label": "CPC (Cost Per Click)",
+      "format": "currency",
+      "description": "Your average cost per click"
+    },
+    "presets": [
+      {
+        "name": "Google Search — Brand",
+        "values": { "ad_spend": 1500, "clicks": 3000 }
+      },
+      {
+        "name": "Google Search — Non-Brand B2C",
+        "values": { "ad_spend": 5000, "clicks": 2500 }
+      },
+      {
+        "name": "Google Search — B2B / Legal / Finance",
+        "values": { "ad_spend": 10000, "clicks": 500 }
+      },
+      {
+        "name": "Meta (Facebook/Instagram)",
+        "values": { "ad_spend": 5000, "clicks": 4000 }
+      },
+      {
+        "name": "LinkedIn Sponsored Content",
+        "values": { "ad_spend": 5000, "clicks": 500 }
+      },
+      {
+        "name": "TikTok Ads",
+        "values": { "ad_spend": 3000, "clicks": 3750 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Cost per click (CPC) is what you pay each time someone clicks your ad. It's the default pricing model for paid search and the dominant optimization metric in paid social. This calculator gives you CPC from spend and click totals, and includes 2026 benchmarks so you can tell immediately whether you're overpaying — Google B2B non-brand often runs $15–$50 CPC while TikTok frequently lands under $1.",
+    "how_it_works": "The formula is: **CPC = Total Ad Spend ÷ Total Clicks**. Spend $5,000 and drive 2,500 clicks, and your average CPC is $2.00. Platforms calculate CPC dynamically through auction — your actual CPC per click varies widely around the average based on competition, ad rank, and Quality Score. Use average CPC for planning and benchmarking; use max CPC or target CPA for bidding controls.",
+    "faq": [
+      {
+        "question": "What is a good CPC in 2026?",
+        "answer": "CPC is wildly category-dependent. Google Search brand terms: $0.30–$2.00. Google Search non-brand B2C: $1.50–$5.00. Google Search B2B / legal / finance / insurance: $15–$100+. Meta feed: $0.80–$2.50. LinkedIn Sponsored Content: $8–$15. TikTok Ads: $0.50–$1.50. Programmatic display: $0.50–$2.00 (though CPM pricing dominates). Compare against category benchmarks and, more importantly, against your own CAC and LTV — a $50 CPC is fine if your LTV is $2,000."
+      },
+      {
+        "question": "What's the difference between average CPC and max CPC?",
+        "answer": "Max CPC is the ceiling you set as a bid — the most you're willing to pay for a click. Average CPC is the actual mean paid across the clicks you received. Average CPC is almost always lower than max CPC because auctions settle at the second-highest bid plus a penny. Bid management is about setting max CPC at a level that wins the right clicks without overpaying for low-intent ones."
+      },
+      {
+        "question": "How do I lower CPC in Google Ads?",
+        "answer": "Improve Quality Score — higher expected CTR, stronger ad relevance, and better landing page experience reduce CPC by 20–50% on the same keywords. Use tight ad groups with one clear intent per group. Negative keywords cut wasted clicks that drag down CTR. Shift broad match to phrase or exact match where possible. Add branded campaigns to suck up low-CPC brand traffic rather than letting competitors bid on your name."
+      },
+      {
+        "question": "Why is my LinkedIn CPC so much higher than Meta?",
+        "answer": "LinkedIn targets a smaller, higher-value audience — B2B decision makers — and charges accordingly. CPCs of $8–$15 are normal for Sponsored Content. The question isn't why LinkedIn is more expensive; it's whether the lead quality justifies the cost. For high-LTV B2B categories, a $12 LinkedIn click that becomes a $50K deal is more efficient than a $1 Meta click that never converts."
+      },
+      {
+        "question": "What's the difference between CPC and eCPC?",
+        "answer": "eCPC (effective CPC) is used when pricing is actually CPM or CPA but you want to back-calculate the equivalent cost per click. On platforms that charge CPM for programmatic display, eCPC = total spend ÷ clicks — which is the same formula. The term 'eCPC' also refers to an older Google Ads bidding feature (Enhanced CPC) that adjusted manual bids based on conversion likelihood."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/ctr-calculator",
+        "relevance": "Pair CPC with CTR to understand whether low CPC comes from strong relevance or weak targeting."
+      },
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Compare CPC and CPM pricing models for the same campaign."
+      },
+      {
+        "slug": "tools/google-ads-budget-calculator",
+        "relevance": "Build a Google Ads budget using projected CPCs by keyword group."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Track CPC across Google, Meta, LinkedIn, and TikTok in one unified view."
+      }
+    ],
+    "cta": {
+      "text": "Track CPC across every channel with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

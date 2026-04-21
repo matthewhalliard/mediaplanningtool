@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "linear-tv"
+  },
+  "seo": {
+    "title": "Reach & Frequency Calculator — Estimate Unique Reach and Avg Frequency",
+    "description": "Calculate reach and frequency from impressions and audience universe size. Model effective frequency thresholds for awareness, consideration, and conversion campaigns.",
+    "keywords": ["reach and frequency calculator", "reach frequency formula", "unique reach calculator", "average frequency calculator", "effective frequency"],
+    "slug": "reach-and-frequency-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "impressions",
+        "label": "Total Impressions",
+        "type": "number",
+        "default_value": 10000000,
+        "min": 0,
+        "max": 100000000000,
+        "step": 10000,
+        "help_text": "Total impressions planned or delivered across the campaign."
+      },
+      {
+        "id": "universe",
+        "label": "Audience Universe Size",
+        "type": "number",
+        "default_value": 5000000,
+        "min": 1,
+        "max": 10000000000,
+        "step": 1000,
+        "help_text": "Total unique people in your target audience (from Nielsen, Comscore, MRI, or first-party data)."
+      },
+      {
+        "id": "avg_frequency",
+        "label": "Target Average Frequency",
+        "type": "number",
+        "default_value": 4,
+        "min": 1,
+        "max": 50,
+        "step": 0.5,
+        "help_text": "Average number of times each reached person sees the ad. Changing this updates projected unique reach."
+      }
+    ],
+    "formula": "(impressions / avg_frequency) / universe * 100",
+    "output": {
+      "label": "Reach Percentage",
+      "format": "percentage",
+      "description": "Percentage of your audience universe reached at least once at the target frequency"
+    },
+    "presets": [
+      {
+        "name": "CTV Awareness Flight (US A25-54)",
+        "values": { "impressions": 10000000, "universe": 120000000, "avg_frequency": 3 }
+      },
+      {
+        "name": "Local DMA Campaign (Top-10 market)",
+        "values": { "impressions": 5000000, "universe": 3000000, "avg_frequency": 5 }
+      },
+      {
+        "name": "B2B Decision-Maker Targeting",
+        "values": { "impressions": 1500000, "universe": 250000, "avg_frequency": 6 }
+      },
+      {
+        "name": "DTC Retargeting Pool",
+        "values": { "impressions": 2000000, "universe": 100000, "avg_frequency": 12 }
+      },
+      {
+        "name": "Political / Electorate Targeting",
+        "values": { "impressions": 15000000, "universe": 2000000, "avg_frequency": 7 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Reach and frequency are the foundational currency of awareness-driven media planning. Reach is the percentage of your audience universe exposed to the campaign at least once; frequency is how often each reached person sees the ad. Impressions alone can't tell you either — 10 million impressions could mean 10 million people seeing one ad or 1 million people seeing ten. This calculator models unique reach and lets you experiment with frequency caps to find the right balance.",
+    "how_it_works": "The core formulas: **Unique Reach = Impressions ÷ Average Frequency**. **Reach % = (Unique Reach ÷ Universe) × 100**. For example, 10,000,000 impressions at an average frequency of 4 reaches 2,500,000 unique people. Against a 120,000,000-person universe, that's 2.1% reach. In practice, true unique reach is slightly lower than this linear model suggests because real distributions follow a Poisson curve — some people see the ad far more than average, others not at all. Nielsen and Comscore reach models build in this nonlinearity; this calculator gives you a planning-grade estimate.",
+    "faq": [
+      {
+        "question": "What is effective frequency?",
+        "answer": "Effective frequency is the minimum number of exposures required to achieve a campaign objective. Classic ad research (Naples, Ostrow) established 3+ exposures as the threshold for awareness and message recall. Modern planners use: 2–3 exposures for category entrants and high-interest audiences, 3–5 for awareness and consideration, 5–10 for direct-response conversion campaigns, and 10+ for retargeting pools. Frequency below the effective threshold wastes reach; frequency far above it creates fatigue and negative brand perception."
+      },
+      {
+        "question": "What's a good reach percentage for a campaign?",
+        "answer": "Depends on objective and universe size. For broad national awareness, 60–80% reach over a 4-week flight is strong performance. For targeted audiences (demo + psychographic + behavioral overlays), 40–60% reach is often the realistic ceiling. For highly niche B2B or HCP targeting, 70%+ reach is achievable because universe sizes are smaller. The planning tension is always reach × frequency × cost — driving reach up pushes frequency or cost up, often both."
+      },
+      {
+        "question": "How does frequency capping work?",
+        "answer": "Frequency caps limit how many impressions one user can receive over a time window (typically per day, week, or flight). A 3/day cap means no user sees more than 3 ads in 24 hours. Caps improve effective reach distribution by preventing over-exposure to heavy-user segments. Most DSPs and ad servers support user-level frequency caps across placements within the same campaign; cross-platform frequency capping (one cap across Meta + YouTube + CTV) requires identity resolution tooling."
+      },
+      {
+        "question": "Is reach still relevant in performance-led media?",
+        "answer": "Yes, especially as performance channels saturate audiences. Meta and Google retargeting pools eventually exhaust cheap clicks from low-funnel intent signals; campaigns that invest only in lower funnel without building reach experience CPM inflation and CAC drift. Incrementality tests consistently show that performance campaigns without upper-funnel reach under-deliver relative to campaigns that maintain 40–60% reach investment."
+      },
+      {
+        "question": "Where do I get audience universe sizes?",
+        "answer": "For broad consumer audiences: US Census (for age/gender/geo), Nielsen PRIZM, MRI-Simmons, Scarborough for media + behavior. For B2B: LinkedIn audience sizing, ZoomInfo, or Apollo for decision-maker counts. For first-party retargeting pools: your CDP, Google Analytics, or platform audience sizing tools. Use universe sizes consistently across a plan — mixing Nielsen demo universes with Meta reported audience sizes gives misleading reach numbers."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/grp-calculator",
+        "relevance": "Calculate gross rating points from reach and frequency (GRP = Reach × Frequency)."
+      },
+      {
+        "slug": "tools/impressions-calculator",
+        "relevance": "Estimate the impressions needed to achieve a reach and frequency goal."
+      },
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Tie reach goals back to CPM and budget requirements."
+      },
+      {
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen's audience-level reach/frequency modeling platform."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard builds reach and frequency projections into every plan line item."
+      }
+    ],
+    "cta": {
+      "text": "Plan reach and frequency with Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

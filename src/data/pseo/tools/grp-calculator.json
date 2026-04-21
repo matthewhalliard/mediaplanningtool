@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "linear-tv"
+  },
+  "seo": {
+    "title": "GRP Calculator — Gross Rating Points Calculator for TV & CTV Planning",
+    "description": "Calculate gross rating points (GRPs) from reach and frequency. Includes TRP vs GRP guidance, DMA rating point conversion, and CTV/linear planning benchmarks.",
+    "keywords": ["grp calculator", "gross rating points calculator", "grp formula", "trp calculator", "rating points tv", "gross rating points tv"],
+    "slug": "grp-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "reach",
+        "label": "Reach (%)",
+        "type": "percentage",
+        "default_value": 60,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Percentage of target audience reached at least once."
+      },
+      {
+        "id": "frequency",
+        "label": "Average Frequency",
+        "type": "number",
+        "default_value": 4,
+        "min": 1,
+        "max": 50,
+        "step": 0.5,
+        "help_text": "Average number of exposures per reached person."
+      }
+    ],
+    "formula": "reach * frequency",
+    "output": {
+      "label": "Gross Rating Points (GRPs)",
+      "format": "number",
+      "description": "Total rating points delivered across the campaign"
+    },
+    "presets": [
+      {
+        "name": "Light TV Flight (awareness)",
+        "values": { "reach": 50, "frequency": 3 }
+      },
+      {
+        "name": "Standard National TV Flight",
+        "values": { "reach": 70, "frequency": 4 }
+      },
+      {
+        "name": "Heavy National TV Push",
+        "values": { "reach": 85, "frequency": 6 }
+      },
+      {
+        "name": "Local DMA Saturation",
+        "values": { "reach": 75, "frequency": 8 }
+      },
+      {
+        "name": "Political Ad Push (Final 2 Weeks)",
+        "values": { "reach": 90, "frequency": 10 }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Gross rating points (GRPs) are the traditional TV planning currency — one GRP equals 1% of the target audience reached once. Modern media planning uses GRPs across linear TV, CTV, and increasingly cross-platform audience-based buying (often called TRPs, or Target Rating Points). This calculator computes GRPs from any reach and frequency combination and includes realistic benchmarks for different flight weights.",
+    "how_it_works": "The formula is: **GRPs = Reach (%) × Average Frequency**. A flight that reaches 60% of the target audience at an average frequency of 4 delivers 240 GRPs. GRPs can exceed 100 — a 100-GRP buy doesn't mean 100% reach, it means rating points summed across the schedule (e.g., 50% reach × 2 frequency). Networks and TV vendors sell schedules in GRP increments. For modern CTV planning, GRPs translate into audience impressions: 1 GRP = 1% of target universe in impressions, so 100 GRPs against a 50M adult universe = 50M impressions.",
+    "faq": [
+      {
+        "question": "What is the difference between GRPs and TRPs?",
+        "answer": "GRPs (gross rating points) measure exposure against a broad demographic like Adults 18+. TRPs (target rating points) measure exposure against a specific target audience like 'women 25-54 with household income $100K+' or 'light category buyers of SUVs.' TRPs are more useful for planning because they measure against who you actually want to reach, not a generic demo. All modern audience-based TV and CTV planning (ACR-driven buys, programmatic CTV) uses TRPs."
+      },
+      {
+        "question": "How many GRPs do I need for a brand campaign?",
+        "answer": "Typical benchmarks by objective: Awareness launch 300–500 GRPs per 4-week flight. Sustaining campaigns 150–250 GRPs per 4-week flight. Category leaders maintaining dominance 500+ GRPs. Local DMA pushes against a narrow audience 400–800 GRPs. Political campaigns in final weeks 800–2,000+ GRPs. Below 100 GRPs, it's difficult to move brand metrics meaningfully; above 1,000 GRPs in a 4-week window, you're likely hitting diminishing returns and fatigue."
+      },
+      {
+        "question": "How do GRPs translate to impressions in CTV?",
+        "answer": "1 GRP = 1% of the target universe in impressions. If your target is Adults 25-54 (universe = 130 million), then 100 GRPs = 1,300,000 impressions per rating point × 100 = 130,000,000 impressions. This is how upfronts and audience-guaranteed CTV deals are priced — networks commit to a GRP level against a verified audience and deliver until the impression equivalent is met. Nielsen ONE and Comscore Total Audience are the core measurement currencies."
+      },
+      {
+        "question": "Are GRPs still relevant in 2026?",
+        "answer": "Yes, but with major modernization. GRPs are the universal currency between brands, agencies, and networks for upfront commitments. They also survive because they cleanly summarize reach × frequency in one number. The shift has been from household GRPs (what Nielsen historically measured) to person-level and target audience GRPs (what Nielsen ONE and Comscore CCR measure). Streaming and CTV buys are increasingly planned and bought in GRPs to enable apples-to-apples comparison against linear."
+      },
+      {
+        "question": "How are GRPs priced?",
+        "answer": "Cost per point (CPP) is the primary TV pricing unit — how much one rating point costs. National prime broadcast: $20,000–$60,000 per A25-54 GRP in 2026. National cable: $3,000–$15,000 per GRP. Local market CPPs scale roughly with market size and demo. CTV audience-guaranteed upfronts typically price 30–50% higher than linear CPPs because of targeting precision and premium inventory. CPP × GRPs = total cost for a TV flight."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/reach-and-frequency-calculator",
+        "relevance": "Calculate the reach and frequency inputs that drive GRPs."
+      },
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Convert GRPs and impressions into CPM for cross-channel benchmarking."
+      },
+      {
+        "slug": "tools/impressions-calculator",
+        "relevance": "Translate GRPs into impression volume against a target universe."
+      },
+      {
+        "slug": "nielsen-media-impact",
+        "relevance": "Nielsen's audience and reach/frequency modeling platform."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard plans linear and CTV GRPs alongside digital impressions in one system."
+      }
+    ],
+    "cta": {
+      "text": "Plan GRPs alongside digital impressions in Halliard",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}
