@@ -219,8 +219,8 @@ name = "2026 Guide"
 href = "/2026-guide"
 
 [header.actionButton]
-text = "Try Halliard free"
-href = "https://halliardmedia.com/trytoday"
+text = ""
+href = ""
 
 [footer]
 description = "The comprehensive directory for media planning software and tools."
