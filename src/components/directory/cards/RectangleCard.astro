@@ -1,41 +1,50 @@
 ---
 import UiTag from "@components/ui/tags/Tag.astro";
 import DirectoryFeaturedTag from "../FeaturedTag.astro";
-import { Image } from "astro:assets";
-import { getClearbitLogoUrl, getFallbackLogoUrl } from "@util/clearbitLogo";
+import { getClearbitLogoUrl } from "@util/clearbitLogo";
 
 const { myItem, href } = Astro.props;
 
 // Always use the company logo for card thumbnails (not the infographic hero image)
 const clearbitLogoUrl = getClearbitLogoUrl(myItem.link);
-const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
+
+// Compute initials fallback (up to 2 chars) — no colored UI Avatars
+const rawTitle = (myItem.title || "").trim();
+const initials = rawTitle
+  ? rawTitle
+      .split(/\s+/)
+      .map((w: string) => w.charAt(0))
+      .join("")
+      .slice(0, 2)
+      .toUpperCase()
+  : "?";
 ---
 
 <a href={href}
-  class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300">
+  class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300 bg-white dark:bg-gray-800">
   { myItem.featured ? <DirectoryFeaturedTag class="ml-6"  /> : <></> }
-  
-  { clearbitLogoUrl ? (
-    <div class="w-full h-40 flex justify-center items-center rounded-t bg-gray-50 dark:bg-gray-700 p-6">
-      <img 
-        src={clearbitLogoUrl} 
+
+  <div class="w-full h-32 flex justify-center items-center rounded-t bg-gray-50 dark:bg-gray-700 p-6 border-b border-gray-100 dark:border-gray-600">
+    { clearbitLogoUrl ? (
+      <img
+        src={clearbitLogoUrl}
         alt={`${myItem.title} logo`}
-        class="max-h-20 max-w-28 object-contain"
-        onerror={`this.onerror=null; this.src='${fallbackLogoUrl}'; this.className='w-16 h-16 rounded-full object-cover';`}
+        class="max-h-14 max-w-32 object-contain"
+        onerror={`this.onerror=null; this.replaceWith(Object.assign(document.createElement('div'),{className:'flex items-center justify-center w-14 h-14 rounded-md bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-lg tracking-tight',textContent:'${initials}'}));`}
         loading="lazy"
       />
-    </div>
-  ) : (
-    <div class="w-full h-40 px-3 text-center flex justify-center items-center rounded-t font-bold text-xl bg-gray-200 dark:bg-gray-600">
-      {myItem.title }
-    </div>
-  )}
-  
-  <div class="p-8">
-    <h3 class="m-0 text-xl font-semibold dark:text-gray-50 card-title leading-tight">
+    ) : (
+      <div class="flex items-center justify-center w-14 h-14 rounded-md bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-lg tracking-tight">
+        {initials}
+      </div>
+    )}
+  </div>
+
+  <div class="p-6">
+    <h3 class="m-0 text-lg font-semibold dark:text-gray-50 card-title leading-tight">
       { myItem?.title }
     </h3>
-    <p class="line-clamp-3 mt-3 text-sm text-gray-600 dark:text-gray-300 card-description leading-relaxed">
+    <p class="line-clamp-3 mt-2 text-sm text-gray-800 dark:text-gray-300 card-description leading-relaxed">
       { myItem.description }
     </p>
     <div class="p-0 mt-4 flex flex-wrap gap-2">
@@ -44,4 +53,4 @@ const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
       }
     </div>
   </div>
-</a> 
+</a>
