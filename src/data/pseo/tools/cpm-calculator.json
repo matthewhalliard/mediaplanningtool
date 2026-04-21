@@ -4,9 +4,9 @@
     "channel": "programmatic-display"
   },
   "seo": {
-    "title": "Free CPM Calculator | Cost Per Mille Calculator for Media Planning",
-    "description": "Calculate CPM (cost per mille / cost per thousand impressions) instantly. Enter your total spend and impressions to find your CPM, or calculate impressions from budget and CPM. Includes benchmarks by channel.",
-    "keywords": ["cpm calculator", "cost per mille calculator", "cost per thousand impressions", "media planning calculator", "advertising cpm", "cpm formula"],
+    "title": "CPM Calculator — Free Cost Per Mille Calculator for Media Planners (2026)",
+    "description": "Free CPM calculator for media planners. Calculate cost per 1,000 impressions, reverse-solve for impressions or budget, and compare against current channel benchmarks for CTV, programmatic, social, and more.",
+    "keywords": ["cpm calculator", "cost per mille calculator", "cost per thousand calculator", "cost per impression calculator", "cpm formula", "media planning calculator", "advertising cpm"],
     "slug": "cpm-calculator"
   },
   "tool_config": {
@@ -19,17 +19,17 @@
         "min": 0,
         "max": 100000000,
         "step": 100,
-        "help_text": "Total amount spent on the campaign or ad placement"
+        "help_text": "Total amount spent on the campaign, flight, or placement."
       },
       {
         "id": "impressions",
         "label": "Total Impressions",
         "type": "number",
         "default_value": 500000,
-        "min": 0,
+        "min": 1,
         "max": 10000000000,
         "step": 1000,
-        "help_text": "Total number of ad impressions served"
+        "help_text": "Total number of ad impressions delivered."
       }
     ],
     "formula": "(total_spend / impressions) * 1000",
@@ -48,49 +48,77 @@
         "values": { "total_spend": 25000, "impressions": 833333 }
       },
       {
-        "name": "Social Media (Meta)",
+        "name": "Paid Social (Meta/TikTok)",
         "values": { "total_spend": 10000, "impressions": 1000000 }
       },
       {
-        "name": "Premium Publisher (PMP Deal)",
-        "values": { "total_spend": 15000, "impressions": 1500000 }
+        "name": "Premium Publisher PMP",
+        "values": { "total_spend": 15000, "impressions": 1000000 }
+      },
+      {
+        "name": "YouTube In-Stream",
+        "values": { "total_spend": 20000, "impressions": 1333333 }
+      },
+      {
+        "name": "Audio / Podcast",
+        "values": { "total_spend": 12000, "impressions": 480000 }
       }
     ]
   },
   "content": {
-    "intro": "CPM (Cost Per Mille) is the most fundamental pricing metric in media planning. It measures the cost to deliver 1,000 ad impressions and is used across virtually every digital and traditional channel to benchmark efficiency and compare inventory costs. Whether you're evaluating a CTV deal, pricing programmatic display, or comparing proposals from publishers, CPM is the common currency.",
-    "how_it_works": "The CPM formula is straightforward: **CPM = (Total Ad Spend / Total Impressions) x 1,000**. For example, if you spent $10,000 and received 500,000 impressions, your CPM is $20.00. You can also reverse the formula to estimate impressions from a given budget: **Impressions = (Budget / CPM) x 1,000**. This calculator handles both directions — enter your spend and impressions to find CPM, or use the presets to see how different channel benchmarks affect your impression volume.",
+    "intro": "CPM — cost per mille, or cost per 1,000 impressions — is the common currency of media planning. Every channel, from linear TV to programmatic display to podcast sponsorships, quotes or negotiates in CPM. This calculator gives you the exact CPM for any spend and impression combination, lets you reverse-solve for impressions from a budget, and includes real 2026 channel benchmarks to sanity-check proposals before you commit.",
+    "how_it_works": "The formula is: **CPM = (Total Ad Spend ÷ Total Impressions) × 1,000**. If you spend $10,000 to deliver 500,000 impressions, your CPM is $20.00. Reverse the math to estimate delivery: **Impressions = (Budget ÷ CPM) × 1,000**. So a $10,000 budget at a $20 CPM buys roughly 500,000 impressions. Use the presets to model spend at realistic 2026 channel rates — CTV is 8–15× more expensive than open-auction programmatic display, and paid social falls in between.",
     "faq": [
       {
-        "question": "What is a good CPM for digital advertising?",
-        "answer": "CPMs vary dramatically by channel, format, and targeting. Programmatic display open auction averages $1.50–$4.00 CPM. Social media (Meta, TikTok) typically runs $5–$15 CPM. CTV/streaming video ranges from $14–$45 CPM depending on premium vs. FAST inventory. A 'good' CPM is one that delivers quality impressions to your target audience at a cost-per-outcome (conversion, visit, lead) that meets your ROI goals."
+        "question": "What is a good CPM in 2026?",
+        "answer": "CPMs vary dramatically by channel. Open-auction programmatic display runs $1.50–$4.00. Paid social (Meta, TikTok) averages $5–$15. YouTube in-stream typically lands at $10–$25. CTV/streaming video ranges from $25–$50 for premium inventory, $14–$22 for FAST and ad-supported tiers. Linear TV national primetime is $20–$45. A 'good' CPM is one that delivers your target audience at a cost-per-outcome that hits your ROI, not the absolute lowest CPM."
       },
       {
         "question": "What is the difference between CPM and eCPM?",
-        "answer": "CPM is the price you pay per 1,000 impressions as an advertiser. eCPM (effective CPM) is the revenue metric publishers use, calculated as (total earnings / total impressions) x 1,000. For advertisers, eCPM is sometimes used to normalize costs across campaigns with different pricing models (CPC, CPA) into a comparable impressions-based rate."
+        "answer": "CPM is the price an advertiser pays per 1,000 impressions. eCPM (effective CPM) is a normalized metric used to compare the impression-equivalent cost of non-CPM pricing models like CPC or CPA. Publishers also use eCPM as a revenue-per-1,000-impressions metric. For planners, eCPM is useful when comparing a CPM-priced CTV buy against a CPC-priced search campaign on the same dashboard."
+      },
+      {
+        "question": "How do I calculate CPM for a linear TV buy?",
+        "answer": "Linear TV CPM is calculated the same way — spend divided by impressions times 1,000 — but impressions are derived from Nielsen ratings rather than ad-server logs. Multiply the GRP (gross rating points) by the universe estimate for your target demo to get impressions. For example, 100 GRPs against a 125M household universe equals roughly 125M impressions (1 rating point = 1% of universe)."
       },
       {
         "question": "Should I always optimize for the lowest CPM?",
-        "answer": "No. Low CPM often correlates with low-quality inventory — Made for Advertising (MFA) sites, bot traffic, and low-viewability placements. A $2 CPM on MFA inventory delivers less real value than a $25 CPM on premium CTV. Optimize for cost-per-outcome (CPA, cost-per-visit, cost-per-lead) rather than CPM alone, and use attention metrics and viewability to ensure quality."
+        "answer": "No. Low CPM often correlates with low-quality inventory — MFA (made for advertising) sites, bot traffic, and unviewable placements. A $2 CPM on MFA delivers far less real value than a $25 CPM on premium CTV with 95% viewability and human audience. Optimize for cost per viewable impression, cost per attentive second, or cost per outcome — not CPM alone. Layer in viewability, IVT, and attention metrics before declaring a buy efficient."
       },
       {
-        "question": "How do CPMs change during peak advertising seasons?",
-        "answer": "CPMs spike significantly during high-demand periods. Black Friday/Cyber Monday typically sees 40–80% higher CPMs across display and social. Q4 (October–December) is the most expensive quarter broadly. Political election years inflate CPMs on local TV and connected TV in battleground states. Plan peak-season budgets with 30–50% CPM premiums built in, or lock in PMP rates in advance."
+        "question": "How much do CPMs increase during Q4 and peak seasons?",
+        "answer": "Expect 30–80% CPM inflation from mid-October through December. Black Friday and Cyber Monday weeks routinely see 2× normal rates on social and display. Political cycles push local broadcast and CTV CPMs up 50–100% in battleground states from August through early November. Plan Q4 with a 40% CPM premium baked into your budget, or lock PMP rates by August to avoid auction exposure."
+      },
+      {
+        "question": "Is CPM the same as CPT or cost per thousand?",
+        "answer": "Yes — CPM, CPT (cost per thousand), and cost per mille are the same metric. 'Mille' is Latin for thousand. 'CPT' is more common in traditional broadcast contexts, while 'CPM' is standard across digital. Some programmatic platforms also use 'eCPM' (effective CPM) when the underlying pricing is CPC or CPA and the platform is back-calculating the impressions-based equivalent."
       }
     ],
     "related_tools": [
       {
-        "slug": "the-trade-desk",
-        "relevance": "Major DSP where CPM-based buying is the primary pricing model"
+        "slug": "tools/ctr-calculator",
+        "relevance": "Calculate click-through rate using the same impressions and click data."
       },
       {
-        "slug": "google-dv360",
-        "relevance": "Google's programmatic platform using CPM bidding across display and video"
+        "slug": "tools/impressions-calculator",
+        "relevance": "Reverse-solve for impressions given budget and CPM."
+      },
+      {
+        "slug": "tools/roas-calculator",
+        "relevance": "Tie CPM-driven spend back to revenue and return on ad spend."
+      },
+      {
+        "slug": "the-trade-desk",
+        "relevance": "Major DSP where CPM-based buying is the primary pricing model."
+      },
+      {
+        "slug": "halliard",
+        "relevance": "Halliard lets you plan, budget, and reconcile CPM buys across every channel in one place."
       }
     ],
     "cta": {
       "text": "Plan smarter with Halliard — the OS for modern media teams",
-      "link": "https://www.mediaplanningtool.com"
+      "link": "https://halliardmedia.com/trytoday"
     }
   }
 }
