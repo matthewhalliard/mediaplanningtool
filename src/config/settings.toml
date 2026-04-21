@@ -179,7 +179,7 @@ showCount = true
 icon = "tabler:search"
 
 [directoryUI.search.tags]
-display = "show-all"
+display = "select"
 intersection = false
 
 [directoryUI.featured]
@@ -219,8 +219,8 @@ name = "2026 Guide"
 href = "/2026-guide"
 
 [header.actionButton]
-text = ""
-href = "https://www.mediaplanningtool.com"
+text = "Try Halliard free"
+href = "https://halliardmedia.com/trytoday"
 
 [footer]
 description = "The comprehensive directory for media planning software and tools."
