@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "category": "programmatic",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Programmatic Advertising Definition | Media Planning Glossary",
+    "description": "What is programmatic advertising? Automated digital ad buying explained — how RTB works, deal types, CPM benchmarks by channel, and why 90% of display spend now flows programmatically.",
+    "keywords": [
+      "programmatic advertising definition",
+      "what is programmatic advertising",
+      "programmatic media buying",
+      "real-time bidding",
+      "programmatic display",
+      "automated ad buying"
+    ],
+    "slug": "programmatic-advertising"
+  },
+  "term": {
+    "name": "Programmatic Advertising",
+    "definition": "Programmatic advertising is the automated buying and selling of digital ad inventory using software, data, and real-time auction technology — replacing manual insertion orders and human negotiation with algorithmic decisioning. It encompasses a range of transaction types, from open real-time bidding (RTB) on ad exchanges to private marketplace deals and fully reserved programmatic guaranteed arrangements.",
+    "extended_explanation": "The programmatic ecosystem connects advertisers (via DSPs) to publishers (via SSPs) through a network of ad exchanges that clear auctions in milliseconds. The core mechanism — real-time bidding (RTB) — works by transmitting a bid request containing anonymized impression data (URL, ad slot size, user segment data, device type, geography) to DSPs the moment a user loads a page. DSPs evaluate and bid within ~100ms; the highest valid bid wins and serves the ad. As of 2025, approximately 90% of all U.S. digital display advertising is transacted programmatically, with global programmatic ad spend reaching an estimated $716 billion. Programmatic encompasses multiple deal structures: open auction (lowest CPMs, highest scale, most fraud risk), private marketplace (PMP, invitation-only with floor prices), preferred deals (fixed-price, non-guaranteed), and programmatic guaranteed (reserved inventory at negotiated CPMs with delivery commitments). The channel has expanded far beyond display — programmatic now governs video, CTV/OTT, digital audio, digital out-of-home (DOOH), and native advertising. Each channel carries distinct pricing, fraud profiles, and identity requirements, making programmatic competency one of the most complex and high-value capabilities in modern media planning.",
+    "example": "A CPG brand allocates $2M to a summer campaign across programmatic channels. Using The Trade Desk, their agency segments the budget: $600K to open auction display at $3–$6 CPM for awareness reach, $800K to CTV programmatic via PMP deals at $18–$28 CPM targeting households with recent grocery purchase data, $400K to programmatic digital audio at $8–$12 CPM for commuter daypart targeting, and $200K to DOOH programmatic at $10–$15 CPM near retail locations. All channels are managed from a single DSP dashboard, sharing frequency data to cap cross-device exposure at 8 impressions per household per week — a cross-channel orchestration impossible without programmatic infrastructure.",
+    "why_it_matters": "Programmatic advertising is no longer a channel — it is the operating system of digital media. Understanding programmatic deal structures, supply chain economics, and technology layers is now a baseline competency for media planners at every level. The shift to programmatic has unlocked precision targeting at scale, real-time budget optimization, and unified cross-channel measurement that direct-buy advertising could not provide. But programmatic also introduces complexity: ad fraud, made-for-advertising (MFA) sites, opaque fee stacks, and viewability variance mean that naive programmatic execution frequently underperforms well-planned direct buys. Media planners who understand how to structure deals, evaluate SSP quality, and configure DSP optimization parameters consistently outperform those who treat programmatic as a black box.",
+    "vertical_context": [
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services brands are heavy programmatic users but face heightened brand safety constraints — adjacency to fraud content, political news, and crypto misinformation are major concerns. Leading banks and insurance brands use PMP deals with premium publishers at $10–$22 CPM for display, with viewability requirements of 70%+ built into deal terms. Compliance review requirements for creative versioning make programmatic creative management and ad server integration critical to campaign velocity."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive is the second-largest category in U.S. programmatic spending. OEM campaigns layer DSP RTB with programmatic guaranteed for conquest targeting — bidding on in-market auto intenders researching competing models. Automotive programmatic CPMs range from $8–$18 for standard display to $25–$45 for CTV/OTT, with co-op funding structures linking national brand budgets to local dealer campaigns through shared DSP seat management."
+      },
+      {
+        "vertical": "Travel / Hospitality",
+        "note": "Travel programmatic rebounded sharply post-pandemic and is characterized by high retargeting reliance and strong CPA pressure. Airlines and hotel chains use DSP first-party data syndication to retarget cart abandoners across open web and social, with retargeting CPMs often 2–3x higher than prospecting CPMs ($8–$20 vs. $3–$7). Dynamic creative optimization (DCO) — personalizing ad content with specific routes, prices, or dates — is standard practice in travel programmatic."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "demand-side-platform",
+        "name": "DSP (Demand-Side Platform)"
+      },
+      {
+        "slug": "supply-side-platform",
+        "name": "SSP (Supply-Side Platform)"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What percentage of digital advertising is programmatic in 2025?",
+        "answer": "As of 2025, approximately 90% of all U.S. digital display advertising is purchased programmatically, according to eMarketer — a figure that has remained stable after rapid growth in prior years. Global programmatic ad spend reached an estimated $716 billion in 2025, with forecasts projecting the U.S. programmatic display market to exceed $200 billion annually. CTV programmatic has seen particularly strong growth, with U.S. CTV programmatic spend projected to exceed $30 billion by 2026. Mobile devices account for over 70% of programmatic impressions globally, with in-app inventory generating 88% of mobile programmatic volume."
+      },
+      {
+        "question": "What is the difference between programmatic and direct digital advertising?",
+        "answer": "Direct advertising involves a negotiated, human-to-human deal between a buyer and a specific publisher — an insertion order committing to a fixed volume of impressions at an agreed CPM, typically for a specific ad placement on a specific site. Programmatic advertising uses technology to automate that process at scale, allowing a single buyer to simultaneously access thousands of publishers through auction. Direct deals offer guaranteed placement, editorial environment control, and often premium positioning; programmatic offers scale, dynamic audience targeting, real-time optimization, and lower CPMs on open auction. In practice, modern campaigns blend both: programmatic guaranteed deals combine programmatic automation with direct-like inventory reservation."
+      },
+      {
+        "question": "How does ad fraud affect programmatic advertising?",
+        "answer": "Ad fraud — including bot traffic, domain spoofing, and made-for-advertising (MFA) inventory — remains a persistent challenge in programmatic, particularly in open exchange buying. Industry estimates suggest 10–25% of open auction impressions have fraudulent characteristics, though verification vendor filtering significantly reduces exposure. In 2024, the ANA found that only 43.9 cents of every programmatic dollar reached a real consumer — the remainder absorbed by supply chain fees, fraud, and low-quality placements. Best practices for minimizing fraud include activating IVT (invalid traffic) filtering via DoubleVerify or Integral Ad Science, maintaining inclusion lists of vetted publishers, prioritizing PMP and direct inventory over open auction, and auditing supply paths via ads.txt/app-ads.txt compliance."
+      },
+      {
+        "question": "What is programmatic guaranteed and how does it differ from open auction?",
+        "answer": "Programmatic guaranteed (PG) is a deal type that combines the automation of programmatic buying with the certainty of a direct IO: the publisher commits to delivering a specific impression volume at a pre-negotiated CPM, and the advertiser commits to paying for it. Unlike open auction (where inventory is not reserved and CPMs fluctuate in real time) or PMP (where buyers bid on floor-priced inventory without delivery guarantees), PG provides predictable delivery and premium placement access — often inventory that never reaches open auction. PG is particularly common in CTV, where premium streaming publishers (Hulu, Peacock, Paramount+) reserve their most desirable slots for PG deals at CPMs of $25–$45, with open auction receiving only residual supply."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

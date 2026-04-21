@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "eCPM (Effective CPM) Definition | Media Planning Glossary",
+    "description": "What is eCPM in advertising? Effective CPM measures true revenue per 1,000 impressions across all pricing models — explained with formulas, benchmarks, and why it matters.",
+    "keywords": [
+      "ecpm definition",
+      "effective cpm",
+      "effective cost per mille",
+      "ecpm formula",
+      "ecpm vs cpm",
+      "publisher ecpm",
+      "ecpm advertising"
+    ],
+    "slug": "effective-cpm"
+  },
+  "term": {
+    "name": "eCPM (Effective CPM)",
+    "abbreviation": "eCPM",
+    "definition": "eCPM, or Effective Cost Per Mille, is a normalized metric that expresses the actual revenue (or cost) per 1,000 impressions across campaigns running on mixed pricing models — CPM, CPC, CPA, or flat-rate. It converts any pricing structure into a common unit, enabling apples-to-apples comparison across placements, channels, and line items. For publishers, eCPM is the primary measure of inventory monetization efficiency; for advertisers, it reflects the blended cost of reaching 1,000 people across a mixed-model media plan.",
+    "extended_explanation": "The eCPM formula is straightforward: eCPM = (Total Revenue ÷ Total Impressions) × 1,000. A publisher earning $700 from 200,000 impressions has an eCPM of $3.50, regardless of whether those impressions were sold on a CPM, CPC, or CPA basis. This is what distinguishes eCPM from CPM: CPM is a negotiated buying price for impression-based inventory; eCPM is a calculated performance indicator derived after the fact from actual results.\n\nOn the advertiser side, eCPM is used to evaluate blended campaign efficiency. A paid search campaign with a $0.80 CPC and a 1.2% CTR yields an eCPM of $9.60 — a figure that can be compared directly to a $7 display CPM to understand relative value. On the publisher side, eCPM aggregates yield across demand sources — direct sold, programmatic open auction, PMP deals, and affiliate units — into a single performance yardstick.\n\neCPM varies significantly by format, vertical, and geography. Video eCPMs consistently outpace display; US Tier 1 traffic commands premiums over LATAM or Southeast Asia. In 2025–2026, finance and healthcare publishers with US traffic routinely achieve display eCPMs of $8–$20+, while lifestyle and entertainment publishers on similar traffic see $3–$8. Below $2 eCPM on Tier 1 US traffic typically signals a viewability, fill rate, or competitive demand problem worth auditing.",
+    "example": "A DTC apparel brand runs a Q4 holiday campaign with a $50,000 budget split across three channels: programmatic display at a $6 CPM, Facebook at a $9.46 CPM, and a CPC-based Google Shopping campaign at $0.65 CPC. The display buy delivers 3,000,000 impressions; Facebook delivers 2,100,000 impressions; Google Shopping drives 42,000 clicks (equivalent to approximately 2,800,000 impressions at a 1.5% average CTR). Total impressions: roughly 7,900,000. Total spend: $50,000. Blended eCPM: ($50,000 ÷ 7,900,000) × 1,000 = $6.33. This blended eCPM helps the media planner compare the full campaign's delivery efficiency against benchmarks and allocate budget more heavily toward the most efficient channel in the next flight.",
+    "why_it_matters": "eCPM is the lingua franca of multi-format, multi-channel media planning. When a campaign mixes impression-based buys with cost-per-click and cost-per-action deals, raw line-item CPMs no longer tell the whole story. eCPM normalizes everything, letting planners rank placements by actual delivered value rather than contracted price. For publishers, eCPM exposes which demand sources and ad formats are truly generating yield — a $12 CPM placement with 40% fill is less valuable than a $7 CPM placement with 95% fill. For advertisers managing performance campaigns, eCPM provides a gut-check against brand awareness buys. If your CPC campaign's implied eCPM is $18 and your display partner is charging $5, the performance math may not justify the premium.",
+    "vertical_context": [
+      {
+        "vertical": "Finance & Insurance",
+        "note": "Finance publishers with US Tier 1 traffic achieve among the highest display eCPMs in the market — $8–$20+ for standard banners, driven by intense advertiser competition for high-intent audiences (credit card, mortgage, insurance). Programmatic video eCPMs for fintech publishers on desktop can exceed $25 in Q4 as banks and card issuers compete for holiday spending intent. Below $5 eCPM on a finance property in this market should prompt a floor price audit."
+      },
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail publisher eCPMs are highly seasonal. In Q1–Q2, display eCPMs for commerce-adjacent content average $3–$6. Q4 (October–December) see 40–80% eCPM inflation as retail advertisers flood open auction for holiday demand. Shoppable ad formats and first-party retail media networks (like Amazon Publisher Services) consistently deliver 20–50% eCPM premiums over standard display by combining purchase intent signals with endemic inventory."
+      },
+      {
+        "vertical": "Gaming & Entertainment",
+        "note": "Mobile gaming publishers face lower eCPMs on display ($1–$3) but substantially higher yields on rewarded video ($8–$18) due to user opt-in and high completion rates. Desktop gaming and entertainment publishers in Tier 1 markets typically see $3–$7 display eCPM. The gap between rewarded and interstitial formats can be 5–10× — a key reason mobile monetization strategies prioritize format mix over sheer ad volume."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "viewable-cpm",
+        "name": "vCPM (Viewable CPM)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      },
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between CPM and eCPM?",
+        "answer": "CPM (Cost Per Mille) is a negotiated buying price — what an advertiser agrees to pay per 1,000 impressions before a campaign runs. eCPM (Effective CPM) is a calculated metric derived after delivery: total revenue or spend divided by total impressions, multiplied by 1,000. The key distinction is that eCPM can aggregate across multiple pricing models. A campaign running a mix of CPM display, CPC search, and CPA affiliate buys has no single 'CPM' — but it does have a blended eCPM that lets you compare all channels on equal footing. For publishers, eCPM also accounts for unsold impressions and revenue share, which a contracted CPM rate does not."
+      },
+      {
+        "question": "What is a good eCPM for a publisher in 2025?",
+        "answer": "It depends heavily on vertical, ad format, and audience geography. For US Tier 1 traffic, display eCPMs above $5 are solid across most content categories; finance and healthcare publishers often achieve $8–$20+. Video eCPMs are higher — $10–$25 for outstream/instream in competitive verticals. If your display eCPM is consistently below $2 on US traffic, it signals a fill rate problem, low viewability, or weak demand competition — all fixable through header bidding expansion, floor price optimization, or improved ad placement. For non-US Tier 2/3 traffic, eCPMs of $0.50–$2 are typical and may require volume strategies to compensate."
+      },
+      {
+        "question": "How does eCPM help advertisers evaluate campaign performance?",
+        "answer": "eCPM lets advertisers normalize performance across channels and pricing models into a single comparable figure. If a Google Shopping CPC campaign generates a 1.2% CTR at $0.65 CPC, the implied eCPM is $7.80. If display CPMs are running at $5.50, the search campaign appears expensive on a raw impression basis — but the intent quality may justify it. Conversely, if a CPA campaign's implied eCPM is $35 because conversions are rare, that signals either poor creative, wrong audience, or an over-competitive category. eCPM alone doesn't determine value, but as a normalization tool it surfaces inefficiencies that channel-specific metrics obscure."
+      },
+      {
+        "question": "Why can eCPM be higher than the contracted CPM rate?",
+        "answer": "Several factors drive eCPM above the contracted CPM. First, CPC or CPA campaigns can generate implied eCPMs higher than comparable display rates if click-through or conversion rates underperform. Second, for publishers, eCPM accounts for actual fill: if 30% of impressions go unsold, the revenue from the 70% filled must cover all 100% of inventory, effectively inflating the delivered eCPM relative to the contracted rate. Third, revenue sharing arrangements between publishers and SSPs or ad networks mean the gross contracted rate is always higher than the net eCPM a publisher receives. Understanding this gap is essential for accurate media plan forecasting."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

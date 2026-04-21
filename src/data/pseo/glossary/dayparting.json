@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "planning"
+  },
+  "seo": {
+    "title": "Dayparting Definition | Media Planning Glossary",
+    "description": "What is dayparting in advertising? Dayparting schedules ads to run during specific hours or days when target audiences are most active, improving ROAS and reducing wasted impressions.",
+    "keywords": ["dayparting definition", "dayparting advertising", "ad scheduling time of day", "daypart strategy", "dayparting media planning", "ad scheduling optimization"],
+    "slug": "dayparting"
+  },
+  "term": {
+    "name": "Dayparting",
+    "definition": "Dayparting is the practice of scheduling advertising to run only during specific hours of the day or days of the week when target audiences are most likely to engage or convert. Borrowed from broadcast television, where the day is divided into named blocks (morning, daytime, primetime, late fringe), dayparting now applies across programmatic, paid search, social, and streaming channels.",
+    "extended_explanation": "Traditional TV dayparts are defined by Nielsen and include Early Morning (5–9 AM), Daytime (9 AM–4 PM), Early Fringe (4–7 PM), Primetime (8–11 PM ET/PT, 7–10 PM CT/MT), Late News (11 PM–11:30 PM), and Late Fringe (11:30 PM–2 AM). Primetime commands the highest CPMs — typically 2–4x daytime rates — because it delivers peak audience size and higher attention quality.\n\nIn digital advertising, dayparting is implemented through bid adjustments within platforms like Google Ads, Meta Ads Manager, DV360, and The Trade Desk. Advertisers can apply hourly bid multipliers (e.g., +30% from 7–9 AM, -50% from midnight–6 AM) or fully suppress delivery during low-value windows. The practice is especially powerful in paid search, where B2B advertisers often find weekday business-hours CPAs 25–40% lower than weekend rates because commercial intent concentrates when buyers are at work.\n\nEffective dayparting requires a statistically significant volume of historical performance data — typically 90+ days and 1,000+ conversions — segmented by hour and day before applying bid rules. Applying dayparting to campaigns with insufficient data risks over-optimizing on noise. In programmatic, dayparting should also account for primetime auction competition: while audience quality peaks at 8–10 PM, CPMs can inflate 20–35%, partially or fully offsetting the engagement gains.",
+    "example": "A B2B SaaS company selling project management software analyzes 180 days of Google Ads data and finds that conversions (free trial signups) between Tuesday and Thursday, 9 AM–12 PM EST, have a $38 CPA — versus a $71 CPA during 10 PM–8 AM across all days. They apply a +25% bid modifier during Tue–Thu morning windows and pause campaigns entirely from midnight–6 AM daily. Monthly ad spend stays constant at $40,000, but conversion volume increases from 850 to 1,080 per month — a 27% improvement — while average CPA falls from $47 to $37. The late-night suppression alone recovers $4,200/month previously spent on zero-conversion impressions.",
+    "why_it_matters": "Dayparting is one of the highest-leverage optimizations available to media buyers because it reallocates budget from provably low-value time windows to demonstrably high-value ones without requiring any increase in total spend. In 2025–2026, Google Ads has tightened monthly pacing rules (allowing delivery up to 30.4x the daily budget within ad-scheduled hours), making daypart configuration more consequential than ever — a misconfigured schedule can accelerate spend into the wrong hours. For retail and e-commerce advertisers, evening dayparts (6–10 PM) on mobile typically show 15–25% higher conversion rates than the same creatives served at noon. For B2B, the inverse is often true. Understanding and acting on these patterns separates efficient buyers from those funding their competitors' conversions.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "E-commerce advertisers consistently find Thursday–Sunday evenings (7–10 PM) deliver the highest conversion rates, with CTR improvements of 20–30% over weekday daytime for consumer-facing brands. Mobile commerce peaks after 6 PM, making evening mobile bid adjustments of +15–25% standard practice. Black Friday and Cyber Monday require 24-hour delivery without daypart suppression to capture the full demand window, temporarily overriding standard schedules."
+      },
+      {
+        "vertical": "B2B / SaaS",
+        "note": "B2B advertisers see peak performance on Tuesday through Thursday, 10 AM–2 PM in the buyer's local timezone. Industry benchmarks show 35–45% CTR improvement and 25–40% CPA reduction during these windows versus evenings or weekends. LinkedIn Campaign Manager's own data shows sponsored content served Monday morning underperforms Tuesday afternoon by 18–22% on engagement rate — a dayparting gap most SMB advertisers leave unaddressed."
+      },
+      {
+        "vertical": "Restaurant / QSR",
+        "note": "Quick-service restaurant campaigns live or die on proximity to meal occasions. Breakfast dayparts (6–9 AM), lunch (11 AM–1 PM), and dinner (5–7 PM) are the three primary windows, each with distinct audience behaviors and offer strategies. Geofenced mobile ads served within 5 miles of a QSR location during the 30-minute pre-lunch window (11–11:30 AM) consistently achieve 3–5x higher in-store visit rates than the same ads served at 2 PM. DOOH dayparting in commuter locations mirrors this pattern, with drive-time inventory (7–9 AM, 4–7 PM) commanding a 25–40% premium CPM over midday."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "flighting",
+        "name": "Flighting"
+      },
+      {
+        "slug": "pacing",
+        "name": "Pacing"
+      },
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What are the standard TV dayparts and why do their CPMs differ so much?",
+        "answer": "Traditional television dayparts defined by Nielsen include Early Morning (5–9 AM), Daytime (9 AM–4 PM), Early Fringe (4–7 PM), Primetime (8–11 PM ET/PT), Late News, and Overnight. Primetime CPMs are 2–4x daytime rates because the audience is simultaneously largest and most engaged — the three major broadcast networks (NBC, CBS, ABC) deliver 70–100% higher A18–49 ratings in primetime versus daytime. In streaming and CTV, this pattern persists: primetime CPMs on premium SVOD (Netflix, Hulu) run $28–45, versus $14–22 for the same inventory served in off-peak afternoon hours."
+      },
+      {
+        "question": "How do I implement dayparting in Google Ads or Meta?",
+        "answer": "In Google Ads, navigate to Campaign Settings > Ad Schedule and add time segments with custom bid adjustments (from -90% to +900%). Analyze your existing campaign's 'Day and Hour' report under the Dimensions tab before setting adjustments — never daypart based on assumptions alone. In Meta Ads Manager, select 'Lifetime Budget' to unlock the ad scheduling feature under 'Ad Scheduling,' which lets you specify active hours for each day. Note that Meta requires a lifetime budget (not daily) to use granular hourly scheduling, which affects how you structure campaign architecture. Google Ads with shared budgets requires dayparting to be configured at the campaign level, not the ad group level."
+      },
+      {
+        "question": "Can dayparting hurt campaign reach and frequency goals?",
+        "answer": "Yes. Suppressing a campaign for 8–12 hours per day reduces the available delivery window, which can inflate CPMs in remaining active hours as your budget competes for a compressed supply. For brand awareness campaigns where cumulative reach is the primary objective, excessive dayparting may leave frequency targets unmet by end of flight. The best practice for reach-focused campaigns is light dayparting (suppressing only the lowest-performing 2–3 hour windows) rather than aggressive restriction. Performance campaigns chasing CPA or ROAS goals tolerate tighter daypart schedules because conversion volume in suppressed windows would have been negligible anyway."
+      },
+      {
+        "question": "Does dayparting work differently in programmatic versus walled gardens?",
+        "answer": "In programmatic DSPs (The Trade Desk, DV360, Amazon DSP), dayparting is implemented as a bid multiplier or hard on/off rule at the line item level and operates across open auction and PMP inventory simultaneously. Walled gardens (Google, Meta, Amazon) handle dayparting within their own ad servers using platform-specific bid adjustment logic. The key difference is transparency: programmatic DSPs can provide hourly bid clearing price data, letting planners precisely calibrate adjustments. Walled gardens use machine-learning delivery optimization that may partially override manual daypart settings when their algorithms predict an off-hours conversion opportunity exceeds its cost."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "category": "programmatic",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "PMP (Private Marketplace) Definition | Media Planning Glossary",
+    "description": "What is a Private Marketplace (PMP) in programmatic advertising? Invitation-only deal IDs, CPM floors, brand safety, and how PMPs compare to open auction and programmatic guaranteed.",
+    "keywords": [
+      "pmp definition",
+      "private marketplace advertising",
+      "programmatic pmp",
+      "deal id programmatic",
+      "private marketplace deal",
+      "what is a pmp"
+    ],
+    "slug": "private-marketplace"
+  },
+  "term": {
+    "name": "PMP (Private Marketplace)",
+    "abbreviation": "PMP",
+    "definition": "A Private Marketplace (PMP) is an invitation-only programmatic auction in which a publisher or curated network of publishers offers premium ad inventory exclusively to a selected set of buyers, transacted via a unique Deal ID passed between the publisher's SSP and the buyer's DSP. PMPs retain real-time bidding dynamics — buyers still bid competitively — but within a controlled, premium-access environment with publisher-defined floor prices and inventory restrictions.",
+    "extended_explanation": "PMPs sit between open auction (maximum scale, minimum control) and programmatic guaranteed (maximum control, reserved delivery) in the programmatic deal spectrum. The mechanism is technically simple: the publisher creates a Deal ID in their SSP and shares it with selected buyers. When a user visits the publisher's site, the SSP sends a bid request that includes the Deal ID; the buyer's DSP recognizes the Deal ID and bids within the PMP rules (floor price, format constraints, buyer eligibility). The buyer is not obligated to buy — they bid when the impression meets their targeting criteria, winning at the highest bid above the floor. This non-guaranteed structure gives buyers flexibility while giving publishers price protection. PMP CPMs are materially higher than open auction equivalents: the average PMP CPM for CTV reached $15.00 in 2024 vs. $5.54 for open marketplace CTV, according to industry data. PMP deals now account for more than 66% of programmatic ad spending (up from 41% in 2023), reflecting the industry's deliberate migration away from open exchange's fraud, brand safety, and CPM floor erosion problems. Publishers benefit from higher eCPMs, selected brand adjacency, and stronger data partnerships; buyers gain better inventory quality, lower fraud exposure, and supply path transparency.",
+    "example": "A luxury automotive brand wants to run video ads on premium editorial sites — avoiding news adjacency, MFA inventory, and low-viewability placements. Their agency's investment team negotiates PMP deal IDs with Condé Nast (Vogue, GQ, Architectural Digest), The Atlantic, and Dotdash Meredith, with floor prices of $18–$25 CPM and viewability minimums of 70%. They activate the Deal IDs in The Trade Desk with a max bid of $35 CPM and a frequency cap of 3 exposures per user per week. The campaign delivers 4.2M impressions across 14 premium placements at an average CPM of $22.80 — versus an estimated $5–$7 CPM they'd pay for comparable reach in open auction, on inventory they cannot vet.",
+    "why_it_matters": "PMPs are the quality layer of programmatic advertising. As open auction inventory has been progressively contaminated by MFA sites, domain spoofing, and impression fraud, PMPs have become the preferred buying mode for brands that prioritize inventory quality over CPM minimization. The migration to PMPs represents a maturation of the programmatic industry: away from the race-to-the-bottom CPM optimization of open exchange and toward curated supply relationships that more closely mirror the quality controls of traditional direct media buying. For media planners, building and maintaining a PMP deal library — including deals with endemic publishers for specific verticals — is increasingly a competitive differentiator. PMPs also unlock access to publisher first-party audience data that cannot be accessed through open auction.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail brands use PMPs to access shopper-intent environments — commerce publishers, deal sites, and lifestyle media — with publisher first-party purchase-intent data baked into deal segments. PMP CPMs for retail-relevant display inventory range from $8–$18 for premium lifestyle publishers, with video PMP deals on commerce platforms hitting $15–$30 CPM. Seasonal PMP inventory (Black Friday, back-to-school, Mother's Day) books out 4–6 weeks in advance."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services brands are among the heaviest PMP users, driven by strict brand adjacency requirements and compliance mandates. Banks and insurance companies maintain standing PMPs with business press (WSJ, Bloomberg, Financial Times digital) at $15–$35 CPM, avoiding open auction adjacency to crypto fraud content, financial scam articles, and unvetted fintech sites. Some brands mandate that 70%+ of programmatic spend route through pre-approved PMP deal IDs."
+      },
+      {
+        "vertical": "Streaming / CTV",
+        "note": "CTV PMP deals are the dominant transaction structure for mid-tier streaming inventory. Average CTV PMP CPMs reached $15 in 2024–2025 (vs. $5.54 on open marketplace CTV), with premium SVOD environments like Hulu, Peacock, and Paramount+ running PMP floors of $20–$35 CPM. CTV PMPs require the buyer to commit to minimum spend thresholds (typically $25K–$50K minimum per deal) and often include audience targeting data from the streaming platform's subscriber first-party data."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      },
+      {
+        "slug": "demand-side-platform",
+        "name": "DSP (Demand-Side Platform)"
+      },
+      {
+        "slug": "header-bidding",
+        "name": "Header Bidding"
+      },
+      {
+        "slug": "viewable-cpm",
+        "name": "vCPM (Viewable CPM)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How is a PMP different from programmatic guaranteed?",
+        "answer": "A PMP is a non-guaranteed, invitation-only auction: the buyer bids when an eligible impression is available but has no obligation to purchase a specific volume, and the publisher has no obligation to deliver a fixed number of impressions. Programmatic guaranteed (PG), by contrast, is a binding reservation: the publisher commits to delivering a contracted impression volume at a negotiated CPM, and the buyer commits to paying for it — functionally equivalent to a traditional direct IO but executed through programmatic pipes. PMPs offer flexibility with quality control; PG offers delivery certainty with premium access. CTV campaigns that require specific reach goals often use PG to secure inventory commitments, while contextual or audience-driven campaigns use PMPs for quality without a delivery mandate."
+      },
+      {
+        "question": "What is a Deal ID in programmatic advertising?",
+        "answer": "A Deal ID (or Deal Identifier) is a unique alphanumeric string that represents the terms of a private marketplace or programmatic guaranteed agreement between a specific publisher and a specific buyer. The publisher's SSP generates the Deal ID and shares it with the buyer's DSP; when a bid request arrives that matches the Deal ID's criteria, the buyer's DSP knows to apply deal-specific bid parameters rather than treating the impression as standard open auction inventory. Deal IDs encode attributes including floor price, ad format, buyer eligibility, and in some cases audience segment definitions. Managing a library of active Deal IDs — and monitoring their performance (fill rate, win rate, CPM, viewability) — is an operational discipline for programmatic trading desks."
+      },
+      {
+        "question": "Why do PMPs have higher CPMs than open auction?",
+        "answer": "PMP CPMs are higher than open auction for three compounding reasons. First, publishers set floor prices that exclude the lowest-bidding demand; a publisher offering homepage inventory at a $12 floor eliminates the $1–$5 bids that dominate open auction. Second, PMP inventory is genuinely premium — high-viewability placements on brand-safe editorial environments that attract higher advertiser demand. Third, the buyer pool in a PMP is smaller and more competitive: when five blue-chip brands are the only eligible bidders for a premium slot, CPM clearing prices trend up versus an open exchange where the winning bid is often a low-quality advertiser with a $2 CPM. The CPM premium is typically 3–5x open auction rates for equivalent inventory categories."
+      },
+      {
+        "question": "How do I set up a PMP deal as a buyer?",
+        "answer": "As a buyer, PMP setup involves four steps. First, identify target publishers and contact their programmatic sales teams to negotiate deal terms — floor price, CPM ceiling, ad formats, audience segments (if any), and campaign duration. Second, receive the Deal ID from the publisher's SSP and enter it into your DSP's deal management interface (The Trade Desk, DV360, and Amazon DSP all have dedicated deal ID libraries). Third, configure your bid strategy: set a max CPM bid at or above the floor, apply audience and frequency targeting as needed, and assign the deal to the relevant campaign. Fourth, monitor deal pacing — if win rates are low, your max bid may need to increase above the floor. Most DSPs provide deal-level reporting showing bid rate, win rate, impressions delivered, and CPM, enabling ongoing deal performance optimization."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

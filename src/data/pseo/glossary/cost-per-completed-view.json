@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "video"
+  },
+  "seo": {
+    "title": "CPCV (Cost Per Completed View) Definition | Media Planning Glossary",
+    "description": "What is CPCV? Cost Per Completed View explained with formula, 2025 CTV and video benchmarks, and why it's the gold standard for measuring video ad engagement quality.",
+    "keywords": ["cpcv definition", "cost per completed view", "cost per completed view advertising", "cpcv meaning", "what is cpcv", "video completion rate"],
+    "slug": "cost-per-completed-view"
+  },
+  "term": {
+    "name": "CPCV (Cost Per Completed View)",
+    "abbreviation": "CPCV",
+    "definition": "CPCV stands for Cost Per Completed View and measures the advertising cost for each instance where a viewer watches a video ad in its entirety — from the first frame to the last. Unlike CPV, which counts any sufficiently long view, CPCV requires 100% completion of the ad unit.",
+    "extended_explanation": "CPCV is calculated by dividing total campaign spend by the total number of completed views: CPCV = Total Spend ÷ Number of Completed Views. It can also be derived from CPM and Video Completion Rate (VCR) using the formula: CPCV = CPM ÷ (VCR × 10). For example, a CTV campaign with a $25 CPM and a 95% VCR yields a CPCV of $2.63 — which means the advertiser pays $2.63 for each viewer who watches the full spot. CPCV bridges the gap between impression-based and action-based buying: it ensures budget is allocated only to genuine full-message delivery, not truncated exposures. As both a pricing model and a performance metric, CPCV is particularly relevant in video environments where completion rates vary dramatically. CTV consistently delivers the highest completion rates (94–98% for non-skippable inventory in 2025), making it the most CPCV-efficient video channel — typical CTV CPCV falls between $0.012–$0.020, substantially more efficient than social video. On platforms where ads can be skipped (YouTube TrueView, pre-roll with skip option), CPCV diverges sharply from CPV and serves as a useful proxy for message penetration versus partial exposure.",
+    "example": "A CPG brand runs concurrent video campaigns on CTV (non-skippable, $28 CPM, 95% VCR) and YouTube TrueView ($0.025 CPV, 32% view rate, 55% completion rate among viewers). The CTV CPCV calculates to $2.95 ($28 ÷ 9.5). For YouTube, assuming a $0.025 CPV and a 55% completion rate among viewers, CPCV = $0.025 ÷ 0.55 = $0.045 per completed view. At first glance, YouTube looks far more efficient on CPCV. However, CTV delivers a 30-second unskippable spot in a lean-back living room environment with 95% household co-viewing recall, while YouTube's self-selected completions skew toward a narrower engaged-but-niche audience. The media planner allocates 60% of video budget to CTV for broad reach with guaranteed full message delivery, and 40% to YouTube for targeting precision and engagement.",
+    "why_it_matters": "CPCV is the most direct measure of paid video efficiency because it prices only successful message delivery. For brand campaigns where full narrative matters — product launches, brand storytelling, political advertising, pharmaceutical DTC — paying per completed view aligns cost with actual communication value. Media planners use CPCV to compare video inventory across channels where raw CPMs are incomparable: a $35 CPM on premium CTV with 96% VCR (CPCV ~$3.65) is more efficient than a $12 CPM social pre-roll at 40% completion rate (CPCV ~$3.00 with far lower quality context). CPCV also helps diagnose creative performance — a rising CPCV on a fixed CPM channel signals that completion rates are falling, which often precedes campaign fatigue and a need for creative rotation.",
+    "related_terms": [
+      {
+        "slug": "cost-per-view",
+        "name": "CPV (Cost Per View)"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "viewability",
+        "name": "Viewability"
+      },
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail CPCV on CTV averages $2.50–$4.00 for standard 30-second spots on FAST channels (Tubi, Pluto TV, Roku Channel) and $4.00–$7.00 on premium SVOD (Hulu, Peacock). Social video CPCV for retail on Meta and YouTube ranges from $0.03–$0.08. CPG brands typically target CPCV under $3 as a media efficiency KPI, balancing reach (CTV) with engagement quality (YouTube in-feed for considered purchases)."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive video campaigns prioritize CTV and long-form YouTube for product storytelling, where CPCV on premium streaming platforms runs $3.50–$6.50. Automotive standard video completion rates on CTV average 89.6%, slightly below the overall 95% benchmark due to lower category relevance for non-intenders. OEM campaigns on YouTube skippable inventory achieve average completion rates of 45–60%, yielding CPCVs of $0.04–$0.10 — cost-efficient for upper-funnel consideration."
+      },
+      {
+        "vertical": "Healthcare / Pharma",
+        "note": "DTC pharma brands rely heavily on CTV for non-skippable video delivery, where CPCV on health-endemic streaming (Everyday Health, WebMD channels) runs $5.00–$10.00 due to premium inventory costs and narrow audience targeting. Broader pharma CTV on streaming with health-condition audience segments averages $3.50–$6.00 CPCV. Pharmaceutical brands require guaranteed completion for regulatory fair balance messaging (required disclosures), making CPCV non-skippable CTV the standard buying approach."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How do you calculate CPCV from a CPM-based campaign?",
+        "answer": "To calculate CPCV from CPM, use this formula: CPCV = CPM ÷ (VCR × 10), where VCR is your Video Completion Rate expressed as a decimal. For example, a $30 CPM campaign with an 88% VCR yields a CPCV of $30 ÷ (0.88 × 10) = $3.41. This formula works because CPM is the cost per 1,000 impressions, VCR tells you what fraction of those impressions become completed views, and multiplying by 10 normalizes the per-1,000 to a per-individual basis. Tracking both CPM and CPCV simultaneously lets planners monitor whether VCR changes are inflating true cost-per-delivery even when the CPM remains stable."
+      },
+      {
+        "question": "What is a good CPCV benchmark for CTV advertising in 2025?",
+        "answer": "For CTV advertising in 2025, a healthy CPCV falls between $2.00–$4.00 for FAST and mid-tier streaming platforms. Premium SVOD inventory (Netflix, Hulu, Peacock, Max) typically produces CPCVs of $3.00–$6.00 due to higher CPMs, but the trade-off is a premium viewing environment with strong brand recall. SMB-targeted CTV campaigns using platforms like Mntn or Premion average ~$2.63 CPCV (based on a $25 CPM at 95% VCR). A CPCV above $5 on standard (non-premium) CTV inventory suggests either CPMs are inflated or there are technical completion issues worth investigating."
+      },
+      {
+        "question": "Does paying on a CPCV model guarantee my ad will be watched fully?",
+        "answer": "Yes — under a true CPCV pricing model, you only pay when 100% of the video plays. This is standard for non-skippable CTV formats where completion is structural rather than behavioral. However, on skippable platforms (YouTube, some programmatic pre-roll), CPCV is typically calculated as a post-campaign performance metric rather than a billing model — you may be billed on CPM or CPV and then evaluate CPCV to assess how many of those paid events resulted in full views. Non-skippable CTV offers the cleanest CPCV guarantee, but even on non-skippable inventory, technical buffering, early ad pod exits, or audience dropout before content resumes can slightly suppress true completion rates below the nominal 95–98% benchmark."
+      },
+      {
+        "question": "How is CPCV different from CPV?",
+        "answer": "CPV (Cost Per View) counts any qualifying view above a platform's minimum threshold — on YouTube TrueView, that's 30 seconds watched or a click. CPCV (Cost Per Completed View) requires the viewer to watch 100% of the ad, regardless of length. For a 60-second YouTube ad, a viewer who watches 35 seconds counts as a CPV but not a CPCV. For a 15-second non-skippable CTV spot, CPV and CPCV are effectively equivalent since all viewers must watch the full unit. The gap between CPV and CPCV widens as ad length increases and as audience engagement decreases — a poorly performing 30-second YouTube ad might see 40% CPV and only 22% CPCV, indicating a significant creative hook problem at the midpoint."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

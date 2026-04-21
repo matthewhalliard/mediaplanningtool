@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "performance",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "CTR (Click-Through Rate) Definition | Media Planning Glossary",
+    "description": "What is CTR in advertising? Click-Through Rate measures how often users click your ad after seeing it — with 2025 benchmarks by channel, vertical, and campaign type.",
+    "keywords": ["ctr definition", "click-through rate", "what is ctr", "ctr advertising benchmarks", "click through rate formula", "average ctr by channel"],
+    "slug": "click-through-rate"
+  },
+  "term": {
+    "name": "CTR (Click-Through Rate)",
+    "abbreviation": "CTR",
+    "definition": "Click-Through Rate (CTR) is the percentage of ad impressions that result in a user clicking the ad. It is calculated by dividing total clicks by total impressions and multiplying by 100, and is used as a primary engagement signal across paid search, display, social, and email advertising.",
+    "extended_explanation": "The formula is straightforward: CTR = (Clicks ÷ Impressions) × 100. A display campaign delivering 1,000 clicks from 500,000 impressions has a 0.20% CTR. But interpreting CTR in isolation is misleading — meaningful CTR benchmarks are channel-specific and vary by order of magnitude.\n\nIn 2025, Google Search averages 4–6% CTR across industries, peaking above 8% in categories like arts and entertainment or automotive. Programmatic display hovers around 0.06–0.46% globally, where the wide range reflects the difference between standard banners and retargeted dynamic creative. Meta's Facebook Feed averages 1.5–1.7%; LinkedIn image ads average 0.48–0.61%; YouTube TrueView ads average 0.5–0.6%.\n\nHigh CTR is not universally desirable. In brand awareness campaigns run on CPM buying, CTR is largely irrelevant — the goal is impression delivery against a target demographic. Optimizing for high CTR in programmatic environments can actually harm campaign quality, as low-cost placements on Made for Advertising (MFA) sites produce inflated accidental clicks while delivering no downstream value. A display campaign with a 0.06% CTR on premium publisher inventory can outperform one with 0.50% CTR on low-quality open exchange inventory when conversion rate, time on site, and revenue per session are examined.\n\nModern media planners treat CTR as a creative health signal rather than a primary performance metric, pairing it with post-click metrics like bounce rate, pages per session, and conversion rate to evaluate true media value.",
+    "example": "A B2B SaaS company runs two simultaneous LinkedIn campaigns with equal $50,000 budgets over 30 days. Campaign A — sponsored content featuring a thought leadership article — delivers 800,000 impressions and 4,000 clicks at a 0.50% CTR. Campaign B — an InMail sequence targeting decision-makers — delivers 90,000 sends with 3,200 opens at a 3.5% open-to-click rate. Campaign A generates 4,000 clicks at $12.50 CPC; Campaign B generates 3,200 engaged clicks at $15.62 CPC. But Campaign B's post-click conversion rate (demo requests) is 6.8% vs. Campaign A's 2.1% — demonstrating that higher CTR does not automatically mean better business outcomes.",
+    "why_it_matters": "CTR serves as an early diagnostic signal for creative and targeting effectiveness. A CTR well below channel benchmarks typically indicates ad creative is failing to capture attention, the audience targeting is off-base, or the placement context is mismatched with the message. Conversely, a CTR spike mid-campaign can signal that creative is resonating and should be allocated more budget. For direct response campaigns in paid search, a lower-than-expected CTR also has a direct Quality Score implication in Google Ads, which affects CPC and ad rank. Even in a world where last-click attribution is being replaced by multi-touch and incrementality models, CTR remains the most accessible, real-time performance diagnostic available to every campaign manager.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail and e-commerce brands consistently achieve some of the highest display CTRs — 0.58% average in programmatic display per 2025 benchmark data, vs. a 0.30–0.46% industry average. Dynamic product retargeting ads (serving the specific SKU a user browsed) achieve CTRs of 0.62–0.73%, roughly 2× the category average. Google Shopping and Performance Max campaigns in retail average 0.8–1.3% CTR, reflecting high purchase intent. Google Search CTRs for branded retail terms routinely exceed 8–10% when competitive bidding is strong."
+      },
+      {
+        "vertical": "Healthcare / Telehealth",
+        "note": "Healthcare and telehealth advertisers face structurally lower CTRs due to audience hesitancy, privacy concerns, and higher consumer trust thresholds. Telehealth brands typically see 0.7–1.2% CTR on Meta and 1.2–2.0% on Google Search in 2025, well below cross-industry search averages. Display CTRs for healthcare services average 0.25% in programmatic environments. These lower CTRs don't indicate campaign failure — healthcare conversion rates per click are higher than in many impulse-purchase categories, so CPA can still be competitive despite lower CTR."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services display CTRs range from 0.8–1.3% in programmatic environments — among the highest for display, partly driven by urgency messaging (rate offers, limited-time promotions). Paid search CTRs for finance keywords are 2.5–3.5% on average, but can reach 5–6% for competitive terms like auto insurance or mortgage rates where ad copy differentiation is strong. LinkedIn is a critical channel for B2B fintech, where image ad CTRs average 0.48% but Sponsored InMail achieves 3–4% — used heavily for event invitations and product launches."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "cost-per-click",
+        "name": "CPC (Cost Per Click)"
+      },
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is a good CTR for digital advertising in 2025?",
+        "answer": "A good CTR is entirely channel-dependent. In 2025, Google Search averages 4–6% CTR across industries — arts, entertainment, and automotive skew above 8%. Google Display averages 0.46%; programmatic display broadly is 0.06–0.50% depending on targeting and creative. Meta Facebook Feed averages 1.5–1.7%; Instagram Feed runs 0.6%; Instagram Reels with UGC content can reach 3.8%. LinkedIn image ads average 0.48–0.61%. YouTube TrueView averages 0.5–0.6%. A CTR above these benchmarks suggests strong creative resonance; below benchmark suggests testing creative, audience, or placement."
+      },
+      {
+        "question": "Why is my display CTR low but my campaign is still performing well?",
+        "answer": "Display CTR and campaign performance are not the same thing. Display advertising's primary role in most media plans is brand awareness and upper-funnel reach — not direct-response click generation. A display campaign with a 0.06% CTR that builds brand recognition, increases direct search volume, or drives view-through conversions is delivering real value even without high click activity. Research consistently shows that display and video ad exposures lift search behavior, store visits, and conversion probability among users who saw but never clicked the ad. Optimize display for viewability, attention metrics, and reach — not CTR."
+      },
+      {
+        "question": "How does CTR affect Google Ads Quality Score?",
+        "answer": "In Google Ads, CTR is the most heavily weighted factor in expected CTR, which itself is one of the three pillars of Quality Score (alongside ad relevance and landing page experience). A higher-than-expected CTR for a given keyword signals to Google that the ad is relevant and compelling, rewarding advertisers with a higher Quality Score. Higher Quality Score leads to better ad rank (position) and lower CPC for the same ad position — meaning improving CTR can directly reduce cost-per-click over time. Google compares your ad's CTR against others showing for the same keyword, adjusting for position and match type to calculate 'expected CTR.'"
+      },
+      {
+        "question": "What is the relationship between CTR and cost-per-click (CPC)?",
+        "answer": "In CPM-priced display environments, a higher CTR directly lowers your effective CPC: CPC = CPM ÷ (CTR × 10). A $5 CPM banner with a 0.10% CTR costs $5.00 per click; the same banner with a 0.25% CTR costs $2.00 per click. This is why creative optimization for CTR matters significantly in display: doubling CTR without changing CPM effectively halves your cost per click. In CPC-priced environments like Google Search, the CPM you implicitly pay is determined by your bid and Quality Score — but CTR still influences Quality Score and therefore your actual CPC paid at auction."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "lead-generation"
+  },
+  "seo": {
+    "title": "CPL (Cost Per Lead) Definition | Media Planning Glossary",
+    "description": "What is CPL in advertising? Cost Per Lead explained with formula, 2025 B2B and B2C benchmarks by channel and industry, and how to optimize CPL for media planning.",
+    "keywords": ["cpl definition", "cost per lead", "cost per lead advertising", "cpl meaning", "what is cpl", "b2b cost per lead"],
+    "slug": "cost-per-lead"
+  },
+  "term": {
+    "name": "CPL (Cost Per Lead)",
+    "abbreviation": "CPL",
+    "definition": "CPL stands for Cost Per Lead and measures the total advertising spend required to generate one qualified prospect — typically a user who has submitted contact information, requested a demo, signed up for a trial, or otherwise indicated active interest. CPL is the primary efficiency metric for B2B advertising and lead-generation-focused B2C campaigns.",
+    "extended_explanation": "CPL is calculated by dividing total campaign spend by the number of leads generated: CPL = Total Spend ÷ Number of Leads. For example, a $50,000 LinkedIn campaign that generates 350 leads produces a CPL of $142.86. Critically, CPL alone is an incomplete performance indicator — a $20 CPL that generates low-quality, unqualified contacts is far less valuable than a $200 CPL yielding highly targeted decision-makers. CPL must always be evaluated alongside lead quality metrics: lead-to-opportunity rate, lead-to-close rate, and the average contract value of deals sourced from each channel. The average B2B CPL across all channels is $84 in 2025, with substantial variation by channel: Google Ads averages $70.11, LinkedIn averages $110+, Facebook averages $27.66, and B2B-specific channels like trade shows can reach $840. Lead definition consistency is essential — a 'lead' should be defined identically across channels (same form, same qualifying criteria) to enable apples-to-apples CPL comparison. Without this rigor, a team comparing a Google Ads CPL to a LinkedIn CPL may be comparing a low-intent gated-content download to a high-intent demo request, generating misleading efficiency signals.",
+    "example": "A B2B cybersecurity company runs simultaneous campaigns on Google Search, LinkedIn, and Meta for a managed detection and response service. Google Search generates 45 leads at a $155 CPL; LinkedIn generates 28 leads at a $320 CPL; Meta generates 90 leads at a $42 CPL. At first glance, Meta wins on cost efficiency. But when the sales team tracks SQL (Sales Qualified Lead) conversion: Google Search converts 38% of leads to SQLs ($408 cost per SQL), LinkedIn converts 52% ($615 cost per SQL), and Meta converts 8% ($525 cost per SQL). LinkedIn's premium CPL delivers the highest SQL conversion rate — nearly 7x better than Meta — and generates the most revenue-qualified pipeline per dollar at this funnel stage.",
+    "why_it_matters": "CPL is the connective tissue between media planning and revenue generation for B2B and lead-gen businesses. It determines how much budget a media plan needs to deliver pipeline targets set by sales. A business with a $5 million pipeline goal, a 20% lead-to-close rate, and a $120,000 average deal value needs roughly 208 closed deals — requiring 1,040 qualified leads. At a $150 average CPL, that's a $156,000 media budget minimum. Understanding CPL by channel also prevents common optimization errors: aggressively cutting a $300 CPL LinkedIn channel looks rational until you discover it's delivering 4x the close rate of a $60 CPL Facebook channel. Lead quality — not CPL alone — determines media efficiency in B2B.",
+    "related_terms": [
+      {
+        "slug": "cost-per-acquisition",
+        "name": "CPA (Cost Per Acquisition)"
+      },
+      {
+        "slug": "cost-per-click",
+        "name": "CPC (Cost Per Click)"
+      },
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate (CVR)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "B2B Technology / SaaS",
+        "note": "B2B SaaS CPLs range from $75–$120 on Google Ads (search intent, lower funnel) to $150–$350 on LinkedIn (title and company targeting, higher funnel). Organic content CPLs run $164 on average, blending to a mixed-channel CPL of ~$237 for the category. Enterprise SaaS targeting CIO/CISO-level buyers sees CPLs of $250–$600 on LinkedIn, justified by deal values of $100,000+ ARR. SaaS lead quality benchmarks: a 15–25% lead-to-SQL rate is considered healthy for inbound paid channels."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services generates some of the highest CPLs across verticals: $90–$160 on Google Ads for wealth management, insurance, and mortgage leads in 2025. Compliance-regulated categories (mortgage, annuities) often require extensive qualification forms that reduce lead volume but improve quality. Meta CPL for financial services can run $30–$60 for top-of-funnel content leads, but these require substantial nurture before converting — lead-to-appointment rates typically run 5–12% for social-sourced financial leads versus 20–35% for search-sourced leads."
+      },
+      {
+        "vertical": "Healthcare / Professional Services",
+        "note": "Healthcare services CPL ranges from $60–$130 for general appointment and consultation leads (Google Ads, local search), rising to $200–$400 for specialty medical procedures (elective surgery, dental implants) with narrow geographic targeting. Professional services (legal, accounting, consulting) average $80–$140 CPL on Google Search, with legal running $131.63 — the highest CPL in the Google Ads benchmark set for 2025. Specialty legal verticals like personal injury, class action, or mass tort advertising can reach CPLs of $400–$800 per qualified claimant."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the average cost per lead in 2025?",
+        "answer": "The average B2B CPL across all channels is $84 in 2025, according to Market Research Future data. Channel-specific averages vary significantly: Google Ads averages $70.11 (WordStream 2025 benchmark), LinkedIn averages $110 or more, and Facebook Lead Ads average $27.66. B2C CPL is typically lower — across Google Ads categories, general consumer lead gen averages around $50–$80. These averages mask enormous industry spread: legal services averages $131.63 CPL on Google Ads, while Restaurants & Food averages just $23.71. Always compare CPL within industry verticals and channel type rather than against a cross-industry number."
+      },
+      {
+        "question": "What is the difference between CPL and CPA?",
+        "answer": "CPL (Cost Per Lead) measures the cost to generate a prospect who has expressed interest — a form submission, demo request, or free trial signup. CPA (Cost Per Acquisition) measures the cost to generate a completed conversion — typically a purchase, subscription, or signed contract. In a sales funnel, CPL comes before CPA: many leads never convert to acquisitions. For businesses with sales cycles, CPL is the primary media planning metric because revenue-generating conversions happen offline (a sales call, a signed contract) outside of the ad platform's tracking window. CPL and CPA are related by the lead-to-close rate: CPA = CPL ÷ Close Rate. If CPL is $100 and close rate is 20%, the effective CPA (per customer acquired) is $500."
+      },
+      {
+        "question": "How do I set a target CPL for my campaigns?",
+        "answer": "Work backward from customer economics. Start with your target CPA (the maximum you can afford to acquire a customer profitably), then apply your historical lead-to-close rate: Target CPL = Target CPA × Lead-to-Close Rate. For example, if your target CPA is $800 (based on a $4,000 average deal and a 5:1 CAC-to-ACV ratio) and your close rate is 15%, your target CPL = $800 × 0.15 = $120. This approach anchors CPL targets in business reality rather than arbitrary benchmarks. Once a target is set, use it to evaluate channels: any channel consistently generating leads above the target CPL (before adjusting for lead quality) should be audited for audience quality, landing page conversion rate, and lead definition consistency."
+      },
+      {
+        "question": "Why is my CPL on LinkedIn so much higher than on Google or Facebook?",
+        "answer": "LinkedIn CPL is structurally higher than Google Ads or Meta because of inventory supply and audience scarcity. LinkedIn's professional audience — filtered by job title, seniority, company size, and industry — is limited in absolute scale compared to broad social platforms or the entire Google search ecosystem. Reaching a CTO-level decision-maker in enterprise SaaS through LinkedIn requires bidding against every B2B brand targeting that same persona, driving CPCs and CPLs up to $150–$350. However, LinkedIn leads in B2B contexts consistently show higher lead-to-SQL rates (40–55%) compared to Meta (5–15%) or even Google (25–40%). The right frame is not 'which channel has the lowest CPL' but 'which channel has the lowest cost per qualified pipeline dollar.'"
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "category": "reach-audience"
+  },
+  "seo": {
+    "title": "Share of Voice (SOV) Definition | Media Planning Glossary",
+    "description": "What is Share of Voice? SOV measures your brand's share of total category ad presence — with formulas, benchmarks, and the link to market share growth.",
+    "keywords": ["share of voice definition", "sov advertising", "what is share of voice", "share of voice formula", "sov marketing metric", "excess share of voice", "esov"],
+    "slug": "share-of-voice"
+  },
+  "term": {
+    "name": "Share of Voice (SOV)",
+    "abbreviation": "SOV",
+    "definition": "Share of Voice (SOV) is the percentage of total advertising presence or spend within a defined category that belongs to a single brand. It quantifies how loud a brand is relative to all competitors in a market and is a foundational input for media budget-setting and competitive strategy.",
+    "extended_explanation": "SOV is most commonly calculated on a spend, impression, or GRP basis depending on the data source available. The spend-based formula is: SOV = (Brand Ad Spend ÷ Total Category Ad Spend) × 100. For example, if a category generates $500M in total advertising and a brand spends $75M, its SOV is 15%.\n\nThe strategic power of SOV comes from its relationship to Share of Market (SOM). The foundational Binet and Field research — based on 171 IPA campaigns — found that brands with SOV above their SOM tend to grow, while brands with SOV below their SOM tend to decline. This principle is known as Excess Share of Voice (ESOV): ESOV = SOV − SOM. Research indicates that each 10 percentage points of ESOV is associated with approximately 0.5% incremental market share gain per year, though the effect is stronger for smaller brands.\n\nSOV can be measured across multiple dimensions: paid advertising (spend or impression share), organic search (keyword visibility share), social media (conversation and mention share), and PR (media coverage share). Modern media planners typically track paid SOV by channel — TV SOV, paid search impression share, social SOV — separately, since competitive dynamics and pricing differ substantially across channels.\n\nIn programmatic advertising, Google's impression share metric is an operational proxy for paid search SOV, while tools like MediaRadar, Standard Media Index (SMI), and Pathmatics enable cross-channel SOV tracking for display, video, and social.",
+    "example": "A challenger beverage brand holds 8% category market share and has historically maintained 6% paid media SOV — running below market share and effectively ceding advertising presence to category leaders. As part of a growth push, the CMO targets 14% SOV for the following fiscal year, creating 6 points of ESOV (+6% above SOM). Per the Binet and Field ESOV model, this should drive approximately 0.3% incremental annual market share gain. To achieve 14% SOV in a $400M total category spend environment, the brand needs to invest $56M in paid media — up from approximately $24M the prior year.",
+    "why_it_matters": "SOV connects the day-to-day work of media planning to long-term business outcomes. While CPM, CTR, and ROAS measure campaign efficiency and short-term performance, SOV tracks whether a brand is investing enough, relative to competition, to maintain or grow its market position. Brands that allow SOV to fall below SOM consistently lose market share over time — a finding validated across CPG, auto, financial services, and technology categories. For media planners, SOV benchmarks also inform flighting strategy: brands with high ESOV can consolidate spend in shorter, heavier bursts; brands fighting to recover SOV need sustained, continuous presence across channels.",
+    "vertical_context": [
+      {
+        "vertical": "CPG / FMCG",
+        "note": "In mature CPG categories like laundry, carbonated beverages, or snack foods, category leaders often hold 30–50% paid media SOV. Challenger brands growing rapidly (e.g., premium private-label entrants or better-for-you brands) typically target ESOV of 5–15 points above their current market share. Nielsen and SMI data show CPG TV SOV is the most closely tracked by category management teams, but paid social and retail media SOV are rapidly growing in importance as in-store shopper decisions migrate online."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "OEM-level automotive SOV is dominated by GM, Toyota, Ford, and Stellantis, which each hold 12–20% of category TV spend in a given quarter per SMI data. Import luxury brands (BMW, Mercedes, Lexus) typically maintain 3–6% national TV SOV against full-category spend, relying on premium placements with high CPMs to punch above their weight. At the DMA level, dealer group SOV for local TV and streaming audio is far more fragmented — top dealers in large DMAs may represent 15–30% of local auto advertising."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "In insurance, credit cards, and mortgage lending, SOV battles are intense and budget-intensive. Progressive, GEICO, and State Farm collectively command over 60% of national insurance advertising spend. New entrants and digital-native fintech brands use paid search impression share (a real-time SOV proxy within Google Ads) as their primary competitive SOV signal since search intent drives the majority of insurance conversions. A fintech achieving 20%+ impression share in branded competitor search terms is making a meaningful SOV statement in a cost-effective way."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "gross-rating-point",
+        "name": "GRP (Gross Rating Point)"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      },
+      {
+        "slug": "media-mix",
+        "name": "Media Mix"
+      },
+      {
+        "slug": "reach",
+        "name": "Reach"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How is Share of Voice calculated?",
+        "answer": "SOV is calculated by dividing a brand's advertising presence by the total category advertising presence, then multiplying by 100: SOV = (Brand's metric ÷ Total category metric) × 100. The 'metric' depends on what data you have available: ad spend (most common for paid media), impressions, GRPs, or mentions for social/PR. For example, if your brand delivers 300 million impressions in a quarter and the full competitive category delivers 2 billion impressions, your impression-based SOV is 15%. In paid search, Google's 'impression share' metric is a direct SOV proxy — it reports the percentage of eligible auctions in which your ads appeared."
+      },
+      {
+        "question": "What is Excess Share of Voice (ESOV) and why does it matter?",
+        "answer": "Excess Share of Voice (ESOV) is the gap between a brand's SOV and its Share of Market (SOM): ESOV = SOV − SOM. A positive ESOV (SOV > SOM) indicates a brand is investing above its weight class, which research by Les Binet and Peter Field has shown correlates with market share growth — roughly 0.5% market share gain per year for every 10 points of ESOV, though this varies by category and brand size. A negative ESOV (SOV < SOM) indicates under-investment, which historically predicts market share erosion over a 1–3 year horizon. ESOV is most reliably predictive for brands with SOM under 20%; large category leaders face diminishing returns from additional ESOV."
+      },
+      {
+        "question": "How do I measure Share of Voice in digital advertising?",
+        "answer": "Digital SOV measurement varies by channel. In paid search, Google and Microsoft Ads provide impression share natively in campaign dashboards — this is the most accurate real-time SOV signal available. In programmatic display and social, competitive intelligence tools like Pathmatics, Semrush Advertising Research, SimilarWeb, and MediaRadar track estimated competitive spend and impression volumes, enabling SOV benchmarking. For organic search, SEO SOV (sometimes called search visibility score) measures the percentage of total category keyword traffic your domain captures relative to competitors. For social conversation, tools like Brandwatch, Talkwalker, and Sprinklr track mention SOV across Twitter/X, Reddit, TikTok, and Instagram."
+      },
+      {
+        "question": "What is a good Share of Voice benchmark for a challenger brand?",
+        "answer": "A challenger brand — defined as one with market share below the category leader — should target a minimum SOV equal to its SOM to avoid losing ground, and ideally SOV 5–15 points above SOM to drive growth. In practice, many challenger brands in CPG, fintech, and DTC categories start with SOV deficits of 5–10% below their SOM, which correlates with sluggish growth. SOV benchmarks also differ dramatically by channel: a brand might hold 25% TV SOV but only 8% paid search SOV, requiring targeted investment in search to close the gap in high-intent demand capture. Budget-efficient SOV strategies increasingly use CTV, retail media, and owned social to build presence without competing in premium broadcast auctions dominated by category giants."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

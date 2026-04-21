@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "performance",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "ROAS (Return on Ad Spend) Definition | Media Planning Glossary",
+    "description": "What is ROAS in advertising? Return on Ad Spend measures revenue per dollar of ad spend — with 2025–2026 benchmarks by platform, industry, and campaign type.",
+    "keywords": ["roas definition", "return on ad spend", "what is roas", "roas benchmarks 2025", "good roas advertising", "roas formula", "roas vs roi"],
+    "slug": "return-on-ad-spend"
+  },
+  "term": {
+    "name": "ROAS (Return on Ad Spend)",
+    "abbreviation": "ROAS",
+    "definition": "Return on Ad Spend (ROAS) measures the revenue generated for every dollar spent on advertising. It is expressed as a ratio or multiplier — a 4:1 ROAS means $4 in revenue was attributable to every $1 in ad spend — and is the primary financial efficiency metric for direct-response and performance media campaigns.",
+    "extended_explanation": "The formula is: ROAS = Revenue Attributed to Ads ÷ Ad Spend. A campaign that spends $25,000 and generates $100,000 in attributed revenue has a 4.0 ROAS (or 400%). ROAS is distinct from ROI: ROI accounts for profit margins, cost of goods, and all business expenses; ROAS only measures top-line revenue against media cost.\n\nWhat constitutes a 'good' ROAS is entirely margin-dependent. A business with a 20% gross margin needs at least a 5.0 ROAS just to break even on ad spend. A business with a 60% gross margin can sustain a 2.0 ROAS profitably. The minimum viable ROAS = 1 ÷ Gross Margin %. Media planners and performance marketers must calculate their break-even ROAS before setting campaign targets.\n\nIn 2025–2026, median Google Ads ROAS sits at approximately 3.5:1 across all industries. Paid search consistently outperforms other formats — Google Search campaigns deliver a median 5.17:1 ROAS, while Performance Max averages 2.57:1 and display campaigns average 0.12:1 (reflecting their primarily awareness function). Cross-platform comparisons show Meta averaging 2.5–4.0:1 for blended campaigns; LinkedIn approximately 2.89:1 for B2B.\n\nROAS is highly sensitive to attribution model selection. Last-click attribution systematically inflates ROAS for bottom-funnel channels (branded search, retargeting) while deflating it for upper-funnel awareness channels. Data-driven attribution, incrementality testing, and media mix modeling give more reliable ROAS estimates when budget allocation across the full funnel is the decision being made.",
+    "example": "An apparel DTC brand runs a Meta retargeting campaign targeting users who added items to cart but did not purchase, with a $10,000 weekly budget. The campaign generates $52,000 in attributed revenue — a 5.2 ROAS. On last-click attribution, this looks excellent. However, an incrementality test (running a geo holdout where the retargeting campaign is suppressed) reveals that 60% of those purchases would have occurred organically without the ad. The true incremental ROAS is 5.2 × 0.40 = 2.08 — still above the brand's 1.8 break-even ROAS at a 55% gross margin, but far less impressive than the reported number.",
+    "why_it_matters": "ROAS is the lingua franca of performance marketing — it translates media investment directly into business outcomes that finance and leadership teams understand. A media plan with a 4.5 ROAS earns more budget; one consistently delivering 1.2 ROAS gets cut. But ROAS should never be optimized in isolation. Obsessively chasing the highest ROAS channels (typically branded search and retargeting) creates a budget concentration problem — you harvest existing demand without investing in the brand-building and prospecting that creates future demand. The most sophisticated media planners maintain separate ROAS targets by funnel stage: lower targets (2.0–3.0) for prospecting and awareness, higher targets (5.0–8.0) for consideration and conversion campaigns.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "E-commerce brands average 2.81:1 ROAS on Google Ads in 2025. Google Shopping and Performance Max campaigns deliver 2.88:1 median ROAS — but top-performing retail brands using first-party audience data and dynamic creative achieve 5–8:1 on branded search and retargeting. Meta ROAS for impulse-purchase categories (apparel, beauty, accessories) averages 3.0:1, with retargeting campaigns reaching 5–10:1. Q4 holiday campaigns typically see 30–50% ROAS improvement due to elevated purchase intent and consumer spending."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive ranks among the highest-ROAS sectors in paid search — averaging 3.85:1 on Google Ads in 2025, driven by high transaction values per conversion. Auto parts and accessories sub-categories achieve 5.44:1 ROAS due to lower CPCs relative to vehicle sale values. At the dealer level, service appointment campaigns routinely achieve 6–10:1 ROAS since service revenue is high-margin and repeat purchase rates are strong. OEM brand campaigns are typically excluded from ROAS analysis due to the multi-year attribution window between ad exposure and vehicle purchase decision."
+      },
+      {
+        "vertical": "B2B / SaaS",
+        "note": "B2B SaaS ROAS benchmarks are notoriously difficult to interpret due to long sales cycles (3–18 months), multi-stakeholder buying committees, and the disconnect between marketing-sourced leads and closed-won revenue. Google Ads ROAS for B2B SaaS averages 1.29:1 in last-click models — which reflects the problem, not the reality. Properly measured with multi-touch or marketing mix modeling and a 6–12 month attribution window, enterprise SaaS companies with $50K+ ACV regularly generate 8–15:1 ROAS on paid demand generation. LinkedIn Sponsored InMail and content campaigns contribute disproportionately to pipeline but show poor last-click ROAS."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "cost-per-acquisition",
+        "name": "CPA (Cost Per Acquisition)"
+      },
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate"
+      },
+      {
+        "slug": "attribution",
+        "name": "Attribution"
+      },
+      {
+        "slug": "media-mix-modeling",
+        "name": "MMM (Media Mix Modeling)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between ROAS and ROI?",
+        "answer": "ROAS (Return on Ad Spend) measures revenue generated per dollar of ad spend: ROAS = Revenue ÷ Ad Spend. ROI (Return on Investment) measures profit against total investment, accounting for all costs including COGS, overhead, and fulfillment: ROI = (Revenue − Total Costs) ÷ Total Costs × 100. A campaign with a 4:1 ROAS might have a negative ROI if the product has a 20% gross margin — since $4 in revenue at 20% margin yields only $0.80 in gross profit on $1 of ad spend. ROAS is a media-specific efficiency ratio; ROI is a business profitability metric. Both matter, but ROAS is the primary tool for comparing campaign and channel performance within a media plan."
+      },
+      {
+        "question": "What ROAS should I target for my advertising campaigns?",
+        "answer": "Target ROAS is a function of your gross margin, not a universal benchmark. The break-even ROAS formula is: Break-even ROAS = 1 ÷ Gross Margin %. A brand with a 40% gross margin needs at least a 2.5:1 ROAS to cover ad spend from margin. A brand with a 25% gross margin needs 4.0:1. Industry medians in 2025–2026 show Google Search at 5.17:1, Meta blended at 2.5–4.0:1, and the overall Google Ads median at 3.5:1. New customer acquisition (prospecting) should have lower ROAS targets than retargeting, which operates on existing demand. Brands with high customer lifetime value should also set ROAS targets based on LTV, not single-transaction revenue."
+      },
+      {
+        "question": "How does attribution affect ROAS calculations?",
+        "answer": "Attribution model selection dramatically changes reported ROAS by channel. Last-click attribution assigns 100% of conversion credit to the final ad touchpoint before purchase, consistently over-rewarding bottom-funnel channels (branded search, retargeting) and under-rewarding upper-funnel channels (display, video, social prospecting). A display campaign might show 0.12 ROAS on last-click while contributing significantly to awareness that drives later branded search conversions. Data-driven attribution (available in Google Ads), Northstar-style media mix models, and incrementality tests — geo holdouts or synthetic control experiments — provide more accurate ROAS estimates that account for the full contribution of each channel."
+      },
+      {
+        "question": "What is target ROAS (tROAS) bidding in Google Ads?",
+        "answer": "Target ROAS (tROAS) is a Smart Bidding strategy in Google Ads that automatically adjusts bids to achieve a specific ROAS goal across a campaign. The algorithm analyzes real-time auction signals — device, location, time of day, audience, query — to bid higher when conversion value is likely to be high and lower when it's not. To function effectively, tROAS requires a minimum of 15–50 conversions per month tracked via Google Ads conversion tracking, with accurate revenue values assigned to each conversion event. Setting tROAS too high can restrict impression volume by excluding auctions the algorithm predicts won't hit the target; setting it too low sacrifices margin for volume. Most practitioners recommend starting tROAS at 20–30% below your actual target ROAS to avoid under-delivery, then tightening incrementally."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

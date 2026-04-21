@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "paid-search"
+  },
+  "seo": {
+    "title": "CPC (Cost Per Click) Definition | Media Planning Glossary",
+    "description": "What is CPC in advertising? Cost Per Click explained with formula, 2025 benchmarks by channel and industry, and why it matters for media planning and budget allocation.",
+    "keywords": ["cpc definition", "cost per click", "cost per click advertising", "cpc meaning", "what is cpc", "pay per click"],
+    "slug": "cost-per-click"
+  },
+  "term": {
+    "name": "CPC (Cost Per Click)",
+    "abbreviation": "CPC",
+    "definition": "CPC stands for Cost Per Click and measures the amount an advertiser pays each time a user clicks on an ad. It is the dominant pricing model in paid search advertising and a core performance metric across social, display, and shopping channels.",
+    "extended_explanation": "CPC is calculated by dividing the total amount spent on a campaign by the total number of clicks generated: CPC = Total Spend ÷ Total Clicks. For example, a $5,000 paid search campaign that drives 1,200 clicks produces a CPC of $4.17. CPC-based buying puts advertisers in control of traffic costs independent of impression volume — you pay only when a user takes the step of clicking, making it inherently more action-oriented than CPM. In Google Ads, actual CPC is determined by an ad auction: your maximum bid is moderated by Quality Score (a composite of expected CTR, landing page relevance, and ad relevance), meaning a lower-quality ad pays more per click than a highly relevant competitor bidding less. This quality-adjusted dynamic is critical — chasing the lowest CPC without monitoring conversion rate leads to cheap, low-quality clicks that don't convert. CPC should always be evaluated in context with conversion rate and CPA to understand true acquisition efficiency. On social platforms like Meta, CPC is typically far lower than on search ($0.70 average on Facebook traffic campaigns in 2025 vs. $5.26 on Google Ads), but intent and conversion rates differ substantially between the two environments.",
+    "example": "A home improvement brand running Google Search campaigns targets keywords like 'kitchen remodel cost' and 'bathroom renovation contractors.' The average CPC in the Home & Home Improvement category is $7.85 on Google Ads in 2025. With a $15,000 monthly budget, they'd generate roughly 1,911 clicks. At a 12% conversion rate to lead form submission, that's ~229 leads and an implied CPL of ~$65. To reduce CPC, the team layers in negative keywords to eliminate low-intent traffic and improves landing page relevance — pushing Quality Scores from 5 to 8, which reduces average CPC to $5.50 and increases leads to 327 within the same budget.",
+    "why_it_matters": "CPC is the foundational traffic cost metric in performance media. It determines how efficiently a campaign converts budget into visits, and when paired with conversion rate, directly controls CPA. For media planners, CPC benchmarks by channel and industry inform channel selection, bid strategy, and budget allocation. A brand that understands it can reach the same audience at $0.79 CPC on Meta versus $7.85 on Google (Home & Home Improvement, 2025) can make an informed decision about where high-funnel consideration spend belongs versus where to deploy budget for high-intent conversion traffic. Unmonitored CPC inflation — Google Ads CPC rose across 87% of industries in 2025 — is one of the leading causes of deteriorating paid media ROI.",
+    "related_terms": [
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "cost-per-acquisition",
+        "name": "CPA (Cost Per Acquisition)"
+      },
+      {
+        "slug": "click-through-rate",
+        "name": "CTR (Click-Through Rate)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Google Ads CPCs for retail and shopping average $3–$4 for non-brand search and $0.10–$0.30 for Google Shopping (PLA) formats. On Meta, retail CPCs ran ~$0.86 for apparel and ~$0.79 for automotive in 2025. Shopping CPCs spike 30–60% in Q4 (Black Friday through Cyber Monday) as auction competition intensifies from both endemic and opportunistic advertisers."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Google Ads CPC for Automotive — For Sale averages $2.41, while Repair/Service/Parts runs $3.90 in 2025. Meta automotive CPCs sit at $0.79–$0.81 for sales and service. Search CPCs for high-intent terms like 'lease deals near me' or brand-specific model searches can reach $6–$12, particularly in competitive DMAs like Los Angeles, New York, and Houston."
+      },
+      {
+        "vertical": "Legal Services",
+        "note": "Legal services commands the highest Google Ads CPC of any category at $8.58 in 2025, driven by high-intent queries and extremely high customer lifetime value — a single personal injury case can generate six-figure fees. Keywords like 'DUI lawyer' or 'medical malpractice attorney' regularly exceed $20–$50 CPC in major metros. Even on Meta, legal CPCs average $0.86, above the platform median."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is a good CPC for Google Ads in 2025?",
+        "answer": "There is no universal 'good' CPC — it depends entirely on your industry, keyword intent, and conversion rate. The overall Google Ads average is $5.26 in 2025, but industry ranges vary from $1.60 (Arts & Entertainment) to $8.58 (Attorneys & Legal Services). A more useful frame: calculate your target CPA, then work backward using your expected conversion rate to determine the maximum CPC you can sustain profitably. For example, if your target CPA is $50 and your landing page converts at 10%, you can afford up to a $5 CPC and remain on target."
+      },
+      {
+        "question": "What is the difference between CPC and CPM?",
+        "answer": "CPC (Cost Per Click) charges advertisers per click received, regardless of how many times the ad is shown. CPM (Cost Per Mille) charges per 1,000 impressions, regardless of how many users click. CPC is the default model in paid search and performance-oriented social campaigns where driving traffic is the goal. CPM is standard in display, video, programmatic, and brand awareness campaigns where reach and exposure are the objective. Many platforms, including Meta and Google Display, allow advertisers to choose between both models, and the optimal choice depends on campaign objective and expected CTR."
+      },
+      {
+        "question": "Why is my CPC increasing even though my bids haven't changed?",
+        "answer": "CPC can rise even with static bids due to several market forces: increased competitor entry into your auction, seasonal demand spikes (Q4, back-to-school, tax season), Quality Score deterioration (landing page changes, ad fatigue), audience overlap with higher-bidding competitors, or platform-level inflation. In 2025, Google Ads CPC rose for 87% of industries year-over-year. Regularly audit your impression share, auction insights reports, and Quality Score components to diagnose CPC inflation. Sometimes the fix is creative refresh and landing page improvement rather than bid changes."
+      },
+      {
+        "question": "How does CPC differ between Google Ads and social media platforms?",
+        "answer": "CPC on Google Search is typically much higher than on social platforms but reflects stronger purchase intent. Google Ads average CPC is $5.26 in 2025, while Facebook traffic campaigns average just $0.70. The reason: Google Search captures users actively querying for a solution (high intent), while social platforms reach users in browsing or entertainment mode (lower immediate intent). This means social CPCs look cheaper but often require more clicks and longer nurture cycles to produce the same conversion volume. Smart media plans use both channels together, allocating Google for bottom-funnel conversion and social for top-of-funnel awareness and retargeting."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

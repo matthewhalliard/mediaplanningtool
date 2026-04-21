@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "category": "performance"
+  },
+  "seo": {
+    "title": "Conversion Rate (CVR) Definition | Media Planning Glossary",
+    "description": "What is conversion rate in advertising? CVR measures the percentage of users who complete a desired action after ad exposure — with channel benchmarks and examples.",
+    "keywords": ["conversion rate definition", "cvr advertising", "conversion rate benchmark", "what is cvr", "ad conversion rate", "cvr media planning"],
+    "slug": "conversion-rate"
+  },
+  "term": {
+    "name": "Conversion Rate (CVR)",
+    "abbreviation": "CVR",
+    "definition": "Conversion Rate (CVR) is the percentage of users who complete a desired action — a purchase, lead form submission, app install, or sign-up — after being exposed to or clicking on an ad. It is one of the most direct indicators of campaign effectiveness and the health of the post-click experience. CVR bridges top-of-funnel media investment with bottom-funnel business outcomes.",
+    "extended_explanation": "CVR is calculated by dividing the number of conversions by the total number of clicks (or, in view-through measurement, impressions), then multiplying by 100. The formula is: CVR = (Conversions / Clicks) × 100. A campaign generating 5,000 clicks and 175 purchases has a CVR of 3.5%.\n\nThe right CVR benchmark depends heavily on channel, industry, and conversion type. Search ads average 3.35% CVR because users arrive with explicit purchase intent; display ads average just 0.55% because they intercept users mid-browse. Video ads can reach 4.8% CVR when paired with strong calls-to-action. E-commerce CVR ranges from 1.4% (home décor) to 6.8% (personal care) in 2025.\n\nTwo factors beyond the ad itself determine CVR: landing page quality and audience match. Even a technically perfect ad will underperform if it routes users to a generic homepage or a slow-loading mobile page. Media planners who control for CVR — not just CTR or impressions — pressure-test whether their creative, targeting, and landing experience are aligned. In full-funnel planning, CVR is used alongside CPM and CPC to compute true cost-per-acquisition and validate ROAS.",
+    "example": "A DTC apparel brand runs two parallel search campaigns with identical $20,000 budgets. Campaign A targets broad non-brand keywords ('men's chinos') and achieves a 1.8% CVR on 12,000 clicks, generating 216 purchases at a $92.60 CPA. Campaign B targets branded and high-intent terms ('buy slim-fit chinos online') and achieves a 5.2% CVR on 8,000 clicks, generating 416 purchases at a $48.08 CPA. Despite fewer clicks, the high-intent campaign nearly doubles conversion volume at roughly half the CPA. This CVR differential drives a budget reallocation — 70/30 in favour of Campaign B — while Campaign A is rebuilt with tighter keyword matching and a product-specific landing page.",
+    "why_it_matters": "CVR is the connective tissue between media efficiency and business outcomes. A campaign can hit impressive reach, low CPMs, and strong CTRs yet still fail to drive revenue if the conversion funnel breaks down. Media planners use CVR to diagnose exactly where value is being lost — whether in ad creative, audience quality, landing page UX, or offer relevance. It also enables accurate forecasting: if you know a channel's expected CVR, you can work backwards from a revenue target to determine the required impression or click volume and associated budget. In a performance marketing context, CVR is the primary lever for improving CPA without increasing spend.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "E-commerce CVR averages 2.5–3.5% for paid search and 0.3–0.8% for programmatic display in 2025. Personal care and food & beverage categories lead with CVRs up to 6.8% and 4.9% respectively, driven by low price points and habitual purchase behavior. Black Friday/Cyber Monday campaigns often see 2–3× normal CVR as purchase intent spikes across the category."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services paid search CVR runs 5–8% for credit card and insurance lead forms, where high consumer intent meets well-optimized landing pages. Display retargeting for financial products typically achieves 0.6–1.2% CVR. Longer consideration cycles for mortgages and investment products depress CVR to 0.3–0.8% on prospecting campaigns, requiring multi-touch nurture before conversion."
+      },
+      {
+        "vertical": "B2B / SaaS",
+        "note": "B2B SaaS conversion rates are among the lowest at 1.1–1.5% for paid search due to complex evaluation cycles, multiple stakeholders, and higher price points. Free trial sign-up pages convert at 2–4% when optimized, while demo request forms typically yield 1.5–2.5% CVR. LinkedIn lead gen forms outperform standard display landing pages by 2–3× in this vertical due to reduced friction and pre-filled data."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "click-through-rate",
+        "name": "CTR (Click-Through Rate)"
+      },
+      {
+        "slug": "cost-per-acquisition",
+        "name": "CPA (Cost Per Acquisition)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      },
+      {
+        "slug": "attribution",
+        "name": "Attribution"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is a good conversion rate for digital advertising?",
+        "answer": "There is no universal 'good' CVR — it depends entirely on channel, industry, and conversion type. Search ads average 3.35% CVR because users arrive with high purchase intent, while display ads average 0.55% since they intercept passive audiences. Across all paid channels, a cross-industry average of 2.5% is a reasonable directional benchmark in 2025. For e-commerce specifically, personal care tops the charts at 6.8% CVR while luxury goods and home décor sit closer to 1.4–1.5%. The better question is: what CVR is required to hit your CPA or ROAS target at your current CPCs? Work backwards from business goals rather than comparing to an abstract industry average."
+      },
+      {
+        "question": "What is the difference between CVR and CTR?",
+        "answer": "CTR (Click-Through Rate) measures the percentage of ad impressions that generate a click — it gauges ad creative relevance and audience targeting precision. CVR (Conversion Rate) measures the percentage of those clicks that lead to a desired action downstream — it gauges landing page quality, offer strength, and audience intent. A campaign can have an excellent CTR of 2% but a dismal CVR of 0.2% if the post-click experience is poor. Conversely, a low CTR campaign with high CVR often indicates strong intent-matching even if volume is limited. Media planners need both metrics together: CTR × CVR gives you the effective conversion rate from impression to action, which feeds directly into CPA calculations."
+      },
+      {
+        "question": "How does conversion rate vary by attribution model?",
+        "answer": "CVR figures shift dramatically depending on whether you use last-click, first-click, or multi-touch attribution. Last-click CVR appears highest because only clicks that directly precede conversion are credited — all the 'assist' clicks from awareness channels show zero conversions. Under multi-touch attribution, credit distributes across all touchpoints, which lowers the apparent CVR for any single channel but gives a more accurate view of the funnel. View-through attribution — counting a conversion if a user saw an ad within a lookback window, even without clicking — inflates display CVR significantly. Always specify your attribution model when reporting or benchmarking CVR, particularly for upper-funnel channels like CTV, display, and social prospecting."
+      },
+      {
+        "question": "Why does my CVR drop when I scale up spend?",
+        "answer": "CVR degradation at scale is one of the most consistent patterns in performance advertising. When you exhaust your highest-intent audience segment first, additional spend reaches progressively less-intent users — their CVR is naturally lower. In paid search, expanding to broader keyword match types or lower-intent queries dilutes the audience pool. In social and programmatic, increasing frequency beyond the saturation point generates diminishing returns as seen users begin ignoring ads. In 2025, industry data shows CVR can decline 20–40% as campaigns scale from their initial audience core into broader reach tiers. The solution is creative refresh, audience segmentation by intent stage, and bid strategy adjustments — not just an increased budget."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

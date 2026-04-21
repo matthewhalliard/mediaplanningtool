@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "category": "reach-audience",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Impressions Definition | Media Planning Glossary",
+    "description": "What are impressions in advertising? Impressions count each time an ad is displayed — with types, channel benchmarks, and how they connect to reach and frequency.",
+    "keywords": ["impressions definition", "ad impressions", "what are impressions advertising", "impressions vs reach", "total impressions media planning", "served impressions"],
+    "slug": "impressions"
+  },
+  "term": {
+    "name": "Impressions",
+    "definition": "An impression is counted each time an ad is rendered or displayed to a user, regardless of whether the user engages with it. Total impressions represent the gross number of ad exposures across all placements and audience members during a campaign — including duplicate exposures to the same individual.",
+    "extended_explanation": "Impressions are the most fundamental unit of measurement in media. The formula connecting impressions to reach and frequency is: Impressions = Reach × Frequency. If a campaign reaches 1,000,000 unique users with an average frequency of 4, it delivers 4,000,000 total impressions.\n\nIt is critical to distinguish between served impressions and measured impressions. Served impressions are the number of times an ad was sent from the ad server to a user's browser or device. Measured impressions are verified by a third-party measurement vendor (IAS, DoubleVerify, MOAT) confirming the ad actually rendered in a user's browser. The delta between served and measured often ranges from 8–15% depending on inventory quality and ad tech stack.\n\nViewable impressions add a further filter — IAB standards define display viewability as 50% of pixels in view for at least 1 consecutive second (2 seconds for video). On average, 55–65% of served display impressions meet the MRC viewability standard in 2025, though premium PMP inventory regularly achieves 70–85% viewability rates.\n\nFor media planners, raw impression volume is a reach-building tool — but CPM, vCPM, and attention metrics determine whether those impressions are worth the spend. Total impressions also feed into frequency calculations: if a campaign has a hard frequency cap of 5 impressions per user, impression delivery will self-limit once the unique reach pool is exhausted.",
+    "example": "A national retail brand runs a 4-week programmatic display campaign with a $200,000 budget and a blended CPM of $8. Using the formula: Impressions = (Budget ÷ CPM) × 1,000 = (200,000 ÷ 8) × 1,000 = 25,000,000 total served impressions. With a frequency cap of 5 impressions per user, the campaign can reach a maximum of 5,000,000 unique users. A third-party viewability vendor measures 62% of served impressions as viewable, yielding 15,500,000 viewable impressions — giving a vCPM of $12.90. The planner uses this calculation pre-campaign to forecast reach and compare efficiency against a CPM of $5 with lower viewability.",
+    "why_it_matters": "Impressions are the building block from which every downstream media metric is derived — reach, frequency, GRPs, TRPs, vCPM, and effective CPM all flow from impression counts. For media planners, managing total impressions against budget and reach goals is a constant balancing act: too few impressions and you fail to build meaningful reach; too many against a small audience produces excessive frequency and creative wear-out. In programmatic environments where millions of impressions are transacted per second across thousands of publishers, understanding impression quality — not just volume — is the difference between efficient and wasteful media spend.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail brands running national programmatic display campaigns typically generate 50–200 million monthly impressions at open auction CPMs of $1.50–$4. Retargeting pools — serving to users who visited the site but did not convert — average 5–15 million impressions monthly for mid-size retailers and command premium CPMs of $6–$12 due to higher conversion probability. During Q4, impression costs inflate 40–80% as competition drives CPMs up sharply across open exchange inventory."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Insurance and banking advertisers typically pay the highest display CPMs due to compliance and audience targeting constraints, generating fewer total impressions per dollar. A mid-size insurance brand running audience-targeted display against in-market auto insurance shoppers might deliver 10–20 million impressions monthly at CPMs of $12–$25. Viewability requirements are often set at 70%+ in financial services contracts, reducing available inventory and increasing effective CPM versus raw impression volume."
+      },
+      {
+        "vertical": "Entertainment / Streaming",
+        "note": "Entertainment advertisers launching a new title or season frequently prioritize total impression volume over granular targeting, using broad programmatic open auction inventory at $2–$5 CPM to maximize awareness reach. A major streaming platform promoting a new release might serve 500 million+ impressions in the first week of a launch campaign, spread across display, native, and video formats. Post-launch, impression pacing is stepped down to sustaining levels aligned with viewership data."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "reach",
+        "name": "Reach"
+      },
+      {
+        "slug": "frequency",
+        "name": "Frequency"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "viewability",
+        "name": "Viewability"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between impressions and reach?",
+        "answer": "Impressions count every ad exposure, including multiple exposures to the same user. Reach counts only unique individuals who were exposed at least once. If a campaign delivers 10,000,000 impressions to 2,000,000 unique users, reach is 2,000,000 and average frequency is 5.0. Reach tells you how broadly the campaign extended across unique people; impressions tell you the total gross exposure volume. Media plans balance both: a reach goal requires enough unique impressions, while too many total impressions concentrated in a small audience creates excessive frequency."
+      },
+      {
+        "question": "What is the difference between a served impression and a viewable impression?",
+        "answer": "A served impression is recorded when an ad is sent from the ad server to the user's browser or device — even if it never actually appeared on screen (e.g., it was below the fold and the user never scrolled to it). A viewable impression meets the MRC/IAB viewability standard: for display, at least 50% of the ad's pixels must be in the active browser viewport for a minimum of 1 continuous second. In 2025, industry data shows roughly 55–65% of served display impressions are viewable, depending on placement quality. Premium PMP inventory achieves 70–85% viewability rates."
+      },
+      {
+        "question": "How do frequency caps affect total impressions delivered?",
+        "answer": "A frequency cap limits the number of times a single user can see an ad within a defined time window — for example, no more than 5 impressions per user per week. Once the entire reachable audience has hit the cap, the campaign stops delivering new impressions unless targeting is broadened or the cap is raised. This means total possible impressions is bounded by the formula: Max Impressions = Unique Reachable Audience × Frequency Cap. Without a frequency cap, programmatic algorithms can over-concentrate impressions on a small, highly targetable audience, driving up frequency to 20–30+ exposures per user while leaving the broader audience unreached."
+      },
+      {
+        "question": "How many impressions do I need to run a successful brand awareness campaign?",
+        "answer": "There is no universal impression threshold for awareness, but media mix modeling research consistently finds that effective reach — reaching users a minimum of 3 times — is associated with measurable brand lift. For a national awareness campaign targeting 30% of a defined adult demographic, a brand may need to serve 300–500 million total impressions over a 4-week period, depending on audience size, frequency targets, and cross-channel mix. Attention research by Lumen and Karen Nelson-Field's work indicates that 2.5 seconds of visual attention — not just a served impression — is the threshold for meaningful memory encoding. Impression quality increasingly matters more than raw volume."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

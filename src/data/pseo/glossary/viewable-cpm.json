@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "vCPM (Viewable CPM) Definition | Media Planning Glossary",
+    "description": "What is vCPM in advertising? Viewable CPM charges only for ads actually seen by users. Learn the MRC standard, formula, benchmarks, and how vCPM compares to CPM.",
+    "keywords": [
+      "vcpm definition",
+      "viewable cpm",
+      "viewable cost per mille",
+      "vcpm vs cpm",
+      "viewable impressions",
+      "vcpm advertising",
+      "mrc viewability standard"
+    ],
+    "slug": "viewable-cpm"
+  },
+  "term": {
+    "name": "vCPM (Viewable CPM)",
+    "abbreviation": "vCPM",
+    "definition": "vCPM, or Viewable Cost Per Mille, is a pricing model in which advertisers pay only for impressions that meet a defined viewability threshold — typically the Media Rating Council (MRC) standard of at least 50% of the ad's pixels visible on screen for a minimum of one continuous second (display) or two continuous seconds (video). Unlike standard CPM, which charges for every ad served regardless of whether it appeared in a visible portion of the page, vCPM ties spend directly to the probability that a user actually saw the ad.",
+    "extended_explanation": "The vCPM formula mirrors standard CPM but uses viewable impressions as the denominator: vCPM = (Total Ad Spend ÷ Viewable Impressions) × 1,000. Because not all served impressions are viewable — industry average viewability rates hover around 50–70% for display and 65–80% for video — vCPM rates are inherently higher than equivalent CPM rates for the same inventory. A publisher with a 60% viewability rate and a $5 CPM effectively delivers a $8.33 vCPM.\n\nThe MRC viewability standard (50% of pixels for 1 second on display; 50% for 2 seconds on video) is a floor, not a ceiling. Premium buyers increasingly demand 'high-viewability' inventory defined as 70%+ of pixels visible for 5+ seconds, particularly for brand awareness campaigns where message retention requires sustained exposure. GroupM, the world's largest media investment group, adopted 100% pixel viewability and a minimum 1-second display standard for all buys in 2022 — a policy that has since influenced programmatic floor price strategies across major SSPs.\n\nIn practice, vCPM purchasing is common in Google Display Network campaigns (where it is a native bid type), direct publisher deals, and private marketplace transactions. Open auction programmatic environments still predominantly transact on served-impression CPM, with viewability measured and reported post-campaign rather than baked into the pricing model.",
+    "example": "A financial services brand allocates $20,000 to a Q1 awareness campaign using vCPM pricing through a direct publisher deal on a premium business news site. They negotiate a $14 vCPM (vs. the same publisher's $9 standard CPM). The campaign delivers 1,428,571 viewable impressions (20,000 ÷ 14 × 1,000). The publisher's overall viewability rate is 72%, meaning they served approximately 1,984,000 total impressions to generate those viewable ones. Had the brand bought standard CPM at $9, the same $20,000 would have purchased 2,222,222 served impressions — but with a 60% viewability rate across the broader network, only 1,333,333 of those would have been viewable, at an implied vCPM of $15. The vCPM deal was actually more efficient despite the higher headline rate.",
+    "why_it_matters": "vCPM purchases force accountability into impression-based buying. In open programmatic markets, a significant share of served impressions — sometimes 30–50% on lower-quality inventory — are never seen by a human. Buying on vCPM shifts the risk of non-viewable delivery from the advertiser to the publisher, creating direct financial incentive for publishers to optimize ad placement, page design, and load speed. For brand campaigns where the goal is genuine exposure — not just logged impressions in an ad server — vCPM provides a cleaner signal of whether your message had a chance to register. Paired with attention metrics (time-in-view, scroll depth, eye-tracking studies), vCPM becomes the foundation of quality-adjusted buying that goes well beyond minimizing the raw cost-per-thousand.",
+    "vertical_context": [
+      {
+        "vertical": "Programmatic Display",
+        "note": "The average viewability rate across open programmatic display inventory in 2025 sits at approximately 52–58%, meaning a $5 CPM buy has an implied vCPM of roughly $8.60–$9.60 at typical viewability. Premium PMP deals on brand-safe publishers routinely deliver 70–80% viewability, pushing implied vCPMs to $6.25–$7.14 on the same $5 CPM price — demonstrating why PMP premium often delivers better vCPM efficiency than open auction at a lower headline rate."
+      },
+      {
+        "vertical": "Connected TV (CTV)",
+        "note": "CTV operates in a fully viewable environment by design — ads are full-screen and user-initiated playback ensures near-100% viewability by default. As a result, CPM and vCPM are effectively equivalent for CTV buys. This makes CTV an exceptionally strong channel on a quality-adjusted basis: $25–$35 CTV CPMs buy 100% viewable impressions in a lean-back, full-screen context, versus display vCPMs of $12–$18 for inventory that is still partially in-view or surrounded by distracting content."
+      },
+      {
+        "vertical": "B2B / Technology",
+        "note": "B2B display advertising, typically served on professional content sites (trade publications, tech media, LinkedIn Audience Network), achieves higher-than-average viewability rates of 65–75% due to longer page dwell times and desktop-dominant consumption. B2B display CPMs already range $15–$30 for intent-targeted audiences; at 70% viewability, implied vCPMs reach $21–$43 — making viewability-adjusted comparison against LinkedIn direct buys ($35–$55 CPM at near-100% viewability) a critical planning exercise."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "effective-cpm",
+        "name": "eCPM (Effective CPM)"
+      },
+      {
+        "slug": "viewability",
+        "name": "Viewability"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the MRC viewability standard for display vs. video ads?",
+        "answer": "The Media Rating Council (MRC) defines a viewable display impression as one where at least 50% of the ad's pixels are visible in the browser viewport for a minimum of one continuous second. For video ads, the threshold is 50% of pixels visible for at least two continuous seconds. These are the minimum industry standards — not aspirational benchmarks. Many premium advertisers now apply stricter standards: GroupM's 2022 standard requires 100% pixel viewability for display, and attention-focused buyers increasingly require 5+ seconds of in-view time to qualify an impression as truly 'seen.' The MRC standards form the contractual floor for vCPM transactions."
+      },
+      {
+        "question": "Why is vCPM higher than standard CPM for the same inventory?",
+        "answer": "Because vCPM only counts the subset of served impressions that meet the viewability threshold. If a publisher's ad placement has a 60% viewability rate, only 600 out of every 1,000 served impressions qualify as viewable. To deliver 1,000 viewable impressions, the publisher must serve roughly 1,667 impressions. The cost for those 1,667 served impressions at a $6 standard CPM is $10 — so the vCPM is $10, not $6. The premium reflects the publisher absorbing the risk of non-viewable delivery. Buyers should expect vCPM rates to be 20–60% higher than equivalent CPM rates depending on the placement's average viewability."
+      },
+      {
+        "question": "Should I always buy vCPM instead of CPM?",
+        "answer": "Not necessarily. vCPM is most valuable for brand awareness and upper-funnel campaigns where genuine ad exposure is the goal. For campaigns optimizing toward clicks or conversions, standard CPM (or CPC/CPA buying) may be more appropriate — since a non-viewable impression that generates a click still delivers value. Additionally, in premium environments with high verified viewability (CTV, takeover units, above-the-fold direct deals), the CPM and vCPM distinction is largely academic because nearly all served impressions are viewable. The real advantage of vCPM is on mid-tier and open auction inventory where viewability varies widely and standard CPM buys expose you to significant waste."
+      },
+      {
+        "question": "How do I calculate the implied vCPM from a standard CPM buy?",
+        "answer": "Divide your standard CPM by the placement's viewability rate (expressed as a decimal). If you're buying at a $7 CPM and the publisher's measured viewability rate is 65%, your implied vCPM is $7 ÷ 0.65 = $10.77. This calculation is essential for comparing placements with different viewability rates on a quality-adjusted basis. A $10 CPM placement at 80% viewability has an implied vCPM of $12.50 — more expensive than it appears, but potentially cheaper than a $9 CPM placement at 55% viewability, which has an implied vCPM of $16.36. Always request viewability data from publishers and ad verification vendors (IAS, DoubleVerify, Moat) before using headline CPM alone to evaluate inventory quality."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

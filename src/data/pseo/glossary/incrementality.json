@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "performance"
+  },
+  "seo": {
+    "title": "Incrementality Definition | Media Planning Glossary",
+    "description": "What is incrementality in advertising? Incrementality testing isolates the true causal lift from campaigns via holdout groups — methodology and benchmarks.",
+    "keywords": ["incrementality definition", "incrementality testing", "incremental lift advertising", "holdout testing", "incrementality measurement", "what is incrementality marketing"],
+    "slug": "incrementality"
+  },
+  "term": {
+    "name": "Incrementality",
+    "definition": "Incrementality measures the true causal lift that advertising creates — the conversions, revenue, or brand actions that would not have occurred without a campaign. Rather than asking which channel received credit for a conversion, incrementality testing asks a more fundamental question: would this conversion have happened anyway, even without the ad? It answers this by comparing outcomes in an exposed test group against a matched, unexposed control group under controlled experimental conditions.",
+    "extended_explanation": "Incrementality testing solves a core problem with traditional attribution: most attribution models count conversions that would have happened organically — users who were already planning to purchase — and falsely attribute them to advertising. This is particularly acute for branded search (where users searching a brand name are often already customers), retargeting (where the ad follows users who already visited the site), and any always-on channel with broad reach. Research from Stella's 2025 analysis of 225 geo-based tests found that the gap between platform-reported ROAS and true incremental ROAS frequently reaches 2–3×, with branded search and retargeting sometimes showing 5–10× inflation.\n\nThe formula for incremental lift is: Lift = (Test Conversions − Control Conversions) / Control Conversions. A test group generating 500 conversions versus a control group generating 400 conversions yields a 25% incremental lift.\n\nThe main incrementality testing methodologies are: (1) Geo holdout tests — advertising runs in some geographic markets but not others; outcomes are compared across matched markets. This is the most privacy-safe and scalable method. (2) Audience-based holdouts — a percentage of the target audience (typically 10–20%) is suppressed from seeing ads ('ghost bidding'); their behavior serves as the control. (3) Synthetic control — statistical matching creates a counterfactual control group from non-treated regions or users. All methods require adequate statistical power (typically 4–8 weeks of testing) to reach 90%+ confidence in results. Stella's 2025 benchmarks show 88.4% of well-designed tests achieve statistical significance at the 90% level.",
+    "example": "A beauty brand spending $500,000 per month across Meta, Google, and CTV wants to validate its Facebook prospecting campaigns. Platform-reported ROAS is 3.8×. The team runs a 6-week geo holdout test: 70% of U.S. DMAs receive Facebook prospecting as normal; 30% of matched control markets have Facebook prospecting suppressed. Results: test markets generate 18,400 purchases; control markets, adjusted for population, generate 16,050 purchases — a 14.6% incremental lift. The estimated incremental ROAS is 2.1× — roughly 45% below the platform-reported figure. The gap reveals that 45% of Facebook-attributed conversions were organic or influenced by other channels. The team maintains Facebook spend but reallocates $75,000 from retargeting (which showed near-zero incremental lift) into CTV awareness campaigns, which a subsequent geo test validates at 2.4× iROAS.",
+    "why_it_matters": "Without incrementality measurement, advertisers systematically misallocate budgets toward channels and tactics that harvest existing demand rather than creating new demand. Channels like branded paid search, email to existing customers, and broad retargeting typically show strong ROAS in attribution dashboards but low incrementality — their conversions would have occurred through organic, direct, or other channels regardless. A 2024 ANA survey found that 71% of advertisers now rank incrementality as their most important KPI for retail media investments, up from a fraction of that just two years prior. As US retail media ad spending exceeded $62 billion in 2025, the pressure to prove true incremental lift — not just platform-reported ROAS — has become a prerequisite for budget justification. Incrementality is the closest thing advertising measurement has to a randomized controlled trial: it provides causal evidence rather than correlational inference.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "DTC and e-commerce brands are the most active adopters of incrementality testing. Stella's 2025 benchmark study of 225 geo-tests found median incremental ROAS of 2.92× for Meta campaigns and 2.17× for YouTube — well below the 4–6× platform-reported figures typical for these channels. Retargeting and branded search consistently show the lowest iROAS (often below 1×), revealing that spend on converting existing demand provides little net lift beyond organic conversion rates."
+      },
+      {
+        "vertical": "Retail Media / Commerce Media",
+        "note": "Retail media network (RMN) incrementality testing has exploded as advertisers challenge platform-reported attribution from Amazon, Walmart Connect, and Instacart. Experiments across DTC beauty brands show iROAS ranging from 0.7× (Sephora — largely capturing existing demand) to 2.8× (Amazon prospecting — strong incremental performance). The gap between self-reported attribution and measured incrementality is most acute in RMNs where the retailer controls both ad serving and conversion attribution."
+      },
+      {
+        "vertical": "CPG / FMCG",
+        "note": "CPG incrementality testing relies heavily on geo-based market holdouts due to the complexity of offline purchase attribution. Nielsen Catalina, IRI, and Circana geo-lift studies measure incremental sales lift at the retail shelf, not just digital conversions. Benchmark incremental lift for CPG national TV campaigns typically ranges from 3–8% in sales volume. CTV incrementality for CPG has been validated at 5–12% sales lift in recent geo-lift studies, justifying premium CTV CPMs for brands with modest e-commerce presence but large offline distribution."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "attribution",
+        "name": "Attribution"
+      },
+      {
+        "slug": "media-mix-modeling",
+        "name": "MMM (Media Mix Modeling)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      },
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate (CVR)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How do you calculate incremental lift?",
+        "answer": "Incremental lift is calculated by comparing conversion rates (or conversion volumes, adjusted for population size) between an exposed test group and an unexposed control group: Lift = (Test Conversions − Control Conversions) / Control Conversions × 100. For example, if the test group generates 1,200 conversions and the matched control group generates 1,000 conversions, the incremental lift is 20%. The incremental ROAS (iROAS) is then calculated as: iROAS = Incremental Revenue / Incremental Ad Spend. The 'incremental revenue' is the additional revenue generated by the lift above control. Importantly, tests must run long enough — typically 4–8 weeks — and be powered with enough conversion volume to reach statistical significance at 90% confidence or higher. Short tests and small test populations produce unreliable, noisy lift estimates."
+      },
+      {
+        "question": "What channels are best suited for incrementality testing?",
+        "answer": "Geo-holdout incrementality testing works best for channels with clean, scalable geographic targeting: paid social (Facebook, Instagram, TikTok), YouTube and CTV, display prospecting, and programmatic in general. These channels allow you to suppress advertising in specific markets while maintaining it in others. Branded paid search is notoriously difficult to test because suppressing branded keywords may cause competitors to capture that demand. Email incrementality testing uses audience holdouts — withholding a portion of the list from receiving a campaign. Offline channels like TV and OOH are well-suited to geo holdouts at the DMA level. Attribution-heavy channels like retargeting and branded search benefit most from incrementality validation, as they typically show the greatest gap between reported and actual causal contribution."
+      },
+      {
+        "question": "What is the difference between incrementality testing and A/B testing?",
+        "answer": "A/B testing compares two variations of something — a creative, a landing page, a bid strategy — to determine which version performs better. It optimizes within a channel or tactic but doesn't measure whether advertising is driving net new outcomes versus organic behavior. Incrementality testing compares an exposed group (who saw advertising) against a control group (who saw no advertising or saw less advertising) to determine how much additional conversion activity the campaign caused. Incrementality is about 'did advertising work at all?' while A/B testing is about 'which version worked better?' Both are essential — A/B testing optimizes campaign execution, while incrementality validates that the campaign deserves a budget at all. The two methods also require different experimental designs: A/B tests need randomization at the user or session level, while geo-based incrementality tests randomize at the market level."
+      },
+      {
+        "question": "How does incrementality testing relate to media mix modeling?",
+        "answer": "Incrementality testing and media mix modeling (MMM) are complementary measurement approaches that answer different questions. MMM estimates channel contribution across the full marketing portfolio using historical aggregated data — it's strategic, always-on, and covers every channel simultaneously. Incrementality testing provides causal experimental evidence for specific channels or tactics at a point in time — it's precise, expensive, and answers one test question at a time. The two are increasingly used together: incrementality experiments are run to calibrate and validate MMM coefficients, correcting for correlational biases in the observational model. When an MMM assigns Facebook a 2.8× ROI but a geo holdout test measures 1.9× iROAS, the incrementality data is used to 'tune' the MMM prior. This calibrated MMM approach is considered best-in-class measurement practice as of 2025."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

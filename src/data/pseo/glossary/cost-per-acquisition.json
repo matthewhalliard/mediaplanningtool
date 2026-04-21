@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "performance"
+  },
+  "seo": {
+    "title": "CPA (Cost Per Acquisition) Definition | Media Planning Glossary",
+    "description": "What is CPA in advertising? Cost Per Acquisition explained with formula, 2025 benchmarks by industry and platform, and why it's the north star metric for performance media.",
+    "keywords": ["cpa definition", "cost per acquisition", "cost per acquisition advertising", "cpa meaning", "what is cpa", "cost per action"],
+    "slug": "cost-per-acquisition"
+  },
+  "term": {
+    "name": "CPA (Cost Per Acquisition)",
+    "abbreviation": "CPA",
+    "definition": "CPA stands for Cost Per Acquisition (also called Cost Per Action) and measures the total advertising cost required to generate one conversion — a purchase, sign-up, download, or any defined business outcome. It is the primary efficiency metric for performance-based advertising campaigns.",
+    "extended_explanation": "CPA is calculated by dividing total campaign spend by the number of conversions achieved: CPA = Total Spend ÷ Number of Conversions. An alternative derivation using upstream metrics is: CPA = CPC ÷ Conversion Rate. For example, if a campaign generates 400 purchases from a $28,000 spend, CPA = $70. It is critical to define what counts as an 'acquisition' precisely and consistently — a form fill, a free trial signup, and a paid purchase are all valid conversion events, but they carry very different values and should never be blended into a single CPA target without clear labeling. CPA differs from CAC (Customer Acquisition Cost): CPA is campaign-specific and excludes overhead, salaries, and tooling, while CAC encompasses all marketing and sales costs. For this reason, CPA typically understates the true cost of a customer. In programmatic and social advertising, CPA bidding strategies (target CPA, smart bidding) automate bid adjustments in real time to hit a predefined cost threshold, shifting optimization work from manual bid management to audience and creative strategy. Average CPA varies dramatically by industry: Google Search CPA averages ~$59 across all verticals, while display CPA averages ~$61, and Facebook CPA averages ~$18.68 — but intent levels and lead quality differ significantly across these channels.",
+    "example": "A B2B SaaS company runs a mixed campaign across Google Search and LinkedIn to drive free trial signups. On Google Search, they spend $12,000 and generate 60 trials at a $200 CPA. On LinkedIn, they spend $8,000 and generate 22 trials at a $364 CPA — nearly double the cost. However, when the sales team analyzes pipeline, LinkedIn trials convert to paid accounts at 35% versus 18% for Google Search, meaning LinkedIn's effective CPA per paying customer is $1,040 versus $1,111. The more expensive channel actually produces a better outcome, demonstrating why raw CPA must be evaluated alongside lead quality and downstream conversion rates.",
+    "why_it_matters": "CPA is the north star metric for performance advertisers because it directly links ad spend to business outcomes. While CPM measures exposure and CPC measures traffic, CPA measures results — the only metric that answers whether advertising actually generates value. Media planners use target CPA to set bidding strategy, evaluate channel efficiency, and determine budget allocation. A brand managing multiple channels must track CPA by channel, campaign, and audience to avoid blending high- and low-quality conversions that obscure true performance. As privacy regulations restrict cookie-based attribution and signal loss increases across platforms, maintaining accurate CPA measurement through clean conversion tracking and privacy-compliant attribution is one of the defining challenges in 2025–2026 media planning.",
+    "related_terms": [
+      {
+        "slug": "cost-per-click",
+        "name": "CPC (Cost Per Click)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      },
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate (CVR)"
+      },
+      {
+        "slug": "attribution",
+        "name": "Attribution"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "E-commerce CPA on Google Ads averages $45–$70 for purchase events in 2025, with Meta averaging $18.68 across all categories. During Q4 peak seasons, CPAs can inflate 25–50% as CPMs and CPCs rise while conversion rates improve only modestly. Direct-to-consumer brands typically target a CPA at 20–30% of average order value to maintain healthy ROAS of 3:1–5:1."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive CPA varies by conversion definition: dealer form-fill leads average $25–$50 on Meta and $60–$120 on Google Search for 'near me' and model-specific terms. For downstream test drive bookings, CPA rises to $150–$300. OEM-level campaigns targeting top-funnel configured test drive leads on premium CTV and programmatic can see CPAs of $200–$500, justified by average transaction values of $45,000+."
+      },
+      {
+        "vertical": "Healthcare / Pharma",
+        "note": "Healthcare CPA is among the highest across verticals, ranging from $60–$120 for general health services leads (appointments, consultations) to $300+ for specialized services like addiction treatment or elective procedures on Google Ads. DTC pharma is constrained by FDA regulations and endemic publisher targeting, driving CPAs to $80–$200 for unbranded condition awareness conversions. HCP-targeted campaigns using NPI-matched audiences can see $500+ CPA for physician engagement events."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between CPA and ROAS?",
+        "answer": "CPA (Cost Per Acquisition) measures the cost to generate a single conversion, while ROAS (Return on Ad Spend) measures revenue generated per dollar of ad spend. They answer different questions and are complementary, not interchangeable. CPA is most useful when conversions have a relatively consistent value — like a fixed-price subscription or service. ROAS is better suited to e-commerce with variable order values, where a single metric needs to capture both volume and revenue efficiency. A campaign with a $40 CPA and a $200 average order value delivers a 5:1 ROAS. If average order value drops to $80, the same CPA suddenly produces an unsustainable 2:1 ROAS."
+      },
+      {
+        "question": "What is a good CPA for Google Ads?",
+        "answer": "The average CPA for Google Search campaigns across all industries is approximately $59 in 2025, with display averaging $61. However, good CPA is defined relative to the value of the conversion, not a universal number. The sustainable CPA threshold is: target CPA = average conversion value × target margin. For a SaaS company with $300/month LTV and a 6-month payback target, a $200 CPA may be acceptable even though it exceeds industry averages. Technology verticals see CPAs as high as $133 on Google Search, while automotive averages $33–$50. Always benchmark CPA against your own unit economics first, industry averages second."
+      },
+      {
+        "question": "What is the difference between CPA and CAC?",
+        "answer": "CPA (Cost Per Acquisition) is a campaign-level advertising metric: total ad spend divided by conversions within a specific campaign. CAC (Customer Acquisition Cost) is a business-level metric: all sales and marketing costs — including salaries, tools, creative production, and overhead — divided by total new customers acquired in a period. CPA almost always understates the true CAC. For a DTC brand spending $20,000 on ads that generate 400 purchases, ad-only CPA = $50. But when you add $8,000 in creative, $2,000 in tools, and $5,000 in agency fees, true CAC = $87.50. Leaders use CPA for channel optimization and CAC for business model health."
+      },
+      {
+        "question": "Should I use target CPA bidding or manual CPC bidding?",
+        "answer": "Target CPA bidding works best when a campaign has accumulated enough conversion data for the algorithm to learn effectively — Google recommends at least 30–50 conversions per month before switching to smart bidding. In those conditions, Target CPA typically outperforms manual CPC because machine learning can process thousands of real-time signals (device, time, audience, creative, query) that manual bidding cannot. For new campaigns with limited conversion history, start with manual CPC or Maximize Clicks to build data, then transition to Target CPA once conversion volume stabilizes. Always set a realistic target based on historical performance — setting targets too aggressively below actuals causes the algorithm to restrict delivery."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "category": "performance"
+  },
+  "seo": {
+    "title": "MMM (Media Mix Modeling) Definition | Media Planning Glossary",
+    "description": "What is media mix modeling? MMM quantifies each channel's contribution to sales using statistical analysis — methodology, use cases, and 2025 benchmarks explained.",
+    "keywords": ["media mix modeling definition", "mmm advertising", "marketing mix modeling", "mmm measurement", "media mix model methodology", "what is mmm marketing"],
+    "slug": "media-mix-modeling"
+  },
+  "term": {
+    "name": "MMM (Media Mix Modeling)",
+    "abbreviation": "MMM",
+    "definition": "Media Mix Modeling (MMM) is a statistical analysis technique that measures the contribution of each marketing channel — paid media, promotions, pricing, seasonality, and macroeconomic factors — to a business outcome such as sales, revenue, or conversions. Unlike user-level attribution, MMM operates on aggregated time-series data, making it privacy-safe and capable of modeling both digital and offline channels. It produces channel-level return-on-investment estimates and enables budget allocation simulations across the full marketing mix.",
+    "extended_explanation": "MMM was originally developed in the 1960s by consumer packaged goods companies to measure the return on TV and print advertising. It works by regressing historical sales data against spend inputs across channels, controlling for non-marketing variables like distribution, pricing, competitive activity, and seasonality. The output is a set of response curves showing the marginal return of incremental investment in each channel — essential for identifying saturation points where additional spend produces diminishing returns.\n\nModern MMM has evolved significantly. Bayesian MMM frameworks, popularized by Meta's open-source Robyn library and Google's LightweightMMM, allow prior knowledge about marketing dynamics (adstock decay, saturation) to be incorporated into the model, improving stability with limited data. Adstock modeling captures the carryover effect of advertising — the idea that a TV spot's impact doesn't end the day it airs but decays over subsequent weeks. Saturation curves model the diminishing returns as spend increases within a channel.\n\nMMM is gaining renewed relevance in 2025 due to signal loss from third-party cookie deprecation and Apple's ATT. Over 53% of U.S. marketers used MMM as of mid-2024, and 56% of U.S. ad buyers planned to increase MMM reliance in 2025. The global MMM market is valued at $5.4 billion in 2025, projected to reach $14.8 billion by 2035. A full MMM typically analyzes 1–3 years of weekly data and requires 3–6 months to build. Agile MMM variants refresh monthly or weekly to support near-real-time budget reallocation.",
+    "example": "A national quick-service restaurant chain runs $40 million annually across TV, CTV, paid search, social, OOH, and in-store promotions. An MMM reveals: TV generates a 1.8× ROI with high carryover (brand-building value visible 4–6 weeks post-flight); paid search delivers 4.2× ROI but is highly saturated — marginal ROI above current spend levels is just 1.3×; CTV returns 2.6× ROI with minimal saturation, suggesting room to scale. Social prospecting shows 1.4× ROI. The model recommends shifting $3 million from TV and paid search into CTV and social, projecting a 14% lift in overall marketing ROI without budget increase. Post-reallocation results, tracked in the following MMM cycle, confirm a 12% revenue lift — within model prediction range.",
+    "why_it_matters": "MMM is the only measurement method capable of providing a unified view of marketing effectiveness across every channel — including offline media, in-store promotions, and pricing — in a single model. As digital attribution degrades due to privacy changes and walled-garden fragmentation, MMM has become the strategic measurement backbone for CMOs who need defensible, finance-ready ROI estimates. It is also the primary tool for budget optimization: the channel saturation curves MMM produces tell planners exactly where the next dollar of investment will generate the highest return. According to eMarketer, 30.1% of U.S. marketers consider MMM the best method for identifying the true drivers of business value — more than any single attribution approach.",
+    "vertical_context": [
+      {
+        "vertical": "CPG / FMCG",
+        "note": "MMM originated in CPG and remains most mature there. CPG brands typically run annual MMMs covering 3–5 years of weekly data, with models including distribution points, promotional depth, in-store execution, and competitive spending. Trade promotion — which can account for 15–25% of revenue in grocery categories — is a critical model input alongside media. CPG MMMs regularly reveal that short-term media ROI understates brand equity buildup by 30–50% due to adstock carryover."
+      },
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "DTC and e-commerce brands are fast adopters of Bayesian MMM tools (Robyn, PyMC-Marketing) due to shorter data histories and faster go-to-market cycles. Models are often built on 18–24 months of weekly data rather than the 3+ years ideal for stability. Key use cases include separating the impact of upper-funnel brand campaigns from lower-funnel retargeting, validating channel iROAS before scaling, and modeling the halo effect of CTV spend on paid search CVR lift — a pattern consistently observed in retail MMMs."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive MMMs must account for vehicle inventory availability — a non-marketing variable that can overshadow media effects entirely, as seen dramatically during the 2021–2023 supply chain disruptions. Modern auto MMMs incorporate inventory levels, incentive structures, and competitive model launches as control variables. OEM-level MMMs typically show national TV and CTV contributing 35–45% of media-attributable sales lift, with search and social accounting for 25–35%. Dealer-level co-op models reveal significant geo-level variation in media efficiency."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "attribution",
+        "name": "Attribution"
+      },
+      {
+        "slug": "incrementality",
+        "name": "Incrementality"
+      },
+      {
+        "slug": "media-mix",
+        "name": "Media Mix"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How does media mix modeling work?",
+        "answer": "MMM works by regressing a dependent variable (typically weekly sales or revenue) against a set of independent variables including media spend by channel, seasonality, pricing, promotions, and competitive activity. The model estimates the contribution — or 'coefficient' — of each variable to the outcome. Media inputs are typically transformed before modeling: adstock transformation applies a decay function to capture the lagged, carry-over effect of advertising (a TV flight that ends in October still influences purchases in November). Saturation transformation applies a diminishing returns curve to capture the fact that the 100th GRP of a TV campaign drives less incremental sales than the 10th. Bayesian MMM approaches incorporate prior knowledge about these dynamics, improving model stability, especially when historical data is limited. Most modern platforms (Robyn, PyMC-Marketing, Meridian) produce posterior distributions of ROI estimates with uncertainty ranges rather than point estimates, giving planners confidence intervals for budget decisions."
+      },
+      {
+        "question": "What data does MMM require to run?",
+        "answer": "A standard MMM requires: (1) weekly or monthly business outcome data — ideally 2–3 years of revenue, sales volume, or conversions; (2) media spend and/or impressions data by channel, broken out as granularly as possible (national vs. DMA, brand vs. non-brand search); (3) non-media business variables — price indices, distribution/ACV data, trade promotion spend, competitor spend estimates; (4) external factors — macroeconomic indices, seasonality dummies, major events or disruptions. Quality and completeness of input data is the single largest driver of model accuracy. Channels with inconsistent or missing spend data will produce unreliable ROI estimates. The IAB's December 2025 MMM best practices guide recommends standardizing impression bases across channels before modeling to prevent digital channels from appearing artificially efficient due to different measurement thresholds."
+      },
+      {
+        "question": "How often should an MMM be refreshed?",
+        "answer": "Traditional MMMs were annual or bi-annual exercises, often delivered by agency teams 3–6 months after the data period ended — making them historical records rather than actionable planning tools. Modern 'always-on' or agile MMM platforms refresh the model weekly or monthly using automated data pipelines, enabling near-real-time budget reallocation. The right refresh cadence depends on business context: fast-moving DTC or e-commerce brands benefit from weekly updates; CPG companies with 90-day retail sell-through cycles may find monthly sufficient. The IAB recommends that modern MMM outputs be 'decision-ready' — actionable within weeks of data availability, not months. As of 2025, the number of retail media networks offering MMM access rose 50% between Q1 and Q3 2024, reflecting industry demand for faster measurement cycles."
+      },
+      {
+        "question": "What is the difference between MMM and incrementality testing?",
+        "answer": "MMM is an observational method — it estimates channel contributions from historical correlations in aggregated spend and sales data. It is always-on, covers all channels, and provides strategic budget allocation guidance but cannot definitively prove causality. Incrementality testing is experimental — it creates treatment and control groups (via geo-holdouts, audience splits, or ghost bidding) and measures the causal lift from advertising by comparing converted vs. non-converted groups. Incrementality provides the strongest causal evidence but is expensive, limited to testable channels, and produces results for one channel or tactic at a time. Best-in-class measurement programs in 2025 use both: MMM for strategic cross-channel allocation and portfolio-level ROI, and incrementality tests to calibrate and validate specific MMM channel coefficients — especially for channels with limited historical variation in spend."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

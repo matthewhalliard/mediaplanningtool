@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "planning"
+  },
+  "seo": {
+    "title": "Flighting Definition | Media Planning Glossary",
+    "description": "What is flighting in advertising? Flighting schedules ad spend in concentrated bursts separated by hiatuses to maximize impact, manage budgets, and align with seasonal demand cycles.",
+    "keywords": ["flighting advertising", "flighting definition", "media flighting schedule", "ad flight strategy", "flighting vs continuous advertising", "burst advertising schedule"],
+    "slug": "flighting"
+  },
+  "term": {
+    "name": "Flighting",
+    "definition": "Flighting is a media scheduling strategy in which advertising runs in concentrated bursts (called 'flights') separated by planned periods of inactivity called hiatuses. Unlike continuous scheduling, flighting concentrates impressions and budget into windows where audience receptivity or seasonal demand peaks.",
+    "extended_explanation": "Flighting is one of three classical media scheduling patterns alongside continuous (always-on) and pulsing (always-on with periodic intensity spikes). A typical flight is defined by its start and end dates, the total GRPs or impressions to be delivered within that window, and the channels carrying the weight. The logic is rooted in carryover effects: media mix modeling research consistently shows that advertising generates residual brand equity — often called adstock — that persists beyond the active flight period. This means a well-timed two-week burst can sustain awareness for four to six weeks afterward, depending on the category and creative.\n\nFlighting is most defensible when demand is seasonal (holiday retail, back-to-school, summer travel), when budgets are too limited to sustain meaningful presence year-round, or when competitive windows are predictable. The key risk is 'going dark' too long. MMM studies from Keen Decision Systems show that after a two-week hiatus the first week back generates approximately 91% of the profit versus always-on; after a four-week hiatus, recovery begins at only 88%. Each additional fortnight dark costs roughly 1% of that recovery baseline. Media planners using flighting must model carryover decay rates by channel — TV adstock decays more slowly (half-life 8–12 weeks) than digital display (half-life 1–2 weeks), meaning digital-heavy plans require shorter, more frequent flights to maintain brand presence.",
+    "example": "A regional QSR chain allocates $600,000 to a summer promotional campaign running June through August. Rather than spreading $75,000 per month evenly across all weeks, their planner designs three two-week flights aligned with Memorial Day weekend, July 4th, and back-to-school. Each flight concentrates $200,000 across CTV, programmatic display, and paid social — delivering approximately 12 million impressions per flight at blended CPMs of $16–17. The two-week hiatuses between flights cut media costs by 33% versus always-on while the QSR's category research shows foot-traffic lift persists for 10–14 days post-flight. The result: equivalent reach coverage with $120,000 in savings reinvested into a Q4 holiday flight.",
+    "why_it_matters": "Flighting is the primary lever media planners use to reconcile limited annual budgets with year-round brand presence objectives. By concentrating spend into high-receptivity windows, planners extract more measurable lift per dollar than an equivalent always-on allocation would produce in low-demand periods. This is especially critical in 2025–2026 as Q4 programmatic CPM inflation of 40–80% makes continuous scheduling prohibitively expensive during peak demand. Effective flighting requires understanding adstock decay by channel, competitive activity calendars, and consumer purchase cycles — competencies that separate strategic planners from simple budget allocators. Poorly timed hiatuses, particularly in high-churn categories, can cede significant share of voice to always-on competitors.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail planners typically design 4–6 flights annually aligned to promotional events: Presidents' Day, Memorial Day, Prime Day adjacencies, back-to-school, and the November–December holiday window. The Q4 flight is non-negotiable — Cyber Five (Thanksgiving through Cyber Monday) accounts for 25–30% of annual e-commerce revenue for many brands. CPM inflation during Q4 flights runs 40–80% above the annual average, making pre-Q4 brand-building flights essential to reduce paid dependency during peak weeks."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Auto OEMs and dealer groups structure flights around model year launches (typically August–October), end-of-year clearance events (December), and tax refund season (February–April). A typical OEM flight delivers 50–80 national GRPs per week during active periods. Dealer co-op programs often require flights to run minimum 8 consecutive weeks to qualify for tiered reimbursement, which constrains pure burst scheduling. CTV and linear TV adstock in automotive has a measured half-life of 8–10 weeks, supporting longer inter-flight hiatuses than digital-only plans."
+      },
+      {
+        "vertical": "CPG / Consumer Packaged Goods",
+        "note": "CPG brands with strong seasonal demand (sun care, cold/flu, seasonal foods) use 8–12 week flights synchronized with category purchase windows. Unilever and P&G MMM data indicates that for mid-size CPG brands, a 4-week flight at 100+ GRPs per week outperforms 52 weeks of 25 GRPs/week by 12–18% on incremental sales lift, primarily because higher weekly weight crosses the attention threshold needed to shift brand consideration in a cluttered category."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "pacing",
+        "name": "Pacing"
+      },
+      {
+        "slug": "dayparting",
+        "name": "Dayparting"
+      },
+      {
+        "slug": "gross-rating-point",
+        "name": "GRP (Gross Rating Point)"
+      },
+      {
+        "slug": "media-mix-modeling",
+        "name": "MMM (Media Mix Modeling)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between flighting, pulsing, and continuous scheduling?",
+        "answer": "Continuous scheduling runs ads at a steady rate throughout the year — best for brands with year-round purchase cycles and sufficient budget to sustain meaningful reach. Flighting alternates between full-on and full-off periods, making it ideal for seasonal or budget-constrained advertisers. Pulsing is a hybrid: a low continuous base layer supplemented by heavier activity during key selling periods. For example, a CPG brand might run 30 GRPs/week continuously and spike to 120 GRPs during holiday flights. Most sophisticated media plans use pulsing rather than pure flighting, because maintaining even minimal presence during hiatuses reduces the adstock decay that erodes campaign efficiency."
+      },
+      {
+        "question": "How long should a media flight be?",
+        "answer": "Flight length depends on campaign objectives and channel mix. For awareness-driving TV and CTV campaigns, research supports minimum 4-week flights to accumulate sufficient GRP weight for measurable brand lift — typically 100–150 GRPs for established brands and 200+ for new product launches. For digital performance campaigns focused on conversion, 2-week flights are common, as digital channels show near-real-time response and shorter adstock half-lives. When using flighting for tentpole events (Black Friday, product launches), align flight start 2–3 weeks before peak demand to build awareness before purchase intent peaks."
+      },
+      {
+        "question": "What happens to brand equity when you go dark between flights?",
+        "answer": "Brand equity decays during hiatuses at rates determined by category purchase frequency, competitive activity, and original campaign weight. MMM analysis of linear TV campaigns shows the first week back after a 2-week hiatus recovers about 91% of always-on profit levels, declining to roughly 88% after a 4-week dark period. Each additional 2 weeks dark costs approximately 1 additional percentage point of recovery. Categories with frequent purchase cycles (grocery, CPG) show faster decay than low-frequency purchases (automotive, insurance). Planning hiatuses shorter than the category's average purchase cycle minimizes equity erosion."
+      },
+      {
+        "question": "How do I decide which channels to include in a flight versus drop during hiatuses?",
+        "answer": "Prioritize channels with the longest adstock half-lives during hiatuses, and concentrate flight spend in channels with the highest immediate response rates. CTV and linear TV have the longest carryover effects (half-lives of 8–12 weeks), meaning a flight's impact persists well into the hiatus — making them ideal anchors. Programmatic display and paid social have the shortest half-lives (1–2 weeks), so they deliver minimal residual value during dark periods but drive strong immediate response when active. A best-practice approach keeps branded search active throughout (minimal cost, captures demand generated by flights) while flighting upper- and mid-funnel channels."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

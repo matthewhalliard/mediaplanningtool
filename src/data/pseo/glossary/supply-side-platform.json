@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "category": "programmatic",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "SSP (Supply-Side Platform) Definition | Media Planning Glossary",
+    "description": "What is an SSP in advertising? Supply-Side Platform explained: how publishers sell inventory programmatically, key SSP providers, revenue share, and header bidding integration.",
+    "keywords": [
+      "ssp definition",
+      "supply side platform",
+      "what is an ssp",
+      "publisher ssp",
+      "supply side platform advertising",
+      "programmatic ssp"
+    ],
+    "slug": "supply-side-platform"
+  },
+  "term": {
+    "name": "SSP (Supply-Side Platform)",
+    "abbreviation": "SSP",
+    "definition": "A Supply-Side Platform (SSP) is technology used by publishers and app developers to manage, sell, and optimize their digital ad inventory programmatically across multiple demand sources — including ad exchanges, DSPs, and ad networks — simultaneously. SSPs run real-time auctions that allow publishers to maximize yield on every available impression by exposing it to the widest possible pool of competing buyers.",
+    "extended_explanation": "When a user visits a publisher's site, the SSP instantaneously conducts an auction — or, via header bidding, multiple concurrent auctions — across connected DSPs and ad networks. The SSP receives bid responses, selects the winning bid based on the highest CPM (or a modified floor-price logic), and passes the winning creative to the publisher's ad server for display. This happens within 100–200 milliseconds. SSPs provide publishers with critical control levers: floor pricing (minimum acceptable CPM per placement), deal management (PMP and programmatic guaranteed deal setup), brand safety controls (blocking categories, advertisers, or domains), and detailed reporting on fill rate, eCPM, and revenue by buyer. Leading SSPs in 2025 include Google Ad Manager / AdX, Magnite (formed from the Rubicon-Telaria merger), PubMatic, Index Exchange, and Xandr (Microsoft). Publishers typically retain 70–80% of the cleared auction price, with the SSP taking 20–30% as its fee — though header bidding has introduced more competitive pricing and in some cases reduced SSP margin pressure. For premium publishers, diversifying across multiple SSPs connected via header bidding is now standard practice to maximize yield and reduce single-platform dependency.",
+    "example": "A mid-size news publisher with 15 million monthly visitors uses Prebid.js to run header bidding across five SSPs simultaneously — Magnite, PubMatic, Index Exchange, Amazon Publisher Services, and OpenX. For a homepage leaderboard impression from a high-income New York City reader at 8:00 AM, the auction returns bids ranging from $1.20 (Index Exchange) to $11.40 (Amazon Publisher Services, likely from a financial services advertiser with first-party audience data). The SSP passes the $11.40 winning bid to Google Ad Manager. The publisher earns roughly $9.00 after SSP fees — compared to an estimated $3–$4 eCPM they achieved under a traditional waterfall setup.",
+    "why_it_matters": "SSPs transformed the publisher monetization landscape by replacing manual waterfall ad serving with competitive real-time auctions. Before SSPs, publishers had to negotiate fixed-rate deals or rely on one ad network — leaving significant revenue on the table. Today, SSPs give publishers granular control over who buys their inventory, at what price, and in what context. For media planners and buyers, understanding SSP dynamics matters because it directly affects campaign performance: publishers with strong SSP infrastructure deliver more consistent auction liquidity, better viewability, and cleaner supply chains. The emergence of curated marketplaces — where SSPs bundle publisher inventory with audience data into pre-built segments — has also made SSPs a strategic partner in audience strategy, not just a passive pipe.",
+    "vertical_context": [
+      {
+        "vertical": "Publishing / News Media",
+        "note": "News publishers are among the most active users of multi-SSP header bidding strategies. Premium news publishers using Prebid.js with 4–6 SSP partners typically achieve eCPMs of $3–$8 for display and $8–$18 for outstream video. Brand safety concerns around news content depress CPMs for many SSP buyers, making floor price management and private marketplace deals critical to sustaining publisher revenue in 2025."
+      },
+      {
+        "vertical": "Streaming / CTV",
+        "note": "CTV SSPs — Magnite's CTV division, FreeWheel (Comcast), SpotX (now Magnite), and SpringServe — command far higher CPMs than display SSPs, with CTV OMP CPMs averaging $5–$8 and PMP deals reaching $15–$35+ in 2025. Programmatic Guaranteed deals for live sports and premium primetime CTV inventory are routinely sold through SSP-managed deal structures before reaching open auction."
+      },
+      {
+        "vertical": "Retail Media Networks",
+        "note": "Retailer-owned SSPs (Amazon Publisher Services, Walmart's supply infrastructure, Kroger Precision Marketing) are a fast-growing segment that bundles first-party purchase data with publisher inventory. These platforms command premium CPMs — often $8–$20 for display, $15–$30 for video — because audience segments are built on verified purchase behavior. Brands running endemic retail media campaigns increasingly prioritize retail SSP access in their media plans."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "demand-side-platform",
+        "name": "DSP (Demand-Side Platform)"
+      },
+      {
+        "slug": "header-bidding",
+        "name": "Header Bidding"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      },
+      {
+        "slug": "effective-cpm",
+        "name": "eCPM (Effective CPM)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between an SSP and an ad exchange?",
+        "answer": "The line between SSPs and ad exchanges has blurred considerably, but the functional distinction remains useful. An ad exchange is the neutral auction marketplace where buyers and sellers meet — it's the clearing mechanism. An SSP is the publisher-side technology layer that connects publishers to multiple exchanges, applies floor prices, manages deal IDs, and optimizes which exchange or buyer wins each impression for maximum publisher revenue. In practice, major SSPs like Google Ad Manager/AdX and Magnite operate their own exchanges, making the SSP-exchange boundary largely invisible. The key difference is perspective: DSPs represent buyer interests; SSPs represent publisher interests."
+      },
+      {
+        "question": "How do SSPs set floor prices?",
+        "answer": "Floor prices are the minimum CPM a publisher will accept for a given impression. SSPs allow publishers to set floors at multiple levels: globally (all inventory), by ad unit, by buyer, by geography, or by audience segment. Dynamic floor pricing — where the SSP algorithmically adjusts floors based on predicted auction clearance rates — has become a standard feature in 2025. Google's Unified Pricing Rules and Prebid's Price Floors Module are common implementations. Setting floors too high reduces fill rate; too low leaves revenue on the table. Publishers typically test floor prices across a grid of variables and rely on SSP analytics dashboards to find the optimal balance between fill and yield."
+      },
+      {
+        "question": "Do publishers still need multiple SSPs in 2025?",
+        "answer": "Yes — most premium publishers run 4–7 SSP partners via Prebid header bidding rather than relying on a single platform. Each SSP provides unique demand access: Amazon Publisher Services brings Amazon first-party audience buyers; Index Exchange is strong with agency holding companies; Magnite has deep CTV relationships. Diversification protects against single-SSP outages and creates genuine auction competition. However, managing SSP proliferation carries costs: added page latency (each SSP timeout is 1,000–1,500ms), operational complexity, and reporting fragmentation. Publishers using server-side header bidding wrappers can reduce latency significantly while maintaining multi-SSP demand access."
+      },
+      {
+        "question": "How does an SSP generate revenue?",
+        "answer": "SSPs earn a percentage of the gross media spend cleared through their platform — typically 15–30% of the publisher's net revenue, or alternatively, a CPM-based technology fee. In a $10 CPM auction, the SSP might retain $1.50–$2.50, passing $7.50–$8.50 to the publisher. Revenue share models have come under pressure from header bidding, which introduced competitive transparency that exposed high SSP margins and gave publishers leverage to negotiate lower rates. Some SSPs now offer publishers lower fees in exchange for exclusivity or increased inventory allocation. Programmatic Guaranteed and PMP deals often carry lower SSP fees than open auction transactions."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

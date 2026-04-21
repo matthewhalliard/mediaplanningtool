@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "pricing-metrics",
+    "channel": "video"
+  },
+  "seo": {
+    "title": "CPV (Cost Per View) Definition | Media Planning Glossary",
+    "description": "What is CPV in advertising? Cost Per View explained with formula, 2025 YouTube and video benchmarks by industry, and how CPV fits into video media planning strategy.",
+    "keywords": ["cpv definition", "cost per view", "cost per view advertising", "cpv meaning", "what is cpv", "youtube cpv"],
+    "slug": "cost-per-view"
+  },
+  "term": {
+    "name": "CPV (Cost Per View)",
+    "abbreviation": "CPV",
+    "definition": "CPV stands for Cost Per View and measures the amount an advertiser pays each time a user views a video ad. On YouTube, a 'view' is counted when a user watches at least 30 seconds of a skippable in-stream ad (or the full duration if shorter than 30 seconds) or interacts with the ad by clicking.",
+    "extended_explanation": "CPV is calculated by dividing total campaign spend by total qualifying views: CPV = Total Spend ÷ Total Views. For example, a $10,000 YouTube campaign delivering 400,000 views produces a $0.025 CPV. The definition of 'view' varies by platform and format: YouTube TrueView requires 30-second watch time or a click to register a view, making it a more meaningful engagement signal than the 2-second impression threshold used for CPM display. CPV-based buying is distinct from CPM for video because it ties payment to demonstrated attention rather than mere ad serving. On YouTube specifically, skippable TrueView in-stream ads charge on a CPV basis, while non-skippable 15-second ads and bumper ads are bought on CPM. This means CPV campaigns inherently attract audiences who choose to watch rather than skip, providing a self-selected pool of interested viewers. CPV benchmarks for YouTube TrueView in-stream ads average $0.02–$0.03 in 2025, with in-feed video ads (formerly TrueView discovery) running higher at around $0.10 per view due to the higher-intent nature of the format. Finance and SaaS verticals see CPVs in the $0.10–$0.30 range due to competitive bidding and premium audience targeting.",
+    "example": "A consumer electronics brand launches a 60-second YouTube campaign for a new product, running skippable TrueView in-stream ads. With a $25,000 budget and an average CPV of $0.025, they generate 1,000,000 qualifying views — users who watched at least 30 seconds. The view rate (views ÷ impressions) comes in at 32%, meaning the ad was served ~3.1 million times but only charged for completed engagements. When the team targets a narrower audience (in-market for consumer electronics + custom intent based on competitor search queries), CPV rises to $0.06 but view rate climbs to 48% and downstream search lift increases by 22%, demonstrating that higher CPV can signal better audience alignment.",
+    "why_it_matters": "CPV gives video advertisers a direct cost signal for user engagement — unlike CPM, you pay only when someone demonstrates at least partial interest in your content. For brand-building campaigns where message comprehension matters, CPV is a more meaningful buying currency than impressions alone. Media planners use CPV benchmarks to set YouTube bidding floors, project view volume from video budgets, and compare cost efficiency across ad formats (skippable vs. non-skippable vs. bumper). CPV is also an important diagnostic: an unusually high CPV may indicate creative that fails to hook viewers before the skip button appears — the first 5 seconds of a TrueView ad are viewed by 100% of users, making that window the single most critical creative investment in CPV-bought video.",
+    "related_terms": [
+      {
+        "slug": "cost-per-completed-view",
+        "name": "CPCV (Cost Per Completed View)"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "viewability",
+        "name": "Viewability"
+      },
+      {
+        "slug": "click-through-rate",
+        "name": "CTR (Click-Through Rate)"
+      }
+    ],
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail CPVs on YouTube TrueView average $0.02–$0.04 in 2025, sitting at the lower end of the platform range due to broad audience availability and high inventory supply. In-feed video CPVs for retail product demos run $0.08–$0.15. During Q4, CPVs can spike 20–35% as retail advertisers compete for the same in-market shopping audiences, compressing margins on video budgets."
+      },
+      {
+        "vertical": "Finance / Insurance",
+        "note": "Financial services CPVs on YouTube range from $0.15–$0.40 due to high-value audience targeting (high-income households, in-market for investment products) and intense competition from banks, insurers, and fintech brands. CPV for YouTube Masthead and branded solutions in finance can reach $0.50–$0.80 on a reserved basis. These higher CPVs are justified by the long LTV of acquired financial customers."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive brands are among YouTube's heaviest spenders, with CPVs ranging from $0.05–$0.15 for broad awareness campaigns and $0.15–$0.35 for in-market audience targeting (users actively researching vehicle purchases). OEM campaigns often run sequential CPV strategies — serving a 15-second model introduction at low CPV followed by a full-length test drive invitation at higher CPV to qualified viewers — to optimize both reach and conversion quality."
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What counts as a 'view' for CPV on YouTube?",
+        "answer": "On YouTube TrueView skippable in-stream ads, a view is counted when a user watches at least 30 seconds of the ad — or the full duration if it is shorter than 30 seconds — or clicks on a clickable element (such as the call-to-action overlay or card). If a user skips before 30 seconds, no view is counted and the advertiser pays nothing. This makes CPV on YouTube a meaningful engagement signal, not just an exposure metric. For in-feed (formerly TrueView discovery) ads, a view is counted when the user clicks the ad thumbnail and begins watching the video. Each platform has slightly different view definitions, so always verify the view threshold when comparing CPV across channels."
+      },
+      {
+        "question": "What is the difference between CPV and CPCV?",
+        "answer": "CPV (Cost Per View) counts any qualifying engagement with a video ad — on YouTube, that means 30+ seconds watched or an interaction. CPCV (Cost Per Completed View) is stricter: it only counts views where the viewer watched the entire ad from start to finish, regardless of length. CPCV is a higher bar and typically a higher cost metric since fewer viewers complete a full ad than meet the 30-second threshold. A 60-second YouTube ad might have a $0.03 CPV (30+ second views) but a $0.12 CPCV (full completions), because many viewers who watch past 30 seconds still don't reach the end. CPCV is the more relevant metric for full message delivery in brand-building campaigns."
+      },
+      {
+        "question": "When should I use CPV buying versus CPM for video?",
+        "answer": "Choose CPV buying when your primary objective is audience engagement and you want to pay only for demonstrated attention. CPV is optimal for skippable YouTube campaigns where creative quality drives strong view rates — in these cases, advertisers effectively filter out disinterested users and only pay for genuine engagement. Choose CPM for video when reach and frequency are the primary goals, such as non-skippable pre-roll on CTV/streaming platforms, where 100% of viewers see the ad regardless. CPM is also more predictable for large-scale awareness campaigns where you need to guarantee impression delivery against a reach curve. For most awareness campaigns combining YouTube and programmatic video, a hybrid approach — CPV for TrueView, CPM for non-skippable CTV — provides the best of both."
+      },
+      {
+        "question": "What view rate should I expect for YouTube TrueView ads?",
+        "answer": "The industry benchmark view rate (views ÷ impressions) for YouTube TrueView skippable in-stream ads is approximately 30–35% in 2025. A view rate above 40% typically indicates strong creative resonance with the target audience — the first 5 seconds are doing the work of compelling the viewer to keep watching. Below 25% suggests the hook is weak, the audience targeting is misaligned, or the ad length may be too long relative to viewer tolerance. In-feed video ads (which require a user click to begin) see lower 'view rates' in the traditional sense, but those who click are highly self-selected and typically watch longer. Always report view rate alongside CPV to distinguish cheap CPV from genuinely resonant creative."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

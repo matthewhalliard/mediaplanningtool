@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "category": "programmatic",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Header Bidding Definition | Media Planning Glossary",
+    "description": "What is header bidding? How publishers use simultaneous real-time auctions to maximize ad revenue, increase eCPMs, and reduce dependence on Google Ad Manager's waterfall.",
+    "keywords": [
+      "header bidding definition",
+      "what is header bidding",
+      "prebid header bidding",
+      "header bidding vs waterfall",
+      "programmatic header bidding",
+      "header bidding publisher"
+    ],
+    "slug": "header-bidding"
+  },
+  "term": {
+    "name": "Header Bidding",
+    "definition": "Header bidding is a programmatic advertising technique in which a publisher makes an ad impression simultaneously available to multiple demand sources — DSPs, ad networks, and exchanges — before calling its primary ad server, allowing all buyers to compete in parallel rather than in sequence. This simultaneous auction maximizes competitive pressure on each impression, consistently yielding higher CPMs and eCPMs than the sequential waterfall methodology it replaced.",
+    "extended_explanation": "Prior to header bidding, publishers used a 'waterfall' or 'daisy chain' approach: demand sources were prioritized in ranked order, and each was called sequentially until one accepted the impression at or above the floor price. This rewarded first-call position (typically Google Ad Manager/AdX) and systematically undervalued publisher inventory by never exposing it to its full potential buyer market. Header bidding, pioneered around 2015 and widely adopted by 2018, changed this by running all demand source auctions concurrently. In classic client-side header bidding, a JavaScript tag (most commonly Prebid.js) fires in the browser page header before ad server calls, collecting bids from all configured SSP partners within a defined timeout window (typically 1,000–1,500ms). The highest bid is passed to the ad server, where it competes against any existing direct-sold or reserved campaigns. Publishers adopting header bidding have reported revenue lifts of 20–40%. Server-side header bidding (s2s) emerged to address the latency penalty of client-side calls, moving bid collection to a server and reducing page load impact — though sometimes at the cost of slightly lower bid accuracy due to reduced user signal transmission. As of 2025, approximately 70% of premium publishing websites use header bidding, with Prebid.js the dominant open-source implementation.",
+    "example": "A lifestyle publisher with 8M monthly pageviews runs Prebid.js with six SSP partners: Magnite, PubMatic, Index Exchange, Amazon Publisher Services, OpenX, and Sovrn. For a mid-page display impression from a fitness enthusiast in Los Angeles, bids arrive within 1,200ms: Magnite bids $2.10, PubMatic $3.40, Index Exchange $1.80, Amazon Publisher Services $7.20 (from a sports nutrition brand using Amazon first-party purchase data), OpenX $2.90, Sovrn $1.60. The Prebid wrapper selects $7.20 as the winning bid and passes it to Google Ad Manager. The direct-sold campaign in GAM has a $5 CPM floor — Amazon Publisher Services wins at $7.20. Without header bidding, under a traditional waterfall, GAM would have called AdX first, likely clearing around $2–$3 CPM.",
+    "why_it_matters": "Header bidding fundamentally restructured the economics of programmatic advertising in favor of publishers. Before it existed, Google's first-call position in publisher waterfalls gave AdX a structural advantage that consistently underpriced publisher inventory. Header bidding created genuine, transparent auction competition and helped close the gap between what inventory was worth and what it was clearing for. For media buyers and planners, understanding header bidding matters because it explains why publisher CPMs have risen — and why supply path optimization (SPO) is now a critical discipline. Buyers who route through demand paths that connect efficiently to publishers' header bidding setups tend to win more auctions at lower effective CPMs than buyers routing through inefficient intermediaries. Header bidding transparency also makes supply chain auditing more tractable.",
+    "vertical_context": [
+      {
+        "vertical": "Publishing / News Media",
+        "note": "Header bidding is most deeply entrenched in the news publishing vertical. Publishers like The Guardian, Vox Media, and major newspaper groups all run Prebid.js with 5–8 SSP partners. News publishers report eCPM improvements of 25–40% versus pre-header-bidding waterfalls. However, the brand safety sensitivity of news content — many advertisers block news-adjacent inventory — means high bid density doesn't always translate to high fill rates on breaking news and political content."
+      },
+      {
+        "vertical": "Streaming / CTV",
+        "note": "CTV header bidding is an emerging but rapidly growing implementation. Server-side CTV header bidding — using integrations through Prebid's Video module, Magnite's SpringServe, or FreeWheel — allows streaming publishers to simultaneously solicit bids from multiple DSPs for video ad pods. CTV header bidding has been shown to increase publisher yield by 15–30% versus single-SSP waterfall setups. Latency management is critical: CTV ad break timing requirements are tighter than display, with header bidding timeout windows compressed to 300–500ms."
+      },
+      {
+        "vertical": "Retail Media Networks",
+        "note": "Retailer-owned media networks are increasingly deploying header bidding on their owned digital properties (e-commerce sites, apps) to maximize external advertiser demand alongside their first-party endemic ad programs. Amazon Publisher Services' Transparent Ad Marketplace (TAM) and Unified Ad Marketplace (UAM) are server-side header bidding solutions that allow retailers and publishers to access Amazon demand alongside third-party buyers. Retail media header bidding CPMs can reach $8–$22 for display inventory due to high purchase-intent audience value."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "supply-side-platform",
+        "name": "SSP (Supply-Side Platform)"
+      },
+      {
+        "slug": "demand-side-platform",
+        "name": "DSP (Demand-Side Platform)"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      },
+      {
+        "slug": "effective-cpm",
+        "name": "eCPM (Effective CPM)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How does header bidding differ from a waterfall?",
+        "answer": "In a traditional waterfall, a publisher's ad server calls demand sources one at a time in a fixed priority order — e.g., direct sales first, then AdX, then AppNexus, then Rubicon. Each source gets a set amount of time to respond; if it passes or falls below the floor, the next source is called. This sequential structure systematically undervalued inventory because lower-priority buyers never had the chance to bid on impressions that a higher-priority buyer declined at a low CPM. Header bidding replaces this with parallel, simultaneous auctions: every demand source sees the impression at the same time and submits their highest bid. The highest bid wins regardless of hierarchy. The result is genuine price discovery and consistently higher publisher yields."
+      },
+      {
+        "question": "What is Prebid.js and why does it matter?",
+        "answer": "Prebid.js is the dominant open-source JavaScript library for implementing client-side header bidding. Maintained by Prebid.org (a consortium of industry participants including major SSPs and agencies), it provides a standardized framework for connecting publishers to demand partners, managing bid timeouts, and passing results to ad servers. As of 2025, Prebid.js is used by the majority of premium publishers globally — estimates suggest 70% of header-bidding publishers use it. Its open-source nature prevents any single vendor from locking in proprietary terms, making it the industry's preferred alternative to closed, vendor-proprietary header bidding wrappers. Prebid Server, its server-side counterpart, reduces page latency by moving bid collection off the user's browser."
+      },
+      {
+        "question": "Does header bidding slow down page load times?",
+        "answer": "Client-side header bidding adds latency because the page must wait for bid responses before ad server calls complete. A typical Prebid.js implementation with six SSP partners and a 1,200ms timeout adds approximately 0.5–1.5 seconds to ad load time in practice. For publishers prioritizing user experience, this can be a meaningful trade-off. Mitigations include: reducing SSP partner count to 4–5 high-performing bidders, implementing asynchronous header bidding (page content loads independently of ad calls), switching to server-side header bidding via Prebid Server (moves auctions off the user's device), and setting aggressive timeout caps. Publishers consistently find the revenue lift (20–40%) exceeds the user experience cost of incremental latency when implemented with standard best practices."
+      },
+      {
+        "question": "What is supply path optimization (SPO) and how does header bidding relate to it?",
+        "answer": "Supply path optimization (SPO) is the buyer-side practice of identifying and prioritizing the most direct, cost-efficient paths to publisher inventory — eliminating redundant intermediaries that take margin without adding value. Header bidding created the transparency that makes SPO possible: because publishers now broadcast bid requests to multiple SSPs simultaneously, buyers can audit which SSP paths deliver the same inventory more efficiently (lower fees, shorter supply chains, better data fidelity). Major DSPs including The Trade Desk use SPO to route spend preferentially through SSPs that provide cleaner supply, better audience data, and more transparent fees. For agencies, building an SPO framework — maintaining preferred supply path agreements with 4–6 vetted SSPs — typically reduces total programmatic cost by 5–15% while improving inventory quality."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

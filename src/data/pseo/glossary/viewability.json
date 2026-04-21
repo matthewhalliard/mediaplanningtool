@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "category": "performance",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "Viewability Definition | Media Planning Glossary",
+    "description": "What is viewability? Viewability measures whether an ad had the chance to be seen — MRC standards, channel benchmarks, and media quality context explained.",
+    "keywords": ["viewability definition", "viewability advertising", "mrc viewability standard", "viewable impressions", "viewability rate benchmark", "what is viewability"],
+    "slug": "viewability"
+  },
+  "term": {
+    "name": "Viewability",
+    "definition": "Viewability is a digital advertising measurement standard that determines whether an ad impression had a genuine opportunity to be seen by a human user. An impression is counted as served when it is delivered to a browser or device, but a viewable impression requires that a meaningful portion of the ad actually appeared in the user's visible screen area for a minimum duration. Viewability was developed to help advertisers distinguish valuable, in-view inventory from wasted spend on ads that load below the fold, in background tabs, or on pages immediately abandoned.",
+    "extended_explanation": "The Media Rating Council (MRC) and IAB established the current industry baseline: a display ad is viewable when at least 50% of its pixels appear in an active browser viewport for at least 1 continuous second. For video, the threshold rises to 50% of pixels in view for at least 2 continuous seconds. GroupM, the world's largest media buyer, applies a more stringent standard — 100% of pixels in view for video, with audio on and active user initiation.\n\nViewability rates vary sharply by format and environment. IAS's 2024 Media Quality Report found U.S. mobile app display viewability at 86.8%, while desktop display typically falls in the 50–70% range due to longer pages and above-fold competition. CTV achieves 93%+ viewability because ads run full-screen in a lean-back, non-skippable environment. Mobile web display lags at 40–60%.\n\nViewability is a necessary but not sufficient quality signal. An ad can be 100% viewable yet still missed if the user is scrolling fast, multitasking, or the creative fails to capture attention. This has driven investment in attention measurement — seconds-in-view, eye-tracking-derived signals — as a more predictive proxy for actual human attention and downstream recall.",
+    "example": "A CPG brand running a programmatic display campaign audits its inventory after a brand safety review. Analysis reveals that open auction inventory is delivering at a 42% viewability rate — meaning 58% of paid impressions never appeared in a user's viewport. The team restructures into two tiers: a private marketplace deal with premium publishers at a $9 CPM targeting 70%+ viewability (verified by DoubleVerify), and a smaller open auction line with aggressive viewability bidding signals applied. Post-restructure, overall viewability rises to 68%. Although effective CPM increases from $4 to $7.20, the cost-per-viewable-impression drops from $9.52 to $10.59 — a modest increase in exchange for 62% more assured exposure. Brand recall scores in post-campaign surveys improve by 18 percentage points.",
+    "why_it_matters": "Paying for impressions that never appear in a user's viewport is one of the most pervasive forms of media waste in programmatic advertising. Without viewability measurement, advertisers effectively fund inventory arbitrageurs who serve ads into below-fold placements, auto-opened pop-unders, and stuffed iFrames that technically deliver an impression without any meaningful exposure. Viewability is the floor — the minimum quality gate — that media planners use to separate real inventory from inventory that exists only on paper. It informs vCPM negotiations, shapes PMP deal structures, and feeds into quality-adjusted media comparisons across channels. Optimizing toward viewable inventory typically improves downstream metrics including CTR, brand recall, and conversion rate, making it a fundamental prerequisite for any performance or brand campaign.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail programmatic display campaigns average 52–62% viewability on open auction in 2025. Premium commerce media networks — Amazon DSP, Walmart Connect — report 70–80% viewability on placements within product pages and search results, reflecting high-engagement inventory. Black Friday/Cyber Monday campaigns that flood open auction often see viewability dip 5–8 points as low-quality supply spikes to meet demand."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive advertisers are among the most aggressive viewability buyers, routinely setting PMP minimums of 65–70% viewability for model launch campaigns. CTV dominates automotive premium budgets where viewability exceeds 93%, and upper-funnel display is often shifted to high-viewability endemic publishers like Cars.com, Edmunds, and MotorTrend. Dealer-level co-op campaigns using open exchange display average 48–55% viewability without managed filters."
+      },
+      {
+        "vertical": "Healthcare / Pharma",
+        "note": "Healthcare display campaigns on endemic publishers (WebMD, Healthgrades, Everyday Health) typically achieve 58–72% viewability — above open auction norms — due to engaged, intent-driven reading behavior on health content pages. HCP-targeted display via platforms like DeepIntent or Doceree often runs in-text or in-article placements with 65–75% viewability, justifying the $20–$50+ CPMs paid for verified NPI audience segments."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "viewable-cpm",
+        "name": "vCPM (Viewable CPM)"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      },
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the MRC viewability standard for display and video ads?",
+        "answer": "The MRC (Media Rating Council) defines a viewable display impression as 50% or more of an ad's pixels appearing in an active, in-focus browser tab for at least 1 continuous second after the ad renders. For in-stream video, the threshold rises to 50% of pixels in view for at least 2 continuous seconds. These are industry minimums, not quality targets — many sophisticated buyers apply higher thresholds. GroupM's stricter standard requires 100% of pixels in view for display and video with active user-initiated play and audio-on for video. CTV viewability measurement relies on device-level playback events rather than pixel tracking, and typically exceeds 90% given the full-screen, non-skippable format."
+      },
+      {
+        "question": "What is a good viewability rate for programmatic display campaigns?",
+        "answer": "In 2025, desktop web display averages 50–70% viewability, mobile web display 40–60%, and mobile in-app display 60–80% in the U.S. Setting a 70% viewability threshold when buying through PMPs or applying viewability bidding signals is a common best practice among media quality-conscious buyers. Rates below 50% indicate significant inventory quality issues and should prompt a supply audit or shift to curated deals. Premium placements — above-the-fold desktop, in-article native, and CTV — consistently outperform open auction in viewability, often justifying a 50–100% CPM premium when total cost-per-viewable-impression (vCPM) is calculated. CTV viewability above 90% makes it the gold standard for brand awareness campaigns prioritizing exposure quality."
+      },
+      {
+        "question": "How is viewability measured in CTV versus desktop display?",
+        "answer": "Desktop and mobile viewability measurement relies on JavaScript-based measurement tags (OM SDK) that track whether ad pixels are within the active browser viewport. CTV measurement is fundamentally different: JavaScript can't run on most smart TV operating systems, so verification vendors rely on server-side data, device logs, and playback event signals from streaming apps. This means CTV viewability measurement requires direct integration with the streaming platform or app, which not all environments support. When inventory is not measurable, it should be reported as 'non-measurable' rather than counted as viewable. Always confirm measurement methodology with your DSP and verification vendor (DoubleVerify, IAS, Moat) before setting CTV viewability KPIs."
+      },
+      {
+        "question": "What is the difference between viewability and attention?",
+        "answer": "Viewability confirms that an ad appeared in the user's viewport for the minimum required duration — it is a binary pass/fail quality gate. Attention measurement goes further, estimating the probability that a human actually processed the ad. Attention metrics include seconds-in-view (time the ad remained visible beyond the MRC threshold), eye-tracking derived signals, scroll speed at ad exposure, audio-on rates for video, and interaction signals. Research from platforms like Adelaide and Lumen shows that attention is a stronger predictor of brand recall and purchase intent than viewability alone. A 70% viewable campaign where all in-view impressions are above the fold and held for 8+ seconds will significantly outperform a 70% viewable campaign where in-view impressions average 1.2 seconds — despite identical viewability metrics."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "planning"
+  },
+  "seo": {
+    "title": "Pacing Definition | Media Planning Glossary",
+    "description": "What is pacing in media buying? Pacing controls how quickly a campaign spends its budget and delivers impressions over time, preventing underspend, overspend, and uneven audience exposure.",
+    "keywords": ["pacing definition advertising", "campaign pacing media buying", "ad pacing strategy", "budget pacing programmatic", "pacing media planning", "even pacing vs accelerated pacing"],
+    "slug": "pacing"
+  },
+  "term": {
+    "name": "Pacing",
+    "definition": "Pacing is the rate at which a campaign's budget is spent and impressions are delivered over a defined flight period. A correctly paced campaign spends its budget proportionally across available days and hours, ensuring impressions are distributed evenly (or strategically) and that the campaign neither exhausts its budget prematurely nor ends the flight period with significant unspent dollars.",
+    "extended_explanation": "Pacing is managed within ad servers, DSPs, and walled-garden ad platforms through algorithmic delivery controls. The two foundational pacing modes are even pacing (also called standard pacing), which distributes spend uniformly across all days of the flight, and front-loaded (or accelerated) pacing, which spends budget as quickly as possible when high-value inventory becomes available. Most platforms default to even pacing for brand campaigns and accelerated for performance campaigns optimizing toward conversion signals.\n\nPacing is calculated by comparing actual spend or impression delivery to the theoretical ideal pace — often called the 'on-pace' rate. If a 30-day campaign has a $90,000 budget and has spent $36,000 after 15 days (50% of time elapsed), it is running at 80% pace ($36K / $45K ideal = 80%). A campaign running below 80% pace raises flags: either the bid is too low to win auction inventory, targeting is too narrow, creative is being rejected, or frequency caps are being hit across the available audience. A campaign running above 120% pace risks exhausting budget early, leaving the final days of the flight unserved.\n\nIn programmatic environments, pacing is complicated by auction dynamics. DSPs factor in real-time bid clearing prices, inventory volume, and audience availability to smooth delivery. Google Ads paces monthly budgets up to 30.4x the daily budget within ad-scheduled hours — meaning a $100/day campaign can spend up to $3,040/month even if some days exceed $200. As of March 2026, this rule extends to ad-scheduled campaigns, making dayparting configuration especially consequential for budget control.",
+    "example": "A DTC furniture brand runs a $120,000 programmatic display campaign over a 4-week flight (28 days) targeting new movers within 50 miles of major metros. Ideal daily spend is $4,286. After day 7, the campaign has delivered $18,200 — only 30% of the 25% target, running at 60% pace. Investigation reveals the audience segment (new movers identified via credit bureau data) is smaller than planned: only 180,000 addressable users versus the projected 450,000. The planner expands targeting to include homeowners within 24 months of purchase, increasing the addressable pool to 620,000. By day 14, pacing recovers to 92% — $55,000 spent versus the $60,000 ideal — with delivery smoothing over the back half of the flight to close at $118,400 (99% budget utilization).",
+    "why_it_matters": "Pacing is the operational heartbeat of active campaign management. A campaign running at 50% pace through the midpoint will finish significantly underspent unless corrective action is taken — which often means the brand's message never reaches its full audience target, undermining reach and frequency goals. Conversely, an over-paced campaign that exhausts budget on day 20 of a 30-day flight effectively goes dark for the final third of the period, creating unplanned hiatus effects that damage awareness continuity. For agency media teams managing hundreds of line items simultaneously, pacing dashboards with automated alerts for campaigns below 80% or above 120% pace are essential to catch delivery failures before they compound. In 2025–2026, Google's tightened pacing rules for ad-scheduled campaigns make weekly pacing audits non-negotiable for performance accounts.",
+    "vertical_context": [
+      {
+        "vertical": "Programmatic / Display",
+        "note": "Programmatic campaigns commonly face pacing issues when audience segments are over-specified (too small for daily bid volume), when frequency caps are too aggressive relative to audience pool size, or when floor price settings exclude too much available inventory. Industry best practice is to review pacing daily for campaigns in the first week of flight and at minimum every 3 days thereafter. DSP algorithms typically require 7–10 days to exit the learning phase and optimize delivery, meaning pacing in week one is a leading indicator of structural issues — not a sign of algorithmic underperformance."
+      },
+      {
+        "vertical": "Social Media (Paid)",
+        "note": "Meta and TikTok campaigns use machine-learning delivery optimization that can cause significant daily spend variance even with 'even' pacing enabled — daily spend can range from 0.5x to 2x the average daily budget as the algorithm tests different audience segments and creative combinations. This learning-phase variance typically stabilizes after 50 conversion events per ad set on Meta. Advertisers using campaign budget optimization (CBO) on Meta cede pacing control at the ad set level to Meta's algorithm, which redistributes budget dynamically toward best-performing ad sets — useful for performance but problematic when individual audience segments need defined budget floors."
+      },
+      {
+        "vertical": "Retail Media Networks",
+        "note": "Retail media pacing (Amazon DSP, Walmart Connect, Kroger Precision Marketing) carries unique seasonal stakes because campaign budget depletion before peak shopping windows (Prime Day, Black Friday, holiday) can leave brands invisible precisely when purchase intent is highest. Best practice is to pace retail media campaigns at 90–95% of ideal through the pre-peak period, preserving 5–10% of budget as a reserve that can be activated during confirmed high-traffic windows. Amazon DSP campaigns with no frequency caps in high-competition categories have been documented exhausting 30-day budgets within 72 hours during Prime Day — a pacing failure that requires immediate intervention."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "flighting",
+        "name": "Flighting"
+      },
+      {
+        "slug": "dayparting",
+        "name": "Dayparting"
+      },
+      {
+        "slug": "demand-side-platform",
+        "name": "DSP (Demand-Side Platform)"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between even pacing and accelerated pacing?",
+        "answer": "Even pacing (called 'Standard' in Google Ads) distributes budget proportionally across all days and hours of a campaign's flight, optimizing for consistent delivery over time. It is best suited to brand awareness campaigns where sustained, even exposure across the flight period drives cumulative reach and frequency. Accelerated pacing (or 'front-loaded' delivery) spends as quickly as possible whenever high-quality inventory is available, exhausting budget early in the day or flight period. This mode is designed for performance campaigns where capturing every available high-intent signal matters more than distribution over time. Note: Google Ads retired the accelerated delivery setting for most campaign types in 2019, making standard/even pacing the default across search and display."
+      },
+      {
+        "question": "What should I do if my campaign is significantly under-pacing?",
+        "answer": "Under-pacing (below 80% of ideal spend rate) typically has four root causes: insufficient bid competitiveness, overly narrow targeting, over-aggressive frequency caps, or low creative approval rates. Diagnose in order: first check the bid landscape and impression win rate in your DSP — if win rate is below 15–20%, raise your bid or floor CPM. Next examine audience scale by reviewing addressable reach in platform — audiences below 200,000 unique users commonly under-pace at typical CPMs. Then review frequency cap settings relative to audience size: capping at 3 impressions per week on a 50,000-person audience limits total weekly impressions to 150,000, which may be insufficient for your budget. Finally, ensure creative assets are approved across all targeted placements."
+      },
+      {
+        "question": "How does Google's 30.4x monthly pacing rule affect campaign management?",
+        "answer": "Google Ads calculates your monthly budget cap as your average daily budget multiplied by 30.4 days. In any given day, spend can be up to 2x the daily budget, but monthly total cannot exceed 30.4x. As of March 2026, Google tightened this rule to also apply within ad-scheduled hours — meaning campaigns running on limited daypart schedules will see their available delivery windows compressed, potentially causing spend to spike during active hours to hit the monthly cap. Practical implication: if you run a campaign on a 10-hour daily schedule instead of 24 hours, Google may spend up to 2x your daily budget within those 10 hours, potentially over-delivering in specific periods. Monitor hourly spend reports for the first week after changing any ad scheduling settings."
+      },
+      {
+        "question": "What pacing metrics should appear on a daily campaign management dashboard?",
+        "answer": "A robust pacing dashboard should track: (1) Spend pace — actual cumulative spend vs. ideal cumulative spend to date, expressed as a percentage; (2) Impression pace — delivered impressions vs. projected impressions based on CPM and budget; (3) Daily spend variance — actual daily spend vs. average daily budget, flagging days above 130% or below 60%; (4) Projected end-of-flight spend — extrapolated total spend at current run rate vs. total budget; (5) Win rate — the percentage of auction bids won, which is the earliest indicator of future under-delivery; and (6) Frequency distribution — to catch situations where over-capping a small audience is causing under-pace rather than bid issues. Automated alerts at 80% and 120% pace thresholds allow teams managing large campaign portfolios to triage efficiently."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

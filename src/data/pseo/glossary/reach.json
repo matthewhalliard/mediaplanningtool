@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "category": "reach-audience",
+    "channel": "cross-channel"
+  },
+  "seo": {
+    "title": "Reach Definition in Advertising | Media Planning Glossary",
+    "description": "What is reach in advertising? Reach measures the unique audience exposed to a campaign. Learn types, benchmarks by channel, and how reach shapes media planning strategy.",
+    "keywords": [
+      "reach definition advertising",
+      "what is reach in media planning",
+      "campaign reach",
+      "unique reach",
+      "unduplicated reach",
+      "reach vs impressions",
+      "reach benchmarks"
+    ],
+    "slug": "reach"
+  },
+  "term": {
+    "name": "Reach",
+    "definition": "Reach is the number — or percentage — of unique individuals or households exposed to an ad campaign at least once within a defined time period. Unlike impressions, which count every ad serving event including repeat exposures to the same person, reach counts each unique person only once, regardless of how many times they saw the ad. It is the foundational audience coverage metric in media planning and is used alongside frequency to describe both the breadth and depth of a campaign's audience impact.",
+    "extended_explanation": "Reach is typically expressed in two forms: absolute reach (e.g., 4.2 million unique adults 25–54) and percent reach (e.g., 42% of the target demographic in the defined market). In digital advertising, reach is measured via device IDs, cookies, or authenticated user data; in linear TV and radio it is derived from panel-based audience research (Nielsen, Comscore). Cross-platform reach — measuring unique individuals across TV, digital, social, and audio — remains one of the hardest problems in media measurement due to fragmented identity graphs and walled gardens.\n\nThe relationship between reach and impressions is governed by frequency: Reach × Average Frequency = Total Impressions (or GRPs, when expressed as a percentage). Increasing a campaign's budget will initially expand reach rapidly; as coverage approaches the lightest media consumers in a target, each additional dollar buys diminishing incremental reach at sharply rising marginal cost. This 'diminishing returns curve' typically becomes steep after reaching 60–70% of a target audience, which is why media planners often set 65–75% reach as a practical ceiling for national awareness campaigns.\n\nUnique reach is distinct from 'effective reach' — the portion of the audience that received at least the minimum number of exposures to produce a measurable brand effect (typically 3+). A campaign may deliver 80% reach but only 35% effective reach if most exposures are distributed as single impressions.",
+    "example": "A CPG brand launches a new shampoo targeting women 18–49 in the US (approximately 68 million people). Their national campaign goal is 65% reach with 3+ frequency over four weeks. At 65% reach, the campaign must expose 44.2 million unique women at least once. To hit 3+ average frequency, total impressions needed: 44.2M × 3 = 132.6 million gross impressions. Their $4.2M budget is allocated across CTV ($1.8M at $28 CPM = 64.3M impressions), digital video ($1.2M at $20 CPM = 60M impressions), and programmatic display ($1.2M at $6 CPM = 200M impressions). After accounting for audience overlap modeled through their cross-channel measurement partner, the campaign projects 67% unique reach among the W18–49 target — within goal.",
+    "why_it_matters": "Reach is the starting point for any audience coverage strategy. Without sufficient reach, even the most resonant creative and optimal frequency have limited market impact — you are simply preaching to the same small choir repeatedly. Conversely, chasing reach without attention to frequency is equally wasteful: a campaign that exposes 90% of a market just once is unlikely to drive meaningful brand lift or behavioral change. The strategic tension between reach and frequency is one of the defining allocation decisions in media planning. In 2025–2026, cross-platform reach deduplication has become a critical capability; brands that can measure and buy against deduplicated reach across CTV, social, display, and audio hold a significant efficiency advantage over those optimizing channel by channel.",
+    "vertical_context": [
+      {
+        "vertical": "Consumer Packaged Goods (CPG)",
+        "note": "CPG brands targeting broad demographics (adults 18–49, HHs with children) typically plan for 65–80% reach over a four-week period on national campaigns. TV-first strategies historically anchored reach; in 2025, CTV and digital video are the primary reach builders for demos under 35. Mass CPG brands use cross-platform reach modeling (Nielsen ONE, Comscore Campaign Ratings) to de-duplicate audiences across linear TV, streaming, and social to avoid overpaying for frequency against the same light-TV viewers."
+      },
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail campaigns prioritize reach expansion in the four weeks before key shopping events (Black Friday, Prime Day, back-to-school). A typical retail awareness flight targets 55–70% reach among household decision-makers 25–54 in key DMAs. E-commerce brands often set DMA-level reach goals rather than national targets — reaching 60% of adults in the top 25 DMAs can deliver more sales lift than thinner national coverage, especially for regional or category-specific retail."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive campaigns are among the highest-reach planners in media. A new model launch typically targets 80%+ reach among in-market auto intenders (typically 1–3% of adults at any given time) over an eight-week window, using a combination of broadcast TV, CTV, streaming audio, and search retargeting. Reaching auto intenders — identified through third-party data providers like Polk/S&P Global Mobility — is expensive; DMP-targeted audiences routinely cost $18–$35 CPM, making reach efficiency a core budget management challenge."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "frequency",
+        "name": "Frequency"
+      },
+      {
+        "slug": "gross-rating-point",
+        "name": "GRP (Gross Rating Point)"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      },
+      {
+        "slug": "effective-reach",
+        "name": "Effective Reach"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between reach and impressions?",
+        "answer": "Impressions count every time an ad is served, including multiple exposures to the same person. Reach counts each unique person only once. A campaign that serves 6,000,000 impressions to 2,000,000 unique people has a reach of 2,000,000 and an average frequency of 3. Impressions are useful for measuring gross campaign volume and calculating CPM costs; reach tells you how wide your audience coverage actually is. A common mistake is confusing high impression counts with meaningful audience exposure — without reach data, you have no way of knowing whether you've reached 5 million different people or hammered the same 500,000 people 10 times each."
+      },
+      {
+        "question": "What is a good reach percentage for a national awareness campaign?",
+        "answer": "For national consumer brand campaigns targeting broad demographics (adults 18–49 or 25–54), media planners typically aim for 60–75% reach over a four-week flight. Decades of effectiveness research consistently identify 60–70% as the efficiency sweet spot: the point where reach is broad enough to generate meaningful market impact without the sharply rising marginal cost of reaching the final 20–30% of light media consumers. Campaigns requiring cultural saturation (major product launches, political campaigns, Super Bowl season) may push to 85–90% reach, but the incremental cost per additional percentage point of reach above 70% is typically 2–4× higher than the cost of the first 60 points."
+      },
+      {
+        "question": "How do you measure reach across multiple channels?",
+        "answer": "Measuring deduplicated reach across channels is one of the hardest problems in modern media measurement. Within walled gardens (Meta, Google, Amazon), platforms report their own reach using authenticated user IDs — but they do not share those IDs with each other or with advertisers. Cross-platform reach measurement requires probabilistic or deterministic identity stitching: matching cookies, device IDs, hashed emails, and panel data to estimate unique individuals. Tools used by planners include Nielsen ONE, Comscore Campaign Ratings, TVision, and publisher-provided clean room solutions. Without deduplication, reach across five channels will always overestimate true unique reach — often by 30–50% — because significant audience overlap exists between channels."
+      },
+      {
+        "question": "What is the difference between reach and effective reach?",
+        "answer": "Reach counts anyone who saw your ad at least once. Effective reach counts only those who received enough exposures to produce a measurable effect — typically defined as 3+ exposures (the 'three-hit theory' from media research), though this threshold varies by medium, category, and message complexity. A campaign might achieve 80% reach but only 40% effective reach if most impressions are distributed as single exposures. Effective reach is the more meaningful planning objective for brand-building campaigns because a single-exposure reach strategy generates 40–60% lower sales impact than a strategy anchored on 3+ frequency, even with equivalent total impression volume. Media Mix Modeling studies consistently validate this hierarchy."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

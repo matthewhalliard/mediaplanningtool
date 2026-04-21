@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "category": "reach-audience",
+    "channel": "linear-tv"
+  },
+  "seo": {
+    "title": "TRP (Target Rating Point) Definition | Media Planning Glossary",
+    "description": "What is a TRP in advertising? Target Rating Points measure reach and frequency against a target audience — explained with formulas, benchmarks, and examples.",
+    "keywords": ["trp definition", "target rating point", "what is trp", "trp advertising", "target rating points media planning", "trp vs grp"],
+    "slug": "target-rating-point"
+  },
+  "term": {
+    "name": "TRP (Target Rating Point)",
+    "abbreviation": "TRP",
+    "definition": "A Target Rating Point (TRP) is a measure of the total advertising weight delivered to a specific target audience, combining the percentage of that audience reached with the average number of times they saw the ad. Unlike GRPs — which measure against the total population — TRPs filter only for the demographic segment that matters to the advertiser.",
+    "extended_explanation": "TRP is calculated by multiplying the target audience reach percentage by average frequency: TRP = Target Reach (%) × Frequency. For example, if a campaign reaches 40% of Women 25–54 an average of 3.5 times, the campaign delivers 140 TRPs. Alternatively, TRPs can be derived from GRPs by applying a composition index: TRP = GRP × (Target Audience % of Program Viewers ÷ Target Audience % of Total Population).\n\nThe metric was developed to address a core limitation of GRP — the fact that raw audience size tells you nothing about how efficiently you're reaching the people most likely to buy. A primetime sports sponsorship may generate 300 GRPs, but only 90 TRPs against Women 18–49 if that demo skews male. TRPs became the standard currency for TV buying in national and local broadcast, and have since extended to addressable TV, CTV, and digital video via Nielsen ONE, Comscore, and platform-native measurement.\n\nIn practice, media planners establish TRP goals at the campaign planning stage — often targeting 100–200 TRPs per week for a national launch, or 50–100 for a sustaining flight. The right TRP level depends on competitive activity, brand awareness baseline, creative wear-out, and budget. TRPs are additive across placements: a 60-second spot and a 30-second spot running in the same week each contribute their own rating points to the total weekly TRP tally.",
+    "example": "A CPG brand launches a new snack targeted at Millennial parents (Adults 25–40 with children). They plan a 4-week TV and CTV campaign. In Week 1, linear TV placements across primetime and late news deliver 85 TRPs against their target. CTV adds another 45 TRPs via programmatic guaranteed deals on Hulu and Peacock. The combined 130 TRPs in Week 1 — at an estimated 50% reach and 2.6× average frequency — are on track for the brand's awareness-building goal of 400 TRPs over the full flight. The planner uses this target to negotiate the minimum TRP guarantee in the linear buy.",
+    "why_it_matters": "TRPs are the fundamental planning currency for any campaign where audience quality matters more than raw volume. A campaign generating 500 GRPs against Adults 18+ may only produce 120 TRPs against a target of Women 35–54 with household income over $100K — a critical difference in efficiency. For media planners, TRP goals anchor budget conversations, guide channel allocation between broadcast, cable, CTV, and digital video, and provide the benchmark against which post-campaign measurement is evaluated. Without a TRP framework, campaigns routinely over-invest in audiences who will never convert and under-invest in the core demo that drives sales.",
+    "vertical_context": [
+      {
+        "vertical": "CPG / FMCG",
+        "note": "National CPG brands typically plan 150–250 TRPs per week during a new product launch to achieve meaningful awareness lift in the target demo. Sustaining flights drop to 50–100 TRPs weekly. With linear TV declining in younger demos, planners increasingly blend TRPs across broadcast, CTV, and digital video to maintain target delivery — CTV often now contributes 30–40% of a CPG brand's total TRP plan."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Auto OEM campaigns against Adults 35–64 In-Market for Vehicles routinely target 200–350 TRPs over a 4-week flight for model launches. Dealer-level campaigns in a single DMA target 75–120 TRPs weekly. Nielsen Automobile Audience Targeting (AAT) and IHS Markit in-market signals allow CTV buys to be measured on a TRP-equivalent basis, enabling cross-channel TRP reconciliation in post-campaign reporting."
+      },
+      {
+        "vertical": "Pharmaceutical / OTC Health",
+        "note": "DTC pharma campaigns are frequently planned on TRPs against Adults 55+ or Women 35–64 with diagnosed condition proxies. Compliance advertising for chronic conditions like diabetes or hypertension typically targets 100–180 TRPs per week during awareness periods. The shift to NPI-targeted CTV and Connected Audio has forced planners to translate traditional TRP benchmarks into equivalent digital impression thresholds by demographic cohort."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "gross-rating-point",
+        "name": "GRP (Gross Rating Point)"
+      },
+      {
+        "slug": "reach",
+        "name": "Reach"
+      },
+      {
+        "slug": "frequency",
+        "name": "Frequency"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between TRP and GRP?",
+        "answer": "GRP (Gross Rating Point) measures total advertising weight against the full population, regardless of whether they are in your target audience. TRP (Target Rating Point) narrows that measurement to only the specific demographic segment the brand is trying to reach. A campaign might deliver 300 GRPs but only 90 TRPs if the target audience — say, Women 25–54 — represents only 30% of the total program viewership. TRPs give media planners a more accurate picture of true campaign efficiency because they strip out wasted impressions served to non-target consumers."
+      },
+      {
+        "question": "How many TRPs do I need for a successful campaign?",
+        "answer": "There is no universal answer — TRP goals depend on campaign objectives, competitive context, and category norms. As a general rule, brand awareness campaigns for new products typically target 100–200 TRPs per week in the launch phase, stepping down to 50–100 TRPs for sustaining periods. Recall studies suggest that meaningful awareness movement often requires a minimum of 50–75 TRPs per week for at least two to three consecutive weeks. Highly competitive categories like automotive, insurance, and retail may require 200–300+ weekly TRPs to achieve noticeable shifts in purchase consideration."
+      },
+      {
+        "question": "Can TRPs be calculated for digital and CTV advertising?",
+        "answer": "Yes. Digital and CTV TRP measurement has become standard via Nielsen Digital Ad Ratings (DAR), Comscore Campaign Ratings, and platform-native tools. These systems use census-level data and panel-based audience measurement to translate digital impressions against a target demographic into TRP-equivalent values. A CTV campaign reaching 20% of Adults 25–54 with an average frequency of 4 delivers 80 TRPs on a digital basis — directly comparable to a linear TV buy. Nielsen ONE, launched in 2024–2025, further unifies cross-media TRP measurement across linear, streaming, and digital in a single deduplicated currency."
+      },
+      {
+        "question": "What is a TRP guarantee in a media buy?",
+        "answer": "A TRP guarantee is a contractual commitment from a broadcast or CTV seller that their schedule will deliver a minimum number of Target Rating Points against a specified audience demographic by the end of the campaign flight. If actual delivery falls short — typically measured against Nielsen or Comscore data — the seller is obligated to provide make-good spots (additional inventory) at no charge to compensate for the shortfall. TRP guarantees are standard in upfront TV buying, where networks commit annual TRP delivery to agency holding companies. In CTV, programmatic guaranteed deals increasingly include TRP-equivalent reach and frequency guarantees tied to Nielsen DAR verification."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

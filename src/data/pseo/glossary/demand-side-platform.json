@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "category": "programmatic",
+    "channel": "programmatic-display"
+  },
+  "seo": {
+    "title": "DSP (Demand-Side Platform) Definition | Media Planning Glossary",
+    "description": "What is a DSP in advertising? A Demand-Side Platform explained: how real-time bidding works, key DSP providers, fees, and why it's central to programmatic media buying.",
+    "keywords": [
+      "dsp definition",
+      "demand side platform",
+      "what is a dsp",
+      "programmatic dsp",
+      "demand side platform advertising",
+      "dsp media buying"
+    ],
+    "slug": "demand-side-platform"
+  },
+  "term": {
+    "name": "DSP (Demand-Side Platform)",
+    "abbreviation": "DSP",
+    "definition": "A Demand-Side Platform (DSP) is software that allows advertisers and agencies to purchase digital ad inventory across multiple ad exchanges and supply sources through a single, unified interface using real-time bidding (RTB). DSPs automate the buying process, apply audience targeting, and optimize bids in milliseconds — replacing the manual insertion order process that previously dominated media buying.",
+    "extended_explanation": "When a user loads a web page or opens an app, the publisher's ad server sends a bid request to connected ad exchanges, which fan out to DSPs. Within approximately 100 milliseconds — before the page fully renders — the DSP evaluates the impression against the advertiser's targeting parameters (audience segments, geography, device type, frequency caps, contextual signals), calculates a bid price based on the impression's predicted value, and submits a bid. The winning DSP serves the ad. This process, repeated billions of times daily, is the engine of the modern programmatic ecosystem. DSPs charge buyers in two primary ways: a percentage of media spend (typically 10–20% of total spend) or a CPM-based technology fee ($0.10–$0.50 per thousand impressions). The major independent DSPs — The Trade Desk, DV360 (Google Marketing Platform), Amazon DSP, and Xandr (Microsoft) — collectively account for roughly 40% of the global DSP market. The Trade Desk alone held approximately 12% global market share as of 2025 and processed over 600 billion bid requests daily. DSPs also serve as the integration point for first-party audience data, identity solutions (UID2, RampID), and third-party data enrichment — making them the operational hub of a modern media program.",
+    "example": "A national insurance brand runs a Q1 open enrollment campaign through The Trade Desk. Their media team activates a custom audience segment of homeowners aged 35–55 built from CRM first-party data matched via UID2, layered with in-market insurance intent data from a third-party provider. The DSP ingests bid requests from 15+ exchanges simultaneously, bidding $8–$22 CPM depending on audience match score, placement quality, and predicted conversion propensity. Over four weeks, the DSP processes 12 billion bid requests, wins 180 million impressions, and auto-optimizes toward placements with the highest click-to-quote conversion rate — all managed from a single campaign dashboard.",
+    "why_it_matters": "The DSP is the central command layer for programmatic advertising. Without a DSP, an advertiser would need separate direct relationships with hundreds of publishers, with no ability to target, frequency-cap, or optimize across them in real time. For media planners, DSP selection is a strategic decision: different platforms offer distinct access to supply (Amazon DSP dominates retail media; DV360 is required for YouTube inventory; The Trade Desk excels in CTV and data partnerships). Fees, data access, identity resolution capabilities, and measurement integrations vary significantly — making DSP strategy as important as channel or audience strategy. According to a 2024 ANA study, only 43.9 cents of every programmatic dollar entering a DSP reached the consumer, making supply chain efficiency a top DSP evaluation criterion.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Retail brands increasingly use retail media DSPs — Amazon DSP, Walmart Connect, Criteo Commerce Media — alongside general DSPs. Amazon DSP's first-party purchase data enables audience segments unavailable elsewhere; CPMs run $3–$10 for display and $10–$20 for video. Layering retail DSP reach with open-web DSP retargeting can drive 15–30% ROAS lift versus single-platform strategies."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Auto advertisers rely heavily on DSP-driven audience targeting: in-market auto intenders, model-level conquest segments, and DMA-level dealer targeting. DV360 and The Trade Desk both offer deep OEM-to-dealer co-op programmatic structures. DSP CPMs for auto audiences in premium environments range $12–$25 for display and $18–$40 for CTV/OTT in 2025–2026."
+      },
+      {
+        "vertical": "Healthcare / Pharma",
+        "note": "HCP (healthcare professional) targeting through DSPs like DeepIntent and Doceree commands significant premiums — $25–$60 CPM for NPI-matched physician targeting — due to limited supply. DTC pharma campaigns use general DSPs but require robust brand safety and contextual compliance settings to avoid adjacency to sensitive health content. HIPAA-compliant audience onboarding through clean rooms is an emerging requirement."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "supply-side-platform",
+        "name": "SSP (Supply-Side Platform)"
+      },
+      {
+        "slug": "programmatic-advertising",
+        "name": "Programmatic Advertising"
+      },
+      {
+        "slug": "private-marketplace",
+        "name": "PMP (Private Marketplace)"
+      },
+      {
+        "slug": "cost-per-mille",
+        "name": "CPM (Cost Per Mille)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between a DSP and a DMP?",
+        "answer": "A DSP (Demand-Side Platform) is the buying engine — it places bids on ad inventory and executes programmatic campaigns. A DMP (Data Management Platform) is the data layer — it ingests, organizes, and activates audience segments from first-party, second-party, and third-party data sources. In practice, DMPs were historically used to build audience segments that were then pushed into a DSP for activation. As of 2025, standalone DMPs have largely been displaced by Customer Data Platforms (CDPs) that offer cleaner first-party data management, while DSPs have built native data onboarding capabilities directly into their interfaces."
+      },
+      {
+        "question": "What does a DSP fee structure look like?",
+        "answer": "DSP pricing takes two main forms. First, a percentage-of-spend model, where the DSP charges 10–20% of total media cost — a $100,000 campaign might cost $15,000 in DSP fees on top of media. Second, a CPM technology fee model, charging $0.10–$0.50 per thousand impressions served. Some platforms (like The Trade Desk) charge transparent, flat-rate fees; others bundle fees into the media rate, making true cost harder to audit. The ANA recommends that brands negotiate for full transparency in DSP fee reporting, as hidden markups throughout the programmatic supply chain can consume 50%+ of working media budgets."
+      },
+      {
+        "question": "Which DSP is best for CTV advertising?",
+        "answer": "The Trade Desk is widely considered the leading independent DSP for CTV, offering direct integrations with major streaming publishers (Hulu, Paramount+, Disney+, Peacock), premium AVOD inventory, and unified identity resolution via UID2 for cross-device targeting. Amazon DSP provides unique access to Fire TV app inventory and Amazon Publisher Services CTV supply. DV360 is required for YouTube/YouTube TV programmatic access. For smaller advertisers, platforms like Basis Technologies, Madhive (pure-play CTV), and Simpli.fi offer more accessible entry points with CTV capabilities. DSP CTV fees typically range from 8–15% of media spend in 2025."
+      },
+      {
+        "question": "How does a DSP decide how much to bid?",
+        "answer": "DSP bidding algorithms evaluate each bid request using a combination of signals: advertiser-defined targeting criteria (does this impression match the campaign's audience and placement rules?), predicted outcome probability (based on historical conversion data for similar users and placements), and a valuation model that translates predicted outcomes into a CPM bid. Modern DSPs use machine learning models trained on billions of auction outcomes to set bids dynamically. Advertisers can configure bidding strategies — optimize to clicks, conversions, viewable impressions, or a target CPA — and the DSP adjusts bids per auction to pace toward that goal while remaining within budget constraints."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

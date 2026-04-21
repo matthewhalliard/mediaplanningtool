@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "performance"
+  },
+  "seo": {
+    "title": "Attribution Definition | Media Planning Glossary",
+    "description": "What is attribution in advertising? Attribution assigns conversion credit across touchpoints — last-click, multi-touch, and data-driven models explained.",
+    "keywords": ["attribution definition", "marketing attribution models", "multi-touch attribution", "last-click attribution", "ad attribution meaning", "attribution media planning"],
+    "slug": "attribution"
+  },
+  "term": {
+    "name": "Attribution",
+    "definition": "Attribution in advertising is the process of assigning credit for a conversion — a purchase, lead, app install, or other desired action — to one or more touchpoints in the customer's journey to that outcome. Because customers typically encounter multiple ads across multiple channels and devices before converting, attribution models determine which touchpoints receive credit, and in what proportion. The choice of attribution model can fundamentally change how budgets are allocated and how each channel's value is perceived.",
+    "extended_explanation": "Attribution models range from the simplest single-touch approaches to sophisticated algorithmic systems. Last-click attribution assigns 100% of conversion credit to the final touchpoint before conversion — the dominant model historically, but one that systematically undervalues awareness channels like CTV, display, and top-of-funnel social. First-click attribution does the inverse, crediting only the initial touchpoint. Linear models split credit equally across all touchpoints. Time-decay models weight recent touchpoints more heavily. Position-based (U-shaped) models split 40% to first touch, 40% to last touch, and 20% across the middle. Data-driven attribution (DDA), available in platforms like Google Ads and GA4, uses machine learning on observed conversion paths to assign statistically derived weights — but requires significant conversion volume (typically 10,000+ monthly) to be reliable.\n\nBeyond click-based attribution, view-through attribution credits channels where a user saw an ad but never clicked, then later converted. This is particularly important for CTV, display, and video campaigns that drive brand awareness without generating direct clicks. Lookback windows — typically 1–30 days for view-through and 30–90 days for click-through — define how far back in time a touchpoint can be credited. In 2025, cookie signal loss and iOS privacy changes have eroded identity-based attribution in mobile and web environments, pushing brands toward aggregated measurement methods like media mix modeling and incrementality testing to fill the measurement gap.",
+    "example": "A home goods retailer runs a multi-channel campaign: CTV pre-roll, Instagram prospecting, Google Shopping, and branded paid search. Under last-click attribution, Google branded search receives 78% of conversion credit because users who complete a purchase frequently search the brand name last. Instagram and CTV receive near-zero credit. When the team switches to a position-based model in GA4, the picture shifts: CTV receives 22% of credit (first-touch for many converted users), Instagram prospecting 18%, Shopping 25%, and branded search 35%. This attribution shift justifies increasing CTV and Instagram budgets — previously deemed 'low ROAS' channels — and reducing over-investment in branded search that was merely capturing demand created upstream.",
+    "why_it_matters": "Attribution is the foundation of how media budgets get defended, optimized, and reallocated. A flawed attribution model systematically misallocates spend — overinvesting in channels that capture conversions and underinvesting in channels that cause them. Studies consistently show that last-click attribution overvalues branded search and retargeting by 40–65% and undervalues display and upper-funnel channels by 200–400%. For media planners, understanding attribution model mechanics is critical not just for reporting but for cross-channel planning: the right attribution framework reveals how channels work together, informs reach-and-frequency strategies, and prevents the 'awareness pipeline drain' that occurs when top-funnel investment is cut based on last-click ROI reporting alone.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "E-commerce attribution is dominated by last-click for optimization decisions, but sophisticated retailers increasingly use data-driven attribution in GA4 and incrementality testing to correct for it. Multi-touch models consistently reveal that Facebook and Instagram prospecting campaigns — which show ROAS of 1.5–2x under last-click — actually contribute 2.5–4x that value when properly credited via first-touch or position-based models. Lookback windows of 7–30 days for click-through and 1–7 days for view-through are standard."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Automotive attribution is complicated by long, multi-device purchase cycles averaging 90–120 days. Buyers typically consume 12+ touchpoints — TV spots, YouTube pre-roll, display retargeting, Google branded search, dealer website visits — before submitting a lead. Last-click auto dealer attribution routinely misses the role of CTV brand campaigns in driving dealer visits. Automotive advertisers increasingly adopt identity-graph-based attribution or MMM to connect upper-funnel awareness to showroom visits and lead form submissions."
+      },
+      {
+        "vertical": "B2B / SaaS",
+        "note": "B2B SaaS attribution runs into two core challenges: long sales cycles (90–180 days) exceed standard 30-day lookback windows, and multi-stakeholder journeys involve 5–12 individuals across a single account. Account-based attribution models — which aggregate individual-level touchpoints at the company level — have become the standard for enterprise SaaS. Position-based (W-shaped) attribution that credits first touch, opportunity creation, and closed-won is preferred, with 75% of B2B companies adopting multi-touch attribution as of 2025."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "conversion-rate",
+        "name": "Conversion Rate (CVR)"
+      },
+      {
+        "slug": "incrementality",
+        "name": "Incrementality"
+      },
+      {
+        "slug": "media-mix-modeling",
+        "name": "MMM (Media Mix Modeling)"
+      },
+      {
+        "slug": "return-on-ad-spend",
+        "name": "ROAS (Return on Ad Spend)"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What are the main types of attribution models in digital advertising?",
+        "answer": "The core attribution models are: Last-click — 100% credit to the final touchpoint before conversion, best for direct-response campaigns with short consideration cycles. First-click — 100% credit to the initial touchpoint, useful for measuring awareness drivers. Linear — equal credit to all touchpoints, appropriate when every interaction is considered equally influential. Time-decay — exponentially more credit to touchpoints closer to conversion, suitable for high-frequency short-cycle categories. Position-based (U-shaped) — 40% to first touch, 40% to last, 20% distributed across the middle, best for balanced funnel visibility. Data-driven attribution (DDA) — machine learning determines weights from observed path data, but requires high conversion volume. Each model creates a different picture of channel value; media planners should use multiple models in combination and validate against incrementality tests."
+      },
+      {
+        "question": "How has iOS privacy and cookie deprecation affected attribution?",
+        "answer": "Apple's ATT (App Tracking Transparency) framework, launched in iOS 14.5 in 2021 and tightened since, has significantly reduced user-level identity signals in mobile advertising. Opt-in rates for cross-app tracking sit around 25–40% in the U.S., meaning the majority of iOS conversions cannot be tied back to specific ad exposures using traditional pixel-based attribution. In web environments, third-party cookie deprecation — complete in most non-Chrome browsers and progressively rolled out in Chrome — erodes the identity graph needed for cross-site attribution. The industry has responded with server-side conversion APIs (Meta CAPI, Google Enhanced Conversions), probabilistic modeling, and a shift toward privacy-safe aggregated methods like MMM and geo-based incrementality testing to fill attribution gaps at scale."
+      },
+      {
+        "question": "What is view-through attribution and when should it be used?",
+        "answer": "View-through attribution (VTA) credits a channel for a conversion when a user was exposed to an ad — but never clicked — and subsequently converted within a specified lookback window (typically 1–7 days for display, up to 14 days for CTV). VTA is essential for channels like CTV, YouTube, digital out-of-home, and display prospecting that operate primarily through brand awareness rather than direct response. Without VTA, these channels receive zero attribution credit even when they demonstrably influence purchase decisions. The risk is over-counting: a VTA window that's too long inflates attribution for awareness channels by crediting users who would have converted organically. Best practice is to use a short VTA window (1–3 days for display, 3–7 days for video) and validate VTA-attributed conversions against incrementality holdout tests."
+      },
+      {
+        "question": "What is the difference between attribution and media mix modeling?",
+        "answer": "Attribution is a user-level or session-level method — it tracks individual conversion paths and assigns credit to specific touchpoints in a customer's journey. It requires identity signals (cookies, device IDs, logged-in users) and works best for digital, trackable channels. Media mix modeling (MMM) is an aggregated, statistical approach — it analyzes the correlation between channel-level spend and overall business outcomes (sales, revenue) over time, without requiring individual user tracking. MMM can model offline channels (TV, radio, OOH, promotions, pricing, seasonality) that attribution cannot capture. The two methods are complementary: attribution provides granular campaign-level optimization signals, while MMM provides strategic budget allocation guidance across the full marketing mix. Leading advertisers in 2025 run both simultaneously and use incrementality tests to calibrate and validate each."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

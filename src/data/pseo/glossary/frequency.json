@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "category": "reach-audience",
+    "channel": "cross-channel"
+  },
+  "seo": {
+    "title": "Frequency Definition in Advertising | Media Planning Glossary",
+    "description": "What is frequency in media planning? Frequency measures average ad exposures per person. Learn optimal frequency by objective, frequency capping strategy, and 2025 benchmarks.",
+    "keywords": [
+      "frequency definition advertising",
+      "ad frequency",
+      "frequency capping",
+      "average frequency media planning",
+      "optimal frequency",
+      "frequency vs reach",
+      "ad fatigue"
+    ],
+    "slug": "frequency"
+  },
+  "term": {
+    "name": "Frequency",
+    "definition": "Frequency is the average number of times a unique individual or household is exposed to an ad or campaign within a defined time period. It represents the 'depth' counterpart to reach's 'breadth': where reach tells you how many different people saw your ad, frequency tells you how many times each person saw it. Together, reach and frequency define the full shape of a campaign's audience delivery, and their product — reach multiplied by frequency — equals total gross impressions (or GRPs when reach is expressed as a percentage of the target population).",
+    "extended_explanation": "Average frequency is calculated as: Frequency = Total Impressions ÷ Unique Reach. A campaign delivering 9,000,000 impressions to 3,000,000 unique users has an average frequency of 3.0. This average, however, masks a frequency distribution: in practice, a small portion of heavy media consumers will see the ad 10–20 times while a large portion of light consumers see it just once. Planners increasingly focus on frequency distribution (what % of the audience reached 3+, 5+, 10+ times) rather than average frequency alone.\n\nFrequency strategy depends heavily on campaign objective. Brand awareness campaigns benefit from broader frequency — 3–5 exposures per person in a four-week period — to cross the cognitive threshold for message retention. Lower-funnel retargeting campaigns may deploy 5–8 impressions per week against high-intent users. Conversely, ad fatigue — the well-documented phenomenon where CTR drops and negative brand sentiment rises with overexposure — argues for frequency caps. Research consistently shows CTR declines approximately 50% after 5–8 exposures to the same creative.\n\nIn 2025–2026, programmatic platforms allow impression-level frequency capping across an entire campaign, but cross-platform deduplication remains imperfect. A user capped at 3 exposures on one DSP may receive 3 more on another platform and 4 more on social, resulting in 10+ exposures to the same ad without any single platform knowing. This cross-platform frequency problem is one of the leading drivers of waste in modern media plans.",
+    "example": "A streaming audio platform running a mid-funnel consideration campaign for a SaaS product sets a frequency cap of 5 impressions per user per week across its DSP buy. The $60,000 four-week campaign delivers 4,200,000 total impressions to 980,000 unique listeners — an average frequency of 4.3. Frequency distribution analysis reveals: 28% of the audience saw it 1–2 times (below the 3+ effective threshold), 54% saw it 3–5 times (in the sweet spot), and 18% saw it 6+ times despite the cap (due to multiple device registrations and podcast vs. music stream ID fragmentation). The planner tightens the frequency cap to 4 on the next flight and adds a cross-device identity resolution layer, reducing wasted high-frequency exposures by an estimated 22%.",
+    "why_it_matters": "Frequency is the lever that transforms passive awareness into active consideration and, ultimately, behavior. A single ad exposure rarely changes a consumer's intent; it is the accumulation of relevant touches — across formats, contexts, and time — that builds the mental associations driving purchase decisions. But frequency has a ceiling: beyond the optimal exposure window, additional impressions generate diminishing returns on brand lift and increasing risk of creative fatigue and negative brand association. Getting frequency right — not too low to be forgotten, not so high as to become wallpaper or an irritant — is one of the highest-leverage optimization decisions in media planning. The rise of attention-adjusted frequency metrics (weighting exposures by time-in-view and context quality rather than raw impression count) is further refining how planners think about effective frequency in 2025.",
+    "vertical_context": [
+      {
+        "vertical": "Connected TV (CTV)",
+        "note": "CTV is one of the few digital channels where overexposure is visible to consumers. Research from Brandtailers (2025) identifies 4–6 monthly exposures per viewer as the recall-optimal range; at 7+ exposures, negative sentiment rises measurably. The promise of CTV is precision frequency control, but cross-platform fragmentation across Roku, Amazon Fire TV, and Apple TV means planners must monitor frequency distribution reports, not just set platform-level caps."
+      },
+      {
+        "vertical": "Social Media",
+        "note": "Social platforms require higher frequency than linear media due to fast-scroll feed consumption. Effective frequency benchmarks for social brand campaigns are 6–10 weekly impressions per target user. Meta's own research found that a frequency cap of 2 impressions per week captures 95% of achievable purchase intent lift. Creative fatigue sets in faster on social than on TV; planners should rotate creative assets every 5–7 days at 5+ frequency per week."
+      },
+      {
+        "vertical": "Programmatic Display",
+        "note": "Display has the lowest attention-per-impression of any channel, requiring higher raw frequency for awareness impact. However, open programmatic is most susceptible to cross-platform frequency stacking — a user capped at 3× on one DSP can still receive 3× from a second DSP plus 2× from a social pixel, totaling 8+ exposures. Research from AdBid (2026) shows proper frequency caps can reduce CPM 10–20% while maintaining equivalent results by reallocating budget from saturated users toward fresh reach."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "reach",
+        "name": "Reach"
+      },
+      {
+        "slug": "gross-rating-point",
+        "name": "GRP (Gross Rating Point)"
+      },
+      {
+        "slug": "effective-reach",
+        "name": "Effective Reach"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the optimal frequency for an advertising campaign?",
+        "answer": "Optimal frequency depends on campaign objective and media channel. For brand awareness, the widely accepted 'three-hit theory' suggests 3 exposures per person in a four-week window as the minimum threshold to generate memory formation and brand recall. For deeper goals like purchase intent, research suggests 4–6 exposures per four-week period. CTV research from Brandtailers (2025) identifies 4–6 monthly exposures as the sweet spot for recall without saturation. Social media requires higher frequency — Meta's own research found a 2/week cap captures 95% of achievable purchase intent lift. Performance retargeting campaigns often use 1–2 daily exposures for 7–30 days. Above these thresholds, CTR typically drops 50% after 5–8 exposures to the same creative."
+      },
+      {
+        "question": "What is a frequency cap and how should I set one?",
+        "answer": "A frequency cap limits how many times a single user can see an ad within a defined time window (daily, weekly, or campaign total). Setting frequency caps requires balancing message recall against creative fatigue and budget waste. For brand awareness campaigns, a weekly cap of 3–5 impressions per user is a reasonable starting point. For retargeting, 1–2 daily impressions with a 7-day recency window is common. Set caps too low and you underdeliver — insufficient repetition for message retention. Set them too high and you waste budget on oversaturated users while leaving fresh audiences unexposed. Best practice is to monitor frequency distribution reports (% reached 1–2×, 3–5×, 6–10×, 10+×) rather than just average frequency, and to adjust caps based on CTR trends at different frequency bands."
+      },
+      {
+        "question": "What is the difference between average frequency and frequency distribution?",
+        "answer": "Average frequency is the mean number of exposures per reached person: total impressions ÷ unique reach. It is a single number that obscures the underlying distribution. Frequency distribution tells you what percentage of your reached audience saw the ad 1×, 2×, 3×, and so on. This matters enormously for planning because natural media consumption patterns are highly skewed: a small number of heavy media consumers (light TV viewers who stream constantly) will rack up 10–20+ exposures while a large portion of the target receives just 1. A campaign with a 4.0 average frequency might have 40% of its audience below the 3+ effective threshold. Managing frequency distribution — not just average — is the more sophisticated and impactful optimization lever."
+      },
+      {
+        "question": "How does ad creative fatigue relate to frequency?",
+        "answer": "Ad fatigue occurs when repeated exposure to the same creative causes engagement to decline and, in some cases, negative brand sentiment to rise. Empirically, CTR drops approximately 50% after 5–8 exposures to the same creative unit, and user sentiment surveys show increasing irritation scores at 7+ exposures. The practical defense against creative fatigue is a rotation strategy: planners should run 3–5 creative variants simultaneously within a campaign and use sequential messaging to give high-frequency users a progressing narrative rather than repetitive bombardment. For video campaigns, a library of 3 spots rotating within a 5-exposure weekly cap gives each ad approximately 1.7 exposures per user — enough repetition per creative to build familiarity without triggering fatigue."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "category": "planning"
+  },
+  "seo": {
+    "title": "Media Mix Definition | Media Planning Glossary",
+    "description": "What is media mix in advertising? Media mix is the strategic combination of channels — TV, digital, social, OOH — used to reach target audiences, balance brand building with performance, and maximize ROI.",
+    "keywords": ["media mix definition", "media mix advertising", "media mix strategy", "channel mix marketing", "media mix planning", "media mix optimization"],
+    "slug": "media-mix"
+  },
+  "term": {
+    "name": "Media Mix",
+    "definition": "Media mix is the strategic combination and allocation of advertising channels — such as linear TV, CTV, paid search, programmatic display, social media, audio, and out-of-home — used in a campaign or annual plan to reach target audiences across touchpoints. The media mix determines how total budget is distributed across channels in pursuit of reach, frequency, and business outcome objectives.",
+    "extended_explanation": "The media mix decision sits at the heart of media planning: given a fixed budget and set of campaign objectives, which combination of channels will produce the best business result? This is not a question answered by intuition but by data. Media mix modeling (MMM) — used by 53.5% of U.S. marketers as of 2024 — uses historical spend, impressions, and sales data to quantify each channel's marginal contribution to revenue, enabling evidence-based allocation.\n\nThe fundamental tension in media mix design is the full-funnel trade-off between upper-funnel brand building (TV, CTV, digital video, audio, OOH) and lower-funnel performance channels (paid search, shopping, retargeting). Nielsen's cross-media research demonstrates that well-balanced cross-media campaigns can achieve 90% on-target reach, versus only 17% for single-channel plans — a 5x improvement. Yet most advertisers still over-concentrate in their most measurable channel (typically paid search) while underinvesting in reach-building channels that generate the branded demand that makes search work.\n\nChannel mix benchmarks shift with budget scale. Nielsen's 2025 analysis shows large retailers ($100M+ spend) still allocating 46% to traditional channels; the largest auto manufacturers allocate 70% to traditional. Smaller brands investing less than $10M skew 70–80% digital by necessity, trading mass reach for targeting precision. By 2025, digital channels account for approximately 57% of total marketing budgets on average, with social (11.3%), content/SEO (10.2%), and paid search (9.8%) as leading digital sub-categories.",
+    "example": "A national insurance brand with a $15M annual media budget runs an MMM analysis revealing that its current mix — 65% paid search / 20% display / 15% social — is heavily over-indexed on bottom-funnel channels. The analysis shows diminishing returns on search spend above $7M annually, with each incremental $500K generating only 0.4x ROAS versus 1.8x in the first $4M. The planner rebalances to 40% paid search / 25% CTV / 15% social / 10% audio / 10% OOH. CTV runs awareness campaigns with A35–64 targeting at $22 CPM; audio runs commute-time :30s at $8 CPM. After two quarters, branded search volume rises 18%, indicating that upper-funnel channels are successfully building demand that lower-funnel captures.",
+    "why_it_matters": "Media mix is the single highest-leverage decision in media planning — it determines whether a budget builds long-term brand equity, drives near-term conversions, or accomplishes both. Over-concentration in one channel creates brittleness: an algorithm change, auction price spike, or platform policy shift can devastate performance overnight. Diversified mixes are more resilient and often more effective. The 70/20/10 framework — 70% proven performers, 20% growth channels, 10% experimental — provides a structured way to balance stability with innovation. In 2025–2026, the single most consequential media mix shift is the rebalancing from linear TV to CTV and streaming, which now reaches over 90% of U.S. households and offers the targeting precision of digital with the attention quality of television.",
+    "vertical_context": [
+      {
+        "vertical": "Retail / E-Commerce",
+        "note": "Mid-to-large retail brands ($50M+ budgets) typically allocate 35–45% to digital performance channels (search, shopping, retargeting), 20–30% to CTV and video for brand building, 15–20% to paid social, and 5–10% to retail media networks like Amazon, Walmart Connect, and Instacart Ads. Retail media has grown to represent 15–18% of total retail ad budgets at major brands due to its closed-loop attribution advantage. During Q4, the mix typically shifts 8–12 percentage points toward performance channels to capture peak conversion demand."
+      },
+      {
+        "vertical": "Automotive",
+        "note": "Auto OEMs maintain the most traditional-heavy media mixes of any major category — top manufacturers allocate an average of 70% to linear TV, radio, and print, driven by mass awareness objectives and the need to reach the full purchase funnel simultaneously. Dealer group co-op programs increasingly require CTV inclusion, typically at 15–25% of local market budgets. Digitally-native EV brands (Tesla, Rivian) invert this mix entirely, spending 80%+ in digital and social with minimal broadcast, demonstrating that category norms are not universal."
+      },
+      {
+        "vertical": "Financial Services",
+        "note": "Financial services advertisers (banking, insurance, fintech) balance brand trust-building with high-intent performance capture. Large banks typically allocate 30–40% to television (including CTV) for brand equity, 25–35% to search (capturing in-market demand), and 15–20% to programmatic display and social for prospecting. Compliance constraints limit certain targeting methods in housing, credit, and employment verticals under FCRA guidelines, pushing some budget toward broader contextual and interest-based inventory. Fintech challengers skew 60–70% digital and social to reach younger demographics at lower CPMs than linear TV."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "media-mix-modeling",
+        "name": "MMM (Media Mix Modeling)"
+      },
+      {
+        "slug": "reach",
+        "name": "Reach"
+      },
+      {
+        "slug": "share-of-voice",
+        "name": "Share of Voice (SOV)"
+      },
+      {
+        "slug": "incrementality",
+        "name": "Incrementality"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "How do I determine the right media mix for my brand?",
+        "answer": "Start with your campaign objective: awareness-first plans should weight upper-funnel channels (CTV, digital video, audio, OOH) more heavily, while performance-first plans can concentrate on paid search, retargeting, and shopping. Then layer in audience data — where does your target customer actually spend media time? Nielsen's 2025 data shows the average U.S. consumer spends 6 hours daily on media and entertainment, but that time is split across SVOD, social video, gaming, and audio, not concentrated on linear TV. Finally, use MMM or incrementality testing to quantify each channel's actual marginal return in your category, not industry averages. Most advertisers find their current mix differs materially from the MMM-optimal allocation."
+      },
+      {
+        "question": "What is the 70/20/10 rule for media mix?",
+        "answer": "The 70/20/10 framework is a budget allocation heuristic widely used in growth marketing: 70% allocated to proven channels with consistent, measurable ROI; 20% to growth-stage channels showing promise but requiring further optimization; and 10% to experimental channels or formats being tested for the first time. Applied to media mix, this might mean 70% to paid search and CTV (proven ROAS contributors), 20% to retail media and audio (growing performance evidence), and 10% to emerging formats like interactive CTV, DOOH programmatic, or in-game advertising. Successful experiments in the 10% bucket graduate to the 20% category as evidence accumulates."
+      },
+      {
+        "question": "How does media mix differ from media mix modeling (MMM)?",
+        "answer": "Media mix (or media mix strategy) is the strategic planning concept — the decision about which channels to use and in what proportions. Media mix modeling (MMM) is the statistical methodology used to measure each channel's historical contribution to business outcomes, which in turn informs the strategic allocation decision. Think of media mix as the map and MMM as the measurement system that tells you which roads actually led to your destination. As of 2024, 53.5% of U.S. marketers use MMM (per eMarketer), up from roughly 30% in 2020, driven by cookie deprecation and growing need for privacy-safe cross-channel measurement."
+      },
+      {
+        "question": "Should I always include linear TV in my media mix in 2025?",
+        "answer": "Linear TV's role depends entirely on your target audience's demographics and your campaign scale. For broad-reach brand-building campaigns targeting adults 35–65, linear TV still delivers efficient reach — particularly during live sports events, where attention quality and cultural resonance are difficult to replicate digitally. However, cable TV subscriptions have declined to 49% of U.S. households (per Deloitte's 2025 Digital Media Trends), down from 63% three years prior. CTV now offers the screen quality of television with digital targeting precision and is the preferred channel for brands transitioning TV budgets. For advertisers targeting Gen Z and younger millennials, social video (YouTube, TikTok, Instagram Reels) often delivers better reach efficiency than linear TV at comparable quality."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}

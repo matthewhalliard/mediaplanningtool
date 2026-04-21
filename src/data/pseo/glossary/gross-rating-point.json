@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "category": "reach-audience",
+    "channel": "television",
+    "vertical": "broadcast"
+  },
+  "seo": {
+    "title": "GRP (Gross Rating Point) Definition | Media Planning Glossary",
+    "description": "What is a GRP in advertising? Gross Rating Points measure total campaign weight as reach × frequency. Learn the formula, CPP benchmarks, and how GRPs apply in digital media.",
+    "keywords": [
+      "grp definition advertising",
+      "gross rating point",
+      "grp formula",
+      "cost per point cpp",
+      "grp media planning",
+      "grp vs trp",
+      "television grp benchmarks"
+    ],
+    "slug": "gross-rating-point"
+  },
+  "term": {
+    "name": "GRP (Gross Rating Point)",
+    "abbreviation": "GRP",
+    "definition": "A Gross Rating Point (GRP) is a unit of advertising weight equal to one percent of the target population reached one time. GRPs express the total audience delivery of a campaign by combining reach and frequency into a single number: GRP = Reach (%) × Average Frequency. A campaign reaching 50% of the target audience with an average frequency of 3 delivers 150 GRPs. Because GRPs measure gross — not unduplicated — audience exposure, the total can and routinely does exceed 100.",
+    "extended_explanation": "GRPs are the primary currency for buying and evaluating broadcast television, radio, and out-of-home advertising. Unlike CPM, which measures cost per 1,000 served impressions, GRPs anchor to a defined target population (e.g., adults 25–54, women 18–49, or households with children) and express campaign weight relative to that universe. This population-relative framing makes GRPs directly comparable across markets of different sizes — a 200 GRP campaign in Chicago and a 200 GRP campaign in Dallas deliver equivalent audience weight relative to each market's target population, even though Chicago's absolute impression volume is larger.\n\nThe companion metric to GRPs is Cost Per Point (CPP) — the cost to deliver one GRP (one percentage point of reach, one time) to the target audience. CPP = Total Media Cost ÷ Total GRPs. CPP is the TV equivalent of CPM: it standardizes cost comparisons across programs, dayparts, and markets. In 2025–2026, national broadcast TV CPPs for adults 25–54 range from $5,000–$15,000 for prime time network placements, while local market CPPs range from $500–$5,000 depending on DMA size and daypart.\n\nIn digital advertising, GRPs are increasingly used to bridge traditional and digital planning. Digital GRPs (dGRPs) translate impression delivery against a defined demographic target into a TV-equivalent rating point framework, enabling cross-media reach and frequency modeling in unified planning tools. Nielsen DAR and Comscore vCE are the primary measurement solutions for digital GRP validation.",
+    "example": "A regional automotive dealer group plans a four-week awareness campaign in the Dallas-Fort Worth DMA targeting adults 25–54 (approximately 2.9 million people). Their TV buyer negotiates the following schedule: 15 spots on evening news at a 3.2 rating each (48 GRPs), 20 spots during late fringe at a 1.8 rating each (36 GRPs), and 10 spots during weekend sports at a 4.5 rating each (45 GRPs). Total TV GRPs: 129. At a blended CPP of $1,200, the TV investment is $154,800. Reach and frequency analysis from the traffic system estimates 62% unique reach at 2.1 average frequency. The planner adds 30 digital video GRPs (verified via Nielsen DAR) for $18,000, boosting reach to 71% among the same target — a cross-platform total of 159 combined GRPs.",
+    "why_it_matters": "GRPs remain the single most important planning metric for broadcast and traditional media buyers, and their relevance has expanded rather than contracted in the digital era. As media plans increasingly blend linear TV, CTV, digital video, and audio into unified campaigns, GRPs provide the common framework for comparing audience weight across these formats. A $500K TV buy delivering 300 GRPs can be directly compared to a $500K digital video buy's equivalent dGRP delivery — allowing planners to make data-driven decisions about where a dollar of video budget generates the most audience weight. Understanding CPP by market and daypart is a fundamental competency for any planner working with broadcast or cross-platform video budgets. Cost per point fluctuations during election cycles, Q4, and major sporting events can move CPPs 40–150% above baseline, making timing and advance contracting critical planning levers.",
+    "vertical_context": [
+      {
+        "vertical": "Broadcast Television",
+        "note": "National broadcast TV CPPs for adults 25–54 in prime time ranged from $7,000–$15,000 in 2025, with live sports (NFL, college football, NBA playoffs) commanding the highest CPPs — often $20,000–$40,000+ per rating point on major networks. Political advertising in 2025–2026 election cycles inflated local broadcast CPPs by 40–80% in contested market DMAs (Pennsylvania, Georgia, Arizona) during September–November, crowding out commercial advertisers and forcing budget reallocation to cable and digital video."
+      },
+      {
+        "vertical": "Cable Television",
+        "note": "Cable CPPs are substantially lower than broadcast, reflecting smaller per-network audiences. Adult 25–54 CPPs on cable news, entertainment, and sports networks range from $800–$4,500 nationally, depending on program, daypart, and audience composition. Cable allows more targeted audience delivery — e.g., buying against upscale HHI $100K+ viewers on HGTV or History at premium CPPs — which makes cable GRPs more target-efficient than broad broadcast GRPs for niche advertisers."
+      },
+      {
+        "vertical": "Connected TV (CTV)",
+        "note": "CTV planners increasingly use digital GRPs (dGRPs) to express streaming video delivery in TV-equivalent terms. A campaign reaching 15% of adults 25–54 with 4 average exposures delivers 60 dGRPs. At $25–$35 CPM on CTV and a ~2,900-person target universe, the CTV CPP equivalent ranges from $7,300–$10,200 for a national buy — broadly comparable to cable CPPs but with far superior targeting precision, viewability (near 100%), and cross-device reach into cord-cutter households that broadcast cannot efficiently access."
+      }
+    ],
+    "related_terms": [
+      {
+        "slug": "target-rating-point",
+        "name": "TRP (Target Rating Point)"
+      },
+      {
+        "slug": "reach",
+        "name": "Reach"
+      },
+      {
+        "slug": "frequency",
+        "name": "Frequency"
+      },
+      {
+        "slug": "impressions",
+        "name": "Impressions"
+      }
+    ]
+  },
+  "content": {
+    "faq": [
+      {
+        "question": "What is the difference between GRP and TRP?",
+        "answer": "GRP (Gross Rating Point) measures campaign weight against the total population, while TRP (Target Rating Point) measures campaign weight against a specific target audience. If a TV spot airs during a program with a 4.0 rating (meaning 4% of all TV households watched), the GRP contribution is 4.0. But if only 2.5% of adults 25–54 watched that program, the TRP contribution is 2.5. For any campaign with a defined target audience that differs from the general population, TRPs are the more relevant planning metric because they focus audience weight measurement on the people you actually want to reach — not the broader universe."
+      },
+      {
+        "question": "How do GRPs relate to reach and frequency?",
+        "answer": "GRPs are the product of reach and frequency: GRP = Reach (%) × Frequency. This means the same GRP level can be achieved with very different reach-frequency combinations. 200 GRPs could represent 40% reach at 5.0 frequency, 67% reach at 3.0 frequency, or 80% reach at 2.5 frequency. Each configuration has different strategic implications. High-reach, lower-frequency plans prioritize broad awareness and are preferred for new product launches or brand repositioning. High-frequency, lower-reach plans prioritize persuasion and behavioral change among a more concentrated audience. GRP planning tools use reach curves to model how a given budget generates different reach-frequency combinations across programs and dayparts."
+      },
+      {
+        "question": "What is Cost Per Point (CPP) and why does it matter?",
+        "answer": "Cost Per Point (CPP) is the cost of delivering one GRP — one percentage point of reach, one time — to the target audience. It is calculated as: CPP = Total Media Cost ÷ Total GRPs. CPP is the standard efficiency metric for broadcast TV and radio buying: just as CPM standardizes cost comparisons in digital, CPP standardizes cost comparisons across programs, networks, and markets in traditional media. A media buyer comparing two TV schedules should use CPP rather than gross cost to understand relative efficiency. CPP also allows cross-market comparisons — normalizing for the fact that buying one rating point in New York costs 10–20× more than buying one rating point in a smaller DMA."
+      },
+      {
+        "question": "How are GRPs used in cross-platform media planning?",
+        "answer": "As media plans span linear TV, CTV, digital video, and audio, GRPs serve as the unifying currency for measuring total campaign audience weight across channels. Planners translate digital video delivery into 'digital GRPs' (dGRPs) using verified audience measurement (Nielsen DAR, Comscore vCE) — expressing digital impression delivery as a percentage of the target population reached times average frequency. This allows direct comparison of reach-frequency contributions from TV versus digital buys within a single planning framework. Major holding company planning tools (GroupM's Finecast, Publicis' Epsilon, Dentsu's M1) all use GRP-based models to optimize cross-platform video budgets, allocating spend toward the channel delivering incremental GRPs at the lowest CPP."
+      }
+    ],
+    "cta": {
+      "text": "Try Halliard free — the OS for modern media teams",
+      "link": "https://halliardmedia.com/trytoday"
+    }
+  }
+}
