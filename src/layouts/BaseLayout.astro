@@ -1,4 +1,5 @@
 ---
+import "@fontsource-variable/inter";
 import "@fontsource-variable/gabarito";
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
@@ -53,7 +54,7 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
       <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     )}
   </head>
-  <body class="bg-white dark:bg-gray-900">
+  <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <slot />
     <Posthog />
   </body>
