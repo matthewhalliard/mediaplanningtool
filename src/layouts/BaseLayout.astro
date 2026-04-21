@@ -4,6 +4,7 @@ import "@fontsource-variable/gabarito";
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
 import Posthog from "@components/analytics/Posthog.astro";
+import Snitcher from "@components/analytics/Snitcher.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
@@ -57,5 +58,6 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
   <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <slot />
     <Posthog />
+    <Snitcher />
   </body>
 </html>
