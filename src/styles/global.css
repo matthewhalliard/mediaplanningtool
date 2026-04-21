@@ -5,8 +5,9 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: 'Gabarito Variable', sans-serif;
-  --font-mono: 'Source Code Pro' monospace;
+  --font-sans: 'Inter Variable', system-ui, -apple-system, sans-serif;
+  --font-display: 'Gabarito Variable', 'Inter Variable', sans-serif;
+  --font-mono: 'Source Code Pro', monospace;
 
   --color-gray-50: var(--color-neutral-50);
   --color-gray-100: var(--color-neutral-100);
@@ -33,6 +34,19 @@
   --color-primary-950: var(--color-sky-950);
 }
 
+/* Default body text uses Inter and a darker gray for readability */
+body {
+  font-family: var(--font-sans);
+  color: var(--color-gray-800);
+}
+.dark body {
+  color: var(--color-gray-200);
+}
+
+/* H1 / H2 use Gabarito as the display face */
+h1, h2 {
+  font-family: var(--font-display);
+}
 
 .tag {
   @apply inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset;
