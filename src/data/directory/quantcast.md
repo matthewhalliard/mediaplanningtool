@@ -1,8 +1,8 @@
 ---
 id: quantcast
 title: Quantcast
-seoTitle: "Quantcast DSP Pricing 2026: Free Tier vs. $50K Managed"
-description: "Quantcast offers a free self-serve DSP with $5K ad credit for new users. Managed service requires $50K/mo min. Compare vs. The Trade Desk & Amazon DSP."
+seoTitle: "Quantcast Review 2026: Free DSP, Pricing & Top Alternatives"
+description: "Quantcast offers a free self-serve DSP with $5K ad credit for new users. See real user reviews, AI audience targeting features, and how it compares to TTD."
 tags:
   - audience-analytics
   - media-buying

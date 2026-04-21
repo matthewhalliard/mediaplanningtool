@@ -1,8 +1,8 @@
 ---
 id: the-trade-desk
 title: The Trade Desk
-seoTitle: "The Trade Desk Review 2026: Pricing, Fees & Top DSP Alternatives"
-description: "The Trade Desk charges 15–20% of media spend with a $100K+ quarterly minimum. See Kokai AI features, real user reviews, and how TTD compares to DV360 & Amazon DSP."
+seoTitle: "The Trade Desk vs DV360 vs Amazon DSP (2026 Comparison)"
+description: "The Trade Desk charges 15–20% of spend ($100K+/quarter). See side-by-side comparisons with Google DV360, Amazon DSP, and Xandr — which DSP wins in 2026?"
 tags:
   - media-buying
   - audience-analytics

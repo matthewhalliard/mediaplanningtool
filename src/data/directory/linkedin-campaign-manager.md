@@ -1,8 +1,8 @@
 ---
 id: linkedin-campaign-manager
 title: LinkedIn Campaign Manager
-seoTitle: "LinkedIn Campaign Manager: Complete Guide 2026 + Ad Costs"
-description: Complete guide to LinkedIn Campaign Manager 2026. Ads start at $10/day, CPC typically $2–$9. Set up B2B campaigns, target professionals, compare alternatives.
+seoTitle: "LinkedIn Campaign Manager Pricing 2026: CPC, CPM & Ad Costs"
+description: "LinkedIn ads cost $2–$9 CPC with a $10/day minimum. See LinkedIn Campaign Manager's B2B targeting, ad formats, and how it compares to Meta and Google Ads."
 tags:
   - media-buying
   - audience-analytics

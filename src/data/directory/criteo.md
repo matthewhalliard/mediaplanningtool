@@ -1,8 +1,8 @@
 ---
 id: criteo
 title: Criteo
-seoTitle: "Criteo Pricing 2026: Retargeting Cost & Alternatives"
-description: Criteo charges a % of media spend (CPC/CPM model, no setup fee). Leading retail media & retargeting platform. Compare vs Amazon DSP, Trade Desk, AdRoll.
+seoTitle: "Criteo Pricing 2026: CPC Rates, Hidden Fees & Alternatives"
+description: "Criteo bills on CPC/CPM with no setup fee — costs scale with spend. Compare Criteo's retail media network vs Amazon DSP and AdRoll before you commit."
 tags:
   - media-buying
   - audience-analytics

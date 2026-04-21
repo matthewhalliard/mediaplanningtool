@@ -1,8 +1,8 @@
 ---
 id: akkio
 title: Akkio
-seoTitle: "Akkio Pricing 2026: $49/mo Starter Plan, All Tiers Compared"
-description: "Complete Akkio pricing for 2026 — Starter ($49/mo), Growth, and Enterprise plans. Per-seat costs, feature limits, free tier details, and cheaper AI alternatives."
+seoTitle: "Akkio Review 2026: Is It Worth It? Pros, Cons & Alternatives"
+description: "Akkio starts at $49/mo for AI-powered media mix modeling. Read G2 reviews, see what real media planners say, and compare vs. cheaper alternatives."
 tags:
   - audience-analytics
   - media-planning

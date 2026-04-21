@@ -1,8 +1,8 @@
 ---
 id: amazon-dsp
 title: Amazon DSP
-seoTitle: "Amazon DSP Pricing 2026: $50K Minimum & Self-Serve Guide"
-description: "Amazon DSP managed service starts at ~$50K/mo. Self-serve available via agency partners. Compare vs. Quantcast and The Trade Desk."
+seoTitle: "Amazon DSP Review 2026: Is the $50K Minimum Worth It?"
+description: "Amazon DSP managed service requires ~$50K/mo but delivers first-party shopper data no other DSP can match. See reviews, self-serve options, and alternatives."
 tags:
   - media-buying
   - audience-analytics

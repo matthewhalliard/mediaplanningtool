@@ -1,8 +1,8 @@
 ---
 id: camphouse
 title: "Camphouse (formerly Mediatool)"
-seoTitle: "Camphouse Pricing 2026: Mediatool's New Name Explained"
-description: "Camphouse (formerly Mediatool) uses custom enterprise pricing with a 20-user minimum. See alternatives like Bionic and MediaPlanHQ from $199/mo."
+seoTitle: "Mediatool Is Now Camphouse 2026: Pricing & Reviews"
+description: "Mediatool rebranded to Camphouse in 2023. Custom pricing, 20-user minimum. See G2 reviews, what changed in the rebrand, and alternatives from $199/mo."
 tags:
   - media-planning
   - multi-channel

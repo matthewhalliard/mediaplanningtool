@@ -1,8 +1,8 @@
 ---
 id: google-dv360
 title: Google Display & Video 360
-seoTitle: "Google DV360 Pricing 2026: DSP Cost, Fees & Alternatives"
-description: Google DV360 costs 10–15% of media spend, $50K+/month minimum. Enterprise DSP with exclusive YouTube inventory. Compare vs The Trade Desk and Amazon DSP.
+seoTitle: "Google DV360 vs The Trade Desk 2026: Which DSP Is Better?"
+description: "Google DV360 costs 10–15% of media spend with a $50K/mo minimum. Compare DV360 vs The Trade Desk on inventory, YouTube exclusivity, pricing, and features."
 tags:
   - media-buying
   - audience-analytics
