@@ -244,3 +244,5 @@ x = "tabler:brand-x"
 [layout]
 sidebar = false
 emoji = true
+
+# Updated 2026-04-21 — tag filter display set to dropdown
