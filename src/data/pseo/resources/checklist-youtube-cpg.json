@@ -13,7 +13,8 @@
       "media planning checklist",
       "campaign checklist"
     ],
-    "slug": "checklist/youtube-cpg"
+    "slug": "checklist/youtube-cpg",
+    "noindex": true
   },
   "content": {
     "intro": "Use this checklist to plan, launch, and optimize Youtube campaigns for Cpg brands. It is designed to keep strategy, trafficking, measurement, and stakeholder approvals aligned across the full lifecycle.",

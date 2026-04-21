@@ -13,7 +13,8 @@
       "media planning checklist",
       "campaign checklist"
     ],
-    "slug": "checklist/tiktok-financial-services"
+    "slug": "checklist/tiktok-financial-services",
+    "noindex": true
   },
   "content": {
     "intro": "Use this checklist to plan, launch, and optimize Tiktok campaigns for Financial Services brands. It is designed to keep strategy, trafficking, measurement, and stakeholder approvals aligned across the full lifecycle.",

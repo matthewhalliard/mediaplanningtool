@@ -65,7 +65,7 @@ if (faqEntries.length > 0) {
 }
 ---
 
-<BaseLayout title={data.seo.title} description={data.seo.description} slug={`resources/${data.seo.slug}`}>
+<BaseLayout title={data.seo.title} description={data.seo.description} slug={`resources/${data.seo.slug}`} noindex={(data.seo as any).noindex}>
   <AppShell>
     <div class="w-full px-4 py-8">
       <ResourcePageComponent data={data} />

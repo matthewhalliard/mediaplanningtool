@@ -6,7 +6,7 @@ import Posthog from "@components/analytics/Posthog.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
-const { title, description, slug, faqSchema } = Astro.props;
+const { title, description, slug, faqSchema, noindex } = Astro.props;
 const siteTitle = themeConfig.general.title;
 
 const calculatedTitle = title || siteTitle;
@@ -24,6 +24,7 @@ const calculatedDescription = description || themeConfig.general.seo.description
 
     <title>{calculatedTitle}</title>
     <meta name="description" content={calculatedDescription} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content={themeConfig.general.seo.url} />

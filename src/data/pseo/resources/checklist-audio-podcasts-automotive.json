@@ -14,7 +14,8 @@
       "media planning checklist",
       "podcast buying"
     ],
-    "slug": "audio/podcasts/automotive"
+    "slug": "checklist/audio-podcasts-automotive",
+    "noindex": true
   },
   "content": {
     "intro": "Use this checklist to plan, launch, and optimize audio podcast campaigns for automotive brands. It covers strategy, audiences, creative, measurement, and optimization so teams can execute consistently and improve performance over time.",

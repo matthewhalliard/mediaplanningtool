@@ -13,7 +13,8 @@
       "media planning checklist",
       "campaign checklist"
     ],
-    "slug": "checklist/audio-podcasts-travel"
+    "slug": "checklist/audio-podcasts-travel",
+    "noindex": true
   },
   "content": {
     "intro": "Use this checklist to plan, launch, and optimize Audio campaigns for Podcasts Travel brands. It is designed to keep strategy, trafficking, measurement, and stakeholder approvals aligned across the full lifecycle.",

@@ -22,6 +22,7 @@ export const resourcePageSchema = z.object({
     description: z.string(),
     keywords: z.array(z.string()),
     slug: z.string(),
+    noindex: z.boolean().optional(),
   }),
   content: z.object({
     intro: z.string(),
