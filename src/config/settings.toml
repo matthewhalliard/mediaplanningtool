@@ -220,7 +220,7 @@ href = "/2026-guide"
 
 [header.actionButton]
 text = ""
-href = ""
+href = "https://mediaplanningtool.com"
 
 [footer]
 description = "The comprehensive directory for media planning software and tools."
