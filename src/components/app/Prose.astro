@@ -1,5 +1,5 @@
 <main
-  class="max-w-none font-display prose prose-zinc dark:prose-invert prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900 prose-a:hover:text-primary-400 prose-a:font-normal prose-a:no-underline prose-a:border-dashed prose-a:border-b prose-a:hover:border-solid prose-a:hover:border-primary-400 prose-headings:text-gray-800 dark:prose-headings:text-gray-100 prose-a:border-gray-400 dark:prose-a:border-gray-400 dark:prose-a:hover:border-primary-400 prose-blockquote:not-italic prose-blockquote:font-normal"
+  class="max-w-none prose prose-zinc dark:prose-invert prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900 prose-a:hover:text-primary-400 prose-a:font-normal prose-a:no-underline prose-a:border-dashed prose-a:border-b prose-a:hover:border-solid prose-a:hover:border-primary-400 prose-headings:text-gray-900 prose-headings:font-display dark:prose-headings:text-gray-100 prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-li:text-gray-800 dark:prose-li:text-gray-200 prose-a:border-gray-400 dark:prose-a:border-gray-400 dark:prose-a:hover:border-primary-400 prose-blockquote:not-italic prose-blockquote:font-normal"
 >
   <slot />
 </main>
@@ -10,5 +10,55 @@
   .prose blockquote p:first-of-type::before,
   .prose blockquote p:last-of-type::after {
     content: none !important;
+  }
+
+  /* Table styling — zebra rows, bold header row with subtle background, generous padding */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-gray-200);
+    font-size: 0.95rem;
+  }
+  .dark .prose table {
+    border-color: var(--color-gray-700);
+  }
+  .prose thead {
+    background-color: var(--color-gray-100);
+  }
+  .dark .prose thead {
+    background-color: var(--color-gray-800);
+  }
+  .prose th {
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-gray-900);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-gray-200);
+  }
+  .dark .prose th {
+    color: var(--color-gray-100);
+    border-bottom-color: var(--color-gray-700);
+  }
+  .prose td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-gray-100);
+    color: var(--color-gray-800);
+    vertical-align: top;
+  }
+  .dark .prose td {
+    color: var(--color-gray-200);
+    border-bottom-color: var(--color-gray-800);
+  }
+  .prose tbody tr:nth-child(even) {
+    background-color: var(--color-gray-50);
+  }
+  .dark .prose tbody tr:nth-child(even) {
+    background-color: color-mix(in srgb, var(--color-gray-800) 50%, transparent);
+  }
+  .prose tbody tr:last-child td {
+    border-bottom: 0;
   }
 </style>
