@@ -7,8 +7,9 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-        sans: ['Gabarito'],
-      },
+				sans: ['Inter Variable', 'system-ui', '-apple-system', 'sans-serif'],
+				display: ['Gabarito Variable', 'Inter Variable', 'sans-serif'],
+			},
 			colors: {
 				primary: colors.sky,
 				gray: colors.zinc,
