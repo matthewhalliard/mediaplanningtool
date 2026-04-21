@@ -11,7 +11,7 @@ showCount = true
 icon = "tabler:bow"
 
 [directoryUI.search.tags]
-display = "select" # options: none,select,show-all
+display = "show-all" # options: none,select,show-all
 intersection = false
 
 [directoryUI.grid]
