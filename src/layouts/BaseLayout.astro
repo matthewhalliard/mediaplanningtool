@@ -11,6 +11,13 @@ const siteTitle = themeConfig.general.title;
 
 const calculatedTitle = title || siteTitle;
 const calculatedDescription = description || themeConfig.general.seo.description;
+
+// Build canonical URL from the site base + the page slug.
+// When slug is undefined (e.g., homepage), canonical is just the root URL.
+const siteBase = themeConfig.general.seo.url.replace(/\/$/, "");
+const normalizedSlug = slug ? `/${String(slug).replace(/^\/|\/$/g, "")}` : "";
+const canonicalUrl = `${siteBase}${normalizedSlug}`;
+const twitterDomain = siteBase.replace(/^https?:\/\//, "");
 ---
 
 <!doctype html>
@@ -20,6 +27,7 @@ const calculatedDescription = description || themeConfig.general.seo.description
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="canonical" href={canonicalUrl} />
     <meta name="generator" content={Astro.generator} />
 
     <title>{calculatedTitle}</title>
@@ -27,7 +35,7 @@ const calculatedDescription = description || themeConfig.general.seo.description
     {noindex && <meta name="robots" content="noindex, follow" />}
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content={themeConfig.general.seo.url} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={calculatedTitle} />
     <meta property="og:description" content={calculatedDescription} />
@@ -35,8 +43,8 @@ const calculatedDescription = description || themeConfig.general.seo.description
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="codeagents.dev" />
-    <meta property="twitter:url" content={themeConfig.general.seo.url} />
+    <meta property="twitter:domain" content={twitterDomain} />
+    <meta property="twitter:url" content={canonicalUrl} />
     <meta name="twitter:title" content={calculatedTitle} />
     <meta name="twitter:description" content={calculatedDescription} />
     <meta name="twitter:image" content={getOGImage(slug)} />

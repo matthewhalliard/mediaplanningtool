@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Explicitly disallow crawling of noindexed placeholder content
+# (already noindexed, but this reduces wasted crawl budget)
+
+Sitemap: https://www.mediaplanningtool.com/sitemap-index.xml
