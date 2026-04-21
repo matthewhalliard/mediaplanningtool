@@ -1,12 +1,83 @@
 ---
 import { getCollection } from "astro:content";
-import PureGrid from "../directory/PureGrid.astro";
+import { Icon } from "astro-icon/components";
 
 const allListings = await getCollection("blog");
-const blogListings = allListings.map((value) => ({
-  ...value,
-  id: `blog/${value.id}`,
-}));
+
+function formatDate(d: any): string | null {
+  if (!d) return null;
+  try {
+    const dateObj = d instanceof Date ? d : new Date(d);
+    if (isNaN(dateObj.getTime())) return null;
+    return dateObj.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch {
+    return null;
+  }
+}
+
+// Sort newest first by pubDate if available, otherwise keep original order
+const sorted = [...allListings].sort((a: any, b: any) => {
+  const da = a.data?.pubDate ? new Date(a.data.pubDate).getTime() : 0;
+  const db = b.data?.pubDate ? new Date(b.data.pubDate).getTime() : 0;
+  return db - da;
+});
 ---
 
-<PureGrid id="directory-grid" listings={blogListings} />
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  {sorted.map((entry: any) => {
+    const title = entry.data?.title || entry.id;
+    const excerpt = entry.data?.excerpt || entry.data?.description || "";
+    const dateStr = formatDate(entry.data?.pubDate);
+    const author = entry.data?.author;
+    const readTime = entry.data?.readTime;
+    const category = entry.data?.category;
+    const href = `/blog/${entry.id}`;
+    return (
+      <a
+        href={href}
+        class="flex flex-col h-full p-6 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 hover:border-gray-400 dark:hover:border-gray-300 transition-colors"
+      >
+        {(category || dateStr || readTime) && (
+          <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-gray-600 dark:text-gray-400 mb-3">
+            {category && (
+              <span class="inline-flex items-center bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2 py-0.5 rounded font-medium uppercase tracking-wide">
+                {category}
+              </span>
+            )}
+            {dateStr && (
+              <span class="inline-flex items-center gap-1">
+                <Icon name="tabler:calendar" class="w-3.5 h-3.5" />
+                {dateStr}
+              </span>
+            )}
+            {readTime && (
+              <>
+                <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
+                <span class="inline-flex items-center gap-1">
+                  <Icon name="tabler:clock" class="w-3.5 h-3.5" />
+                  {readTime}
+                </span>
+              </>
+            )}
+          </div>
+        )}
+        <h3 class="font-display text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight mb-2">
+          {title}
+        </h3>
+        <p class="text-sm text-gray-800 dark:text-gray-300 leading-relaxed line-clamp-3 mb-4">
+          {excerpt}
+        </p>
+        {author && (
+          <div class="mt-auto text-xs text-gray-600 dark:text-gray-400 inline-flex items-center gap-1.5">
+            <Icon name="tabler:user" class="w-3.5 h-3.5" />
+            {author}
+          </div>
+        )}
+      </a>
+    );
+  })}
+</div>
