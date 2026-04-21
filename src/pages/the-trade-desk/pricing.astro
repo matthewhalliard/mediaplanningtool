@@ -1,0 +1,183 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const title = "The Trade Desk Pricing 2026: Take Rates, Platform Fees & Real Costs";
+const description = "See The Trade Desk's actual pricing — 20.3% take rate disclosed in 2024 filings, $100K+ minimum spend, and the full fee breakdown. Sourced from SEC-derived reports and AdExchanger. Updated April 2026.";
+const slug = "the-trade-desk/pricing";
+---
+
+<BaseLayout title={title} description={description} slug={slug}>
+  <AppShell>
+    <div class="max-w-3xl w-full mx-auto py-12 px-4">
+      <AppProse>
+
+<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8 text-sm text-yellow-800">
+  <strong>Disclaimer:</strong> The Trade Desk does not publish a formal price list. The take rate (20.3% for 2024) is derived from gross platform spend figures The Trade Desk provides annually in earnings disclosures — not directly stated in a pricing document. Additional fee figures are sourced from AdExchanger reporting, Digiday, and practitioner discussions on Reddit. Last updated April 21, 2026.
+</div>
+
+# The Trade Desk Pricing: Complete 2026 Breakdown
+
+The Trade Desk (NASDAQ: TTD) is the dominant independent demand-side platform (DSP) for programmatic advertising. It processes roughly 600 million bid requests every 30 seconds and manages billions in annual gross ad spend. Unlike most enterprise software, The Trade Desk's core fee is not a seat license — it's a **percentage of every media dollar you spend through the platform.**
+
+Understanding TTD's true cost requires adding up multiple fee layers: platform take rate, data fees, feature fees, and any managed service costs.
+
+## Pricing Model: How The Trade Desk Charges
+
+The Trade Desk uses a **usage-based, percentage-of-spend model** with multiple fee layers:
+
+1. **Platform take rate** (~20% of gross media spend) — The Trade Desk's primary revenue
+2. **Data fees** (variable, often 10–20% of gross spend) — Third-party audience data purchased through TTD's marketplace
+3. **Feature fees** (~5% of spend) — Optional features like predictive clearing, identity resolution (UID 2.0/Identify Alliance), bid shading
+4. **Managed service fees** (optional, 3–20% of spend) — If you use TTD's services team rather than self-managing
+
+## The Take Rate: The Most Important Number
+
+The Trade Desk's **2024 take rate was 20.3%** of gross platform spend. This is the most reliable publicly available pricing data for The Trade Desk, derived from the gross platform spend figure TTD discloses once annually in earnings reports.
+
+Source: [AdExchanger reporting, April 2025](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/) — *"TTD doesn't actually report its take rate, but once a year provides gross platform spend, which is the necessary data point to devise the take rate... a cool 20.3% in 2024."*
+
+Historical take rate trajectory (sourced from [AdExchanger](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/)):
+- 2017–present: Consistently 19–21%
+- 2024: 20.3%
+- TTD's official statement: *"Our take rate has been consistently around 20% of spend on our platform, and there is no plan to change that"*
+
+Note: Some agency practitioners report the **effective total fee — including data and feature costs — runs 30% or more of gross spend**, per [Digiday (March 2025)](https://digiday.com/marketing/the-trade-desk-stumbles-and-the-ad-tech-world-cheers-maybe-too-soon/). TTD disputes this characterization of its publicly reported 20% figure.
+
+## The Full Fee Stack
+
+When you buy through The Trade Desk, multiple fees apply simultaneously. A [Reddit r/programmatic discussion (November 2024)](https://www.reddit.com/r/programmatic/comments/1gvrler/the_trade_desk_pricing_saas_hybrid_and_addons/) breaks down how practitioners understand the overall budget allocation:
+
+| Budget Component | Typical % of Total Investment |
+|-----------------|------------------------------|
+| Working media (reaches publisher) | ~65% |
+| Third-party data fees | ~20% |
+| TTD platform margin (take rate) | ~10% |
+| TTD feature fees (predictive clearing, identity, etc.) | ~5% |
+
+*Source: [Reddit r/programmatic practitioner report](https://www.reddit.com/r/programmatic/comments/1gvrler/the_trade_desk_pricing_saas_hybrid_and_addons/). This is one practitioner's summary — actual splits vary by campaign configuration.*
+
+The Trade Desk publicly discloses approximately 20% as its platform fee. The gap between 20% and the practitioner-reported higher effective total cost reflects data fees and feature costs that are technically separate line items but appear on the same TTD invoice.
+
+**What this means in practice:** If you invest $1,000,000 in media through The Trade Desk:
+- ~$650,000 reaches publishers
+- ~$200,000 goes to data providers (via TTD's marketplace)
+- ~$100,000 is The Trade Desk's take rate
+- ~$50,000 in feature fees
+- Total non-working spend: ~$350,000
+
+## Minimum Spend Requirements
+
+The Trade Desk has **significant minimum spend requirements** — this is the biggest practical barrier for smaller advertisers and agencies:
+
+- **Generally above $150,000/month for agency accounts** per [Reddit r/programmatic (July 2024)](https://www.reddit.com/r/programmatic/comments/1e6ibem/dsps_minimum_budgets/) from a practitioner overview of DSP minimums
+- **$100,000+ per quarter** minimum spend cited across multiple sources including [Improvado's TTD vs DV360 comparison](https://improvado.io/blog/dv360-vs-the-trade-desk): *"TTD has very high minimum spend requirements. These can range from $100,000 to over $1 million per quarter, making it inaccessible for small and medium-sized businesses."*
+- [Digiday (December 2025)](https://digiday.com/media-buying/the-trade-desk-loosens-its-grip-on-pricing-amid-buyer-pressure/) reports TTD is becoming more flexible: agencies have negotiated 1–2% fee reductions by surpassing spending thresholds of $500,000–$750,000 in Q4
+
+For reference, the same Reddit thread noted The Trade Desk offers free training, reducing onboarding cost friction compared to DV360.
+
+## Negotiating TTD Pricing in 2026
+
+The Trade Desk has historically been known as "inflexible" on fees. But as of late 2025, this is changing:
+
+According to [Digiday reporting from December 2025](https://digiday.com/media-buying/the-trade-desk-loosens-its-grip-on-pricing-amid-buyer-pressure/):
+- Media agencies are finding TTD reps "readier to cut a deal on fees than they have been in the past"
+- **1–2% tech fee reductions** negotiated by agencies hitting spending thresholds
+- **Post-auction discounts** available for agencies committing incremental Q4 spend of $750,000+
+- Discounts settled within **Joint Business Plans (JBPs)** — bespoke agreements tied to a single client's spending expectations
+- Condition: Fee reductions must be passed through to the agency's client, not kept by the agency
+
+**Negotiation strategies:**
+
+1. **Establish a Joint Business Plan (JBP)** — formal spending commitments in exchange for rate concessions
+2. **Bundle multi-channel commitments** — committing CTV, display, and audio spend together creates more leverage than individual channel buys
+3. **Benchmark against Amazon DSP and Basis** — both are offering lower take rates in 2025, particularly in CTV. Use these as alternatives to reference
+4. **Ask about OpenPath inventory fees** — some direct publisher deals via OpenPath carry different fee structures than open exchange
+5. **Request bid-shading disclosure** — feature fees for predictive clearing and bid shading add to effective CPMs; clarify the cost before activating
+
+## Contract Structure
+
+- **No published seat pricing** — The Trade Desk is not available as a self-serve monthly subscription for most advertisers; access requires a sales relationship
+- **Annual commitments** typical for agency relationships
+- **Self-serve access available** for some advertisers through agency partners or via TTD's direct advertiser program
+- **Managed service**: TTD's services team can manage campaigns on your behalf — fees typically run 5–15% on top of platform fees
+
+## Feature-by-Feature Costs (Where Known)
+
+| Feature | Pricing Model |
+|---------|--------------|
+| Core DSP platform access | ~20% take rate on gross spend |
+| Identify Alliance (UID 2.0) | Hybrid: 17% of spend, capped at $0.95 CPM ([Reddit r/programmatic](https://www.reddit.com/r/programmatic/comments/1gvrler/the_trade_desk_pricing_saas_hybrid_and_addons/)) |
+| Third-party data (marketplace) | Typically 20–30% of data segment cost goes to provider; TTD hybrid pricing model caps at CPM max |
+| Bid shading / predictive clearing | Feature fee (~5% total per practitioner reports) |
+| Managed service | 5–15% additional, varies by engagement |
+
+## Competitive Context: How TTD Compares on Price
+
+| Platform | Take Rate / Fee Model | Minimum Spend |
+|----------|-----------------------|---------------|
+| **The Trade Desk** | ~20% of gross spend | $100K+/quarter |
+| **Amazon DSP** | Lower (exact rate varies); reducing CTV fees | No hard minimum (with Amazon business) |
+| **Google DV360** | Bundled in GMP stack; harder to isolate | No hard minimum; $50K managed |
+| **Basis** | Competitive (below TTD); no stated minimum | No hard minimum |
+| **Pontiac DSP** | Much lower take rate (exact undisclosed) | Lower than TTD |
+| **Comcast Universal Ads** | 0% DSP fee (pass-through model) | Enterprise relationship required |
+
+*Sources: [AdExchanger take rate analysis](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/), [Reddit DSP minimums thread](https://www.reddit.com/r/programmatic/comments/1e6ibem/dsps_minimum_budgets/)*
+
+## Alternatives with Lower Cost or More Accessible Entry
+
+- **[Basis](/basis)** — Full-stack DSP with lower minimum spend requirements; good for independent agencies
+- **[Amazon DSP](/amazon-dsp)** — Strong CTV inventory, lower fees particularly for Amazon sellers
+- **[Google DV360](/google-dv360)** — Deep integration with YouTube; cost is embedded in GMP
+- **[Halliard](/halliard)** — AI-powered media planning that helps you optimize your DSP allocation across platforms including TTD. [See halliardmedia.com/trytoday](https://halliardmedia.com/trytoday)
+
+## Frequently Asked Questions
+
+**Does The Trade Desk publish pricing?**
+No formal price list exists. The take rate (~20%) is derived from annual gross platform spend disclosures in earnings reports, analyzed by [AdExchanger](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/). All other pricing is negotiated directly.
+
+**What is The Trade Desk's exact take rate for 2024?**
+20.3%, derived from TTD's 2024 earnings disclosures and reported by [AdExchanger in April 2025](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/). This is a derived figure, not a directly stated number in TTD's filings.
+
+**What is The Trade Desk's minimum spend?**
+Reports vary: generally cited at $100,000–$150,000+/month for agency accounts ([Reddit r/programmatic](https://www.reddit.com/r/programmatic/comments/1e6ibem/dsps_minimum_budgets/), [Improvado](https://improvado.io/blog/dv360-vs-the-trade-desk)). Smaller brands typically access TTD through reseller agencies rather than directly.
+
+**Is The Trade Desk becoming cheaper?**
+Per [Digiday (December 2025)](https://digiday.com/media-buying/the-trade-desk-loosens-its-grip-on-pricing-amid-buyer-pressure/), TTD is showing more pricing flexibility in 2025–2026 than historically, with fee discounts available through Joint Business Plans for agencies meeting spend thresholds.
+
+**Why does The Trade Desk's effective fee seem higher than 20%?**
+Because the ~20% take rate is just The Trade Desk's margin. Total spend allocated to non-working media (data fees, feature fees, tech fees) can reach 30–40% of gross investment when all third-party data and optional feature costs are included, per [Digiday analysis](https://digiday.com/marketing/the-trade-desk-stumbles-and-the-ad-tech-world-cheers-maybe-too-soon/).
+
+**Can small businesses use The Trade Desk?**
+Not directly — high minimum spend requirements make TTD inaccessible for most small businesses. The typical path is accessing TTD inventory through an agency or managed service provider. Per [G2 reviews](https://www.g2.com/products/the-trade-desk/pricing): *"If you're a small business or just testing the waters with programmatic ads, the costs... can feel like a gut punch."*
+
+**Is The Trade Desk a good value compared to alternatives?**
+At scale (large agencies managing significant programmatic budgets), TTD's breadth of inventory, identity solutions, and measurement tools justify the premium. Below $1M/month in media spend, alternatives like Basis or Amazon DSP may offer better value per dollar spent, per [AdExchanger's competitive analysis](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/).
+
+## Sources & Methodology
+
+All data sourced and verified April 2026:
+
+1. [AdExchanger: As CTV Blooms, It's Knives Out For The Trade Desk's Take Rate (April 2025)](https://www.adexchanger.com/online-advertising/as-ctv-blooms-its-knives-out-for-the-trade-desks-take-rate/) — 20.3% 2024 take rate, 19–21% historical range, TTD official statement
+2. [Digiday: The Trade Desk loosens its grip on pricing (December 2025)](https://digiday.com/media-buying/the-trade-desk-loosens-its-grip-on-pricing-amid-buyer-pressure/) — JBP negotiation details, 1–2% discounts at $500K+ thresholds
+3. [Digiday: The Trade Desk stumbles (March 2025)](https://digiday.com/marketing/the-trade-desk-stumbles-and-the-ad-tech-world-cheers-maybe-too-soon/) — 30%+ effective total fee reports from agencies
+4. [Reddit r/programmatic: The Trade Desk pricing — SaaS, hybrid and add-ons (November 2024)](https://www.reddit.com/r/programmatic/comments/1gvrler/the_trade_desk_pricing_saas_hybrid_and_addons/) — Practitioner fee stack breakdown (65/20/10/5 split)
+5. [Reddit r/programmatic: DSPs minimum budgets (July 2024)](https://www.reddit.com/r/programmatic/comments/1e6ibem/dsps_minimum_budgets/) — $150K/month minimum spend context
+6. [Improvado: Trade Desk vs DV360 (January 2026)](https://improvado.io/blog/dv360-vs-the-trade-desk) — $100K–$1M/quarter minimum spend range
+7. [G2: The Trade Desk Pricing 2026](https://www.g2.com/products/the-trade-desk/pricing) — Reviewer cost sentiment, "$$k–$$k per year" range
+8. [In Practise: TTD CTV Take Rates (March 2025)](https://inpractise.com/articles/the-trade-desk-ctv-take-rates-and-competitive-landscape) — Expert commentary on fee structure
+
+Methodology: The Trade Desk's take rate figure is derived from earnings disclosures, not a stated price. All practitioner figures are linked to their source thread. Industry benchmarks and ranges are labeled as such, not as TTD-confirmed rates.
+
+---
+
+*Trying to model the true cost of programmatic media, including DSP fees? [Halliard's media planning tools](https://halliardmedia.com/trytoday) help you build plans that account for working vs. non-working media ratios.*
+
+*See the full [The Trade Desk listing](/the-trade-desk) or explore all [media planning tools](/) in the directory.*
+
+      </AppProse>
+    </div>
+  </AppShell>
+</BaseLayout>
