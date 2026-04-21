@@ -27,7 +27,7 @@ function getTagColorClass(tagObj: Tag) {
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-2 mt-4">
+  <div class="tag-filter-bar flex flex-wrap gap-2 mt-4">
     <span
       v-for="tag in availableTags"
       class="tag cursor-pointer select-none transition-all duration-200 hover:opacity-80"
@@ -38,3 +38,20 @@ function getTagColorClass(tagObj: Tag) {
     </span>
   </div>
 </template>
+
+<style>
+/* Neutralize filter-bar pill colors so the header stays calm. */
+.tag-filter-bar .tag {
+  background-color: rgb(249 250 251) !important; /* gray-50 */
+  color: rgb(55 65 81) !important; /* gray-700 */
+  --tw-ring-color: rgb(209 213 219 / 0.6) !important; /* gray-300/60 */
+}
+.dark .tag-filter-bar .tag {
+  background-color: rgb(55 65 81 / 0.4) !important; /* gray-700/40 */
+  color: rgb(209 213 219) !important; /* gray-300 */
+  --tw-ring-color: rgb(75 85 99 / 0.5) !important; /* gray-600/50 */
+}
+.tag-filter-bar .tag.ring-primary-500 {
+  --tw-ring-color: var(--color-primary-500) !important;
+}
+</style>
