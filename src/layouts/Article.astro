@@ -2,20 +2,76 @@
 import "@fontsource/gabarito";
 import BaseLayout from "./BaseLayout.astro";
 import AppProse from "../components/app/Prose.astro";
+import { Icon } from "astro-icon/components";
 const { frontmatter, slug } = Astro.props;
 import themeConfig from "@util/themeConfig";
 import AppShell from "@components/app/AppShell.astro";
 const siteTitle = themeConfig.general.title;
 const title = frontmatter?.title || siteTitle;
 const description = frontmatter?.description;
+const pubDate = frontmatter?.pubDate;
+const author = frontmatter?.author;
+const readTime = frontmatter?.readTime;
+const category = frontmatter?.category;
+
+function formatDate(d: any): string | null {
+  if (!d) return null;
+  try {
+    const dateObj = d instanceof Date ? d : new Date(d);
+    if (isNaN(dateObj.getTime())) return null;
+    return dateObj.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  } catch {
+    return null;
+  }
+}
+
+const formattedDate = formatDate(pubDate);
+const hasMeta = formattedDate || author || readTime || category;
 ---
 
 <BaseLayout title={title} description={description} slug={slug}>
   <AppShell>
-    <div class="max-w-2xl w-full mx-auto py-20">
+    <article class="max-w-2xl w-full mx-auto py-20">
+      {hasMeta && (
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-600 dark:text-gray-400 mb-6 not-prose">
+          {category && (
+            <span class="inline-flex items-center gap-1.5 bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2.5 py-1 rounded-md font-medium text-xs uppercase tracking-wide">
+              {category}
+            </span>
+          )}
+          {formattedDate && (
+            <span class="inline-flex items-center gap-1.5">
+              <Icon name="tabler:calendar" class="w-4 h-4" />
+              <time datetime={pubDate}>{formattedDate}</time>
+            </span>
+          )}
+          {author && (
+            <>
+              <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
+              <span class="inline-flex items-center gap-1.5">
+                <Icon name="tabler:user" class="w-4 h-4" />
+                {author}
+              </span>
+            </>
+          )}
+          {readTime && (
+            <>
+              <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
+              <span class="inline-flex items-center gap-1.5">
+                <Icon name="tabler:clock" class="w-4 h-4" />
+                {readTime}
+              </span>
+            </>
+          )}
+        </div>
+      )}
       <AppProse>
         <slot />
       </AppProse>
-    </div>
+    </article>
   </AppShell>
 </BaseLayout>
