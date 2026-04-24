@@ -5,6 +5,7 @@ import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
 import Posthog from "@components/analytics/Posthog.astro";
 import Snitcher from "@components/analytics/Snitcher.astro";
+import MetaPixel from "@components/analytics/MetaPixel.astro";
 import { ClientRouter } from "astro:transitions";
 import { getOGImage } from "@util/getOGImage";
 
@@ -59,5 +60,6 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
     <slot />
     <Posthog />
     <Snitcher />
+    <MetaPixel />
   </body>
 </html>
