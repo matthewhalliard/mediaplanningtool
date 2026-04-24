@@ -25,6 +25,18 @@ const featured = frontmatter?.featured;
 ---
 
 <BaseLayout title={seoTitle} description={description} slug={slug} faqSchema={faqSchema}>
+  <!-- Meta Pixel ViewContent — fires on every tool detail page (high intent) -->
+  <script is:inline define:vars={{ toolName: pageTitle, toolCategory: category || 'tool-listing' }}>
+    if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+      try {
+        window.fbq('track', 'ViewContent', {
+          content_name: toolName,
+          content_category: toolCategory,
+          content_type: 'tool_listing',
+        });
+      } catch (e) {}
+    }
+  </script>
   {
     sidebar ? (
       <SidebarShell showSidebar={false}>
