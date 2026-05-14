@@ -2,6 +2,7 @@
 id: tiktok-ads-manager
 title: TikTok Ads Manager
 seoTitle: "TikTok Ads Manager 2026: Free Platform, $50/Day Min"
+h1: "TikTok Ads Manager 2026: Free Platform, $50/Day Min"
 description: "TikTok Ads Manager is free to access. Campaigns require a minimum $50/day budget. Compare TikTok vs. Meta Ads for reach, CPMs, and audience targeting."
 tags:
   - media-buying
@@ -221,7 +222,7 @@ Both platforms target younger mobile-first audiences with short-form video. TikT
 - **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit TikTok Ads Manager →](https://ads.tiktok.com/)

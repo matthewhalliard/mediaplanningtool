@@ -2,6 +2,7 @@
 id: mediaplanhq
 title: MediaPlanHQ
 seoTitle: "MediaPlanHQ Pricing 2026: From $39/User/Mo"
+h1: "MediaPlanHQ Pricing 2026: From $39/User/Mo"
 description: "MediaPlanHQ starts at $39/user/month (annual) with a 30-day free trial and free observer seats. A budget-friendly alternative to Bionic and Camphouse."
 tags:
   - media-planning
@@ -148,7 +149,7 @@ The tool appears in multiple independent media planning tool roundups, including
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation

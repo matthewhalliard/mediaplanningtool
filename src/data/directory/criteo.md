@@ -2,7 +2,8 @@
 id: criteo
 title: Criteo
 seoTitle: "Criteo Pricing 2026: CPC Rates, Hidden Fees & Alternatives"
-description: "Criteo bills on CPC/CPM with no setup fee — costs scale with spend. Compare Criteo's retail media network vs Amazon DSP and AdRoll before you commit."
+h1: "Criteo Pricing 2026: CPC Rates, Hidden Fees & Alternatives"
+description: "Criteo: CPC/CPM pricing, no setup fee, no public minimum — platform fee is a % of media spend. Retail media network with 22K+ retailers. Compare vs Amazon DSP and AdRoll."
 tags:
   - media-buying
   - audience-analytics
@@ -159,7 +160,7 @@ The mixed review profile is typical for enterprise ad platforms where results ca
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)

@@ -2,6 +2,7 @@
 id: commspoint-influence
 title: Commspoint Influence
 seoTitle: "Commspoint Influence Pricing 2026: Nielsen Channel Mix"
+h1: "Commspoint Influence Pricing 2026: Nielsen Channel Mix"
 description: "Commspoint Influence is Nielsen's channel mix optimizer with enterprise custom pricing. Compare vs. Commspoint Journey and Nielsen Media Impact 2026."
 tags:
   - media-planning
@@ -132,7 +133,7 @@ Given the enterprise and specialist nature of the tool, user feedback tends to s
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Commspoint Influence →](https://www.nielsen.com/solutions/media-planning/commspoint-influence/)

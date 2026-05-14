@@ -2,6 +2,7 @@
 id: quantcast
 title: Quantcast
 seoTitle: "Quantcast Review 2026: Free DSP, Pricing & Top Alternatives"
+h1: "Quantcast Review 2026: Free DSP, Pricing & Top Alternatives"
 description: "Quantcast offers a free self-serve DSP with $5K ad credit for new users. See real user reviews, AI audience targeting features, and how it compares to TTD."
 tags:
   - audience-analytics
@@ -267,7 +268,7 @@ Yes. Quantcast is suitable for agencies, especially independent and mid-sized ag
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform

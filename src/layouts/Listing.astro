@@ -12,6 +12,9 @@ import Tag from "@components/ui/tags/Tag.astro";
 const siteTitle = themeConfig.general.title;
 const pageTitle = frontmatter?.title || siteTitle;
 const seoTitle = frontmatter?.seoTitle || pageTitle;
+// H1 should match the SEO intent so Google doesn't rewrite the title in SERPs.
+// Falls back to seoTitle (and then pageTitle) when frontmatter.h1 isn't provided.
+const h1Title = frontmatter?.h1 || seoTitle;
 const link = frontmatter?.link;
 const description = frontmatter?.description;
 const linkText = link?.replace(/^https?:\/\//, "");
@@ -51,8 +54,8 @@ const featured = frontmatter?.featured;
                     Featured Tool
                   </div>
                 )}
-                <h1 class="font-display font-bold text-4xl lg:text-5xl text-gray-900 dark:text-gray-50 mb-4">
-                  {pageTitle}
+                <h1 class="font-display font-bold text-3xl lg:text-4xl text-gray-900 dark:text-gray-50 mb-4">
+                  {h1Title}
                 </h1>
                 <p class="text-lg text-gray-800 dark:text-gray-300 mb-6 leading-relaxed">
                   {description}
@@ -146,8 +149,8 @@ const featured = frontmatter?.featured;
                     Featured Tool
                   </div>
                 )}
-                <h1 class="font-display font-bold text-4xl lg:text-5xl text-gray-900 dark:text-gray-50 mb-4">
-                  {pageTitle}
+                <h1 class="font-display font-bold text-3xl lg:text-4xl text-gray-900 dark:text-gray-50 mb-4">
+                  {h1Title}
                 </h1>
                 <p class="text-lg text-gray-800 dark:text-gray-300 mb-6 leading-relaxed">
                   {description}

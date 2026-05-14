@@ -2,6 +2,7 @@
 id: equativ
 title: "Equativ (Maestro)"
 seoTitle: "Equativ Maestro: Pricing, Reviews & Features 2026"
+h1: "Equativ Maestro: Pricing, Reviews & Features 2026"
 description: Independent end-to-end media platform with AI planning agents. Equativ's Maestro turns briefs into programmatic deals, cutting planning time 40%.
 tags:
   - media-buying
@@ -154,7 +155,7 @@ Yes. Equativ offers retail media solutions for both retailers looking to monetiz
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Equativ →](https://www.equativ.com/)

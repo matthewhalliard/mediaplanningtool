@@ -6,6 +6,7 @@ export const directorySchema = (imageSchema: z.ZodTypeAny) =>
       id: z.string(),
       title: z.string().optional(),
       seoTitle: z.string().optional(),
+      h1: z.string().optional(),
       description: z.string().optional(),
       tags: z.array(z.string()).optional(),
       icon: z.string().optional(),

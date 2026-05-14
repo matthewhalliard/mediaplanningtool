@@ -2,6 +2,16 @@
   "framework": "astro",
   "redirects": [
     {
+      "source": "/blog/2026-03-09-best-media-planning-tools-2026",
+      "destination": "/blog/best-media-planning-tools-2026",
+      "permanent": true
+    },
+    {
+      "source": "/best-media-planning-tools",
+      "destination": "/blog/best-media-planning-tools-2026",
+      "permanent": false
+    },
+    {
       "source": "/mediatool",
       "destination": "/camphouse",
       "permanent": true

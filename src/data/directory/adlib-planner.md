@@ -2,6 +2,7 @@
 id: adlib-planner
 title: AdLib Planner
 seoTitle: "AdLib Planner: Pricing, Features & Best Alternatives 2026"
+h1: "AdLib Planner: Pricing, Features & Best Alternatives 2026"
 description: Free programmatic media planning tool generating data-backed plans in minutes with live CPM benchmarks, verified inventory quality, and pitch-ready exports.
 tags:
   - media-planning
@@ -196,7 +197,7 @@ The platform is trusted by agencies working with brands including Spotify, Zillo
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit AdLib Planner →](https://adlibplanner.com/)

@@ -2,6 +2,7 @@
 id: the-trade-desk
 title: The Trade Desk
 seoTitle: "The Trade Desk vs DV360 vs Amazon DSP (2026 Comparison)"
+h1: "The Trade Desk vs DV360 vs Amazon DSP (2026 Comparison)"
 description: "The Trade Desk charges 15–20% of spend ($100K+/quarter). See side-by-side comparisons with Google DV360, Amazon DSP, and Xandr — which DSP wins in 2026?"
 tags:
   - media-buying
@@ -218,7 +219,7 @@ The company reported **$2.9B in FY2025 revenue** with 18% year-over-year growth,
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)

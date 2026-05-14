@@ -2,6 +2,7 @@
 id: recast
 title: Recast
 seoTitle: "Recast MMM Pricing 2026: Bayesian Mix Modeling Costs"
+h1: "Recast MMM Pricing 2026: Bayesian Mix Modeling Costs"
 description: "Recast uses Bayesian MMM with custom enterprise pricing. GeoLift testing from $100/mo. Compare vs. Measured, Northbeam, and Mutinex for MMM."
 tags:
   - mmm
@@ -283,7 +284,7 @@ Recast and [Northbeam](/northbeam) solve different measurement problems. Northbe
 
 ### 📝 From the Blog
 - **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Pixis Prism](/pixis-prism)** — AI campaign intelligence and optimization for performance marketers

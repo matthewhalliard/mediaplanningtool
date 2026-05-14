@@ -12,7 +12,7 @@ category: "How-To Guide"
 readTime: "11 min read"
 excerpt: "Media planning software has fundamentally changed in 2026. AI agents are replacing manual workflows, agentic platforms are automating brief-to-activation in minutes, and every major vendor is racing to add intelligent optimization. Here are the best media planning tools to know right now."
 seo:
-  canonical: "https://mediaplanningtool.com/blog/best-media-planning-tools-2026"
+  canonical: "https://www.mediaplanningtool.com/blog/best-media-planning-tools-2026"
   keywords: "best media planning tools 2026, media planning software, media planning tool, how to choose media planning software, ad tech 2026"
 ---
 

@@ -2,6 +2,7 @@
 id: srds-media-planning
 title: SRDS Media Planning
 seoTitle: "SRDS Media Planning Pricing 2026: Free to Start"
+h1: "SRDS Media Planning Pricing 2026: Free to Start"
 description: "SRDS offers a free account (Zeus Prime) with no setup fees — pay only for impressions delivered. Media database for cross-channel research and planning."
 tags:
   - media-planning
@@ -144,7 +145,7 @@ SQAD provides media cost estimating and negotiation data. SRDS provides rate car
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit SRDS Media Planning →](https://www.srds.com/)

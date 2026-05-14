@@ -2,6 +2,7 @@
 id: comscore
 title: Comscore
 seoTitle: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
+h1: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
 description: "Comscore pricing from ~$799/mo: cross-platform measurement, Proximic contextual targeting, plus comparisons to Nielsen and GWI for media planners."
 tags:
   - audience-analytics
@@ -268,7 +269,7 @@ Comscore is used by media agencies, advertisers, publishers, broadcasters, strea
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform

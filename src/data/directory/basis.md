@@ -2,7 +2,8 @@
 id: basis
 title: Basis
 seoTitle: "Basis Technologies Review 2026: Pricing, Pros & Cons, Best Alternatives"
-description: "Honest Basis DSP review from real users. #1-rated DSP on G2 (4.5/5, 287 reviews). See pricing, omnichannel features, and how it compares to The Trade Desk & DV360."
+h1: "Basis Technologies Review 2026: Pricing, Pros & Cons, Best Alternatives"
+description: "Basis is enterprise-priced (custom quote, no public rate card) and #1-rated on G2 (4.5/5, 287 reviews). Omnichannel DSP with 100+ PMP deals. Compare vs The Trade Desk & DV360."
 tags:
   - media-buying
   - multi-channel
@@ -227,7 +228,7 @@ Basis integrates with DoubleVerify for CTV brand safety and content alignment fi
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation

@@ -2,6 +2,7 @@
 id: multinex
 title: Multinex
 seoTitle: "Mutinex Pricing 2026: AI MMM Platform, Custom Plans"
+h1: "Mutinex Pricing 2026: AI MMM Platform, Custom Plans"
 description: "Mutinex (also Multinex) is an AI marketing mix modeling platform with custom enterprise pricing. Compare vs. Recast, Measured, and Northbeam for MMM."
 tags:
   - media-planning

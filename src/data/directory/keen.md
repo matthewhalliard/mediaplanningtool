@@ -2,7 +2,8 @@
 id: keen
 title: Keen
 seoTitle: "Keen MMM Pricing 2026: Marketing Mix Modeling Platform Review"
-description: Keen Decision Systems MMM review. Adaptive Bayesian modeling, real-time scenario planning, and pricing details. Compare to Recast, Northbeam, and Measured.
+h1: "Keen MMM Pricing 2026: Marketing Mix Modeling Platform Review"
+description: "Keen MMM: subscription-priced (custom quote, no public rates). Adaptive Bayesian modeling, $7.5B+ in budgets optimized, real-time scenario planning. Compare vs Recast, Northbeam, and Measured."
 tags:
   - mmm
   - media-planning

@@ -2,6 +2,7 @@
 id: halliard
 title: Halliard
 seoTitle: "Halliard Pricing 2026: Free Media Planning Tool"
+h1: "Halliard Pricing 2026: Free Media Planning Tool"
 description: "Halliard offers a free plan for individual media planners — no credit card required. Premium and Enterprise plans available. Plan 18+ channels instantly."
 tags:
   - media-planning
@@ -247,7 +248,7 @@ Halliard is not yet listed on G2 or Capterra with a public aggregate rating. The
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Halliard → Start Free at halliardmedia.com/trytoday](https://www.halliardmedia.com/trytoday)

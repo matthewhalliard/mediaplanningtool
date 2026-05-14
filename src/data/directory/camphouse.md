@@ -2,6 +2,7 @@
 id: camphouse
 title: "Camphouse (formerly Mediatool)"
 seoTitle: "Mediatool Is Now Camphouse 2026: Pricing & Reviews"
+h1: "Mediatool Is Now Camphouse 2026: Pricing & Reviews"
 description: "Mediatool rebranded to Camphouse in 2023. Custom pricing, 20-user minimum. See G2 reviews, what changed in the rebrand, and alternatives from $199/mo."
 tags:
   - media-planning
@@ -199,7 +200,7 @@ Camphouse holds a **4.7/5 rating on GetApp** across 11 reviews, with 100% positi
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation

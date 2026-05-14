@@ -2,6 +2,7 @@
 id: advantage
 title: "Advantage (now Simpli.fi)"
 seoTitle: "Simpli.fi Pricing 2026: Advantage Platform Costs & Agency Features"
+h1: "Simpli.fi Pricing 2026: Advantage Platform Costs & Agency Features"
 description: Simpli.fi (formerly Advantage) pricing, features, and agency workflow tools. Media planning, buying, and accounting in one platform for 2,000+ agencies.
 tags:
   - media-planning
@@ -161,7 +162,7 @@ Workamajig is a project management and accounting platform for creative agencies
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Advantage →](https://www.gotoadvantage.com/)

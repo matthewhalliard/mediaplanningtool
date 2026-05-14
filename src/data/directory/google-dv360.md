@@ -2,6 +2,7 @@
 id: google-dv360
 title: Google Display & Video 360
 seoTitle: "Google DV360 vs The Trade Desk 2026: Which DSP Is Better?"
+h1: "Google DV360 vs The Trade Desk 2026: Which DSP Is Better?"
 description: "Google DV360 costs 10–15% of media spend with a $50K/mo minimum. Compare DV360 vs The Trade Desk on inventory, YouTube exclusivity, pricing, and features."
 tags:
   - media-buying
@@ -196,7 +197,7 @@ MediaMath is an independent enterprise DSP competing on data marketplace access 
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)

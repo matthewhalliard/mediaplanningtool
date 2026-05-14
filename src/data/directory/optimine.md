@@ -2,6 +2,7 @@
 id: optimine
 title: OptiMine
 seoTitle: "OptiMine: Pricing, Reviews & Features 2026"
+h1: "OptiMine: Pricing, Reviews & Features 2026"
 description: Privacy-safe marketing mix modeling and attribution platform. AI/ML measurement across digital and traditional channels. Acquired by Uptempo in Aug 2025.
 tags:
   - media-planning

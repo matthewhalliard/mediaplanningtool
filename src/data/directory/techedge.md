@@ -2,6 +2,7 @@
 id: techedge
 title: TechEdge (Fifty5Blue)
 seoTitle: "TechEdge by Fifty5Blue: Pricing, Features & Best Alternatives 2026"
+h1: "TechEdge by Fifty5Blue: Pricing, Features & Best Alternatives 2026"
 description: Fifty5Blue (formerly Kantar Media) audience analytics and planning toolkit with reach & frequency analysis and unified audience data across 70+ markets.
 tags:
   - audience-analytics

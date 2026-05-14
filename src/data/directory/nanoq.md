@@ -2,6 +2,7 @@
 id: nanoq
 title: NanoQ
 seoTitle: "NanoQ: Pricing, Reviews & Features 2026"
+h1: "NanoQ: Pricing, Reviews & Features 2026"
 description: Agentic AI media planner from Nano Interactive for privacy-friendly, intent-driven programmatic audience planning and activation using natural-language briefs.
 tags:
   - media-planning

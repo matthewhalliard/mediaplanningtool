@@ -2,6 +2,7 @@
 id: strata
 title: Strata
 seoTitle: "Strata by FreeWheel Pricing 2026: Media Buying Platform"
+h1: "Strata by FreeWheel Pricing 2026: Media Buying Platform"
 description: "Strata by FreeWheel is an enterprise cross-media buying platform with custom pricing. Compare vs. Mediaocean Prisma and Bionic for TV/digital buying."
 tags:
   - media-buying
@@ -145,7 +146,7 @@ Reviews note Strata's ubiquity in the TV buying space alongside its complexity a
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Mint](/mint)** — Cloud-based media planning and buying platform
