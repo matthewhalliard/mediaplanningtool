@@ -2,6 +2,7 @@
 id: amazon-dsp
 title: Amazon DSP
 seoTitle: "Amazon DSP Review 2026: Is the $50K Minimum Worth It?"
+h1: "Amazon DSP Review 2026: Is the $50K Minimum Worth It?"
 description: "Amazon DSP managed service requires ~$50K/mo but delivers first-party shopper data no other DSP can match. See reviews, self-serve options, and alternatives."
 tags:
   - media-buying
@@ -161,7 +162,7 @@ For retail media specifically, Amazon DSP's first-party data from Amazon.com is 
 - **[CTV Media Planning Checklist for Automotive](/resources/checklist/ctv-automotive)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Equativ](/equativ)** — Independent programmatic ad platform (formerly Smart AdServer)

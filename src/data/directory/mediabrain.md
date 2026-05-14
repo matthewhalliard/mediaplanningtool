@@ -2,6 +2,7 @@
 id: mediabrain
 title: Mediabrain
 seoTitle: "Mediabrain: Pricing, Reviews & Features 2026"
+h1: "Mediabrain: Pricing, Reviews & Features 2026"
 description: AI-powered media planning platform with automated forecasting, buying optimization, and real-time monitoring in one console with open APIs. Custom pricing.
 tags:
   - media-planning
@@ -170,7 +171,7 @@ No public reviews are available on G2 or Capterra for Mediabrain. The platform d
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Mediabrain →](https://mediabrain.com/)

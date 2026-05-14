@@ -2,6 +2,7 @@
 id: measured
 title: Measured
 seoTitle: "Measured Pricing 2026: Incrementality Testing Costs"
+h1: "Measured Pricing 2026: Incrementality Testing Costs"
 description: "Measured incrementality testing starts around $50K/year. Enterprise MMM pricing is custom. Compare vs. Northbeam, Recast, and Haus for your budget."
 tags:
   - mmm

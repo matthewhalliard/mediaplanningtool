@@ -2,6 +2,7 @@
 id: commspoint-journey
 title: Commspoint Journey
 seoTitle: "Commspoint Journey Pricing 2026: Nielsen Enterprise"
+h1: "Commspoint Journey Pricing 2026: Nielsen Enterprise"
 description: "Nielsen Commspoint Journey starts at $100K+/year for enterprise consumer journey mapping. Often bundled with other Nielsen suite products."
 tags:
   - media-planning
@@ -161,7 +162,7 @@ For context on the broader Nielsen experience, related Nielsen products on Capte
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Commspoint Journey →](https://www.nielsen.com/solutions/media-planning/)

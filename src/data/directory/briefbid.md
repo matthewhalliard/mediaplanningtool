@@ -2,6 +2,7 @@
 id: briefbid
 title: BriefBid
 seoTitle: "BriefBid Pricing 2026: Free RFP Marketplace for Buyers"
+h1: "BriefBid Pricing 2026: Free RFP Marketplace for Buyers"
 description: "BriefBid is 100% free for agencies and brands — access 700+ vetted media vendors and submit RFPs at no cost. Vendors pay on successful placements only."
 tags:
   - media-planning
@@ -179,7 +180,7 @@ Quantcast is an audience intelligence and programmatic platform. BriefBid is a v
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit BriefBid →](https://www.briefbid.com/)

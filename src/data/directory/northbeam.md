@@ -2,6 +2,7 @@
 id: northbeam
 title: Northbeam
 seoTitle: "Northbeam Pricing 2026: From $1,500/Mo + MMM Options"
+h1: "Northbeam Pricing 2026: From $1,500/Mo + MMM Options"
 description: "Northbeam starts at $1,500/mo for Starter (MTA). Professional from $2,500/mo. Compare vs. Triple Whale, Measured, and Recast for attribution + MMM."
 tags:
   - mmm

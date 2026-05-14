@@ -2,6 +2,7 @@
 id: pixis-prism
 title: Pixis Prism
 seoTitle: "Pixis Prism Pricing 2026: From $200/mo, Free Trial"
+h1: "Pixis Prism Pricing 2026: From $200/mo, Free Trial"
 description: "Pixis Prism starts at $200/month with a 14-day free trial. AI-driven campaign optimization. Enterprise custom plans available. Compare vs. Alli AI."
 tags:
   - media-planning

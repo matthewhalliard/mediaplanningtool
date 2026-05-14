@@ -2,6 +2,7 @@
 id: resonate
 title: Resonate
 seoTitle: "Resonate Pricing 2026: AI Audience Platform & Alternatives"
+h1: "Resonate Pricing 2026: AI Audience Platform & Alternatives"
 description: Resonate's Ignite platform covers 250M US consumer profiles with 15K+ attributes. Enterprise pricing, custom quotes. Compare vs MRI-Simmons, Comscore, GWI.
 tags:
   - audience-research
@@ -174,7 +175,7 @@ GWI (formerly GlobalWebIndex) is a survey-based consumer intelligence platform c
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Resonate →](https://www.resonate.com/)

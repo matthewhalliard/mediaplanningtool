@@ -2,6 +2,7 @@
 id: scarborough
 title: Scarborough
 seoTitle: "Scarborough Nielsen Pricing 2026: Local Market Data"
+h1: "Scarborough Nielsen Pricing 2026: Local Market Data"
 description: "Nielsen Scarborough: enterprise local consumer data from $50K+/year. Compare vs. GWI and MRI-Simmons for audience planning."
 tags:
   - audience-analytics
@@ -145,7 +146,7 @@ GWI provides global survey-based consumer research with behavioral and psychogra
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Scarborough →](https://www.nielsen.com/solutions/audience-measurement/scarborough/)

@@ -2,7 +2,8 @@
 id: mri-simmons
 title: MRI-Simmons
 seoTitle: "MRI-Simmons Review 2026: Data, Pricing, Catalyst Platform & Alternatives"
-description: MRI-Simmons is the gold standard for US consumer research — 60,000+ data elements, MRC-accredited probabilistic sampling, and direct audience activation via Catalyst ACT. Used by every major US agency.
+h1: "MRI-Simmons Review 2026: Data, Pricing, Catalyst Platform & Alternatives"
+description: "MRI-Simmons: enterprise-priced US consumer research (custom quote, no public rates). 60,000+ data elements, MRC-accredited probabilistic sampling, Catalyst ACT activation. Used by every major US agency."
 tags:
   - audience-analytics
   - media-planning
@@ -364,6 +365,6 @@ What it does have is institutional credibility that few platforms in any categor
 - **[CTV Advertising Tips for Retail Brands](/resources/tips/ctv-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 [Visit MRI-Simmons →](https://www.mrisimmons.com/)

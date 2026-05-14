@@ -2,6 +2,7 @@
 id: linkedin-campaign-manager
 title: LinkedIn Campaign Manager
 seoTitle: "LinkedIn Campaign Manager Pricing 2026: CPC, CPM & Ad Costs"
+h1: "LinkedIn Campaign Manager Pricing 2026: CPC, CPM & Ad Costs"
 description: "LinkedIn ads cost $2–$9 CPC with a $10/day minimum. See LinkedIn Campaign Manager's B2B targeting, ad formats, and how it compares to Meta and Google Ads."
 tags:
   - media-buying
@@ -272,7 +273,7 @@ LinkedIn ads can be worth it for B2B when the advertiser has strong offer econom
 - **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Guideline](/guideline)** — Agency media planning, billing, and workflow software

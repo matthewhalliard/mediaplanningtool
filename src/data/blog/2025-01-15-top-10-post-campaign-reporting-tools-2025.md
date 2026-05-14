@@ -274,7 +274,7 @@ Need more hands-on help with media planning? Check out these free resources:
 - **[Programmatic Display Checklist for Automotive](/resources/checklist/programmatic-display-automotive)** — Step-by-step programmatic campaign planning
 - **[Retail Media Tips for CPG Brands](/resources/tips/retail-media-cpg)** — Optimization tips for retail media campaigns
 - **[Paid Search Checklist for Financial Services](/resources/checklist/paid-search-financial-services)** — Search campaign planning resource
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — Our latest tool roundup
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — Our latest tool roundup
 
 Browse all resources at [MediaPlanningTool.com/resources](/resources).
 

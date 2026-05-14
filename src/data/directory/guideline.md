@@ -2,6 +2,7 @@
 id: guideline
 title: Guideline
 seoTitle: "Guideline AI: Media Intelligence Platform Review 2026"
+h1: "Guideline AI: Media Intelligence Platform Review 2026"
 description: Guideline AI aggregates ~$200B in real ad spend from billing systems, with an AI Factory, conversational AI Agent, and MCP Server for AI agent integration.
 tags:
   - media-planning
@@ -210,7 +211,7 @@ The company, founded in 2020, has grown its data pool to approximately $200B in 
 - **[Programmatic Display Guide for Retail](/resources/guide/programmatic-display-retail)** — Free planning resource
 
 ### From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Guideline →](https://www.guideline.ai/)

@@ -2,6 +2,7 @@
 id: bionic
 title: Bionic
 seoTitle: "Bionic Media Planning Pricing 2026: From $199/User"
+h1: "Bionic Media Planning Pricing 2026: From $199/User"
 description: "Bionic starts at $199/user/mo ($995/mo for 5 users). 14-day trial. Compare vs. MediaPlanHQ, Camphouse for media planning agencies."
 tags:
   - media-planning
@@ -110,7 +111,7 @@ If you’re evaluating Bionic, ask for a workflow demo focused on your core oper
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Adlib Planner](/adlib-planner)** — AI-powered media planning automation

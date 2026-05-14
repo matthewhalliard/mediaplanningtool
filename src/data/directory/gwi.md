@@ -2,6 +2,7 @@
 id: gwi
 title: "GWI (Global Web Index)"
 seoTitle: "GWI Platform Review 2026: Pricing, Free Plan & Alternatives Compared"
+h1: "GWI Platform Review 2026: Pricing, Free Plan & Alternatives Compared"
 description: "Is GWI worth it? Free vs paid plans, 250K+ profiling points across 50+ markets. See how GWI compares to MRI-Simmons, Comscore & Resonate for audience research."
 tags:
   - audience-analytics
@@ -316,7 +317,7 @@ Choose GWI if you need:
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[SRDS Media Planning](/srds-media-planning)** — Comprehensive media research and planning database

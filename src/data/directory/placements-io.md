@@ -2,6 +2,7 @@
 id: placements-io
 title: Placements.io
 seoTitle: "Placements.io Pricing 2026: Ad Sales & Buying OS"
+h1: "Placements.io Pricing 2026: Ad Sales & Buying OS"
 description: "Placements.io (AdSalesOS + MarketerOS) uses per-seat custom pricing for ad sales and media buying teams. Compare vs. Mediaocean and FreeWheel Strata."
 tags:
   - media-buying
@@ -182,7 +183,7 @@ Common themes across reviews: strong workflow customization, valuable integratio
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Placements.io →](https://www.placements.io/media-planning-activation)

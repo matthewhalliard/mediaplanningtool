@@ -2,7 +2,8 @@
 id: akkio
 title: Akkio
 seoTitle: "Akkio Review 2026: Is It Worth It? Pros, Cons & Alternatives"
-description: "Akkio starts at $49/mo for AI-powered media mix modeling. Read G2 reviews, see what real media planners say, and compare vs. cheaper alternatives."
+h1: "Akkio Review 2026: Is It Worth It? Pros, Cons & Alternatives"
+description: "Akkio: $49/user/mo starter, enterprise custom pricing. AI agents for audience-building and MMM. Trusted by Horizon Media and Havas. Compare vs cheaper alternatives."
 tags:
   - audience-analytics
   - media-planning

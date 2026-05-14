@@ -2,6 +2,7 @@
 id: fifty5blue-advertising-intelligence
 title: Fifty5Blue Advertising Intelligence
 seoTitle: "Fifty5Blue Advertising Intelligence: Pricing, Features & Best Alternatives 2026"
+h1: "Fifty5Blue Advertising Intelligence: Pricing, Features & Best Alternatives 2026"
 description: Fifty5Blue (formerly Kantar Media) competitive ad spend and share-of-voice tracking across TV, digital, OOH, radio, print, and cinema.
 tags:
   - audience-analytics

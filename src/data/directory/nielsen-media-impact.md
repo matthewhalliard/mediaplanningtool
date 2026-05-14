@@ -2,7 +2,8 @@
 id: nielsen-media-impact
 title: Nielsen Media Impact
 seoTitle: "Nielsen Media Impact: Pricing, Use Cases & Features (2026)"
-description: Nielsen's cross-media planning platform for reach and frequency optimization across TV, CTV, digital, and audio with deduplicated measurement.
+h1: "Nielsen Media Impact: Pricing, Use Cases & Features (2026)"
+description: "Nielsen Media Impact: enterprise-priced (custom quote, scope-based) cross-media R&F planning across TV, CTV, digital, and audio with deduplicated measurement. Compare vs comScore and GWI."
 tags:
   - reach-frequency
   - media-consumption
@@ -122,7 +123,7 @@ Nielsen Media Impact is typically purchased by enterprise agencies and large adv
 - **[Paid Search Checklist for Healthcare](/resources/checklist/paid-search-healthcare)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Simulmedia](/simulmedia)** — Data-driven TV advertising platform

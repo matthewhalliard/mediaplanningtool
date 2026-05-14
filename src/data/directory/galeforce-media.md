@@ -2,6 +2,7 @@
 id: galeforce-media
 title: GaleForce Media
 seoTitle: "GaleForce Media Pricing 2026: Affordable TV & Radio"
+h1: "GaleForce Media Pricing 2026: Affordable TV & Radio"
 description: "GaleForce Media is built for TV, radio, and digital buying — the most affordable traditional media planning platform. Custom quote required."
 tags:
   - media-planning
@@ -153,7 +154,7 @@ GaleForce Media has approximately 11–19 reviews across G2 and Capterra. User f
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit GaleForce Media →](https://galeforcedigital.com/)

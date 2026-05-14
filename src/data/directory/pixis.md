@@ -2,6 +2,7 @@
 id: pixis
 title: Pixis
 seoTitle: "Pixis AI Review 2026: Pricing, Products, Features & Alternatives"
+h1: "Pixis AI Review 2026: Pricing, Products, Features & Alternatives"
 description: "Pixis is a codeless AI infrastructure for marketing. Review of Pixis Advance, Prism, Adroom & Edge — pricing from $200/mo, free trial, vs Albert.ai & Adobe."
 tags:
   - media-planning
@@ -365,7 +366,7 @@ Pixis is better if the team wants a broader AI marketing suite covering campaign
 
 ### 📝 From the Blog
 - **[Top 10 Post-Campaign Reporting Tools](/blog/2025-01-15-top-10-post-campaign-reporting-tools-2025)** — From our blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Guideline](/guideline)** — Media planning, billing, and workflow operations for agencies

@@ -2,6 +2,7 @@
 id: mediaocean
 title: Mediaocean
 seoTitle: "Mediaocean Prisma Pricing 2026: Enterprise Ad Platform"
+h1: "Mediaocean Prisma Pricing 2026: Enterprise Ad Platform"
 description: "Mediaocean (Prisma) is an enterprise omnichannel ad platform with custom pricing. No free trial. Compare vs. Strata, Bionic, and Camphouse for agencies."
 tags:
   - media-planning
@@ -169,7 +170,7 @@ Common themes in reviews include Mediaocean's breadth of functionality, strong a
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 ### 🔧 Also Worth Checking
 - **[Mint](/mint)** — Cloud-based media planning and buying platform

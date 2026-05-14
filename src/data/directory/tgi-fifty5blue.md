@@ -2,6 +2,7 @@
 id: tgi-fifty5blue
 title: TGI (Fifty5Blue)
 seoTitle: "TGI by Fifty5Blue: Pricing, Features & Best Alternatives 2026"
+h1: "TGI by Fifty5Blue: Pricing, Features & Best Alternatives 2026"
 description: Fifty5Blue (formerly Kantar Media) global consumer profiling survey covering 700K+ consumers and 1,200+ media vehicles for audience segmentation and planning.
 tags:
   - audience-analytics

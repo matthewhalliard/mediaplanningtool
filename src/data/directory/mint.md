@@ -2,6 +2,7 @@
 id: mint
 title: Mint
 seoTitle: "MINT.ai Pricing 2026: Enterprise Media Planning Cost"
+h1: "MINT.ai Pricing 2026: Enterprise Media Planning Cost"
 description: "MINT.ai uses custom enterprise pricing based on media spend, seats, and campaigns — no free trial. Compare vs. Camphouse and Mediaocean for large teams."
 tags:
   - media-planning
@@ -189,7 +190,7 @@ The platform was named **Best Marketing Campaign Management Platform** at the **
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit MINT.ai →](https://www.mint.ai/)

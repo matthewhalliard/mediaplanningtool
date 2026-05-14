@@ -2,6 +2,7 @@
 id: fifty5blue-cav
 title: Campaign Audience Validation (Fifty5Blue)
 seoTitle: "Campaign Audience Validation (CAV) by Fifty5Blue: Features & Alternatives 2026"
+h1: "Campaign Audience Validation (CAV) by Fifty5Blue: Features & Alternatives 2026"
 description: Fifty5Blue (formerly Kantar Media) cross-media campaign measurement capturing deduplicated reach and frequency across TV, YouTube, Instagram, and Facebook.
 tags:
   - audience-analytics

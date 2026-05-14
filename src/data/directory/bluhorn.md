@@ -2,6 +2,7 @@
 id: bluhorn
 title: Bluhorn
 seoTitle: "Bluhorn Pricing 2026: Media Buying Platform From $198/mo"
+h1: "Bluhorn Pricing 2026: Media Buying Platform From $198/mo"
 description: Bluhorn media buying software starting at $198/mo. Nielsen/Comscore integration, invoice reconciliation, and post-buy analysis. Compare plans and alternatives.
 tags:
   - media-planning
@@ -195,7 +196,7 @@ No representative user quotes are available from verified review platforms. User
 - **[Paid Social (Meta) Checklist for Retail](/resources/checklist/paid-social-meta-retail)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit BluHorn →](https://www.bluhorn.com/)

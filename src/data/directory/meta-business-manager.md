@@ -2,6 +2,7 @@
 id: meta-business-manager
 title: Meta Business Manager
 seoTitle: "Meta Business Manager 2026: Free Platform Setup Guide"
+h1: "Meta Business Manager 2026: Free Platform Setup Guide"
 description: "Meta Business Manager is free to use — you only pay for ads. Manage Facebook and Instagram campaigns, assets, and team access in one place."
 tags:
   - media-buying
@@ -202,7 +203,7 @@ Common praise centers on reach, targeting depth, and the free access model. Comm
 - **[Paid Social (Meta) Checklist for CPG](/resources/checklist/paid-social-meta-cpg)** — Free planning resource
 
 ### 📝 From the Blog
-- **[Best Media Planning Tools for 2026](/blog/2026-03-09-best-media-planning-tools-2026)** — From our blog
+- **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
 [Visit Meta Business Manager →](https://business.facebook.com/)
