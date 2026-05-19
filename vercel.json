@@ -1,5 +1,6 @@
 {
   "framework": "astro",
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/blog/2026-03-09-best-media-planning-tools-2026",

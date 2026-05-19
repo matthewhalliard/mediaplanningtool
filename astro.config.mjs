@@ -50,6 +50,11 @@ const noindexPaths = getNoindexPaths();
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.mediaplanningtool.com",
+  // Canonical convention across the site is no-trailing-slash (see BaseLayout.astro
+  // canonicalUrl). Force routing + sitemap output to match, otherwise Google sees
+  // /page and /page/ as duplicates and refuses to index (e.g. /guide was stuck on
+  // "URL is unknown to Google" in GSC for weeks).
+  trailingSlash: 'never',
   output: 'server',
   adapter: vercel({
     webAnalytics: { enabled: true }
