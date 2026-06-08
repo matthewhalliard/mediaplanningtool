@@ -1,0 +1,160 @@
+---
+// JSON-LD structured data for the homepage.
+// Emits ItemList (the editorial top-10), FAQPage, and WebSite schema.
+// Tells Google: this is a ranked listicle of media planning tools, not just a directory.
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Media Planning Tools (2026)",
+  "description": "An editorially curated list of the best media planning tools and software for 2026, ranked by capability, pricing transparency, and fit for modern omnichannel planners.",
+  "numberOfItems": 10,
+  "itemListOrder": "https://schema.org/ItemListOrderAscending",
+  "url": "https://www.mediaplanningtool.com",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://www.mediaplanningtool.com/halliard",
+      "name": "Halliard",
+      "description": "Free media planning tool with omnichannel R&F across 18+ channels. Best for individual planners and lean agency teams."
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://www.mediaplanningtool.com/basis",
+      "name": "Basis",
+      "description": "Enterprise omnichannel DSP and planning suite; #1-rated on G2. Best for full-stack agency planning + buying."
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://www.mediaplanningtool.com/nielsen-media-impact",
+      "name": "Nielsen Media Impact",
+      "description": "Enterprise cross-media R&F planning. Best for TV-heavy planners who need MRC-accredited audience data."
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://www.mediaplanningtool.com/mediaocean",
+      "name": "Mediaocean (Prisma)",
+      "description": "Enterprise omnichannel ad platform with deep agency integrations. Best for global agency networks."
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "url": "https://www.mediaplanningtool.com/bionic",
+      "name": "Bionic",
+      "description": "Mid-market media planning starting at $199/user/mo. Best for small-to-midsize agencies wanting transparent pricing."
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "url": "https://www.mediaplanningtool.com/commspoint-journey",
+      "name": "Nielsen Commspoint Journey",
+      "description": "Consumer journey mapping for enterprise brands. Best for CMOs building journey-based media strategies."
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "url": "https://www.mediaplanningtool.com/gwi",
+      "name": "GWI (Global Web Index)",
+      "description": "Audience research across 50+ markets, 250K+ profiling points. Best for audience-led planners doing global work."
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://www.mediaplanningtool.com/scarborough",
+      "name": "Nielsen Scarborough",
+      "description": "Local consumer behavior data from $50K+/yr. Best for local/regional planners needing zip-code-level insight."
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://www.mediaplanningtool.com/camphouse",
+      "name": "Camphouse (formerly Mediatool)",
+      "description": "Cross-media planning collaboration for mid-to-enterprise teams. Best for agency teams unifying planning + reporting."
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://www.mediaplanningtool.com/strata",
+      "name": "Strata by FreeWheel",
+      "description": "Enterprise cross-media buying platform. Best for TV/video-heavy buyers integrated with FreeWheel's ad server."
+    }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best media planning tool in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There isn't one universal 'best' — the right tool depends on whether you're an individual planner, an agency, or an enterprise team. For free omnichannel planning, Halliard is the strongest free option. For full-stack agency planning + buying, Basis is the highest-rated enterprise suite on G2. For TV/cross-media reach and frequency, Nielsen Media Impact is the long-standing standard. We compare 50+ tools side-by-side across pricing, channels supported, and ideal team size."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are any media planning tools free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Halliard offers a free plan for individual planners with no credit card required, including omnichannel reach and frequency planning across 18+ channels. Quantcast has a free self-serve DSP tier with ad credit for new users. Most enterprise tools (Mediaocean, Nielsen, Strata, Basis) are custom-priced and start in the tens of thousands per year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a media planning tool actually do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A media planning tool helps marketers and agencies decide where to spend ad budgets across channels (TV, CTV, programmatic display, paid social, search, audio, OOH) to reach a target audience efficiently. Core features typically include audience definition, reach and frequency modeling, budget allocation across channels, scenario comparison, and flowchart/calendar export. Some tools (Basis, Mediaocean, Strata) also handle the buying step; most planning-only tools (Halliard, Bionic, Camphouse) export to ad servers and DSPs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do media planning tools cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pricing spans free to $250K+/year. Free tier: Halliard. Mid-market SaaS ($200-$2K/user/mo): Bionic, Adlib Planner, BluHorn. Enterprise (custom, $50K-$500K+/yr): Mediaocean, Basis, Nielsen Media Impact, Strata, Camphouse, Commspoint Journey. Most enterprise tools don't publish public rate cards — expect a 4-8 week procurement cycle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use Excel or a media planning tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Excel works for single-channel plans under $50K. As soon as you're planning across multiple channels with reach and frequency goals, Excel breaks down — you lose audience overlap math, can't model frequency caps accurately, and version control becomes a nightmare. A dedicated tool pays for itself once you're managing two or more campaigns simultaneously across three or more channels."
+      }
+    }
+  ]
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Media Planning Tools",
+  "alternateName": "MediaPlanningTool.com",
+  "url": "https://www.mediaplanningtool.com",
+  "description": "The independent directory and editorial guide to media planning tools and software in 2026. Compare 50+ platforms side-by-side: pricing, features, channels, and fit.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Media Planning Tools",
+    "url": "https://www.mediaplanningtool.com"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.mediaplanningtool.com/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
