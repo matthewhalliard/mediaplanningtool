@@ -4,15 +4,16 @@ import Sidebar from "./Sidebar.astro";
 import Wide from "./Wide.astro";
 
 const sidebar = config.layout.sidebar;
+const { title, description, slug, faqSchema, noindex } = Astro.props;
 ---
 
 {
   sidebar ? (
-    <Sidebar>
+    <Sidebar title={title} description={description} slug={slug} faqSchema={faqSchema} noindex={noindex}>
       <slot />
     </Sidebar>
   ) : (
-    <Wide>
+    <Wide title={title} description={description} slug={slug} faqSchema={faqSchema} noindex={noindex}>
       <slot />
     </Wide>
   )

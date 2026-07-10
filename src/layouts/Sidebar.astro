@@ -3,10 +3,10 @@ import SidebarShell from "@components/app/SidebarShell.astro";
 import Prose from "../components/app/Prose.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-const { title } = Astro.props;
+const { title, description, slug, faqSchema, noindex } = Astro.props;
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema} noindex={noindex}>
   <SidebarShell>
     <div class="max-w-3xl xl:max-w-6xl px-5 py-10 mx-auto">
       <Prose>
