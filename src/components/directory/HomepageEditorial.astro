@@ -1,75 +1,90 @@
 ---
-// Editorial intro block for the homepage.
-// Positioned between hero and tool grid.
-// Purpose: signal to Google (and visitors) that this is an editorial listicle
-// with opinions, methodology, and structure — not just a logo wall.
-//
-// SEO targets: "media planning tools", "media planning tool", "best media planning tools",
-// "media planning software". Uses H2 structure for clear topical relevance.
+// Neutral editorial framing for the homepage. The goal is to look like a
+// trustworthy comparison directory, not a self-serving ranked advertorial.
 ---
 
-<section class="homepage-editorial mt-4 mb-10">
-  <div class="prose prose-gray dark:prose-invert max-w-none">
-    <p class="lead text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-      We track <strong>50+ media planning tools</strong> — from free omnichannel planners to
-      $250K/year enterprise suites. This page ranks the platforms worth a serious look in 2026,
-      with transparent pricing, real channel coverage, and honest notes on who each tool is (and
-      isn't) for.
-    </p>
-
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50 mt-8 mb-4">
-      Our top picks at a glance
-    </h2>
-    <div class="not-prose grid gap-3 md:grid-cols-2 mb-6">
-      <a href="/halliard" class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors">
-        <span class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400 mb-2">Best free</span>
-        <p class="font-semibold text-gray-900 dark:text-gray-100">Halliard</p>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Free omnichannel R&amp;F planning across 18+ channels. No credit card.</p>
-      </a>
-      <a href="/basis" class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors">
-        <span class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-400 mb-2">Best for agencies</span>
-        <p class="font-semibold text-gray-900 dark:text-gray-100">Basis</p>
-        <p class="text-sm text-gray-600 dark:text-gray-400">#1-rated on G2 (4.5/5, 287+ reviews). Plan + buy across channels in one suite.</p>
-      </a>
-      <a href="/nielsen-media-impact" class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors">
-        <span class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400 mb-2">Best for TV / cross-media R&amp;F</span>
-        <p class="font-semibold text-gray-900 dark:text-gray-100">Nielsen Media Impact</p>
-        <p class="text-sm text-gray-600 dark:text-gray-400">MRC-accredited audience data. The standard for TV-led planners.</p>
-      </a>
-      <a href="/bionic" class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors">
-        <span class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400 mb-2">Best mid-market</span>
-        <p class="font-semibold text-gray-900 dark:text-gray-100">Bionic</p>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Transparent pricing from $199/user/mo. 14-day trial. Built for indie agencies.</p>
-      </a>
-    </div>
-
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50 mt-8 mb-4">
-      How we rank media planning tools
-    </h2>
-    <p class="text-gray-700 dark:text-gray-300">
-      We evaluate every platform on five criteria: <strong>channel coverage</strong> (how many
-      paid channels it plans across — programmatic, CTV, linear TV, paid social, search, audio,
-      OOH), <strong>pricing transparency</strong> (is there a public rate card?),
-      <strong>reach &amp; frequency modeling</strong> (accurate audience overlap math, or just
-      spreadsheet math?), <strong>collaboration</strong> (versioning, multi-user, agency-to-client
-      handoff), and <strong>fit</strong> (who the tool is actually built for — solo planners,
-      mid-market agencies, or enterprise networks). We don't take payment from vendors for
-      placement.
-    </p>
-
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50 mt-8 mb-4">
-      Who this directory is for
-    </h2>
-    <ul class="text-gray-700 dark:text-gray-300 list-disc pl-6 space-y-1">
-      <li><strong>Media planners</strong> at agencies and brands choosing or upgrading their planning stack.</li>
-      <li><strong>Agency leads</strong> evaluating end-to-end suites (Mediaocean, Basis, Strata) vs. best-of-breed combos.</li>
-      <li><strong>CMOs and VPs of Media</strong> comparing enterprise tools before a procurement cycle.</li>
-      <li><strong>Solo planners and freelancers</strong> looking for free or low-cost tools that don't sacrifice channel breadth.</li>
-    </ul>
-
-    <p class="text-sm text-gray-600 dark:text-gray-400 mt-6 italic">
-      Disclosure: Halliard, which sponsors this directory, is listed as the "Best free" pick.
-      Every other entry below is editorially ranked — no paid placements.
+<section class="mb-12 space-y-10 not-prose">
+  <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+    <p class="text-base leading-7 text-gray-700 dark:text-gray-300">
+      MediaPlanningTool.com tracks media planning tools by use case: lightweight planning, agency workflow,
+      enterprise planning and buying, audience research, TV reach and frequency, and reporting. The goal is to
+      help planners compare tradeoffs quickly — pricing transparency, data depth, channel coverage, workflow fit,
+      and whether a platform is built for planning only or planning plus buying.
     </p>
   </div>
+
+  <section>
+    <div class="mb-5 flex items-end justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50">Start by use case</h2>
+        <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+          There is no universal “best” media planning tool. The right shortlist depends on the planning job.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <a href="/halliard" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Free / lightweight</p>
+        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Individual planners</h3>
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
+          Good fit when you need quick omnichannel planning, calculators, or a lightweight starting point before enterprise procurement.
+        </p>
+      </a>
+      <a href="/basis" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Enterprise suites</p>
+        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Agency planning + buying</h3>
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
+          Best evaluated when workflow, buying integrations, approvals, reporting, and cross-team operations matter as much as planning math.
+        </p>
+      </a>
+      <a href="/nielsen-media-impact" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">TV / cross-media</p>
+        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Reach and frequency</h3>
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
+          Relevant for planners who need established audience data, TV/CTV scenario planning, and cross-media measurement context.
+        </p>
+      </a>
+      <a href="/bionic" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Workflow</p>
+        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Flowcharts and budgets</h3>
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
+          Useful when the bottleneck is organizing plans, maintaining versions, building flowcharts, and keeping budget details consistent.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <section class="rounded-2xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/60">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50">How we compare tools</h2>
+    <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+      <div>
+        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Use-case fit</h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Who the tool is actually built for.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Pricing clarity</h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Published pricing, free tiers, or procurement complexity.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Planning depth</h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">R&F, scenarios, audience data, and budget allocation.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Workflow</h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Approvals, exports, collaboration, and flowcharts.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Tradeoffs</h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Where a tool is strong, weak, overkill, or too narrow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/60 dark:bg-amber-950/20">
+    <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-50">Independence disclosure</h2>
+    <p class="mt-2 text-sm leading-6 text-gray-700 dark:text-gray-300">
+      Halliard is listed in this directory because it is a media planning tool. That relationship is disclosed here so readers can judge the comparison fairly. Placements are not sold, and the directory should remain useful even when Halliard is not the right fit.
+    </p>
+  </section>
 </section>
