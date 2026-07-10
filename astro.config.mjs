@@ -65,8 +65,15 @@ export default defineConfig({
     icon(),
     sitemap({
       filter: (page) => {
+        const normalizedPage = page.replace(/\/$/, '');
+
+        // Tag archives are thin faceted navigation pages. Keep them crawlable
+        // through internal links if a user lands there, but do not ask Google to
+        // index them or spend sitemap budget on them.
+        if (normalizedPage.includes('/tags/')) return false;
+
         // Exclude any URL whose underlying JSON data has seo.noindex === true
-        return !noindexPaths.has(page) && !noindexPaths.has(page.replace(/\/$/, ''));
+        return !noindexPaths.has(page) && !noindexPaths.has(normalizedPage);
       }
     })
   ],

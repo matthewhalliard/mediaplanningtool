@@ -43,7 +43,7 @@ function toTitleCase(str: string) {
 const pageTitle = toTitleCase(formatString(config.directoryData.tagPages.title, calculatedTitle));
 ---
 
-<Sidebar title={pageTitle}>
+<Sidebar title={pageTitle} description={calculatedDescription} slug={`tags/${title}`} noindex={true}>
   <div class="max-w-3xl xl:max-w-6xl w-full mx-auto">
     <h1 class="text-gray-600 font-semibold text-4xl">
       {pageTitle}

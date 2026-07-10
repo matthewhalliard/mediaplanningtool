@@ -25,11 +25,12 @@ const landingView = slug === "blog";
 // Extract FAQ structured data from markdown body for JSON-LD schema
 const faqs = entry.body ? extractFAQs(entry.body) : [];
 const faqSchema = generateFAQSchema(faqs);
+const pageDescription = (entry.data as any).description;
 ---
 
 {
   landingView ? (
-    <Landing>
+    <Landing title={entry.data.title} description={pageDescription} slug={slug} faqSchema={faqSchema}>
       <Content />
     </Landing>
   ) : (
