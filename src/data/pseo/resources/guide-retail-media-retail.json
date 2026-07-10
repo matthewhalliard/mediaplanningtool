@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Complete Guide to Retail Media Networks for Retail / E-Commerce Marketers",
-    "description": "The definitive retail media guide for retail and e-commerce media planners \u2014 covering Amazon Ads, RMN selection, closed-loop attribution, and BFCM strategy.",
+    "description": "The definitive retail media guide for retail and e-commerce media planners — covering Amazon Ads, RMN selection, closed-loop attribution, and BFCM strategy.",
     "keywords": [
       "retail media networks guide",
       "Amazon Ads retail strategy",
@@ -16,17 +16,18 @@
       "retail media ROAS",
       "Amazon DSP retail"
     ],
-    "slug": "guide/retail-media-retail"
+    "slug": "guide/retail-media-retail",
+    "noindex": true
   },
   "content": {
-    "intro": "Retail media has undergone the most dramatic structural shift in digital advertising since the rise of social commerce: US retail media spend reached $58.79 billion in 2025 and is projected to exceed $69 billion in 2026, making it the fastest-growing channel in the history of digital advertising. For retail and e-commerce brands, retail media networks are not optional additions to the media mix \u2014 they are the primary battleground for shopper visibility, shelf position, and competitive conquest at the point of purchase. The brands building a systematic, multi-RMN strategy today are building a closed-loop data asset \u2014 retailer purchase data matched to media exposure \u2014 that compounds in value with every campaign.",
+    "intro": "Retail media has undergone the most dramatic structural shift in digital advertising since the rise of social commerce: US retail media spend reached $58.79 billion in 2025 and is projected to exceed $69 billion in 2026, making it the fastest-growing channel in the history of digital advertising. For retail and e-commerce brands, retail media networks are not optional additions to the media mix — they are the primary battleground for shopper visibility, shelf position, and competitive conquest at the point of purchase. The brands building a systematic, multi-RMN strategy today are building a closed-loop data asset — retailer purchase data matched to media exposure — that compounds in value with every campaign.",
     "sections": [
       {
         "heading": "RMN Strategy and Budget Allocation",
         "items": [
           {
-            "title": "Audit your retail distribution before committing RMN budgets \u2014 only invest where you sell",
-            "description": "Retail media investment should be proportional to your distribution and revenue per retailer. A brand with 80% of revenue through Amazon should allocate 70\u201380% of RMN spend to Amazon Ads; a brand with significant Walmart and Target distribution should allocate proportionally. Brands that invest in RMN platforms where they have minimal or no distribution are generating awareness for a purchase that the retailer cannot close \u2014 a fundamental misallocation that even sophisticated media teams make.",
+            "title": "Audit your retail distribution before committing RMN budgets — only invest where you sell",
+            "description": "Retail media investment should be proportional to your distribution and revenue per retailer. A brand with 80% of revenue through Amazon should allocate 70–80% of RMN spend to Amazon Ads; a brand with significant Walmart and Target distribution should allocate proportionally. Brands that invest in RMN platforms where they have minimal or no distribution are generating awareness for a purchase that the retailer cannot close — a fundamental misallocation that even sophisticated media teams make.",
             "difficulty": "beginner",
             "priority": "critical"
           },
@@ -38,19 +39,19 @@
           },
           {
             "title": "Assess new-to-brand (NTB) percentage as a primary RMN investment quality metric",
-            "description": "Amazon and most major RMNs now report 'new-to-brand' purchase metrics alongside ROAS \u2014 what percentage of attributed sales came from customers who hadn't bought your brand in the past 12 months. For growing brands, NTB% below 20\u201325% on RMN campaigns indicates excessive spend on retargeting your existing customer base rather than driving household penetration. Shift RMN bidding strategies toward category-level keyword targeting and competitor product targeting to improve NTB ratios.",
+            "description": "Amazon and most major RMNs now report 'new-to-brand' purchase metrics alongside ROAS — what percentage of attributed sales came from customers who hadn't bought your brand in the past 12 months. For growing brands, NTB% below 20–25% on RMN campaigns indicates excessive spend on retargeting your existing customer base rather than driving household penetration. Shift RMN bidding strategies toward category-level keyword targeting and competitor product targeting to improve NTB ratios.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Align RMN investment with trade promotions and price events for compound effect",
-            "description": "RMN sponsored product campaigns perform 2x\u20134x better during price promotions and deal events because conversion rates double or triple on promoted SKUs. Coordinate RMN budget increases with trade team price events: increase Amazon Sponsored Products spend 48\u201372 hours before any Subscribe & Save promotional windows, Lightning Deals, or Deal of the Day events. Brands that run always-on flat RMN budgets without pulsing around promotional events consistently leave conversion efficiency improvements on the table.",
+            "description": "RMN sponsored product campaigns perform 2x–4x better during price promotions and deal events because conversion rates double or triple on promoted SKUs. Coordinate RMN budget increases with trade team price events: increase Amazon Sponsored Products spend 48–72 hours before any Subscribe & Save promotional windows, Lightning Deals, or Deal of the Day events. Brands that run always-on flat RMN budgets without pulsing around promotional events consistently leave conversion efficiency improvements on the table.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Build a multi-RMN investment model beyond Amazon to capture incremental audiences",
-            "description": "Amazon commands 75\u201380% of US retail media spend, but 20\u201325% of retail purchasers primarily shop at Walmart, Target, Kroger, or Instacart without visiting Amazon. A brand fully concentrated on Amazon Ads is systematically absent from 20\u201325% of its addressable buyer base. Build a tiered RMN investment model: 60\u201370% Amazon (primary distribution), 15\u201320% Walmart Connect (if distributed), 10\u201315% across category-relevant RMNs (Instacart for grocery, Chewy for pet, Home Depot for home improvement). This distribution follows purchase behavior, not advertiser comfort.",
+            "description": "Amazon commands 75–80% of US retail media spend, but 20–25% of retail purchasers primarily shop at Walmart, Target, Kroger, or Instacart without visiting Amazon. A brand fully concentrated on Amazon Ads is systematically absent from 20–25% of its addressable buyer base. Build a tiered RMN investment model: 60–70% Amazon (primary distribution), 15–20% Walmart Connect (if distributed), 10–15% across category-relevant RMNs (Instacart for grocery, Chewy for pet, Home Depot for home improvement). This distribution follows purchase behavior, not advertiser comfort.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -61,37 +62,37 @@
         "items": [
           {
             "title": "Structure Amazon campaigns in three layers: branded defense, category offense, and competitor conquest",
-            "description": "Every Amazon Ads account for a retail brand should maintain three permanent sponsored products campaign structures: (1) branded defense \u2014 protecting your own brand and ASIN keywords from competitor conquest at low CPC ($0.30\u2013$0.80), ensuring you win your own brand queries; (2) category offense \u2014 bidding on broad category keywords ('laundry detergent,' 'protein powder') to capture non-branded shoppers at moderate CPC ($0.80\u2013$2.00); (3) competitor conquest \u2014 targeting ASINs and keywords of your 2\u20135 closest competitors to capture cross-comparison shoppers. Each layer requires separate campaign structures with independent budgets and bid strategies.",
+            "description": "Every Amazon Ads account for a retail brand should maintain three permanent sponsored products campaign structures: (1) branded defense — protecting your own brand and ASIN keywords from competitor conquest at low CPC ($0.30–$0.80), ensuring you win your own brand queries; (2) category offense — bidding on broad category keywords ('laundry detergent,' 'protein powder') to capture non-branded shoppers at moderate CPC ($0.80–$2.00); (3) competitor conquest — targeting ASINs and keywords of your 2–5 closest competitors to capture cross-comparison shoppers. Each layer requires separate campaign structures with independent budgets and bid strategies.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Optimize Sponsored Products bids using the Search Term Report weekly",
-            "description": "Amazon's Search Term Report reveals the actual queries that triggered your sponsored product ads \u2014 which is often very different from the keywords you targeted. Review this report weekly and mine it for: (1) high-converting search terms not yet in your keyword list to add as exact match, (2) irrelevant terms generating clicks but zero conversions to add as negative keywords, and (3) competitor brand terms triggering your ads. Brands that run weekly STR analysis consistently achieve 20\u201335% lower ACOS vs. brands reviewing reports monthly or less.",
+            "description": "Amazon's Search Term Report reveals the actual queries that triggered your sponsored product ads — which is often very different from the keywords you targeted. Review this report weekly and mine it for: (1) high-converting search terms not yet in your keyword list to add as exact match, (2) irrelevant terms generating clicks but zero conversions to add as negative keywords, and (3) competitor brand terms triggering your ads. Brands that run weekly STR analysis consistently achieve 20–35% lower ACOS vs. brands reviewing reports monthly or less.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Protect organic rank with 'defensive' sponsored product coverage on your top-ranked keywords",
-            "description": "Amazon's organic search algorithm and paid sponsored products interact bidirectionally: brands with strong paid sponsored coverage on high-volume category keywords accelerate organic rank improvement because sales velocity (a key organic ranking signal) increases. Maintain sponsored product coverage on your top 10\u201320 category keywords even at low ROAS, because the organic rank acceleration compounds \u2014 every sponsored sale that improves your organic rank from position 7 to position 3 delivers incremental organic volume worth 3x\u20135x the paid investment.",
+            "description": "Amazon's organic search algorithm and paid sponsored products interact bidirectionally: brands with strong paid sponsored coverage on high-volume category keywords accelerate organic rank improvement because sales velocity (a key organic ranking signal) increases. Maintain sponsored product coverage on your top 10–20 category keywords even at low ROAS, because the organic rank acceleration compounds — every sponsored sale that improves your organic rank from position 7 to position 3 delivers incremental organic volume worth 3x–5x the paid investment.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
             "title": "Use Sponsored Brands Video ads for non-branded category consideration",
-            "description": "Amazon Sponsored Brands Video ads appear in search results as auto-playing product videos and consistently outperform standard Sponsored Brands banner ads on clickthrough and conversion for visually compelling products. For retail brands in categories with a product demonstration advantage (beauty, appliances, sporting goods, food), Sponsored Brands Video at $0.40\u2013$1.20 CPC delivers category capture rates 40\u201360% higher than static banner equivalents. Produce 15\u201330-second product-in-use videos specifically for Amazon's auto-play, sound-off environment.",
+            "description": "Amazon Sponsored Brands Video ads appear in search results as auto-playing product videos and consistently outperform standard Sponsored Brands banner ads on clickthrough and conversion for visually compelling products. For retail brands in categories with a product demonstration advantage (beauty, appliances, sporting goods, food), Sponsored Brands Video at $0.40–$1.20 CPC delivers category capture rates 40–60% higher than static banner equivalents. Produce 15–30-second product-in-use videos specifically for Amazon's auto-play, sound-off environment.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Set up Amazon DSP off-site campaigns to build brand awareness among non-Amazon shoppers",
-            "description": "Amazon DSP uses Amazon's first-party purchase data to target audiences across the open web, streaming TV (Prime Video), and app inventory \u2014 not just Amazon.com. For retail brands, Amazon DSP off-site campaigns targeting 'in-market for your category' segments based on Amazon browse and purchase signals reach the highest-quality consumer audience available in programmatic, at CPMs of $2\u2013$8 for display and $20\u2013$28 for streaming TV. These campaigns generate demand that converts both on Amazon and on the brand's DTC site.",
+            "description": "Amazon DSP uses Amazon's first-party purchase data to target audiences across the open web, streaming TV (Prime Video), and app inventory — not just Amazon.com. For retail brands, Amazon DSP off-site campaigns targeting 'in-market for your category' segments based on Amazon browse and purchase signals reach the highest-quality consumer audience available in programmatic, at CPMs of $2–$8 for display and $20–$28 for streaming TV. These campaigns generate demand that converts both on Amazon and on the brand's DTC site.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
-            "title": "Optimize Amazon listing content in parallel with paid campaigns \u2014 the content-media feedback loop",
-            "description": "Amazon Sponsored Products traffic converting at below-benchmark rates (category average conversion rates: apparel 3\u20135%, beauty 4\u20138%, electronics 2\u20134%, grocery/health 6\u201312%) indicates a listing quality problem, not a media problem. Before increasing bids or budgets, audit: product title keyword density, hero image quality, A+ content presence, review count and rating, and pricing vs. competitive set. A listing optimization that improves conversion rate from 3% to 5% effectively delivers a 67% improvement in ROAS from existing spend \u2014 the highest-ROI optimization available.",
+            "title": "Optimize Amazon listing content in parallel with paid campaigns — the content-media feedback loop",
+            "description": "Amazon Sponsored Products traffic converting at below-benchmark rates (category average conversion rates: apparel 3–5%, beauty 4–8%, electronics 2–4%, grocery/health 6–12%) indicates a listing quality problem, not a media problem. Before increasing bids or budgets, audit: product title keyword density, hero image quality, A+ content presence, review count and rating, and pricing vs. competitive set. A listing optimization that improves conversion rate from 3% to 5% effectively delivers a 67% improvement in ROAS from existing spend — the highest-ROI optimization available.",
             "difficulty": "intermediate",
             "priority": "critical"
           }
@@ -102,19 +103,19 @@
         "items": [
           {
             "title": "Build a Walmart Connect strategy for brands with significant mass-market distribution",
-            "description": "Walmart Connect's self-serve sponsored products platform offers CPCs 30\u201350% lower than Amazon ($0.50\u2013$1.20 vs. $1.00\u2013$2.00) with dramatically lower advertiser competition. For brands with Walmart distribution, Walmart Connect should capture 15\u201325% of total RMN spend. Walmart shoppers over-index with families, value seekers, and rural demographics \u2014 distinct from Amazon's urban/suburban tech-forward profile. Separate creative and keyword strategies are required: Walmart shoppers respond to value/price messaging, while Amazon shoppers respond to quality/feature differentiation.",
+            "description": "Walmart Connect's self-serve sponsored products platform offers CPCs 30–50% lower than Amazon ($0.50–$1.20 vs. $1.00–$2.00) with dramatically lower advertiser competition. For brands with Walmart distribution, Walmart Connect should capture 15–25% of total RMN spend. Walmart shoppers over-index with families, value seekers, and rural demographics — distinct from Amazon's urban/suburban tech-forward profile. Separate creative and keyword strategies are required: Walmart shoppers respond to value/price messaging, while Amazon shoppers respond to quality/feature differentiation.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Use Instacart Ads for rapid CPG and grocery category velocity building",
-            "description": "Instacart's advertising platform reaches grocery shoppers at the moment of list-building \u2014 an intent state unique in its specificity to category need. Instacart Sponsored Product CPCs average $0.35\u2013$0.95, lower than any major RMN, with grocery-specific audience data (meal occasion, household size, dietary preference) available for targeting. For food, beverage, and personal care brands seeking grocery channel trial, Instacart campaigns during promotional events (Super Bowl, holiday entertaining) are highly efficient trial-generation vehicles.",
+            "description": "Instacart's advertising platform reaches grocery shoppers at the moment of list-building — an intent state unique in its specificity to category need. Instacart Sponsored Product CPCs average $0.35–$0.95, lower than any major RMN, with grocery-specific audience data (meal occasion, household size, dietary preference) available for targeting. For food, beverage, and personal care brands seeking grocery channel trial, Instacart campaigns during promotional events (Super Bowl, holiday entertaining) are highly efficient trial-generation vehicles.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Activate Target Roundel programmatic display for fashion, beauty, and home brands",
-            "description": "Target Roundel's off-site programmatic display (accessible via The Trade Desk) uses Target's REDcard and Circle loyalty data to target Target shoppers and lookalikes across the open web. For fashion, beauty, and home brands in Target distribution, Roundel's contextually matched audiences \u2014 built on actual Target purchase history \u2014 deliver 60\u201380% higher CTR vs. standard third-party audience segments in programmatic display. Budget minimum $10,000/month for meaningful Roundel off-site reach.",
+            "description": "Target Roundel's off-site programmatic display (accessible via The Trade Desk) uses Target's REDcard and Circle loyalty data to target Target shoppers and lookalikes across the open web. For fashion, beauty, and home brands in Target distribution, Roundel's contextually matched audiences — built on actual Target purchase history — deliver 60–80% higher CTR vs. standard third-party audience segments in programmatic display. Budget minimum $10,000/month for meaningful Roundel off-site reach.",
             "difficulty": "intermediate",
             "priority": "nice-to-have"
           }
@@ -124,14 +125,14 @@
         "heading": "Black Friday / Cyber Monday and Peak Season Strategy",
         "items": [
           {
-            "title": "Set BFCM Amazon Sponsored Products bids 3\u20135x above baseline 7 days before Black Friday",
-            "description": "Amazon auction CPCs surge 200\u2013400% during Black Friday and Cyber Monday as every brand in every category fights for search visibility. Brands that wait until November 28 to increase bids miss the pre-Black Friday shopping behavior that begins November 20\u201321. Increase Sponsored Products maximum CPCs to 3\u20135x your off-season baseline beginning November 21, prioritize your highest-converting ASINs, and pause lower-priority campaigns to concentrate budget on revenue-generating placements. Brands that prepare BFCM bid strategies in October lock in campaign structure before traffic surges.",
+            "title": "Set BFCM Amazon Sponsored Products bids 3–5x above baseline 7 days before Black Friday",
+            "description": "Amazon auction CPCs surge 200–400% during Black Friday and Cyber Monday as every brand in every category fights for search visibility. Brands that wait until November 28 to increase bids miss the pre-Black Friday shopping behavior that begins November 20–21. Increase Sponsored Products maximum CPCs to 3–5x your off-season baseline beginning November 21, prioritize your highest-converting ASINs, and pause lower-priority campaigns to concentrate budget on revenue-generating placements. Brands that prepare BFCM bid strategies in October lock in campaign structure before traffic surges.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Create Prime Day and BFCM deal events aligned with RMN promotional placement requirements",
-            "description": "Amazon's most visible promotional placements \u2014 Deals of the Day, Lightning Deals, and Prime Exclusive Discounts \u2014 are submitted 4\u20138 weeks before the event and require minimum discount thresholds (typically 15\u201330% off). Secure these placements before the submission deadline and align your Sponsored Products, Sponsored Brands, and DSP campaigns to amplify the deal's organic visibility. Brands with confirmed Prime Day deals that run coordinated sponsored coverage around the deal period see 8x\u201315x normal daily revenue spikes vs. brands relying on organic deal visibility alone.",
+            "description": "Amazon's most visible promotional placements — Deals of the Day, Lightning Deals, and Prime Exclusive Discounts — are submitted 4–8 weeks before the event and require minimum discount thresholds (typically 15–30% off). Secure these placements before the submission deadline and align your Sponsored Products, Sponsored Brands, and DSP campaigns to amplify the deal's organic visibility. Brands with confirmed Prime Day deals that run coordinated sponsored coverage around the deal period see 8x–15x normal daily revenue spikes vs. brands relying on organic deal visibility alone.",
             "difficulty": "advanced",
             "priority": "critical"
           }
@@ -139,16 +140,16 @@
       }
     ],
     "pro_tips": [
-      "The single highest-ROI retail media investment most brands are not making is competitive ASIN targeting on Amazon Sponsored Display \u2014 targeting shoppers currently viewing your top 5 competitor product pages with your own product as an alternative. At $0.50\u2013$1.50 CPC, these in-comparison shoppers convert at 2x\u20134x the rate of category keyword traffic because they are already at the product comparison stage of the purchase journey. Set up competitive ASIN targeting campaigns immediately if you haven't already.",
-      "Amazon's 'Share of Voice' (SOV) tool shows what percentage of relevant category searches your brand captures via paid and organic combined. Brands with paid+organic SOV below 15% in their primary category are effectively invisible to most shoppers. Set a minimum SOV target of 25\u201330% for your 5\u201310 most important category keywords, and increase bids or budgets until that threshold is met \u2014 below this level, incremental spend generates disproportionate visibility gains.",
-      "For retail brands with DTC and Amazon distribution, build a coordinated attribution model using Amazon Attribution tags: UTM-tagged landing page links from off-Amazon media (email, social, search) that report Amazon purchases back to the originating media channel. This closes the Amazon attribution gap where your Meta or Google campaign drives a consumer to research on Amazon \u2014 and you currently receive zero conversion credit for that media's role in the purchase.",
-      "Grocery RMN brands should negotiate an annual 'Joint Business Plan' (JBP) with Walmart Connect, Target Roundel, and Kroger Precision Marketing that includes performance-based incentive tiers \u2014 spend commitments that unlock lower CPCs, first-mover access to new ad products, and co-investment in retail media test programs. JBP negotiations happen in Q4 for the following calendar year and are the mechanism through which high-spending brands receive structural pricing advantages not available to spot buyers.",
-      "The retail media measurement gap that most brands tolerate but shouldn't: cross-retailer attribution normalization. Each RMN uses different attribution windows (Amazon: 7-day or 14-day click, 1-day view; Walmart: 30-day click; Instacart: 7-day click), making ROAS comparisons meaningless without normalization. Implement a clean room solution (AWS Clean Rooms, LiveRamp) that standardizes all RMN attribution to the same 7-day click window before comparing ROAS across platforms \u2014 otherwise you're making budget allocation decisions based on incompatible numbers."
+      "The single highest-ROI retail media investment most brands are not making is competitive ASIN targeting on Amazon Sponsored Display — targeting shoppers currently viewing your top 5 competitor product pages with your own product as an alternative. At $0.50–$1.50 CPC, these in-comparison shoppers convert at 2x–4x the rate of category keyword traffic because they are already at the product comparison stage of the purchase journey. Set up competitive ASIN targeting campaigns immediately if you haven't already.",
+      "Amazon's 'Share of Voice' (SOV) tool shows what percentage of relevant category searches your brand captures via paid and organic combined. Brands with paid+organic SOV below 15% in their primary category are effectively invisible to most shoppers. Set a minimum SOV target of 25–30% for your 5–10 most important category keywords, and increase bids or budgets until that threshold is met — below this level, incremental spend generates disproportionate visibility gains.",
+      "For retail brands with DTC and Amazon distribution, build a coordinated attribution model using Amazon Attribution tags: UTM-tagged landing page links from off-Amazon media (email, social, search) that report Amazon purchases back to the originating media channel. This closes the Amazon attribution gap where your Meta or Google campaign drives a consumer to research on Amazon — and you currently receive zero conversion credit for that media's role in the purchase.",
+      "Grocery RMN brands should negotiate an annual 'Joint Business Plan' (JBP) with Walmart Connect, Target Roundel, and Kroger Precision Marketing that includes performance-based incentive tiers — spend commitments that unlock lower CPCs, first-mover access to new ad products, and co-investment in retail media test programs. JBP negotiations happen in Q4 for the following calendar year and are the mechanism through which high-spending brands receive structural pricing advantages not available to spot buyers.",
+      "The retail media measurement gap that most brands tolerate but shouldn't: cross-retailer attribution normalization. Each RMN uses different attribution windows (Amazon: 7-day or 14-day click, 1-day view; Walmart: 30-day click; Instacart: 7-day click), making ROAS comparisons meaningless without normalization. Implement a clean room solution (AWS Clean Rooms, LiveRamp) that standardizes all RMN attribution to the same 7-day click window before comparing ROAS across platforms — otherwise you're making budget allocation decisions based on incompatible numbers."
     ],
     "related_tools": [
       {
         "slug": "amazon-dsp",
-        "relevance": "Amazon DSP is the execution platform for off-site retail media \u2014 using Amazon's first-party purchase data to target audiences in programmatic display, streaming TV, and video beyond the Amazon.com environment."
+        "relevance": "Amazon DSP is the execution platform for off-site retail media — using Amazon's first-party purchase data to target audiences in programmatic display, streaming TV, and video beyond the Amazon.com environment."
       },
       {
         "slug": "the-trade-desk",

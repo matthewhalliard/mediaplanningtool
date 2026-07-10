@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Media Brief Template for Automotive CTV / Streaming Campaigns",
-    "description": "A complete media brief template for automotive CTV campaigns \u2014 covering Tier 1/2/3 objectives, VIN inventory, co-op compliance, and attribution measurement.",
+    "description": "A complete media brief template for automotive CTV campaigns — covering Tier 1/2/3 objectives, VIN inventory, co-op compliance, and attribution measurement.",
     "keywords": [
       "automotive CTV media brief template",
       "car dealer CTV campaign brief",
@@ -15,35 +15,36 @@
       "OEM CTV brief template",
       "automotive streaming campaign template"
     ],
-    "slug": "template/ctv-automotive"
+    "slug": "template/ctv-automotive",
+    "noindex": true
   },
   "content": {
-    "intro": "Automotive CTV campaigns span three distinct tiers \u2014 OEM national brand, regional dealer association, and individual franchise dealer \u2014 each requiring a different brief structure, objective hierarchy, and measurement framework. With 61% of car shoppers reporting CTV influenced their purchase decision and the average automotive purchase funnel spanning 8\u201312 weeks across 8+ touchpoints, a rigorous media brief is the planning foundation that prevents cross-tier frequency disasters, wasted co-op budgets, and misaligned creative deployment. This template captures every field a media planner or agency needs to build an automotive CTV campaign from brief to post-campaign debrief.",
+    "intro": "Automotive CTV campaigns span three distinct tiers — OEM national brand, regional dealer association, and individual franchise dealer — each requiring a different brief structure, objective hierarchy, and measurement framework. With 61% of car shoppers reporting CTV influenced their purchase decision and the average automotive purchase funnel spanning 8–12 weeks across 8+ touchpoints, a rigorous media brief is the planning foundation that prevents cross-tier frequency disasters, wasted co-op budgets, and misaligned creative deployment. This template captures every field a media planner or agency needs to build an automotive CTV campaign from brief to post-campaign debrief.",
     "sections": [
       {
         "heading": "Campaign Identity and Tier Classification",
         "items": [
           {
             "title": "Campaign Tier designation: OEM Tier 1, Dealer Association Tier 2, or Franchise Dealer Tier 3",
-            "description": "Begin every automotive CTV brief by specifying the campaign tier. Tier 1 (OEM national): brand and model awareness across all US DMAs; minimum $500K budget; 30-second non-skippable on premium SVOD. Tier 2 (Regional dealer association): market-level sales event promotion; $50K\u2013$300K budget; DMA-specific creative required. Tier 3 (Individual franchise dealer): PMA-level inventory promotion; $3K\u2013$25K/month budget; VIN-level dynamic creative preferred. Each tier requires different publisher strategy, frequency caps, and attribution approaches \u2014 designating tier upfront prevents planning mismatches.",
+            "description": "Begin every automotive CTV brief by specifying the campaign tier. Tier 1 (OEM national): brand and model awareness across all US DMAs; minimum $500K budget; 30-second non-skippable on premium SVOD. Tier 2 (Regional dealer association): market-level sales event promotion; $50K–$300K budget; DMA-specific creative required. Tier 3 (Individual franchise dealer): PMA-level inventory promotion; $3K–$25K/month budget; VIN-level dynamic creative preferred. Each tier requires different publisher strategy, frequency caps, and attribution approaches — designating tier upfront prevents planning mismatches.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "OEM Brand / Model / Trim being advertised",
-            "description": "Specify the exact vehicle model year, model name, and relevant trim levels for the campaign. For clearance campaigns, note the outgoing model year; for conquest campaigns, note the incoming model year. Campaigns mixing clearance and new model messaging in the same brief require explicit audience suppression rules \u2014 buyers who've seen new model creative should not be served clearance offers for the same vehicle, as this creates conflicting purchase signals that depress both campaign's conversion performance.",
+            "description": "Specify the exact vehicle model year, model name, and relevant trim levels for the campaign. For clearance campaigns, note the outgoing model year; for conquest campaigns, note the incoming model year. Campaigns mixing clearance and new model messaging in the same brief require explicit audience suppression rules — buyers who've seen new model creative should not be served clearance offers for the same vehicle, as this creates conflicting purchase signals that depress both campaign's conversion performance.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Campaign Objective: brand awareness / model consideration / test-drive booking / conquest / inventory clearance",
-            "description": "Select the single primary objective for this CTV campaign flight. Automotive CTV objectives require distinct execution strategies: brand awareness campaigns optimize for reach and frequency on premium SVOD at high CPMs; model consideration campaigns deploy in-market auto shopper segments with 30-second narrative spots; test-drive campaigns require QR code or URL CTA units; conquest campaigns require ACR or behavioral data activation. Multi-objective campaigns are a planning compromise that typically deliver 30\u201340% lower performance on every objective vs. single-objective campaigns.",
+            "description": "Select the single primary objective for this CTV campaign flight. Automotive CTV objectives require distinct execution strategies: brand awareness campaigns optimize for reach and frequency on premium SVOD at high CPMs; model consideration campaigns deploy in-market auto shopper segments with 30-second narrative spots; test-drive campaigns require QR code or URL CTA units; conquest campaigns require ACR or behavioral data activation. Multi-objective campaigns are a planning compromise that typically deliver 30–40% lower performance on every objective vs. single-objective campaigns.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Campaign Flight Dates and Model Year Calendar Alignment",
-            "description": "Specify start date, end date, and any required blackout dates. Map the campaign flight to the automotive seasonal calendar: note if the flight overlaps a tent-pole sales event (Memorial Day, Labor Day, Black Friday, December Season of Sales) requiring creative variant swaps. For model-year changeover flights (August\u2013October), document which model year is the primary creative focus and whether parallel outgoing-model clearance will run simultaneously under a separate brief or the same one.",
+            "description": "Specify start date, end date, and any required blackout dates. Map the campaign flight to the automotive seasonal calendar: note if the flight overlaps a tent-pole sales event (Memorial Day, Labor Day, Black Friday, December Season of Sales) requiring creative variant swaps. For model-year changeover flights (August–October), document which model year is the primary creative focus and whether parallel outgoing-model clearance will run simultaneously under a separate brief or the same one.",
             "difficulty": "beginner",
             "priority": "critical"
           }
@@ -54,13 +55,13 @@
         "items": [
           {
             "title": "Primary demographic target: age range, gender skew, household income floor, homeownership status",
-            "description": "Define the demographic floor for automotive CTV audience targeting: a luxury sedan campaign should specify HHI $100K+, A35\u201365; a compact SUV campaign might target HHI $60K+, A25\u201355. Household income is the most important automotive audience filter \u2014 CTV platforms offer HHI targeting in $25K increments via third-party data appends (typically $2\u2013$4 CPM premium). Without an HHI floor, a significant portion of CTV impressions will serve households for whom the advertised vehicle is financially inaccessible.",
+            "description": "Define the demographic floor for automotive CTV audience targeting: a luxury sedan campaign should specify HHI $100K+, A35–65; a compact SUV campaign might target HHI $60K+, A25–55. Household income is the most important automotive audience filter — CTV platforms offer HHI targeting in $25K increments via third-party data appends (typically $2–$4 CPM premium). Without an HHI floor, a significant portion of CTV impressions will serve households for whom the advertised vehicle is financially inaccessible.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "In-market purchase window: specify the buyer's research phase and vehicle consideration stage",
-            "description": "Segment target audiences by purchase timeline: 'immediate market' (actively researching, 0\u201330 days to purchase), 'near-market' (in consideration, 30\u201390 days), or 'future market' (brand building for buyers 90+ days from purchase). In-market and near-market audiences warrant aggressive CTV bidding with conversion-focused creative; future-market audiences require softer brand/aspiration creative at lower frequency. Specify which in-market segment is primary \u2014 this determines DSP audience data strategy and bid levels.",
+            "description": "Segment target audiences by purchase timeline: 'immediate market' (actively researching, 0–30 days to purchase), 'near-market' (in consideration, 30–90 days), or 'future market' (brand building for buyers 90+ days from purchase). In-market and near-market audiences warrant aggressive CTV bidding with conversion-focused creative; future-market audiences require softer brand/aspiration creative at lower frequency. Specify which in-market segment is primary — this determines DSP audience data strategy and bid levels.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -78,7 +79,7 @@
           },
           {
             "title": "Geographic targeting specification: national / DMA / zip-code / dealer PMA radius",
-            "description": "For Tier 1: list all included and excluded DMAs with any state-level geo restrictions. For Tier 2: list the specific DMA cluster for the dealer association with included zip codes. For Tier 3: specify the dealer's PMA radius in miles from the dealership address, and identify the 3\u20135 competitor dealership locations that should be geo-targeted for conquest. Include a coverage map or dealer address list as an attachment to the brief for trafficking accuracy.",
+            "description": "For Tier 1: list all included and excluded DMAs with any state-level geo restrictions. For Tier 2: list the specific DMA cluster for the dealer association with included zip codes. For Tier 3: specify the dealer's PMA radius in miles from the dealership address, and identify the 3–5 competitor dealership locations that should be geo-targeted for conquest. Include a coverage map or dealer address list as an attachment to the brief for trafficking accuracy.",
             "difficulty": "beginner",
             "priority": "critical"
           }
@@ -95,13 +96,13 @@
           },
           {
             "title": "CPM floor and ceiling parameters by publisher tier",
-            "description": "Define acceptable CPM ranges for each publisher category: premium SVOD (Netflix, Max, Hulu) \u2014 accept up to $40 CPM for Tier 1 campaigns; mid-tier streaming (Peacock, Paramount+, AMC+) \u2014 target $18\u2013$28 CPM; FAST channels (Tubi, Pluto, Roku Channel) \u2014 maximum $18 CPM for Tier 3 reach extension. Document absolute CPM ceilings by tier so buyers do not over-bid in premium inventory for campaigns that don't require premium brand environment. This CPM discipline typically saves 15\u201325% on Tier 3 dealer campaigns.",
+            "description": "Define acceptable CPM ranges for each publisher category: premium SVOD (Netflix, Max, Hulu) — accept up to $40 CPM for Tier 1 campaigns; mid-tier streaming (Peacock, Paramount+, AMC+) — target $18–$28 CPM; FAST channels (Tubi, Pluto, Roku Channel) — maximum $18 CPM for Tier 3 reach extension. Document absolute CPM ceilings by tier so buyers do not over-bid in premium inventory for campaigns that don't require premium brand environment. This CPM discipline typically saves 15–25% on Tier 3 dealer campaigns.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Frequency cap specification: household exposures per week and per campaign total",
-            "description": "Specify frequency caps at both the weekly and campaign-total level for each tier: recommended caps are 3 exposures/household/week (OEM Tier 1), 2/week (Tier 2 and Tier 3), with a campaign-total maximum of 12 exposures/household. Document the cap coordination protocol if multiple tiers are running simultaneously in the same DMA \u2014 the aggregate cross-tier cap (recommended: 5\u20137 total automotive-brand exposures/household/week) must be enforced via DSP frequency management or weekly check-in between tier buyers.",
+            "description": "Specify frequency caps at both the weekly and campaign-total level for each tier: recommended caps are 3 exposures/household/week (OEM Tier 1), 2/week (Tier 2 and Tier 3), with a campaign-total maximum of 12 exposures/household. Document the cap coordination protocol if multiple tiers are running simultaneously in the same DMA — the aggregate cross-tier cap (recommended: 5–7 total automotive-brand exposures/household/week) must be enforced via DSP frequency management or weekly check-in between tier buyers.",
             "difficulty": "intermediate",
             "priority": "critical"
           }
@@ -118,7 +119,7 @@
           },
           {
             "title": "CTA and landing page specification by audience segment",
-            "description": "Specify the desired call-to-action for each audience segment: test-drive booking page URL (for in-market audiences), VDP (vehicle detail page) URL (for inventory-specific campaigns), OEM model explore page (for brand awareness campaigns), and dealer locator page (for regional campaigns). For QR code interactive units, provide the tracking URL with UTM parameters pre-built. Landing pages must be mobile-optimized \u2014 70%+ of post-CTV conversion visits happen on mobile devices within 24 hours of CTV exposure.",
+            "description": "Specify the desired call-to-action for each audience segment: test-drive booking page URL (for in-market audiences), VDP (vehicle detail page) URL (for inventory-specific campaigns), OEM model explore page (for brand awareness campaigns), and dealer locator page (for regional campaigns). For QR code interactive units, provide the tracking URL with UTM parameters pre-built. Landing pages must be mobile-optimized — 70%+ of post-CTV conversion visits happen on mobile devices within 24 hours of CTV exposure.",
             "difficulty": "beginner",
             "priority": "critical"
           }
@@ -129,7 +130,7 @@
         "items": [
           {
             "title": "Attribution methodology: store visit measurement vendor and integration specification",
-            "description": "Specify the store visit measurement vendor to be integrated into the DSP campaign: Foursquare, Neustar/TransUnion, Polk (S&P Global Mobility), or LiveRamp. Include vendor contact and data feed specifications. Define success benchmark: cost-per-showroom-visit target (typically $20\u2013$60 for automotive CTV), incremental visit lift threshold (minimum 0.5% over control), and geographic level at which visit attribution will be reported (DMA, metro, zip, dealer location). Confirm vendor integration is active before the campaign starts \u2014 post-hoc visit measurement setups are significantly less accurate.",
+            "description": "Specify the store visit measurement vendor to be integrated into the DSP campaign: Foursquare, Neustar/TransUnion, Polk (S&P Global Mobility), or LiveRamp. Include vendor contact and data feed specifications. Define success benchmark: cost-per-showroom-visit target (typically $20–$60 for automotive CTV), incremental visit lift threshold (minimum 0.5% over control), and geographic level at which visit attribution will be reported (DMA, metro, zip, dealer location). Confirm vendor integration is active before the campaign starts — post-hoc visit measurement setups are significantly less accurate.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -149,16 +150,16 @@
       }
     ],
     "pro_tips": [
-      "Add a 'Model Year Clearance Flag' field to every automotive CTV brief \u2014 this flag triggers an automatic creative swap protocol when the campaign is within 8 weeks of model year end, switching from standard model creative to clearance-specific pricing and urgency messaging. Without this flag in the brief, media buyers routinely serve non-clearance creative during clearance season, missing the conversion lift that price-urgency messaging generates in the August\u2013September window.",
+      "Add a 'Model Year Clearance Flag' field to every automotive CTV brief — this flag triggers an automatic creative swap protocol when the campaign is within 8 weeks of model year end, switching from standard model creative to clearance-specific pricing and urgency messaging. Without this flag in the brief, media buyers routinely serve non-clearance creative during clearance season, missing the conversion lift that price-urgency messaging generates in the August–September window.",
       "For Tier 3 dealer briefs, include a 'DMA Competitive Index' section that documents how many competing franchise dealers for the same OEM brand operate within the dealer's PMA. In densely competitive DMAs (5+ dealers of the same brand within 20 miles), cross-brand frequency coordination is impossible, and the brief should specify that Tier 3 campaigns use audiences that are geographically outside competitor dealers' PMAs to focus conquest on cross-brand buyer opportunities rather than same-brand dealer conquest.",
-      "Automotive media briefs should always include a 'Lean Season Media Pause Protocol' \u2014 a pre-approved decision framework for pausing or reducing CTV spend when OEM inventory supply falls below 60-day supply in a specific model. Inventory constraints during chip shortage cycles or model launch delays make advertising to buyers who cannot receive the advertised vehicle a brand equity liability. Build the pause threshold into the brief so buyers can act immediately without waiting for approval chains.",
-      "Include a 'Conquested Competitor Response Creative' field in the brief for any campaign using ACR-based conquest targeting \u2014 the creative served to households identified as currently watching a competitor's automotive CTV ads should explicitly acknowledge the comparison decision ('Comparing your next car? Here's what makes the [Model] different') rather than serving generic brand creative. Conquest-specific responsive creative improves cross-brand consideration lift by 35\u201345% in matched-market studies.",
-      "For OEM Tier 1 briefs, add a 'Streaming Sports Rights Alignment' section noting upcoming streaming sports events during the campaign window (NFL on Prime, NBA on Peacock, UFC, NASCAR on various platforms). Live sports streaming inventory commands $35\u2013$60 CPM premium but delivers audience dwell time and brand recall that dramatically outperforms standard entertainment inventory for truck and performance vehicle campaigns. Pre-approving live sports streaming spend in the brief prevents last-minute budget battles when high-profile inventory becomes available mid-flight."
+      "Automotive media briefs should always include a 'Lean Season Media Pause Protocol' — a pre-approved decision framework for pausing or reducing CTV spend when OEM inventory supply falls below 60-day supply in a specific model. Inventory constraints during chip shortage cycles or model launch delays make advertising to buyers who cannot receive the advertised vehicle a brand equity liability. Build the pause threshold into the brief so buyers can act immediately without waiting for approval chains.",
+      "Include a 'Conquested Competitor Response Creative' field in the brief for any campaign using ACR-based conquest targeting — the creative served to households identified as currently watching a competitor's automotive CTV ads should explicitly acknowledge the comparison decision ('Comparing your next car? Here's what makes the [Model] different') rather than serving generic brand creative. Conquest-specific responsive creative improves cross-brand consideration lift by 35–45% in matched-market studies.",
+      "For OEM Tier 1 briefs, add a 'Streaming Sports Rights Alignment' section noting upcoming streaming sports events during the campaign window (NFL on Prime, NBA on Peacock, UFC, NASCAR on various platforms). Live sports streaming inventory commands $35–$60 CPM premium but delivers audience dwell time and brand recall that dramatically outperforms standard entertainment inventory for truck and performance vehicle campaigns. Pre-approving live sports streaming spend in the brief prevents last-minute budget battles when high-profile inventory becomes available mid-flight."
     ],
     "related_tools": [
       {
         "slug": "strata",
-        "relevance": "Strata's co-op management workflow automates the automotive dealer CTV co-op reimbursement process \u2014 verifying publisher eligibility, tracking claim submissions, and reconciling reimbursements against the brief's designated co-op budget."
+        "relevance": "Strata's co-op management workflow automates the automotive dealer CTV co-op reimbursement process — verifying publisher eligibility, tracking claim submissions, and reconciling reimbursements against the brief's designated co-op budget."
       },
       {
         "slug": "the-trade-desk",
