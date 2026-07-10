@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Retail Media Networks Media Planning Checklist for Retail / E-Commerce Brands",
-    "description": "Retail media planning checklist for retail and e-commerce brands \u2014 covering Amazon Ads architecture, new customer acquisition strategy, incrementality testing, return rate impact on ROAS, and Black Friday media planning.",
+    "description": "Retail media planning checklist for retail and e-commerce brands — covering Amazon Ads architecture, new customer acquisition strategy, incrementality testing, return rate impact on ROAS, and Black Friday media planning.",
     "keywords": [
       "retail media checklist e-commerce",
       "Amazon Ads retail brand planning",
@@ -17,35 +17,36 @@
       "retail media ROAS optimization",
       "Black Friday retail media planning"
     ],
-    "slug": "checklist/retail-media-retail"
+    "slug": "checklist/retail-media-retail",
+    "noindex": true
   },
   "content": {
-    "intro": "For retail and e-commerce brands, retail media is not a supplementary channel \u2014 it's the primary arena where purchase decisions are made and defended. When 70% of shoppers start their product discovery on Amazon and 60%+ of Amazon searches never scroll past the first page of results, paid placement in that first page isn't optional: it's the cost of participating in the market. The planning discipline that separates efficient retail media operators from chaotic ones is understanding that sponsored search on Amazon, Walmart, and Target Roundel are fundamentally different channel types \u2014 each with its own bidding logic, attribution window, and audience pool \u2014 and that treating them as interchangeable 'e-commerce advertising' produces mediocre results on all platforms simultaneously.",
+    "intro": "For retail and e-commerce brands, retail media is not a supplementary channel — it's the primary arena where purchase decisions are made and defended. When 70% of shoppers start their product discovery on Amazon and 60%+ of Amazon searches never scroll past the first page of results, paid placement in that first page isn't optional: it's the cost of participating in the market. The planning discipline that separates efficient retail media operators from chaotic ones is understanding that sponsored search on Amazon, Walmart, and Target Roundel are fundamentally different channel types — each with its own bidding logic, attribution window, and audience pool — and that treating them as interchangeable 'e-commerce advertising' produces mediocre results on all platforms simultaneously.",
     "sections": [
       {
         "heading": "Amazon Ads Campaign Architecture",
         "items": [
           {
             "title": "Build the always-on Sponsored Products foundation before layering brand or display",
-            "description": "Sponsored Products on hero ASINs with branded and category keywords form the non-negotiable base of any Amazon Ads strategy. Without this foundation, competitor Sponsored Products appear on your own product pages and branded search results, capturing demand your brand organic presence already earns. Allocate 50\u201360% of Amazon budget to Sponsored Products always-on campaigns before funding Sponsored Brands or DSP display.",
+            "description": "Sponsored Products on hero ASINs with branded and category keywords form the non-negotiable base of any Amazon Ads strategy. Without this foundation, competitor Sponsored Products appear on your own product pages and branded search results, capturing demand your brand organic presence already earns. Allocate 50–60% of Amazon budget to Sponsored Products always-on campaigns before funding Sponsored Brands or DSP display.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
-            "title": "Structure Sponsored Products campaigns by match type \u2014 separate campaigns per match type",
-            "description": "Run separate Sponsored Products campaigns for exact-match, phrase-match, and broad-match (auto) keywords rather than mixing match types in a single campaign. Exact-match campaigns give you precise control over bids for proven high-converting keywords. Auto campaigns continuously discover new converting queries \u2014 mine them weekly for new exact-match additions. Broad-match campaigns fill volume gaps. Mixing match types loses the ability to set differentiated CPC bids per intent level.",
+            "title": "Structure Sponsored Products campaigns by match type — separate campaigns per match type",
+            "description": "Run separate Sponsored Products campaigns for exact-match, phrase-match, and broad-match (auto) keywords rather than mixing match types in a single campaign. Exact-match campaigns give you precise control over bids for proven high-converting keywords. Auto campaigns continuously discover new converting queries — mine them weekly for new exact-match additions. Broad-match campaigns fill volume gaps. Mixing match types loses the ability to set differentiated CPC bids per intent level.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Monitor and measure new-to-brand purchase rate, not just ROAS, as a primary KPI",
-            "description": "Amazon reports the percentage of Sponsored Products purchases coming from customers who haven't bought your brand in the past 12 months \u2014 this is the single most important measure of whether retail media is growing the business or just monetizing existing demand. ROAS-only optimization drives spend toward bottom-funnel repeat buyers with minimal incrementality. Set a new-to-brand purchase rate target (typically 20\u201335% for challenger brands, 15\u201325% for established brands) alongside ROAS goals.",
+            "description": "Amazon reports the percentage of Sponsored Products purchases coming from customers who haven't bought your brand in the past 12 months — this is the single most important measure of whether retail media is growing the business or just monetizing existing demand. ROAS-only optimization drives spend toward bottom-funnel repeat buyers with minimal incrementality. Set a new-to-brand purchase rate target (typically 20–35% for challenger brands, 15–25% for established brands) alongside ROAS goals.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Build defensive Sponsored Display campaigns on your own product pages to block competitors",
-            "description": "Competitor brands routinely buy Amazon Sponsored Display placements on your product pages to intercept your shoppers with comparison offers. Activate defensive Sponsored Display campaigns on your own ASINs to fill these placement slots with your own ads \u2014 typically showing complementary products, bundle offers, or loyalty messaging. Self-defensive ASIN display typically generates ROAS of 6\u201310x because you're retaining already-interested shoppers.",
+            "description": "Competitor brands routinely buy Amazon Sponsored Display placements on your product pages to intercept your shoppers with comparison offers. Activate defensive Sponsored Display campaigns on your own ASINs to fill these placement slots with your own ads — typically showing complementary products, bundle offers, or loyalty messaging. Self-defensive ASIN display typically generates ROAS of 6–10x because you're retaining already-interested shoppers.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -68,19 +69,19 @@
           },
           {
             "title": "Increase bids aggressively in the 72 hours of competitor out-of-stock windows",
-            "description": "Set up Buy Box availability monitoring for your top 5 competitors' hero ASINs (services like Helium 10 or Jungle Scout provide alerts). When a competitor goes out of stock, their organic and sponsored placement collapses within hours. Increase your category keyword bids by 50\u2013100% in that window to capture the displaced shopper demand. A 72-hour competitor out-of-stock event can generate 20\u201340% above-baseline sales velocity if you're positioned to capture it.",
+            "description": "Set up Buy Box availability monitoring for your top 5 competitors' hero ASINs (services like Helium 10 or Jungle Scout provide alerts). When a competitor goes out of stock, their organic and sponsored placement collapses within hours. Increase your category keyword bids by 50–100% in that window to capture the displaced shopper demand. A 72-hour competitor out-of-stock event can generate 20–40% above-baseline sales velocity if you're positioned to capture it.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
             "title": "Identify where your category's shoppers over-index across retailers before RMN budget allocation",
-            "description": "Walmart's retail media (Walmart Connect) over-indexes for value-oriented shoppers, rural households, and categories like grocery, household consumables, and pet supplies. Target Roundel over-indexes for suburban moms, fashion/beauty, home decor, and premium CPG. Instacart skews toward urban high-income households with strong grocery delivery adoption. Match your RMN portfolio allocation to where your target customer actually shops \u2014 not just to where the largest RMN budgets flow.",
+            "description": "Walmart's retail media (Walmart Connect) over-indexes for value-oriented shoppers, rural households, and categories like grocery, household consumables, and pet supplies. Target Roundel over-indexes for suburban moms, fashion/beauty, home decor, and premium CPG. Instacart skews toward urban high-income households with strong grocery delivery adoption. Match your RMN portfolio allocation to where your target customer actually shops — not just to where the largest RMN budgets flow.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Activate Walmart Connect Sponsored Products as a lower-CPC Amazon alternative for eligible categories",
-            "description": "Walmart Sponsored Products CPC averages $0.50\u2013$1.20 vs. Amazon's $1.21+ \u2014 for brands with meaningful Walmart distribution, this CPC differential can deliver new-to-brand customers at 30\u201340% lower acquisition cost than Amazon for the same category. Less competition on Walmart's platform also means easier first-page placement for emerging brands that face entrenched competition on Amazon. Walmart Connect requires Walmart marketplace or omnichannel distribution to be eligible.",
+            "description": "Walmart Sponsored Products CPC averages $0.50–$1.20 vs. Amazon's $1.21+ — for brands with meaningful Walmart distribution, this CPC differential can deliver new-to-brand customers at 30–40% lower acquisition cost than Amazon for the same category. Less competition on Walmart's platform also means easier first-page placement for emerging brands that face entrenched competition on Amazon. Walmart Connect requires Walmart marketplace or omnichannel distribution to be eligible.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -97,19 +98,19 @@
         "items": [
           {
             "title": "Begin Black Friday/Cyber Monday keyword bid optimization 6 weeks before the event",
-            "description": "BFCM is the single highest-traffic, highest-competition period in retail media. CPCs spike 2\u20133x normal levels during the Cyber Week window. Start increasing bids and daily budgets on hero SKU category keywords 4\u20136 weeks before BFCM to build Quality Score history and organic rank momentum before the bidding war peaks. Brands that enter BFCM cold without bid preparation history pay maximum CPCs with minimum algorithmic advantage.",
+            "description": "BFCM is the single highest-traffic, highest-competition period in retail media. CPCs spike 2–3x normal levels during the Cyber Week window. Start increasing bids and daily budgets on hero SKU category keywords 4–6 weeks before BFCM to build Quality Score history and organic rank momentum before the bidding war peaks. Brands that enter BFCM cold without bid preparation history pay maximum CPCs with minimum algorithmic advantage.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Set up Deal and Lightning Deal campaigns on Amazon 2 weeks ahead of eligibility windows",
-            "description": "Amazon Prime Day and BFCM Lightning Deals require submission approval 2\u20134 weeks in advance. Build your Lightning Deal calendar at the start of the quarter, submit eligible ASINs within Amazon's promotional windows, and pair approved deals with Sponsored Products budget increases during deal active windows. Lightning Deals in combination with Sponsored Products bid increases typically generate 5\u20138x normal daily sales velocity during active deal periods.",
+            "description": "Amazon Prime Day and BFCM Lightning Deals require submission approval 2–4 weeks in advance. Build your Lightning Deal calendar at the start of the quarter, submit eligible ASINs within Amazon's promotional windows, and pair approved deals with Sponsored Products budget increases during deal active windows. Lightning Deals in combination with Sponsored Products bid increases typically generate 5–8x normal daily sales velocity during active deal periods.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Build BFCM media budget as a distinct budget line separate from always-on investment",
-            "description": "BFCM should be treated as a separate media investment with its own budget, KPI targets (often prioritizing volume over ROAS during acquisition windows), and optimization timeline. Pulling BFCM budget from always-on campaigns creates a seesaw effect \u2014 the always-on campaigns lose momentum during BFCM recovery while BFCM itself is over-reliant on the same asset pools. Negotiate a distinct BFCM increment with finance as early as August.",
+            "description": "BFCM should be treated as a separate media investment with its own budget, KPI targets (often prioritizing volume over ROAS during acquisition windows), and optimization timeline. Pulling BFCM budget from always-on campaigns creates a seesaw effect — the always-on campaigns lose momentum during BFCM recovery while BFCM itself is over-reliant on the same asset pools. Negotiate a distinct BFCM increment with finance as early as August.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -121,7 +122,7 @@
           },
           {
             "title": "Run at least one holdout incrementality test per year to validate ROAS claims from your largest RMN",
-            "description": "Amazon's reported ROAS systematically overstates true incremental value because the 7-day or 14-day attribution windows credit ads for purchases that would have occurred organically. Run an Amazon holdout test (Amazon offers a managed holdout test program) or design your own geo-based holdout test for Walmart Connect or Target Roundel. True incremental ROAS is typically 30\u201350% lower than platform-reported ROAS \u2014 and right-sizing your expectations accordingly protects against over-investment.",
+            "description": "Amazon's reported ROAS systematically overstates true incremental value because the 7-day or 14-day attribution windows credit ads for purchases that would have occurred organically. Run an Amazon holdout test (Amazon offers a managed holdout test program) or design your own geo-based holdout test for Walmart Connect or Target Roundel. True incremental ROAS is typically 30–50% lower than platform-reported ROAS — and right-sizing your expectations accordingly protects against over-investment.",
             "difficulty": "advanced",
             "priority": "critical"
           },
@@ -133,13 +134,13 @@
           },
           {
             "title": "Run Amazon Sponsored Products bid adjustments by time-of-day during Cyber Week",
-            "description": "Amazon purchase rates peak between 12pm\u20133pm Eastern on Cyber Monday based on historical retail data. Build a bid adjustment schedule that increases Sponsored Products bids by 25\u201335% during these peak conversion hours. Amazon's bid adjustment tool allows dayparting within campaigns \u2014 use it for all hero SKU campaigns during the Cyber Week window to capture the highest-conversion-rate periods at optimal bid levels.",
+            "description": "Amazon purchase rates peak between 12pm–3pm Eastern on Cyber Monday based on historical retail data. Build a bid adjustment schedule that increases Sponsored Products bids by 25–35% during these peak conversion hours. Amazon's bid adjustment tool allows dayparting within campaigns — use it for all hero SKU campaigns during the Cyber Week window to capture the highest-conversion-rate periods at optimal bid levels.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Coordinate Prime Day and BFCM retail media spend with off-platform search and social increases",
-            "description": "Amazon Prime Day and BFCM are not contained to Amazon \u2014 consumer search volume for product terms on Google and shopping intent on Meta increases simultaneously. Coordinate Amazon Ads bid increases with Google Shopping and Meta DPA budget increases in the same windows. Brands that increase retail media spend without proportional increases in off-platform channels miss the amplification effect of coordinated multi-channel presence during high-intent shopping events.",
+            "description": "Amazon Prime Day and BFCM are not contained to Amazon — consumer search volume for product terms on Google and shopping intent on Meta increases simultaneously. Coordinate Amazon Ads bid increases with Google Shopping and Meta DPA budget increases in the same windows. Brands that increase retail media spend without proportional increases in off-platform channels miss the amplification effect of coordinated multi-channel presence during high-intent shopping events.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -147,11 +148,11 @@
       }
     ],
     "pro_tips": [
-      "Set up Amazon Brand Analytics' 'Repeat Purchase Behavior' report monthly for your hero ASINs. This report shows what percentage of your Amazon buyers are first-time vs. repeat purchasers and what their repurchase cycle looks like. For high-repeat-purchase categories (consumables, supplements, pet food), the LTV of an acquired customer is dramatically higher than a one-time purchase \u2014 justify lower acquisition ROAS targets with LTV-backed modeling to unlock budget for new customer growth.",
-      "Walmart Connect offers 'Category Share Reports' that show your brand's sponsored search share of voice vs. competitors within specific categories on Walmart.com. This data is actionable in ways Amazon's equivalent tools aren't \u2014 Walmart's less saturated platform means a 10\u201315 point SOV advantage on Walmart Connect can be achieved with 20\u201330% less investment than the equivalent SOV gain on Amazon.",
-      "Amazon's Demand-Side Platform (DSP) offers a specific 'Conquesting' audience segment (users who browsed competitor ASINs but did not purchase) that converts at 2\u20134x the rate of general category shoppers. This is one of the highest-value programmatic audience segments in all of retail advertising and is only available through Amazon DSP. Budget $5,000\u2013$15,000/month minimum for this segment to gather sufficient data before optimizing.",
-      "For DTC brands that also sell on Amazon, implement a 'brand gates' program (Brand Registry exclusive A+ content and Brand Store) to differentiate your Amazon presence from generic resellers and unauthorized third-party sellers. Paid Sponsored Products traffic sent to a fully built Brand Store page typically converts 15\u201325% higher than traffic to individual ASIN pages because the store context builds brand trust and enables cross-sell.",
-      "Coordinate Amazon retail media bid increases with your Google Shopping campaigns. When you increase Amazon Sponsored Products bids on hero category keywords, you're bidding for the same in-market shopper who may also be searching on Google. Cross-platform coordination means neither channel over-bids for a shopper who is better captured by the lower-CPC platform \u2014 and helps identify which channel is most efficient for new customer acquisition in each product category."
+      "Set up Amazon Brand Analytics' 'Repeat Purchase Behavior' report monthly for your hero ASINs. This report shows what percentage of your Amazon buyers are first-time vs. repeat purchasers and what their repurchase cycle looks like. For high-repeat-purchase categories (consumables, supplements, pet food), the LTV of an acquired customer is dramatically higher than a one-time purchase — justify lower acquisition ROAS targets with LTV-backed modeling to unlock budget for new customer growth.",
+      "Walmart Connect offers 'Category Share Reports' that show your brand's sponsored search share of voice vs. competitors within specific categories on Walmart.com. This data is actionable in ways Amazon's equivalent tools aren't — Walmart's less saturated platform means a 10–15 point SOV advantage on Walmart Connect can be achieved with 20–30% less investment than the equivalent SOV gain on Amazon.",
+      "Amazon's Demand-Side Platform (DSP) offers a specific 'Conquesting' audience segment (users who browsed competitor ASINs but did not purchase) that converts at 2–4x the rate of general category shoppers. This is one of the highest-value programmatic audience segments in all of retail advertising and is only available through Amazon DSP. Budget $5,000–$15,000/month minimum for this segment to gather sufficient data before optimizing.",
+      "For DTC brands that also sell on Amazon, implement a 'brand gates' program (Brand Registry exclusive A+ content and Brand Store) to differentiate your Amazon presence from generic resellers and unauthorized third-party sellers. Paid Sponsored Products traffic sent to a fully built Brand Store page typically converts 15–25% higher than traffic to individual ASIN pages because the store context builds brand trust and enables cross-sell.",
+      "Coordinate Amazon retail media bid increases with your Google Shopping campaigns. When you increase Amazon Sponsored Products bids on hero category keywords, you're bidding for the same in-market shopper who may also be searching on Google. Cross-platform coordination means neither channel over-bids for a shopper who is better captured by the lower-CPC platform — and helps identify which channel is most efficient for new customer acquisition in each product category."
     ],
     "related_tools": [
       {

@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Paid Search (SEM / PPC) Media Planning Checklist for Healthcare / Pharma Campaigns",
-    "description": "Healthcare paid search checklist \u2014 covering Google's pharmaceutical advertiser verification, DTC condition keyword strategy, HCP clinical query targeting, copay card conversion tracking, and NRx attribution methodology.",
+    "description": "Healthcare paid search checklist — covering Google's pharmaceutical advertiser verification, DTC condition keyword strategy, HCP clinical query targeting, copay card conversion tracking, and NRx attribution methodology.",
     "keywords": [
       "healthcare paid search checklist",
       "pharma Google Ads planning",
@@ -17,29 +17,30 @@
       "pharmaceutical Google Ads compliance",
       "prescription drug paid search"
     ],
-    "slug": "checklist/paid-search-healthcare"
+    "slug": "checklist/paid-search-healthcare",
+    "noindex": true
   },
   "content": {
-    "intro": "Healthcare paid search captures the most precise demand signal in the patient and physician decision-making journey \u2014 a patient searching 'what is the best medication for relapsing MS' or a physician searching 'first-line treatment options for chronic migraine' has already identified their clinical need and is actively seeking solution information. No other media channel reaches people at this specific moment of decision-making readiness. The challenge for pharma planners is executing against this intent within Google's pharmaceutical advertiser verification framework, FDA OPDP's restrictions on what can be claimed in ad copy, and the practical reality that some of the highest-value condition-treatment queries are not eligible for branded advertising at all.",
+    "intro": "Healthcare paid search captures the most precise demand signal in the patient and physician decision-making journey — a patient searching 'what is the best medication for relapsing MS' or a physician searching 'first-line treatment options for chronic migraine' has already identified their clinical need and is actively seeking solution information. No other media channel reaches people at this specific moment of decision-making readiness. The challenge for pharma planners is executing against this intent within Google's pharmaceutical advertiser verification framework, FDA OPDP's restrictions on what can be claimed in ad copy, and the practical reality that some of the highest-value condition-treatment queries are not eligible for branded advertising at all.",
     "sections": [
       {
         "heading": "Platform Compliance & Advertiser Verification",
         "items": [
           {
             "title": "Complete Google's pharmaceutical advertiser verification process before any Rx SEM launch",
-            "description": "Google implemented stricter pharmaceutical advertiser verification requirements in 2025. Brands advertising prescription medications must complete Google's Health Advertising certification, which includes business license verification, pharmacist or medical professional certification for OTC pharmacy advertisers, and compliance with Google's healthcare and medicines advertising policy. Allow 4\u20136 weeks for verification review. Running Rx product SEM without verification results in account suspension.",
+            "description": "Google implemented stricter pharmaceutical advertiser verification requirements in 2025. Brands advertising prescription medications must complete Google's Health Advertising certification, which includes business license verification, pharmacist or medical professional certification for OTC pharmacy advertisers, and compliance with Google's healthcare and medicines advertising policy. Allow 4–6 weeks for verification review. Running Rx product SEM without verification results in account suspension.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Review Google's healthcare and medicines advertising policy for each product category",
-            "description": "Google's healthcare advertising policies vary by product type: prescription drugs, OTC medications, clinical trials, telehealth services, and medical devices are each governed by different policy sections with distinct restrictions on targeting, ad copy, and landing page requirements. Review the specific policy section for your product category before keyword research and creative development. Policy violations that result in ad disapproval can take 5\u201310 business days to resolve, delaying critical flight timing.",
+            "description": "Google's healthcare advertising policies vary by product type: prescription drugs, OTC medications, clinical trials, telehealth services, and medical devices are each governed by different policy sections with distinct restrictions on targeting, ad copy, and landing page requirements. Review the specific policy section for your product category before keyword research and creative development. Policy violations that result in ad disapproval can take 5–10 business days to resolve, delaying critical flight timing.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Submit all SEM ad copy for DTC Rx keywords to MLR review before going live",
-            "description": "Paid search ad copy for branded prescription drug terms is subject to FDA OPDP promotional regulations \u2014 even in the constrained space of a Google Ads headline and description. Ad copy cannot make superiority claims without supporting data, must not minimize risks relative to benefits, and must link to a landing page with the full brief summary (or quick link to ISI). Route all DTC Rx SEM copy through MLR review, maintaining approval documentation for FDA audit readiness.",
+            "description": "Paid search ad copy for branded prescription drug terms is subject to FDA OPDP promotional regulations — even in the constrained space of a Google Ads headline and description. Ad copy cannot make superiority claims without supporting data, must not minimize risks relative to benefits, and must link to a landing page with the full brief summary (or quick link to ISI). Route all DTC Rx SEM copy through MLR review, maintaining approval documentation for FDA audit readiness.",
             "difficulty": "intermediate",
             "priority": "critical"
           }
@@ -56,7 +57,7 @@
           },
           {
             "title": "Run unbranded condition queries as a distinct campaign to capture undiagnosed patient demand",
-            "description": "Unbranded condition queries ('do I have ADHD', 'symptoms of psoriasis', 'what causes dry eye disease') are not subject to branded promotional restrictions under FDA OPDP and can drive disease education content without the fair balance disclosure requirements of branded DTC ads. Build unbranded condition campaigns that direct to patient education resources or diagnosis discussion guides \u2014 these campaigns build the top-of-funnel patient pipeline that eventually converts through branded search.",
+            "description": "Unbranded condition queries ('do I have ADHD', 'symptoms of psoriasis', 'what causes dry eye disease') are not subject to branded promotional restrictions under FDA OPDP and can drive disease education content without the fair balance disclosure requirements of branded DTC ads. Build unbranded condition campaigns that direct to patient education resources or diagnosis discussion guides — these campaigns build the top-of-funnel patient pipeline that eventually converts through branded search.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -68,13 +69,13 @@
           },
           {
             "title": "Identify and target copay and patient access queries as a high-conversion opportunity",
-            "description": "Queries like '[drug name] copay card,' '[drug name] patient assistance program,' '[drug name] cost without insurance' represent patients who have already made a treatment decision and are seeking financial access solutions. These are among the highest-conversion queries in pharmaceutical SEM \u2014 targeting them with copay card or patient support program CTAs captures patients at the moment of financial barrier removal. Set high CPC bids and direct to a dedicated copay card landing page.",
+            "description": "Queries like '[drug name] copay card,' '[drug name] patient assistance program,' '[drug name] cost without insurance' represent patients who have already made a treatment decision and are seeking financial access solutions. These are among the highest-conversion queries in pharmaceutical SEM — targeting them with copay card or patient support program CTAs captures patients at the moment of financial barrier removal. Set high CPC bids and direct to a dedicated copay card landing page.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Monitor competitor pharmaceutical brand terms and evaluate conquest strategy carefully",
-            "description": "Bidding on competitor drug brand names in SEM is a higher-risk strategy in pharmaceutical than in most verticals. FDA guidance suggests that branded drug terms in ad copy must accurately represent the advertised drug. Bidding on a competitor brand term while only advertising your own drug is generally permissible, but ad copy cannot mention the competitor drug name. Evaluate conquest SEM against the reputational and regulatory risk \u2014 some brand teams prohibit competitor drug conquesting entirely.",
+            "description": "Bidding on competitor drug brand names in SEM is a higher-risk strategy in pharmaceutical than in most verticals. FDA guidance suggests that branded drug terms in ad copy must accurately represent the advertised drug. Bidding on a competitor brand term while only advertising your own drug is generally permissible, but ad copy cannot mention the competitor drug name. Evaluate conquest SEM against the reputational and regulatory risk — some brand teams prohibit competitor drug conquesting entirely.",
             "difficulty": "advanced",
             "priority": "important"
           }
@@ -91,7 +92,7 @@
           },
           {
             "title": "Use Microsoft Advertising (Bing) for physician and clinical query targeting",
-            "description": "Bing's demographic profile over-indexes on professionals 45+ with advanced degrees \u2014 a composition that aligns well with specialty physician search behavior. Bing CPCs for clinical and HCP-targeted pharmaceutical queries run 20\u201335% below Google equivalents. Medical professionals searching clinical queries on workplace computers often default to Bing (via Edge browser in hospital/clinical settings) \u2014 this is a structural Bing opportunity that pharma planners routinely underutilize.",
+            "description": "Bing's demographic profile over-indexes on professionals 45+ with advanced degrees — a composition that aligns well with specialty physician search behavior. Bing CPCs for clinical and HCP-targeted pharmaceutical queries run 20–35% below Google equivalents. Medical professionals searching clinical queries on workplace computers often default to Bing (via Edge browser in hospital/clinical settings) — this is a structural Bing opportunity that pharma planners routinely underutilize.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -103,31 +104,31 @@
           },
           {
             "title": "Implement multi-step conversion tracking that follows the patient support program funnel",
-            "description": "The pharma SEM conversion funnel has multiple micro-conversion steps: ad click \u2192 drug information site visit \u2192 patient support section visit \u2192 copay card page view \u2192 copay card enrollment start \u2192 copay card enrollment complete. Each step is a measurable conversion goal with its own dropout rate. Track all steps in GA4 and import as conversion milestones in Google Ads. This funnel visibility lets you identify whether SEM performance problems sit at the keyword/ad level or the landing page/support program level.",
+            "description": "The pharma SEM conversion funnel has multiple micro-conversion steps: ad click → drug information site visit → patient support section visit → copay card page view → copay card enrollment start → copay card enrollment complete. Each step is a measurable conversion goal with its own dropout rate. Track all steps in GA4 and import as conversion milestones in Google Ads. This funnel visibility lets you identify whether SEM performance problems sit at the keyword/ad level or the landing page/support program level.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Connect paid search GCLID data to eventual NRx attribution via patient support program records",
-            "description": "The most rigorous pharma SEM attribution methodology links Google Click ID (GCLID) data from paid search clicks to patient support program enrollment records (copay card activations, hub enrollments) and eventually to pharmacy claims data via patient support program vendor partnerships. This chain \u2014 GCLID \u2192 hub enrollment \u2192 NRx fill \u2014 is operationally complex but produces a true cost-per-patient-start metric that can be compared against other DTC channel ROI.",
+            "description": "The most rigorous pharma SEM attribution methodology links Google Click ID (GCLID) data from paid search clicks to patient support program enrollment records (copay card activations, hub enrollments) and eventually to pharmacy claims data via patient support program vendor partnerships. This chain — GCLID → hub enrollment → NRx fill — is operationally complex but produces a true cost-per-patient-start metric that can be compared against other DTC channel ROI.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
             "title": "Track branded search volume growth as the primary CTV-to-search attribution metric",
-            "description": "DTC CTV and linear TV campaigns for pharmaceutical brands drive branded drug name search queries measurably within days of air dates. Monitor Google Search Console and Google Ads impression data for branded drug name search volume weekly, segmented by national vs. key DMA markets. A CTV campaign that delivers meaningful coverage should produce 20\u201340% branded search volume lift within 2 weeks \u2014 this is your fastest available proxy for DTC media impact before NRx data becomes available.",
+            "description": "DTC CTV and linear TV campaigns for pharmaceutical brands drive branded drug name search queries measurably within days of air dates. Monitor Google Search Console and Google Ads impression data for branded drug name search volume weekly, segmented by national vs. key DMA markets. A CTV campaign that delivers meaningful coverage should produce 20–40% branded search volume lift within 2 weeks — this is your fastest available proxy for DTC media impact before NRx data becomes available.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Set attribution windows consistent with the patient treatment initiation timeline",
-            "description": "Patients researching chronic condition treatments may take 2\u20136 months from initial search to first prescription fill. Default 30-day conversion windows in Google Ads massively undercount the contribution of pharmaceutical SEM to eventual patient starts. Set custom conversion windows at 90 days for chronic condition product campaigns. Document the window selection rationale for internal reporting consistency and MLR record keeping.",
+            "description": "Patients researching chronic condition treatments may take 2–6 months from initial search to first prescription fill. Default 30-day conversion windows in Google Ads massively undercount the contribution of pharmaceutical SEM to eventual patient starts. Set custom conversion windows at 90 days for chronic condition product campaigns. Document the window selection rationale for internal reporting consistency and MLR record keeping.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Set up conference-timing bid increases for HCP search campaigns during major medical meetings",
-            "description": "Physicians attending major specialty conferences (ACC for cardiology, ADA for diabetes, ASCO for oncology, AAD for dermatology) search for drug information and clinical data at elevated rates during and immediately after conference presentations featuring your drug. Build scheduled bid adjustments (+30\u201350%) on HCP clinical search terms in the 72 hours surrounding major conferences relevant to your indication. This captures the conference-driven prescriber research spike at its peak.",
+            "description": "Physicians attending major specialty conferences (ACC for cardiology, ADA for diabetes, ASCO for oncology, AAD for dermatology) search for drug information and clinical data at elevated rates during and immediately after conference presentations featuring your drug. Build scheduled bid adjustments (+30–50%) on HCP clinical search terms in the 72 hours surrounding major conferences relevant to your indication. This captures the conference-driven prescriber research spike at its peak.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -135,10 +136,10 @@
       }
     ],
     "pro_tips": [
-      "Run paid search keyword testing for new product launches in the 6\u20138 weeks before official DTC launch \u2014 bid on unbranded condition queries and disease awareness terms to capture early search interest and build Quality Score history on the keyword pool. When the branded drug name launches, higher Quality Scores from pre-established keyword account history translate to lower CPCs on branded terms. Pre-launch keyword 'seasoning' is one of the highest-ROI preparatory tactics in pharma SEM.",
+      "Run paid search keyword testing for new product launches in the 6–8 weeks before official DTC launch — bid on unbranded condition queries and disease awareness terms to capture early search interest and build Quality Score history on the keyword pool. When the branded drug name launches, higher Quality Scores from pre-established keyword account history translate to lower CPCs on branded terms. Pre-launch keyword 'seasoning' is one of the highest-ROI preparatory tactics in pharma SEM.",
       "For rare disease campaigns where the total number of patients nationally is in the thousands, cap paid search budgets carefully to avoid running out of relevant search queries within the first week of the month. Volume-limited rare disease SEM should run always-on at modest budgets with enhanced CPC bidding rather than Target CPA, because conversion data pools are too small to support automated bidding algorithm training within any reasonable timeframe.",
-      "Monitor Patient Assistance Program (PAP) and copay card query volumes as real-time indicators of access barrier activity \u2014 when these queries spike, patients are actively seeking financial access solutions, often triggered by insurance formulary changes, prior authorization denials, or media reports about drug cost. These are moments of highest conversion readiness in the pharmaceutical patient journey.",
-      "Build a keyword monitoring alert for competitor drug names + 'generic' (e.g., '[competitor drug name] generic launch'). When a competitor's drug loses patent protection and generic alternatives appear, their patients actively search for branded alternatives. This generic conversion window \u2014 often 60\u201390 days after generic launch \u2014 is a high-intent conquest opportunity for brands in the same therapeutic class.",
+      "Monitor Patient Assistance Program (PAP) and copay card query volumes as real-time indicators of access barrier activity — when these queries spike, patients are actively seeking financial access solutions, often triggered by insurance formulary changes, prior authorization denials, or media reports about drug cost. These are moments of highest conversion readiness in the pharmaceutical patient journey.",
+      "Build a keyword monitoring alert for competitor drug names + 'generic' (e.g., '[competitor drug name] generic launch'). When a competitor's drug loses patent protection and generic alternatives appear, their patients actively search for branded alternatives. This generic conversion window — often 60–90 days after generic launch — is a high-intent conquest opportunity for brands in the same therapeutic class.",
       "For telehealth brands with pharmaceutical-adjacent services (Hims for hair loss and ED, Roman for men's health, Cerebral for mental health), paid search quality scores are dramatically better than traditional pharma brands because the landing pages can be highly specific to search intent without FDA fair balance requirements. Use this regulatory asymmetry: telehealth brands can build condition-specific landing pages (e.g., a dedicated 'hair loss treatment' page exactly matching the keyword) that traditional Rx brands cannot match without MLR-approved fair balance integration on every page variant."
     ],
     "related_tools": [

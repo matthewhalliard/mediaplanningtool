@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Media Brief Template for Healthcare / Pharma Programmatic Display Campaigns",
-    "description": "A complete media brief template for healthcare and pharma programmatic display campaigns \u2014 covering MLR compliance, NPI targeting, HIPAA requirements, and script lift attribution.",
+    "description": "A complete media brief template for healthcare and pharma programmatic display campaigns — covering MLR compliance, NPI targeting, HIPAA requirements, and script lift attribution.",
     "keywords": [
       "healthcare programmatic display brief template",
       "pharma media brief template",
@@ -15,10 +15,11 @@
       "pharmaceutical display advertising template",
       "NPI targeting brief"
     ],
-    "slug": "template/programmatic-display-healthcare"
+    "slug": "template/programmatic-display-healthcare",
+    "noindex": true
   },
   "content": {
-    "intro": "Healthcare and pharmaceutical programmatic display campaigns operate under compliance constraints that make the media brief more critical \u2014 and more complex \u2014 than in any other vertical. Every audience targeting approach, creative asset, and landing page link must receive MLR (Medical/Legal/Regulatory) approval before trafficking; FDA OPDP oversight applies to every promotional unit; and HIPAA's prohibition on using identified health condition data creates targeting constraints that require specific brief documentation to prevent compliance violations in execution. This template captures the fields required by both media planners and regulatory teams to execute compliant, effective healthcare programmatic display campaigns for both DTC (patient/caregiver) and HCP (healthcare provider) audiences.",
+    "intro": "Healthcare and pharmaceutical programmatic display campaigns operate under compliance constraints that make the media brief more critical — and more complex — than in any other vertical. Every audience targeting approach, creative asset, and landing page link must receive MLR (Medical/Legal/Regulatory) approval before trafficking; FDA OPDP oversight applies to every promotional unit; and HIPAA's prohibition on using identified health condition data creates targeting constraints that require specific brief documentation to prevent compliance violations in execution. This template captures the fields required by both media planners and regulatory teams to execute compliant, effective healthcare programmatic display campaigns for both DTC (patient/caregiver) and HCP (healthcare provider) audiences.",
     "sections": [
       {
         "heading": "Campaign Classification and Regulatory Parameters",
@@ -31,19 +32,19 @@
           },
           {
             "title": "Drug/Device Name, Approved Indication(s), and Regulatory Approval Status",
-            "description": "Specify the precise drug name (generic + brand), approved indication(s) per FDA label, and current regulatory status (approved, in-review, launch pending). For multi-indication drugs, list each indication separately \u2014 programmatic campaigns must be indication-specific and cannot promote off-label uses. Include the NDA or BLA number for Rx drugs and the 510(k) or PMA number for devices. This information is required by both your media agency and any healthcare DSP requiring pharmaceutical advertiser verification.",
+            "description": "Specify the precise drug name (generic + brand), approved indication(s) per FDA label, and current regulatory status (approved, in-review, launch pending). For multi-indication drugs, list each indication separately — programmatic campaigns must be indication-specific and cannot promote off-label uses. Include the NDA or BLA number for Rx drugs and the 510(k) or PMA number for devices. This information is required by both your media agency and any healthcare DSP requiring pharmaceutical advertiser verification.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "MLR Review Status and Asset Approval Timeline",
-            "description": "Document the MLR review cycle commitment dates: creative submission deadline, MLR committee review period (typically 4\u20138 weeks for Rx display), expected approval date, and campaign launch target date. If creative has not yet received MLR approval at the time of brief submission, flag the campaign as 'trafficking conditional on MLR approval' and specify the protocol if approval is delayed past the launch date (hold media or launch with a pre-approved evergreen asset). Never traffic unapproved healthcare display creative \u2014 this is the single most critical compliance requirement.",
+            "description": "Document the MLR review cycle commitment dates: creative submission deadline, MLR committee review period (typically 4–8 weeks for Rx display), expected approval date, and campaign launch target date. If creative has not yet received MLR approval at the time of brief submission, flag the campaign as 'trafficking conditional on MLR approval' and specify the protocol if approval is delayed past the launch date (hold media or launch with a pre-approved evergreen asset). Never traffic unapproved healthcare display creative — this is the single most critical compliance requirement.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "HIPAA Targeting Constraint Declaration",
-            "description": "Explicitly declare the approved audience targeting methodologies for this campaign. Check each approved approach: (1) Contextual targeting \u2014 ads placed on content pages about the condition/treatment category without user-level health condition data; (2) General health intent behavioral segments without condition-specific labels; (3) Demographic/geographic targeting only (no health behavior data); (4) NPI-matched HCP professional targeting (HCP campaigns only). Explicitly prohibit any audience segments built from identified health condition data, diagnosis-code-based targeting, or patient-identifiable information that could constitute HIPAA protected health information.",
+            "description": "Explicitly declare the approved audience targeting methodologies for this campaign. Check each approved approach: (1) Contextual targeting — ads placed on content pages about the condition/treatment category without user-level health condition data; (2) General health intent behavioral segments without condition-specific labels; (3) Demographic/geographic targeting only (no health behavior data); (4) NPI-matched HCP professional targeting (HCP campaigns only). Explicitly prohibit any audience segments built from identified health condition data, diagnosis-code-based targeting, or patient-identifiable information that could constitute HIPAA protected health information.",
             "difficulty": "advanced",
             "priority": "critical"
           }
@@ -54,13 +55,13 @@
         "items": [
           {
             "title": "Target NPI list specifications: specialty, prescribing volume decile, and geography",
-            "description": "For HCP campaigns, attach the NPI target list (CSV format with NPI numbers) segmented by: specialty (e.g., oncologists, cardiologists, general practitioners), prescribing volume decile per IQVIA data (D8\u2013D10 high-volume as primary tier, D5\u2013D7 moderate-volume as secondary), and geographic concentration (top 20 DMAs by prescribing volume). Specify the universe size per tier: most rare disease campaigns have fewer than 15,000 total target NPIs, while primary care campaigns may target 500,000+ NPIs. Universe size determines which healthcare DSP platforms have sufficient NPI matching coverage.",
+            "description": "For HCP campaigns, attach the NPI target list (CSV format with NPI numbers) segmented by: specialty (e.g., oncologists, cardiologists, general practitioners), prescribing volume decile per IQVIA data (D8–D10 high-volume as primary tier, D5–D7 moderate-volume as secondary), and geographic concentration (top 20 DMAs by prescribing volume). Specify the universe size per tier: most rare disease campaigns have fewer than 15,000 total target NPIs, while primary care campaigns may target 500,000+ NPIs. Universe size determines which healthcare DSP platforms have sufficient NPI matching coverage.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "HCP DSP platform selection: DeepIntent, Doceree, PulsePoint, or OptimizeRx",
-            "description": "Specify the healthcare-specific DSP for HCP programmatic display. DeepIntent: best NPI matching rate for specialty physicians, integrated with IQVIA data for script lift measurement \u2014 recommended for targeted specialty drugs. Doceree: strong HCP network in primary care and multi-specialty; strong for high-volume HCP campaigns. PulsePoint: premium health publisher network including WebMD, Healthgrades, Medscape \u2014 best for brand safety and editorial adjacency. OptimizeRx: point-of-care EHR delivery \u2014 recommended for rare disease campaigns where NPI target list is under 10,000 physicians. Document DSP selection rationale in the brief.",
+            "description": "Specify the healthcare-specific DSP for HCP programmatic display. DeepIntent: best NPI matching rate for specialty physicians, integrated with IQVIA data for script lift measurement — recommended for targeted specialty drugs. Doceree: strong HCP network in primary care and multi-specialty; strong for high-volume HCP campaigns. PulsePoint: premium health publisher network including WebMD, Healthgrades, Medscape — best for brand safety and editorial adjacency. OptimizeRx: point-of-care EHR delivery — recommended for rare disease campaigns where NPI target list is under 10,000 physicians. Document DSP selection rationale in the brief.",
             "difficulty": "advanced",
             "priority": "critical"
           },
@@ -72,7 +73,7 @@
           },
           {
             "title": "Script lift measurement integration: IQVIA NRx data feed and holdout study design",
-            "description": "Specify the HCP campaign measurement approach: name the HCP holdout group design (what percentage of target NPIs will be withheld from exposure as control group \u2014 recommend 20\u201330% for valid lift calculation), the script lift measurement vendor (IQVIA, Symphony Health), the NRx data feed refresh frequency (typically weekly), and the attribution window for measuring lift (recommend 8\u201312 weeks post-campaign launch). Document the minimum NRx sample size required for statistical significance given your NPI target list size \u2014 rare disease campaigns with fewer than 5,000 prescribers require 16\u201320 weeks of data to achieve significance.",
+            "description": "Specify the HCP campaign measurement approach: name the HCP holdout group design (what percentage of target NPIs will be withheld from exposure as control group — recommend 20–30% for valid lift calculation), the script lift measurement vendor (IQVIA, Symphony Health), the NRx data feed refresh frequency (typically weekly), and the attribution window for measuring lift (recommend 8–12 weeks post-campaign launch). Document the minimum NRx sample size required for statistical significance given your NPI target list size — rare disease campaigns with fewer than 5,000 prescribers require 16–20 weeks of data to achieve significance.",
             "difficulty": "advanced",
             "priority": "critical"
           }
@@ -83,13 +84,13 @@
         "items": [
           {
             "title": "Patient/caregiver audience definition using compliant targeting signals only",
-            "description": "For DTC patient targeting, list approved audience sources in order of compliance certainty: (1) highest compliance \u2014 contextual targeting on condition/symptom content pages via IAS, DV, or Peer39 contextual engine (no user data); (2) general health information seekers (non-condition-specific behavioral segments from publisher first-party data); (3) demographic and geographic targeting reflecting the condition's epidemiology (age, gender, geography); (4) site retargeting from users who visited your branded drug website (permissible as they voluntarily disclosed interest). Explicitly exclude: third-party audience segments using diagnosis codes, condition-specific medical data, or any data derived from EHR/pharmacy records.",
+            "description": "For DTC patient targeting, list approved audience sources in order of compliance certainty: (1) highest compliance — contextual targeting on condition/symptom content pages via IAS, DV, or Peer39 contextual engine (no user data); (2) general health information seekers (non-condition-specific behavioral segments from publisher first-party data); (3) demographic and geographic targeting reflecting the condition's epidemiology (age, gender, geography); (4) site retargeting from users who visited your branded drug website (permissible as they voluntarily disclosed interest). Explicitly exclude: third-party audience segments using diagnosis codes, condition-specific medical data, or any data derived from EHR/pharmacy records.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "DTC publisher environment specification: premium health publisher PMPs vs. open auction",
-            "description": "Specify the publisher strategy: list the approved health publisher PMP deals (Everyday Health, WebMD, Health Union communities, Mayo Clinic Health System content, hospital system patient portals) at negotiated CPMs of $6\u2013$15. Specify what percentage of budget should run through approved PMPs (recommended minimum: 60\u201370% for brand-safe Rx DTC) vs. open auction (maximum 30\u201340% for reach extension). List any publisher exclusion categories: news, political, adult content, non-healthcare programmatic open exchange \u2014 standard brand safety controls insufficient for pharmaceutical advertising; require healthcare-specific blocklists.",
+            "description": "Specify the publisher strategy: list the approved health publisher PMP deals (Everyday Health, WebMD, Health Union communities, Mayo Clinic Health System content, hospital system patient portals) at negotiated CPMs of $6–$15. Specify what percentage of budget should run through approved PMPs (recommended minimum: 60–70% for brand-safe Rx DTC) vs. open auction (maximum 30–40% for reach extension). List any publisher exclusion categories: news, political, adult content, non-healthcare programmatic open exchange — standard brand safety controls insufficient for pharmaceutical advertising; require healthcare-specific blocklists.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -106,7 +107,7 @@
         "items": [
           {
             "title": "MLR-approved creative asset inventory with approval expiration dates",
-            "description": "Attach a complete asset manifest listing every approved creative unit with: creative name/ID, format dimensions, animation length (if applicable), MLR approval reference number, approval date, and expiration date. Healthcare display creative MLR approvals typically expire after 12\u201324 months or when clinical data is updated. Build automated alerts 60 days before expiration to initiate re-review before assets are pulled from live campaigns. Never serve creative past its MLR expiration date \u2014 expired assets constitute unapproved pharmaceutical promotion regardless of media placement.",
+            "description": "Attach a complete asset manifest listing every approved creative unit with: creative name/ID, format dimensions, animation length (if applicable), MLR approval reference number, approval date, and expiration date. Healthcare display creative MLR approvals typically expire after 12–24 months or when clinical data is updated. Build automated alerts 60 days before expiration to initiate re-review before assets are pulled from live campaigns. Never serve creative past its MLR expiration date — expired assets constitute unapproved pharmaceutical promotion regardless of media placement.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -123,13 +124,13 @@
         "items": [
           {
             "title": "Budget allocation between HCP and DTC campaigns with regulatory segregation",
-            "description": "If the brief covers both HCP and DTC programmatic, specify budget allocation as separate line items in the media plan: HCP programmatic (DSP platform, publisher, creative separately from DTC) and DTC programmatic (DSP platform, publisher, creative separately from HCP). Regulatory and legal teams require this segregation for compliance reporting \u2014 HCP and DTC promotional spend must be tracked independently for OPDP audit readiness and internal brand compliance reporting. A shared DSP campaign with mixed HCP and DTC audiences is a compliance risk.",
+            "description": "If the brief covers both HCP and DTC programmatic, specify budget allocation as separate line items in the media plan: HCP programmatic (DSP platform, publisher, creative separately from DTC) and DTC programmatic (DSP platform, publisher, creative separately from HCP). Regulatory and legal teams require this segregation for compliance reporting — HCP and DTC promotional spend must be tracked independently for OPDP audit readiness and internal brand compliance reporting. A shared DSP campaign with mixed HCP and DTC audiences is a compliance risk.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Primary and secondary KPI hierarchy with regulatory-defensible benchmarks",
-            "description": "Specify primary KPIs by campaign type: HCP primary = NRx lift % above holdout control; DTC primary = copay card activation rate (target: 0.05\u20130.15% of served impressions). Secondary KPIs: HCP \u2014 e-detail completion rate (target: 0.3\u20130.8%), HCP reach % of target NPI list (target: 60\u201375%), detail ad CTR (target: 0.08\u20130.25%); DTC \u2014 disease site CTR (0.06\u20130.20%), patient support program enrollment rate (0.02\u20130.05%), branded search lift (5\u201315% in campaign DMAs vs. control). Document all benchmarks in the brief so post-campaign attribution is evaluated against pre-agreed standards.",
+            "description": "Specify primary KPIs by campaign type: HCP primary = NRx lift % above holdout control; DTC primary = copay card activation rate (target: 0.05–0.15% of served impressions). Secondary KPIs: HCP — e-detail completion rate (target: 0.3–0.8%), HCP reach % of target NPI list (target: 60–75%), detail ad CTR (target: 0.08–0.25%); DTC — disease site CTR (0.06–0.20%), patient support program enrollment rate (0.02–0.05%), branded search lift (5–15% in campaign DMAs vs. control). Document all benchmarks in the brief so post-campaign attribution is evaluated against pre-agreed standards.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -138,10 +139,10 @@
     ],
     "pro_tips": [
       "Build a 'compliance pre-flight checklist' section into every healthcare programmatic brief that requires sign-off from both the media planner and the brand's compliance officer before any buy is executed. The checklist should verify: (1) all creative has active MLR approval, (2) all audience segments are from the brief-approved compliant list, (3) all landing pages have active MLR approval, (4) NPI suppression lists (retired/inactive physicians) are loaded, (5) HIPAA-prohibited targeting signals are blocked at DSP level. This pre-flight sign-off prevents 90%+ of compliance incidents in healthcare programmatic display.",
-      "For rare disease HCP campaigns with NPI target lists under 5,000 physicians, add an 'EHR point-of-care supplement' section to the brief specifying OptimizeRx or Allscripts EHR platform integration. Point-of-care display within EHR systems (at the moment of prescribing) can achieve NPI coverage rates of 65\u201380% for target specialties \u2014 far exceeding the 25\u201340% NPI reach typical of open-web programmatic campaigns for rare disease indications where physician universe is very small.",
+      "For rare disease HCP campaigns with NPI target lists under 5,000 physicians, add an 'EHR point-of-care supplement' section to the brief specifying OptimizeRx or Allscripts EHR platform integration. Point-of-care display within EHR systems (at the moment of prescribing) can achieve NPI coverage rates of 65–80% for target specialties — far exceeding the 25–40% NPI reach typical of open-web programmatic campaigns for rare disease indications where physician universe is very small.",
       "Include a 'competitive brand activity monitoring' requirement in the brief: specify that the HCP DSP should run a Magellan AI or similar competitive intelligence scan monthly to identify competitor programmatic HCP campaigns that have recently increased spending against the same NPI universe. If a competitor launches a new indication or doses a targeted therapy for the same condition, early competitive intelligence allows brief amendments to defensive messaging and counter-programming before the competitor gains mindshare with your target prescribers.",
-      "For DTC campaigns running during condition awareness months (e.g., October for Breast Cancer Awareness, February for Heart Health Month), include a 'contextual awareness month expansion' budget allocation in the brief \u2014 a 30\u201350% spend increase during the awareness month window when patient-facing health content publication peaks on publisher sites. These awareness month windows offer 20\u201340% higher contextual targeting supply and typically lower CPMs as non-pharma health advertisers compete for the same inventory, creating a CPM efficiency opportunity for pharmaceutical brands who plan the surge in advance.",
-      "Always include a 'post-campaign MLR debrief' deliverable in the brief: a summary report documenting all creative assets served, impression counts by asset, any assets paused mid-campaign and reason for pause, and landing page compliance status throughout the flight. This debrief document is required for OPDP audit readiness and for internal brand compliance records. The media agency should be contractually obligated to deliver this report within 30 days of campaign end \u2014 it is frequently forgotten in standard media agency deliverable lists."
+      "For DTC campaigns running during condition awareness months (e.g., October for Breast Cancer Awareness, February for Heart Health Month), include a 'contextual awareness month expansion' budget allocation in the brief — a 30–50% spend increase during the awareness month window when patient-facing health content publication peaks on publisher sites. These awareness month windows offer 20–40% higher contextual targeting supply and typically lower CPMs as non-pharma health advertisers compete for the same inventory, creating a CPM efficiency opportunity for pharmaceutical brands who plan the surge in advance.",
+      "Always include a 'post-campaign MLR debrief' deliverable in the brief: a summary report documenting all creative assets served, impression counts by asset, any assets paused mid-campaign and reason for pause, and landing page compliance status throughout the flight. This debrief document is required for OPDP audit readiness and for internal brand compliance records. The media agency should be contractually obligated to deliver this report within 30 days of campaign end — it is frequently forgotten in standard media agency deliverable lists."
     ],
     "related_tools": [
       {

@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Retail Media Networks Media Planning Checklist for CPG / FMCG Brands",
-    "description": "Retail media planning checklist for CPG brands \u2014 covering Amazon, Walmart Connect, Kroger, Instacart, and Target Roundel strategy, incrementality testing, new-to-brand metrics, and cross-RMN budget allocation.",
+    "description": "Retail media planning checklist for CPG brands — covering Amazon, Walmart Connect, Kroger, Instacart, and Target Roundel strategy, incrementality testing, new-to-brand metrics, and cross-RMN budget allocation.",
     "keywords": [
       "CPG retail media checklist",
       "Amazon Ads CPG planning",
@@ -17,23 +17,24 @@
       "RMN incrementality CPG",
       "CPG retail media budget allocation"
     ],
-    "slug": "checklist/retail-media-cpg"
+    "slug": "checklist/retail-media-cpg",
+    "noindex": true
   },
   "content": {
-    "intro": "Retail media has become structurally unavoidable for CPG brands: more than 80% of consumer packaged goods consideration decisions now happen on digital retail surfaces, and the retailers controlling those surfaces are charging brands for placement with the leverage of shelf access as implicit collateral. Amazon alone represents 75\u201380% of US retail media spend, but a single-RMN strategy is leaving significant incremental volume on the table at Walmart, Kroger, Instacart, and Target, where category competition is lower and CPCs are meaningfully cheaper. The real planning challenge for 2026 isn't whether to invest in retail media \u2014 it's how to allocate across 30+ RMN platforms with wildly different metrics, UIs, and attribution windows without losing your mind or your budget.",
+    "intro": "Retail media has become structurally unavoidable for CPG brands: more than 80% of consumer packaged goods consideration decisions now happen on digital retail surfaces, and the retailers controlling those surfaces are charging brands for placement with the leverage of shelf access as implicit collateral. Amazon alone represents 75–80% of US retail media spend, but a single-RMN strategy is leaving significant incremental volume on the table at Walmart, Kroger, Instacart, and Target, where category competition is lower and CPCs are meaningfully cheaper. The real planning challenge for 2026 isn't whether to invest in retail media — it's how to allocate across 30+ RMN platforms with wildly different metrics, UIs, and attribution windows without losing your mind or your budget.",
     "sections": [
       {
         "heading": "RMN Portfolio Strategy & Budget Allocation",
         "items": [
           {
             "title": "Conduct a retailer-level category shopper index before allocating across RMNs",
-            "description": "Your category's shopper base is not evenly distributed across retailers. Use IRI/Circana or Nielsen POS data, combined with each retailer's sales velocity for your category, to build a retailer index that guides budget allocation. A beverage brand may find that 40% of its volume flows through Walmart \u2014 that retailer should command 40% of retail media investment as the starting allocation before optimization adjustments.",
+            "description": "Your category's shopper base is not evenly distributed across retailers. Use IRI/Circana or Nielsen POS data, combined with each retailer's sales velocity for your category, to build a retailer index that guides budget allocation. A beverage brand may find that 40% of its volume flows through Walmart — that retailer should command 40% of retail media investment as the starting allocation before optimization adjustments.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Separate brand-funded media budgets from trade/shopper marketing budgets before platform activation",
-            "description": "RMN investment is increasingly funded from two separate budget pools \u2014 brand media (from marketing) and trade/shopper marketing (from sales). On-site sponsored search is often classified as trade while off-site DSP/programmatic is classified as brand media. Agree on the funding source and P&L ownership for each RMN product type before campaign activation, or you'll face retroactive budget conflicts with the sales organization.",
+            "description": "RMN investment is increasingly funded from two separate budget pools — brand media (from marketing) and trade/shopper marketing (from sales). On-site sponsored search is often classified as trade while off-site DSP/programmatic is classified as brand media. Agree on the funding source and P&L ownership for each RMN product type before campaign activation, or you'll face retroactive budget conflicts with the sales organization.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -45,13 +46,13 @@
           },
           {
             "title": "Set minimum investment thresholds per RMN to achieve platform-level learning",
-            "description": "Most RMN algorithms require a minimum volume of clicks and purchases to optimize effectively. Amazon Sponsored Products needs 30+ purchases/month per campaign to exit learning phase. Spreading $200K across 12 different RMN platforms in small increments produces underperforming campaigns on every platform. Concentrate budget on 3\u20135 priority RMNs where minimum effective investment can be met, and expand as budgets scale.",
+            "description": "Most RMN algorithms require a minimum volume of clicks and purchases to optimize effectively. Amazon Sponsored Products needs 30+ purchases/month per campaign to exit learning phase. Spreading $200K across 12 different RMN platforms in small increments produces underperforming campaigns on every platform. Concentrate budget on 3–5 priority RMNs where minimum effective investment can be met, and expand as budgets scale.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Negotiate joint business plan alignment between RMN spend and shelf commitments",
-            "description": "For category-leading CPG brands, retail media investment is increasingly linked to joint business plan commitments with retailers \u2014 media spend that supports a retailer's sales goals can influence shelf space allocation, end-cap access, and promotional feature frequency. Involve the category management and sales teams in RMN budget planning discussions; media and trade are no longer separate conversations.",
+            "description": "For category-leading CPG brands, retail media investment is increasingly linked to joint business plan commitments with retailers — media spend that supports a retailer's sales goals can influence shelf space allocation, end-cap access, and promotional feature frequency. Involve the category management and sales teams in RMN budget planning discussions; media and trade are no longer separate conversations.",
             "difficulty": "advanced",
             "priority": "important"
           },
@@ -68,7 +69,7 @@
         "items": [
           {
             "title": "Activate Instacart Ads for CPG categories where delivery is a significant purchase channel",
-            "description": "For beverages, snacks, personal care, and household staples, Instacart represents a high-intent purchase environment where the shopper is in active cart-building mode. Instacart Ads CPCs are typically $0.35\u2013$0.95 \u2014 materially lower than Amazon ($1.21 average) for comparable intent levels. Instacart's Carrot Ads also allow off-site programmatic targeting using Instacart's first-party shopper data.",
+            "description": "For beverages, snacks, personal care, and household staples, Instacart represents a high-intent purchase environment where the shopper is in active cart-building mode. Instacart Ads CPCs are typically $0.35–$0.95 — materially lower than Amazon ($1.21 average) for comparable intent levels. Instacart's Carrot Ads also allow off-site programmatic targeting using Instacart's first-party shopper data.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -80,13 +81,13 @@
           },
           {
             "title": "Layer Sponsored Brands with Store Page to build category authority",
-            "description": "Sponsored Brand campaigns (banner ads at the top of search results featuring your brand logo, headline, and 3 ASINs) direct to an Amazon Brand Store. The Store provides a brand-owned retail environment within Amazon where you control the product range, content, and cross-sell logic. Brands with active Brand Store campaigns typically see 10\u201315% higher conversion rates from Sponsored Brand traffic vs. ASIN-direct landing.",
+            "description": "Sponsored Brand campaigns (banner ads at the top of search results featuring your brand logo, headline, and 3 ASINs) direct to an Amazon Brand Store. The Store provides a brand-owned retail environment within Amazon where you control the product range, content, and cross-sell logic. Brands with active Brand Store campaigns typically see 10–15% higher conversion rates from Sponsored Brand traffic vs. ASIN-direct landing.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Optimize for new-to-brand purchases, not just ROAS, to drive category growth",
-            "description": "Amazon reports 'new-to-brand' purchase percentage at the campaign level \u2014 the proportion of purchases from customers who haven't bought your brand on Amazon in the past 12 months. ROAS-optimized campaigns tend to over-index on repeat buyers (higher ROAS, zero incrementality). Establish separate campaign objectives: defend ROAS target on existing buyer keywords; accept lower ROAS on category expansion keywords to optimize for new-to-brand acquisition.",
+            "description": "Amazon reports 'new-to-brand' purchase percentage at the campaign level — the proportion of purchases from customers who haven't bought your brand on Amazon in the past 12 months. ROAS-optimized campaigns tend to over-index on repeat buyers (higher ROAS, zero incrementality). Establish separate campaign objectives: defend ROAS target on existing buyer keywords; accept lower ROAS on category expansion keywords to optimize for new-to-brand acquisition.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -98,7 +99,7 @@
           },
           {
             "title": "Structure Amazon Ads campaigns by product tier (hero SKUs vs. tail) with separate budgets",
-            "description": "CPG brands on Amazon commonly have hero SKUs (top-selling sizes and flavors) and tail SKUs (variety flavors, seasonal items, multipack variants). Budget and bid optimization should prioritize hero SKUs \u2014 these generate the highest review volume, organic rank signals, and conversion rates. Tail SKUs often require lower CPCs and more patient ROAS targets to drive new-to-brand trial.",
+            "description": "CPG brands on Amazon commonly have hero SKUs (top-selling sizes and flavors) and tail SKUs (variety flavors, seasonal items, multipack variants). Budget and bid optimization should prioritize hero SKUs — these generate the highest review volume, organic rank signals, and conversion rates. Tail SKUs often require lower CPCs and more patient ROAS targets to drive new-to-brand trial.",
             "difficulty": "intermediate",
             "priority": "important"
           }
@@ -109,25 +110,25 @@
         "items": [
           {
             "title": "Run at minimum one geo-holdout incrementality test per year on your largest RMN",
-            "description": "Amazon and Kroger both offer holdout test frameworks where a matched audience group is excluded from ad exposure and compared against the exposed group on purchase behavior. Without holdout testing, ROAS figures are systematically inflated by baseline purchasers (shoppers who would have bought without seeing the ad). Most CPG brands discover that their 'true' incremental ROAS is 30\u201350% lower than the platform-reported ROAS \u2014 and then right-size budgets accordingly.",
+            "description": "Amazon and Kroger both offer holdout test frameworks where a matched audience group is excluded from ad exposure and compared against the exposed group on purchase behavior. Without holdout testing, ROAS figures are systematically inflated by baseline purchasers (shoppers who would have bought without seeing the ad). Most CPG brands discover that their 'true' incremental ROAS is 30–50% lower than the platform-reported ROAS — and then right-size budgets accordingly.",
             "difficulty": "advanced",
             "priority": "critical"
           },
           {
             "title": "Integrate RMN performance data into the brand's media mix model",
-            "description": "Retail media's closed-loop attribution is structurally incompatible with most legacy media mix models (MMM) built around TV and digital display. Ensure your MMM provider has a specific retail media input variable \u2014 not just 'digital display' \u2014 with RMN data fed at the DMA or retailer level. RMNs that are absent from the MMM appear to have zero brand contribution, systematically undervaluing their role in the media mix.",
+            "description": "Retail media's closed-loop attribution is structurally incompatible with most legacy media mix models (MMM) built around TV and digital display. Ensure your MMM provider has a specific retail media input variable — not just 'digital display' — with RMN data fed at the DMA or retailer level. RMNs that are absent from the MMM appear to have zero brand contribution, systematically undervaluing their role in the media mix.",
             "difficulty": "advanced",
             "priority": "important"
           },
           {
             "title": "Track share of voice in sponsored search by category, not just ROAS",
-            "description": "Share of sponsored search voice (SOV) \u2014 the percentage of total category keyword impressions your brand captures on Amazon, Walmart, and Instacart \u2014 is a leading indicator of shelf health in the digital retail environment. A brand with 30% category SOV losing it to a challenger at 45% SOV is facing a structural distribution problem, not just a ROAS problem. Pull SOV reports quarterly from Amazon Brand Analytics.",
+            "description": "Share of sponsored search voice (SOV) — the percentage of total category keyword impressions your brand captures on Amazon, Walmart, and Instacart — is a leading indicator of shelf health in the digital retail environment. A brand with 30% category SOV losing it to a challenger at 45% SOV is facing a structural distribution problem, not just a ROAS problem. Pull SOV reports quarterly from Amazon Brand Analytics.",
             "difficulty": "intermediate",
             "priority": "important"
           },
           {
             "title": "Separate promotional period performance from baseline in RMN reporting",
-            "description": "ROAS spikes during promotional periods (price reductions, coupons, primary sell) are not evidence of media effectiveness \u2014 they reflect price elasticity, not advertising impact. Normalize RMN reporting to exclude weeks with active price promotions when assessing media efficiency. This requires coordinating with the sales and trade marketing team to maintain a promotional calendar that flags promotion dates in campaign reports.",
+            "description": "ROAS spikes during promotional periods (price reductions, coupons, primary sell) are not evidence of media effectiveness — they reflect price elasticity, not advertising impact. Normalize RMN reporting to exclude weeks with active price promotions when assessing media efficiency. This requires coordinating with the sales and trade marketing team to maintain a promotional calendar that flags promotion dates in campaign reports.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -139,7 +140,7 @@
           },
           {
             "title": "Build defensive price/value messaging into RMN creative for private label-threatened categories",
-            "description": "Categories where private label has captured 25\u201330%+ share require proactive 'brand vs. private label' value justification in sponsored ad copy. Creative that calls out formulation differentiation, sustainability credentials, or taste test data performs better in these categories than generic brand-name awareness creative. Amazon A+ Content pages are the ideal surface for this comparative brand story.",
+            "description": "Categories where private label has captured 25–30%+ share require proactive 'brand vs. private label' value justification in sponsored ad copy. Creative that calls out formulation differentiation, sustainability credentials, or taste test data performs better in these categories than generic brand-name awareness creative. Amazon A+ Content pages are the ideal surface for this comparative brand story.",
             "difficulty": "intermediate",
             "priority": "important"
           },
@@ -159,9 +160,9 @@
       }
     ],
     "pro_tips": [
-      "Set up Amazon's 'Day-Parting' bid adjustment feature to reduce bids during the 2\u20135am window when click-through rates are lowest and conversion rates are weakest for most CPG categories. The budget saved can be reallocated to evenings (8\u201311pm) and Saturday mornings when add-to-cart intent is highest. This alone can improve effective ROAS by 8\u201315% on high-volume campaigns with no other changes.",
-      "When a competitor's top-selling ASIN suddenly goes out of stock on Amazon (visible in their organic rank data and Buy Box availability), increase your Sponsored Products bids on competing category keywords within 24 hours. Out-of-stock windows are 48\u201372 hour opportunities where category shoppers are actively switching \u2014 your highest ROAS window of the quarter may come from a competitor's supply chain problem.",
-      "Negotiate 'first-look' programmatic deals with Kroger Precision Marketing's off-site programmatic product for grocery categories where you have strong Kroger distribution. KPM's off-site program uses Kroger loyalty card purchase data to target category buyers across the open web and CTV \u2014 and because it's still less saturated than Amazon DSP, CPMs for equivalent audience quality run 20\u201335% lower.",
+      "Set up Amazon's 'Day-Parting' bid adjustment feature to reduce bids during the 2–5am window when click-through rates are lowest and conversion rates are weakest for most CPG categories. The budget saved can be reallocated to evenings (8–11pm) and Saturday mornings when add-to-cart intent is highest. This alone can improve effective ROAS by 8–15% on high-volume campaigns with no other changes.",
+      "When a competitor's top-selling ASIN suddenly goes out of stock on Amazon (visible in their organic rank data and Buy Box availability), increase your Sponsored Products bids on competing category keywords within 24 hours. Out-of-stock windows are 48–72 hour opportunities where category shoppers are actively switching — your highest ROAS window of the quarter may come from a competitor's supply chain problem.",
+      "Negotiate 'first-look' programmatic deals with Kroger Precision Marketing's off-site programmatic product for grocery categories where you have strong Kroger distribution. KPM's off-site program uses Kroger loyalty card purchase data to target category buyers across the open web and CTV — and because it's still less saturated than Amazon DSP, CPMs for equivalent audience quality run 20–35% lower.",
       "For seasonal CPG launches (limited editions, holiday packaging), activate Amazon's Virtual Bundles feature to create bundle ASINs that pair your limited edition SKU with a core hero SKU. Bundle ASINs are less conquered than standalone SKUs, carry higher AOV, and the Sponsored Products bidding on bundles is typically less competitive. This is a structural share-of-search advantage for seasonal items.",
       "Cross-reference your Amazon Advertising data with Amazon's Market Basket analysis (available in Brand Analytics) to identify which complementary products are most frequently purchased alongside your brand. Use this to build Category Sponsorship campaigns on those complementary product pages. If your hot sauce is frequently paired with tortilla chips, buying placement on top tortilla chip ASINs often delivers better new-to-brand CPA than buying general 'hot sauce' category keywords."
     ],
@@ -201,7 +202,7 @@
       },
       {
         "slug": "checklist/paid-social-meta-cpg",
-        "title": "Paid Social \u2014 Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
+        "title": "Paid Social — Meta (Facebook / Instagram) Media Planning Checklist for CPG / FMCG Brands",
         "type": "Checklist"
       }
     ]

@@ -6,7 +6,7 @@
   },
   "seo": {
     "title": "Media Brief Template for Financial Services Paid Search Campaigns",
-    "description": "A complete media brief template for financial services paid search \u2014 covering compliance disclosures, Special Ad Category restrictions, CPL targets, and pipeline attribution.",
+    "description": "A complete media brief template for financial services paid search — covering compliance disclosures, Special Ad Category restrictions, CPL targets, and pipeline attribution.",
     "keywords": [
       "financial services paid search brief template",
       "fintech SEM campaign brief",
@@ -15,29 +15,30 @@
       "insurance SEM brief",
       "financial services Google Ads template"
     ],
-    "slug": "template/paid-search-financial-services"
+    "slug": "template/paid-search-financial-services",
+    "noindex": true
   },
   "content": {
-    "intro": "Financial services paid search operates at the intersection of extreme CPL economics \u2014 $50\u2013$100+ CPCs for mortgage and insurance terms \u2014 and regulatory constraints that require every ad unit to include accurate, legally compliant disclosures for APR, rates, and terms. Google's Special Ad Category (credit, housing, employment) restricts demographic targeting for mortgage and housing-related keywords, eliminating the age and ZIP code targeting that most financial advertisers consider essential for acquisition efficiency. This brief template captures every planning variable required to launch a compliant, high-performing financial services paid search campaign \u2014 from keyword tier architecture to pipeline attribution setup.",
+    "intro": "Financial services paid search operates at the intersection of extreme CPL economics — $50–$100+ CPCs for mortgage and insurance terms — and regulatory constraints that require every ad unit to include accurate, legally compliant disclosures for APR, rates, and terms. Google's Special Ad Category (credit, housing, employment) restricts demographic targeting for mortgage and housing-related keywords, eliminating the age and ZIP code targeting that most financial advertisers consider essential for acquisition efficiency. This brief template captures every planning variable required to launch a compliant, high-performing financial services paid search campaign — from keyword tier architecture to pipeline attribution setup.",
     "sections": [
       {
         "heading": "Campaign Classification and Compliance Parameters",
         "items": [
           {
             "title": "Financial product category and regulatory classification",
-            "description": "Specify the product being advertised and its regulatory category: mortgage/home lending (TILA/Regulation Z, RESPA, Fair Housing Act \u2014 triggers Google Special Ad Category: Housing), consumer credit (ECOA, TILA \u2014 triggers Google Special Ad Category: Credit), insurance products (state-regulated, varies by state; TCPA consent required for leads), investment/wealth management (SEC/FINRA oversight), retail banking deposits/accounts (FDIC advertising signage rules), or fintech/digital banking (state money transmitter regulation). Product category determines which disclosure requirements apply and whether Google Special Ad Category restrictions will limit targeting.",
+            "description": "Specify the product being advertised and its regulatory category: mortgage/home lending (TILA/Regulation Z, RESPA, Fair Housing Act — triggers Google Special Ad Category: Housing), consumer credit (ECOA, TILA — triggers Google Special Ad Category: Credit), insurance products (state-regulated, varies by state; TCPA consent required for leads), investment/wealth management (SEC/FINRA oversight), retail banking deposits/accounts (FDIC advertising signage rules), or fintech/digital banking (state money transmitter regulation). Product category determines which disclosure requirements apply and whether Google Special Ad Category restrictions will limit targeting.",
             "difficulty": "beginner",
             "priority": "critical"
           },
           {
             "title": "Google Special Ad Category declaration and targeting restriction acknowledgment",
-            "description": "For mortgage, consumer credit, auto loans, personal loans, and housing-related financial products, explicitly declare that the campaign will be set up under Google's Special Ad Category \u2014 which restricts targeting by age (18+ only, no upper age limit targeting), gender (all genders), marital status, parental status, and ZIP code (ZIP targeting restricted for housing ads). These restrictions cannot be bypassed and must be reflected in the audience strategy section of this brief. Any campaign that attempts to use restricted targeting for Special Ad Category products will be disapproved by Google.",
+            "description": "For mortgage, consumer credit, auto loans, personal loans, and housing-related financial products, explicitly declare that the campaign will be set up under Google's Special Ad Category — which restricts targeting by age (18+ only, no upper age limit targeting), gender (all genders), marital status, parental status, and ZIP code (ZIP targeting restricted for housing ads). These restrictions cannot be bypassed and must be reflected in the audience strategy section of this brief. Any campaign that attempts to use restricted targeting for Special Ad Category products will be disapproved by Google.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Required ad copy disclosures by product type",
-            "description": "Specify which regulatory disclosures must appear in ad copy or on the linked landing page: mortgage ads (APR disclosure required per Regulation Z if any rate or payment is mentioned \u2014 'Representative APR 6.75%' format); personal loan ads (APR range, representative example \u2014 '9.99%\u201335.99% APR based on creditworthiness'); insurance ads (state-specific eligibility disclaimers); investment products ('Past performance does not guarantee future results' required by FINRA). Attach the compliance team's approved disclosure language for each ad type. Ad copy cannot be finalized without compliance sign-off on disclosure adequacy.",
+            "description": "Specify which regulatory disclosures must appear in ad copy or on the linked landing page: mortgage ads (APR disclosure required per Regulation Z if any rate or payment is mentioned — 'Representative APR 6.75%' format); personal loan ads (APR range, representative example — '9.99%–35.99% APR based on creditworthiness'); insurance ads (state-specific eligibility disclaimers); investment products ('Past performance does not guarantee future results' required by FINRA). Attach the compliance team's approved disclosure language for each ad type. Ad copy cannot be finalized without compliance sign-off on disclosure adequacy.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -54,19 +55,19 @@
         "items": [
           {
             "title": "Keyword tier hierarchy: branded defense, competitor conquest, category non-brand, and long-tail specific",
-            "description": "Document the keyword campaign architecture across four tiers: (1) Branded defense \u2014 brand name, product names, brand + product combinations (exact match, 90%+ impression share target, never pause); (2) Competitor conquest \u2014 '[competitor name] rates,' '[competitor name] mortgage,' '[competitor name] alternatives' (phrase and exact match, 50\u201375% impression share target); (3) Category non-brand \u2014 '[product type] rates,' 'best [product],' 'compare [product]' (phrase match, bid to target CPA); (4) Long-tail specific \u2014 specific rate queries, location-based, product-specific configuration queries (exact match, high intent, lower volume). Each tier requires separate campaign with distinct bidding and creative.",
+            "description": "Document the keyword campaign architecture across four tiers: (1) Branded defense — brand name, product names, brand + product combinations (exact match, 90%+ impression share target, never pause); (2) Competitor conquest — '[competitor name] rates,' '[competitor name] mortgage,' '[competitor name] alternatives' (phrase and exact match, 50–75% impression share target); (3) Category non-brand — '[product type] rates,' 'best [product],' 'compare [product]' (phrase match, bid to target CPA); (4) Long-tail specific — specific rate queries, location-based, product-specific configuration queries (exact match, high intent, lower volume). Each tier requires separate campaign with distinct bidding and creative.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Negative keyword list from compliance and sales team review",
-            "description": "Attach the initial negative keyword list covering: legally ambiguous terms that could imply guaranteed outcomes or rates not currently offered; terms that attract non-qualifying audiences (students for retirement products; renters for home equity products); competitor brand terms excluded from the campaign tier (unless running conquest campaigns); and terms flagged by sales as consistently generating unqualifiable leads in past campaigns. Financial services companies that maintain compliance-reviewed negative keyword lists achieve 20\u201335% lower wasted click rates vs. companies relying on automated bid management alone.",
+            "description": "Attach the initial negative keyword list covering: legally ambiguous terms that could imply guaranteed outcomes or rates not currently offered; terms that attract non-qualifying audiences (students for retirement products; renters for home equity products); competitor brand terms excluded from the campaign tier (unless running conquest campaigns); and terms flagged by sales as consistently generating unqualifiable leads in past campaigns. Financial services companies that maintain compliance-reviewed negative keyword lists achieve 20–35% lower wasted click rates vs. companies relying on automated bid management alone.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Geographic targeting strategy with state-level regulatory carve-outs",
-            "description": "Specify geographic targeting including any states where the financial product is not licensed, rate caps apply that affect competitiveness, or specific state consumer protection laws require additional disclosure in ad copy. Common carve-outs: Colorado, New York, New Jersey often require additional APR disclosure in mortgage ads; some states have more restrictive payday/personal loan advertising rules. Document state exclusions before campaign launch and configure state-level negative geotargeting accordingly \u2014 serving ads for unavailable financial products in states where you're not licensed is a regulatory violation.",
+            "description": "Specify geographic targeting including any states where the financial product is not licensed, rate caps apply that affect competitiveness, or specific state consumer protection laws require additional disclosure in ad copy. Common carve-outs: Colorado, New York, New Jersey often require additional APR disclosure in mortgage ads; some states have more restrictive payday/personal loan advertising rules. Document state exclusions before campaign launch and configure state-level negative geotargeting accordingly — serving ads for unavailable financial products in states where you're not licensed is a regulatory violation.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -83,7 +84,7 @@
         "items": [
           {
             "title": "RLSA (Remarketing Lists for Search Ads) audience definition and bid multipliers",
-            "description": "Specify RLSA audiences for this campaign: abandoned application (website visitors who started but did not complete an application \u2014 bid multiplier +75\u2013100%); product page visitors who did not convert (+40\u201360%); CRM customers who are cross-sell targets for new products (+30\u201350%); loyalty customers in renewal windows for insurance (+50\u201375%); prospects from prior application cycles who did not close (+60\u201380%). Define the membership duration for each list (90 days for mortgage consideration, 30 days for consumer credit, 180 days for wealth management), and specify exclusion list: current funded customers (suppress from new customer acquisition campaigns).",
+            "description": "Specify RLSA audiences for this campaign: abandoned application (website visitors who started but did not complete an application — bid multiplier +75–100%); product page visitors who did not convert (+40–60%); CRM customers who are cross-sell targets for new products (+30–50%); loyalty customers in renewal windows for insurance (+50–75%); prospects from prior application cycles who did not close (+60–80%). Define the membership duration for each list (90 days for mortgage consideration, 30 days for consumer credit, 180 days for wealth management), and specify exclusion list: current funded customers (suppress from new customer acquisition campaigns).",
             "difficulty": "intermediate",
             "priority": "critical"
           },
@@ -100,19 +101,19 @@
         "items": [
           {
             "title": "Conversion event hierarchy and CRM offline conversion import specification",
-            "description": "Financial services paid search must track conversions beyond form completion: specify the full conversion event hierarchy and the value assigned to each. Example for mortgage: (1) Mortgage inquiry form start (micro, $0 value for bidding); (2) Form submission/pre-qualification (primary conversion, $50 value for Smart Bidding); (3) Soft credit pull / qualification (higher-value conversion, $150 value); (4) Application submission (highest on-site conversion, $300 value); (5) CRM offline import \u2014 funded loan (ultimate conversion, actual revenue value). Document the Salesforce or LOS (loan origination system) offline conversion import schedule and attribution window (90-day click for mortgage).",
+            "description": "Financial services paid search must track conversions beyond form completion: specify the full conversion event hierarchy and the value assigned to each. Example for mortgage: (1) Mortgage inquiry form start (micro, $0 value for bidding); (2) Form submission/pre-qualification (primary conversion, $50 value for Smart Bidding); (3) Soft credit pull / qualification (higher-value conversion, $150 value); (4) Application submission (highest on-site conversion, $300 value); (5) CRM offline import — funded loan (ultimate conversion, actual revenue value). Document the Salesforce or LOS (loan origination system) offline conversion import schedule and attribution window (90-day click for mortgage).",
             "difficulty": "advanced",
             "priority": "critical"
           },
           {
             "title": "Smart Bidding strategy selection and minimum conversion volume requirements",
-            "description": "Specify the Smart Bidding strategy for each campaign tier: branded defense (Target Impression Share, target top position); competitor conquest (Target CPA, set at 50% of competitor keyword historical CPA); category non-brand (Target ROAS if sufficient conversion data \u2014 minimum 50+ conversions/month; otherwise Target CPA using form submit as primary conversion). Document the 30-day historical conversion volume per campaign at brief submission \u2014 if volume is below Smart Bidding minimums, specify the manual CPC or enhanced CPC strategy to use during the algorithm learning phase.",
+            "description": "Specify the Smart Bidding strategy for each campaign tier: branded defense (Target Impression Share, target top position); competitor conquest (Target CPA, set at 50% of competitor keyword historical CPA); category non-brand (Target ROAS if sufficient conversion data — minimum 50+ conversions/month; otherwise Target CPA using form submit as primary conversion). Document the 30-day historical conversion volume per campaign at brief submission — if volume is below Smart Bidding minimums, specify the manual CPC or enhanced CPC strategy to use during the algorithm learning phase.",
             "difficulty": "intermediate",
             "priority": "critical"
           },
           {
             "title": "Primary KPI and target CPA/ROAS benchmarks by product and campaign tier",
-            "description": "Specify primary performance targets: mortgage lead campaigns (cost per funded application target: $800\u2013$2,500 depending on loan size \u2014 document this from LTV model); consumer credit (cost per funded account: $150\u2013$400); insurance (cost per bound policy: $80\u2013$250); wealth management (cost per qualified AUM conversation: $500\u2013$2,000 depending on minimum AUM threshold). Branded campaign success metric: impression share (target 90%+), not CPA \u2014 branded campaigns are defensive investments measured by share captured, not cost efficiency.",
+            "description": "Specify primary performance targets: mortgage lead campaigns (cost per funded application target: $800–$2,500 depending on loan size — document this from LTV model); consumer credit (cost per funded account: $150–$400); insurance (cost per bound policy: $80–$250); wealth management (cost per qualified AUM conversation: $500–$2,000 depending on minimum AUM threshold). Branded campaign success metric: impression share (target 90%+), not CPA — branded campaigns are defensive investments measured by share captured, not cost efficiency.",
             "difficulty": "intermediate",
             "priority": "critical"
           }
@@ -120,11 +121,11 @@
       }
     ],
     "pro_tips": [
-      "Financial services paid search briefs should include a 'rate environment scenario' section: document the current Fed Funds Rate, the product's current advertised rate, and pre-approved creative and bid adjustment protocols for three scenarios \u2014 rate decrease (opportunity to increase spend and attract refinance demand), rate stability (maintain current bid strategy), and rate increase (shift from rate-led to product feature messaging, potentially reduce mortgage bid levels if conversion rates drop). Pre-planning these scenarios in the brief prevents reactive decision-making during rate movements.",
-      "For insurance paid search campaigns, include a 'TCPA consent compliance' section specifying that all lead generation landing pages include a one-to-one express written consent statement naming your company specifically \u2014 the FCC's January 2025 rule requires individual company consent rather than blanket consent covering lead aggregator networks. This change has eliminated the shared consent model used by LendingTree, QuoteWizard, and similar lead platforms, so financial services paid search briefs for insurance must document the first-party lead flow only.",
-      "Build a 'mortgage rate parity monitor' into every mortgage paid search brief: a weekly check comparing your advertised rate in paid search ads against the rates shown in Google Hotel Ads (Google's mortgage comparison tool) and LendingTree/Bankrate aggregators. If competitors are advertising 50+ basis points lower rates in the same search results, your conversion rates will structurally decline regardless of creative quality or bid levels. The rate parity check is a brief delivery requirement for mortgage campaigns \u2014 without it, media teams optimize toward an efficiency target that is unachievable due to non-media factors.",
-      "For wealth management and investment product paid search campaigns targeting HNW audiences, include a 'LinkedIn parallel activation' section documenting how paid search will be coordinated with LinkedIn Sponsored Content targeting CFOs, business owners, and senior finance professionals. HNW wealth management prospects often first encounter the brand through LinkedIn thought leadership, then validate through branded Google search \u2014 isolating paid search without acknowledging the LinkedIn awareness role that creates branded search demand leads to systematic under-investment in LinkedIn relative to its true contribution.",
-      "Add a 'budget pause protocol' to every financial services paid search brief for rate-sensitive products: define the trigger conditions under which campaign spend should be paused or reduced (e.g., 'pause mortgage campaigns in DMAs where affordability index drops below 75' or 'reduce personal loan bids 30% when delinquency early warning signals spike in CRM data'). Financial services paid search campaigns that continue at full spend during structurally unfavorable conversion windows waste significant budget \u2014 a pre-approved pause protocol allows buyers to act without waiting for management approval chains."
+      "Financial services paid search briefs should include a 'rate environment scenario' section: document the current Fed Funds Rate, the product's current advertised rate, and pre-approved creative and bid adjustment protocols for three scenarios — rate decrease (opportunity to increase spend and attract refinance demand), rate stability (maintain current bid strategy), and rate increase (shift from rate-led to product feature messaging, potentially reduce mortgage bid levels if conversion rates drop). Pre-planning these scenarios in the brief prevents reactive decision-making during rate movements.",
+      "For insurance paid search campaigns, include a 'TCPA consent compliance' section specifying that all lead generation landing pages include a one-to-one express written consent statement naming your company specifically — the FCC's January 2025 rule requires individual company consent rather than blanket consent covering lead aggregator networks. This change has eliminated the shared consent model used by LendingTree, QuoteWizard, and similar lead platforms, so financial services paid search briefs for insurance must document the first-party lead flow only.",
+      "Build a 'mortgage rate parity monitor' into every mortgage paid search brief: a weekly check comparing your advertised rate in paid search ads against the rates shown in Google Hotel Ads (Google's mortgage comparison tool) and LendingTree/Bankrate aggregators. If competitors are advertising 50+ basis points lower rates in the same search results, your conversion rates will structurally decline regardless of creative quality or bid levels. The rate parity check is a brief delivery requirement for mortgage campaigns — without it, media teams optimize toward an efficiency target that is unachievable due to non-media factors.",
+      "For wealth management and investment product paid search campaigns targeting HNW audiences, include a 'LinkedIn parallel activation' section documenting how paid search will be coordinated with LinkedIn Sponsored Content targeting CFOs, business owners, and senior finance professionals. HNW wealth management prospects often first encounter the brand through LinkedIn thought leadership, then validate through branded Google search — isolating paid search without acknowledging the LinkedIn awareness role that creates branded search demand leads to systematic under-investment in LinkedIn relative to its true contribution.",
+      "Add a 'budget pause protocol' to every financial services paid search brief for rate-sensitive products: define the trigger conditions under which campaign spend should be paused or reduced (e.g., 'pause mortgage campaigns in DMAs where affordability index drops below 75' or 'reduce personal loan bids 30% when delinquency early warning signals spike in CRM data'). Financial services paid search campaigns that continue at full spend during structurally unfavorable conversion windows waste significant budget — a pre-approved pause protocol allows buyers to act without waiting for management approval chains."
     ],
     "related_tools": [
       {
@@ -133,11 +134,11 @@
       },
       {
         "slug": "google-dv360",
-        "relevance": "DV360 integrates with Google Ads for unified financial services audience management \u2014 sharing Customer Match and RLSA audiences between paid search and programmatic display for consistent financial buyer targeting across channels."
+        "relevance": "DV360 integrates with Google Ads for unified financial services audience management — sharing Customer Match and RLSA audiences between paid search and programmatic display for consistent financial buyer targeting across channels."
       },
       {
         "slug": "mediaocean",
-        "relevance": "Mediaocean's financial management tools handle the compliance and billing workflow for financial services paid search \u2014 tracking regulatory disclosure compliance, managing CPA commitments to agency partners, and reconciling performance against contracted targets."
+        "relevance": "Mediaocean's financial management tools handle the compliance and billing workflow for financial services paid search — tracking regulatory disclosure compliance, managing CPA commitments to agency partners, and reconciling performance against contracted targets."
       }
     ],
     "cta": {
