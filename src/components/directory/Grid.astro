@@ -2,9 +2,18 @@
 import { getListings } from "../../lib/getListings";
 import PureGrid from "./PureGrid.astro";
 
-const allListings = (await getListings()).sort(
-  (a, b) => Number(b.data.featured) - Number(a.data.featured),
-);
+const allListings = (await getListings())
+  .map((listing) => ({
+    ...listing,
+    data: {
+      ...listing.data,
+      featured: false,
+      tags: Array.isArray(listing.data.tags)
+        ? listing.data.tags.filter((tag) => tag !== "featured")
+        : listing.data.tags,
+    },
+  }))
+  .sort((a, b) => (a.data.title ?? "").localeCompare(b.data.title ?? ""));
 ---
 
 <PureGrid id="directory-grid" listings={allListings} />
