@@ -176,7 +176,7 @@ Halliard was built to close that gap. From the first line on the plan to the exe
 Looking at other options? These comparisons may help:
 
 - [Mediaocean vs Halliard](/blog/mediaocean-vs-halliard) — Enterprise scale vs. modern independent platform
-- [Bionic vs Halliard](/blog/bionic-vs-halliard) — The leading planning tool vs. unified planning and buying
+- [Bionic vs Halliard](https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=article_link) — The leading planning tool vs. unified planning and buying
 - [Camphouse vs Halliard](/blog/camphouse-vs-halliard) — Campaign workflow management compared
 - [MediaPlanHQ vs Halliard](/blog/mediaplanhq-vs-halliard) — Simple and affordable vs. full-featured
 - [Browse all media planning tools](/tools) — Full directory of platforms for every use case

@@ -172,7 +172,7 @@ It's live. In December 2025, Halliard executed the first fully autonomous media 
 
 Looking at other options in the media planning and buying software space? Here are a few comparisons worth reading:
 
-- [Bionic vs Halliard](/blog/bionic-vs-halliard) — The veteran flowchart builder vs. the modern challenger
+- [Bionic vs Halliard](https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=article_link) — The veteran flowchart builder vs. the modern challenger
 - [Camphouse vs Halliard](/blog/camphouse-vs-halliard) — Global workflow management vs. independent agency OS
 - [MediaPlanHQ vs Halliard](/blog/mediaplanhq-vs-halliard) — Simple plan creation vs. full plan-to-proof
 - [Strata vs Halliard](/blog/strata-vs-halliard) — FreeWheel's buying infrastructure vs. agentic planning

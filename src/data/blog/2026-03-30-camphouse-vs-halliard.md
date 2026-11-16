@@ -168,7 +168,7 @@ If you're evaluating Halliard, the easiest path is to [try it today at halliardm
 
 ## Explore More Tool Comparisons
 
-- [Bionic vs Halliard](/blog/bionic-vs-halliard) — The most popular media planning tool for agencies vs. the newest challenger
+- [Bionic vs Halliard](https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=article_link) — The most popular media planning tool for agencies vs. the newest challenger
 - [MediaPlanHQ vs Halliard](/blog/mediaplanhq-vs-halliard) — Simple plan creation vs. a full modern stack
 - [Mediaocean vs Halliard](/blog/mediaocean-vs-halliard) — Enterprise legacy vs. independent-agency modern
 - [Strata vs Halliard](/blog/strata-vs-halliard) — FreeWheel's buying platform vs. plan-to-proof workflow

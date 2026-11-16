@@ -168,7 +168,7 @@ Yes. Halliard's free plan is available immediately at [halliardmedia.com](https:
 
 ## Explore More Comparisons
 
-- [Bionic vs Halliard](/blog/bionic-vs-halliard) — The veteran flowchart builder vs. the modern challenger
+- [Bionic vs Halliard](https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=article_link) — The veteran flowchart builder vs. the modern challenger
 - [MediaPlanHQ vs Halliard](/blog/mediaplanhq-vs-halliard) — Simple plan creation vs. full plan-to-proof workflow
 - [Mediaocean vs Halliard](/blog/mediaocean-vs-halliard) — Enterprise infrastructure vs. independent agency OS
 - [Strata vs Halliard](/blog/strata-vs-halliard) — FreeWheel buying infrastructure vs. agentic planning

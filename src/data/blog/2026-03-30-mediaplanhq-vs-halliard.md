@@ -170,7 +170,7 @@ If your immediate needs are operational — plans, reconciliation, client commun
 
 ## Explore More Tool Comparisons
 
-- [Bionic vs Halliard](/blog/bionic-vs-halliard) — The most widely reviewed independent planning tool, compared.
+- [Bionic vs Halliard](https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=article_link) — The most widely reviewed independent planning tool, compared.
 - [Camphouse vs Halliard](/blog/camphouse-vs-halliard) — Multi-market campaign management, head to head.
 - [Mediaocean vs Halliard](/blog/mediaocean-vs-halliard) — Enterprise infrastructure vs. modern independent platform.
 - [All Media Planning Tools](/tools) — Full directory of tools reviewed by the Media Planning Tools team.
