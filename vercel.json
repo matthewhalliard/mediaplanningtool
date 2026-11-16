@@ -36,6 +36,146 @@
       "source": "/blog/bionic-vs-halliard",
       "destination": "https://www.halliardmedia.com/compare/bionic?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=bionic_article_redirect",
       "permanent": true
+    },
+    {
+      "source": "/blog/2026-03-30-camphouse-vs-halliard",
+      "destination": "/camphouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/camphouse-vs-halliard",
+      "destination": "/camphouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-03-30-mediaocean-vs-halliard",
+      "destination": "/mediaocean",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mediaocean-vs-halliard",
+      "destination": "/mediaocean",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-03-30-mediaplanhq-vs-halliard",
+      "destination": "/mediaplanhq",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mediaplanhq-vs-halliard",
+      "destination": "/mediaplanhq",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-03-30-strata-vs-halliard",
+      "destination": "/strata",
+      "permanent": true
+    },
+    {
+      "source": "/blog/strata-vs-halliard",
+      "destination": "/strata",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-adobe-advertising-cloud-vs-halliard",
+      "destination": "/adobe-advertising-cloud",
+      "permanent": true
+    },
+    {
+      "source": "/blog/adobe-advertising-cloud-vs-halliard",
+      "destination": "/adobe-advertising-cloud",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-akkio-vs-halliard",
+      "destination": "/akkio",
+      "permanent": true
+    },
+    {
+      "source": "/blog/akkio-vs-halliard",
+      "destination": "/akkio",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-amazon-dsp-vs-halliard",
+      "destination": "/amazon-dsp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/amazon-dsp-vs-halliard",
+      "destination": "/amazon-dsp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-basis-vs-halliard",
+      "destination": "/basis",
+      "permanent": true
+    },
+    {
+      "source": "/blog/basis-vs-halliard",
+      "destination": "/basis",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-criteo-vs-halliard",
+      "destination": "/criteo",
+      "permanent": true
+    },
+    {
+      "source": "/blog/criteo-vs-halliard",
+      "destination": "/criteo",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-google-dv360-vs-halliard",
+      "destination": "/google-dv360",
+      "permanent": true
+    },
+    {
+      "source": "/blog/google-dv360-vs-halliard",
+      "destination": "/google-dv360",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-linkedin-campaign-manager-vs-halliard",
+      "destination": "/linkedin-campaign-manager",
+      "permanent": true
+    },
+    {
+      "source": "/blog/linkedin-campaign-manager-vs-halliard",
+      "destination": "/linkedin-campaign-manager",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-mediatool-vs-halliard",
+      "destination": "/camphouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mediatool-vs-halliard",
+      "destination": "/camphouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-quantcast-vs-halliard",
+      "destination": "/quantcast",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quantcast-vs-halliard",
+      "destination": "/quantcast",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-04-21-the-trade-desk-vs-halliard",
+      "destination": "/the-trade-desk",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-trade-desk-vs-halliard",
+      "destination": "/the-trade-desk",
+      "permanent": true
     }
   ]
 }
