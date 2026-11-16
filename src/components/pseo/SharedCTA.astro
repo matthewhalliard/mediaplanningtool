@@ -29,7 +29,8 @@ const body = isResource
 
 const placement = isResource ? "resource" : isCalculator ? "calculator" : contentType === "glossary" ? "glossary" : "tool_page";
 const href = halliardUrl(isResource ? "/media-planning-templates" : "/plan", `${placement}_cta`);
-const primaryLabel = isResource ? "Get the template" : "See Halliard";
+// Planning is free on Halliard (its pricing page says so), so the button can say it.
+const primaryLabel = isResource ? "Get the template" : "Start planning free";
 ---
 
 <section class="mt-12 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 border border-primary-200 dark:border-gray-700">
