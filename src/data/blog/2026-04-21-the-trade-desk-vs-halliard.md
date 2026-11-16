@@ -165,7 +165,7 @@ Unified ID 2.0 (UID2) is an open-source identity framework developed by The Trad
 Kokai AI operates in the live bidding environment — analyzing 15M+ ad opportunities per second for real-time campaign optimization. Halliard's AI operates in the planning environment — conversational analysis, scenario modeling, and the agentic buying workflow that bridges plan to executed transaction. These are AI applications solving different problems at different stages of the media workflow.
 
 **Can I use The Trade Desk and Halliard together?**
-Yes. Several agencies use Halliard for cross-channel planning and R+F analysis, then use The Trade Desk (or other DSPs) for programmatic execution. Halliard's integrations and export workflows connect the plan to the buying platform. Explore how this works at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Yes. Several agencies use Halliard for cross-channel planning and R+F analysis, then use The Trade Desk (or other DSPs) for programmatic execution. Halliard's integrations and export workflows connect the plan to the buying platform. Explore how this works at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -179,4 +179,4 @@ Yes. Several agencies use Halliard for cross-channel planning and R+F analysis, 
 
 ---
 
-*Ready to see what planning-first looks like? Start free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card, no quarterly minimum.*
+*Ready to see what planning-first looks like? Start free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card, no quarterly minimum.*

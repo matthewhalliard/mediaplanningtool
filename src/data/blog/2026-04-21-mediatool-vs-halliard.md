@@ -162,7 +162,7 @@ Camphouse doesn't offer cross-channel reach and frequency modeling. Halliard's p
 No. Camphouse manages campaign workflows — approvals, budget tracking, insertion orders — but doesn't execute media buys autonomously. Halliard's December 2025 PubMatic MCP integration executed the first autonomous plan-to-buy transaction in the industry.
 
 **Can I start Halliard without a contract?**
-Yes. Halliard's free plan is available immediately at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no contract, no credit card, no minimum user count.
+Yes. Halliard's free plan is available immediately at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no contract, no credit card, no minimum user count.
 
 ---
 
@@ -176,4 +176,4 @@ Yes. Halliard's free plan is available immediately at [halliardmedia.com/trytoda
 
 ---
 
-*Ready to see modern media planning? Start free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no contract, no credit card, no minimum users.*
+*Ready to see modern media planning? Start free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no contract, no credit card, no minimum users.*

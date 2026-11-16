@@ -101,7 +101,7 @@ Halliard connects to Google, Meta, TikTok, Spotify, Netflix, YouTube, Twitch, Hu
 MediaPlanHQ has no real-time platform integrations. It operates as a standalone planning and operations tool.
 
 ### Free Plan
-The free individual plan is worth noting again, especially for anyone evaluating a **MediaPlanHQ alternative** on a tight timeline. You can sign up at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday), build a real plan with real features, and make an informed decision — no sales call required.
+The free individual plan is worth noting again, especially for anyone evaluating a **MediaPlanHQ alternative** on a tight timeline. You can sign up at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog), build a real plan with real features, and make an informed decision — no sales call required.
 
 ---
 
@@ -130,7 +130,7 @@ Halliard is the better choice if:
 - **You're an individual planner or small team** who wants to start free and scale up.
 - **You manage meaningful media budgets** ($10M–$500M+) and need the analytical infrastructure to match.
 
-[Halliard](https://halliardmedia.com/trytoday) is the right fit for agencies that view media planning as a strategic and analytical function — not just a workflow to be managed.
+[Halliard](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) is the right fit for agencies that view media planning as a strategic and analytical function — not just a workflow to be managed.
 
 ---
 

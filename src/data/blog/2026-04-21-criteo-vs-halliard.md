@@ -162,7 +162,7 @@ Criteo's core capabilities — dynamic retargeting, purchase intent targeting, r
 Halliard is a media planning OS, not a retail media platform. It connects the strategic planning workflow — budget allocation, cross-channel R+F, approval workflows — to execution through channel integrations. It doesn't offer retail media inventory or purchase-intent targeting. For retail media execution, tools like Criteo fill that role.
 
 **Can I start Halliard for free?**
-Yes. Halliard offers a free plan for individual media planners with no credit card required. Start at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Yes. Halliard offers a free plan for individual media planners with no credit card required. Start at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -176,4 +176,4 @@ Yes. Halliard offers a free plan for individual media planners with no credit ca
 
 ---
 
-*Building a full-funnel media plan that includes retail media? Start planning for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).*
+*Building a full-funnel media plan that includes retail media? Start planning for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).*

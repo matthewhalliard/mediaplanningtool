@@ -167,7 +167,7 @@ Specifically, AI is automating or accelerating:
 
 **First-party data is the new currency.** With third-party cookie deprecation and tightening privacy regulations, media planners are leaning harder on advertiser first-party data (CRM, loyalty, on-site behavior) as the foundation for audience targeting. This has raised the strategic importance of data strategy as a prerequisite to effective media planning.
 
-Platforms like [Halliard Media](https://halliardmedia.com) are designed to help teams navigate this more complex, data-intensive planning environment — building workflows that connect audience data, channel strategy, and measurement without requiring separate tools for every step.
+Platforms like [Halliard Media](https://www.halliardmedia.com/?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) are designed to help teams navigate this more complex, data-intensive planning environment — building workflows that connect audience data, channel strategy, and measurement without requiring separate tools for every step.
 
 ---
 

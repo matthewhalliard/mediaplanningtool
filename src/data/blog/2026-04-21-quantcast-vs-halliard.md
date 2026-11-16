@@ -156,10 +156,10 @@ Quantcast offers a free self-serve tier with no contracts or minimums, plus a 30
 Forrester's Total Economic Impact study verified that Quantcast campaigns delivered 44% better performance — in terms of customer conversions — compared to traditional DSPs. This is a third-party verified metric, not self-reported, reflecting real advertiser outcomes.
 
 **Can Halliard connect to Quantcast for planning?**
-Halliard's planning workflow can account for programmatic spend (including Quantcast) as part of a cross-channel media plan, with budget allocation and tracking. For specific integration details, explore the platform at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Halliard's planning workflow can account for programmatic spend (including Quantcast) as part of a cross-channel media plan, with budget allocation and tracking. For specific integration details, explore the platform at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 **How do I start with Halliard for free?**
-Halliard's free plan is available with no credit card required at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday). Individual planners can start building cross-channel plans immediately.
+Halliard's free plan is available with no credit card required at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog). Individual planners can start building cross-channel plans immediately.
 
 ---
 
@@ -173,4 +173,4 @@ Halliard's free plan is available with no credit card required at [halliardmedia
 
 ---
 
-*Want to see AI-enhanced cross-channel planning in action? Start free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card, no contracts.*
+*Want to see AI-enhanced cross-channel planning in action? Start free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card, no contracts.*

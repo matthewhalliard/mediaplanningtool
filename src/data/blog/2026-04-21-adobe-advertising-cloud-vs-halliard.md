@@ -163,7 +163,7 @@ No. Adobe Experience Cloud is Adobe's broader enterprise marketing suite (Analyt
 No. Halliard works standalone — no pre-existing CRM, CDP, or analytics platform required. The planning, R+F analysis, approval workflows, and channel integrations all function independently of any enterprise software stack.
 
 **What does Halliard's agentic buying actually do?**
-In December 2025, Halliard executed the first fully autonomous media buy via Model Context Protocol (MCP) with PubMatic — moving from plan to executed transaction without human intermediation at the buying step. This is live in production, not a demo. Explore it at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+In December 2025, Halliard executed the first fully autonomous media buy via Model Context Protocol (MCP) with PubMatic — moving from plan to executed transaction without human intermediation at the buying step. This is live in production, not a demo. Explore it at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -177,4 +177,4 @@ In December 2025, Halliard executed the first fully autonomous media buy via Mod
 
 ---
 
-*No enterprise software stack required. Start planning for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).*
+*No enterprise software stack required. Start planning for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).*

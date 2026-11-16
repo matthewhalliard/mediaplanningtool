@@ -156,7 +156,7 @@ Yes. Halliard integrates with channel platforms including LinkedIn to pull perfo
 Media Planner is a forecasting tool within LinkedIn Campaign Manager that provides estimated reach, frequency, and impression projections for a proposed campaign targeting configuration. It operates within LinkedIn's ecosystem and doesn't model cross-channel reach.
 
 **How much does Halliard cost for B2B marketing teams?**
-Halliard offers a free plan for individual planners with no credit card required. Teams and agencies have premium tiers available. Start at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Halliard offers a free plan for individual planners with no credit card required. Teams and agencies have premium tiers available. Start at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -170,4 +170,4 @@ Halliard offers a free plan for individual planners with no credit card required
 
 ---
 
-*Planning a B2B media mix that includes LinkedIn and five other channels? See how Halliard handles the cross-channel work at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).*
+*Planning a B2B media mix that includes LinkedIn and five other channels? See how Halliard handles the cross-channel work at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).*

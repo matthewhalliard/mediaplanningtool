@@ -135,7 +135,7 @@ Halliard makes the most sense for:
 - **Brand in-house teams** building out a media capability from scratch who don't want to inherit legacy infrastructure
 - **Forward-looking media teams** who want to be positioned for agentic buying and AI-driven workflows as those capabilities mature
 
-If your agency is paying for Strata *and* a planning tool (or spending significant planner time in Excel), Halliard's unified approach is worth a serious look. [Try Halliard for free](https://halliardmedia.com/trytoday) — no credit card required.
+If your agency is paying for Strata *and* a planning tool (or spending significant planner time in Excel), Halliard's unified approach is worth a serious look. [Try Halliard for free](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card required.
 
 ---
 

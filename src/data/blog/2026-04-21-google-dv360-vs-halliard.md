@@ -166,7 +166,7 @@ Yes. Display & Video 360 is one of several products in Google Marketing Platform
 No. Halliard is a planning and workflow platform, not a bidding platform. It doesn't compete for programmatic inventory. The relationship is complementary: Halliard handles upstream planning and cross-channel R+F analysis; DV360 handles programmatic execution within the Google ecosystem.
 
 **Can I start Halliard without a DV360 account?**
-Yes. Halliard works independently of any DSP or platform account. Start at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card, no platform prerequisites required.
+Yes. Halliard works independently of any DSP or platform account. Start at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card, no platform prerequisites required.
 
 ---
 
@@ -180,4 +180,4 @@ Yes. Halliard works independently of any DSP or platform account. Start at [hall
 
 ---
 
-*Planning a media mix that includes YouTube and much more? Start cross-channel planning for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).*
+*Planning a media mix that includes YouTube and much more? Start cross-channel planning for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).*

@@ -186,7 +186,7 @@ Document:
 - **Dashboard / reporting tool:** Platform, Google Analytics, or a dedicated measurement solution
 - **Stakeholder reporting:** Who receives reports, in what format, and how frequently
 
-Tools like [Halliard](https://halliardmedia.com/trytoday) combine planning and measurement in a single workflow, which reduces the friction between what was planned and what gets reported.
+Tools like [Halliard](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) combine planning and measurement in a single workflow, which reduces the friction between what was planned and what gets reported.
 
 ---
 
@@ -241,7 +241,7 @@ Modern media planning platforms replace the spreadsheet-based template with purp
 - **[Basis](/basis)** integrates planning, buying, and reporting in a single platform — so the media flowchart, budget tracker, and performance dashboard live in one place rather than three separate files.
 - **[Mediaocean](/mediaocean)** is purpose-built for large agency workflows, handling everything from plan construction to billing reconciliation in a unified system that eliminates the version-control problems of shared spreadsheets.
 - **[Mediatool](/mediatool)** offers a collaborative planning environment where media plans are built, shared, and updated in real time — no more emailing Excel files back and forth.
-- **[Halliard](https://halliardmedia.com/trytoday)** is designed for in-house media teams that need to move from brief to approved plan quickly, with built-in templates, audience research integrations, and measurement tools in one platform.
+- **[Halliard](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog)** is designed for in-house media teams that need to move from brief to approved plan quickly, with built-in templates, audience research integrations, and measurement tools in one platform.
 
 The common thread: the goal is to reduce the time spent managing documents and increase the time spent making better strategic decisions.
 
@@ -299,4 +299,4 @@ Once you have a solid media plan template in place, the next step is understandi
 
 ---
 
-*Found this helpful? Explore more [media planning tools](https://mediaplanningtool.com/tools) in our directory, or learn how [Halliard](https://halliardmedia.com/trytoday) can replace your planning spreadsheets entirely.*
+*Found this helpful? Explore more [media planning tools](https://mediaplanningtool.com/tools) in our directory, or learn how [Halliard](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) can replace your planning spreadsheets entirely.*

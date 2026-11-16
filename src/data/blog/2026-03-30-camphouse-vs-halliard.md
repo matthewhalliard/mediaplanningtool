@@ -162,7 +162,7 @@ This is a legitimate comparison between two newer contenders, not a David-vs-Gol
 
 The real question is fit. **Camphouse** makes sense if you're inside a large global organization that needs enterprise-grade taxonomy and multi-market campaign management. **Halliard** makes sense if you're running a US independent agency, need cross-channel R+F without a holding-company budget, and want a platform that's already executing agentic media buys — not just talking about them.
 
-If you're evaluating Halliard, the easiest path is to [try it today at halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card, no commitment.
+If you're evaluating Halliard, the easiest path is to [try it today at halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card, no commitment.
 
 ---
 

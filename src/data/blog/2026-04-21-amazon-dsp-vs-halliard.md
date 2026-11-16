@@ -154,7 +154,7 @@ This isn't a competition between the two tools — it's a sequence.
 Amazon DSP managed service requires approximately $50,000/month in media spend to qualify. Self-service access is available through approved agency partners without a direct minimum, though the agency relationship has its own requirements.
 
 **Does Halliard integrate with Amazon advertising?**
-Halliard integrates with multiple channel platforms for planning and spend tracking. For specific Amazon DSP integration details, explore the platform at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Halliard integrates with multiple channel platforms for planning and spend tracking. For specific Amazon DSP integration details, explore the platform at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 **Is Amazon DSP only for Amazon sellers?**
 No. Amazon DSP is available to any advertiser — you don't need to sell on Amazon to access Amazon's first-party audience data and inventory. However, the closed-loop attribution and purchase intent data is most powerful for brands whose customers shop on Amazon.
@@ -177,4 +177,4 @@ Matthew Jacobs (Halliard's founder) was a Senior PM at Amazon DSP before buildin
 
 ---
 
-*Planning a media mix that includes Amazon DSP? See how cross-channel R+F analysis works at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).*
+*Planning a media mix that includes Amazon DSP? See how cross-channel R+F analysis works at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).*

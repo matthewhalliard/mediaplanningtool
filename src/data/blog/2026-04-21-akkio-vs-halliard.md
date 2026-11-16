@@ -157,7 +157,7 @@ Halliard operates a proprietary 10,000-person panel across 210 designated market
 Yes. Horizon Media and Havas are notable clients. Akkio's enterprise capabilities have been validated at large agency scale, which is meaningful context for smaller agencies evaluating the platform.
 
 **How much does Halliard cost?**
-Halliard offers a free plan for individual media planners — no credit card required. Premium and Enterprise tiers are available for teams and agencies with larger requirements. Start at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+Halliard offers a free plan for individual media planners — no credit card required. Premium and Enterprise tiers are available for teams and agencies with larger requirements. Start at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -171,4 +171,4 @@ Halliard offers a free plan for individual media planners — no credit card req
 
 ---
 
-*Curious how Halliard handles cross-channel planning versus AI analytics tools? Start for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card required.*
+*Curious how Halliard handles cross-channel planning versus AI analytics tools? Start for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card required.*

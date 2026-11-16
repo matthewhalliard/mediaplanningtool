@@ -136,7 +136,7 @@ Halliard is the right tool if:
 - You want **real-time performance data** in the same platform where you build your plans
 - You're building for the long term and want **institutional knowledge** that compounds over time
 
-[Try Halliard free at halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card required.
+[Try Halliard free at halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card required.
 
 ---
 

@@ -229,4 +229,4 @@ If you're building or rebuilding a media planning tech stack, start with the bas
 
 For a full directory of 47+ media planning tools with detailed feature breakdowns, reviews, and comparison guides, visit [MediaPlanningTool.com](/).
 
-For agency-side media planning support and strategic counsel, see [Halliard Media](https://halliardmedia.com).
+For agency-side media planning support and strategic counsel, see [Halliard Media](https://www.halliardmedia.com/?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).

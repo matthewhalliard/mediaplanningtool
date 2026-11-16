@@ -14,7 +14,7 @@ tags:
   - media-planners
   - marketing-directors
   - in-house-teams
-link: https://www.halliardmedia.com/
+link: "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=listing_visit"
 heroImage: ./images/halliard.png
 featured: true
 targetUsers:
@@ -105,7 +105,7 @@ Halliard is the operating system for modern media teams, replacing disconnected 
 
 Halliard offers a free plan for individual planners — no credit card required. Upgrade when you're ready for team collaboration and advanced features.
 
-**[Start for free at halliardmedia.com/trytoday →](https://www.halliardmedia.com/trytoday)**
+**[Start for free at halliardmedia.com →](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=listing)**
 
 ### 📋 **Implementation Timeline**
 - **Week 1**: Initial workspace setup and configuration
@@ -174,7 +174,7 @@ Halliard offers a free plan for individual planners — no credit card required.
 ## Frequently Asked Questions
 
 **Is Halliard free?**
-Yes. Halliard offers a free plan for individual media planners with full platform access — no credit card required. You can [start for free at halliardmedia.com/trytoday](https://www.halliardmedia.com/trytoday).
+Yes. Halliard offers a free plan for individual media planners with full platform access — no credit card required. You can [start for free at halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=listing).
 
 **How much does Halliard cost for teams?**
 Halliard uses a freemium model: the Free plan is available for individuals, while Premium and Enterprise plans are priced based on team size and needs. Specific pricing is available by contacting the Halliard team directly.
@@ -251,4 +251,4 @@ Halliard is not yet listed on G2 or Capterra with a public aggregate rating. The
 - **[Best Media Planning Tools for 2026](/blog/best-media-planning-tools-2026)** — From our blog
 
 
-[Visit Halliard → Start Free at halliardmedia.com/trytoday](https://www.halliardmedia.com/trytoday)
+[Visit Halliard → Start Free at halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=listing)

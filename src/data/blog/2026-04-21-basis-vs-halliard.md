@@ -179,4 +179,4 @@ Halliard's cross-channel R+F engine operates at the planning stage, using a prop
 
 ---
 
-*See how Halliard handles cross-channel planning for your next campaign. Start for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card required.*
+*See how Halliard handles cross-channel planning for your next campaign. Start for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card required.*

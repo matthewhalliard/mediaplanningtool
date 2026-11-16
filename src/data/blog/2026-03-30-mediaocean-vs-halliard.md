@@ -149,7 +149,7 @@ Both are legitimate AI developments. They're just solving different problems for
 ## FAQ
 
 **Is there a Mediaocean free trial?**
-Mediaocean does not offer a public free trial. Pricing is enterprise-only and requires contacting their sales team for a custom quote. Halliard offers a [free plan with no credit card required](https://halliardmedia.com/trytoday), making it accessible to individual planners and small teams from day one.
+Mediaocean does not offer a public free trial. Pricing is enterprise-only and requires contacting their sales team for a custom quote. Halliard offers a [free plan with no credit card required](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog), making it accessible to individual planners and small teams from day one.
 
 **How long does Mediaocean implementation take?**
 Enterprise implementations for Mediaocean's Prisma platform typically take months, involving configuration, training, and integration with existing financial and trafficking systems. This timeline is appropriate for large agency networks with complex infrastructure requirements. Halliard teams typically reach full productivity within days.
@@ -164,7 +164,7 @@ Not in its current form. Mediaocean's strength is in its deep financial infrastr
 Halliard operates a proprietary 10,000-person panel across 210 designated market areas (DMAs), enabling cross-channel reach and frequency analysis at the planning stage. No other tool at the independent agency price tier offers this natively. Comparable capabilities from enterprise data providers typically require separate licensing agreements that price out smaller shops entirely.
 
 **Is Halliard's agentic buying live or just a concept?**
-It's live. In December 2025, Halliard executed the first fully autonomous media buy via Model Context Protocol (MCP) with PubMatic. This is plan-to-buy execution — an actual transaction, not a demo environment or beta feature. You can explore the platform at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday).
+It's live. In December 2025, Halliard executed the first fully autonomous media buy via Model Context Protocol (MCP) with PubMatic. This is plan-to-buy execution — an actual transaction, not a demo environment or beta feature. You can explore the platform at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog).
 
 ---
 
@@ -180,4 +180,4 @@ Looking at other options in the media planning and buying software space? Here a
 
 ---
 
-*Ready to see what modern media planning looks like for an independent agency? Start for free at [halliardmedia.com/trytoday](https://halliardmedia.com/trytoday) — no credit card required.*
+*Ready to see what modern media planning looks like for an independent agency? Start for free at [halliardmedia.com](https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=blog) — no credit card required.*

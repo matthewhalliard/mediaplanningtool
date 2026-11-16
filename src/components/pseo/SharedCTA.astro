@@ -1,44 +1,62 @@
 ---
+import { halliardUrl } from "@lib/halliard";
+
 interface Props {
-  text: string;
-  link: string;
+  text?: string;
+  link?: string;
   contentType?: string;
 }
 
-const { text, link, contentType } = Astro.props;
+// `text` and `link` are still passed from the page data, but the wording and
+// destination are decided here so every page says the same true thing.
+const { contentType } = Astro.props;
 
-const ctaText = text || (() => {
-  switch (contentType) {
-    case 'checklist':
-    case 'template':
-    case 'guide':
-    case 'framework':
-    case 'calendar':
-      return 'Find the right planning tools';
-    case 'calculator':
-    case 'estimator':
-    case 'analyzer':
-      return 'Explore measurement and analytics tools';
-    default:
-      return 'Explore more media planning tools';
-  }
-})();
+const RESOURCE_TYPES = ["checklist", "template", "guide", "framework", "calendar", "best_practices", "tips"];
+const isResource = RESOURCE_TYPES.includes(contentType ?? "");
+const isCalculator = contentType === "calculator";
+
+const heading = isResource
+  ? "Start from a finished media plan"
+  : isCalculator
+    ? "Model this across your whole plan"
+    : "Put this into a media plan";
+
+const body = isResource
+  ? "Halliard has a free media plan template you can download, and a planning tool that builds the plan for you."
+  : isCalculator
+    ? "Halliard's planning tool works out reach, frequency and budget across every channel in one plan."
+    : "Halliard's planning tool builds a channel plan with reach, frequency and budget worked out for you.";
+
+const placement = isResource ? "resource" : isCalculator ? "calculator" : contentType === "glossary" ? "glossary" : "tool_page";
+const href = halliardUrl(isResource ? "/media-planning-templates" : "/plan", `${placement}_cta`);
+const primaryLabel = isResource ? "Get the template" : "See Halliard";
 ---
 
 <section class="mt-12 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 border border-primary-200 dark:border-gray-700">
   <div class="text-center max-w-2xl mx-auto">
+    <p class="text-xs font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300 mb-3">
+      From Halliard, the publisher of this directory
+    </p>
     <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-50 mb-4">
-      {ctaText}
+      {heading}
     </h2>
     <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
-      Compare features, pricing, and alternatives across 40+ media planning platforms.
+      {body}
     </p>
-    <a
-      href={link}
-      class="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-    >
-      Browse All Tools
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-    </a>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+      <a
+        href={href}
+        class="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+      >
+        {primaryLabel}
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+      </a>
+      <a
+        href="/"
+        class="inline-flex items-center justify-center px-6 py-4 rounded-xl font-semibold text-lg text-primary-700 dark:text-primary-300 hover:underline"
+      >
+        Browse all tools
+      </a>
+    </div>
   </div>
 </section>
