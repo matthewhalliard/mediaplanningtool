@@ -1,9 +1,12 @@
 ---
 import configData from "@util/themeConfig";
+
+// The publisher's own product keeps its placement but says what it is.
+const { label } = Astro.props;
 ---
 
 <span
   class="absolute text-sm ml-4 font-medium py-0.5 group-hover:border-primary-500 -top-3 border border-gray-300 rounded-full bg-white px-3.5 text-gray-600 dark:bg-gray-800 dark:border-gray-500 dark:text-white"
 >
-  {configData.directoryUI.featured.labelForCard}
+  {label || configData.directoryUI.featured.labelForCard}
 </span>

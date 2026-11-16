@@ -13,7 +13,7 @@ const fallbackLogoUrl = getFallbackLogoUrl(myItem.title || '');
 
 <a href={href}
   class="block h-full border border-gray-200 dark:border-gray-500 hover:border-gray-400 hover:border-solid dark:hover:border-gray-300 rounded relative group transition-all duration-300">
-  { myItem.featured ? <DirectoryFeaturedTag class="ml-6"  /> : <></> }
+  { myItem.featured ? <DirectoryFeaturedTag class="ml-6" label={/halliardmedia\.com/.test(myItem.link ?? "") ? "From the publisher" : undefined} /> : <></> }
   <div class="flex">
     { myItem.image ? (
       <Image height={200} width={200} class="w-24 h-24 rounded-l object-cover flex-shrink-0"
