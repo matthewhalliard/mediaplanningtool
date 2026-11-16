@@ -8,6 +8,7 @@ import AppShell from "@components/app/AppShell.astro";
 import config from "@util/themeConfig";
 import SidebarShell from "@components/app/SidebarShell.astro";
 import Tag from "@components/ui/tags/Tag.astro";
+import OwnershipNote from "@components/app/OwnershipNote.astro";
 
 const siteTitle = themeConfig.general.title;
 const pageTitle = frontmatter?.title || siteTitle;
@@ -17,7 +18,8 @@ const seoTitle = frontmatter?.seoTitle || pageTitle;
 const h1Title = frontmatter?.h1 || seoTitle;
 const link = frontmatter?.link;
 const description = frontmatter?.description;
-const linkText = link?.replace(/^https?:\/\//, "");
+// Show only the site name; the link itself may carry a long tracking query.
+const linkText = link?.replace(/^https?:\/\//, "").replace(/[/?#].*$/, "");
 const sidebar = config.layout.sidebar;
 const tags = frontmatter?.tags || [];
 const pricing = frontmatter?.pricing;
@@ -25,6 +27,7 @@ const category = frontmatter?.category;
 const functionality = frontmatter?.functionality || [];
 const targetUsers = frontmatter?.targetUsers || [];
 const featured = frontmatter?.featured;
+const isHalliard = /halliardmedia\.com/.test(link ?? "");
 ---
 
 <BaseLayout title={seoTitle} description={description} slug={slug} faqSchema={faqSchema}>
@@ -44,6 +47,7 @@ const featured = frontmatter?.featured;
     sidebar ? (
       <SidebarShell showSidebar={false}>
         <div class="max-w-5xl w-full mx-auto pt-4 pb-16">
+          {isHalliard && <OwnershipNote variant="listing" />}
           <!-- Hero Section -->
           <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 mb-6">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
@@ -139,6 +143,7 @@ const featured = frontmatter?.featured;
     ) : (
       <AppShell>
         <div class="max-w-5xl w-full mx-auto pt-4 pb-16">
+          {isHalliard && <OwnershipNote variant="listing" />}
           <!-- Hero Section -->
           <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 mb-6">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">

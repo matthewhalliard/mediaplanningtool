@@ -3,7 +3,8 @@ import "@fontsource/gabarito";
 import BaseLayout from "./BaseLayout.astro";
 import AppProse from "../components/app/Prose.astro";
 import { Icon } from "astro-icon/components";
-const { frontmatter, slug } = Astro.props;
+const { frontmatter, slug, mentionsHalliard } = Astro.props;
+import OwnershipNote from "@components/app/OwnershipNote.astro";
 import themeConfig from "@util/themeConfig";
 import AppShell from "@components/app/AppShell.astro";
 const siteTitle = themeConfig.general.title;
@@ -69,6 +70,7 @@ const hasMeta = formattedDate || author || readTime || category;
           )}
         </div>
       )}
+      {mentionsHalliard && <OwnershipNote />}
       <AppProse>
         <slot />
       </AppProse>

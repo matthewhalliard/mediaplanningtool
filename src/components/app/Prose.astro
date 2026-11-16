@@ -12,6 +12,15 @@
     content: none !important;
   }
 
+  /* On phones a wide comparison table scrolls inside itself, not the page. */
+  @media (max-width: 640px) {
+    .prose table {
+      display: block;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
   /* Table styling — zebra rows, bold header row with subtle background, generous padding */
   .prose table {
     width: 100%;

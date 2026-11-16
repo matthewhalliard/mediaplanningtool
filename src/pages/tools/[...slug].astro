@@ -4,6 +4,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import AppShell from "@components/app/AppShell.astro";
 import CalculatorTool from "@components/pseo/CalculatorTool.vue";
 import SharedCTA from "@components/pseo/SharedCTA.astro";
+import { halliardUrl } from "@lib/halliard";
 import type { FreeTool } from "@lib/pseo/schemas";
 
 export const prerender = true;
@@ -95,6 +96,13 @@ const jsonLd = [
           presets={data.tool_config.presets}
           client:load
         />
+
+        <!-- Handoff: this calculator answers one number; the planning tool does the whole plan -->
+        <p class="mt-4 mb-8 text-sm text-gray-600 dark:text-gray-400">
+          This works out one number.
+          <a href={halliardUrl("/plan", "calculator_inline")} class="font-semibold text-primary-700 dark:text-primary-300 underline">Model it across your whole plan in Halliard</a>,
+          which publishes this directory.
+        </p>
 
         <!-- How It Works -->
         <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 md:p-8 mb-6">
