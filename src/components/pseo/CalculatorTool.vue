@@ -31,7 +31,7 @@
             v-for="m in modes"
             :key="m.id"
             type="button"
-            @click="modeId = m.id"
+            @click="modeId = m.id; trackUse()"
             :aria-pressed="modeId === m.id"
             class="px-4 py-2 rounded-md text-sm font-medium transition-colors"
             :class="modeId === m.id
@@ -53,7 +53,7 @@
             <select
               :id="input.id"
               v-model="values[input.id]"
-              @change="activePreset = ''"
+              @change="activePreset = ''; trackUse()"
               class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-4 py-3 text-gray-900 dark:text-gray-100 focus:border-primary-500 focus:ring-primary-500"
             >
               <option v-for="opt in input.options" :key="opt.value" :value="opt.value">
@@ -151,7 +151,26 @@ const props = defineProps<{
   output: ToolOutput;
   presets?: Preset[];
   modes?: Mode[];
+  /** Tool slug, sent with the UseCalculator event. Falls back to the URL's last segment. */
+  calculator?: string;
 }>();
+
+// In-market signal: the first real use of the calculator on this page load
+// (typing, picking an option, loading a preset or switching mode) fires
+// UseCalculator on the shared Meta pixel and calculator_used in PostHog.
+// The pixel is a consent-gated queue (MetaPixel.astro), so this is safe to
+// call for every visitor.
+let usageTracked = false;
+function trackUse() {
+  if (usageTracked || typeof window === 'undefined') return;
+  usageTracked = true;
+  const w = window as any;
+  const calculator =
+    props.calculator || window.location.pathname.split('/').filter(Boolean).pop() || 'unknown';
+  const params = { calculator, site: 'mediaplanningtool' };
+  try { w.fbq?.('trackCustom', 'UseCalculator', params); } catch {}
+  try { w.posthog?.capture?.('calculator_used', params); } catch {}
+}
 
 const values = reactive<Record<string, number | string>>({});
 const display = reactive<Record<string, string>>({});
@@ -206,6 +225,7 @@ function onInput(input: ToolInput, e: Event) {
   const n = parse(text);
   values[input.id] = n ?? 0;
   activePreset.value = '';
+  trackUse();
 }
 
 function onBlur(input: ToolInput) {
@@ -253,6 +273,7 @@ const formattedResult = computed(() => {
 });
 
 function applyPreset(preset: Preset) {
+  trackUse();
   activePreset.value = preset.name;
   for (const [key, val] of Object.entries(preset.values)) {
     if (key in values) {
