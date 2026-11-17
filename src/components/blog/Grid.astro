@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import { Icon } from "astro-icon/components";
 
 const allListings = await getCollection("blog");
 
@@ -27,7 +26,7 @@ const sorted = [...allListings].sort((a: any, b: any) => {
 });
 ---
 
-<div class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="not-prose container-site grid grid-cols-1 gap-4 pt-4 md:grid-cols-2 lg:grid-cols-3">
   {sorted.map((entry: any) => {
     const title = entry.data?.title || entry.id;
     const excerpt = entry.data?.excerpt || entry.data?.description || "";
@@ -39,18 +38,17 @@ const sorted = [...allListings].sort((a: any, b: any) => {
     return (
       <a
         href={href}
-        class="flex flex-col h-full p-6 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 hover:border-gray-400 dark:hover:border-gray-300 transition-colors"
+        class="flex h-full flex-col rounded-[14px] border border-gray-200 bg-white p-6 transition-colors hover:border-ink dark:border-gray-700 dark:bg-gray-800 dark:hover:border-gray-300"
       >
         {(category || dateStr || readTime) && (
-          <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-gray-600 dark:text-gray-400 mb-3">
+          <div class="mb-4 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-gray-500 dark:text-gray-400">
             {category && (
-              <span class="inline-flex items-center bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2 py-0.5 rounded font-medium uppercase tracking-wide">
+              <span class="mono-label text-primary-600 dark:text-primary-300">
                 {category}
               </span>
             )}
             {dateStr && (
               <span class="inline-flex items-center gap-1">
-                <Icon name="tabler:calendar" class="w-3.5 h-3.5" />
                 {dateStr}
               </span>
             )}
@@ -58,22 +56,20 @@ const sorted = [...allListings].sort((a: any, b: any) => {
               <>
                 <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
                 <span class="inline-flex items-center gap-1">
-                  <Icon name="tabler:clock" class="w-3.5 h-3.5" />
                   {readTime}
                 </span>
               </>
             )}
           </div>
         )}
-        <h3 class="font-display text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight mb-2">
+        <h3 class="m-0 mb-2 text-xl font-semibold leading-tight tracking-[-0.02em] text-ink dark:text-gray-100">
           {title}
         </h3>
-        <p class="text-sm text-gray-800 dark:text-gray-300 leading-relaxed line-clamp-3 mb-4">
+        <p class="m-0 mb-4 line-clamp-3 text-[15px] leading-relaxed text-gray-600 dark:text-gray-300">
           {excerpt}
         </p>
         {author && (
-          <div class="mt-auto text-xs text-gray-600 dark:text-gray-400 inline-flex items-center gap-1.5">
-            <Icon name="tabler:user" class="w-3.5 h-3.5" />
+          <div class="mt-auto inline-flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">
             {author}
           </div>
         )}

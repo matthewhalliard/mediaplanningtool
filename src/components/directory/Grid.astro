@@ -7,7 +7,18 @@ const allListings = (await getListings()).sort(
 );
 ---
 
-<PureGrid id="directory-grid" listings={allListings} />
+<section class="not-prose container-site flex flex-col gap-5 pb-18">
+  <div class="flex flex-wrap items-end justify-between gap-3">
+    <h2 class="m-0 text-[28px] text-ink dark:text-white">All tools</h2>
+    <p class="m-0 font-mono text-[13px] text-gray-600 dark:text-gray-400">
+      <span id="directory-visible-count">{allListings.length}</span> of {allListings.length} tools · featured first
+    </p>
+  </div>
+  <PureGrid id="directory-grid" listings={allListings} />
+  <p id="directory-empty" class="hidden rounded-[14px] border border-dashed border-gray-300 px-6 py-10 text-center text-gray-600">
+    No tools match that search. Try a broader term or clear the filters.
+  </p>
+</section>
 
 <script>
   import { search, tags } from "../../store.js";
@@ -19,6 +30,7 @@ const allListings = (await getListings()).sort(
     const selectedTags = tags.get();
     const selectedTagsSet: Set<string> = new Set(selectedTags); // For efficient lookup
 
+    let visible = 0;
     for (const element of listingsArray) {
       // Get content for search filtering
       const content = (
@@ -38,12 +50,21 @@ const allListings = (await getListings()).sort(
 
         // Show or hide the listing
         if (matchesSearch && matchesTags) {
+          visible++;
           element.classList.remove("hidden");
         } else {
           element.classList.add("hidden");
         }
       }
     }
+    updateCount(visible);
+  }
+
+  function updateCount(visible: number) {
+    const count = document.getElementById("directory-visible-count");
+    if (count) count.textContent = String(visible);
+    document.getElementById("directory-empty")?.classList.toggle("hidden", visible > 0);
+    document.getElementById("directory-grid")?.classList.toggle("hidden", visible === 0);
   }
 
   // Subscribe to both stores, triggering filtering on any change

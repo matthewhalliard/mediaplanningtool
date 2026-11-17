@@ -1,0 +1,100 @@
+---
+// Tool page header + body, shared by the plain and sidebar shells.
+import { Icon } from "astro-icon/components";
+import Tag from "@components/ui/tags/Tag.astro";
+import OwnershipNote from "@components/app/OwnershipNote.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const { frontmatter, pageTitle, h1Title } = Astro.props;
+const link = frontmatter?.link;
+const description = frontmatter?.description;
+// Show only the site name; the link itself may carry a long tracking query.
+const linkText = link?.replace(/^https?:\/\//, "").replace(/[/?#].*$/, "");
+const tags: string[] = (frontmatter?.tags || []).filter((t: string) => t !== "featured");
+const pricing = frontmatter?.pricing;
+const category = frontmatter?.category;
+const functionality = frontmatter?.functionality || [];
+const targetUsers = frontmatter?.targetUsers || [];
+const featured = frontmatter?.featured;
+const isHalliard = /halliardmedia\.com/.test(link ?? "");
+const isTool = Boolean(link);
+const initial = (pageTitle || "?").trim().charAt(0).toUpperCase();
+---
+
+<div class="container-site max-w-[960px] pt-10 pb-16 sm:pt-14">
+  {isTool && <nav aria-label="Breadcrumb" class="mb-8 flex items-center gap-2 font-mono text-[13px] text-gray-500">
+    <a href="/" class="hover:text-ink">Tools</a>
+    <span aria-hidden="true">/</span>
+    <span class="text-gray-700 dark:text-gray-300">{pageTitle}</span>
+  </nav>}
+
+  {isHalliard && <OwnershipNote variant="listing" />}
+
+  <header class="flex flex-col gap-6 border-b border-gray-200 pb-10 dark:border-gray-700">
+    {(isTool || category || featured) && <div class="flex items-center gap-3">
+      {isTool && <span class="flex h-12 w-12 items-center justify-center rounded-[12px] border border-gray-200 bg-white text-lg font-semibold text-ink dark:border-gray-700 dark:bg-gray-800 dark:text-white" aria-hidden="true">{initial}</span>}
+      <div class="flex flex-wrap items-center gap-2">
+        {category && <span class="mono-label text-primary-600 dark:text-primary-400">{category}</span>}
+        {featured && (
+          <span class="rounded-md border border-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:border-gray-600 dark:text-gray-300">
+            {isHalliard ? "From the publisher" : "Featured"}
+          </span>
+        )}
+      </div>
+    </div>}
+    <h1 class="m-0 max-w-[820px] text-[40px] leading-[1.02] tracking-[-0.04em] text-ink sm:text-[52px] dark:text-gray-50">
+      {h1Title}
+    </h1>
+    {description && (
+      <p class="m-0 max-w-[680px] text-lg leading-relaxed text-gray-600 dark:text-gray-300">{description}</p>
+    )}
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-1.5">
+        {tags.slice(0, 5).map((tag: string) => <Tag tag={tag} />)}
+      </div>
+    )}
+    {link && (
+      <div class="flex flex-wrap items-center gap-4">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex h-12 items-center gap-2 rounded-[10px] bg-ink px-5 text-[15px] font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-ink"
+        >
+          Visit {pageTitle}
+          <Icon name="tabler:arrow-up-right" class="h-4 w-4" />
+        </a>
+        <span class="font-mono text-[13px] text-gray-500">{linkText}</span>
+      </div>
+    )}
+  </header>
+
+  {(category || pricing || functionality.length > 0 || targetUsers.length > 0) && (
+    <dl class="m-0 grid grid-cols-1 gap-px overflow-hidden border-b border-gray-200 sm:grid-cols-3 dark:border-gray-700">
+      {pricing && (
+        <div class="py-6 sm:pr-6">
+          <dt class="mono-label text-gray-500">Pricing</dt>
+          <dd class="m-0 mt-2 font-mono text-[15px] text-ink dark:text-gray-100">{pricing}</dd>
+        </div>
+      )}
+      {functionality.length > 0 && (
+        <div class="py-6 sm:px-6">
+          <dt class="mono-label text-gray-500">Key features</dt>
+          <dd class="m-0 mt-2 font-mono text-[15px] text-ink dark:text-gray-100">{functionality.length} core features</dd>
+        </div>
+      )}
+      {targetUsers.length > 0 && (
+        <div class="py-6 sm:pl-6">
+          <dt class="mono-label text-gray-500">Built for</dt>
+          <dd class="m-0 mt-2 text-[15px] text-ink dark:text-gray-100">{targetUsers.join(" · ")}</dd>
+        </div>
+      )}
+    </dl>
+  )}
+
+  <div class="mt-10">
+    <AppProse>
+      <slot />
+    </AppProse>
+  </div>
+</div>

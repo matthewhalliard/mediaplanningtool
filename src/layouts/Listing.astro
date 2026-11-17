@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import AppProse from "../components/app/Prose.astro";
 const { frontmatter, slug, faqSchema } = Astro.props;
 import themeConfig from "@util/themeConfig";
-import { Icon } from "astro-icon/components";
 import AppShell from "@components/app/AppShell.astro";
 import config from "@util/themeConfig";
 import SidebarShell from "@components/app/SidebarShell.astro";
-import Tag from "@components/ui/tags/Tag.astro";
-import OwnershipNote from "@components/app/OwnershipNote.astro";
+import ListingBody from "@components/listings/ListingBody.astro";
 
 const siteTitle = themeConfig.general.title;
 const pageTitle = frontmatter?.title || siteTitle;
@@ -16,18 +13,9 @@ const seoTitle = frontmatter?.seoTitle || pageTitle;
 // H1 should match the SEO intent so Google doesn't rewrite the title in SERPs.
 // Falls back to seoTitle (and then pageTitle) when frontmatter.h1 isn't provided.
 const h1Title = frontmatter?.h1 || seoTitle;
-const link = frontmatter?.link;
 const description = frontmatter?.description;
-// Show only the site name; the link itself may carry a long tracking query.
-const linkText = link?.replace(/^https?:\/\//, "").replace(/[/?#].*$/, "");
 const sidebar = config.layout.sidebar;
-const tags = frontmatter?.tags || [];
-const pricing = frontmatter?.pricing;
 const category = frontmatter?.category;
-const functionality = frontmatter?.functionality || [];
-const targetUsers = frontmatter?.targetUsers || [];
-const featured = frontmatter?.featured;
-const isHalliard = /halliardmedia\.com/.test(link ?? "");
 ---
 
 <BaseLayout title={seoTitle} description={description} slug={slug} faqSchema={faqSchema}>
@@ -46,197 +34,16 @@ const isHalliard = /halliardmedia\.com/.test(link ?? "");
   {
     sidebar ? (
       <SidebarShell showSidebar={false}>
-        <div class="max-w-5xl w-full mx-auto pt-4 pb-16">
-          {isHalliard && <OwnershipNote variant="listing" />}
-          <!-- Hero Section -->
-          <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 mb-6">
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
-              <div class="flex-1">
-                {featured && (
-                  <div class="inline-flex items-center gap-2 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-200 px-3 py-1 rounded-full text-sm font-medium mb-4">
-                    <Icon name="tabler:star" class="w-4 h-4" />
-                    {isHalliard ? "From the publisher" : "Featured Tool"}
-                  </div>
-                )}
-                <h1 class="font-display font-bold text-3xl lg:text-4xl text-gray-900 dark:text-gray-50 mb-4">
-                  {h1Title}
-                </h1>
-                <p class="text-lg text-gray-800 dark:text-gray-300 mb-6 leading-relaxed">
-                  {description}
-                </p>
-                <div class="flex flex-wrap gap-3 mb-6">
-                  {tags.slice(0, 5).map((tag: string) => (
-                    <Tag key={tag} tag={tag} />
-                  ))}
-                </div>
-              </div>
-              <div class="flex flex-col gap-4">
-                {link && (
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-                  >
-                    Visit {pageTitle}
-                    <Icon name="tabler:arrow-up-right" class="w-5 h-5" />
-                  </a>
-                )}
-                <div class="text-sm text-gray-500 dark:text-gray-400 text-center">
-                  {linkText}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Metadata Bar (inline, not cards) -->
-          {(category || pricing || functionality.length > 0) && (
-            <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-gray-800 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700 pb-6 mb-8">
-              {category && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:category" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Category:</span>
-                  <span>{category}</span>
-                </div>
-              )}
-              {pricing && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:currency-dollar" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Pricing:</span>
-                  <span>{pricing}</span>
-                </div>
-              )}
-              {functionality.length > 0 && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:tool" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Key Features:</span>
-                  <span>{functionality.length} core features</span>
-                </div>
-              )}
-            </div>
-          )}
-
-          <!-- Target Users -->
-          {targetUsers.length > 0 && (
-            <div class="mb-12">
-              <div class="flex items-center gap-2 mb-4">
-                <Icon name="tabler:users" class="w-5 h-5 text-indigo-600" />
-                <h2 class="font-display text-xl font-bold text-gray-900 dark:text-gray-100">Perfect For</h2>
-              </div>
-              <div class="flex flex-wrap gap-2">
-                {targetUsers.map((user: string) => (
-                  <span class="inline-flex items-center gap-2 bg-gray-100 dark:bg-gray-700 px-3 py-1.5 rounded-md text-sm font-medium text-gray-800 dark:text-gray-300">
-                    <Icon name="tabler:user-check" class="w-4 h-4 text-indigo-600" />
-                    {user}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <!-- Main Content (flattened — no nested card) -->
-          <AppProse>
-            <slot />
-          </AppProse>
-        </div>
+        <ListingBody frontmatter={frontmatter} pageTitle={pageTitle} h1Title={h1Title}>
+          <slot />
+        </ListingBody>
       </SidebarShell>
     ) : (
       <AppShell>
-        <div class="max-w-5xl w-full mx-auto pt-4 pb-16">
-          {isHalliard && <OwnershipNote variant="listing" />}
-          <!-- Hero Section -->
-          <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-8 mb-6">
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
-              <div class="flex-1">
-                {featured && (
-                  <div class="inline-flex items-center gap-2 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-200 px-3 py-1 rounded-full text-sm font-medium mb-4">
-                    <Icon name="tabler:star" class="w-4 h-4" />
-                    {isHalliard ? "From the publisher" : "Featured Tool"}
-                  </div>
-                )}
-                <h1 class="font-display font-bold text-3xl lg:text-4xl text-gray-900 dark:text-gray-50 mb-4">
-                  {h1Title}
-                </h1>
-                <p class="text-lg text-gray-800 dark:text-gray-300 mb-6 leading-relaxed">
-                  {description}
-                </p>
-                <div class="flex flex-wrap gap-3 mb-6">
-                  {tags.slice(0, 5).map((tag: string) => (
-                    <Tag key={tag} tag={tag} />
-                  ))}
-                </div>
-              </div>
-              <div class="flex flex-col gap-4">
-                {link && (
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-                  >
-                    Visit {pageTitle}
-                    <Icon name="tabler:arrow-up-right" class="w-5 h-5" />
-                  </a>
-                )}
-                <div class="text-sm text-gray-500 dark:text-gray-400 text-center">
-                  {linkText}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Metadata Bar (inline, not cards) -->
-          {(category || pricing || functionality.length > 0) && (
-            <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-gray-800 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700 pb-6 mb-8">
-              {category && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:category" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Category:</span>
-                  <span>{category}</span>
-                </div>
-              )}
-              {pricing && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:currency-dollar" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Pricing:</span>
-                  <span>{pricing}</span>
-                </div>
-              )}
-              {functionality.length > 0 && (
-                <div class="inline-flex items-center gap-2">
-                  <Icon name="tabler:tool" class="w-4 h-4 text-gray-500" />
-                  <span class="font-semibold text-gray-900 dark:text-gray-100">Key Features:</span>
-                  <span>{functionality.length} core features</span>
-                </div>
-              )}
-            </div>
-          )}
-
-          <!-- Target Users -->
-          {targetUsers.length > 0 && (
-            <div class="mb-12">
-              <div class="flex items-center gap-2 mb-4">
-                <Icon name="tabler:users" class="w-5 h-5 text-indigo-600" />
-                <h2 class="font-display text-xl font-bold text-gray-900 dark:text-gray-100">Perfect For</h2>
-              </div>
-              <div class="flex flex-wrap gap-2">
-                {targetUsers.map((user: string) => (
-                  <span class="inline-flex items-center gap-2 bg-gray-100 dark:bg-gray-700 px-3 py-1.5 rounded-md text-sm font-medium text-gray-800 dark:text-gray-300">
-                    <Icon name="tabler:user-check" class="w-4 h-4 text-indigo-600" />
-                    {user}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <!-- Main Content (flattened — no nested card) -->
-          <AppProse>
-            <slot />
-          </AppProse>
-        </div>
+        <ListingBody frontmatter={frontmatter} pageTitle={pageTitle} h1Title={h1Title}>
+          <slot />
+        </ListingBody>
       </AppShell>
     )
   }
 </BaseLayout>
-<!-- rebuild trigger 1773166400 -->

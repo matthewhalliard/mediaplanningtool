@@ -52,7 +52,7 @@ const verticalLabels: Record<string, string> = {
 
 <BaseLayout title="Media Planning Resources — Checklists, Guides & Templates" description="Free media planning resources for every vertical and channel. Download checklists, guides, templates, and frameworks built for media planners." slug="resources">
   <AppShell>
-    <div class="w-full max-w-6xl mx-auto px-4 py-8">
+    <div class="w-full max-w-[1200px] mx-auto px-4 sm:px-6 py-8">
       <!-- Breadcrumbs -->
       <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6">
         <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
@@ -61,8 +61,8 @@ const verticalLabels: Record<string, string> = {
       </nav>
 
       <!-- Hero -->
-      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 mb-10">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-gray-50 mb-4">
+      <div class="bg-white border border-gray-200 rounded-[14px] p-8 md:p-12 mb-10">
+        <h1 class="text-4xl md:text-5xl lg:text-[56px] font-semibold tracking-[-0.04em] leading-[1.02] text-gray-900 dark:text-gray-50 mb-4">
           Media Planning Resources
         </h1>
         <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl leading-relaxed">
@@ -74,7 +74,6 @@ const verticalLabels: Record<string, string> = {
               href={`#${type}`}
               class="inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-medium bg-white/80 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-white dark:hover:bg-gray-600 transition-colors border border-gray-200 dark:border-gray-600"
             >
-              <span>{contentTypeLabels[type]?.emoji}</span>
               <span>{contentTypeLabels[type]?.label} ({byType.get(type)?.length})</span>
             </a>
           ))}
@@ -88,8 +87,7 @@ const verticalLabels: Record<string, string> = {
         return (
           <section id={type} class="mb-12">
             <div class="mb-6">
-              <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50 flex items-center gap-2">
-                <span>{typeInfo?.emoji}</span>
+              <h2 class="text-2xl font-semibold text-gray-900 dark:text-gray-50 flex items-center gap-2">
                 <span>{typeInfo?.label}</span>
                 <span class="text-base font-normal text-gray-400">({pages.length})</span>
               </h2>
@@ -99,10 +97,10 @@ const verticalLabels: Record<string, string> = {
               {pages.map((page) => (
                 <a
                   href={`/resources/${page.seo.slug}`}
-                  class="group block rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-5 hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md transition-all"
+                  class="group block rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-5 hover:border-ink dark:hover:border-gray-400 transition-all"
                 >
                   <div class="flex flex-wrap gap-1.5 mb-3">
-                    <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-400">
+                    <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-400">
                       {verticalLabels[page.meta.vertical] || page.meta.vertical}
                     </span>
                     {page.meta.channel && (
@@ -125,9 +123,9 @@ const verticalLabels: Record<string, string> = {
       })}
 
       <!-- CTA -->
-      <section class="mt-8 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12 border border-primary-200 dark:border-gray-700">
+      <section class="mt-8 bg-white border border-gray-200 rounded-[14px] p-8 md:p-12 border dark:border-gray-700">
         <div class="text-center max-w-2xl mx-auto">
-          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-50 mb-4">
+          <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-50 mb-4">
             Plan faster with Halliard
           </h2>
           <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
@@ -135,7 +133,7 @@ const verticalLabels: Record<string, string> = {
           </p>
           <a
             href="https://www.halliardmedia.com/media-planning-templates?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=resources_index"
-            class="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+            class="inline-flex items-center justify-center gap-2 bg-ink hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
           >
             See Halliard
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>

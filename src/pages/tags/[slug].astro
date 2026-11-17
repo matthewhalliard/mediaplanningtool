@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import formatString from "../../util/formatString";
 import type Tag from "../../types/Tag";
 import config from "@util/themeConfig";
-import Sidebar from "@layouts/Sidebar.astro";
+import Home from "@layouts/Home.astro";
 
 // Set page title for SEO
 export const prerender = true;
@@ -23,6 +23,12 @@ export async function getStaticPaths() {
 const { title, name, description } = Astro.props;
 
 const allListings = await getCollection("directory");
+
+const allTags: Array<Tag> = config.directoryData.tags;
+const tagCounts: Record<string, number> = {};
+for (const listing of allListings as any[]) {
+  for (const t of listing?.data?.tags ?? []) tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+}
 
 const calculatedTitle = name || title;
 const calculatedDescription = description;
@@ -43,14 +49,40 @@ function toTitleCase(str: string) {
 const pageTitle = toTitleCase(formatString(config.directoryData.tagPages.title, calculatedTitle));
 ---
 
-<Sidebar title={pageTitle} description={calculatedDescription} slug={`tags/${title}`} noindex={true}>
-  <div class="max-w-3xl xl:max-w-6xl w-full mx-auto">
-    <h1 class="text-gray-600 font-semibold text-4xl">
+<Home title={pageTitle} description={calculatedDescription} slug={`tags/${title}`} noindex={true}>
+  <div class="container-site pt-14 pb-10">
+    <p class="mb-5 flex items-center gap-2.5 font-mono text-[13px] text-gray-600">
+      <span class="h-2 w-2 rounded-full bg-primary-600" aria-hidden="true"></span>
+      {tagListings.length} tools
+    </p>
+    <h1 class="m-0 text-[44px] leading-[1.02] text-ink sm:text-[56px]">
       {pageTitle}
     </h1>
-    <p class="text-gray-600 dark:text-gray-200 mb-12 max-w-prose">
+    <p class="mt-4 mb-10 max-w-[640px] text-lg text-gray-600 dark:text-gray-200">
       {calculatedDescription}
     </p>
     <PureGrid listings={tagListings} />
+    <nav aria-label="All tags" class="mt-14 border-t border-gray-200 pt-8 dark:border-gray-700">
+      <h2 class="mono-label m-0 mb-4 text-gray-500">Browse by tag</h2>
+      <ul role="list" class="m-0 flex list-none flex-wrap gap-2 p-0">
+        {allTags.map((t) => (
+          <li>
+            <a
+              href={`/tags/${t.key}`}
+              aria-current={t.key === title ? "page" : undefined}
+              class:list={[
+                "inline-flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors",
+                t.key === title
+                  ? "border-ink bg-ink text-white"
+                  : "border-gray-200 bg-white text-ink hover:border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100",
+              ]}
+            >
+              {t.name}
+              <span class="font-mono text-xs opacity-60">{tagCounts[t.key ?? ""] ?? 0}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   </div>
-</Sidebar>
+</Home>

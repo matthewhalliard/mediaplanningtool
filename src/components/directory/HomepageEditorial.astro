@@ -1,90 +1,88 @@
 ---
 // Neutral editorial framing for the homepage. The goal is to look like a
 // trustworthy comparison directory, not a self-serving ranked advertorial.
+// part="use-cases" renders the job cards; part="criteria" renders how tools are compared.
+// The independence disclosure lives in the site footer.
+const { part = "use-cases" } = Astro.props;
+
+const useCases = [
+  {
+    href: "/halliard",
+    label: "Free / lightweight",
+    title: "Individual planners",
+    body: "Good fit when you need quick omnichannel planning, calculators, or a lightweight starting point before enterprise procurement.",
+  },
+  {
+    href: "/basis",
+    label: "Enterprise suites",
+    title: "Agency planning + buying",
+    body: "Best evaluated when workflow, buying integrations, approvals, reporting, and cross-team operations matter as much as planning math.",
+  },
+  {
+    href: "/nielsen-media-impact",
+    label: "TV / cross-media",
+    title: "Reach and frequency",
+    body: "Relevant for planners who need established audience data, TV/CTV scenario planning, and cross-media measurement context.",
+  },
+  {
+    href: "/bionic",
+    label: "Workflow",
+    title: "Flowcharts and budgets",
+    body: "Useful when the bottleneck is organizing plans, maintaining versions, building flowcharts, and keeping budget details consistent.",
+  },
+];
+
+const criteria = [
+  { title: "Use-case fit", body: "Who the tool is actually built for." },
+  { title: "Pricing clarity", body: "Published pricing, free tiers, or procurement complexity." },
+  { title: "Planning depth", body: "R&F, scenarios, audience data, and budget allocation." },
+  { title: "Workflow", body: "Approvals, exports, collaboration, and flowcharts." },
+  { title: "Tradeoffs", body: "Where a tool is strong, weak, overkill, or too narrow." },
+];
 ---
 
-<section class="mb-12 space-y-10 not-prose">
-  <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
-    <p class="text-base leading-7 text-gray-700 dark:text-gray-300">
-      MediaPlanningTool.com tracks media planning tools by use case: lightweight planning, agency workflow,
-      enterprise planning and buying, audience research, TV reach and frequency, and reporting. The goal is to
-      help planners compare tradeoffs quickly — pricing transparency, data depth, channel coverage, workflow fit,
-      and whether a platform is built for planning only or planning plus buying.
-    </p>
-  </div>
-
-  <section>
-    <div class="mb-5 flex items-end justify-between gap-4">
-      <div>
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50">Start by use case</h2>
-        <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-          There is no universal “best” media planning tool. The right shortlist depends on the planning job.
-        </p>
-      </div>
+{part === "use-cases" ? (
+  <section class="not-prose container-site flex flex-col gap-6 pt-6 pb-16">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <h2 class="m-0 text-[28px] text-ink dark:text-white">Start by use case</h2>
+      <p class="m-0 max-w-xl text-[15px] text-gray-600 dark:text-gray-400">
+        There is no universal “best” media planning tool. The right shortlist depends on the planning job.
+      </p>
     </div>
-
-    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <a href="/halliard" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
-        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Free / lightweight</p>
-        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Individual planners</h3>
-        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
-          Good fit when you need quick omnichannel planning, calculators, or a lightweight starting point before enterprise procurement.
-        </p>
-      </a>
-      <a href="/basis" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
-        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Enterprise suites</p>
-        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Agency planning + buying</h3>
-        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
-          Best evaluated when workflow, buying integrations, approvals, reporting, and cross-team operations matter as much as planning math.
-        </p>
-      </a>
-      <a href="/nielsen-media-impact" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
-        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">TV / cross-media</p>
-        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Reach and frequency</h3>
-        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
-          Relevant for planners who need established audience data, TV/CTV scenario planning, and cross-media measurement context.
-        </p>
-      </a>
-      <a href="/bionic" class="block rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
-        <p class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Workflow</p>
-        <h3 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Flowcharts and budgets</h3>
-        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">
-          Useful when the bottleneck is organizing plans, maintaining versions, building flowcharts, and keeping budget details consistent.
-        </p>
-      </a>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {useCases.map((c) => (
+        <a
+          href={c.href}
+          class="flex min-h-[200px] flex-col gap-3.5 rounded-[14px] border border-gray-200 bg-white p-6 transition-colors hover:border-ink dark:border-gray-700 dark:bg-gray-800 dark:hover:border-gray-400"
+        >
+          <span class="mono-label text-primary-600 dark:text-primary-400">{c.label}</span>
+          <span class="text-xl font-semibold tracking-[-0.02em] text-ink dark:text-gray-50">{c.title}</span>
+          <span class="text-[15px] leading-normal text-gray-600 dark:text-gray-400">{c.body}</span>
+        </a>
+      ))}
     </div>
   </section>
-
-  <section class="rounded-2xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/60">
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-50">How we compare tools</h2>
-    <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
-      <div>
-        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Use-case fit</h3>
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Who the tool is actually built for.</p>
+) : (
+  <section class="not-prose border-y border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
+    <div class="container-site py-14">
+      <div class="mb-10 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] lg:items-end">
+        <h2 class="m-0 text-[28px] text-ink dark:text-white">How we compare tools</h2>
+        <p class="m-0 text-[15px] leading-relaxed text-gray-600 dark:text-gray-400">
+          MediaPlanningTool.com tracks media planning tools by use case: lightweight planning, agency workflow,
+          enterprise planning and buying, audience research, TV reach and frequency, and reporting. The goal is to
+          help planners compare tradeoffs quickly — pricing transparency, data depth, channel coverage, workflow fit,
+          and whether a platform is built for planning only or planning plus buying.
+        </p>
       </div>
-      <div>
-        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Pricing clarity</h3>
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Published pricing, free tiers, or procurement complexity.</p>
-      </div>
-      <div>
-        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Planning depth</h3>
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">R&F, scenarios, audience data, and budget allocation.</p>
-      </div>
-      <div>
-        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Workflow</h3>
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Approvals, exports, collaboration, and flowcharts.</p>
-      </div>
-      <div>
-        <h3 class="font-semibold text-gray-900 dark:text-gray-50">Tradeoffs</h3>
-        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Where a tool is strong, weak, overkill, or too narrow.</p>
-      </div>
+      <ol class="m-0 grid list-none grid-cols-1 gap-8 p-0 sm:grid-cols-2 lg:grid-cols-5">
+        {criteria.map((c, i) => (
+          <li class="flex flex-col gap-2">
+            <span class="font-mono text-[13px] text-primary-600 dark:text-primary-400">{String(i + 1).padStart(2, "0")}</span>
+            <h3 class="m-0 text-base font-semibold tracking-[-0.01em] text-ink dark:text-gray-50">{c.title}</h3>
+            <p class="m-0 text-sm leading-normal text-gray-600 dark:text-gray-400">{c.body}</p>
+          </li>
+        ))}
+      </ol>
     </div>
   </section>
-
-  <section class="rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/60 dark:bg-amber-950/20">
-    <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-50">Independence disclosure</h2>
-    <p class="mt-2 text-sm leading-6 text-gray-700 dark:text-gray-300">
-      Halliard is listed in this directory because it is a media planning tool. That relationship is disclosed here so readers can judge the comparison fairly. Placements are not sold, and the directory should remain useful even when Halliard is not the right fit.
-    </p>
-  </section>
-</section>
+)}

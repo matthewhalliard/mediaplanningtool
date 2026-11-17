@@ -8,15 +8,15 @@ pageHeader = 'none' # none, title
 [directoryUI.search]
 placeholder = "Search among {0} agent frameworks"
 showCount = true
-icon = "tabler:bow"
+icon = "tabler:search"
 
 [directoryUI.search.tags]
-display = "show-all" # options: none,select,show-all
+display = "pills" # options: none, select, show-all, pills
 intersection = false
 
 [directoryUI.grid]
 list = false
-type = "small-card-grid" # options: icon-list, small-card-grid, rectangle-card-grid
+type = "rows" # options: icon-list, small-card-grid, rectangle-card-grid, rows
 
 [directoryUI.grid.emptyState]
 text = "Seems that this entry is missing from the archives."

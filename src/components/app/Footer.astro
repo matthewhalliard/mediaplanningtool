@@ -1,10 +1,6 @@
 ---
 import AppLogo from "./Logo.astro";
-import { Icon } from "astro-icon/components";
-import config from "@util/themeConfig";
 
-const socials = Object.values(config.footer.socials);
-const socialNames = Object.keys(config.footer.socials);
 
 const navigation = [
   {
@@ -45,66 +41,50 @@ const navigation = [
 ---
 
 <footer
-  class="border-t border-gray-200 dark:border-gray-600 font-display"
+  class="mt-24 border-t border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900"
   aria-labelledby="footer-heading"
 >
   <h2 id="footer-heading" class="sr-only">Footer</h2>
-  <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="space-y-8">
+  <div class="container-site pt-14 pb-10">
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)]">
+      <div class="flex flex-col gap-5">
         <AppLogo />
+        <p class="max-w-md text-sm leading-6 text-gray-600 dark:text-gray-400">
+          <span class="font-medium text-ink dark:text-gray-100">Independence:</span>
+          placements are not sold. One listed tool, Halliard, is made by this site's publisher and is marked as such.
+          <a href="/about" class="underline underline-offset-2 hover:text-primary-600">About this directory</a>
+        </p>
       </div>
-      <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+      <div class="grid grid-cols-2 gap-8 sm:grid-cols-4">
         {
-          [...Array(2).keys()].map((count) => (
-            <div class="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  {navigation[count].title}
-                </h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  {navigation[count].links.map((item) => (
-                    <li>
-                      <a
-                        href={item.link}
-                        class="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:dark:text-gray-400 hover:text-gray-900"
-                      >
-                        {item.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  {navigation[count + 2].title}
-                </h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  {navigation[count + 2].links.map((item) => (
-                    <li>
-                      <a
-                        href={item.link}
-                        class="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:dark:text-gray-400 hover:text-gray-900"
-                      >
-                        {item.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          navigation.map((group) => (
+            <div>
+              <h3 class="mono-label text-gray-500 dark:text-gray-400">{group.title}</h3>
+              <ul role="list" class="mt-4 space-y-3">
+                {group.links.map((item) => (
+                  <li>
+                    <a
+                      href={item.link}
+                      class="text-sm text-gray-600 hover:text-ink dark:text-gray-300 dark:hover:text-white"
+                    >
+                      {item.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))
         }
       </div>
     </div>
-    <div
-      class="mt-16 border-t border-gray-900/10 dark:border-gray-600 pt-8 sm:mt-20 lg:mt-24"
-    >
-      <p class="text-xs leading-5 text-gray-500">
-        &copy; {new Date().getFullYear()}
-        {config.general.title}. Published by Halliard, which is listed in this directory. <a href="/about" class="underline hover:text-gray-700">About this directory</a>
-      </p>
+    <div class="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-6 text-sm text-gray-500 dark:border-gray-700">
+      <p class="font-mono text-xs">&copy; {new Date().getFullYear()} mediaplanningtool.com</p>
+      <div class="flex flex-wrap gap-5">
+        <a href="/about" class="hover:text-ink">About</a>
+        <a href="/2026-guide" class="hover:text-ink">How to choose</a>
+        <a href="/legal/privacy-policy" class="hover:text-ink">Privacy</a>
+        <a href="/legal/terms-of-service" class="hover:text-ink">Terms</a>
+      </div>
     </div>
   </div>
 </footer>

@@ -99,7 +99,7 @@ const directoryData = z.object({
 
 const directoryUI = z.object({
   grid: z.object({
-    type: z.enum(["icon-list", "rectangle-card-grid", "small-card-grid"]),
+    type: z.enum(["icon-list", "rectangle-card-grid", "small-card-grid", "rows"]),
     emptyState: z.object({
       text: z.string(),
       type: z.enum(["button", "simple", "link"]),
@@ -120,7 +120,7 @@ const directoryUI = z.object({
     showCount: z.boolean(),
     icon: z.string(),
     tags: z.object({
-      display: z.enum(["none", "select", "show-all"]),
+      display: z.enum(["none", "select", "show-all", "pills"]),
       intersection: z.boolean(),
     }),
   }),

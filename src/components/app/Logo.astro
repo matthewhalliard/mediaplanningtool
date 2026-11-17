@@ -1,26 +1,15 @@
 ---
-import { Icon } from "astro-icon/components";
-import config from "@util/themeConfig";
+// Wordmark: a 2x2 rounded-square grid ("compare") in indigo, then the name in lowercase.
+const { size = 26 } = Astro.props;
 ---
 
-<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-  {
-    config.general.logo ? (
-      <img
-        sizes="32px"
-        src={config.general.logo}
-        class="h-8"
-        alt={config?.general.title + " Logo"}
-      />
-    ) : (
-      <Icon
-        class="w-7 h-7 text-gray-600 dark:text-white"
-        name={config?.general?.iconLogo}
-      />
-    )
-  }
-  <span
-    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-    >{config.general.title}</span
-  >
+<a href="/" class="inline-flex items-center gap-2.5 no-underline text-ink dark:text-white" aria-label="mediaplanningtool home">
+  <svg width={size} height={size} viewBox="0 0 28 28" aria-hidden="true" class="shrink-0">
+    <rect width="28" height="28" rx="7" fill="#4338CA"></rect>
+    <rect x="7" y="7" width="6" height="6" rx="1.5" fill="#FFFFFF"></rect>
+    <rect x="15" y="7" width="6" height="6" rx="1.5" fill="#FFFFFF" opacity="0.55"></rect>
+    <rect x="7" y="15" width="6" height="6" rx="1.5" fill="#FFFFFF" opacity="0.55"></rect>
+    <rect x="15" y="15" width="6" height="6" rx="1.5" fill="#FFFFFF"></rect>
+  </svg>
+  <span class="text-[17px] font-semibold tracking-[-0.02em] whitespace-nowrap">mediaplanningtool</span>
 </a>

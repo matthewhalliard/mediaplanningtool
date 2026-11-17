@@ -4,7 +4,7 @@ import Wide from "@layouts/Wide.astro";
 import Listing from "@layouts/Listing.astro";
 import { render } from "astro:content";
 import Sidebar from "@layouts/Sidebar.astro";
-import Landing from "@layouts/Landing.astro";
+import Home from "@layouts/Home.astro";
 import { getRootPages } from "@lib/getRootPages";
 import { extractFAQs, generateFAQSchema } from "@util/extractFAQs";
 
@@ -30,9 +30,9 @@ const pageDescription = (entry.data as any).description;
 
 {
   landingView ? (
-    <Landing title={entry.data.title} description={pageDescription} slug={slug} faqSchema={faqSchema}>
+    <Home title={entry.data.title} description={pageDescription} slug={slug} faqSchema={faqSchema}>
       <Content />
-    </Landing>
+    </Home>
   ) : (
     <Listing frontmatter={entry.data} slug={slug} faqSchema={faqSchema}>
       <Content />
