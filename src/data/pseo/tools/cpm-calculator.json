@@ -4,16 +4,24 @@
     "channel": "programmatic-display"
   },
   "seo": {
-    "title": "CPM Calculator — Free Cost Per Mille Calculator for Media Planners (2026)",
-    "description": "Free CPM calculator for media planners. Calculate cost per 1,000 impressions, reverse-solve for impressions or budget, and compare against current channel benchmarks for CTV, programmatic, social, and more.",
-    "keywords": ["cpm calculator", "cost per mille calculator", "cost per thousand calculator", "cost per impression calculator", "cpm formula", "media planning calculator", "advertising cpm"],
+    "title": "Free CPM Calculator: Work Out CPM, Impressions or Budget (2026)",
+    "description": "Free CPM calculator. Find CPM from ad spend and impressions, or solve for impressions or budget from a CPM. Includes the CPM formula, worked examples and 2026 CPM benchmarks by channel.",
+    "keywords": [
+      "cpm calculator",
+      "cost per mille calculator",
+      "cost per thousand calculator",
+      "cost per impression calculator",
+      "cpm formula",
+      "media planning calculator",
+      "advertising cpm"
+    ],
     "slug": "cpm-calculator"
   },
   "tool_config": {
     "inputs": [
       {
         "id": "total_spend",
-        "label": "Total Ad Spend",
+        "label": "Ad spend",
         "type": "currency",
         "default_value": 10000,
         "min": 0,
@@ -23,13 +31,22 @@
       },
       {
         "id": "impressions",
-        "label": "Total Impressions",
+        "label": "Impressions",
         "type": "number",
         "default_value": 500000,
         "min": 1,
         "max": 10000000000,
         "step": 1000,
         "help_text": "Total number of ad impressions delivered."
+      },
+      {
+        "id": "cpm",
+        "label": "CPM (cost per 1,000 impressions)",
+        "type": "currency",
+        "default_value": 20,
+        "min": 0,
+        "step": 0.01,
+        "help_text": "The rate you were quoted or expect to pay."
       }
     ],
     "formula": "(total_spend / impressions) * 1000",
@@ -41,27 +58,95 @@
     "presets": [
       {
         "name": "Programmatic Display (Open Auction)",
-        "values": { "total_spend": 5000, "impressions": 1666667 }
+        "values": {
+          "total_spend": 5000,
+          "impressions": 1666667,
+          "cpm": 3.0
+        }
       },
       {
         "name": "CTV / Streaming Video",
-        "values": { "total_spend": 25000, "impressions": 833333 }
+        "values": {
+          "total_spend": 25000,
+          "impressions": 833333,
+          "cpm": 30.0
+        }
       },
       {
         "name": "Paid Social (Meta/TikTok)",
-        "values": { "total_spend": 10000, "impressions": 1000000 }
+        "values": {
+          "total_spend": 10000,
+          "impressions": 1000000,
+          "cpm": 10.0
+        }
       },
       {
         "name": "Premium Publisher PMP",
-        "values": { "total_spend": 15000, "impressions": 1000000 }
+        "values": {
+          "total_spend": 15000,
+          "impressions": 1000000,
+          "cpm": 15.0
+        }
       },
       {
         "name": "YouTube In-Stream",
-        "values": { "total_spend": 20000, "impressions": 1333333 }
+        "values": {
+          "total_spend": 20000,
+          "impressions": 1333333,
+          "cpm": 15.0
+        }
       },
       {
         "name": "Audio / Podcast",
-        "values": { "total_spend": 12000, "impressions": 480000 }
+        "values": {
+          "total_spend": 12000,
+          "impressions": 480000,
+          "cpm": 25.0
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "cpm",
+        "label": "CPM",
+        "inputs": [
+          "total_spend",
+          "impressions"
+        ],
+        "formula": "(total_spend / impressions) * 1000",
+        "output": {
+          "label": "CPM (Cost Per Mille)",
+          "format": "currency",
+          "description": "Your cost per 1,000 impressions"
+        }
+      },
+      {
+        "id": "impressions",
+        "label": "Impressions",
+        "inputs": [
+          "total_spend",
+          "cpm"
+        ],
+        "formula": "(total_spend / cpm) * 1000",
+        "output": {
+          "label": "Impressions",
+          "format": "number",
+          "description": "How many impressions this budget buys at this CPM"
+        }
+      },
+      {
+        "id": "budget",
+        "label": "Budget",
+        "inputs": [
+          "impressions",
+          "cpm"
+        ],
+        "formula": "(impressions / 1000) * cpm",
+        "output": {
+          "label": "Budget needed",
+          "format": "currency",
+          "description": "What these impressions cost at this CPM"
+        }
       }
     ]
   },
@@ -69,6 +154,18 @@
     "intro": "CPM — cost per mille, or cost per 1,000 impressions — is the common currency of media planning. Every channel, from linear TV to programmatic display to podcast sponsorships, quotes or negotiates in CPM. This calculator gives you the exact CPM for any spend and impression combination, lets you reverse-solve for impressions from a budget, and includes real 2026 channel benchmarks to sanity-check proposals before you commit.",
     "how_it_works": "The formula is: **CPM = (Total Ad Spend ÷ Total Impressions) × 1,000**. If you spend $10,000 to deliver 500,000 impressions, your CPM is $20.00. Reverse the math to estimate delivery: **Impressions = (Budget ÷ CPM) × 1,000**. So a $10,000 budget at a $20 CPM buys roughly 500,000 impressions. Use the presets to model spend at realistic 2026 channel rates — CTV is 8–15× more expensive than open-auction programmatic display, and paid social falls in between.",
     "faq": [
+      {
+        "question": "How do you calculate CPM?",
+        "answer": "Divide total ad spend by total impressions, then multiply by 1,000: **CPM = (spend ÷ impressions) × 1,000**. $5,000 for 250,000 impressions is ($5,000 ÷ 250,000) × 1,000 = $20 CPM."
+      },
+      {
+        "question": "How many impressions will my budget buy?",
+        "answer": "Divide your budget by the CPM and multiply by 1,000: **impressions = (budget ÷ CPM) × 1,000**. A $25,000 budget at a $12.50 CPM buys 2,000,000 impressions. Switch the calculator to Impressions to run your own numbers."
+      },
+      {
+        "question": "How much budget do I need for a given number of impressions?",
+        "answer": "Divide the impressions by 1,000 and multiply by the CPM: **budget = (impressions ÷ 1,000) × CPM**. 3,000,000 impressions at an $8 CPM costs $24,000. Switch the calculator to Budget to run your own numbers."
+      },
       {
         "question": "What is a good CPM in 2026?",
         "answer": "CPMs vary dramatically by channel. Open-auction programmatic display runs $1.50–$4.00. Paid social (Meta, TikTok) averages $5–$15. YouTube in-stream typically lands at $10–$25. CTV/streaming video ranges from $25–$50 for premium inventory, $14–$22 for FAST and ad-supported tiers. Linear TV national primetime is $20–$45. A 'good' CPM is one that delivers your target audience at a cost-per-outcome that hits your ROI, not the absolute lowest CPM."
@@ -119,6 +216,41 @@
     "cta": {
       "text": "Plan smarter with Halliard — the OS for modern media teams",
       "link": "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=calculator"
+    },
+    "quick_answer": "**CPM = (ad spend ÷ impressions) × 1,000.** For example, $10,000 spent on 500,000 impressions is a $20.00 CPM. Flip it to plan: **impressions = (budget ÷ CPM) × 1,000**, and **budget = (impressions ÷ 1,000) × CPM**.",
+    "benchmarks": {
+      "title": "Typical CPMs by channel (2026)",
+      "columns": [
+        "Channel",
+        "Typical CPM range"
+      ],
+      "rows": [
+        [
+          "Open-auction programmatic display",
+          "$1.50–$4.00"
+        ],
+        [
+          "Paid social (Meta, TikTok)",
+          "$5–$15"
+        ],
+        [
+          "YouTube in-stream",
+          "$10–$25"
+        ],
+        [
+          "CTV, FAST and ad-supported tiers",
+          "$14–$22"
+        ],
+        [
+          "Linear TV, national primetime",
+          "$20–$45"
+        ],
+        [
+          "CTV, premium streaming",
+          "$25–$50"
+        ]
+      ],
+      "note": "Typical US ranges. Your CPM depends on audience, targeting, season, viewability and how you buy, so treat these as a sense check, not a quote."
     }
   }
 }
