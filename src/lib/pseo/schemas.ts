@@ -73,6 +73,8 @@ export const freeToolSchema = z.object({
       "generator",
       "analyzer",
       "converter",
+      // Has its own page (src/pages/tools/<slug>.astro); [...slug] skips it.
+      "template",
     ]),
     vertical: z.string().optional(),
     channel: z.string().optional(),

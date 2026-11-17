@@ -191,6 +191,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Lay a plan out by week in a free media flowchart template."
+      },
+      {
         "slug": "tools/trp-calculator",
         "relevance": "Target rating points: the same math against your exact target audience."
       },

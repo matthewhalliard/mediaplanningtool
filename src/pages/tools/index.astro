@@ -16,6 +16,7 @@ const toolTypeLabels: Record<string, { label: string; emoji: string }> = {
   generator: { label: "Generator", emoji: "⚡" },
   analyzer: { label: "Analyzer", emoji: "🔍" },
   converter: { label: "Converter", emoji: "🔄" },
+  template: { label: "Template", emoji: "📄" },
 };
 ---
 
@@ -38,6 +39,22 @@ const toolTypeLabels: Record<string, { label: string; emoji: string }> = {
           Interactive calculators and tools built for media planners. Estimate costs, plan budgets, and analyze performance — no signup required.
         </p>
       </div>
+
+      <!-- Featured: the template ties the calculators together -->
+      <a
+        href="/tools/media-plan-template"
+        class="group flex flex-col md:flex-row md:items-center gap-4 md:gap-8 rounded-xl border border-primary-200 dark:border-primary-800 bg-primary-50 dark:bg-primary-900/20 p-6 mb-8 hover:border-ink transition-colors"
+      >
+        <div class="flex-1">
+          <p class="text-xs font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300 mb-2">Free template · Excel &amp; CSV</p>
+          <h2 class="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-50 mb-1">Media plan example and template, with flowchart</h2>
+          <p class="text-gray-600 dark:text-gray-300">Every calculator below in one plan: budget, CPM, impressions, reach and frequency by line, plus a weekly flowchart. Worked example included.</p>
+        </div>
+        <span class="inline-flex items-center gap-2 font-semibold text-primary-700 dark:text-primary-300 group-hover:underline whitespace-nowrap">
+          Get the template
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </span>
+      </a>
 
       <!-- Tools grid -->
       {allTools.length > 0 ? (
