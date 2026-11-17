@@ -1,9 +1,9 @@
 ---
 id: comscore
 title: Comscore
-seoTitle: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
-h1: "Comscore Pricing 2026: Subscription Costs, Plans & Alternatives"
-description: "Comscore pricing from ~$799/mo: cross-platform measurement, Proximic contextual targeting, plus comparisons to Nielsen and GWI for media planners."
+seoTitle: "Comscore Pricing, Review and Alternatives (2026)"
+h1: "Comscore Pricing, Review and Alternatives (2026)"
+description: "Comscore doesn't publish pricing: contracts are custom by product, market and media scope. What it does for media planners, and how it compares with Nielsen, MRI-Simmons, GWI and Resonate."
 tags:
   - audience-analytics
   - media-planning
@@ -168,6 +168,8 @@ Common criticism includes:
 The pattern is consistent with many enterprise research and measurement platforms: Comscore is powerful when an organization has a real measurement workflow, but it may be too much for teams that only need lightweight campaign dashboards.
 
 ## Comscore vs Alternatives
+
+See all six side by side, with who each suits and how it's priced: [Comscore alternatives compared](/comscore/alternatives).
 
 ### Comscore vs Nielsen
 
