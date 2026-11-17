@@ -1,0 +1,119 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const title = "Google DV360 Alternatives (2026): 6 Platforms Compared";
+const description = "The best DV360 alternatives: The Trade Desk, Amazon DSP, Basis, Quantcast, Criteo and Meta, with who each suits, how each is priced, and when to stay with DV360.";
+const slug = "google-dv360/alternatives";
+
+const faqs = [
+  {
+    q: "What is the best alternative to Google DV360?",
+    a: "The Trade Desk is the most direct competitor in enterprise programmatic buying, and the main independent option. Amazon DSP is the alternative when Amazon's shopping data matters. Basis suits agencies that want buying and campaign operations in one system, Quantcast is the most accessible self-serve option, Criteo suits retail and retargeting goals, and Meta covers social inventory DV360 can't buy.",
+  },
+  {
+    q: "DV360 vs The Trade Desk vs Amazon DSP: which should I use?",
+    a: "DV360 when YouTube and the Google Marketing Platform are central to the plan. The Trade Desk for independent buying across the open internet with broader data marketplace access. Amazon DSP when Amazon's purchase-intent data or owned inventory such as Prime Video is the reason to buy. Most large agencies maintain more than one.",
+  },
+  {
+    q: "Is there a DV360 alternative for smaller budgets?",
+    a: "DV360 isn't self-serve, and $50,000+ a month in media is typically the practical threshold. Amazon DSP's self-service option has no minimum spend, Quantcast's self-serve platform has no traditional long-term contracts or minimums for basic entry, and Meta Business Manager is free to use with ad sets from $1 a day. Basis doesn't publish pricing but its profile notes it doesn't impose high minimums.",
+  },
+  {
+    q: "Can I buy YouTube outside DV360?",
+    a: "Not through the other DSPs on this page. YouTube and Google Display Network inventory exclusives are DV360's main structural advantage. Smaller advertisers without a Google Marketing Platform contract are usually better served by Google Ads for search and display campaigns.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema}>
+  <AppShell>
+    <div class="max-w-3xl w-full mx-auto py-12 px-4">
+      <AppProse>
+
+<p><em>Last reviewed November 2026.</em></p>
+
+<h1>Google DV360 Alternatives: 6 Platforms Compared</h1>
+
+<p>Teams look for DV360 alternatives when they want an independent DSP rather than one inside Google's ecosystem, need data or inventory Google doesn't have (Amazon shopping data, social platforms), want more of the workflow in one system, or can't meet DV360's spend threshold. DV360 itself is Google's enterprise DSP, with 90+ exchanges, exclusive YouTube and Google Display Network inventory and native integration with Google Ads, Analytics 360 and Campaign Manager 360. It's sold on enterprise contracts with no self-serve access: fees are about 10–15% of media spend for open-auction inventory and about 4% for YouTube and programmatic guaranteed, and $50,000+ a month in media is typically the practical threshold.</p>
+
+<h2>Quick comparison</h2>
+
+<table>
+<thead>
+<tr><th>Alternative</th><th>Best for</th><th>Pricing</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="/the-trade-desk">The Trade Desk</a></td><td>Independent enterprise programmatic across the open internet</td><td>Not published; estimated 15–20% of media spend</td></tr>
+<tr><td><a href="/amazon-dsp">Amazon DSP</a></td><td>Targeting with Amazon's first-party shopping data</td><td>Self-service: no minimum, technology fee on spend. Managed service: $50K/month minimum</td></tr>
+<tr><td><a href="/basis">Basis</a></td><td>Agencies running buying, search, social and direct buys in one system</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/quantcast">Quantcast</a></td><td>Self-serve, AI-optimized open-web buying</td><td>Self-serve with no minimums for basic entry; managed service custom</td></tr>
+<tr><td><a href="/criteo">Criteo</a></td><td>Retail media, commerce data and retargeting</td><td>CPC or CPM, platform fee as a % of spend, no setup fee</td></tr>
+<tr><td><a href="/meta-business-manager">Meta Business Manager</a></td><td>Facebook, Instagram, Messenger and WhatsApp ads</td><td>Free platform; you pay for media (from $1/day per ad set)</td></tr>
+</tbody>
+</table>
+
+<h2>The Trade Desk</h2>
+<p>The Trade Desk is the leading independent DSP and DV360's most direct competitor. It owns no media, runs on the Kokai AI platform, offers Unified ID 2.0 for cookieless targeting and reaches 80+ exchanges and 500+ data providers. Fees aren't published and are estimated at about 15–20% of media spend including data and measurement.</p>
+<p><strong>Choose it over DV360 when:</strong> you want independent optimization that doesn't favor any inventory source, broader data marketplace access and stronger supply-path transparency.</p>
+<p><strong>Stay with DV360 when:</strong> YouTube is a core part of the plan or your audiences and measurement live in the Google Marketing Platform. Most large agencies keep both.</p>
+<p><a href="/the-trade-desk">The Trade Desk profile →</a> · <a href="/the-trade-desk/pricing">The Trade Desk pricing →</a></p>
+
+<h2>Amazon DSP</h2>
+<p>Amazon DSP buys Amazon's owned properties (Prime Video, Twitch, Thursday Night Football, Freevee, Kindle and Alexa devices) alongside third-party publishers, and targets with Amazon's first-party shopping, browsing and streaming data. Self-service has no minimum spend; managed service requires $50,000 a month.</p>
+<p><strong>Choose it over DV360 when:</strong> purchase-intent data drives the plan, typically for retail and CPG advertisers.</p>
+<p><strong>Stay with DV360 when:</strong> you need broader open-internet reach and Google's inventory. Retail brands often run both.</p>
+<p><a href="/amazon-dsp">Amazon DSP profile →</a></p>
+
+<h2>Basis</h2>
+<p>Basis (formerly Centro) runs a DSP alongside a campaign management suite covering paid search, social, direct publisher buys and financial reconciliation. Pricing is custom with no self-serve tier.</p>
+<p><strong>Choose it over DV360 when:</strong> you're a mid-market agency that wants planning, buying and reporting in one workflow without DV360's larger minimum commitments.</p>
+<p><strong>Stay with DV360 when:</strong> you need deeper programmatic capability and exclusive Google and YouTube inventory.</p>
+<p><a href="/basis">Basis profile →</a></p>
+
+<h2>Quantcast</h2>
+<p>Quantcast is an AI-powered programmatic platform for open-web display, video, CTV, mobile and audio. The self-serve platform has no traditional long-term contracts or minimums for basic entry; managed service and enterprise packages are custom.</p>
+<p><strong>Choose it over DV360 when:</strong> you want self-serve access and AI-driven audience targeting without an enterprise contract.</p>
+<p><strong>Stay with DV360 when:</strong> you need YouTube, enterprise governance and Google Marketing Platform integration at scale.</p>
+<p><a href="/quantcast">Quantcast profile →</a></p>
+
+<h2>Criteo</h2>
+<p>Criteo is a performance marketing and retail media platform built on commerce data, covering retargeting, customer acquisition and retail media. It charges on a CPC or CPM basis with a platform fee as a percentage of media spend, and has no setup fee.</p>
+<p><strong>Choose it over DV360 when:</strong> the goals are e-commerce sales, retargeting or retail media network access.</p>
+<p><strong>Stay with DV360 when:</strong> the plan is about broad reach across display, video, CTV and audio.</p>
+<p><a href="/criteo">Criteo profile →</a></p>
+
+<h2>Meta Business Manager</h2>
+<p>Meta Business Manager is where advertisers run Facebook, Instagram, Messenger and WhatsApp campaigns, surfaces DV360 can't buy. The platform is free; you pay only for media, with a $1 a day minimum per ad set.</p>
+<p><strong>Choose it alongside DV360 when:</strong> social is part of the plan. It isn't a replacement for open-web programmatic buying.</p>
+<p><strong>Stay with DV360 when:</strong> you need open-internet display, video, CTV and audio inventory. Enterprise advertisers typically run both.</p>
+<p><a href="/meta-business-manager">Meta Business Manager profile →</a></p>
+
+<h2>How to choose</h2>
+<p>If you're leaving DV360 for independence, The Trade Desk is the like-for-like move. If you're adding a data source, Amazon DSP brings shopping data and Criteo brings commerce and retail media. If the issue is cost of entry, Quantcast's self-serve platform and Amazon DSP's self-service option have no minimums. If the issue is operational sprawl, look at Basis. Meta sits alongside any of them for social. DV360 stays the choice whenever YouTube is central to the plan.</p>
+
+<h2>Frequently asked questions</h2>
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<p><a href="/google-dv360">Back to the full Google DV360 profile →</a></p>
+
+      </AppProse>
+    </div>
+  </AppShell>
+</BaseLayout>

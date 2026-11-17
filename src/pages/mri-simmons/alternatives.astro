@@ -1,0 +1,119 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const title = "MRI-Simmons Alternatives (2026): 6 Consumer Research Tools Compared";
+const description = "The best MRI-Simmons alternatives: GWI, TGI, Scarborough, Resonate, Comscore and Nielsen Media Impact, with who each suits, how each is priced, and when to stay with MRI-Simmons.";
+const slug = "mri-simmons/alternatives";
+
+const faqs = [
+  {
+    q: "What is the best alternative to MRI-Simmons?",
+    a: "For global research and accessible pricing, GWI. For international consumer profiling with deep media vehicle measurement, TGI. For US local markets, Scarborough. For always-on, activation-ready US audiences, Resonate. For measured campaign delivery or reach and frequency planning, Comscore or Nielsen Media Impact, which are usually used alongside MRI-Simmons rather than instead of it.",
+  },
+  {
+    q: "Is there a cheaper alternative to MRI-Simmons?",
+    a: "GWI is the only one here with published pricing: a free plan and a self-serve Plus plan at $150 per user per month, with custom pricing above that. Scarborough sells individual industry reports at $395 each. The rest are custom enterprise contracts. Before buying MRI-Simmons commercially, check whether your university library already licenses it.",
+  },
+  {
+    q: "MRI-Simmons vs GWI: which is better?",
+    a: "MRI-Simmons for US depth: 60,000+ data elements, address-based probabilistic sampling, MRC accreditation and 60+ years of trend data. GWI for 50+ markets, a modern self-serve interface, AI tools and accessible pricing. Some agencies use MRI-Simmons for US depth and GWI for global context.",
+  },
+  {
+    q: "MRI-Simmons vs Scarborough: which do I need?",
+    a: "Scarborough for DMA-level local market planning across 83+ US markets, especially local TV, radio, newspaper and out-of-home. MRI-Simmons for national psychographic depth, brand strategy and planning-to-activation continuity. Most full-service agencies subscribe to both.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema}>
+  <AppShell>
+    <div class="max-w-3xl w-full mx-auto py-12 px-4">
+      <AppProse>
+
+<p><em>Last reviewed November 2026.</em></p>
+
+<h1>MRI-Simmons Alternatives: 6 Consumer Research Tools Compared</h1>
+
+<p>Teams look for MRI-Simmons alternatives when they need markets outside the US, local market detail, more accessible pricing, continuously updated audiences, or measured media behavior rather than survey research. MRI-Simmons itself is the US consumer research standard: 60,000+ data elements from an annual survey of 50,000+ US adults using address-based probabilistic sampling, MRC accreditation, the Catalyst analytics platform and ACT for activating audiences in DSPs and other platforms. Pricing is enterprise-only, scoped by modules, users and organization type, with no free trial for commercial users.</p>
+
+<h2>Quick comparison</h2>
+
+<table>
+<thead>
+<tr><th>Alternative</th><th>Best for</th><th>Pricing</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="/gwi">GWI</a></td><td>Global consumer research across 50+ markets with AI tools</td><td>Free plan; Plus $150/user/month; Teams and Pro custom</td></tr>
+<tr><td><a href="/tgi-fifty5blue">TGI (Fifty5Blue)</a></td><td>International consumer profiling with deep media vehicle measurement</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/scarborough">Scarborough</a></td><td>US local market planning by DMA</td><td>Enterprise, custom quote; industry reports $395 each</td></tr>
+<tr><td><a href="/resonate">Resonate</a></td><td>Continuously updated, activation-ready US audiences</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/comscore">Comscore</a></td><td>Measuring campaign delivery and cross-screen audiences</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/nielsen-media-impact">Nielsen Media Impact</a></td><td>Cross-media reach and frequency planning</td><td>Enterprise, custom quote</td></tr>
+</tbody>
+</table>
+
+<h2>GWI</h2>
+<p>GWI is a global survey-based research platform with 250K+ profiling points across 50+ markets, AI tools (Agent Spark and GWI Canvas) and MCP access for LLMs. It has a free plan, a self-serve Plus plan at $150 per user per month, and custom pricing for Teams, Pro and enterprise.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> you need global or international research, accessible per-user pricing or AI-assisted analysis.</p>
+<p><strong>Stay with MRI-Simmons when:</strong> you need deep US audience research, agency RFP-standard data, brand tracking continuity or planning-to-activation workflows. GWI's US data comes from an online panel; MRI-Simmons uses probabilistic sampling.</p>
+<p><a href="/gwi">GWI profile →</a> · <a href="/gwi/pricing">GWI pricing →</a></p>
+
+<h2>TGI (Fifty5Blue)</h2>
+<p>TGI (Target Group Index) is Fifty5Blue's consumer profiling survey, drawn from 700,000 consumers a year across global markets, with 1,200+ media vehicles measured and a consistent methodology across markets. Pricing is enterprise-only and depends on markets licensed, access method and usage.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> the planning is international. US agencies often use MRI-Simmons domestically and TGI for international work.</p>
+<p><strong>Stay with MRI-Simmons when:</strong> the work is US-only and needs MRI-Simmons' depth and accreditation.</p>
+<p><a href="/tgi-fifty5blue">TGI profile →</a></p>
+
+<h2>Scarborough</h2>
+<p>Scarborough, a Nielsen product, profiles local market consumers across 83+ DMAs from 330,000+ annual surveys, and is the standard for local TV, radio, newspaper and out-of-home planning. Individual industry reports cost $395 each; full access needs custom enterprise licensing.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> your primary work is local market media buying.</p>
+<p><strong>Stay with MRI-Simmons when:</strong> you need national psychographic depth, brand strategy or programmatic activation through ACT. MRI-Simmons also offers local studies, but national is its strength.</p>
+<p><a href="/scarborough">Scarborough profile →</a> · <a href="/scarborough/alternatives">Scarborough alternatives →</a></p>
+
+<h2>Resonate</h2>
+<p>Resonate's Ignite platform builds AI-powered profiles of 250M US consumers with 15,000+ attributes each, updated continuously from behavioral signals rather than a quarterly survey release. Pricing is enterprise with no published tiers.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> you need real-time, intent-based targeting and always-on audience intelligence.</p>
+<p><strong>Stay with MRI-Simmons when:</strong> survey-based representativeness and institutional credibility matter, as in strategic planning, brand health tracking and agency RFP work.</p>
+<p><a href="/resonate">Resonate profile →</a></p>
+
+<h2>Comscore</h2>
+<p>Comscore measures campaign delivery, digital content consumption and cross-screen audiences, with Proximic by Comscore for contextual targeting. Contracts are custom by product, market and media scope.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> you need to know what happened after a campaign ran, not who to target before it launches.</p>
+<p><strong>Use both when:</strong> MRI-Simmons sets pre-campaign strategy and Comscore measures delivery. Since March 2026, MRI-Simmons data can also power contextual targeting through Comscore's Proximic Data Partner Network.</p>
+<p><a href="/comscore">Comscore profile →</a> · <a href="/comscore/alternatives">Comscore alternatives →</a></p>
+
+<h2>Nielsen Media Impact</h2>
+<p>Nielsen Media Impact is a cross-media planning product for modeling deduplicated reach and frequency across TV, CTV, digital and audio using Nielsen audience data. It's sold as an enterprise product, quoted by markets, modules, users and data access.</p>
+<p><strong>Choose it over MRI-Simmons when:</strong> the job is optimizing media weight, reach and frequency across channels rather than profiling consumers.</p>
+<p><strong>Use both when:</strong> MRI-Simmons defines the target audience and Nielsen Media Impact plans delivery against it.</p>
+<p><a href="/nielsen-media-impact">Nielsen Media Impact profile →</a> · <a href="/nielsen-media-impact/alternatives">Nielsen Media Impact alternatives →</a></p>
+
+<h2>How to choose</h2>
+<p>If you're replacing MRI-Simmons outright, the choice is mostly about geography and budget: GWI for global coverage and published pricing, TGI for international planning with deep media vehicle data, Scarborough for local US markets. Resonate fits teams that want continuously updated audiences built for activation. Comscore and Nielsen Media Impact do different jobs (measurement and reach planning) and are usually paired with MRI-Simmons rather than swapped for it. For US national planning that clients and RFPs expect, MRI-Simmons remains the baseline.</p>
+
+<h2>Frequently asked questions</h2>
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<p><a href="/mri-simmons">Back to the full MRI-Simmons profile →</a></p>
+
+      </AppProse>
+    </div>
+  </AppShell>
+</BaseLayout>

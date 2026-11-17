@@ -3,7 +3,7 @@ id: the-trade-desk
 title: The Trade Desk
 seoTitle: "The Trade Desk vs DV360 vs Amazon DSP (2026 Comparison)"
 h1: "The Trade Desk vs DV360 vs Amazon DSP (2026 Comparison)"
-description: "The Trade Desk charges 15–20% of spend ($100K+/quarter). See side-by-side comparisons with Google DV360, Amazon DSP, and Xandr — which DSP wins in 2026?"
+description: "The Trade Desk fees are an estimated 15–20% of media spend. See side-by-side comparisons with Google DV360, Amazon DSP, Basis and Criteo — which DSP wins in 2026?"
 tags:
   - media-buying
   - audience-analytics
@@ -177,6 +177,8 @@ The Trade Desk holds a **4.4/5 rating on G2** from **148 verified reviews**.
 The company reported **$2.9B in FY2025 revenue** with 18% year-over-year growth, with Q1 2026 guidance of $678M.
 
 ## The Trade Desk vs Alternatives
+
+See five DSPs side by side, with who each suits and how it's priced: [The Trade Desk alternatives compared](/the-trade-desk/alternatives).
 
 ### The Trade Desk vs Google DV360
 [Google DV360](/google-dv360) is deeply integrated with Google's ecosystem — an advantage for YouTube and Google Display Network buyers, but a potential conflict of interest for advertisers seeking truly objective optimization. The Trade Desk's independence is its core differentiator. Teams with significant Google inventory may use both; teams prioritizing open internet diversity typically prefer The Trade Desk.

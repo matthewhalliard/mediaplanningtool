@@ -209,6 +209,8 @@ GWI does not guarantee campaign performance. It improves the quality of planning
 
 ## GWI vs Alternatives
 
+See six alternatives side by side, with who each suits and how it's priced: [GWI alternatives compared](/gwi/alternatives).
+
 ### GWI vs MRI-Simmons
 
 [MRI-Simmons](/mri-simmons) is a strong US-focused consumer research platform with deep media consumption, product usage, and psychographic data. It is widely used by agencies and publishers for US planning. GWI is broader globally and now more accessible through a free tier, AI tools, and self-serve pricing. The choice depends on geography and workflow.

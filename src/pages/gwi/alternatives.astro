@@ -1,0 +1,119 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const title = "GWI Alternatives (2026): 6 Consumer Research Tools Compared";
+const description = "The best GWI alternatives: MRI-Simmons, TGI, Resonate, Scarborough, Comscore and Nielsen Media Impact, with who each suits, how each is priced, and when to stay with GWI.";
+const slug = "gwi/alternatives";
+
+const faqs = [
+  {
+    q: "What is the best alternative to GWI?",
+    a: "For deep US consumer research, MRI-Simmons. For another global survey with deep media vehicle measurement, TGI. For motivation-based segments ready to activate, Resonate. For US local markets, Scarborough. If the question is really about measured media delivery or reach and frequency, Comscore or Nielsen Media Impact.",
+  },
+  {
+    q: "Is there a free alternative to GWI?",
+    a: "Not among these. GWI is unusual in having a free plan and a published self-serve tier (Plus, $150 per user per month). MRI-Simmons, TGI, Resonate, Comscore and Nielsen Media Impact are sold on custom enterprise contracts. Scarborough sells individual industry reports at $395 each, with full access on enterprise licensing.",
+  },
+  {
+    q: "Is GWI or MRI-Simmons better?",
+    a: "MRI-Simmons for US-only planning depth: 60,000+ data elements, address-based probabilistic sampling and MRC accreditation. GWI for research across 50+ markets, faster self-serve access, AI-assisted analysis and accessible pricing. Some agencies use both: MRI-Simmons for US depth and GWI for global context.",
+  },
+  {
+    q: "How is GWI different from TGI?",
+    a: "Both are survey-based consumer profiling tools. TGI surveys 700,000 consumers a year and measures 1,200+ media vehicles, with a long track record as the planning standard in many markets. GWI covers more countries with a digital-first approach. Many agencies use both depending on market and client.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema}>
+  <AppShell>
+    <div class="max-w-3xl w-full mx-auto py-12 px-4">
+      <AppProse>
+
+<p><em>Last reviewed November 2026.</em></p>
+
+<h1>GWI Alternatives: 6 Consumer Research Tools Compared</h1>
+
+<p>Teams look for GWI alternatives when they need more depth in one country, a different research method, local market detail, audiences they can activate directly, or measured media behavior rather than surveyed attitudes. GWI itself is a global, survey-based consumer research platform with 250K+ profiling points across 50+ markets, AI tools (Agent Spark and GWI Canvas) and MCP access for LLMs. It has a free plan, a self-serve Plus plan at $150 per user per month, and custom pricing for Teams, Pro and enterprise. See <a href="/gwi/pricing">GWI pricing</a> for the plan details.</p>
+
+<h2>Quick comparison</h2>
+
+<table>
+<thead>
+<tr><th>Alternative</th><th>Best for</th><th>Pricing</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="/mri-simmons">MRI-Simmons</a></td><td>Deep US consumer research and agency-standard audience data</td><td>Enterprise, custom quote; no free trial</td></tr>
+<tr><td><a href="/tgi-fifty5blue">TGI (Fifty5Blue)</a></td><td>Global consumer profiling with deep media vehicle measurement</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/resonate">Resonate</a></td><td>Motivation- and values-based US audiences ready to activate</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/scarborough">Scarborough</a></td><td>US local market consumer profiling by DMA</td><td>Enterprise, custom quote; industry reports $395 each</td></tr>
+<tr><td><a href="/comscore">Comscore</a></td><td>Measured cross-platform media behavior and campaign delivery</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/nielsen-media-impact">Nielsen Media Impact</a></td><td>Cross-media reach and frequency planning</td><td>Enterprise, custom quote</td></tr>
+</tbody>
+</table>
+
+<h2>MRI-Simmons</h2>
+<p>MRI-Simmons is US-focused consumer research with 60,000+ data elements, drawn from an annual survey of 50,000+ US adults using address-based probabilistic sampling, and MRC accreditation. It's sold through direct sales with custom pricing and no free trial for commercial users, though many university libraries license it.</p>
+<p><strong>Choose it over GWI when:</strong> the brief is US-specific and needs the detailed media, product and consumer data US media buyers expect.</p>
+<p><strong>Stay with GWI when:</strong> you need cross-market comparison, faster self-serve access, AI-assisted research or published pricing.</p>
+<p><a href="/mri-simmons">MRI-Simmons profile →</a></p>
+
+<h2>TGI (Fifty5Blue)</h2>
+<p>TGI (Target Group Index) is Fifty5Blue's consumer profiling survey, drawn from 700,000 consumers a year with 1,200+ media vehicles measured and a consistent methodology across markets. Pricing is enterprise-only and depends on markets licensed, access method and usage.</p>
+<p><strong>Choose it over GWI when:</strong> cross-media planning needs deep media vehicle measurement in markets where TGI is the planning standard.</p>
+<p><strong>Stay with GWI when:</strong> you need more countries, a digital-first view and faster self-serve insights.</p>
+<p><a href="/tgi-fifty5blue">TGI profile →</a></p>
+
+<h2>Resonate</h2>
+<p>Resonate's Ignite platform builds AI-powered profiles of 250M US consumers with 15,000+ attributes each, used for audience building, data enrichment and activation. Pricing is enterprise with no published tiers.</p>
+<p><strong>Choose it over GWI when:</strong> activation and values-based targeting are central to the workflow.</p>
+<p><strong>Stay with GWI when:</strong> you need global survey research, strategic audience profiling, market comparison and planning decks.</p>
+<p><a href="/resonate">Resonate profile →</a></p>
+
+<h2>Scarborough</h2>
+<p>Scarborough, a Nielsen product, profiles local market consumers across 83+ DMAs from 330,000+ annual surveys. Individual industry reports cost $395 each; full access, including advanced audience segments in Nielsen ONE, needs custom enterprise licensing.</p>
+<p><strong>Choose it over GWI when:</strong> the questions are about local markets, retail catchments, local media usage or DMA-level consumer profiles.</p>
+<p><strong>Stay with GWI when:</strong> planning is national or global and you want AI-assisted research across markets.</p>
+<p><a href="/scarborough">Scarborough profile →</a></p>
+
+<h2>Comscore</h2>
+<p>Comscore measures where audiences actually consume media and how campaigns deliver across digital, TV, CTV and audio, with Proximic by Comscore for contextual targeting. Contracts are custom by product, market and media scope.</p>
+<p><strong>Choose it over GWI when:</strong> the question is where audiences consumed media, how much reach was delivered and how a campaign performed across screens.</p>
+<p><strong>Use both when:</strong> GWI defines the audience and Comscore validates media delivery.</p>
+<p><a href="/comscore">Comscore profile →</a> · <a href="/comscore/alternatives">Comscore alternatives →</a></p>
+
+<h2>Nielsen Media Impact</h2>
+<p>Nielsen Media Impact is Nielsen's cross-media planning product for building scenarios and modeling deduplicated reach and frequency across TV, CTV, digital and audio. It's sold as an enterprise product, quoted by markets, modules, users and data access.</p>
+<p><strong>Choose it over GWI when:</strong> the planning problem is reach and frequency, TV and video allocation, or currency-aligned measurement.</p>
+<p><strong>Use both when:</strong> GWI informs the audience strategy and Nielsen supports the media math.</p>
+<p><a href="/nielsen-media-impact">Nielsen Media Impact profile →</a></p>
+
+<h2>How to choose</h2>
+<p>Decide whether you're replacing GWI's research or adding a different kind of answer. To replace it, MRI-Simmons is the deeper US option and TGI the other global survey. Resonate fits if the research has to flow straight into targeting, and Scarborough if the work is local. Comscore and Nielsen Media Impact answer measurement and reach questions that GWI isn't built for, so most teams use them alongside a research tool rather than instead of one. GWI stays the most accessible option, with a free plan and published self-serve pricing.</p>
+
+<h2>Frequently asked questions</h2>
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<p><a href="/gwi">Back to the full GWI profile →</a></p>
+
+      </AppProse>
+    </div>
+  </AppShell>
+</BaseLayout>
