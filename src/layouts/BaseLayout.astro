@@ -21,6 +21,16 @@ const siteBase = themeConfig.general.seo.url.replace(/\/$/, "");
 const normalizedSlug = slug ? `/${String(slug).replace(/^\/|\/$/g, "")}` : "";
 const canonicalUrl = `${siteBase}${normalizedSlug}`;
 const twitterDomain = siteBase.replace(/^https?:\/\//, "");
+
+// In-market signal for the shared Meta pixel: /<vendor>/pricing and
+// /<vendor>/alternatives pages fire EvaluatePricing (see MetaPixel.astro for
+// the consent gate; the queue drops it if the visitor may not be measured).
+const pathSegments = Astro.url.pathname.split("/").filter(Boolean);
+const lastSegment = pathSegments[pathSegments.length - 1];
+const evaluatePricing =
+  pathSegments.length === 2 && (lastSegment === "pricing" || lastSegment === "alternatives")
+    ? { vendor: pathSegments[0], page_type: lastSegment, site: "mediaplanningtool" }
+    : null;
 ---
 
 <!doctype html>
@@ -62,6 +72,11 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
   </head>
   <body class="bg-gray-50 text-ink dark:bg-gray-900 dark:text-gray-200">
     <slot />
+    {evaluatePricing && (
+      <script is:inline define:vars={{ evaluatePricing }}>
+        try { if (window.fbq) window.fbq("trackCustom", "EvaluatePricing", evaluatePricing); } catch (e) {}
+      </script>
+    )}
     <Posthog />
     <Snitcher />
     <script is:inline>
@@ -79,6 +94,7 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
             placement: url.searchParams.get("utm_content") || "untagged",
             destination: url.pathname,
             page_path: window.location.pathname,
+            site: "mediaplanningtool",
           };
           if (window.posthog && window.posthog.capture) window.posthog.capture("halliard_click", props);
           if (window.fbq) window.fbq("trackCustom", "HalliardClick", props);
