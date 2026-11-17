@@ -222,7 +222,13 @@ function evaluate(formula: string): number {
       const val = Number(values[id]) || 0;
       expr = expr.replace(new RegExp(`\\b${id}\\b`, 'g'), `(${val})`);
     }
-    const sanitized = expr.replace(/[^0-9+\-*/().eE]/g, '');
+    // Only these math functions may appear; any other word means a bad formula.
+    const allowed: Record<string, string> = { exp: 'Math.exp', ln: 'Math.log', min: 'Math.min', max: 'Math.max', sqrt: 'Math.sqrt' };
+    const words = expr.match(/[A-Za-z_]+/g) ?? [];
+    if (words.some((w) => !(w in allowed))) return 0;
+    const sanitized = expr
+      .replace(/[^0-9A-Za-z_+\-*/().,]/g, '')
+      .replace(/[A-Za-z_]+/g, (w) => allowed[w]);
     if (!sanitized) return 0;
     const r = new Function(`return (${sanitized})`)();
     return isFinite(r) ? r : 0;
@@ -241,7 +247,8 @@ const formattedResult = computed(() => {
     case 'percentage':
       return val.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
     default:
-      return val.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+      // Whole numbers for counts; one decimal for small values like frequency.
+      return val.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: Math.abs(val) < 100 ? 1 : 0 });
   }
 });
 

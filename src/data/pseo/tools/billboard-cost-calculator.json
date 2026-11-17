@@ -4,9 +4,16 @@
     "channel": "ooh"
   },
   "seo": {
-    "title": "Billboard Cost Calculator — Estimate Billboard Advertising Costs (2026)",
-    "description": "Estimate the cost of a billboard campaign from CPM, impressions per day, flight length, and number of units. Includes 2026 OOH benchmarks for bulletins, digital billboards, and transit.",
-    "keywords": ["billboard cost calculator", "billboard advertising cost", "how much does a billboard cost", "billboard cpm", "ooh advertising calculator", "digital billboard cost"],
+    "title": "Billboard Cost Calculator: How Much Does a Billboard Cost? (2026)",
+    "description": "Free billboard cost calculator. Estimate the cost and impressions of a billboard or digital OOH buy from boards, flight length, daily impressions and CPM, with 2026 billboard prices and OOH CPMs.",
+    "keywords": [
+      "billboard cost calculator",
+      "billboard advertising cost",
+      "how much does a billboard cost",
+      "billboard cpm",
+      "ooh advertising calculator",
+      "digital billboard cost"
+    ],
     "slug": "billboard-cost-calculator"
   },
   "tool_config": {
@@ -61,23 +68,81 @@
     "presets": [
       {
         "name": "Highway Bulletin (4-week, 5 boards)",
-        "values": { "impressions_per_day": 40000, "flight_days": 28, "units": 5, "cpm": 6 }
+        "values": {
+          "impressions_per_day": 40000,
+          "flight_days": 28,
+          "units": 5,
+          "cpm": 6
+        }
       },
       {
         "name": "Digital Bulletin (4-week, 10 boards)",
-        "values": { "impressions_per_day": 35000, "flight_days": 28, "units": 10, "cpm": 8 }
+        "values": {
+          "impressions_per_day": 35000,
+          "flight_days": 28,
+          "units": 10,
+          "cpm": 8
+        }
       },
       {
         "name": "Urban 30-Sheet Poster Network (8 weeks)",
-        "values": { "impressions_per_day": 15000, "flight_days": 56, "units": 20, "cpm": 5 }
+        "values": {
+          "impressions_per_day": 15000,
+          "flight_days": 56,
+          "units": 20,
+          "cpm": 5
+        }
       },
       {
         "name": "Transit Shelter Network (4-week)",
-        "values": { "impressions_per_day": 8000, "flight_days": 28, "units": 50, "cpm": 4 }
+        "values": {
+          "impressions_per_day": 8000,
+          "flight_days": 28,
+          "units": 50,
+          "cpm": 4
+        }
       },
       {
         "name": "Times Square Digital Spectacular (1 week)",
-        "values": { "impressions_per_day": 500000, "flight_days": 7, "units": 1, "cpm": 12 }
+        "values": {
+          "impressions_per_day": 500000,
+          "flight_days": 7,
+          "units": 1,
+          "cpm": 12
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "cost",
+        "label": "Campaign cost",
+        "inputs": [
+          "impressions_per_day",
+          "flight_days",
+          "units",
+          "cpm"
+        ],
+        "formula": "((impressions_per_day * flight_days * units) / 1000) * cpm",
+        "output": {
+          "label": "Estimated Campaign Cost",
+          "format": "currency",
+          "description": "Total cost for the entire OOH buy"
+        }
+      },
+      {
+        "id": "impressions",
+        "label": "Total impressions",
+        "inputs": [
+          "impressions_per_day",
+          "flight_days",
+          "units"
+        ],
+        "formula": "impressions_per_day * flight_days * units",
+        "output": {
+          "label": "Total impressions",
+          "format": "number",
+          "description": "Impressions across every board for the whole flight"
+        }
       }
     ]
   },
@@ -85,6 +150,10 @@
     "intro": "Billboard and out-of-home (OOH) pricing doesn't come on a rate card most planners can trust. Costs vary by market, format (bulletin vs poster vs digital vs transit), impression counts from Geopath, and negotiation. This calculator estimates total billboard campaign cost from four inputs — daily impressions per unit, flight length, number of units, and CPM — and includes realistic 2026 OOH benchmarks.",
     "how_it_works": "The formula is: **Total Cost = (Impressions per Day × Flight Days × Units ÷ 1,000) × CPM**. A 5-board highway bulletin buy delivering 40,000 impressions per day per board over 28 days at a $6 CPM costs: (40,000 × 28 × 5 ÷ 1,000) × $6 = $33,600. OOH is typically sold in 4-week flights (the industry calls them 'rotations' or 'showings'). Geopath is the industry-standard impression measurement source — always request Geopath-verified impressions rather than vendor-supplied estimates.",
     "faq": [
+      {
+        "question": "How do you calculate the cost of a billboard?",
+        "answer": "Multiply daily impressions by flight days and number of boards, divide by 1,000, then multiply by the CPM: **cost = (impressions per day × days × boards ÷ 1,000) × CPM**. One board at 30,000 impressions a day for 28 days at a $6.50 CPM is (30,000 × 28 ÷ 1,000) × $6.50 = **$5,460**."
+      },
       {
         "question": "How much does a billboard cost per month in 2026?",
         "answer": "Static highway bulletins in secondary markets: $1,500–$4,000 per month per board. Top-10 market highway bulletins: $5,000–$15,000 per month. Digital bulletins command a 20–40% premium over static. Times Square and iconic locations: $50,000–$500,000+ per 4-week flight. Transit shelters typically price $200–$1,200 per month per face depending on market and traffic."
@@ -127,6 +196,49 @@
     "cta": {
       "text": "Plan OOH alongside CTV, programmatic, and social in Halliard",
       "link": "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=calculator"
+    },
+    "quick_answer": "**Billboard cost = (impressions per day × days × boards ÷ 1,000) × CPM.** Five highway bulletins at 40,000 daily impressions each for 28 days at a $6 CPM cost about **$33,600**. Static bulletins typically run $1,500–$4,000 a month per board in secondary markets and $5,000–$15,000 in top-10 markets.",
+    "benchmarks": {
+      "title": "Billboard and OOH prices (2026)",
+      "columns": [
+        "Format",
+        "Typical price"
+      ],
+      "rows": [
+        [
+          "Static bulletin, secondary market",
+          "$1,500–$4,000 per board per month"
+        ],
+        [
+          "Static bulletin, top-10 market",
+          "$5,000–$15,000 per board per month"
+        ],
+        [
+          "Transit shelter",
+          "$200–$1,200 per face per month"
+        ],
+        [
+          "Times Square and iconic locations",
+          "$50,000–$500,000+ per 4 weeks"
+        ],
+        [
+          "Standard bulletins and posters",
+          "$5–$8 CPM"
+        ],
+        [
+          "Digital OOH",
+          "$7–$12 CPM"
+        ],
+        [
+          "Programmatic DOOH",
+          "$10–$20 CPM"
+        ],
+        [
+          "Transit and airport",
+          "$3–$6 CPM"
+        ]
+      ],
+      "note": "US ranges from the FAQ below. Add production for static boards: about $1,000–$3,000 per vinyl plus installation."
     }
   }
 }

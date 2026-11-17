@@ -23,8 +23,11 @@ export function stripInlineMarkdown(text: string): string {
 export function slugToTitle(slug: string): string {
   const last = slug.split("/").filter(Boolean).pop() ?? slug;
   const acronyms = new Set(["cpm", "cpc", "cpv", "ctr", "cac", "roas", "roi", "grp", "trp", "dsp", "ctv", "mmm", "ooh"]);
+  const minor = new Set(["and", "or", "of", "for", "vs", "to"]);
   return last
     .split("-")
-    .map((w) => (acronyms.has(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
+    .map((w, i) =>
+      acronyms.has(w) ? w.toUpperCase() : i > 0 && minor.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)
+    )
     .join(" ");
 }

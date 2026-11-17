@@ -4,9 +4,16 @@
     "channel": "linear-tv"
   },
   "seo": {
-    "title": "GRP Calculator — Gross Rating Points Calculator for TV & CTV Planning",
-    "description": "Calculate gross rating points (GRPs) from reach and frequency. Includes TRP vs GRP guidance, DMA rating point conversion, and CTV/linear planning benchmarks.",
-    "keywords": ["grp calculator", "gross rating points calculator", "grp formula", "trp calculator", "rating points tv", "gross rating points tv"],
+    "title": "GRP Calculator: Gross Rating Points from Reach and Frequency (Free)",
+    "description": "Free GRP calculator. Work out GRPs from reach and frequency, the reach or frequency behind a GRP goal, or what a schedule costs at your cost per point. With 2026 GRP benchmarks by objective.",
+    "keywords": [
+      "grp calculator",
+      "gross rating points calculator",
+      "grp formula",
+      "trp calculator",
+      "rating points tv",
+      "gross rating points tv"
+    ],
     "slug": "grp-calculator"
   },
   "tool_config": {
@@ -30,6 +37,24 @@
         "max": 50,
         "step": 0.5,
         "help_text": "Average number of exposures per reached person."
+      },
+      {
+        "id": "grps",
+        "label": "GRPs",
+        "type": "number",
+        "default_value": 240,
+        "min": 0,
+        "step": 1,
+        "help_text": "Gross rating points for the schedule."
+      },
+      {
+        "id": "cpp",
+        "label": "Cost per point (CPP)",
+        "type": "currency",
+        "default_value": 5000,
+        "min": 0,
+        "step": 1,
+        "help_text": "What one rating point costs in your market and demo."
       }
     ],
     "formula": "reach * frequency",
@@ -41,29 +66,107 @@
     "presets": [
       {
         "name": "Light TV Flight (awareness)",
-        "values": { "reach": 50, "frequency": 3 }
+        "values": {
+          "reach": 50,
+          "frequency": 3,
+          "grps": 150
+        }
       },
       {
         "name": "Standard National TV Flight",
-        "values": { "reach": 70, "frequency": 4 }
+        "values": {
+          "reach": 70,
+          "frequency": 4,
+          "grps": 280
+        }
       },
       {
         "name": "Heavy National TV Push",
-        "values": { "reach": 85, "frequency": 6 }
+        "values": {
+          "reach": 85,
+          "frequency": 6,
+          "grps": 510
+        }
       },
       {
         "name": "Local DMA Saturation",
-        "values": { "reach": 75, "frequency": 8 }
+        "values": {
+          "reach": 75,
+          "frequency": 8,
+          "grps": 600
+        }
       },
       {
         "name": "Political Ad Push (Final 2 Weeks)",
-        "values": { "reach": 90, "frequency": 10 }
+        "values": {
+          "reach": 90,
+          "frequency": 10,
+          "grps": 900
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "grps",
+        "label": "GRPs",
+        "inputs": [
+          "reach",
+          "frequency"
+        ],
+        "formula": "reach * frequency",
+        "output": {
+          "label": "Gross Rating Points (GRPs)",
+          "format": "number",
+          "description": "Total rating points delivered across the campaign"
+        }
+      },
+      {
+        "id": "reach",
+        "label": "Reach",
+        "inputs": [
+          "grps",
+          "frequency"
+        ],
+        "formula": "grps / frequency",
+        "output": {
+          "label": "Reach",
+          "format": "percentage",
+          "description": "Share of the audience reached at this frequency"
+        }
+      },
+      {
+        "id": "frequency",
+        "label": "Frequency",
+        "inputs": [
+          "grps",
+          "reach"
+        ],
+        "formula": "grps / reach",
+        "output": {
+          "label": "Average frequency",
+          "format": "number",
+          "description": "Average times each reached person sees the ad"
+        }
+      },
+      {
+        "id": "cost",
+        "label": "Cost",
+        "inputs": [
+          "grps",
+          "cpp"
+        ],
+        "formula": "grps * cpp",
+        "output": {
+          "label": "Schedule cost",
+          "format": "currency",
+          "description": "GRPs × cost per point"
+        }
       }
     ]
   },
   "content": {
     "intro": "Gross rating points (GRPs) are the traditional TV planning currency — one GRP equals 1% of the target audience reached once. Modern media planning uses GRPs across linear TV, CTV, and increasingly cross-platform audience-based buying (often called TRPs, or Target Rating Points). This calculator computes GRPs from any reach and frequency combination and includes realistic benchmarks for different flight weights.",
-    "how_it_works": "The formula is: **GRPs = Reach (%) × Average Frequency**. A flight that reaches 60% of the target audience at an average frequency of 4 delivers 240 GRPs. GRPs can exceed 100 — a 100-GRP buy doesn't mean 100% reach, it means rating points summed across the schedule (e.g., 50% reach × 2 frequency). Networks and TV vendors sell schedules in GRP increments. For modern CTV planning, GRPs translate into audience impressions: 1 GRP = 1% of target universe in impressions, so 100 GRPs against a 50M adult universe = 50M impressions.",
+    "how_it_works": "The formula is: **GRPs = Reach (%) × Average Frequency**. A flight that reaches 60% of the target audience at an average frequency of 4 delivers 240 GRPs. GRPs can exceed 100 — a 100-GRP buy doesn't mean 100% reach, it means rating points summed across the schedule (e.g., 50% reach × 2 frequency). Networks and TV vendors sell schedules in GRP increments. For modern CTV planning, GRPs translate into audience impressions: 1 GRP = 1% of the target universe in impressions, so 100 GRPs against a 50M adult universe = 50M impressions.",
     "faq": [
       {
         "question": "What is the difference between GRPs and TRPs?",
@@ -88,6 +191,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/trp-calculator",
+        "relevance": "Target rating points: the same math against your exact target audience."
+      },
+      {
         "slug": "tools/reach-and-frequency-calculator",
         "relevance": "Calculate the reach and frequency inputs that drive GRPs."
       },
@@ -111,6 +218,37 @@
     "cta": {
       "text": "Plan GRPs alongside digital impressions in Halliard",
       "link": "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=calculator"
+    },
+    "quick_answer": "**GRPs = reach (%) × average frequency.** Reaching 60% of your audience an average of 4 times is **240 GRPs**. Rearrange it to plan: reach = GRPs ÷ frequency, frequency = GRPs ÷ reach, and cost = GRPs × cost per point.",
+    "benchmarks": {
+      "title": "How many GRPs per 4-week flight (2026)",
+      "columns": [
+        "Objective",
+        "Typical GRPs"
+      ],
+      "rows": [
+        [
+          "Sustaining campaign",
+          "150–250"
+        ],
+        [
+          "Awareness launch",
+          "300–500"
+        ],
+        [
+          "Local DMA push, narrow audience",
+          "400–800"
+        ],
+        [
+          "Category leader holding share",
+          "500+"
+        ],
+        [
+          "Political, final weeks",
+          "800–2,000+"
+        ]
+      ],
+      "note": "Below about 100 GRPs it's hard to move brand metrics; above about 1,000 in four weeks, returns usually diminish."
     }
   }
 }
