@@ -12,7 +12,8 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const tools = await getCollection("pseoTools");
-  return tools.map((entry) => {
+  // Templates have their own page in this folder (e.g. media-plan-template.astro).
+  return tools.filter((entry) => (entry.data as FreeTool).meta.tool_type !== "template").map((entry) => {
     const data = entry.data as FreeTool;
     return {
       params: { slug: data.seo.slug },

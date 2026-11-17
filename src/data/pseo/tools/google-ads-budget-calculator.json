@@ -98,6 +98,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Fit the search budget into a full multi-channel media plan."
+      },
+      {
         "slug": "tools/cpc-calculator",
         "relevance": "Calculate expected CPC from historical data to feed into this budget calculator."
       },

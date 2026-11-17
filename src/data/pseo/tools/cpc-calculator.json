@@ -92,6 +92,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Enter CPC buys in a media plan as an effective CPM."
+      },
+      {
         "slug": "tools/ctr-calculator",
         "relevance": "Pair CPC with CTR to understand whether low CPC comes from strong relevance or weak targeting."
       },

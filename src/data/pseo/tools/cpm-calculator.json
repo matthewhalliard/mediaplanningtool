@@ -193,6 +193,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Put each line's CPM into a full media plan, with a worked example and Excel template."
+      },
+      {
         "slug": "tools/ctr-calculator",
         "relevance": "Calculate click-through rate using the same impressions and click data."
       },

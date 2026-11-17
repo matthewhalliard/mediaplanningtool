@@ -259,6 +259,8 @@ A "free media plan template" search will return dozens of Excel and Google Sheet
 - Flowchart requires manual updating when the plan changes
 - No built-in measurement tracking
 
+To see the structure filled in, use our [free media plan template and worked example](/tools/media-plan-template): an Excel and CSV download with a plan tab, a weekly flowchart, and impressions, reach and frequency formulas already in place.
+
 For simple, single-channel campaigns or early-stage teams just learning the process, a [Smartsheet media plan template](https://www.smartsheet.com/content/media-plan-templates) or similar resource is a reasonable starting point. For anything more complex — multiple channels, multiple markets, or campaigns requiring stakeholder review — the manual template approach tends to create more problems than it solves.
 
 The right answer for most teams is to start with a free template to understand the structure, then migrate to a platform that automates the mechanics once campaigns become more complex.

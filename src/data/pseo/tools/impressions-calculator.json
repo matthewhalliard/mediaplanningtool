@@ -169,6 +169,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Size impressions line by line in a free media plan template."
+      },
+      {
         "slug": "tools/cpm-calculator",
         "relevance": "Calculate CPM from spend and impressions (the inverse calculation)."
       },

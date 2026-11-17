@@ -166,6 +166,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Lay a plan out by week in a free media flowchart template."
+      },
+      {
         "slug": "tools/grp-calculator",
         "relevance": "The same math against a broad demographic, with cost per point."
       },

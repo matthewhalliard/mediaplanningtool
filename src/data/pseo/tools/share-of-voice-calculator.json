@@ -88,6 +88,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "Turn the share-of-voice target into a media plan."
+      },
+      {
         "slug": "tools/cpm-calculator",
         "relevance": "Translate SOV gaps into impression and budget requirements."
       },

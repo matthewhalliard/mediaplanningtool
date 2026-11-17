@@ -1,0 +1,110 @@
+{
+  "_comment": "Single source for the worked example. Read by src/pages/tools/media-plan-template.astro and by scripts/build-media-plan-template.py, which writes public/templates/*. Change it here, then run: python3 scripts/build-media-plan-template.py",
+  "campaign": {
+    "name": "Back-to-school: DTC backpack brand",
+    "objective": "Sell through the new backpack range before school starts",
+    "audience": "Parents of school-age children, 25-49, plus college students",
+    "universe": 8000000,
+    "budget": 180000,
+    "start": "2027-07-05",
+    "weeks": 8
+  },
+  "lines": [
+    {
+      "channel": "Paid social",
+      "tactic": "Reels and Feed",
+      "vendor": "Meta",
+      "start": "2027-07-05",
+      "end": "2027-08-29",
+      "budget": 45000,
+      "cpm": 9,
+      "reach": 1250000,
+      "kpi": "Reach, product-page views",
+      "notes": "Always-on for the whole flight"
+    },
+    {
+      "channel": "Paid social",
+      "tactic": "In-Feed and Spark Ads",
+      "vendor": "TikTok",
+      "start": "2027-07-05",
+      "end": "2027-08-01",
+      "budget": 24000,
+      "cpm": 8,
+      "reach": 1000000,
+      "kpi": "6-second views, creator-post engagement",
+      "notes": "Early burst to seed creator content"
+    },
+    {
+      "channel": "CTV",
+      "tactic": "Streaming TV, 15s",
+      "vendor": "DSP (private marketplace deals)",
+      "start": "2027-07-19",
+      "end": "2027-08-15",
+      "budget": 40000,
+      "cpm": 32,
+      "reach": 500000,
+      "kpi": "Completed views, branded search lift",
+      "notes": "Four weeks around the main shopping window"
+    },
+    {
+      "channel": "Online video",
+      "tactic": "YouTube in-stream and Shorts",
+      "vendor": "Google Ads",
+      "start": "2027-07-19",
+      "end": "2027-08-29",
+      "budget": 18000,
+      "cpm": 12,
+      "reach": 750000,
+      "kpi": "Cost per completed view",
+      "notes": "CTV creative recut for mobile"
+    },
+    {
+      "channel": "Paid search",
+      "tactic": "Brand and category keywords",
+      "vendor": "Google Ads",
+      "start": "2027-07-05",
+      "end": "2027-08-29",
+      "budget": 24000,
+      "cpm": 120,
+      "reach": 150000,
+      "kpi": "Clicks, cost per order",
+      "notes": "Bought on CPC: $1.50 CPC x 16,000 clicks at an 8% CTR = 200,000 impressions, a $120 effective CPM"
+    },
+    {
+      "channel": "Programmatic display",
+      "tactic": "Site retargeting",
+      "vendor": "DSP (open exchange)",
+      "start": "2027-07-19",
+      "end": "2027-08-29",
+      "budget": 12000,
+      "cpm": 5,
+      "reach": 600000,
+      "kpi": "Return visits, add-to-cart",
+      "notes": "Starts week 3, once video has driven site visits"
+    },
+    {
+      "channel": "Audio",
+      "tactic": "Streaming audio",
+      "vendor": "Spotify",
+      "start": "2027-08-02",
+      "end": "2027-08-29",
+      "budget": 9000,
+      "cpm": 18,
+      "reach": 250000,
+      "kpi": "Listen-through rate",
+      "notes": "Weeks 5-8, adds frequency in the run-up"
+    },
+    {
+      "channel": "Digital out-of-home",
+      "tactic": "Screens in shopping malls",
+      "vendor": "Programmatic DOOH",
+      "start": "2027-08-16",
+      "end": "2027-08-29",
+      "budget": 8000,
+      "cpm": 8,
+      "reach": 250000,
+      "kpi": "Impressions near stockists",
+      "notes": "Last two weeks, the peak in-store fortnight"
+    }
+  ]
+}

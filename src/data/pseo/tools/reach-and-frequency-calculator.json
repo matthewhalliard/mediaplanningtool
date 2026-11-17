@@ -176,6 +176,10 @@
     ],
     "related_tools": [
       {
+        "slug": "tools/media-plan-template",
+        "relevance": "See reach and frequency worked out across a whole media plan."
+      },
+      {
         "slug": "tools/grp-calculator",
         "relevance": "Calculate gross rating points from reach and frequency (GRP = Reach × Frequency)."
       },

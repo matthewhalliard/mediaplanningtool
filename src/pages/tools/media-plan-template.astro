@@ -1,0 +1,369 @@
+---
+// Media plan template page. Its SEO copy, FAQ, budget-split calculator and
+// related links live in src/data/pseo/tools/media-plan-template.json (so the
+// /tools index lists it); the worked example comes from
+// src/data/media-plan-template/example.json, the same file
+// scripts/build-media-plan-template.py turns into the downloads.
+import { getEntry } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import CalculatorTool from "@components/pseo/CalculatorTool.vue";
+import SharedCTA from "@components/pseo/SharedCTA.astro";
+import { inlineMarkdownToHtml, stripInlineMarkdown, slugToTitle } from "@util/inlineMarkdown";
+import type { FreeTool } from "@lib/pseo/schemas";
+import example from "@data/media-plan-template/example.json";
+
+export const prerender = true;
+
+const entry = await getEntry("pseoTools", "media-plan-template");
+if (!entry) throw new Error("media-plan-template.json is missing from src/data/pseo/tools");
+const data = entry.data as FreeTool;
+
+const XLSX = "/templates/media-plan-template.xlsx";
+const CSV = "/templates/media-plan-example.csv";
+
+// ---- Worked example: every figure is derived here, the same way the workbook does it.
+const DAY = 86_400_000;
+const parse = (s: string) => new Date(`${s}T00:00:00Z`);
+const { campaign } = example;
+const totalBudget = example.lines.reduce((sum, l) => sum + l.budget, 0);
+const lines = example.lines.map((l) => {
+  const start = parse(l.start);
+  const end = parse(l.end);
+  const weeks = Math.round((end.getTime() - start.getTime() + DAY) / (7 * DAY));
+  const impressions = (l.budget / l.cpm) * 1000;
+  return { ...l, startDate: start, endDate: end, weeks, impressions, share: l.budget / totalBudget, frequency: impressions / l.reach };
+});
+const totalImpressions = lines.reduce((sum, l) => sum + l.impressions, 0);
+const blendedCpm = (totalBudget / totalImpressions) * 1000;
+const combinedReach = campaign.universe * (1 - lines.reduce((keep, l) => keep * (1 - l.reach / campaign.universe), 1));
+const avgFrequency = totalImpressions / combinedReach;
+
+const campaignStart = parse(campaign.start);
+const weekStarts = Array.from({ length: campaign.weeks }, (_, i) => new Date(campaignStart.getTime() + i * 7 * DAY));
+const weeklySpend = (l: (typeof lines)[number], weekStart: Date) =>
+  weekStart <= l.endDate && weekStart.getTime() + 6 * DAY >= l.startDate.getTime() ? l.budget / l.weeks : 0;
+const weeklyTotals = weekStarts.map((w) => lines.reduce((sum, l) => sum + weeklySpend(l, w), 0));
+const peakWeek = weeklyTotals.indexOf(Math.max(...weeklyTotals));
+
+const usd = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
+const usd2 = (n: number) => `$${n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+const int = (n: number) => Math.round(n).toLocaleString("en-US");
+const pct = (n: number) => `${(n * 100).toFixed(1)}%`;
+const millions = (n: number) => `${(n / 1e6).toLocaleString("en-US", { maximumFractionDigits: 2 })} million`;
+const shortDate = (d: Date) => d.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+const lastDay = new Date(campaignStart.getTime() + (campaign.weeks * 7 - 1) * DAY);
+const metaLine = lines[0];
+
+const columns = [
+  ["Channel", "The media type: CTV, paid social, paid search, audio, out-of-home."],
+  ["Tactic / placement", "What you are buying within it: Reels, in-stream, retargeting, brand keywords."],
+  ["Vendor / partner", "Who you buy it from: a platform, a DSP deal, a publisher, an OOH network."],
+  ["Flight start and end", "The dates the line is live. Weeks are worked out from these."],
+  ["Budget", "Planned spend for the line, and its share of the total."],
+  ["CPM", "Cost per thousand impressions. For CPC or CPV buys, enter the effective CPM."],
+  ["Impressions", "Budget / CPM × 1,000. Calculated."],
+  ["Estimated reach", "People reached, from the platform's reach planner for your audience."],
+  ["Frequency", "Impressions / reach: how often each person reached sees the ad. Calculated."],
+  ["KPI", "The number the line is judged on: completed views, clicks, cost per order."],
+  ["Notes", "Buy type, creative, targeting, anything the buyer needs."],
+];
+
+const steps = [
+  ["Set the objective and the number that proves it", "Awareness, consideration or sales, and the KPI you will report: reach at a frequency, cost per completed view, cost per order."],
+  ["Define and size the audience", `Who you need to reach and how many of them there are. The example targets ${campaign.audience.toLowerCase()}, about ${millions(campaign.universe)} people.`],
+  ["Fix the budget and the dates", `Total spend and flight window. The example runs ${campaign.weeks} weeks from ${shortDate(campaignStart)} to ${shortDate(lastDay)} on ${usd(campaign.budget)}.`],
+  ["Choose channels for the job", "Video and CTV to build awareness, social and search to drive action, retargeting and out-of-home close to purchase. Give each channel a reason to be in the plan."],
+  ["Split the budget and price each line", "Allocate spend, get a CPM (or CPC) for every line, and let the template work out impressions. Use the budget splitter below for a first pass."],
+  ["Check reach and frequency", "Pull reach from each platform's planner, check frequency per line, and look at combined reach against the audience. Move money if a line is under-delivering on reach or over-frequent."],
+  ["Lay out the flowchart", "Schedule each line by week so spend builds toward the moment that matters (here, the last weeks before school starts) and nothing goes dark by accident."],
+  ["Agree how you will measure and optimize", "Decide reporting cadence, what triggers a budget shift between lines, and how you will read results against the KPI."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.content.faq.map((qa) => ({
+      "@type": "Question",
+      name: qa.question,
+      acceptedAnswer: { "@type": "Answer", text: stripInlineMarkdown(qa.answer) },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: "Media plan template",
+    description: data.seo.description,
+    isAccessibleForFree: true,
+    encoding: [
+      { "@type": "MediaObject", contentUrl: new URL(XLSX, Astro.site ?? "https://www.mediaplanningtool.com").href, encodingFormat: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" },
+      { "@type": "MediaObject", contentUrl: new URL(CSV, Astro.site ?? "https://www.mediaplanningtool.com").href, encodingFormat: "text/csv" },
+    ],
+  },
+];
+
+const card = "bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-5 md:p-8 mb-6";
+const h2 = "text-2xl font-semibold tracking-[-0.02em] text-gray-900 dark:text-gray-50 mb-3";
+const th = "py-2 px-3 font-semibold text-gray-900 dark:text-gray-100 whitespace-nowrap";
+const td = "py-2 px-3 text-gray-700 dark:text-gray-300 align-top";
+const num = "py-2 px-3 text-right font-mono tabular-nums text-gray-900 dark:text-gray-100 whitespace-nowrap align-top";
+---
+
+<BaseLayout title={data.seo.title} description={data.seo.description} slug={`tools/${data.seo.slug}`}>
+  <AppShell>
+    <div class="w-full px-4 py-8">
+      <article class="max-w-5xl mx-auto">
+        <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6">
+          <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+          <span>/</span>
+          <a href="/tools" class="hover:text-primary-600 transition-colors">Tools</a>
+          <span>/</span>
+          <span class="text-gray-700 dark:text-gray-300">Media plan template</span>
+        </nav>
+
+        <!-- Hero with the downloads -->
+        <header class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-[14px] p-6 md:p-8 mb-6">
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400">Free template</span>
+            <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300">Excel · CSV · Google Sheets</span>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-semibold tracking-[-0.04em] leading-[1.05] text-gray-900 dark:text-gray-50 mb-4">
+            Media plan example and free template
+          </h1>
+          <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-6 max-w-3xl">
+            A worked media plan with every number shown, a weekly media flowchart, and the same thing as a template you can fill in.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href={XLSX} download data-download="media-plan-template.xlsx" class="inline-flex items-center justify-center gap-2 bg-ink hover:bg-gray-800 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+              Download Excel template (.xlsx)
+            </a>
+            <a href={CSV} download data-download="media-plan-example.csv" class="inline-flex items-center justify-center gap-2 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-100 hover:border-ink px-6 py-3 rounded-xl font-semibold transition-colors">
+              Download example (.csv)
+            </a>
+          </div>
+          <p class="mt-3 text-sm text-gray-500 dark:text-gray-400">No sign-up. The .xlsx opens in Excel, Google Sheets and Numbers with its formulas intact.</p>
+        </header>
+
+        <!-- Quick answer -->
+        {data.content.quick_answer && (
+          <div class="rounded-xl border border-primary-200 bg-primary-50 dark:border-primary-800 dark:bg-primary-900/20 p-5 md:p-6 mb-6">
+            <p class="text-sm font-medium uppercase tracking-wide text-primary-700 dark:text-primary-300 mb-2">Quick answer</p>
+            <p class="text-lg text-gray-900 dark:text-gray-100 leading-relaxed" set:html={inlineMarkdownToHtml(data.content.quick_answer)} />
+          </div>
+        )}
+
+        <!-- What's in the template -->
+        <section class={card} aria-labelledby="whats-in">
+          <h2 id="whats-in" class={h2}>What's in the template</h2>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-5">{data.content.intro}</p>
+          <div class="grid gap-3 sm:grid-cols-2 mb-6">
+            {[
+              ["Example plan", `The ${campaign.weeks}-week, ${usd(campaign.budget)} plan below, filled in. Type over it or keep it as a reference.`],
+              ["Example flowchart", "The same plan week by week, shaded like a Gantt chart, with weekly and cumulative spend."],
+              ["Blank plan", "25 empty rows with every formula in place, plus totals and a budget-left check."],
+              ["Blank flowchart", "13 weeks, linked to the blank plan. Set a start date and it fills in from your flight dates."],
+            ].map(([name, text]) => (
+              <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-4">
+                <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-1">{name}</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">{text}</p>
+              </div>
+            ))}
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-2">The columns</h3>
+          <dl class="grid gap-x-6 gap-y-2 sm:grid-cols-2 text-sm">
+            {columns.map(([name, text]) => (
+              <div>
+                <dt class="font-semibold text-gray-900 dark:text-gray-100 inline">{name}:</dt>
+                <dd class="text-gray-600 dark:text-gray-400 inline">{text}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <!-- Worked example -->
+        <section class={card} aria-labelledby="example">
+          <h2 id="example" class={h2}>Media plan example</h2>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            <strong>{campaign.name}.</strong> {campaign.objective}. Audience: {campaign.audience.toLowerCase()} (about {millions(campaign.universe)} people).
+            {usd(campaign.budget)} over {campaign.weeks} weeks, {shortDate(campaignStart)} to {shortDate(lastDay)}, 2027.
+          </p>
+          <p class="sm:hidden text-xs text-gray-500 dark:text-gray-400 mb-2">Scroll sideways to see every column.</p>
+          <div class="overflow-x-auto -mx-5 md:mx-0">
+            <table class="w-full min-w-[760px] text-left text-sm">
+              <caption class="sr-only">Worked media plan example, one row per line item</caption>
+              <thead>
+                <tr class="border-b border-gray-200 dark:border-gray-700">
+                  <th scope="col" class={th}>Channel / vendor</th>
+                  <th scope="col" class={th}>Flight</th>
+                  <th scope="col" class={`${th} text-right`}>Budget</th>
+                  <th scope="col" class={`${th} text-right`}>Share</th>
+                  <th scope="col" class={`${th} text-right`}>CPM</th>
+                  <th scope="col" class={`${th} text-right`}>Impressions</th>
+                  <th scope="col" class={`${th} text-right`}>Est. reach</th>
+                  <th scope="col" class={`${th} text-right`}>Freq.</th>
+                  <th scope="col" class={th}>KPI</th>
+                </tr>
+              </thead>
+              <tbody>
+                {lines.map((l) => (
+                  <tr class="border-b border-gray-100 dark:border-gray-700">
+                    <td class={td}>
+                      <span class="font-medium text-gray-900 dark:text-gray-100">{l.channel}</span>
+                      <span class="block text-xs text-gray-500 dark:text-gray-400">{l.tactic} · {l.vendor}</span>
+                    </td>
+                    <td class={`${td} whitespace-nowrap`}>{shortDate(l.startDate)} – {shortDate(l.endDate)}<span class="block text-xs text-gray-500 dark:text-gray-400">{l.weeks} weeks</span></td>
+                    <td class={num}>{usd(l.budget)}</td>
+                    <td class={num}>{pct(l.share)}</td>
+                    <td class={num}>{usd2(l.cpm)}</td>
+                    <td class={num}>{int(l.impressions)}</td>
+                    <td class={num}>{int(l.reach)}</td>
+                    <td class={num}>{l.frequency.toFixed(1)}</td>
+                    <td class={`${td} text-xs`}>{l.kpi}</td>
+                  </tr>
+                ))}
+              </tbody>
+              <tfoot>
+                <tr class="bg-gray-50 dark:bg-gray-900/40 font-semibold">
+                  <th scope="row" class={th}>Total</th>
+                  <td class={td}></td>
+                  <td class={num}>{usd(totalBudget)}</td>
+                  <td class={num}>100.0%</td>
+                  <td class={num}>{usd2(blendedCpm)}</td>
+                  <td class={num}>{int(totalImpressions)}</td>
+                  <td class={num}>{int(combinedReach)}</td>
+                  <td class={num}>{avgFrequency.toFixed(1)}</td>
+                  <td class={`${td} text-xs`}>Blended CPM · combined reach · avg. frequency</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">How the numbers are worked out</h3>
+          <ul class="list-disc pl-5 space-y-1.5 text-gray-700 dark:text-gray-300 leading-relaxed">
+            <li><strong>Impressions = budget / CPM × 1,000.</strong> {metaLine.vendor}: {usd(metaLine.budget)} / {usd(metaLine.cpm)} × 1,000 = {int(metaLine.impressions)}.</li>
+            <li><strong>Frequency = impressions / reach.</strong> {metaLine.vendor}: {int(metaLine.impressions)} / {int(metaLine.reach)} = {metaLine.frequency.toFixed(1)}.</li>
+            <li><strong>Blended CPM = total budget / total impressions × 1,000</strong>: {usd(totalBudget)} / {int(totalImpressions)} × 1,000 = {usd2(blendedCpm)}.</li>
+            <li><strong>Combined reach</strong> isn't the sum of the reach column, because people see more than one channel. Assuming random overlap, it is audience × (1 − the product of (1 − line reach / audience)) = {int(combinedReach)}, or {pct(combinedReach / campaign.universe)} of the audience, at an average frequency of {avgFrequency.toFixed(1)}.</li>
+            <li><strong>Paid search is bought on CPC</strong>, so it carries an effective CPM: {lines.find((l) => l.channel === "Paid search")?.notes}.</li>
+          </ul>
+        </section>
+
+        <!-- Flowchart -->
+        <section class={card} aria-labelledby="flowchart">
+          <h2 id="flowchart" class={h2}>Media flowchart</h2>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            A media flowchart is the plan laid out by week: line items down the side, weeks across the top, a bar for each week a line is live. It shows pacing and gaps at a glance.
+            Here each line's budget is spread evenly across its live weeks. Spend peaks at {usd(weeklyTotals[peakWeek])} a week in weeks {peakWeek + 1}–{peakWeek + 2}, when CTV runs alongside the always-on lines.
+          </p>
+          <p class="sm:hidden text-xs text-gray-500 dark:text-gray-400 mb-2">Scroll sideways to see every column.</p>
+          <div class="overflow-x-auto -mx-5 md:mx-0">
+            <table class="w-full min-w-[760px] text-sm border-separate border-spacing-0">
+              <caption class="sr-only">Weekly spend by line item</caption>
+              <thead>
+                <tr>
+                  <th scope="col" class={`${th} text-left border-b border-gray-200 dark:border-gray-700`}>Line</th>
+                  {weekStarts.map((w, i) => (
+                    <th scope="col" class={`${th} text-center border-b border-gray-200 dark:border-gray-700`}>
+                      Wk {i + 1}<span class="block text-xs font-normal text-gray-500 dark:text-gray-400">{shortDate(w)}</span>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {lines.map((l) => (
+                  <tr>
+                    <th scope="row" class={`${td} font-medium text-left whitespace-nowrap border-b border-gray-100 dark:border-gray-700`}>
+                      {l.channel}<span class="block text-xs font-normal text-gray-500 dark:text-gray-400">{l.vendor}</span>
+                    </th>
+                    {weekStarts.map((w) => {
+                      const spend = weeklySpend(l, w);
+                      return spend > 0 ? (
+                        <td class="border-b border-white dark:border-gray-800 px-1 py-1">
+                          <span class="block rounded bg-primary-200 dark:bg-primary-800 text-primary-900 dark:text-primary-50 text-center font-mono tabular-nums text-xs py-2">{usd(spend)}</span>
+                        </td>
+                      ) : (
+                        <td class="border-b border-gray-100 dark:border-gray-700 px-1 py-1"><span class="sr-only">Not live</span></td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+              <tfoot>
+                <tr class="font-semibold">
+                  <th scope="row" class={`${th} text-left`}>Weekly total</th>
+                  {weeklyTotals.map((t) => <td class="px-1 py-2 text-center font-mono tabular-nums text-xs text-gray-900 dark:text-gray-100">{usd(t)}</td>)}
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <p class="mt-3 text-sm text-gray-500 dark:text-gray-400">
+            Weekly totals add up to {usd(weeklyTotals.reduce((a, b) => a + b, 0))}. In the spreadsheet the flowchart fills itself in from the plan's flight dates, so changing a date moves the bar.
+          </p>
+        </section>
+
+        <!-- How to create a media plan -->
+        <section class={card} aria-labelledby="how-to">
+          <h2 id="how-to" class={h2}>How to create a media plan</h2>
+          <ol class="space-y-4">
+            {steps.map(([title, text], i) => (
+              <li class="flex gap-4">
+                <span class="flex-none w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/40 text-primary-800 dark:text-primary-200 font-semibold flex items-center justify-center">{i + 1}</span>
+                <div>
+                  <h3 class="font-semibold text-gray-900 dark:text-gray-100">{title}</h3>
+                  <p class="text-gray-600 dark:text-gray-400 leading-relaxed">{text}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <!-- Budget splitter -->
+        <section class="mb-6" aria-labelledby="splitter">
+          <h2 id="splitter" class={h2}>Split a budget across channels</h2>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4" set:html={inlineMarkdownToHtml(data.content.how_it_works)} />
+          <CalculatorTool
+            inputs={data.tool_config.inputs}
+            formula={data.tool_config.formula}
+            output={data.tool_config.output}
+            presets={data.tool_config.presets}
+            modes={data.tool_config.modes}
+            client:visible
+          />
+        </section>
+
+        <!-- FAQ -->
+        <section class={card} aria-labelledby="faq">
+          <h2 id="faq" class={h2}>Frequently asked questions</h2>
+          <div class="space-y-4">
+            {data.content.faq.map((qa) => (
+              <div class="border-b border-gray-100 dark:border-gray-700 pb-4 last:border-0 last:pb-0">
+                <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-2">{qa.question}</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed" set:html={inlineMarkdownToHtml(qa.answer)} />
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <!-- Related -->
+        <section class={card} aria-labelledby="related">
+          <h2 id="related" class={h2}>Calculators for each line of the plan</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {data.content.related_tools.map((tool) => (
+              <a href={`/${tool.slug}`} class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-ink transition-colors">
+                <h3 class="font-semibold text-gray-900 dark:text-gray-100 mb-1">{slugToTitle(tool.slug)}</h3>
+                <p class="text-sm text-gray-500 dark:text-gray-400">{tool.relevance}</p>
+              </a>
+            ))}
+          </div>
+          <p class="mt-4 text-sm text-gray-600 dark:text-gray-400">
+            Outgrowing the spreadsheet? <a href="/" class="font-semibold text-primary-700 dark:text-primary-300 underline">Compare media planning tools</a> in the directory.
+          </p>
+        </section>
+
+        <SharedCTA text={data.content.cta.text} link={data.content.cta.link} contentType="tool" />
+      </article>
+    </div>
+  </AppShell>
+  {jsonLd.map((ld) => <script type="application/ld+json" set:html={JSON.stringify(ld)} />)}
+</BaseLayout>
