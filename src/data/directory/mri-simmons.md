@@ -3,7 +3,7 @@ id: mri-simmons
 title: MRI-Simmons
 seoTitle: "MRI-Simmons Review 2026: Data, Pricing, Catalyst Platform & Alternatives"
 h1: "MRI-Simmons Review 2026: Data, Pricing, Catalyst Platform & Alternatives"
-description: "MRI-Simmons: enterprise-priced US consumer research (custom quote, no public rates). 60,000+ data elements, MRC-accredited probabilistic sampling, Catalyst ACT activation. Used by every major US agency."
+description: "MRI-Simmons: enterprise-priced US consumer research (custom quote, no public rates). 60,000+ data elements, MRC-accredited probabilistic sampling, Catalyst ACT activation. A baseline for nearly every major US agency."
 tags:
   - audience-analytics
   - media-planning
@@ -221,6 +221,8 @@ There is no free trial for commercial users. Third-party sites speculating on sp
 ---
 
 ## MRI-Simmons vs Alternatives
+
+See six alternatives side by side, with who each suits and how it's priced: [MRI-Simmons alternatives compared](/mri-simmons/alternatives).
 
 ### MRI-Simmons vs [GWI](/gwi)
 
