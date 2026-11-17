@@ -1,0 +1,108 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import AppShell from "@components/app/AppShell.astro";
+import AppProse from "@components/app/Prose.astro";
+
+const title = "AdLib DSP Alternatives (2026): 5 DSPs Compared";
+const description = "Alternatives to the AdLib DSP and AdLib Planner: The Trade Desk, Google DV360, Amazon DSP, Basis and Quantcast, with pricing, minimums and who each suits.";
+const slug = "adlib-planner/alternatives";
+
+const faqs = [
+  {
+    q: "What is AdLib?",
+    a: "AdLib Media Group runs a meta-DSP that gives access to 20+ enterprise demand-side platforms, plus AdLib Planner, a free programmatic media planning tool that uses live CPMs from AdLib DSP campaigns.",
+  },
+  {
+    q: "Which AdLib DSP alternative has the lowest minimum?",
+    a: "Quantcast, which offers a free self-serve DSP. The Trade Desk, DV360 and Amazon DSP's managed service all expect large commitments: roughly $100K+ a quarter for The Trade Desk and about $50K a month for DV360 and Amazon DSP managed service.",
+  },
+  {
+    q: "Is AdLib Planner free?",
+    a: "Yes. AdLib Planner is listed as a free (freemium) programmatic planning tool that builds plans from live DSP benchmarks.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema}>
+  <AppShell>
+    <div class="max-w-3xl w-full mx-auto py-12 px-4">
+      <AppProse>
+
+<p><em>Last reviewed November 2026.</em></p>
+
+<h1>AdLib DSP Alternatives: 5 DSPs Compared</h1>
+
+<p>AdLib Media Group runs a meta-DSP with access to 20+ enterprise demand-side platforms, and offers <a href="/adlib-planner">AdLib Planner</a>, a free tool that builds programmatic plans from live AdLib DSP CPMs. Teams look at alternatives when they want to buy directly on one DSP, need specific inventory such as YouTube or Amazon shopper data, or want lower minimums.</p>
+
+<h2>Quick comparison</h2>
+
+<table>
+<thead>
+<tr><th>Alternative</th><th>Best for</th><th>Pricing</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="/the-trade-desk">The Trade Desk</a></td><td>Independent, open-internet and CTV buying at scale</td><td>15–20% of spend, about $100K+ a quarter</td></tr>
+<tr><td><a href="/google-dv360">Google DV360</a></td><td>Google inventory, including YouTube</td><td>10–15% of media, about $50K a month minimum</td></tr>
+<tr><td><a href="/amazon-dsp">Amazon DSP</a></td><td>Amazon first-party shopper data</td><td>Managed service about $50K a month</td></tr>
+<tr><td><a href="/basis">Basis</a></td><td>Omnichannel buying and agency workflow in one platform</td><td>Enterprise, custom quote</td></tr>
+<tr><td><a href="/quantcast">Quantcast</a></td><td>Self-serve programmatic with AI audience targeting</td><td>Free self-serve DSP</td></tr>
+</tbody>
+</table>
+
+<h2>The Trade Desk</h2>
+<p>The largest independent DSP, used for open-internet, CTV and audio buying.</p>
+<p><strong>Choose it when:</strong> you want direct control of one major independent DSP and have the budget for its minimums.</p>
+<p><strong>Pricing:</strong> about 15–20% of spend, with commitments around $100K+ a quarter.</p>
+<p><a href="/the-trade-desk">The Trade Desk profile →</a> · <a href="/the-trade-desk/pricing">pricing</a></p>
+
+<h2>Google DV360</h2>
+<p>Google's enterprise DSP, with access to Google's ad exchange and YouTube inventory.</p>
+<p><strong>Choose it when:</strong> YouTube and Google inventory are central to the plan.</p>
+<p><strong>Pricing:</strong> about 10–15% of media spend, with about a $50K a month minimum.</p>
+<p><a href="/google-dv360">Google DV360 profile →</a></p>
+
+<h2>Amazon DSP</h2>
+<p>Amazon's DSP, built around first-party shopper data on and off Amazon.</p>
+<p><strong>Choose it when:</strong> you sell products where Amazon shopping signals matter.</p>
+<p><strong>Pricing:</strong> managed service requires about $50K a month; self-serve options exist.</p>
+<p><a href="/amazon-dsp">Amazon DSP profile →</a></p>
+
+<h2>Basis</h2>
+<p>An omnichannel buying platform that combines a DSP with planning, workflow and 100+ PMP deals.</p>
+<p><strong>Choose it when:</strong> you want buying and agency operations in one system.</p>
+<p><strong>Pricing:</strong> enterprise, custom quote with no public rate card.</p>
+<p><a href="/basis">Basis profile →</a> · <a href="/basis/pricing">pricing</a></p>
+
+<h2>Quantcast</h2>
+<p>An AI-powered programmatic platform with a free self-serve DSP.</p>
+<p><strong>Choose it when:</strong> you want to launch self-serve campaigns without enterprise minimums.</p>
+<p><strong>Pricing:</strong> free self-serve DSP access; you pay for media.</p>
+<p><a href="/quantcast">Quantcast profile →</a></p>
+
+<h2>How to choose</h2>
+<p>Stay with AdLib if you want one buying relationship across many DSPs and free planning from live CPMs. Choose The Trade Desk for independent scale, DV360 for YouTube and Google inventory, Amazon DSP for shopper data, Basis for buying plus workflow, and Quantcast for low-commitment self-serve buying.</p>
+
+<h2>Frequently asked questions</h2>
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<p><a href="/adlib-planner">Back to the AdLib Planner profile →</a></p>
+
+      </AppProse>
+    </div>
+  </AppShell>
+</BaseLayout>

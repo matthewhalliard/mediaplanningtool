@@ -1,8 +1,8 @@
 ---
 id: adlib-planner
 title: AdLib Planner
-seoTitle: "AdLib Planner: Pricing, Features & Best Alternatives 2026"
-h1: "AdLib Planner: Pricing, Features & Best Alternatives 2026"
+seoTitle: "AdLib Planner and AdLib DSP: Pricing, Features and Alternatives (2026)"
+h1: "AdLib Planner and AdLib DSP: Pricing, Features and Alternatives (2026)"
 description: Free programmatic media planning tool generating data-backed plans in minutes with live CPM benchmarks, verified inventory quality, and pitch-ready exports.
 tags:
   - media-planning
@@ -31,7 +31,7 @@ category: Programmatic Media Planning
 
 **Free programmatic media planner powered by live DSP benchmarks and Bellwether-verified inventory quality.**
 
-AdLib Planner is a media planning tool built for advertising agencies to create data-backed programmatic media plans in minutes. Rather than relying on outdated industry averages, it pulls live CPM data from real AdLib DSP campaigns to power reach, frequency, and conversion forecasts. The platform includes a Site List Generator that produces campaign-ready, ads.txt-verified site lists by vertical and audience — filtering out MFA (made-for-advertising) inventory. Built by former MediaMath veterans Mike Hauptman and Dan Bougourd, AdLib Planner is the planning interface for the broader AdLib Media Group ecosystem, which includes a Meta DSP with access to 20+ enterprise demand-side platforms.
+AdLib Planner is a media planning tool built for advertising agencies to create data-backed programmatic media plans in minutes. Rather than relying on outdated industry averages, it pulls live CPM data from real AdLib DSP campaigns to power reach, frequency, and conversion forecasts. The platform includes a Site List Generator that produces campaign-ready, ads.txt-verified site lists by vertical and audience — filtering out MFA (made-for-advertising) inventory. Built by former MediaMath veterans Mike Hauptman and Dan Bougourd, AdLib Planner is the planning interface for the broader AdLib Media Group ecosystem, which includes a Meta DSP with access to 20+ enterprise demand-side platforms. Comparing DSPs? See [AdLib DSP alternatives](/adlib-planner/alternatives).
 
 ## Key Features
 
