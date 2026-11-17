@@ -54,8 +54,11 @@
       }),
       (e.__SV = 1));
   })(document, window.posthog || []);
-  posthog.init(POSTHOG_API_KEY, {
-    api_host: POSTHOG_API_HOST,
+  // Reports to the "Halliard Network" project (742582), shared by the three
+  // network sites only. Vercel's POSTHOG_API_KEY sets the same key; this is the
+  // fallback. The key is a public, write-only client key.
+  posthog.init(POSTHOG_API_KEY || "phc_vtQFryEKNGZPq5Ch9pupiF29dEV94cjnoiGqJTp87gFr", {
+    api_host: POSTHOG_API_HOST || "https://us.i.posthog.com",
     person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
   });
 </script>
