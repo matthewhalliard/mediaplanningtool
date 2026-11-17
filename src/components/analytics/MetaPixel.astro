@@ -1,38 +1,52 @@
 ---
-// Meta Pixel — Halliard Landing Page pixel (id 1357860072487371)
-// Fires PageView on every page load. Additional conversion events should be
-// fired inline where user actions complete (e.g. Lead, CompleteRegistration).
+// Meta Pixel (id 1357860072487371), shared with Halliard, the site's publisher.
+//
+// Placed in <head> so events fired while the page loads (ViewContent on tool
+// profiles) queue up instead of being dropped. Nothing reaches Meta until
+// /api/ad-consent says this visitor may be measured: no pixel for browsers
+// sending Global Privacy Control, or for visitors in the EEA, UK or Switzerland
+// (the same rules as Halliard3). If not allowed, the queue is discarded and
+// Meta's script is never loaded.
 const PIXEL_ID = "1357860072487371";
 ---
 
 <script is:inline define:vars={{ PIXEL_ID }}>
-  !(function (f, b, e, v, n, t, s) {
-    if (f.fbq) return;
-    n = f.fbq = function () {
-      n.callMethod
-        ? n.callMethod.apply(n, arguments)
-        : n.queue.push(arguments);
-    };
-    if (!f._fbq) f._fbq = n;
-    n.push = n;
-    n.loaded = !0;
-    n.version = "2.0";
-    n.queue = [];
-    t = b.createElement(e);
-    t.async = !0;
-    t.src = v;
-    s = b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t, s);
-  })(
-    window,
-    document,
-    "script",
-    "https://connect.facebook.net/en_US/fbevents.js",
-  );
-  fbq("init", PIXEL_ID);
-  fbq("track", "PageView");
-</script>
+  (function (w, d) {
+    if (w.fbq) return;
+    // Inert stand-in: records calls, sends nothing.
+    var q = [];
+    var stub = function () { q.push(arguments); };
+    w.fbq = stub;
 
-<noscript
-  set:html={`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1357860072487371&ev=PageView&noscript=1" alt="" />`}
-/>
+    function disable() {
+      q.length = 0;
+      w.fbq = function () {};
+    }
+
+    if (navigator.globalPrivacyControl) return disable();
+
+    fetch("/api/ad-consent", { credentials: "same-origin" })
+      .then(function (r) { return r.ok ? r.json() : { allowed: false }; })
+      .then(function (res) {
+        if (!res || !res.allowed) return disable();
+        // Meta's standard loader, then replay what was queued after init.
+        var n = (w.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        });
+        w._fbq = n;
+        n.push = n;
+        n.loaded = true;
+        n.version = "2.0";
+        n.queue = [];
+        var t = d.createElement("script");
+        t.async = true;
+        t.src = "https://connect.facebook.net/en_US/fbevents.js";
+        d.head.appendChild(t);
+        n("init", PIXEL_ID);
+        n("track", "PageView");
+        for (var i = 0; i < q.length; i++) n.apply(null, q[i]);
+        q.length = 0;
+      })
+      .catch(disable);
+  })(window, document);
+</script>
