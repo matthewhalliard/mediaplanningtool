@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "tool_type": "calculator",
+    "channel": "linear-tv"
+  },
+  "seo": {
+    "title": "TRP Calculator: Target Rating Points, Impressions and Cost (Free)",
+    "description": "Free TRP calculator. Work out target rating points from reach and frequency in your target audience, turn TRPs into impressions, and price a schedule from cost per point.",
+    "keywords": [
+      "trp calculator",
+      "target rating points calculator",
+      "trp formula",
+      "how to calculate trp",
+      "trp vs grp",
+      "target rating point"
+    ],
+    "slug": "trp-calculator"
+  },
+  "tool_config": {
+    "inputs": [
+      {
+        "id": "reach",
+        "label": "Reach in target audience (%)",
+        "type": "percentage",
+        "default_value": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "help_text": "Share of your target audience reached at least once."
+      },
+      {
+        "id": "frequency",
+        "label": "Average frequency",
+        "type": "number",
+        "default_value": 4,
+        "min": 0,
+        "step": 0.5,
+        "help_text": "Average times each reached person sees the ad."
+      },
+      {
+        "id": "trps",
+        "label": "TRPs",
+        "type": "number",
+        "default_value": 200,
+        "min": 0,
+        "step": 1,
+        "help_text": "Target rating points for the schedule."
+      },
+      {
+        "id": "universe",
+        "label": "Target audience size",
+        "type": "number",
+        "default_value": 40000000,
+        "min": 0,
+        "step": 1000,
+        "help_text": "People in your target audience, for example women 25–54 in the US."
+      },
+      {
+        "id": "cpp",
+        "label": "Cost per target rating point",
+        "type": "currency",
+        "default_value": 6000,
+        "min": 0,
+        "step": 1,
+        "help_text": "What one rating point against your target costs."
+      }
+    ],
+    "formula": "reach * frequency",
+    "output": {
+      "label": "Target rating points (TRPs)",
+      "format": "number",
+      "description": "Rating points delivered against your target audience"
+    },
+    "modes": [
+      {
+        "id": "trps",
+        "label": "TRPs",
+        "inputs": [
+          "reach",
+          "frequency"
+        ],
+        "formula": "reach * frequency",
+        "output": {
+          "label": "Target rating points (TRPs)",
+          "format": "number",
+          "description": "Rating points delivered against your target audience"
+        }
+      },
+      {
+        "id": "impressions",
+        "label": "Impressions",
+        "inputs": [
+          "trps",
+          "universe"
+        ],
+        "formula": "trps / 100 * universe",
+        "output": {
+          "label": "Target impressions",
+          "format": "number",
+          "description": "Impressions in your target audience for these TRPs"
+        }
+      },
+      {
+        "id": "cost",
+        "label": "Cost",
+        "inputs": [
+          "trps",
+          "cpp"
+        ],
+        "formula": "trps * cpp",
+        "output": {
+          "label": "Schedule cost",
+          "format": "currency",
+          "description": "TRPs × cost per target rating point"
+        }
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sustaining flight",
+        "values": {
+          "reach": 50,
+          "frequency": 3,
+          "trps": 150
+        }
+      },
+      {
+        "name": "Awareness launch",
+        "values": {
+          "reach": 70,
+          "frequency": 5,
+          "trps": 350
+        }
+      },
+      {
+        "name": "Local DMA push",
+        "values": {
+          "reach": 75,
+          "frequency": 8,
+          "trps": 600
+        }
+      }
+    ]
+  },
+  "content": {
+    "intro": "Target rating points (TRPs) measure how much of a schedule lands on the people you actually want to reach, such as women 25–54 or recent SUV intenders, rather than a broad demo. They use the same math as GRPs, but against your target audience. This calculator works out TRPs from reach and frequency, turns TRPs into target impressions, and prices a schedule from your cost per point.",
+    "quick_answer": "**TRPs = reach in your target audience (%) × average frequency.** Reaching 50% of your target an average of 4 times is **200 TRPs**. One TRP is 1% of the target audience, so **target impressions = TRPs ÷ 100 × audience size**.",
+    "how_it_works": "The formula is **TRPs = target reach (%) × average frequency**, the same as GRPs but measured only against your target audience. 50% target reach at an average frequency of 4 is 200 TRPs. Because one rating point is 1% of the audience, **impressions = TRPs ÷ 100 × target audience size**: 200 TRPs against a 40 million target is 80 million target impressions. To price a schedule, **cost = TRPs × cost per point**. A schedule usually delivers more GRPs than TRPs, because some of its impressions fall outside your target.",
+    "faq": [
+      {
+        "question": "What is the difference between TRP and GRP?",
+        "answer": "GRPs measure exposure against a broad demographic such as adults 18+. TRPs measure exposure against your specific target, such as women 25–54 with household income over $100K. The math is the same, **reach × frequency**, but TRPs only count people in your target, so they're the better guide to whether a schedule reaches who you want."
+      },
+      {
+        "question": "How do you calculate TRPs from GRPs?",
+        "answer": "Multiply GRPs by the share of the schedule's audience that is in your target. If a schedule delivers 300 GRPs among adults 18+ and 40% of those impressions reach your target, it delivers about **120 TRPs**. Your measurement partner's target ratings give the exact figure."
+      },
+      {
+        "question": "How do you turn TRPs into impressions?",
+        "answer": "One TRP is 1% of your target audience, so **impressions = TRPs ÷ 100 × audience size**. 150 TRPs against a 20 million target audience is 30 million target impressions."
+      },
+      {
+        "question": "How many TRPs do I need?",
+        "answer": "Use the same ranges planners use for GRPs, applied to your target: sustaining campaigns often run 150–250 per 4-week flight and launches 300–500. Below about 100 it's hard to move brand metrics. Check the reach and frequency behind the total, not just the points."
+      }
+    ],
+    "related_tools": [
+      {
+        "slug": "tools/grp-calculator",
+        "relevance": "The same math against a broad demographic, with cost per point."
+      },
+      {
+        "slug": "tools/reach-and-frequency-calculator",
+        "relevance": "Estimate the reach and frequency behind your TRP goal."
+      },
+      {
+        "slug": "tools/impressions-calculator",
+        "relevance": "Turn a budget and CPM into impressions for digital and CTV."
+      },
+      {
+        "slug": "tools/cpm-calculator",
+        "relevance": "Compare TV costs with digital on a CPM basis."
+      }
+    ],
+    "cta": {
+      "text": "Plan TRPs alongside digital impressions in Halliard",
+      "link": "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=calculator"
+    }
+  }
+}

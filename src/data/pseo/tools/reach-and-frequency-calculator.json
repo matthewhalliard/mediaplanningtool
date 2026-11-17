@@ -4,9 +4,15 @@
     "channel": "linear-tv"
   },
   "seo": {
-    "title": "Reach & Frequency Calculator — Estimate Unique Reach and Avg Frequency",
-    "description": "Calculate reach and frequency from impressions and audience universe size. Model effective frequency thresholds for awareness, consideration, and conversion campaigns.",
-    "keywords": ["reach and frequency calculator", "reach frequency formula", "unique reach calculator", "average frequency calculator", "effective frequency"],
+    "title": "Reach and Frequency Calculator: Reach, Frequency and Impressions (Free)",
+    "description": "Free reach and frequency calculator. Estimate unique reach and average frequency from impressions and audience size, or the impressions you need to hit a reach goal. Includes effective frequency guidance.",
+    "keywords": [
+      "reach and frequency calculator",
+      "reach frequency formula",
+      "unique reach calculator",
+      "average frequency calculator",
+      "effective frequency"
+    ],
     "slug": "reach-and-frequency-calculator"
   },
   "tool_config": {
@@ -32,49 +38,121 @@
         "help_text": "Total unique people in your target audience (from Nielsen, Comscore, MRI, or first-party data)."
       },
       {
-        "id": "avg_frequency",
-        "label": "Target Average Frequency",
-        "type": "number",
-        "default_value": 4,
-        "min": 1,
-        "max": 50,
-        "step": 0.5,
-        "help_text": "Average number of times each reached person sees the ad. Changing this updates projected unique reach."
+        "id": "target_reach",
+        "label": "Target reach (%)",
+        "type": "percentage",
+        "default_value": 60,
+        "min": 0,
+        "max": 99,
+        "step": 1,
+        "help_text": "Share of the audience you want to reach at least once."
       }
     ],
-    "formula": "(impressions / avg_frequency) / universe * 100",
+    "formula": "100 * (1 - exp(-impressions / universe))",
     "output": {
-      "label": "Reach Percentage",
+      "label": "Estimated reach",
       "format": "percentage",
-      "description": "Percentage of your audience universe reached at least once at the target frequency"
+      "description": "Share of the audience that sees the ad at least once"
     },
     "presets": [
       {
         "name": "CTV Awareness Flight (US A25-54)",
-        "values": { "impressions": 10000000, "universe": 120000000, "avg_frequency": 3 }
+        "values": {
+          "impressions": 10000000,
+          "universe": 120000000,
+          "target_reach": 60
+        }
       },
       {
         "name": "Local DMA Campaign (Top-10 market)",
-        "values": { "impressions": 5000000, "universe": 3000000, "avg_frequency": 5 }
+        "values": {
+          "impressions": 5000000,
+          "universe": 3000000,
+          "target_reach": 60
+        }
       },
       {
         "name": "B2B Decision-Maker Targeting",
-        "values": { "impressions": 1500000, "universe": 250000, "avg_frequency": 6 }
+        "values": {
+          "impressions": 1500000,
+          "universe": 250000,
+          "target_reach": 60
+        }
       },
       {
         "name": "DTC Retargeting Pool",
-        "values": { "impressions": 2000000, "universe": 100000, "avg_frequency": 12 }
+        "values": {
+          "impressions": 2000000,
+          "universe": 100000,
+          "target_reach": 60
+        }
       },
       {
         "name": "Political / Electorate Targeting",
-        "values": { "impressions": 15000000, "universe": 2000000, "avg_frequency": 7 }
+        "values": {
+          "impressions": 15000000,
+          "universe": 2000000,
+          "target_reach": 60
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "reach",
+        "label": "Reach",
+        "inputs": [
+          "impressions",
+          "universe"
+        ],
+        "formula": "100 * (1 - exp(-impressions / universe))",
+        "output": {
+          "label": "Estimated reach",
+          "format": "percentage",
+          "description": "Share of the audience that sees the ad at least once"
+        }
+      },
+      {
+        "id": "frequency",
+        "label": "Frequency",
+        "inputs": [
+          "impressions",
+          "universe"
+        ],
+        "formula": "(impressions / universe) / (1 - exp(-impressions / universe))",
+        "output": {
+          "label": "Average frequency",
+          "format": "number",
+          "description": "Average exposures per person reached"
+        }
+      },
+      {
+        "id": "impressions",
+        "label": "Impressions needed",
+        "inputs": [
+          "universe",
+          "target_reach"
+        ],
+        "formula": "-universe * ln(1 - target_reach / 100)",
+        "output": {
+          "label": "Impressions needed",
+          "format": "number",
+          "description": "Impressions needed to reach this share of the audience"
+        }
       }
     ]
   },
   "content": {
     "intro": "Reach and frequency are the foundational currency of awareness-driven media planning. Reach is the percentage of your audience universe exposed to the campaign at least once; frequency is how often each reached person sees the ad. Impressions alone can't tell you either — 10 million impressions could mean 10 million people seeing one ad or 1 million people seeing ten. This calculator models unique reach and lets you experiment with frequency caps to find the right balance.",
-    "how_it_works": "The core formulas: **Unique Reach = Impressions ÷ Average Frequency**. **Reach % = (Unique Reach ÷ Universe) × 100**. For example, 10,000,000 impressions at an average frequency of 4 reaches 2,500,000 unique people. Against a 120,000,000-person universe, that's 2.1% reach. In practice, true unique reach is slightly lower than this linear model suggests because real distributions follow a Poisson curve — some people see the ad far more than average, others not at all. Nielsen and Comscore reach models build in this nonlinearity; this calculator gives you a planning-grade estimate.",
+    "how_it_works": "The calculator uses the standard planning estimate that assumes impressions land at random across the audience: **Reach % = 100 × (1 − e^(−impressions ÷ universe))**. Average frequency is **impressions ÷ people reached**. For example, 10,000,000 impressions against a 5,000,000-person universe is 2 impressions per person on average, which reaches about 86% of the audience (4.3 million people) at an average frequency of about 2.3. Reach rises fast at first and then flattens, because each extra impression is more likely to land on someone who has already seen the ad. Real campaigns usually reach a little less than this, because ads concentrate on heavy media users; measured reach curves from your platform or a measurement partner will be more precise. To plan backwards, **impressions needed = −universe × ln(1 − target reach)**: reaching 60% of a 5 million audience takes about 4.6 million impressions.",
     "faq": [
+      {
+        "question": "How do you calculate reach and frequency?",
+        "answer": "Estimate reach from impressions and audience size with **reach % = 100 × (1 − e^(−impressions ÷ audience))**, then **frequency = impressions ÷ people reached**. 3 million impressions against a 1 million audience reach about 95% of it at a frequency of about 3.2."
+      },
+      {
+        "question": "Why can't reach go above 100%?",
+        "answer": "Reach counts unique people, so it can never exceed the audience. Adding impressions past a point mostly raises frequency: doubling impressions from 5 million to 10 million against a 5 million audience lifts reach from about 63% to about 86%, not to 200%."
+      },
       {
         "question": "What is effective frequency?",
         "answer": "Effective frequency is the minimum number of exposures required to achieve a campaign objective. Classic ad research (Naples, Ostrow) established 3+ exposures as the threshold for awareness and message recall. Modern planners use: 2–3 exposures for category entrants and high-interest audiences, 3–5 for awareness and consideration, 5–10 for direct-response conversion campaigns, and 10+ for retargeting pools. Frequency below the effective threshold wastes reach; frequency far above it creates fatigue and negative brand perception."
@@ -102,6 +180,10 @@
         "relevance": "Calculate gross rating points from reach and frequency (GRP = Reach × Frequency)."
       },
       {
+        "slug": "tools/trp-calculator",
+        "relevance": "Turn reach and frequency into target rating points for TV and CTV buys."
+      },
+      {
         "slug": "tools/impressions-calculator",
         "relevance": "Estimate the impressions needed to achieve a reach and frequency goal."
       },
@@ -121,6 +203,33 @@
     "cta": {
       "text": "Plan reach and frequency with Halliard",
       "link": "https://www.halliardmedia.com/plan?utm_source=mediaplanningtool&utm_medium=referral&utm_campaign=directory&utm_content=calculator"
+    },
+    "quick_answer": "**Reach ≈ 1 − e^(−impressions ÷ audience size).** 10 million impressions against a 5 million audience reach about **86%** of it, at an average frequency of about 2.3. Frequency is **impressions ÷ people reached**. This is the standard planning estimate when you don't have a measured reach curve.",
+    "benchmarks": {
+      "title": "Effective frequency by goal",
+      "columns": [
+        "Goal",
+        "Typical exposures"
+      ],
+      "rows": [
+        [
+          "Category entrants and high-interest audiences",
+          "2–3"
+        ],
+        [
+          "Awareness and consideration",
+          "3–5"
+        ],
+        [
+          "Direct-response conversion",
+          "5–10"
+        ],
+        [
+          "Retargeting pools",
+          "10+"
+        ]
+      ],
+      "note": "From the effective frequency FAQ below. Frequency below the threshold wastes reach; far above it causes fatigue."
     }
   }
 }
