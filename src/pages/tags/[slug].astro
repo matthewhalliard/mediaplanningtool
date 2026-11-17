@@ -24,6 +24,12 @@ const { title, name, description } = Astro.props;
 
 const allListings = await getCollection("directory");
 
+const allTags: Array<Tag> = config.directoryData.tags;
+const tagCounts: Record<string, number> = {};
+for (const listing of allListings as any[]) {
+  for (const t of listing?.data?.tags ?? []) tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+}
+
 const calculatedTitle = name || title;
 const calculatedDescription = description;
 const tagListings: any[] = allListings.filter((listing: any) => {
@@ -56,5 +62,27 @@ const pageTitle = toTitleCase(formatString(config.directoryData.tagPages.title, 
       {calculatedDescription}
     </p>
     <PureGrid listings={tagListings} />
+    <nav aria-label="All tags" class="mt-14 border-t border-gray-200 pt-8 dark:border-gray-700">
+      <h2 class="mono-label m-0 mb-4 text-gray-500">Browse by tag</h2>
+      <ul role="list" class="m-0 flex list-none flex-wrap gap-2 p-0">
+        {allTags.map((t) => (
+          <li>
+            <a
+              href={`/tags/${t.key}`}
+              aria-current={t.key === title ? "page" : undefined}
+              class:list={[
+                "inline-flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors",
+                t.key === title
+                  ? "border-ink bg-ink text-white"
+                  : "border-gray-200 bg-white text-ink hover:border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100",
+              ]}
+            >
+              {t.name}
+              <span class="font-mono text-xs opacity-60">{tagCounts[t.key ?? ""] ?? 0}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   </div>
 </Home>
