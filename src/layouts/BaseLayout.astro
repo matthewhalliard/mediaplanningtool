@@ -55,6 +55,7 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
     <meta name="twitter:description" content={calculatedDescription} />
     <meta name="twitter:image" content={getOGImage(slug)} />
     <ClientRouter />
+    <MetaPixel />
     {faqSchema && (
       <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     )}
@@ -63,7 +64,6 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
     <slot />
     <Posthog />
     <Snitcher />
-    <MetaPixel />
     <script is:inline>
       // Record every click that leaves for Halliard, with the placement that
       // sent it (the link's utm_content). One listener for the whole site.
