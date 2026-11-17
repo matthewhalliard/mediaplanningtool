@@ -13,7 +13,7 @@
           class="px-4 py-2 rounded-lg text-sm font-medium border transition-colors"
           :class="activePreset === preset.name
             ? 'bg-primary-600 text-white border-primary-600'
-            : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-600 hover:border-primary-300 dark:hover:border-primary-700'"
+            : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-600 hover:border-ink dark:hover:border-ink'"
         >
           {{ preset.name }}
         </button>
@@ -60,10 +60,10 @@
       </div>
 
       <!-- Result -->
-      <div class="mt-8 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 rounded-xl p-6 border border-primary-200 dark:border-gray-700">
+      <div class="mt-8 bg-white border border-gray-200 rounded-xl p-6 border dark:border-gray-700">
         <div class="text-center">
           <p class="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">{{ output.label }}</p>
-          <p class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+          <p class="text-4xl md:text-5xl font-semibold text-primary-600 dark:text-primary-400 mb-2">
             {{ formattedResult }}
           </p>
           <p class="text-sm text-gray-500 dark:text-gray-400">{{ output.description }}</p>

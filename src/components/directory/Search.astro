@@ -5,15 +5,16 @@ import formatString from "../../util/formatString";
 import UiTagGrid from "../ui/tags/Grid.vue";
 import UiTagSelect from "../ui/tags/Select.vue";
 import config from "@util/themeConfig";
+import type Tag from "../../types/Tag";
 
-const searchPlaceholder = await getSearchPlaceholder();
+const listings = await getCollection("directory");
+const searchPlaceholder = getSearchPlaceholder(listings.length);
 
-async function getSearchPlaceholder() {
+function getSearchPlaceholder(count: number) {
   if (
     config.directoryData.search?.placeholder &&
     config.directoryData.search.placeholder.includes("{0}")
   ) {
-    const count = (await getCollection("directory")).length;
     return formatString(
       config.directoryData.search?.placeholder ?? "Search among {0} listings",
       count,
@@ -22,52 +23,56 @@ async function getSearchPlaceholder() {
 
   return config.directoryData.search?.placeholder ?? "Search";
 }
+
+// Quick filters: the most-used functional tags (user-type tags are grey in settings).
+const counts: Record<string, number> = {};
+for (const listing of listings) {
+  for (const tag of (listing.data as any).tags ?? []) counts[tag] = (counts[tag] ?? 0) + 1;
+}
+const allTags = (config.directoryData.tags ?? []) as Tag[];
+const pillKeys = allTags
+  .filter((t) => t.color !== "gray" && t.key !== "featured" && (counts[t.key ?? ""] ?? 0) > 0)
+  .sort((a, b) => (counts[b.key ?? ""] ?? 0) - (counts[a.key ?? ""] ?? 0))
+  .slice(0, 6)
+  .map((t) => t.key as string);
+const display = config.directoryUI.search.tags.display;
 ---
 
-<div class="mb-10 not-prose">
-  <div class="mt-2 flex rounded-md shadow-sm">
-    <div class="relative flex flex-grow items-stretch focus-within:z-10">
-      {
-        config.directoryUI.search.icon ? (
-          <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-            <Icon
-              name={config.directoryUI.search.icon}
-              class="h-5 w-5 text-gray-400"
-              aria-hidden="true"
-            />
-          </div>
-        ) : (
-          ""
-        )
-      }
-      <input
-        id="search"
-        class=`block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6 dark:active:ring-primary-400 dark:bg-gray-700 dark:ring-gray-600 dark:text-gray-200 dark:placeholder:text-gray-400 ${config.directoryUI.search?.icon ? 'pl-10' : ''}`
-        placeholder={searchPlaceholder}
-      />
-      <div class="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
-        <kbd
-          class="inline-flex items-center rounded border border-gray-200 px-1 font-sans text-xs text-gray-400 dark:border-gray-500 dark:text-gray-500"
-          >⌘K</kbd
-        >
-      </div>
-    </div>
-  </div>
+<div class="not-prose container-site pb-14">
+  <label class="flex h-[60px] max-w-[640px] items-center gap-3 rounded-[14px] border border-gray-300 bg-white pr-2.5 pl-5 transition-colors focus-within:border-ink dark:border-gray-600 dark:bg-gray-800">
+    {
+      config.directoryUI.search.icon && (
+        <Icon
+          name={config.directoryUI.search.icon}
+          class="h-5 w-5 shrink-0 text-gray-500"
+          aria-hidden="true"
+        />
+      )
+    }
+    <input
+      id="search"
+      type="search"
+      aria-label="Search tools"
+      class="min-w-0 flex-1 border-0 bg-transparent p-0 text-[17px] text-ink placeholder:text-gray-500 focus:ring-0 focus:outline-none dark:text-gray-100"
+      placeholder={searchPlaceholder}
+    />
+    <kbd class="hidden sm:inline-flex items-center rounded-md border border-gray-200 px-2 py-1 font-mono text-xs text-gray-600 dark:border-gray-600 dark:text-gray-400">⌘K</kbd>
+  </label>
   {
     () => {
-      const sidebar = config.layout.sidebar;
-      if (sidebar) {
-        return <></>
-      }
-      if (config.directoryUI.search.tags.display === "select") {
+      if (config.layout.sidebar) return <></>;
+      if (display === "select") {
         return (
           <UiTagSelect client:load>
             <Icon name="tabler:x" />
           </UiTagSelect>
         );
       }
-      if (config.directoryUI.search.tags.display === "show-all") {
-        return <UiTagGrid client:load />;
+      if (display === "pills") {
+        return <UiTagGrid client:load keys={pillKeys} counts={counts} />;
+      }
+      if (display === "show-all") {
+        return <UiTagGrid client:load counts={counts} />;
       }
     }
   }

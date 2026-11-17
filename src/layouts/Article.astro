@@ -1,8 +1,6 @@
 ---
-import "@fontsource/gabarito";
 import BaseLayout from "./BaseLayout.astro";
 import AppProse from "../components/app/Prose.astro";
-import { Icon } from "astro-icon/components";
 const { frontmatter, slug, mentionsHalliard } = Astro.props;
 import OwnershipNote from "@components/app/OwnershipNote.astro";
 import themeConfig from "@util/themeConfig";
@@ -36,26 +34,24 @@ const hasMeta = formattedDate || author || readTime || category;
 
 <BaseLayout title={title} description={description} slug={slug}>
   <AppShell>
-    <article class="max-w-2xl w-full mx-auto py-20">
+    <article class="container-site max-w-[720px] pt-14 pb-20">
       {hasMeta && (
-        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-600 dark:text-gray-400 mb-6 not-prose">
+        <div class="not-prose mb-8 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[13px] text-gray-600 dark:text-gray-400">
           {category && (
-            <span class="inline-flex items-center gap-1.5 bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2.5 py-1 rounded-md font-medium text-xs uppercase tracking-wide">
+            <span class="mono-label inline-flex items-center gap-2 text-primary-600 dark:text-primary-300"><span class="h-2 w-2 rounded-full bg-primary-600" aria-hidden="true"></span>
               {category}
             </span>
           )}
           {formattedDate && (
             <span class="inline-flex items-center gap-1.5">
-              <Icon name="tabler:calendar" class="w-4 h-4" />
-              <time datetime={pubDate}>{formattedDate}</time>
+                            <time datetime={pubDate}>{formattedDate}</time>
             </span>
           )}
           {author && (
             <>
               <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
               <span class="inline-flex items-center gap-1.5">
-                <Icon name="tabler:user" class="w-4 h-4" />
-                {author}
+                                {author}
               </span>
             </>
           )}
@@ -63,8 +59,7 @@ const hasMeta = formattedDate || author || readTime || category;
             <>
               <span aria-hidden="true" class="text-gray-300 dark:text-gray-600">·</span>
               <span class="inline-flex items-center gap-1.5">
-                <Icon name="tabler:clock" class="w-4 h-4" />
-                {readTime}
+                                {readTime}
               </span>
             </>
           )}

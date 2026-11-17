@@ -1,6 +1,6 @@
 ---
-import "@fontsource-variable/inter";
-import "@fontsource-variable/gabarito";
+import "@fontsource-variable/geist";
+import "@fontsource-variable/geist-mono";
 import themeConfig from "@util/themeConfig";
 import "../styles/global.css";
 import Posthog from "@components/analytics/Posthog.astro";
@@ -59,7 +59,7 @@ const twitterDomain = siteBase.replace(/^https?:\/\//, "");
       <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     )}
   </head>
-  <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+  <body class="bg-gray-50 text-ink dark:bg-gray-900 dark:text-gray-200">
     <slot />
     <Posthog />
     <Snitcher />

@@ -5,101 +5,123 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: 'Inter Variable', system-ui, -apple-system, sans-serif;
-  --font-display: 'Gabarito Variable', 'Inter Variable', sans-serif;
-  --font-mono: 'Source Code Pro', monospace;
+  --font-sans: 'Geist Variable', 'Geist', system-ui, -apple-system, sans-serif;
+  --font-display: 'Geist Variable', 'Geist', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono Variable', 'Geist Mono', ui-monospace, monospace;
 
-  --color-gray-50: var(--color-neutral-50);
-  --color-gray-100: var(--color-neutral-100);
-  --color-gray-200: var(--color-neutral-200);
-  --color-gray-300: var(--color-neutral-300);
-  --color-gray-400: var(--color-neutral-400);
-  --color-gray-500: var(--color-neutral-500);
-  --color-gray-600: var(--color-neutral-600);
-  --color-gray-700: var(--color-neutral-700);
-  --color-gray-800: var(--color-neutral-800);
-  --color-gray-900: var(--color-neutral-900);
-  --color-gray-950: var(--color-neutral-950);
+  /* Neutral scale is zinc: ground #FAFAFA, hairlines #E4E4E7, secondary text #52525B. */
+  --color-gray-50: var(--color-zinc-50);
+  --color-gray-100: var(--color-zinc-100);
+  --color-gray-200: var(--color-zinc-200);
+  --color-gray-300: var(--color-zinc-300);
+  --color-gray-400: var(--color-zinc-400);
+  --color-gray-500: var(--color-zinc-500);
+  --color-gray-600: var(--color-zinc-600);
+  --color-gray-700: var(--color-zinc-700);
+  --color-gray-800: var(--color-zinc-800);
+  --color-gray-900: var(--color-zinc-900);
+  --color-gray-950: var(--color-zinc-950);
+  --color-ink: #0A0A0B;
 
-  --color-primary-50: var(--color-sky-50);
-  --color-primary-100: var(--color-sky-100);
-  --color-primary-200: var(--color-sky-200);
-  --color-primary-300: var(--color-sky-300);
-  --color-primary-400: var(--color-sky-400);
-  --color-primary-500: var(--color-sky-500);
-  --color-primary-600: var(--color-sky-600);
-  --color-primary-700: var(--color-sky-700);
-  --color-primary-800: var(--color-sky-800);
-  --color-primary-900: var(--color-sky-900);
-  --color-primary-950: var(--color-sky-950);
+  /* Accent is indigo. 600 and 700 both resolve to #4338CA so every accent reads the same. */
+  --color-primary-50: #EEF2FF;
+  --color-primary-100: #E0E7FF;
+  --color-primary-200: var(--color-indigo-200);
+  --color-primary-300: var(--color-indigo-300);
+  --color-primary-400: var(--color-indigo-400);
+  --color-primary-500: var(--color-indigo-500);
+  --color-primary-600: #4338CA;
+  --color-primary-700: #4338CA;
+  --color-primary-800: var(--color-indigo-800);
+  --color-primary-900: var(--color-indigo-900);
+  --color-primary-950: var(--color-indigo-950);
+
+  /* Hand-built pricing/pSEO pages use blue; fold it into the accent. */
+  --color-blue-50: #EEF2FF;
+  --color-blue-100: #E0E7FF;
+  --color-blue-200: var(--color-indigo-200);
+  --color-blue-300: var(--color-indigo-300);
+  --color-blue-400: var(--color-indigo-400);
+  --color-blue-500: var(--color-indigo-500);
+  --color-blue-600: #4338CA;
+  --color-blue-700: var(--color-indigo-800);
+  --color-blue-800: var(--color-indigo-800);
+  --color-blue-900: var(--color-indigo-900);
+
+  /* Flat system: hairlines, no shadows. */
+  --shadow-2xs: 0 0 #0000;
+  --shadow-xs: 0 0 #0000;
+  --shadow-sm: 0 0 #0000;
+  --shadow: 0 0 #0000;
+  --shadow-md: 0 0 #0000;
+  --shadow-lg: 0 0 #0000;
+  --shadow-xl: 0 0 #0000;
+  --shadow-2xl: 0 0 #0000;
+
+  --radius-xl: 14px;
+  --radius-2xl: 14px;
 }
 
-/* Default body text uses Inter and a darker gray for readability */
+@layer base {
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-family: var(--font-sans);
-  color: var(--color-gray-800);
+  color: var(--color-ink);
+  background: var(--color-gray-50);
 }
 .dark body {
   color: var(--color-gray-200);
 }
 
-/* H1 / H2 use Gabarito as the display face */
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+h1 {
+  letter-spacing: -0.04em;
+}
+
+}
+
+@layer components {
+/* Mono labels: eyebrows, counts, prices. */
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.container-site {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+@media (max-width: 640px) {
+  .container-site { padding-inline: 16px; }
+}
+
+.display-h1 {
+  font-size: clamp(40px, 6vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
 }
 
 .tag {
-  @apply inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset;
+  @apply inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300;
 }
 
-.gray-tag {
-  @apply bg-gray-50 text-gray-600 ring-gray-500/10 bg-gray-400/10 dark:bg-gray-400/10 dark:text-gray-400 dark:ring-gray-400/20;
-}
-
-.green-tag {
-  @apply bg-green-50 text-green-700 ring-green-600/20 dark:bg-green-500/10 dark:text-green-400 dark:ring-green-500/20;
-}
-
-.blue-tag {
-  @apply bg-blue-50 text-blue-700 ring-blue-600/20 dark:bg-blue-400/10 dark:text-blue-400 dark:ring-blue-400/30;
-}
-
-.indigo-tag {
-  @apply bg-blue-50 text-indigo-700 ring-indigo-600/20 dark:bg-indigo-400/10 dark:text-indigo-400 dark:ring-indigo-400/30;
-}
-
-.red-tag {
-  @apply bg-red-50 text-red-700 ring-red-600/20 dark:bg-red-500/10 dark:text-red-400 dark:ring-red-500/20;
-}
-
-.purple-tag {
-  @apply bg-purple-50 text-purple-700 ring-purple-600/20 dark:bg-purple-500/10 dark:text-purple-400 dark:ring-purple-500/20;
-}
-
-.orange-tag {
-  @apply bg-orange-50 text-orange-700 ring-orange-600/20 dark:bg-orange-500/10 dark:text-orange-400 dark:ring-orange-500/20;
-}
-
-.yellow-tag {
-  @apply bg-yellow-50 text-yellow-700 ring-yellow-600/20 dark:bg-yellow-500/10 dark:text-yellow-400 dark:ring-yellow-500/20;
-}
-
-.cyan-tag {
-  @apply bg-cyan-50 text-cyan-700 ring-cyan-600/20 dark:bg-cyan-500/10 dark:text-cyan-400 dark:ring-cyan-500/20;
-}
-
-.violet-tag {
-  @apply bg-violet-50 text-violet-700 ring-violet-600/20 dark:bg-violet-500/10 dark:text-violet-400 dark:ring-violet-500/20;
-}
-
-.teal-tag {
-  @apply bg-teal-50 text-teal-700 ring-teal-600/20 dark:bg-teal-500/10 dark:text-teal-400 dark:ring-teal-500/20;
-}
-
-.slate-tag {
-  @apply bg-slate-50 text-slate-700 ring-slate-600/20 dark:bg-slate-500/10 dark:text-slate-400 dark:ring-slate-500/20;
-}
-
+/* Tag colours are retired: every tag renders as the same neutral chip. */
 
 .highlight span {
   @apply bg-gray-800 text-white px-1 -rotate-6;

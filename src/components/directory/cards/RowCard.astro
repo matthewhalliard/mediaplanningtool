@@ -1,0 +1,50 @@
+---
+import UiTag from "@components/ui/tags/Tag.astro";
+import { getClearbitLogoUrl } from "@util/clearbitLogo";
+
+const { myItem, href } = Astro.props;
+
+const logoUrl = getClearbitLogoUrl(myItem.link);
+const rawTitle = (myItem.title || "").trim();
+const initial = rawTitle ? rawTitle.charAt(0).toUpperCase() : "?";
+// One short mono fact on the right: the first clause of the pricing field.
+const price = myItem.pricing ? String(myItem.pricing).split(/[;(]/)[0].trim() : "";
+const isPublisher = /halliardmedia\.com/.test(myItem.link ?? "");
+const badge = myItem.featured ? (isPublisher ? "From the publisher" : "Featured") : null;
+---
+
+<a
+  href={href}
+  class="group flex items-center gap-4 border-b border-gray-100 px-4 py-4 transition-colors hover:bg-gray-50 sm:px-6 sm:py-5 dark:border-gray-800 dark:hover:bg-gray-800/60"
+>
+  <span class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-[10px] bg-gray-100 font-semibold text-ink dark:bg-gray-700 dark:text-gray-100">
+    <span aria-hidden="true">{initial}</span>
+    {logoUrl && (
+      <img
+        src={logoUrl}
+        alt=""
+        width="44"
+        height="44"
+        class="absolute inset-0 h-full w-full bg-white object-contain p-1.5"
+        loading="lazy"
+        onerror="this.remove()"
+      />
+    )}
+  </span>
+  <span class="flex min-w-0 flex-1 flex-col gap-1">
+    <span class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span class="card-title text-[17px] font-semibold tracking-[-0.01em] text-ink group-hover:text-primary-600 dark:text-gray-50">{myItem.title}</span>
+      {badge && (
+        <span class="rounded-md border border-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:border-gray-600 dark:text-gray-300">{badge}</span>
+      )}
+    </span>
+    <span class="card-description line-clamp-2 text-[15px] leading-snug text-gray-600 sm:line-clamp-1 dark:text-gray-400">{myItem.description}</span>
+    {price && <span class="font-mono text-[13px] text-ink sm:hidden dark:text-gray-200">{price}</span>}
+  </span>
+  <span class="hidden shrink-0 gap-1.5 lg:flex">
+    {myItem.tags?.filter((t: string) => t !== "featured").slice(0, 2).map((t: string) => <UiTag tag={t} />)}
+  </span>
+  {price && (
+    <span class="hidden w-[132px] shrink-0 text-right font-mono text-sm text-ink sm:block dark:text-gray-200">{price}</span>
+  )}
+</a>

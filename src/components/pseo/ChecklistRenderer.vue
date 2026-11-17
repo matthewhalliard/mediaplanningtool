@@ -34,7 +34,7 @@
       class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 mb-6 overflow-hidden"
     >
       <div class="px-6 md:px-8 py-5 border-b border-gray-200 dark:border-gray-700">
-        <h2 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-50">{{ section.heading }}</h2>
+        <h2 class="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-50">{{ section.heading }}</h2>
       </div>
       <div class="divide-y divide-gray-100 dark:divide-gray-700">
         <div

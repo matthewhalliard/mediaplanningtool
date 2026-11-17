@@ -1,57 +1,58 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { tags } from '@/store.js';
 import config from "@util/themeConfig";
 import type Tag from "@/types/Tag";
 
-const availableTags = config.directoryData.tags as Tag[] | undefined;
+const props = defineProps<{
+  keys?: string[];
+  counts?: Record<string, number>;
+}>();
+
+const allTags = config.directoryData.tags as Tag[] | undefined;
+const availableTags = computed(() => {
+  if (!props.keys) return allTags ?? [];
+  return props.keys
+    .map((key) => allTags?.find((t) => t.key === key))
+    .filter((t): t is Tag => Boolean(t));
+});
 
 const selectedTags = useStore(tags);
 
-function toggleTagByName(tag: string) {
+function toggleTag(tag: string | undefined) {
   if (!tag) return;
-  
   if (!selectedTags.value.includes(tag as never)) {
     tags.set([...selectedTags.value, tag] as never[]);
-  }
-  else {
-    let filtered = selectedTags.value.filter(e => e !== tag);
-    tags.set([...filtered]);
+  } else {
+    tags.set(selectedTags.value.filter((e) => e !== tag));
   }
 }
 
-function getTagColorClass(tagObj: Tag) {
-  const colorClass = tagObj?.color ? `${tagObj.color}-tag` : 'gray-tag';
-  return colorClass;
+function clearTags() {
+  tags.set([]);
 }
+
+const base = 'inline-flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors cursor-pointer select-none';
+const idle = 'border-gray-200 bg-white text-ink hover:border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100';
+const active = 'border-ink bg-ink text-white dark:border-white dark:bg-white dark:text-ink';
 </script>
 
 <template>
-  <div class="tag-filter-bar flex flex-wrap gap-2 mt-4">
-    <span
+  <div class="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filter by use case">
+    <button type="button" :class="[base, selectedTags.length === 0 ? active : idle]" :aria-pressed="selectedTags.length === 0" @click="clearTags">
+      All
+    </button>
+    <button
       v-for="tag in availableTags"
-      class="tag cursor-pointer select-none transition-all duration-200 hover:opacity-80"
-      :class="[getTagColorClass(tag), selectedTags.includes(tag.key) ? 'ring-2 ring-primary-500 ring-offset-1' : '']"
-      @click="toggleTagByName(tag.key)"
+      :key="tag.key"
+      type="button"
+      :class="[base, selectedTags.includes(tag.key as never) ? active : idle]"
+      :aria-pressed="selectedTags.includes(tag.key as never)"
+      @click="toggleTag(tag.key)"
     >
       {{ tag.name }}
-    </span>
+      <span v-if="counts && tag.key && counts[tag.key]" class="font-mono text-xs opacity-60">{{ counts[tag.key] }}</span>
+    </button>
   </div>
 </template>
-
-<style>
-/* Neutralize filter-bar pill colors so the header stays calm. */
-.tag-filter-bar .tag {
-  background-color: rgb(249 250 251) !important; /* gray-50 */
-  color: rgb(55 65 81) !important; /* gray-700 */
-  --tw-ring-color: rgb(209 213 219 / 0.6) !important; /* gray-300/60 */
-}
-.dark .tag-filter-bar .tag {
-  background-color: rgb(55 65 81 / 0.4) !important; /* gray-700/40 */
-  color: rgb(209 213 219) !important; /* gray-300 */
-  --tw-ring-color: rgb(75 85 99 / 0.5) !important; /* gray-600/50 */
-}
-.tag-filter-bar .tag.ring-primary-500 {
-  --tw-ring-color: var(--color-primary-500) !important;
-}
-</style>

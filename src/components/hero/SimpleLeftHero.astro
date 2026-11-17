@@ -1,8 +1,26 @@
-<div>
-  <h1 class="text-balance">
+---
+import { getCollection } from "astro:content";
+
+// eyebrow: optional mono line above the heading; "{count}" becomes the number of listings.
+const { eyebrow } = Astro.props;
+let eyebrowText: string | undefined = eyebrow;
+if (eyebrowText && eyebrowText.includes("{count}")) {
+  const count = (await getCollection("directory")).length;
+  eyebrowText = eyebrowText.replace("{count}", String(count));
+}
+---
+
+<section class="not-prose container-site flex flex-col gap-6 pt-16 pb-7 sm:pt-22">
+  {eyebrowText && (
+    <p class="flex items-center gap-2.5 font-mono text-[13px] text-gray-600 dark:text-gray-400">
+      <span class="h-2 w-2 shrink-0 rounded-full bg-primary-600" aria-hidden="true"></span>
+      <span>{eyebrowText}</span>
+    </p>
+  )}
+  <h1 class="display-h1 m-0 max-w-[900px] text-ink dark:text-white">
     <slot name="heading" />
   </h1>
-  <p class="text-md leading-8">
+  <p class="m-0 max-w-[640px] text-[17px] leading-[1.55] text-gray-600 sm:text-[19px] dark:text-gray-300">
     <slot name="description" />
   </p>
-</div>
+</section>

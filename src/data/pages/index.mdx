@@ -5,16 +5,18 @@ import HomepageSections from '../../components/directory/HomepageSections.astro'
 import HomepageEditorial from '../../components/directory/HomepageEditorial.astro'
 import HomepageSchema from '../../components/directory/HomepageSchema.astro'
 
-<SimpleLeftHero>
+<SimpleLeftHero eyebrow="2026 edition · {count} tools · no paid placements">
   <span slot="heading">Best Media Planning Tools (2026)</span>
   <span slot="description">Explore the best media planning tools and media planning software for 2026. Compare pricing, features, and alternatives across 40+ platforms.</span>
 </SimpleLeftHero>
 
-<HomepageEditorial />
-
 <Search />
 
+<HomepageEditorial part="use-cases" />
+
 <Grid />
+
+<HomepageEditorial part="criteria" />
 
 <HomepageSections />
 

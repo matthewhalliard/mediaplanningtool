@@ -1,0 +1,15 @@
+---
+// Homepage shell: full-width sections, each component sets its own 1200px container.
+import AppShell from "@components/app/AppShell.astro";
+import BaseLayout from "./BaseLayout.astro";
+
+const { title, description, slug, faqSchema, noindex } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} slug={slug} faqSchema={faqSchema} noindex={noindex}>
+  <AppShell>
+    <main>
+      <slot />
+    </main>
+  </AppShell>
+</BaseLayout>

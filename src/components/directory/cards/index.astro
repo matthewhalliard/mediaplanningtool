@@ -3,6 +3,7 @@ import config from "@util/themeConfig";
 import BulletCard from "./BulletCard.astro";
 import RectangleCard from "./RectangleCard.astro";
 import SmallHorizontalCard from "./SmallHorizontalCard.astro";
+import RowCard from "./RowCard.astro";
 
 const { item } = Astro.props;
 
@@ -29,7 +30,9 @@ const href = config.directoryData?.source?.linksOutbound
   data-tags={tagsString}
 >
   {
-    type === "rectangle-card-grid" && enabled ? (
+    type === "rows" ? (
+      <RowCard myItem={myItem} href={href} />
+    ) : type === "rectangle-card-grid" && enabled ? (
       <RectangleCard myItem={myItem} href={href} />
     ) : type === "small-card-grid" && enabled ? (
       <SmallHorizontalCard myItem={myItem} href={href} />

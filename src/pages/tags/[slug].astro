@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import formatString from "../../util/formatString";
 import type Tag from "../../types/Tag";
 import config from "@util/themeConfig";
-import Sidebar from "@layouts/Sidebar.astro";
+import Home from "@layouts/Home.astro";
 
 // Set page title for SEO
 export const prerender = true;
@@ -43,14 +43,18 @@ function toTitleCase(str: string) {
 const pageTitle = toTitleCase(formatString(config.directoryData.tagPages.title, calculatedTitle));
 ---
 
-<Sidebar title={pageTitle} description={calculatedDescription} slug={`tags/${title}`} noindex={true}>
-  <div class="max-w-3xl xl:max-w-6xl w-full mx-auto">
-    <h1 class="text-gray-600 font-semibold text-4xl">
+<Home title={pageTitle} description={calculatedDescription} slug={`tags/${title}`} noindex={true}>
+  <div class="container-site pt-14 pb-10">
+    <p class="mb-5 flex items-center gap-2.5 font-mono text-[13px] text-gray-600">
+      <span class="h-2 w-2 rounded-full bg-primary-600" aria-hidden="true"></span>
+      {tagListings.length} tools
+    </p>
+    <h1 class="m-0 text-[44px] leading-[1.02] text-ink sm:text-[56px]">
       {pageTitle}
     </h1>
-    <p class="text-gray-600 dark:text-gray-200 mb-12 max-w-prose">
+    <p class="mt-4 mb-10 max-w-[640px] text-lg text-gray-600 dark:text-gray-200">
       {calculatedDescription}
     </p>
     <PureGrid listings={tagListings} />
   </div>
-</Sidebar>
+</Home>
