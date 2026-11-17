@@ -118,10 +118,42 @@ export const freeToolSchema = z.object({
         })
       )
       .optional(),
+    /**
+     * Optional "solve for" modes. Each mode shows only the inputs it names and
+     * swaps in its own formula and output, so one page can answer e.g. CPM,
+     * impressions or budget. The first mode is the default; when modes are set,
+     * `formula` and `output` above are unused.
+     */
+    modes: z
+      .array(
+        z.object({
+          id: z.string(),
+          label: z.string(),
+          inputs: z.array(z.string()),
+          formula: z.string(),
+          output: z.object({
+            label: z.string(),
+            format: z.enum(["currency", "number", "percentage"]),
+            description: z.string(),
+          }),
+        })
+      )
+      .optional(),
   }),
   content: z.object({
     intro: z.string(),
+    /** A one- or two-sentence direct answer shown above the calculator. */
+    quick_answer: z.string().optional(),
     how_it_works: z.string(),
+    /** Optional benchmark table, e.g. typical CPM ranges by channel. */
+    benchmarks: z
+      .object({
+        title: z.string(),
+        columns: z.tuple([z.string(), z.string()]),
+        rows: z.array(z.tuple([z.string(), z.string()])),
+        note: z.string().optional(),
+      })
+      .optional(),
     faq: z.array(
       z.object({
         question: z.string(),
