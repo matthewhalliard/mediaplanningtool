@@ -31,6 +31,23 @@ functionality:
   - Cross-Channel Attribution
 pricing: Enterprise
 category: Enterprise DSP Platform
+atAGlance:
+  price: "Custom contract; platform fee is a percentage of media cost set by contract and not published (ppc.land)"
+  bestFor: "Large advertisers and agencies that want YouTube, CTV and open-web programmatic buying inside the Google Marketing Platform."
+  strengths:
+    - "YouTube reserve and auction buying alongside third-party exchanges"
+    - "Integrates with Campaign Manager 360 and Analytics 360"
+    - "Curated CTV, live sports and audio packages in Marketplace"
+  drawbacks:
+    - "Fees set by contract and not publicly disclosed"
+    - "No self-serve access; requires Google sales or a reseller"
+    - "Frequent deprecations require ongoing line item and setting changes"
+  alternatives:
+    - "the-trade-desk"
+    - "amazon-dsp"
+    - "quantcast"
+    - "basis"
+lastChecked: 2026-11-18
 ---
 
 **Google's enterprise demand-side platform for programmatic display, video, CTV, and audio campaign management**
@@ -172,15 +189,16 @@ See six alternatives side by side, with who each suits and how it's priced: [Goo
 Basis Technologies (formerly Centro) is an independent DSP with an integrated workflow covering planning, buying, and reporting. DV360 offers deeper programmatic capabilities and exclusive Google/YouTube inventory but requires larger minimum commitments. Basis may be more accessible for mid-market agencies.
 
 ### DV360 vs MediaMath
-MediaMath is an independent enterprise DSP competing on data marketplace access and omnichannel reach. DV360 holds a structural advantage through YouTube exclusivity and Google's first-party data integration. MediaMath filed for bankruptcy in 2023 and exited the market, making DV360 and The Trade Desk the dominant enterprise DSP choices.
+MediaMath, now owned by Infillion, is a DSP competing on data, identity and omnichannel reach. DV360 holds a structural advantage through YouTube exclusivity and Google's first-party data integration. MediaMath filed for bankruptcy in 2023. Infillion bought its assets later that year and relaunched the DSP as MediaMath by Infillion in April 2024.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **March 2025**: Netflix exchange inventory made available through DV360 via a creative pre-registration program for select buyers.
-- **April 2025**: Demand Gen campaigns expanded to include Google Display Network image placements, broadening reach beyond YouTube, Gmail, and Discover.
-- **2025**: AI Audience Persona tools and targeting templates launched to streamline audience setup for programmatic campaigns.
-- **2025**: YouTube Pause Ads format introduced, allowing advertisers to display ads when viewers pause CTV content.
-- **January 2026**: NBCUniversal live sports CTV inventory made biddable within DV360, supporting Olympics and other live event buys.
+- **2026-10-26:** Legacy maximum CPV and single-format efficient reach YouTube line items paused and archived. ([source](https://support.google.com/displayvideo/announcements/9210754?hl=en))
+- **2026-10-22:** Gemini-curated Marketplace bundles (up to 50 packages per line item) and LinkedIn CTV Ads inventory, US targeting only, added to DV360. ([source](https://ppc.land/dv360-marketplace-gains-gemini-curated-bundles-50-packages-per-line-item/))
+- **2026-06:** DV360 API added Demand Gen resource support, rolling out to all partners. ([source](https://developers.google.com/ads/blog/posts/2026/06/june-2026-update-to-display-video-360))
+- **2026-03-23:** NewFront: Gemini-curated Marketplace, Confidential Publisher Match, YouTube Creator Takeovers and Pause Ads, Kroger shopper audiences in DV360. ([source](https://blog.google/products/marketingplatform/360/gemini-models-advantage-google-marketing-platform/))
+- **2026-02-28:** All video action line items paused and archived; Demand Gen replaces them. ([source](https://support.google.com/displayvideo/announcements/9210754?hl=en))
+- **2026-01-12:** Live sports biddable features and access to NBCUniversal's Olympic Winter Games programmatic inventory announced for DV360. ([source](https://blog.google/products/marketingplatform/360/new-biddable-capabilities-for-live-sports-with-display-video-360/))
 
 ## Explore More Media Planning Tools
 

@@ -29,6 +29,23 @@ functionality:
   - Self-Serve TV Planning
 pricing: Enterprise
 category: TV Advertising Platform
+atAGlance:
+  price: "Custom quote for managed TV+; self-serve priced by media spend, no public rate card"
+  bestFor: "Advertisers who want linear and streaming TV planned and bought as one audience-based buy, managed or self-serve."
+  strengths:
+    - "Plans linear TV and streaming as a single buy"
+    - "Self-serve option covers broadcast, cable and streaming"
+    - "Offers delivery and forecast guarantees on campaigns"
+    - "Healthcare audience targeting through OptimizeRx and M3 MI"
+  drawbacks:
+    - "No published pricing or managed-service minimums"
+    - "Only one review on G2, so little independent feedback"
+    - "TV only; no display, search or social buying"
+  alternatives:
+    - "the-trade-desk"
+    - "amazon-dsp"
+    - "google-dv360"
+lastChecked: 2026-11-18
 ---
 
 **Unified CTV and linear TV advertising platform with patented AI/ML optimization and direct access to 250+ networks**
@@ -175,7 +192,7 @@ The platform's model is performance-guaranteed: Simulmedia guarantees campaign o
 
 ## User Reviews
 
-Simulmedia holds a **5.0/5 rating on G2** based on verified reviews. Review volume is limited relative to general-purpose DSPs, reflecting the platform's specialist positioning in TV.
+Simulmedia's G2 profile shows a 5.0/5 rating from a single review, and G2 states there are not enough reviews to provide buying insight.
 
 > "The communication skill of their reps is amazing. They are always willing to hop on a call to go over any questions or concerns. They also keep a close eye on the campaigns they run and are able to catch errors and act quickly to correct them." — G2 reviewer
 
@@ -228,15 +245,10 @@ Frequency capping across linear and CTV simultaneously is technically complex be
 **Can Simulmedia prove TV's impact on conversions?**
 Yes. TV+ Incremental Lift uses deterministic household-level attribution with synthetic control groups to measure the causal effect of TV exposure on downstream conversions — as opposed to correlational post-campaign analysis. In a documented case, a $600K cross-channel campaign produced a 101.8% lift in conversions for CTV-exposed households compared to a matched control group. A separate OTC brand case study recorded a 274% incremental lift in web traffic and a 13% boost in profit ROI — described by independent measurement firm Keen Agency as the strongest TV performance recorded in their media mix modeling to date.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **November 2025**: Skybeam launches traditional TV advertising, becoming the first self-serve platform to unify streaming and broadcast/cable TV inventory in a single interface. Local businesses, franchises, and agencies can now run TV campaigns on top broadcast and cable networks alongside streaming — with no media buying experience required.
-- **June 2025**: Simulmedia and OptimizeRx announce a strategic partnership at Cannes Lions, enabling HIPAA-compliant Micro-Neighborhood® Targeting across 250+ TV networks and streaming platforms for healthcare and life science advertisers.
-- **September 2024**: Partnership with M3 MI introduces consent-based, self-reported healthcare data targeting for pharma marketers on the TV+ platform.
-- **October 2024**: Founder Dave Morgan returns as CEO, replacing Jon Werther. Morgan describes Simulmedia as "profitable and debt-free" with strong businesses in both cross-channel TV and in-game advertising (PlayerWON unit). Announces new CTV product in development.
-- **November 2024**: Skybeam launches as Simulmedia's self-serve CTV platform, introducing accessible TV advertising for small and mid-sized businesses with 250+ targeting options and a pre-campaign TV Impact Forecaster.
-- **August 2023**: Automated Performance Optimization (APO) feature launches for TV+, enabling ML-driven mid- and lower-funnel optimization for CTV campaigns with full transparency into budget reallocation decisions.
-- **2022**: TV+® platform launches as fifth-generation cross-channel TV advertising platform, integrating ad-supported CTV channels (Hulu, Peacock, MAX, Disney+, Roku) with Simulmedia's existing linear network integrations.
+- **2026-03-11:** Appointed Adam Gaynor to the new role of SVP and General Manager of Skybeam, its self-serve TV platform, reporting to CEO Dave Morgan. ([source](https://www.businesswire.com/news/home/20260311580610/en/))
+- **2026-03-11:** Appointed Justin Nesci, formerly of iHeartMedia, as Chief Commercial Officer overseeing sales, marketing and go-to-market. ([source](https://www.mrweb.com/drno/news39547.htm))
 
 ## Explore More Media Planning Tools
 

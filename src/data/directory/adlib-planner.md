@@ -27,6 +27,24 @@ functionality:
   - Site List Generation
 pricing: Freemium
 category: Programmatic Media Planning
+atAGlance:
+  price: "Free for individual planners; team plan pricing not published"
+  bestFor: "Independent agencies that need quick programmatic plans and RFP responses, especially if they will buy through AdLib's DSP."
+  strengths:
+    - "Free for individual planners, no credit card"
+    - "Bid benchmarks drawn from AdLib DSP campaigns"
+    - "Exports plans to PDF, PowerPoint and Word"
+    - "Plans can move into AdLib's 20+ DSP buying platform"
+  drawbacks:
+    - "Programmatic only; no TV, radio, print or OOH planning"
+    - "Benchmarks come from one company's campaigns"
+    - "Usage and satisfaction figures are self-reported by the vendor"
+  alternatives:
+    - "bionic"
+    - "mediaplan"
+    - "mediaplanhq"
+    - "galeforce-media"
+lastChecked: 2026-11-18
 ---
 
 **Free programmatic media planner powered by live DSP benchmarks and Bellwether-verified inventory quality.**
@@ -136,20 +154,20 @@ The Site List Generator lets you input a vertical and audience to receive a cura
 [Halliard](/halliard) is a connected media planning platform with cross-channel reach and frequency forecasting across 18+ channels and agentic media buying via PubMatic MCP. AdLib Planner focuses specifically on programmatic planning with live DSP benchmarks. Halliard offers broader planning-to-execution workflows; AdLib Planner offers deeper programmatic CPM intelligence and free entry-level access.
 
 **How does AdLib Planner compare to Mediatool?**
-[Mediatool](/mediatool) is a cloud-based media management platform for tracking spend and performance across channels. AdLib Planner is a planning-first tool focused on generating programmatic media plans with live CPM data. Mediatool is stronger on ongoing campaign management; AdLib Planner is stronger on upfront plan creation and RFP response.
+[Camphouse](/camphouse) (formerly Mediatool, renamed in February 2025) is a cloud-based media management platform for tracking spend and performance across channels. AdLib Planner is a planning-first tool focused on generating programmatic media plans with live CPM data. Camphouse is stronger on ongoing campaign management; AdLib Planner is stronger on upfront plan creation and RFP response.
 
 **Is AdLib Planner only for programmatic media?**
 AdLib Planner is focused on programmatic media planning. For agencies needing cross-channel planning that includes traditional media (TV, radio, print, OOH), tools like [Halliard](/halliard), [Bionic](/bionic), or [Strata](/strata) may be more appropriate.
 
 **Who founded AdLib?**
-AdLib Media Group was founded by Mike Hauptman (CEO) and Dan Bougourd (CTO), both long-time MediaMath employees. Mike was among the first 100 employees at MediaMath; Dan served as VP of Engineering there for 11 years. The company is bootstrapped and profitable with no VC funding.
+AdLib Media Group was founded by Mike Hauptman (CEO) and Dan Bougourd (CTO), both long-time MediaMath employees. Mike was among the first 100 employees at MediaMath; Dan served as VP of Engineering there for 11 years. AdLib was incubated inside MediaMath with seed funding before becoming independent; no venture rounds have been reported.
 
 **Where are AdLib Planner's CPM benchmarks sourced from?**
 The benchmarks come from real, live campaigns running through the AdLib DSP — not from surveys, panels, or industry reports. This gives agencies access to current market pricing rather than outdated averages.
 
 ## User Reviews & Social Proof
 
-AdLib Planner holds a **4.7/5 rating on G2** and reports a **4.9/5 agency satisfaction** rating. The broader AdLib DSP platform has served 500+ billion impressions across 250+ countries.
+The AdLib DSP holds a 4.7/5 rating on G2 (about 86 reviews); no separate G2 rating for AdLib Planner was found. AdLib Planner's own site reports a 4.9/5 agency satisfaction figure. The broader AdLib DSP platform has served 500+ billion impressions across 250+ countries.
 
 > "AdLib Planner helped us respond to an RFP in 30 minutes that would have taken our team half a day with spreadsheets." — Agency media planner (paraphrased from platform testimonials)
 
@@ -164,7 +182,7 @@ The platform is trusted by agencies working with brands including Spotify, Zillo
 [Halliard](/halliard) offers connected media planning with proprietary cross-channel reach and frequency across 210 DMAs and agentic media buying. AdLib Planner offers free programmatic planning with live CPM data. Halliard is broader in scope; AdLib Planner is deeper in programmatic benchmark intelligence.
 
 ### AdLib Planner vs Mediatool
-[Mediatool](/mediatool) is a cloud-based media management platform for spend tracking and collaboration. AdLib Planner is a planning-first tool for generating programmatic plans with live benchmarks. Mediatool is better for ongoing campaign management; AdLib Planner is better for upfront plan creation.
+[Camphouse](/camphouse) (formerly Mediatool) is a cloud-based media management platform for spend tracking and collaboration. AdLib Planner is a planning-first tool for generating programmatic plans with live benchmarks. Camphouse is better for ongoing campaign management; AdLib Planner is better for upfront plan creation.
 
 ### AdLib Planner vs MediaPlanHQ
 [MediaPlanHQ](/mediaplanhq) is a lightweight collaborative planning tool with invoice validation. AdLib Planner offers deeper programmatic intelligence with live CPM data and Bellwether quality verification. MediaPlanHQ is simpler and more general; AdLib Planner is more powerful for programmatic-specific planning.
@@ -184,7 +202,7 @@ The platform is trusted by agencies working with brands including Spotify, Zillo
 
 - **[Halliard](/halliard)** — Connected media planning platform with cross-channel reach/frequency and agentic media buying
 - **[Bionic](/bionic)** — Full-suite media planning and buying platform with Jaime AI assistant
-- **[Mediatool](/mediatool)** — Cloud-based media management for spend tracking and team collaboration
+- **[Camphouse](/camphouse)**: Cloud-based media management for spend tracking and team collaboration (formerly Mediatool)
 - **[MediaPlanHQ](/mediaplanhq)** — Collaborative media planning tool with invoice validation
 - **[GaleForce Media](/galeforce-media)** — Affordable media planning and buying for mid-market agencies
 - **[Guideline](/guideline)** — Media intelligence platform with MCP integration for campaign data

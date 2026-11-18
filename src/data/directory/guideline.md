@@ -32,6 +32,24 @@ functionality:
   - Strategic Optimization
 pricing: Enterprise
 category: AI Media Intelligence Platform
+atAGlance:
+  price: "Custom quote for the platform; Media Monitor reports have a 30-day free trial and paid Basic and Insights Pro plans (prices not listed)"
+  bestFor: "Agencies, broadcasters and publishers that need ad spend and pricing benchmarks from actual billing data, plus a shared media plan system."
+  strengths:
+    - "Spend and pricing data from agency billing transactions"
+    - "Media plan management used at holding-company scale"
+    - "MCP servers for both plan data and ad intelligence"
+    - "Covers buy side, sell side and capital markets"
+  drawbacks:
+    - "No published pricing for the main platform"
+    - "Few public user reviews to judge usability"
+    - "Does not plan reach or execute media buys"
+  alternatives:
+    - "mediaocean"
+    - "bionic"
+    - "basis"
+    - "mediaplan"
+lastChecked: 2026-11-18
 ---
 
 **AI-powered media intelligence and planning built on $200B+ in real transaction data from the world's leading agencies**
@@ -121,7 +139,7 @@ The planning platform addresses the fragmentation problem most media teams face:
 
 ## Pricing
 
-Guideline does not publish pricing. The platform operates on **custom enterprise contracts** only — no self-serve tier, no published price list.
+Guideline does not publish pricing for its Ad Intelligence and Media Plan Management platforms, which are sold on custom contracts. Its Media Monitor research hub has a 30-day free trial and Basic and Insights Pro subscription plans, with no prices listed on the page.
 
 - **Pricing model**: Custom; contact sales
 - **Typical structure**: Likely based on data access scope, number of users, markets covered, and product modules (Ad Intelligence vs. Plan Management vs. both)
@@ -139,7 +157,7 @@ Guideline AI is an advertising data and media plan management platform that aggr
 The AI Factory, launched February 2026, is Guideline's internal infrastructure for accelerating AI product development across its Ad Intelligence and Media Plan Management tools. Its first product release is AI Digital Placement Classification — automated categorization of digital ad placements using a hybrid of rules-based matching and NLP. Additional AI Factory capabilities are planned throughout 2026 covering strategic planning, pricing analysis, yield optimization, and sales enablement.
 
 **What is the Guideline MCP Server?**
-Launched March 5, 2026, the Guideline MCP Server allows any MCP-compatible AI agent (Claude, ChatGPT, or proprietary tools) to connect directly to Guideline's media plan management platform. Teams can query campaign status, budget allocation, and vendor performance conversationally — without custom API development. It provides secure read-only access and supports multi-step analysis across campaigns, clients, and markets.
+Guideline has two MCP servers. The Media Plan Management MCP Server (March 5, 2026) lets MCP-compatible AI agents query media plan data such as campaign status, budget allocation and vendor performance, with read-only access. The Ad Intelligence MCP Server (July 2026) gives eligible Ad Intelligence clients access to ad spend, pricing, category benchmark and share-of-voice data from MCP-compatible AI apps; available datasets vary by subscription.
 
 **How much does Guideline cost?**
 Guideline does not publish pricing. The platform is enterprise-only, sold through a custom contract process. Pricing likely depends on data scope, user count, markets, and product modules. Contact guideline.ai for a quote.
@@ -186,13 +204,16 @@ The company, founded in 2020, has grown its data pool to approximately $200B in 
 
 [Basis](/basis) is an end-to-end programmatic and media management platform with integrated DSP, campaign management, and reporting capabilities for digital media execution. Guideline is primarily an intelligence and planning layer — it does not execute media buys. Teams may use Guideline for market intelligence and plan management upstream, then execute digitally through a platform like Basis. There is limited direct competitive overlap.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **March 19, 2026**: Launched [Local Dynamics](https://www.guideline.ai/blog/guideline-expands-its-ad-intelligence-insights-with-local-dynamics-bringing-transaction-level-benchmarking-to-local-ad-markets), a new subscription report with quarterly transaction-level ad spend benchmarks across 175+ US DMAs and 100+ advertising sub-categories covering OOH, TV, radio, and digital
-- **March 5, 2026**: Launched [Media Plan Management MCP Server](https://www.prnewswire.com/news-releases/guideline-launches-media-plan-management-mcp-server-enabling-agentic-ai-workflows-across-media-planning--buying-302704200.html), enabling any MCP-compatible AI agent (Claude, ChatGPT, proprietary tools) to connect directly to Guideline's media plan management platform
-- **February 11, 2026**: Launched [AI Factory](https://www.prnewswire.com/news-releases/guideline-launches-ai-factory-to-speed-ai-innovation-across-ad-intelligence-and-media-plan-management-302684738.html) with initial release of AI Digital Placement Classification, using hybrid rules-based and NLP classification to standardize digital ad placement data at scale
-- **December 2025**: Profiled by [AdExchanger](https://www.adexchanger.com/data-exchanges/media-intelligence-startup-guideline-ai-aims-to-take-the-guesswork-out-of-media-planning/) as a media intelligence platform built on transaction-based agency billing data — "what really happened versus what we think happened"
-- **October 2025**: Released [AI Agent](https://www.prnewswire.com/news-releases/guideline-unveils-ai-agent-accelerating-insight-into-the-industrys-most-powerful-media-intelligence-data-302578092.html) for conversational ad spend and pricing intelligence — plain-English queries return charts, tables, and dashboards from Guideline's market data in seconds
+- **2026-10-12:** Added an AI Ingestion Agent that converts Excel and CSV media plans into structured plan data. ([source](https://techintelpro.com/news/ai/enterprise-ai/guideline-ends-media-plan-re-entry-bottleneck-with-ai-ingestion-agent))
+- **2026-09:** Launched Guideline Signal, a capital markets platform with ticker-level ad spend, KPI forecasts and forward bookings. ([source](https://www.webull.com/news/15616674432893952))
+- **2026-07-07:** Ad Intelligence data now tracks verified advertiser spending on AI platforms such as ChatGPT and Perplexity. ([source](https://www.guideline.ai/blog/guideline-launches-verified-ad-intelligence-across-ai-platforms))
+- **2026-07:** Launched the Ad Intelligence MCP Server for eligible Ad Intelligence clients. ([source](https://martechvibe.com/?p=33124))
+- **2026-06-17:** Expanded MediaTools integration with Prisma by Mediaocean to sync campaign goals and actual buy data both ways. ([source](https://www.guideline.ai/blog/guideline-mediaocean-expand-exclusive-partnership-api-integration-prisma))
+- **2026-05-28:** Reported its media plan platform powers more than 60,000 active plans and over $300 billion in media budgets. ([source](https://briefglance.com/companies/guideline-inc/pulses/30723))
+- **2026-04-16:** Launched KPI Forecast 2.0, ticker-level revenue forecasting for capital markets clients. ([source](https://www.theatdb.com/news/guideline-launches-kpi-forecast-20-delivering-advanced-ticker-level-forecasting-for-capital-markets))
+- **2026-02-12:** Launched UK Digital Pricing, a pricing intelligence product for the UK digital ad market. ([source](https://tools.prnewswire.com/en-us/live/20823/release/20260212EN85367))
 
 ## Explore More Media Planning Tools
 

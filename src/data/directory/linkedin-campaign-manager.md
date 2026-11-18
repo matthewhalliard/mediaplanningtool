@@ -3,7 +3,7 @@ id: linkedin-campaign-manager
 title: LinkedIn Campaign Manager
 seoTitle: "LinkedIn Campaign Manager Pricing 2026: CPC, CPM & Ad Costs"
 h1: "LinkedIn Campaign Manager Pricing 2026: CPC, CPM & Ad Costs"
-description: "LinkedIn ads cost $2–$9 CPC with a $10/day minimum. See LinkedIn Campaign Manager's B2B targeting, ad formats, and how it compares to Meta and Google Ads."
+description: "LinkedIn ads have a $10 daily budget minimum and a $2 minimum bid; competitive B2B CPCs commonly run $5 to $15 or more. See LinkedIn Campaign Manager's B2B targeting, ad formats, and how it compares to Meta and Google Ads."
 tags:
   - media-buying
   - audience-analytics
@@ -31,6 +31,22 @@ functionality:
   - Content Promotion
 pricing: Subscription
 category: B2B Advertising Platform
+atAGlance:
+  price: "Free interface; auction-priced media with a $10 minimum daily budget per campaign"
+  bestFor: "B2B marketers who need to reach buyers by job title, seniority, company or industry and can support high per-lead costs."
+  strengths:
+    - "Targeting by job title, seniority, company and industry"
+    - "Lead Gen Forms prefilled from member profiles"
+    - "CTV Ads buyable in Campaign Manager or major DSPs"
+  drawbacks:
+    - "CPCs and CPMs well above consumer social platforms"
+    - "Narrow audiences can under-deliver or fatigue quickly"
+    - "Some newer formats limited to managed or select accounts"
+  alternatives:
+    - "meta-business-manager"
+    - "tiktok-ads-manager"
+    - "the-trade-desk"
+lastChecked: 2026-11-18
 ---
 
 **LinkedIn Campaign Manager is LinkedIn's self-serve advertising platform for reaching professional audiences by job title, company, industry, seniority, skills, interests, and first-party matched audience data.**
@@ -210,15 +226,13 @@ Reddit Ads can reach high-intent communities organized around topics, profession
 
 Choose Reddit when the audience is community-driven, technically informed, or researching problems in public forums. Choose LinkedIn when account fit, job title, seniority, and company attributes matter more than topic affinity. Reddit can be strong for research, discussion, and awareness; LinkedIn is stronger for structured ABM and professional lead generation.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **March 2025:** LinkedIn highlighted Campaign Manager updates including Media Planner forecasting, Ads Duplication, Dynamic UTMs, and workflow improvements for campaign setup.
-- **2025:** Predictive Audiences continued expanding as LinkedIn's AI-powered alternative to older lookalike-style targeting, including support for source audiences such as company lists and retargeting pools.
-- **2025:** Draft with AI and AI-generated ad support helped advertisers create initial ad copy and variations for supported formats.
-- **2024–2025:** Accelerate campaigns expanded globally, giving advertisers AI-assisted campaign setup and optimization recommendations inside Campaign Manager.
-- **2024:** LinkedIn introduced the Wire Program for in-stream video sponsorships with selected publishers in the LinkedIn feed.
-- **2024–2025:** Companies reporting replaced the older Company Engagement Report workflow, giving advertisers account-level engagement insight inside Campaign Manager.
-- **2025–2026:** LinkedIn continued positioning Campaign Manager around B2B buyer groups, first-party data, AI-assisted targeting, and stronger measurement for lead quality.
+- **2026-11-12:** CTV Ads targeting extended to the UK, after the US and Canada. ([source](https://ppc.land/linkedin-takes-job-role-tv-ad-targeting-to-the-uk-its-third-market/))
+- **2026-10-22:** LinkedIn CTV Ads buyable through Google DV360, US targeting only, via account representatives. ([source](https://ppc.land/linkedin-job-title-targeting-reaches-google-dv360-ctv-buys-in-the-us/))
+- **2026-07-01:** Brand Kit, Draft with AI, AI ad variants and ad personalization reached self-serve Campaign Manager. ([source](https://www.digitalapplied.com/blog/linkedin-creative-tools-reserved-ads-playbook))
+- **2026-05-07:** LinkedIn CTV Ads available programmatically through Amazon DSP, for US targeting. ([source](https://news.linkedin.com/2026/how-linkedin-is-expanding-programmatic-ctv-buying-for-b2b-market))
+- **2026-03-18:** BrandLink publisher campaigns self-serve in Campaign Manager for select customers; CTV Ads buyable through The Trade Desk. ([source](https://news.linkedin.com/2026/how-linkedin-is-helping-b2b-marketers-reach-audiences-at-scale-w))
 
 ## Frequently Asked Questions
 
