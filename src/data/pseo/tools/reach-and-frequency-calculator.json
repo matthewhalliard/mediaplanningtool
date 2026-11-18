@@ -139,7 +139,17 @@
           "description": "Impressions needed to reach this share of the audience"
         }
       }
-    ]
+    ],
+    "chart": {
+      "title": "How reach builds as you add impressions",
+      "x": "impressions",
+      "x_label": "Impressions",
+      "x_max_formula": "max(universe * 4, impressions * 1.25)",
+      "y_formula": "100 * (1 - exp(-impressions / universe))",
+      "y_label": "Estimated reach",
+      "y_format": "percentage",
+      "caption": "Each extra impression reaches fewer new people, which is why reach flattens while frequency keeps climbing."
+    }
   },
   "content": {
     "intro": "Reach and frequency are the foundational currency of awareness-driven media planning. Reach is the percentage of your audience universe exposed to the campaign at least once; frequency is how often each reached person sees the ad. Impressions alone can't tell you either — 10 million impressions could mean 10 million people seeing one ad or 1 million people seeing ten. This calculator models unique reach and lets you experiment with frequency caps to find the right balance.",

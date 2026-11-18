@@ -141,6 +141,23 @@ export const freeToolSchema = z.object({
         })
       )
       .optional(),
+    /**
+     * Optional live chart under the result: `y_formula` plotted while the input
+     * named by `x` runs from 0 to `x_max_formula`, with the visitor's own value
+     * marked. Both formulas use the calculator's input ids, like `formula`.
+     */
+    chart: z
+      .object({
+        title: z.string(),
+        x: z.string(),
+        x_label: z.string(),
+        x_max_formula: z.string(),
+        y_formula: z.string(),
+        y_label: z.string(),
+        y_format: z.enum(["currency", "number", "percentage"]),
+        caption: z.string().optional(),
+      })
+      .optional(),
   }),
   content: z.object({
     intro: z.string(),

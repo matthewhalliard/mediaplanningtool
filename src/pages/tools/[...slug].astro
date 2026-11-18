@@ -67,42 +67,35 @@ const jsonLd = [
           <span class="text-gray-700 dark:text-gray-300">{data.seo.title.replace(/ \|.*$/, '')}</span>
         </nav>
 
-        <!-- Hero -->
-        <div class="bg-white border border-gray-200 rounded-[14px] p-8 mb-8">
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400">
-              Free Tool
-            </span>
-            <span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300">
-              {data.meta.tool_type}
-            </span>
-          </div>
-          <h1 class="text-4xl md:text-5xl lg:text-[56px] font-semibold tracking-[-0.04em] leading-[1.02] text-gray-900 dark:text-gray-50 mb-4">
+        <!-- Hero: kept short so the calculator starts on the first screen -->
+        <div class="mb-6">
+          <h1 class="text-3xl md:text-4xl font-semibold tracking-[-0.03em] leading-[1.08] text-gray-900 dark:text-gray-50 mb-2">
             {data.seo.title.replace(/ \|.*$/, '')}
           </h1>
-          <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+          <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
             {data.seo.description}
           </p>
         </div>
 
-        <!-- Quick answer: the direct answer to the search, above the tool -->
-        {data.content.quick_answer && (
-          <div class="rounded-xl border border-primary-200 bg-primary-50 dark:border-primary-800 dark:bg-primary-900/20 p-6 mb-8">
-            <p class="text-sm font-medium uppercase tracking-wide text-primary-700 dark:text-primary-300 mb-2">Quick answer</p>
-            <p class="text-lg text-gray-900 dark:text-gray-100 leading-relaxed" set:html={inlineMarkdownToHtml(data.content.quick_answer)} />
-          </div>
-        )}
-
-        <!-- Calculator -->
+        <!-- Calculator first: people come here to work out a number -->
         <CalculatorTool
           inputs={data.tool_config.inputs}
           formula={data.tool_config.formula}
           output={data.tool_config.output}
           presets={data.tool_config.presets}
           modes={data.tool_config.modes}
+          chart={data.tool_config.chart}
           calculator={data.seo.slug}
           client:load
         />
+
+        <!-- Quick answer: the direct answer to the search, right under the tool -->
+        {data.content.quick_answer && (
+          <div class="rounded-xl border border-primary-200 bg-primary-50 dark:border-primary-800 dark:bg-primary-900/20 p-6 mb-2">
+            <p class="text-sm font-medium uppercase tracking-wide text-primary-700 dark:text-primary-300 mb-2">Quick answer</p>
+            <p class="text-lg text-gray-900 dark:text-gray-100 leading-relaxed" set:html={inlineMarkdownToHtml(data.content.quick_answer)} />
+          </div>
+        )}
 
         <!-- Handoff: this calculator answers one number; the planning tool does the whole plan -->
         <p class="mt-4 mb-8 text-sm text-gray-600 dark:text-gray-400">
