@@ -3,7 +3,7 @@ id: criteo
 title: Criteo
 seoTitle: "Criteo Pricing 2026: CPC Rates, Hidden Fees & Alternatives"
 h1: "Criteo Pricing 2026: CPC Rates, Hidden Fees & Alternatives"
-description: "Criteo: CPC/CPM pricing, no setup fee, no public minimum — platform fee is a % of media spend. Retail media network with 22K+ retailers. Compare vs Amazon DSP and AdRoll."
+description: "Criteo: CPC/CPM pricing, no setup fee, no public minimum. Retail media access to 200+ retailers and media owners, 17,000+ clients. Compare vs Amazon DSP and AdRoll."
 tags:
   - media-buying
   - audience-analytics
@@ -32,11 +32,29 @@ functionality:
   - Programmatic Advertising
 pricing: Enterprise
 category: Performance Marketing & Retail Media Platform
+atAGlance:
+  price: "Pay per campaign (CPC or CPM); no published rate card. Self-serve Criteo GO in the US and UK with no stated minimum"
+  bestFor: "Retailers, e-commerce brands and their agencies that want commerce-data retargeting, acquisition and retail media buying."
+  strengths:
+    - "Commerce data from 17,000+ clients and 200+ retailers"
+    - "Retail media buying and selling in one company"
+    - "First ad tech partner for ChatGPT Ads"
+    - "Self-serve Criteo GO for smaller advertisers"
+  drawbacks:
+    - "Fees and rates not published"
+    - "Mixed G2 reviews on support and transparency"
+    - "2026 revenue decline after losing two large retail clients"
+  alternatives:
+    - "the-trade-desk"
+    - "amazon-dsp"
+    - "google-dv360"
+    - "quantcast"
+lastChecked: 2026-11-18
 ---
 
 **AI-powered performance marketing and retail media platform built on the world's largest commerce dataset**
 
-Criteo is a publicly traded ad tech company (CRTO) specializing in performance marketing for retail and e-commerce advertisers. Its core products span retargeting, customer acquisition, and retail media—all driven by Commerce AI, which uses Criteo's dataset of billions of shopping events to power predictive bidding, dynamic creatives, and product recommendations. In 2026, Criteo is also piloting agentic AI and an integration with OpenAI's ChatGPT for ad delivery in conversational contexts.
+Criteo is a publicly traded ad tech company (Nasdaq: CRTO) specializing in performance marketing for retail and e-commerce advertisers. It moved its legal domicile from France to Luxembourg in July 2026 and plans to move to the US, with an NYSE listing, expected in January 2027. Its core products span retargeting, customer acquisition, and retail media—all driven by Commerce AI, which uses Criteo's dataset of billions of shopping events to power predictive bidding, dynamic creatives, and product recommendations. In March 2026 Criteo became the first ad tech partner for ChatGPT Ads; by Q3 2026 the offering was available in 89 countries.
 
 ## Key Features
 
@@ -77,7 +95,7 @@ Criteo is a publicly traded ad tech company (CRTO) specializing in performance m
 
 ## Pricing
 
-Criteo does not publish standard pricing. The platform uses a CPC or CPM model with a platform fee calculated as a percentage of media spend. Managed services are available for larger advertisers. There are no setup fees; campaigns can be started directly through Criteo.com or integrated e-commerce platforms. Contact Criteo for enterprise pricing discussions.
+Criteo does not publish standard pricing. Campaigns are bought on a CPC or CPM basis. Since March 31, 2026, Criteo GO offers full self-service in the US and UK: advertisers create an account, enter billing details and launch without a managed-service contract; no minimum spend is stated. Managed service and the customizable Commerce Growth product remain for larger advertisers.
 
 ## Perfect For
 
@@ -104,7 +122,7 @@ Both Criteo and AdRoll offer retargeting solutions for e-commerce brands. Criteo
 [The Trade Desk](/the-trade-desk) is a full-stack DSP focused on programmatic buying across all channels with broad data partnership options. Criteo is specialized in performance marketing and retail media using its own commerce dataset. The Trade Desk offers more flexibility and channel breadth; Criteo offers deeper specialization in e-commerce retargeting and retail media.
 
 **What is the OpenAI ChatGPT integration?**
-In March 2026, Criteo announced a pilot program to serve ads within OpenAI's ChatGPT interface. This represents an early entry into AI-assistant advertising—placing Criteo's commerce-powered ad formats in conversational search contexts.
+On March 2, 2026, Criteo joined OpenAI's ChatGPT advertising pilot as the first ad tech partner, starting with the Free and Go tiers in the US. By Q3 2026 Criteo said the offering was available in 89 countries.
 
 **What is Commerce Max?**
 Commerce Max is Criteo's retail media buying product that allows brands and agencies to activate across multiple retailer networks through a single platform. It is designed to simplify retail media buying that would otherwise require managing relationships with dozens of individual retailers.
@@ -135,13 +153,15 @@ The mixed review profile is typical for enterprise ad platforms where results ca
 ### Criteo vs Quantcast
 [Quantcast](/quantcast) uses AI-powered audience modeling for prospecting and programmatic advertising. Criteo specializes in commerce retargeting and retail media. Quantcast is better suited for audience discovery and brand campaigns; Criteo is stronger for lower-funnel performance optimization with product-level targeting.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **March 2026**: Pilot program announced to serve Criteo ads within OpenAI's ChatGPT, testing commerce advertising in conversational AI contexts.
-- **February 2026**: Migros retail media partnership launched, expanding Commerce Grid in the European retail sector. Q4/FY2025 earnings reported with AI automation updates.
-- **October 2025**: DoorDash partnership announced, adding delivery and restaurant inventory to Criteo's retail media network.
-- **June 2025**: Auction-based display ad formats launched, expanding the programmatic capabilities within the Commerce platform.
-- **2025**: Agentic AI features introduced to automate routine campaign management tasks, reducing manual workload for advertisers.
+- **2026-11-04:** Q3 2026 revenue of $416 million, down 11%; Contribution ex-TAC down 17% to $240 million. ([source](https://finviz.com/news/415206/criteo-reports-third-quarter-2026-results))
+- **2026-08-05:** Cut full-year outlook after Q2 revenue fell 11% to $428 million; two retail media clients scaled back. ([source](https://ppc.land/criteo-cuts-full-year-guidance-as-q2-revenue-falls-11-to-428-million/))
+- **2026-07-29:** Completed redomiciliation from France to Luxembourg; board approved a further move to the US, expected January 2027. ([source](https://www.barchart.com/story/news/3519965/criteo-completes-redomiciliation-from-france-to-luxembourg-board-approves-next-step-toward-u-s-domicile))
+- **2026-04-16:** Extended its DoorDash ad sales partnership into Canada. ([source](https://www.criteo.com/news/press-releases/2026/04/champions-the-next-era-of-commerce-with-renewed-brand-direction/))
+- **2026-03-31:** Opened Criteo GO to full self-service in the US and UK. ([source](https://criteo.investorroom.com/2026-03-31-Criteo-Expands-GO-with-Full-Self-Service-Access-to-Its-AI-Powered-Performance-Platform))
+- **2026-03-02:** Joined OpenAI's ChatGPT advertising pilot as its first ad tech partner. ([source](https://criteo.investorroom.com/2026-03-02-Criteo-Joins-OpenAI-Advertising-Pilot-in-ChatGPT))
+- **2026-02-26:** Partnered with Migros on retail media in Switzerland; Criteo supplies technology and sells the inventory. ([source](https://criteo.investorroom.com/2026-02-26-Migros-and-Criteo-Partner-to-Enhance-Retail-Media-Offering-in-Switzerland))
 
 ## Explore More Media Planning Tools
 

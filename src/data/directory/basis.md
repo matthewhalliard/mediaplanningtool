@@ -32,11 +32,29 @@ functionality:
   - Real-Time Performance Management
 pricing: Enterprise
 category: Advertising Automation Platform
+atAGlance:
+  price: "Custom quote; no public pricing"
+  bestFor: "Agencies and brand teams that want programmatic, direct, search and social planning, buying and reconciliation in one system."
+  strengths:
+    - "DSP, search, social and direct buys in one workflow"
+    - "Built-in billing and financial reconciliation"
+    - "Compass agent turns briefs into media plans"
+    - "Two-way Prisma sync through the Mediaocean partnership"
+  drawbacks:
+    - "No public pricing or self-serve tier"
+    - "Some G2 reviewers call the interface and reporting dated"
+    - "Compass plans activate within Basis, not rival DSPs"
+  alternatives:
+    - "the-trade-desk"
+    - "google-dv360"
+    - "amazon-dsp"
+    - "adobe-advertising-cloud"
+lastChecked: 2026-11-18
 ---
 
 **Basis is a demand-side platform and advertising automation platform built for agencies and enterprise teams running complex omnichannel campaigns — from programmatic buying through financial reconciliation, in one system.**
 
-Basis Technologies (formerly Centro, rebranded in 2022) operates the Basis DSP alongside a broader campaign management suite covering paid search, social, and direct publisher buys. The DSP has held the No. 1 position in G2's demand-side platform category every quarter since 2017, based on user satisfaction scores. The full platform is designed around a single idea: eliminate the operational overhead of managing campaigns across fragmented systems, so media teams can spend time on strategy instead of logistics.
+Basis (formerly Centro, which renamed itself Basis Technologies in October 2021) operates the Basis DSP alongside a broader campaign management suite covering paid search, social, and direct publisher buys. The DSP has held the No. 1 position in G2's demand-side platform category every quarter since 2017, based on user satisfaction scores. The full platform is designed around a single idea: eliminate the operational overhead of managing campaigns across fragmented systems, so media teams can spend time on strategy instead of logistics.
 
 ## Basis DSP: Core Capabilities
 
@@ -174,14 +192,16 @@ G2's aggregate data shows above-average ratings specifically for Ease of Use, Qu
 
 [Adobe Advertising Cloud](/adobe-advertising-cloud) is part of the Adobe Experience Cloud ecosystem, designed for advertisers who centralize data and personalization across Adobe's stack. Its DSP capabilities are strong for Adobe-committed organizations but it lacks the workflow automation layer that defines Basis. For agencies operating independently of Adobe's data infrastructure, Basis offers more operational depth in campaign management.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **April 2026**: Launched Compass, an agentic AI system that transforms campaign briefs into complete, ready-to-activate omnichannel media plans within minutes — described as the first release of a new agentic AI layer being built into the platform.
-- **January 2026**: Named No. 1 on Ad Age Best Places to Work for the third consecutive year.
-- **January 2026**: Announced foundational integration partnership with Mediaocean, linking Basis' programmatic, search, social, and CTV workflows directly into Mediaocean's enterprise systems (Prisma, Innovid, Protected) to automate the full media lifecycle from planning through financial reconciliation.
-- **June 2025**: Launched new suite of capabilities including a unified Reporting and Insights Hub (powered by Snowflake and ThoughtSpot) consolidating data from 12+ sources, enhanced paid search activation with direct Google Ads integration, and embedded task management for campaign workflows.
-- **September 2025**: Ranked No. 1 on Fortune Best Workplaces in Advertising & Marketing for 2025.
-- **2025 (ongoing)**: Continued AI feature development across the platform; machine learning for audience identification and Basis Assistant enhancements.
+- **2026-11-12:** Expanded AI capabilities: Compass gains historical performance data, Morning Consult research and Dstillery DS-1 audience intelligence via natural language. ([source](https://www.martechcube.com/?p=326878))
+- **2026-10-01:** Named No. 1 on Fortune and Great Place to Work's 2026 Best Workplaces in Advertising & Marketing list for the second year in a row. ([source](https://basis.com/news))
+- **2026-08-13:** Partnered with Barometer for episode-level brand suitability targeting on podcasts. ([source](https://basis.com/news))
+- **2026-04-21:** Appointed board member Christian Hendricks as President, leading go-to-market, sales and services. ([source](https://basis.com/news/basis-names-christian-hendricks-president-to-accelerate-growth-of-autonomous-advertising-system))
+- **2026-04-14:** Second phase of the Mediaocean partnership: direct integration with Protected by Mediaocean for quality, brand safety and attention signals in live campaigns. ([source](https://www.mediaocean.com/press-releases/2026/04/14/protected-by-mediaocean-basis-integration))
+- **2026-04-02:** Launched Compass, an agentic AI tool that turns briefs into omnichannel strategies and media plans. ([source](https://basis.com/news/agentic-ai-solution-for-faster-omnichannel-media-strategy-planning-and-activation))
+- **2026-01-21:** Named No. 1 Ad Age Best Place to Work for the third consecutive year. ([source](https://basis.com/news/basis-named-the-no-1-ad-age-best-place-to-work-for-third-consecutive-year))
+- **2026-01-06:** Announced partnership with Mediaocean linking Basis to Prisma, Innovid and Protected, with two-way Prisma sync. ([source](https://www.mediaocean.com/press-releases/2026/01/06/basis-partnership))
 
 ## Frequently Asked Questions
 
@@ -195,7 +215,7 @@ Basis does not publish pricing publicly. It operates on a custom enterprise mode
 [The Trade Desk](/the-trade-desk) offers deeper programmatic data integrations, a more sophisticated bidding engine, and broader open web reach, but it is exclusively a DSP with high spend minimums. Basis includes a DSP alongside planning, search, social, and full reconciliation workflows, with more accessible minimums. Teams that prioritize pure programmatic performance at scale lean toward The Trade Desk; teams that prioritize operational automation and an end-to-end platform lean toward Basis.
 
 **Is Basis the same as Centro?**
-Yes. Basis Technologies was formerly known as Centro. The company rebranded in 2022 to reflect its evolution beyond media buying into a full advertising automation platform. The platform has been called Basis since its original launch; the parent company name changed from Centro to Basis Technologies.
+Yes. Basis Technologies was formerly known as Centro. The company changed its name in October 2021, on its 20th anniversary, adopting the name of its flagship platform. The platform has been called Basis since its original launch; the parent company name changed from Centro to Basis Technologies.
 
 **Does Basis have AI features?**
 Yes. As of April 2026, Basis launched Compass, an agentic AI system using proprietary LLM agents to convert campaign briefs into complete omnichannel media plans and ready-to-activate campaigns within minutes. Earlier AI capabilities include Basis Assistant for automated campaign insights and machine learning for audience identification and optimization throughout the DSP.

@@ -4,6 +4,8 @@ import { Icon } from "astro-icon/components";
 import Tag from "@components/ui/tags/Tag.astro";
 import OwnershipNote from "@components/app/OwnershipNote.astro";
 import AppProse from "@components/app/Prose.astro";
+import ListingScene from "@components/listings/ListingScene.vue";
+import { getCollection } from "astro:content";
 
 const { frontmatter, pageTitle, h1Title } = Astro.props;
 const link = frontmatter?.link;
@@ -19,6 +21,19 @@ const featured = frontmatter?.featured;
 const isHalliard = /halliardmedia\.com/.test(link ?? "");
 const isTool = Boolean(link);
 const initial = (pageTitle || "?").trim().charAt(0).toUpperCase();
+
+// Optional summary block, filled in as each listing is re-checked.
+const glance = frontmatter?.atAGlance;
+const lastChecked = frontmatter?.lastChecked
+  ? new Date(frontmatter.lastChecked).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })
+  : null;
+const listings = glance?.alternatives?.length ? await getCollection("directory") : [];
+const alternatives = (glance?.alternatives || [])
+  .map((slug: string) => {
+    const hit = listings.find((l: any) => l.id === slug || l.data?.id === slug);
+    return hit ? { slug, title: (hit.data as any).title || slug } : null;
+  })
+  .filter(Boolean) as { slug: string; title: string }[];
 ---
 
 <div class="container-site max-w-[960px] pt-10 pb-16 sm:pt-14">
@@ -90,6 +105,35 @@ const initial = (pageTitle || "?").trim().charAt(0).toUpperCase();
         </div>
       )}
     </dl>
+  )}
+
+  {isTool && (
+    <section class="mt-10 flex flex-col gap-8" aria-label={`${pageTitle} at a glance`}>
+      <ListingScene title={pageTitle} category={category} tags={frontmatter?.tags || []} functionality={functionality} client:visible />
+      {glance && (
+        <div class="rounded-xl border border-gray-200 bg-white p-6 sm:p-8 dark:border-gray-700 dark:bg-gray-800">
+          <div class="flex items-baseline justify-between gap-4">
+            <h2 class="m-0 text-xl font-semibold text-ink dark:text-gray-50">At a glance</h2>
+            {lastChecked && <span class="font-mono text-[12px] text-gray-500">Checked {lastChecked}</span>}
+          </div>
+          <dl class="m-0 mt-5 grid gap-6 text-[15px] md:grid-cols-2">
+            <div class="grid content-start gap-5">
+              {glance.price && <div><dt class="mono-label text-gray-500">Price</dt><dd class="m-0 mt-1 text-ink dark:text-gray-100">{glance.price}</dd></div>}
+              {glance.bestFor && <div><dt class="mono-label text-gray-500">Best for</dt><dd class="m-0 mt-1 text-ink dark:text-gray-100">{glance.bestFor}</dd></div>}
+              {alternatives.length > 0 && (
+                <div><dt class="mono-label text-gray-500">Alternatives</dt><dd class="m-0 mt-2 flex flex-wrap gap-2">
+                  {alternatives.map((a) => <a href={`/${a.slug}`} class="rounded-md border border-gray-200 px-2.5 py-1 text-sm text-ink no-underline hover:border-ink dark:border-gray-600 dark:text-gray-100">{a.title}</a>)}
+                </dd></div>
+              )}
+            </div>
+            <div class="grid content-start gap-5">
+              {glance.strengths?.length > 0 && <div><dt class="mono-label text-gray-500">Strengths</dt><dd class="m-0 mt-1"><ul class="m-0 list-none space-y-1.5 p-0">{glance.strengths.map((s: string) => <li class="flex gap-2 text-gray-700 dark:text-gray-300"><span class="font-semibold text-primary-600" aria-hidden="true">+</span>{s}</li>)}</ul></dd></div>}
+              {glance.drawbacks?.length > 0 && <div><dt class="mono-label text-gray-500">Drawbacks</dt><dd class="m-0 mt-1"><ul class="m-0 list-none space-y-1.5 p-0">{glance.drawbacks.map((s: string) => <li class="flex gap-2 text-gray-700 dark:text-gray-300"><span class="font-semibold text-gray-400" aria-hidden="true">−</span>{s}</li>)}</ul></dd></div>}
+            </div>
+          </dl>
+        </div>
+      )}
+    </section>
   )}
 
   <div class="mt-10">

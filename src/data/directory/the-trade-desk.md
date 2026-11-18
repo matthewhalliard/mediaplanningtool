@@ -33,16 +33,34 @@ functionality:
   - Data Marketplace
 pricing: Enterprise
 category: Independent DSP Platform
+atAGlance:
+  price: "Custom; fees not published. Commonly estimated at 15-20% of media spend (unconfirmed by the vendor)"
+  bestFor: "Agencies and large advertisers buying programmatic CTV, video, display and audio across the open internet from one independent DSP."
+  strengths:
+    - "Independent DSP with no owned media inventory"
+    - "Broad CTV and omnichannel inventory access"
+    - "Kokai interface with Koa agentic AI tools"
+    - "Customer retention reported above 95% for over a decade"
+  drawbacks:
+    - "Fees not published; 2026 agency audits questioned billing"
+    - "Complex interface; reviewers cite a learning curve"
+    - "Revenue growth stalled in 2026, flat year over year in Q3"
+  alternatives:
+    - "google-dv360"
+    - "amazon-dsp"
+    - "basis"
+    - "criteo"
+lastChecked: 2026-11-18
 ---
 
 **The leading independent DSP for data-driven advertising across the open internet**
 
-The Trade Desk is the dominant independent demand-side platform, giving advertisers and agencies access to premium inventory across the open internet without the conflicts of interest inherent in walled-garden platforms. Powered by the Kokai AI platform, The Trade Desk analyzes more than 15 million ad opportunities per second to optimize campaign performance in real time. The company reported $2.9B in FY2025 revenue (+18% YoY), reflecting continued growth as advertisers shift programmatic budgets away from closed ecosystems.
+The Trade Desk is the dominant independent demand-side platform, giving advertisers and agencies access to premium inventory across the open internet without the conflicts of interest inherent in walled-garden platforms. Its Kokai platform and Koa AI analyze more than 20 million ad impressions every second, according to the company (August 2026). Revenue was $2.9B in FY2025 (+18% YoY), but growth slowed in 2026: Q1 revenue rose 12%, Q2 rose 3%, and Q3 revenue of $736 million was down 0.5% year over year.
 
 ## Key Features
 
 ### 🤖 **Kokai AI Platform**
-- Analyzes 15+ million ad opportunities per second
+- Koa analyzes more than 20 million ad impressions every second (company figure, August 2026)
 - Real-time campaign optimization across all channels and formats
 - AI-powered audience expansion and lookalike modeling
 - Automated bidding with custom algorithm configurations
@@ -135,7 +153,7 @@ The Trade Desk is the dominant independent demand-side platform, giving advertis
 ## Why Choose The Trade Desk?
 
 ✅ **Truly Independent**: No owned media properties — no inherent conflicts between platform and advertiser goals  
-✅ **Kokai AI**: Industry-leading optimization engine analyzing 15M+ opportunities per second  
+✅ **Kokai AI**: Optimization engine; the company says Koa analyzes more than 20 million ad impressions every second  
 ✅ **CTV Leadership**: Deep streaming platform relationships for premium connected TV inventory  
 ✅ **UID2**: Privacy-preserving cookieless identity solution for post-cookie audience targeting  
 ✅ **Proven Scale**: $2.9B FY2025 revenue and 80+ exchanges across the open internet  
@@ -150,7 +168,7 @@ The Trade Desk does not publish standard pricing. Platform fees are negotiated a
 The Trade Desk primarily serves mid-market to enterprise advertisers. It requires a minimum level of media spend to make the platform economics work — smaller brands may find self-serve DSPs or managed services more appropriate. The platform is accessible through agency partners as well as direct relationships.
 
 **What is Kokai?**
-Kokai is The Trade Desk's AI platform, introduced as a major interface and intelligence overhaul. It analyzes 15+ million ad opportunities per second and drives real-time campaign optimization, audience targeting, and performance prediction across all channels on the platform.
+Kokai is The Trade Desk's buying platform, introduced in 2023. Its latest release, Kokai Zuma (August 2026), adds a Koa Assistant and Koa Agents for campaign creation, audience building, troubleshooting and performance analysis. The company says Koa analyzes more than 20 million ad impressions every second.
 
 **What is Unified ID 2.0 (UID2)?**
 UID2 is The Trade Desk's open-source identity framework that replaces third-party cookies with a privacy-preserving, consent-based identifier. It enables audience targeting and measurement in a post-cookie environment while maintaining user control and compliance with privacy regulations.
@@ -174,7 +192,7 @@ The Trade Desk holds a **4.4/5 rating on G2** from **148 verified reviews**.
 
 > "True Data Transparency and Ownership. Unlike walled gardens, TTD gives us a comprehensive, unbiased view." — Trang D. (G2)
 
-The company reported **$2.9B in FY2025 revenue** with 18% year-over-year growth, with Q1 2026 guidance of $678M.
+The company reported $2.9B in FY2025 revenue with 18% year-over-year growth. 2026 quarterly revenue was $689 million (Q1, +12%), $715 million (Q2, +3%) and $736 million (Q3, -0.5%), with Q4 guidance of at least $755 million.
 
 ## The Trade Desk vs Alternatives
 
@@ -195,14 +213,18 @@ See five DSPs side by side, with who each suits and how it's priced: [The Trade 
 ### The Trade Desk vs Criteo
 [Criteo](/criteo) specializes in commerce media and retail media network access, with strong retargeting capabilities. The Trade Desk is a broader open internet DSP. Advertisers with significant e-commerce and retargeting goals often evaluate both; those focused on prospecting and brand reach tend to prioritize The Trade Desk.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **Q1 2026 Guidance**: $678M revenue guided, continuing 18%+ growth trajectory from FY2025's $2.9B
-- **September 2025**: Major overhaul of the data marketplace, improving data quality and accessibility across 500+ provider integrations
-- **June 2025**: Launched Deal Desk in partnership with Disney — a new tool for managing programmatic upfront and guaranteed deal performance
-- **June 2025**: Partnership with Bell Media for enhanced cross-channel attribution insights in Canada
-- **Q1 2025**: Completed acquisition of Sincera, a digital ad data insights company, to improve inventory quality and transparency signals
-- **January 2025**: Announced Sincera acquisition, expanding the platform's ability to surface data quality signals across the open internet
+- **2026-11:** Q3 2026 revenue of $736 million, down 0.5% year over year; buyback authorization raised to $1 billion. ([source](https://www.thetradedesk.com/press-room/the-trade-desk-reports-third-quarter-2026-financial-results))
+- **2026-08-27:** Released Kokai Zuma with Koa Assistant and Koa Agents, Conversion Lift updates and a new Report Builder. ([source](https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Introduces-Kokai-Zuma-the-Latest-Release-of-Kokai/default.aspx))
+- **2026-08-06:** Q2 2026 revenue of $715 million, up 3%; Q3 guidance of at least $650 million. ([source](https://www.businesswire.com/news/home/20260806055680/en/The-Trade-Desk-Reports-Second-Quarter-2026-Financial-Results))
+- **2026-06-12:** Publicis and The Trade Desk issued a joint statement settling the fee dispute; terms not disclosed. ([source](https://www.theatdb.com/events/publicis-and-the-trade-desk-settle-dispute))
+- **2026-05-07:** Q1 2026 revenue of $689 million, up 12% year over year. ([source](https://www.thetradedesk.com/press-room/the-trade-desk-reports-first-quarter-2026-financial-results))
+- **2026-04:** CMO Ian Colley and other senior marketing and product executives departed; Anna Sayre named interim CMO. ([source](https://www.marketingbrew.com/stories/2026/04/09/the-trade-desk-strategy-exec-changes-agency-scrutiny))
+- **2026-03-04:** Announced OpenTTD, a portal giving data partners, publishers, sellers, brands and agencies access to its tools. ([source](https://ppc.land/the-trade-desk-opens-its-ecosystem-to-everyone-with-openttd/))
+- **2026-03:** Publicis told clients it would stop recommending The Trade Desk after a fee audit; The Trade Desk disputed the findings. ([source](https://mediapost.com/publications/article/413579/publicis-trade-desk-battle-over-transparency-hid.html))
+- **2026-02-25:** Reported FY2025 revenue of $2,896 million, up 18%, and gave no full-year 2026 guidance. ([source](https://www.businesswire.com/news/home/20260225420796/en/The-Trade-Desk-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results))
+- **2026-02-24:** Introduced the Ventura Ecosystem for CTV operating systems, with V (formerly VIDAA) and Nexxen as first collaborators. ([source](https://www.businesswire.com/news/home/20260224309371/en/))
 
 ## Explore More Media Planning Tools
 

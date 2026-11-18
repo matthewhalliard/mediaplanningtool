@@ -32,11 +32,28 @@ functionality:
   - MCP Integration for LLMs
 pricing: Freemium
 category: Consumer Research Platform
+atAGlance:
+  price: "Free plan; Plus $150/user/month monthly or $125/user/month annually (PricingSaaS, Nov 2026); Pro and Team seats by quote"
+  bestFor: "Planners and strategists who need survey-based audience profiles that compare across many countries."
+  strengths:
+    - "Survey data across 53 markets with one methodology"
+    - "Free entry plan and a published Plus price"
+    - "Agent Spark works inside ChatGPT, Claude and Copilot"
+    - "Canvas turns audience data into editable slides"
+  drawbacks:
+    - "Full data sets and crosstabs need quoted Pro seats"
+    - "Survey-based, so not a measure of delivered reach"
+    - "Advanced crosstab analysis has a learning curve"
+  alternatives:
+    - "mri-simmons"
+    - "tgi-fifty5blue"
+    - "resonate"
+lastChecked: 2026-11-18
 ---
 
 **GWI is a global consumer research platform that helps brands, agencies, and media planners understand audiences through survey-backed data, AI-assisted analysis, and self-serve planning tools.**
 
-GWI, formerly GlobalWebIndex, is used for audience profiling, media planning, campaign strategy, market research, brand tracking, and consumer trend analysis. Its database includes 250K+ profiling points and nearly 1.4 million annual consumer interviews across 50+ markets. In 2025 and 2026, GWI moved further into AI-assisted research with Agent Spark, GWI Canvas, a free self-service tier, and Model Context Protocol integrations that let LLMs query GWI data inside tools such as Claude, ChatGPT, and Microsoft Copilot.
+GWI, formerly GlobalWebIndex, is used for audience profiling, media planning, campaign strategy, market research, brand tracking, and consumer trend analysis. GWI says its data comes from 2M+ survey responses across 53 markets each year. In 2025 and 2026, GWI moved further into AI-assisted research with Agent Spark, GWI Canvas, a free self-service tier, and Model Context Protocol integrations that let LLMs query GWI data inside tools such as Claude, ChatGPT, and Microsoft Copilot.
 
 GWI holds a **4.4/5 rating on G2** from more than 170 public reviews. Reviewers tend to praise breadth of data, global comparability, and ease of building audience profiles. Common limitations are cost for full Pro access, learning curve for advanced crosstabs, and the fact that GWI is survey-based rather than passive measurement.
 
@@ -82,7 +99,7 @@ Useful Agent Spark workflows include:
 - Research starting points before building detailed crosstabs
 - Plain-language explanations for non-research stakeholders
 
-GWI's free tier includes limited monthly Agent Spark prompts, while paid plans expand access. Pro users can access Agent Spark in supported LLM environments through MCP integrations, making GWI data available inside existing AI workflows.
+GWI's free tier includes limited monthly Agent Spark prompts, while paid plans expand access. Plus, Teams and Pro users can use Agent Spark inside ChatGPT, Claude and Copilot at no extra cost. Since August 2026, Pro and Teams users get all GWI data sets there, while Free and Plus users get Core, Core Plus and Pulse.
 
 ### GWI Canvas: AI Presentation Builder
 
@@ -127,7 +144,7 @@ The MCP integration is especially relevant for 2026 because many marketing teams
 Integration capabilities include:
 
 - API access for enterprise data workflows
-- LLM access through MCP for supported Pro users
+- LLM access through MCP for Plus, Teams and Pro users, with data set access varying by plan
 - Agent Spark availability in AI environments
 - Connections that support AI-assisted research without web-scraped guesswork
 - Ability to blend GWI data with internal dashboards or planning systems
@@ -142,10 +159,10 @@ Global data is especially useful for questions like: does the same audience beha
 
 Data strengths include:
 
-- Nearly 1.4 million annual consumer interviews
+- 2M+ survey responses a year across 53 markets
 - 250K+ profiling points on the full platform
 - Quarterly updates for core datasets
-- 15+ years of trended data on advanced plans
+- 17 years of research across 53 markets
 - Harmonized variables for cross-market comparison
 - Category, brand, media, lifestyle, and technology coverage
 
@@ -158,7 +175,7 @@ GWI offers a freemium model with paid self-serve and custom enterprise tiers. Pu
 | Plan | Price | Agent Spark | Canvas | Data Access |
 |------|-------|-------------|--------|-------------|
 | **Free** | $0/month | Limited monthly prompts | Included | Limited GWI Core access |
-| **Plus** | $150/user/month or annual equivalent | Unlimited prompts | Export and save options | Expanded self-serve access |
+| **Plus** | $150/user/month billed monthly, or $125/user/month billed annually | Unlimited prompts | Export and save options | Core, Core Plus and Pulse data sets |
 | **Teams** | Custom pricing | Unlimited + team workflows | Team collaboration | Broader data and multi-user access |
 | **Pro** | Custom pricing | LLM/MCP access where supported | Full features | Full profiling points, crosstabs, and trended data |
 
@@ -241,15 +258,14 @@ Choose Scarborough for local market planning, retail catchment questions, local 
 
 Choose Resonate when activation and values-based targeting are central to the workflow. Choose GWI when the team needs global survey research, strategic audience profiling, market comparison, and planning decks. Resonate may feel closer to audience activation; GWI may feel stronger for research breadth and global planning.
 
-## Recent Updates (2025–2026)
+## Recent Updates (2026)
 
-- **February 2026:** GWI Canvas added individual slide export options, including PPTX and PNG formats.
-- **January 2026:** Agent Spark expanded into ChatGPT, Claude, and Microsoft Copilot through MCP for eligible Pro users.
-- **November 2025:** GWI announced MCP integration with Anthropic's Claude for real-time consumer insights inside AI chat.
-- **September 2025:** GWI announced Spark API activity and partnerships that extended AI insights into external workflows.
-- **May 2025:** GWI launched Canvas, an AI-powered presentation builder for turning consumer insights into decks.
-- **2025:** GWI introduced a free self-service tier with access to Agent Spark and Canvas.
-- **2025–2026:** GWI continued positioning itself around verified human survey data as a safer foundation for AI-assisted consumer research than open-web scraping.
+- **2026-Q1:** GWI Core added Gen Alpha respondents and stopped collecting data in Russia. ([source](https://help.globalwebindex.com/en/articles/11679923-gwi-core))
+- **2026-08-06:** All GWI data sets, across 53 markets, opened to Pro and Teams users in Agent Spark, MCP and API; saved audiences usable in ChatGPT, Claude and Copilot Studio. ([source](https://help.globalwebindex.com/en/articles/16233232-release-notes-august-2026))
+- **2026-06:** Released GWI Pulse, formerly Zeitgeist, a data set tracking what consumers are thinking and feeling. ([source](https://help.globalwebindex.com/en/articles/15362711-release-notes-june-2026))
+- **2026-04:** Dashboards can be shared as view-only or explore-only. ([source](https://help.globalwebindex.com/en/articles/14321474-release-notes-april-2026))
+- **2026-02-05:** Redesigned Agent Spark; Canvas slides exportable as PPTX or PNG; faster dashboards. ([source](https://help.globalwebindex.com/en/articles/13610199-release-notes-february-2026))
+- **2026-01-22:** Launched Agent Spark as an always-on insights agent in ChatGPT, Claude, Microsoft Copilot and the GWI platform. ([source](https://www.gwi.com/press-releases/gwi-launches-agent-spark))
 
 ## Frequently Asked Questions
 
@@ -287,7 +303,7 @@ Yes, export capabilities depend on plan. Paid plans support chart exports and Ca
 
 **How much does GWI cost for a team?**
 
-GWI Plus is publicly positioned around $150 per user per month or an annual equivalent for individual users. Team, Pro, and enterprise plans use custom pricing based on user count, data depth, features, and support requirements. Teams should confirm current pricing directly with GWI before buying.
+GWI Plus is listed at $150 per user per month billed monthly, or $125 per user per month billed annually. Team, Pro, and enterprise plans use custom pricing based on user count, data depth, features, and support requirements. Teams should confirm current pricing directly with GWI before buying.
 
 ## Why Choose GWI?
 
