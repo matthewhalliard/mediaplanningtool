@@ -3,6 +3,28 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "mediaplanningtool.com"
+        }
+      ],
+      "destination": "https://www.mediaplanningtool.com/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "mediaplanningtool.vercel.app"
+        }
+      ],
+      "destination": "https://www.mediaplanningtool.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
